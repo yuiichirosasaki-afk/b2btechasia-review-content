@@ -21,13 +21,13 @@ const SANS = "'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif"
 
 // Categories = B2B Tech Asia Expo 2027 zones (3 hubs x 4 zones). Keep in sync with taxonomy.json.
 const HUBS = [
-  { n: 'AI & Automation Hub', s: 'ai-automation-hub', no: 1, color: '#8E3B3F',
+  { n: 'AI & Automation Hub', s: 'ai-automation-hub', no: 1, color: '#8E3B3F', tint: '#F7EFEF', ink: '#5A2427',
     id: 'Keputusan teknis dan infrastruktur', en: 'Technical & infrastructure decisions', who: 'CTO, IT Director, Infrastructure Lead',
     zones: [['AI & Automation', 'ai-automation', 'AI'], ['Cloud & IT Infrastructure', 'cloud-it-infrastructure', 'Cloud'], ['Cybersecurity & Data Protection', 'cybersecurity-data-protection', 'Cybersecurity'], ['Enterprise Software & ERP', 'enterprise-software-erp', 'ERP']] },
-  { n: 'Growth & Revenue Hub', s: 'growth-revenue-hub', no: 2, color: '#2C4A68',
+  { n: 'Growth & Revenue Hub', s: 'growth-revenue-hub', no: 2, color: '#2C4A68', tint: '#EEF2F7', ink: '#1E3550',
     id: 'Akuisisi dan retensi pelanggan', en: 'Customer acquisition & retention', who: 'CMO, Head of Sales, Growth Lead',
     zones: [['Marketing Technology', 'marketing-technology', 'MarTech'], ['Sales & CRM', 'sales-crm', 'Sales & CRM'], ['Customer Engagement & CX', 'customer-engagement-cx', 'CX'], ['E-Commerce & Retail Tech', 'ecommerce-retail-tech', 'E-Commerce']] },
-  { n: 'Back Office & Operations Hub', s: 'back-office-operations-hub', no: 3, color: '#3E5A44',
+  { n: 'Back Office & Operations Hub', s: 'back-office-operations-hub', no: 3, color: '#3E5A44', tint: '#EEF3EF', ink: '#2C4231',
     id: 'Fungsi yang menjaga bisnis tetap berjalan', en: 'Functions that keep business running', who: 'CFO, HR Director, Operations Head',
     zones: [['FinTech & Financial Operations', 'fintech-financial-operations', 'FinTech'], ['HR Tech & Workforce Management', 'hr-tech-workforce', 'HR Tech'], ['Legal, Compliance & Governance Tech', 'legal-compliance-governance', 'Legal & Compliance'], ['Logistics & Supply Chain Tech', 'logistics-supply-chain', 'Logistics']] },
 ];
@@ -117,13 +117,11 @@ review-ui .rv-logo{font-family:${SERIF};font-weight:700;letter-spacing:-.5px;lin
 review-ui .rv-logo span{color:${RED}}
 review-ui .rv-nav{display:flex;flex-wrap:wrap;gap:0 28px;font-size:15px;font-weight:600}
 review-ui .rv-nav a{padding:12px 0;display:inline-block}
-review-ui .rv-nav a.rv-hublink{display:inline-flex;align-items:center;gap:8px}
-review-ui .rv-subnav{display:flex;align-items:center;gap:0;padding:0;border-bottom:1px solid ${LINE};font-size:14px;font-weight:500;overflow-x:auto;white-space:nowrap;scrollbar-width:none}
-review-ui .rv-subnav::-webkit-scrollbar{display:none}
-review-ui .rv-zgroup{display:inline-flex;align-items:center;gap:16px;padding:11px 16px;border-left:1px solid ${LINE}}
-review-ui .rv-zgroup:first-child{border-left:none;padding-left:0}
-review-ui .rv-zgroup-unused i{font-style:normal;flex:0 0 18px;width:18px;height:18px;border-radius:50%;color:#fff;font-size:10px;font-weight:700;display:inline-flex;align-items:center;justify-content:center}
-review-ui .rv-zgroup a:hover{color:${RED}!important}
+review-ui .rv-nav a.rv-hubtab{border-bottom:3px solid transparent;padding-bottom:9px}
+review-ui .rv-nav a.rv-hubtab.on,review-ui .rv-nav a.rv-hubtab:hover{border-bottom-color:var(--hub);color:var(--hub)!important}
+review-ui .rv-zrow{display:flex;align-items:center;gap:8px 26px;padding:10px 14px;font-size:14px;overflow-x:auto;white-space:nowrap;scrollbar-width:none}
+review-ui .rv-zrow::-webkit-scrollbar{display:none}
+review-ui .rv-zrow a:hover{text-decoration:underline;text-underline-offset:5px}
 review-ui .rv-kicker{font-size:12px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase}
 review-ui .rv-serif{font-family:${SERIF}}
 review-ui .rv-img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:${NAVY}}
@@ -198,6 +196,7 @@ class ReviewUi extends HTMLElement {
     else if (part === 'side') html = this.side(d, L);
     else if (part === 'bottom') html = this.related(d, L) + this.expoBand(d, L, true) + this.footer(d, L);
     this.innerHTML = html;
+    this.bindNav();
   }
 
   // Links to the same page in the other language. d.path is language-neutral (e.g. /review/slug).
@@ -218,19 +217,38 @@ ${this.langSwitch(d)}
 </div></div>`;
   }
 
-  // Main menu: Terbaru, the 3 hubs, Siaran Pers. The 12 zones are in the second row (subNav).
+  // Main menu (design option A): Terbaru, the 3 hubs as tabs, Siaran Pers.
+  // The active hub has an underline in its colour; hovering a hub shows its zones in the row below.
   navLinks(d, L, active) {
     const hub = hubOf(active);
     const link = (n, h, on, color) => `<a href="${h}" style="color:${on ? RED : color}">${esc(n)}</a>`;
-    // Each hub carries the same numbered colour badge as its zone group in the second row.
-    const hubs = HUBS.map((h) => `<a href="${L('/review?kategori=' + h.s)}" class="rv-hublink" style="color:${hub && hub.s === h.s ? RED : INK}">${this.hubBadge(h, 20)}${esc(h.n)}</a>`).join('');
+    const hubs = HUBS.map((h) => {
+      const on = !!hub && hub.s === h.s;
+      return `<a href="${L('/review?kategori=' + h.s)}" class="rv-hubtab${on ? ' on' : ''}" data-hub="${h.s}" style="--hub:${h.color};color:${on ? h.color : INK}">${esc(h.n)}</a>`;
+    }).join('');
     return link(T().latest, L('/review'), !active, INK) + hubs + link(T().pr, L('/review?kategori=siaran-pers'), active === 'siaran-pers', MUTED);
   }
 
-  // Second menu row: all 12 zones (short names), grouped by hub, on every page.
+  // Second row: the 4 zones of one hub, full names, on the hub's tint. Shows the current hub
+  // (or the first hub on the front page); the other hubs' rows are swapped in on hover.
   subNav(d, L) {
-    const h = hubOf(d.active);
-    return `<nav aria-label="Zones" class="rv-subnav">${HUBS.map((hb) => `<span class="rv-zgroup${h && h.s === hb.s ? ' on' : ''}"><a href="${L('/review?kategori=' + hb.s)}" aria-label="${esc(hb.n)}" title="${esc(hb.n)}" style="display:inline-flex">${this.hubBadge(hb, 18)}</a>${hb.zones.map(([n, s, sh]) => `<a href="${L('/review?kategori=' + s)}" title="${esc(n)}" style="color:${d.active === s ? RED : INK};${d.active === s ? 'font-weight:700' : ''}">${esc(sh || n)}</a>`).join('')}</span>`).join('')}</nav>`;
+    const cur = hubOf(d.active) || HUBS[0];
+    return `<div class="rv-zrows">${HUBS.map((h) => `<nav aria-label="${esc(h.n)}" class="rv-zrow" data-hub="${h.s}" style="background:${h.tint};color:${h.ink}${h === cur ? '' : ';display:none'}">
+<a href="${L('/review?kategori=' + h.s)}" style="color:${h.ink};${d.active === h.s ? 'font-weight:700;text-decoration:underline;text-underline-offset:5px' : 'font-weight:600'}">${esc(T().allZones)}</a>
+${h.zones.map(([n, s]) => `<a href="${L('/review?kategori=' + s)}" style="color:${h.ink};${d.active === s ? 'font-weight:700;text-decoration:underline;text-underline-offset:5px' : ''}">${esc(n)}</a>`).join('')}
+</nav>`).join('')}</div>`;
+  }
+
+  // Hover on a hub tab → show that hub's zones; leaving the menu → back to the current hub.
+  bindNav() {
+    this.querySelectorAll('header').forEach((hd) => {
+      const rows = [...hd.querySelectorAll('.rv-zrow')];
+      if (!rows.length) return;
+      const show = (slug) => rows.forEach((r) => { r.style.display = r.dataset.hub === slug ? 'flex' : 'none'; });
+      const home = (rows.find((r) => r.style.display !== 'none') || rows[0]).dataset.hub;
+      hd.querySelectorAll('.rv-hubtab').forEach((a) => a.addEventListener('mouseenter', () => show(a.dataset.hub)));
+      hd.addEventListener('mouseleave', () => show(home));
+    });
   }
 
   masthead(d, L) {
