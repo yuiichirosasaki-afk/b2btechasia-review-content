@@ -19,6 +19,12 @@ const HUBS = [
 // Old category slugs (before the zone structure) → zone slugs.
 const LEGACY_SLUG = { cybersecurity: 'cybersecurity-data-protection', 'ai-data': 'ai-automation', 'cloud-data-center': 'cloud-it-infrastructure', regulasi: 'legal-compliance-governance' };
 
+// English fields come from enJson (the `en` object in the feed); Indonesian is the fallback.
+function localize(a, lang) {
+  if (lang !== 'en' || !a.enJson) return a;
+  try { return Object.assign({}, a, JSON.parse(a.enJson)); } catch (e) { return a; }
+}
+
 function slim(raw, lang) {
   const a = localize(raw, lang);
   return {
