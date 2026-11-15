@@ -52,7 +52,7 @@ const TEXT = {
     prSub: 'Disediakan oleh perusahaan melalui VRITIMES, bukan konten redaksi', prAll: 'Lihat semua siaran pers →', via: 'via VRITIMES',
     byline: 'Redaksi B2B Tech Asia Review', minRead: 'menit baca', forWho: 'Untuk', writtenFor: 'Ditulis untuk', related: 'Berita Terkait',
     empty: 'Belum ada artikel di bagian ini.', expoLink: 'B2B Tech Asia Expo 2027 →', register: 'Daftar sebagai Pengunjung',
-    exhibitors: 'Lihat Exhibitor', proposal: 'Minta Proposal Exhibitor', expoDates: '14–15 Juli 2027', ad: 'Iklan', cta: 'Lihat Detail Acara', expoTagline: 'Ajang software B2B terbesar di Asia Tenggara',
+    exhibitors: 'Lihat Exhibitor', proposal: 'Minta Proposal Exhibitor', expoDates: '14–15 Juli 2027', ad: 'Iklan', cta: 'Lihat Detail Acara', dateLabel: 'Tanggal', venueLabel: 'Tempat', expoTagline: 'Ajang software B2B terbesar di Asia Tenggara',
     expoKicker: 'Pameran · Jakarta', expoDesc: 'Bertemu langsung dengan penyedia SaaS, AI, dan keamanan siber yang Anda baca di sini.',
     expoShort: 'Pameran SaaS, AI, dan keamanan siber untuk perusahaan di Indonesia.',
     sideTitle: (c) => `Temui penyedia ${c} di B2B Tech Asia Expo 2027`,
@@ -67,7 +67,7 @@ const TEXT = {
     prSub: 'Supplied by companies via VRITIMES (in Indonesian), not editorial content', prAll: 'All press releases →', via: 'via VRITIMES',
     byline: 'B2B Tech Asia Review editors', minRead: 'min read', forWho: 'For', writtenFor: 'Written for', related: 'Related',
     empty: 'No articles in this section yet.', expoLink: 'B2B Tech Asia Expo 2027 →', register: 'Register to Visit',
-    exhibitors: 'See Exhibitors', proposal: 'Request Exhibitor Proposal', expoDates: '14–15 July 2027', ad: 'Advertisement', cta: 'See Event Details', expoTagline: 'The Biggest Event for B2B Software only in Southeast Asia',
+    exhibitors: 'See Exhibitors', proposal: 'Request Exhibitor Proposal', expoDates: '14–15 July 2027', ad: 'Advertisement', cta: 'See Event Details', dateLabel: 'Date', venueLabel: 'Venue', expoTagline: 'The Biggest Event for B2B Software only in Southeast Asia',
     expoKicker: 'Exhibition · Jakarta', expoDesc: 'Meet the SaaS, AI and cybersecurity providers you read about here, in person.',
     expoShort: 'The SaaS, AI and cybersecurity exhibition for companies in Indonesia.',
     sideTitle: (c) => `Meet ${c} providers at B2B Tech Asia Expo 2027`,
@@ -86,6 +86,7 @@ const BN_STAGE = '80144b_72f1adf44dcb4f41bae4c154407b9f27~mv2.jpg';
 const BN_HALL = '80144b_ec554645915a4df1a596eaccf2e1fa72~mv2.jpg';
 const BN_MONAS = '80144b_731c79dc65bd49faa80d901d09f3646f~mv2.png';
 const BN_LOGO = 'https://static.wixstatic.com/media/80144b_bbe3ee75b8714275ab435868f7522989~mv2.jpeg/v1/crop/x_0,y_84,w_2048,h_1889/fill/w_56,h_52,al_c,q_85/b2bta-logo.jpeg';
+function bnMonas(w, h) { return `https://static.wixstatic.com/media/${BN_MONAS}/v1/crop/x_0,y_250,w_937,h_620/fill/w_${w},h_${h},al_c,q_85,enc_auto/jakarta-sunrise.jpg`; }
 function bnImg(id, w, h) { return `https://static.wixstatic.com/media/${id}/v1/fill/w_${w},h_${h},al_c,q_80,enc_auto/b2bta.jpg`; }
 
 function esc(s) {
@@ -153,6 +154,25 @@ review-ui .bn-photo{position:relative;display:block;flex:0 0 auto;height:0;paddi
 review-ui .bn-pill{position:absolute;left:14px;bottom:12px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;background:${BN_INDIGO};color:#fff;padding:5px 10px;border-radius:999px}
 review-ui .bn-body{display:flex;flex-direction:column;gap:10px;padding:18px 20px 22px}
 review-ui .bn-rect .bn-cta{align-self:flex-start;margin-top:4px}
+review-ui .tk{display:flex;min-height:170px;text-decoration:none;color:${BN_NAVY};font-family:'Montserrat',${SANS};filter:drop-shadow(0 2px 6px rgba(18,26,58,.14))}
+review-ui a.tk:hover{color:${BN_NAVY};filter:drop-shadow(0 4px 12px rgba(18,26,58,.22))}
+review-ui .tk-stub{position:relative;flex:0 0 34%;border-radius:10px 0 0 10px;background-size:cover;background-position:62% 55%;background-color:#F2C48D;display:block}
+review-ui .tk-tag{position:absolute;left:14px;top:12px;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#fff;background:rgba(18,26,58,.55);padding:4px 8px;border-radius:4px}
+review-ui .tk-body{flex:1 1 auto;display:flex;flex-wrap:wrap;gap:16px 24px;align-items:center;justify-content:space-between;background:#FFF8EF;border-radius:0 10px 10px 0;padding:20px 28px;border-left:2px dashed #E3B98A;min-width:0}
+review-ui .tk-label{font-size:11px;font-weight:700;letter-spacing:1.6px;text-transform:uppercase;color:#C0651A}
+review-ui .tk-title{font-size:28px;font-weight:800;line-height:1.15;color:${BN_NAVY}}
+review-ui .tk-rows{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;font-size:14px;margin-top:2px}
+review-ui .tk-k{color:#8A94A3;font-weight:600}
+review-ui .tk-v{font-weight:700;color:${BN_NAVY}}
+review-ui .tk-cta{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 24px;background:${BN_NAVY};color:#fff!important;font-weight:700;font-size:15px;border-radius:999px;white-space:nowrap;font-family:'Montserrat',${SANS}}
+review-ui .tk-cta-ghost{background:transparent;color:${BN_NAVY}!important;border:2px solid ${BN_NAVY}}
+review-ui .tk-vert{flex-direction:column}
+review-ui .tk-vert .tk-stub{flex:0 0 auto;height:0;padding-top:52%;border-radius:10px 10px 0 0}
+review-ui .tk-vert .tk-body{flex-direction:column;align-items:stretch;gap:8px;border-left:none;border-top:2px dashed #E3B98A;border-radius:0 0 10px 10px;padding:18px 20px 22px}
+review-ui .tk-band{min-height:300px}
+review-ui .tk-band .tk-stub{flex:0 0 38%}
+review-ui .tk-band .tk-body{padding:32px 36px}
+@media (max-width:760px){review-ui .tk{flex-direction:column}review-ui .tk .tk-stub{flex:0 0 auto;height:0;padding-top:42%;border-radius:10px 10px 0 0}review-ui .tk .tk-body{border-left:none;border-top:2px dashed #E3B98A;border-radius:0 0 10px 10px;padding:18px 20px}review-ui .tk-title{font-size:22px!important}}
 @media (max-width:760px){review-ui .bn-title{font-size:22px!important}review-ui .bn-band{padding:28px 22px}review-ui .bn-leader,review-ui .bn-vendor{padding:20px}}
 @media (max-width:760px){
  review-ui .rv-lead-title{font-size:32px!important}
@@ -282,19 +302,26 @@ ${this.subNav(d, L)}
     return `<span class="bn-logo${dark ? ' bn-logo-dark' : ''}"><img src="${BN_LOGO}" alt="" width="28" height="26">B2B TECH ASIA</span>`;
   }
 
-  // Leaderboard: under the masthead / category nav on every page. Visitors → Expo top page (event details).
+  // Ticket rows: date and venue (design C).
+  ticketRows() {
+    const t = T();
+    return `<span class="tk-rows"><span class="tk-k">${t.dateLabel}</span><span class="tk-v">${t.expoDates}</span><span class="tk-k">${t.venueLabel}</span><span class="tk-v">${VENUE}</span></span>`;
+  }
+
+  // Leaderboard (design C, ticket): sunrise photo stub + perforation + date/venue. → Expo top page.
   leader(d, L, top, inGrid) {
     const t = T();
     return `<div ${inGrid ? 'style="grid-column:1/-1"' : `class="rv-wrap" style="margin-top:${top == null ? 24 : top}px"`}><span class="rv-adlabel">${t.ad}</span>
-<a class="bn bn-leader" href="${L('/')}" aria-label="B2B Tech Asia 2027 — ${esc(t.cta)}" style="background-image:linear-gradient(90deg,${BN_NAVY} 0%,rgba(18,26,58,.92) 38%,rgba(18,26,58,.55) 64%,rgba(18,26,58,.15) 100%),url('${bnImg(BN_STAGE, 1400, 360)}')">
-${this.logoChip()}
-<span class="bn-col">
-<span class="bn-date">${t.expoDates} · Jakarta</span>
-<span class="bn-title">B2B TECH ASIA 2027</span>
-<span class="bn-sub">${t.expoTagline}</span>
+<a class="tk" href="${L('/')}" aria-label="B2B Tech Asia 2027 — ${esc(t.cta)}">
+<span class="tk-stub" style="background-image:url('${bnMonas(760, 380)}')"><span class="tk-tag">Jakarta · 2027</span></span>
+<span class="tk-body">
+<span class="bn-col" style="gap:6px">
+<span class="tk-label">${t.expoTagline}</span>
+<span class="tk-title">B2B TECH ASIA 2027</span>
+${this.ticketRows()}
 </span>
-<span class="bn-cta">${t.cta} →</span>
-</a></div>`;
+<span class="tk-cta">${t.cta} →</span>
+</span></a></div>`;
   }
 
   // Exhibitor banner (wide): vendors → proposal request form.
@@ -326,14 +353,13 @@ ${this.logoChip()}
 </span></a></div>`;
     }
     return `<div style="margin-top:24px"><span class="rv-adlabel">${t.ad}</span>
-<a class="bn bn-rect" href="${L('/')}" style="background:${BN_NAVY}">
-<span class="bn-photo" style="background-image:linear-gradient(180deg,rgba(18,26,58,0) 45%,rgba(18,26,58,.95) 100%),url('${bnImg(BN_MONAS, 640, 400)}')"><span class="bn-pill">${t.expoDates}</span></span>
-<span class="bn-body">
-${this.logoChip()}
-<span class="bn-title" style="font-size:24px">B2B TECH ASIA 2027</span>
-<span class="bn-sub">${t.expoTagline}</span>
-<span class="bn-sub" style="opacity:.8">${VENUE}</span>
-<span class="bn-cta">${t.cta} →</span>
+<a class="tk tk-vert" href="${L('/')}">
+<span class="tk-stub" style="background-image:url('${bnMonas(640, 360)}')"><span class="tk-tag">Jakarta · 2027</span></span>
+<span class="tk-body">
+<span class="tk-label">${t.expoTagline}</span>
+<span class="tk-title" style="font-size:22px">B2B TECH ASIA 2027</span>
+${this.ticketRows()}
+<span class="tk-cta" style="align-self:flex-start;margin-top:4px">${t.cta} →</span>
 </span></a></div>`;
   }
 
@@ -534,22 +560,25 @@ ${rel.map((r) => `<a href="${L('/review/' + r.slug)}" class="rv-serif" style="di
     return out.join('');
   }
 
-  // Big Expo band above the footer: main-stage photo, logo, both calls to action.
+  // Big ticket above the footer (design C): details + exhibitors.
   expoBand(d, L, standalone) {
     const t = T();
     return `<div class="rv-wrap" style="margin-top:${standalone ? 32 : 64}px">
-<section class="bn bn-band" aria-label="B2B Tech Asia 2027" style="background-image:linear-gradient(90deg,rgba(18,26,58,.97) 0%,rgba(18,26,58,.88) 50%,rgba(18,26,58,.45) 100%),url('${bnImg(BN_STAGE, 1600, 640)}')">
-<span class="bn-col" style="flex:1 1 460px;gap:12px">
+<section class="tk tk-band" aria-label="B2B Tech Asia 2027">
+<a class="tk-stub" href="${L('/')}" style="background-image:url('${bnMonas(900, 600)}')"><span class="tk-tag">Jakarta · 2027</span></a>
+<span class="tk-body">
+<span class="bn-col" style="gap:10px;flex:1 1 380px">
 ${this.logoChip()}
-<span class="bn-date">${t.expoDates} · ${VENUE}</span>
-<span class="bn-title" style="font-size:40px">B2B TECH ASIA 2027</span>
-<span class="bn-sub" style="font-size:17px;max-width:560px">${t.expoTagline}. ${t.expoDesc}</span>
+<span class="tk-label">${t.expoTagline}</span>
+<span class="tk-title" style="font-size:34px">B2B TECH ASIA 2027</span>
+${this.ticketRows()}
+<span style="font-size:15px;line-height:1.55;color:#4A5361;max-width:520px">${t.expoDesc}</span>
 </span>
-<span style="display:flex;flex-wrap:wrap;gap:12px">
-<a href="${L('/')}" class="bn-cta">${t.cta} →</a>
-<a href="${L(d.exhibitorPath || '/copy-of-agenda-2027')}" class="bn-cta bn-cta-ghost">${t.exhibitors}</a>
+<span style="display:flex;flex-direction:column;gap:10px">
+<a href="${L('/')}" class="tk-cta">${t.cta} →</a>
+<a href="${L(d.exhibitorPath || '/copy-of-agenda-2027')}" class="tk-cta tk-cta-ghost">${t.exhibitors}</a>
 </span>
-</section></div>`;
+</span></section></div>`;
   }
 
   footer(d, L) {
