@@ -38,12 +38,12 @@ $w.onReady(function () {
   if (!item) return;
 
   const parts = [];
-  parts.push(`<p style="font-size:13px; letter-spacing:0.08em"><span style="color:${ACCENT}"><a href="/id/review">B2B TECH ASIA REVIEW</a> · SIARAN PERS</span></p>`);
+  parts.push(`<p style="font-size:13px; letter-spacing:0.08em"><span style="color:${ACCENT}"><a href="/review">B2B TECH ASIA REVIEW</a> · SIARAN PERS</span></p>`);
   parts.push(`<h1 style="font-size:34px; line-height:1.25"><span style="color:#14181F">${esc(item.title)}</span></h1>`);
   parts.push(`<p style="font-size:14px"><span style="color:${MUTED}">Siaran pers · ${esc(fmtDate(item.publishedDate))} · Sumber: VRITIMES</span></p>`);
   parts.push(clean(item.bodyHtml || `<p>${esc(item.excerpt)}</p>`));
   parts.push(`<p style="font-size:14px"><span style="color:${MUTED}">Konten ini adalah siaran pers dari perusahaan terkait dan didistribusikan melalui VRITIMES. Redaksi B2B Tech Asia Review tidak mengubah isinya. </span><span style="color:${ACCENT}"><a href="${esc(item.sourceUrl)}" target="_blank" rel="noopener">Baca versi asli di VRITIMES</a></span></p>`);
-  parts.push(`<p style="font-size:16px"><span style="color:${ACCENT}"><a href="/id/review">← Kembali ke B2B Tech Asia Review</a></span></p>`);
+  parts.push(`<p style="font-size:16px"><span style="color:${ACCENT}"><a href="/review">← Kembali ke B2B Tech Asia Review</a></span></p>`);
   $w('#text747').html = parts.join('');
 
   const desc = String(item.excerpt || '').slice(0, 155);

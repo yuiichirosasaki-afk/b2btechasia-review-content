@@ -41,6 +41,7 @@ $w.onReady(async function () {
   if (!item) return;
 
   const parts = [];
+  parts.push(`<p style="font-size:12px; letter-spacing:0.1em"><a href="/review"><span style="color:${GREY}">B2B TECH ASIA REVIEW</span></a></p>`);
   parts.push(`<p style="font-size:13px"><span style="color:${RED}"><strong>${esc(item.category).toUpperCase()}</strong></span><span style="color:${GREY}"> · ${TYPE_LABEL[item.articleType] || 'Berita'}</span></p>`);
   parts.push(`<h1 style="font-size:38px; line-height:1.15"><span style="color:${INK}">${esc(item.title)}</span></h1>`);
   parts.push(`<p style="font-size:20px; line-height:1.5"><span style="color:#333B47">${esc(item.dek)}</span></p>`);
@@ -69,6 +70,7 @@ $w.onReady(async function () {
   parts.push(ink(item.sourcesHtml));
   parts.push(`<p style="font-size:13px"><span style="color:${GREY}">Kutipan digunakan secara terbatas dengan menyebut sumber. Hak cipta kutipan tetap milik media masing-masing. Analisis adalah pandangan redaksi B2B Tech Asia Review, yang diterbitkan oleh B2B Tech Asia Expo.</span></p>`);
   parts.push('<p><br></p>');
+  parts.push(`<p style="font-size:16px"><a href="/review"><span style="color:${NAVY}">← Artikel lainnya di B2B Tech Asia Review</span></a></p>`);
   parts.push(`<p style="font-size:18px"><span style="color:${NAVY}"><strong>B2B Tech Asia Expo 2027 · 14–15 Juli 2027 · The Ritz-Carlton Jakarta, Pacific Place</strong></span></p>`);
   parts.push(`<p style="font-size:16px"><span style="color:#1F2630">Temui penyedia SaaS, AI, dan keamanan siber yang dibahas di sini. </span><a href="https://www.b2btechasia.com/" target="_self"><span style="color:#0B2A4A"><u>Lihat informasi pameran</u></span></a></p>`);
 

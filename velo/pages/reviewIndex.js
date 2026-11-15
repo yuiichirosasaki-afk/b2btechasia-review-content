@@ -34,11 +34,11 @@ function articleBlock(a, lead) {
   const out = [];
   out.push(p(meta, 12, ACCENT, 'letter-spacing:0.08em'));
   if (lead) {
-    out.push(`<h2 style="font-size:32px; line-height:1.25">${link('/id/review/' + a.slug, esc(a.title))}</h2>`);
+    out.push(`<h2 style="font-size:32px; line-height:1.25">${link('/review/' + a.slug, esc(a.title))}</h2>`);
     if (a.dataFigure) out.push(p(`<strong>${esc(a.dataFigure)}</strong> — ${esc(a.dataLabel || '')}`, 18, HEAD));
     out.push(p(esc(a.dek), 18, INK));
   } else {
-    out.push(`<h3 style="font-size:22px; line-height:1.3">${link('/id/review/' + a.slug, esc(a.title))}</h3>`);
+    out.push(`<h3 style="font-size:22px; line-height:1.3">${link('/review/' + a.slug, esc(a.title))}</h3>`);
     out.push(p(esc(a.dek), 16, INK));
   }
   out.push(p('&nbsp;', 8, INK));
@@ -71,7 +71,7 @@ $w.onReady(async function () {
   if (pr.items.length) {
     html.push(`<h2 style="font-size:24px"><span style="color:${HEAD}">Siaran Pers</span></h2>`);
     html.push(p('Siaran pers dari perusahaan, didistribusikan melalui VRITIMES.', 14, MUTED));
-    const lis = pr.items.map((x) => `<li style="font-size:16px; line-height:1.5"><span style="color:${INK}">${link('/id/siaran-pers/' + x.slug, esc(x.title), HEAD)} <span style="color:${MUTED}">· ${esc(fmtDate(x.publishedDate))}</span></span></li>`);
+    const lis = pr.items.map((x) => `<li style="font-size:16px; line-height:1.5"><span style="color:${INK}">${link('/siaran-pers/' + x.slug, esc(x.title), HEAD)} <span style="color:${MUTED}">· ${esc(fmtDate(x.publishedDate))}</span></span></li>`);
     html.push(`<ul>${lis.join('')}</ul>`);
   }
 
