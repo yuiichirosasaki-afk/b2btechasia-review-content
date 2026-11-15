@@ -92,7 +92,7 @@ class ReviewUi extends HTMLElement {
     const base = d.base || '';
     const L = (path) => base + path;
     let html = '';
-    if (part === 'front') html = this.front(d, L);
+    if (part === 'front') html = d.view === 'list' ? this.list(d, L) : this.front(d, L);
     else if (part === 'top') html = this.topbar(d, L) + this.compactHeader(d, L);
     else if (part === 'side') html = this.side(d, L);
     else if (part === 'bottom') html = this.expoBand(d, L, true) + this.footer(d, L);
@@ -217,6 +217,37 @@ ${r.imageUrl ? `<img class="rv-img" src="${esc(r.imageUrl)}" alt="" loading="laz
 </div></section>`);
     }
 
+    out.push(`</main>`);
+    out.push(this.expoBand(d, L, false));
+    out.push(this.footer(d, L));
+    return out.join('');
+  }
+
+  list(d, L) {
+    const arts = d.articles || [];
+    const pr = d.releases || [];
+    const out = [this.topbar(d, L), this.masthead(d, L), `<main class="rv-wrap" style="padding-top:32px">`];
+    out.push(`<div class="rv-sechead" style="border-top:none;padding-top:0"><h1 class="rv-serif" style="margin:0;font-size:40px;font-weight:700;color:${NAVY}">${esc(d.heading || '')}</h1>
+${d.intro ? `<span style="font-size:14px;color:${MUTED}">${esc(d.intro)}</span>` : ''}</div>`);
+    if (arts.length) {
+      out.push(`<div class="rv-grid" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr));margin-top:28px;gap:40px 32px">
+${arts.map((a) => `<a href="${L('/review/' + a.slug)}" style="display:flex;flex-direction:column;gap:10px">
+${this.heroImage(a, L)}
+<span class="rv-kicker" style="font-size:11px;color:${RED};margin-top:4px">${esc(a.category)} · ${esc(TYPE_LABEL[a.articleType] || 'Analisis')}</span>
+<span class="rv-serif" style="font-size:22px;line-height:1.25;font-weight:700">${esc(a.title)}</span>
+<span style="font-size:15px;line-height:1.55;color:${MUTED}">${esc(a.dek)}</span>
+<span style="font-size:13px;color:${SUB}">${esc(date(a.publishAt))}</span></a>`).join('')}
+</div>`);
+    } else if (pr.length) {
+      out.push(`<div class="rv-grid" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:36px 28px;margin-top:28px">
+${pr.map((r) => `<a href="${L('/siaran-pers/' + r.slug)}" style="display:flex;flex-direction:column;gap:10px">
+${r.imageUrl ? `<img class="rv-img" src="${esc(r.imageUrl)}" alt="" loading="lazy" style="background:${PANEL}">` : `<div class="rv-ph">Siaran Pers</div>`}
+<span class="rv-serif" style="font-size:18px;line-height:1.35;font-weight:600">${esc(r.title)}</span>
+<span style="font-size:13px;color:${SUB}">${esc(date(r.publishedDate))} · via VRITIMES</span></a>`).join('')}
+</div>`);
+    } else {
+      out.push(`<p style="margin-top:28px;font-size:17px;color:${MUTED}">Belum ada artikel di bagian ini.</p>`);
+    }
     out.push(`</main>`);
     out.push(this.expoBand(d, L, false));
     out.push(this.footer(d, L));
