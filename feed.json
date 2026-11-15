@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T17:04:28+07:00",
+  "generatedAt": "2026-11-15T17:48:48+07:00",
   "site": "B2B Tech Asia Review",
   "articles": [
     {
@@ -65,7 +65,40 @@
           }
         ]
       },
-      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pendanaan-startup-teknologi-indonesia-9m-2026-tracxn.png"
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pendanaan-startup-teknologi-indonesia-9m-2026-tracxn.png",
+      "en": {
+        "title": "Indonesian Tech Funding Up 111%, but One Deal Accounts for 74%",
+        "dek": "A Tracxn report puts funding for Indonesian tech companies at US$365 million in January–September 2026. Almost all of the increase came from Ajaib's Series C round. Beneath the surface, the number of rounds, investors and early-stage funding shrank sharply.",
+        "dataFigure": "74%",
+        "dataLabel": "Ajaib's share of total Indonesian tech funding, January–September 2026",
+        "dataSource": "Tracxn, Indonesia Tech – 9M 2026, via Katadata",
+        "seoTitle": "Indonesia Startup Funding 9M 2026 Up 111% on Ajaib",
+        "seoDescription": "Tracxn: Indonesian tech funding rose 111% to US$365 million, but 74% came from Ajaib. Seed fell 92%. What it means for B2B buyers and vendors.",
+        "summaryHtml": "<ul><li>According to Tracxn's report &ldquo;Indonesia Tech &ndash; 9M 2026&rdquo;, total funding for Indonesian tech companies reached US$365 million, up 111% from US$173 million in the same period of 2025. The number of rounds fell 56% to 14. (Katadata)</li><li>Ajaib raised US$270 million in a Series C round in August 2026 with SBI Group, equal to about 74% of nine-month funding. Waresix raised US$27 million (Series B) and Green Rebel US$13 million (Series A). (Katadata)</li><li>Late-stage funding reached US$280 million, or 77% of the total. Early-stage funding fell 16% to US$83 million, and seed funding plunged 92% to US$2 million from just 4 rounds. (Katadata)</li><li>Active investors fell to 27: 20 foreign and 7 domestic. There were no tech IPOs and only one acquisition, NOBI by Bybit. (Katadata)</li><li>Across Southeast Asia, tech funding rose 176% to US$13.5 billion while the number of rounds fell 28% to 189. The increase was also concentrated in a few large deals. (TechNode Global)</li></ul>",
+        "analysisHtml": "<h3>Without Ajaib, funding actually fell</h3><p>Excluding the Ajaib round, Indonesian tech funding in the first nine months of 2026 was only about US$95 million, roughly 45% lower than last year's US$173 million (our calculation). The headline &ldquo;up 111%&rdquo; describes one large deal, not a broad market recovery.</p><h3>Seed has nearly vanished, and the B2B startup pipeline is thinning</h3><p>Seed rounds fell from 23 to 4. Far fewer new software companies were born with venture capital this year. For buyers, there will be fewer new local vendors to choose from. For existing vendors, competition from newcomers falls, but access to capital for expansion is also harder.</p><h3>Foreign capital dominates</h3><p>With 20 of the 27 investors from abroad, the direction of funding depends heavily on regional and global investor appetite. The same Southeast Asian pattern, with values up but deal counts down, shows investors picking a few companies they consider strongest.</p>",
+        "actionHtml": "<h3>For companies buying from startups</h3><ol><li>Add vendor financial health checks, including remaining runway and funding sources, to procurement.</li><li>Make sure contracts include data export rights and a service continuity plan in case the vendor shuts down.</li><li>Consider longer contracts with healthy vendors as leverage on price.</li></ol><h3>For startups and B2B solution providers</h3><p>With early-stage funding thinning, revenue from enterprise contracts is the most realistic source of growth. Case studies with corporate customers and a compliance track record will be more convincing to investors and buyers alike.</p>",
+        "faqHtml": "<h3>Why did funding rise while the number of deals fell?</h3><p>Because one large round, Ajaib's US$270 million Series C, accounted for about 74% of total funding in the first nine months of 2026.</p>",
+        "chart": {
+          "bars": [
+            {
+              "label": "9M 2025",
+              "value": 173,
+              "display": "US$173M"
+            },
+            {
+              "label": "9M 2026",
+              "value": 365,
+              "display": "US$365M"
+            }
+          ]
+        },
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pendanaan-startup-teknologi-indonesia-9m-2026-tracxn-en.png",
+        "audience": [
+          "Procurement",
+          "B2B founders",
+          "Investors"
+        ]
+      }
     },
     {
       "slug": "perpres-ai-etika-peta-jalan-yang-perlu-disiapkan-perusahaan",
@@ -128,7 +161,26 @@
       "seoDescription": "Perpres Etika AI dan Peta Jalan AI tinggal menunggu tanda tangan. Ini kategori risiko, kewajiban label, dan langkah persiapan bagi perusahaan.",
       "publishAt": "2026-11-15T14:30:00+07:00",
       "language": "id",
-      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/perpres-ai-etika-peta-jalan-yang-perlu-disiapkan-perusahaan.png"
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/perpres-ai-etika-peta-jalan-yang-perlu-disiapkan-perusahaan.png",
+      "en": {
+        "title": "Indonesia's AI Regulations Await a Signature: 5 Things Companies Should Prepare Now",
+        "dek": "Two draft Presidential Regulations on AI, the 2026–2029 National AI Roadmap and AI Ethics, have completed inter-ministerial review. Companies that use AI for personal data, public services or high-impact decisions should prepare before the technical rules are issued.",
+        "dataFigure": "3",
+        "dataLabel": "AI risk categories in the draft AI Ethics regulation: low, high, unacceptable",
+        "dataSource": "Draft Presidential Regulation on AI Ethics, as reported by Katadata, August 2026",
+        "seoTitle": "Indonesia AI Regulation: 5 Things Companies Should Prepare",
+        "seoDescription": "Indonesia's AI Ethics and AI Roadmap regulations await the President's signature. Risk categories, labeling duties and how companies should prepare.",
+        "summaryHtml": "<ul><li>Komdigi and ministries across sectors completed review of the draft Presidential Regulation on Artificial Intelligence Ethics and the draft Presidential Regulation on the 2026&ndash;2029 National AI Roadmap on 5 May 2026. (JDIH Komdigi)</li><li>On 3 September 2026, Edwin Hidayat Abdullah, Komdigi's Director General of Digital Ecosystem, said both regulations were awaiting the President's signature. As of 15 November 2026, we have found no report that either has been signed. (Selular.ID)</li><li>Minister Meutya Hafid said Komdigi is preparing the umbrella rules, while technical rules will be drafted by each sector. The roadmap covers 10 priority sectors, including health, education, and economy and finance. (detikInet)</li><li>The draft AI Ethics regulation divides AI risk into three categories: low, high and unacceptable. High-risk systems must undergo risk assessment from the design stage, and AI-generated content is planned to require labels. (Katadata)</li><li>Komdigi kept a provision requiring every type of AI operational incident to be reported, regardless of risk level. (Bisnis.com)</li></ul>",
+        "analysisHtml": "<h3>Who is most affected</h3><p>According to the reported draft, high-risk systems are AI that uses certain personal data or has a major impact on human rights, safety and essential public services. This category is likely to cover credit scoring, recruitment, health services and identity verification. Companies in financial services, health and telecommunications should pay attention first.</p><h3>Incident reporting duties are easy to miss</h3><p>Many companies have procedures for cybersecurity incidents but none for AI incidents, such as a chatbot giving wrong information or a model rejecting customers unreasonably. If every AI operational incident must be reported, companies need to define what counts as an incident and who is responsible for reporting it.</p><h3>Sector rules will set the details</h3><p>The Presidential Regulations are only an umbrella. Technical details and sanctions will come from sector regulators, such as OJK for financial services, and from Komdigi ministerial regulations on content labeling. Companies that wait for sector rules before acting will have little time to prepare.</p>",
+        "actionHtml": "<h3>5 things companies should prepare</h3><ol><li><strong>Inventory AI systems</strong> and classify each as low, high or unacceptable risk.</li><li><strong>Risk assessment by design</strong> for systems that use personal data or affect important decisions about people.</li><li><strong>Labels and transparency</strong>: prepare ways to tell users they are interacting with AI and to mark AI-generated content.</li><li><strong>AI incident procedures</strong>: an incident definition, an escalation path and an owner for reporting.</li><li><strong>Sector regulation monitoring</strong>: name one owner to track implementing rules from Komdigi and your sector regulator.</li></ol><h3>For solution providers</h3><p>Compliance features such as audit logs, explanations of model decisions and automatic labeling will become requirements in enterprise procurement once the regulations take effect.</p>",
+        "faqHtml": "<h3>Are Indonesia's AI regulations in force?</h3><p>As of 15 November 2026, we have found no report that either regulation has been signed. Komdigi said both are awaiting the President's signature.</p><h3>Are there sanctions?</h3><p>Planned sanctions for violations of AI content labeling will be set out in a separate ministerial regulation. The details have not been published.</p>",
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/perpres-ai-etika-peta-jalan-yang-perlu-disiapkan-perusahaan-en.png",
+        "audience": [
+          "Board of directors",
+          "Legal and compliance",
+          "CIO / CDO"
+        ]
+      }
     },
     {
       "slug": "bank-indonesia-adopsi-ai-tata-kelola-4-persen",
@@ -194,7 +246,40 @@
           }
         ]
       },
-      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bank-indonesia-adopsi-ai-tata-kelola-4-persen.png"
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bank-indonesia-adopsi-ai-tata-kelola-4-persen.png",
+      "en": {
+        "title": "88% of Banks Have Tried AI, Only 4% Have Formal Governance: The Gap Bank Indonesia Flags",
+        "dek": "An IBM and Perbanas study found that almost every bank in Indonesia has tried AI, but only 4% have formally built it into corporate governance. Bank Indonesia warns of risks missing from older risk manuals, including AI agents behaving in lockstep.",
+        "dataFigure": "4%",
+        "dataLabel": "of banks in Indonesia have formally integrated AI into corporate governance",
+        "dataSource": "IBM and Perbanas study, October 2026",
+        "seoTitle": "88% of Indonesian Banks Try AI, Only 4% Have Governance",
+        "seoDescription": "IBM-Perbanas study: almost every Indonesian bank has tried AI, but governance lags. Bank Indonesia flags deepfake and herding risks.",
+        "summaryHtml": "<ul><li>An IBM and Perbanas study shows 88% of banks in Indonesia have tried AI technology, while 12% have not started. Only 4% have formally integrated AI into corporate governance. (Indonesia Business Post)</li><li>The findings were released with the white paper &ldquo;Digital Sovereign AI and the Future of Trusted Banking&rdquo; by IBM, Perbanas and Kiantara &amp; Associates on 27 October 2026. (Indonesia Business Post)</li><li>Juvanus Tjandra, Managing Partner of IBM Consulting Indonesia, said AI adoption in the industry is still fragmented and many banks lack a centralized architecture. Use is concentrated in customer service, such as chatbots. (Indonesia Business Post)</li><li>Ricky Satria of Bank Indonesia warned of fraud using synthetic voices and faces, and of attacks that now unfold within hours rather than weeks. (Katadata)</li><li>Bank Indonesia also highlighted herding risk: many AI agents using the same models and cloud providers can give similar recommendations at the same time. It urged banks to keep full control over the AI they use. (Katadata)</li></ul>",
+        "analysisHtml": "<h3>AI came in through the front door; governance is trailing behind</h3><p>The gap between 88% and 4% shows a common pattern: AI is first used in chatbots and customer service because results show quickly. Governance is considered only after use has spread. In banking this order is risky, because AI models that touch customer data and credit decisions are under strict supervision.</p><h3>Herding is a new risk missing from older risk manuals</h3><p>Traditional risk management assesses one model at one bank. Herding risk comes from many banks using the same models and data sources. If the model is wrong, the error happens everywhere at once. Provider diversity and the ability to switch off AI agents quickly are therefore likely to become part of supervision.</p><h3>Sovereign AI will change how banks buy technology</h3><p>Bank Indonesia's push for banks to keep full control over AI points to a preference for models that can run on their own or domestic infrastructure. BNI, for example, has already developed on-premise generative AI based on open-source models with Cloudera. Vendors that only offer services from abroad will face more questions in procurement.</p>",
+        "actionHtml": "<h3>For banks and financial services firms</h3><ol><li>List every AI system in use, including those bought separately by business units.</li><li>Bring AI models into the model risk management framework, with owners, testing and monitoring.</li><li>Limit AI agents' access to customer data and transactions, and prepare a kill switch to stop them.</li><li>Review dependence on a single model or cloud provider.</li></ol><h3>For solution providers</h3><p>The biggest needs are AI governance tools, model monitoring, deepfake detection for customer verification, and deploying AI on local infrastructure that meets data sovereignty requirements.</p>",
+        "faqHtml": "<h3>What is herding risk in AI?</h3><p>The risk that many AI systems using the same models and data make similar decisions at the same time. Under market stress, this can amplify shocks.</p>",
+        "chart": {
+          "bars": [
+            {
+              "label": "Tried AI",
+              "value": 88,
+              "display": "88%"
+            },
+            {
+              "label": "Governance",
+              "value": 4,
+              "display": "4%"
+            }
+          ]
+        },
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bank-indonesia-adopsi-ai-tata-kelola-4-persen-en.png",
+        "audience": [
+          "Bank directors",
+          "CRO / Risk management",
+          "AI and security vendors"
+        ]
+      }
     },
     {
       "slug": "biaya-token-ai-perusahaan-indonesia-cloudera-2026",
@@ -239,7 +324,26 @@
       "seoDescription": "Survei Cloudera: biaya token memaksa perusahaan merancang ulang AI, sementara investasi AI di Indonesia terus naik. Ini langkah yang perlu diambil.",
       "publishAt": "2026-11-15T11:30:00+07:00",
       "language": "id",
-      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/biaya-token-ai-perusahaan-indonesia-cloudera-2026.png"
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/biaya-token-ai-perusahaan-indonesia-cloudera-2026.png",
+      "en": {
+        "title": "Token Costs Soar, 89% of Companies Redesign AI: What It Means for Indonesian Enterprises",
+        "dek": "A Cloudera survey of 1,500 IT leaders found that 89% of companies are limiting or redesigning AI use cases as token consumption rises. In Indonesia, AI investment keeps climbing. The question is shifting from whether to use AI to what each result costs.",
+        "dataFigure": "89%",
+        "dataLabel": "of companies limit or redesign AI use cases as token consumption rises",
+        "dataSource": "Cloudera, The State of Enterprise AI 2026 (survey of 1,500 IT leaders)",
+        "seoTitle": "89% of Firms Redesign AI as Token Costs Soar",
+        "seoDescription": "Cloudera survey: token costs force companies to redesign AI, while AI investment in Indonesia keeps rising. The steps enterprises should take.",
+        "summaryHtml": "<ul><li>Cloudera's report &ldquo;The State of Enterprise AI 2026: The New Rules of Scale&rdquo; surveyed 1,500 IT leaders in several countries. Wakefield Research conducted the survey in September 2026. (IndoTelko)</li><li>Globally, 89% of respondents are limiting or redesigning AI use cases as token consumption rises, and 45% have moved AI workloads because of higher or fluctuating costs. (IndoTelko)</li><li>In Indonesia, 88% of companies increased AI investment from the previous year, and 70% allocate at least US$500,000 a year. The biggest obstacles are governance and compliance (65%), skills shortages (55%) and data integration (45%). (IndoTelko)</li><li>Data location and jurisdiction affect where AI workloads are placed for 88% of Indonesian organizations. (IndoTelko)</li><li>PwC Indonesia's 2026 CEO Survey shows 22% of CEOs see revenue gains from AI and 28% see cost reductions, but only 10% see both. (Fortune IDN)</li></ul>",
+        "analysisHtml": "<h3>Inference costs are a new operating expense</h3><p>Software licenses are usually fixed per user. AI model costs are different: every question, every document read and every step an AI agent takes consumes tokens. As use spreads across the company, the bill grows with it. AI agents that run many automated steps can multiply consumption without users noticing.</p><h3>Investment is rising, but results are uneven</h3><p>The 88% of Indonesian companies increasing AI investment looks positive. Yet PwC's data shows only 10% of CEOs see higher revenue and lower costs at the same time. The gap suggests many AI projects are not yet measured in clear unit economics, such as the cost per resolved service ticket.</p><h3>Data sovereignty also shapes cost</h3><p>For 88% of Indonesian organizations, data location affects where AI runs. Models that must run in the country or on in-house infrastructure have a different cost structure from public cloud services. This architecture decision is best made together with finance, not by IT alone.</p>",
+        "actionHtml": "<h3>For CIOs, CDOs and CFOs</h3><ol><li>Set a cost-per-outcome metric for every AI use case, not just a total budget.</li><li>Use small models for simple tasks and large models only where they are really needed.</li><li>Monitor token consumption per application and per team before scaling up.</li><li>Build governance from the start: 49% of global respondents say they would do so if they could start over.</li></ol><h3>For AI solution providers</h3><p>Enterprise buyers will increasingly demand predictable costs. Clear pricing, options to deploy on local infrastructure and usage dashboards will set vendors apart in procurement.</p>",
+        "faqHtml": "<h3>What is a token in AI?</h3><p>A token is a unit of text processed by an AI model. Language model services are usually priced by the number of tokens going in and out.</p>",
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/biaya-token-ai-perusahaan-indonesia-cloudera-2026-en.png",
+        "audience": [
+          "CIO / CDO",
+          "CFO",
+          "AI vendors"
+        ]
+      }
     },
     {
       "slug": "equinix-jk1-phase-2-kapasitas-data-center-jakarta",
@@ -296,7 +400,26 @@
       "seoDescription": "Equinix menambah 1.125 kabinet berpendingin cair di JK1 Jakarta. Apa artinya bagi perusahaan yang merencanakan beban kerja AI di Indonesia.",
       "publishAt": "2026-11-15T10:00:00+07:00",
       "language": "id",
-      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/equinix-jk1-phase-2-kapasitas-data-center-jakarta.png"
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/equinix-jk1-phase-2-kapasitas-data-center-jakarta.png",
+      "en": {
+        "title": "Equinix Adds 1,125 Cabinets at JK1 Jakarta: AI-Ready Data Center Capacity Becomes Contested",
+        "dek": "Equinix opened JK1 Phase 2 in Jakarta, adding about 1,125 liquid-cooled cabinets. Equinix expects most of the data hall space to be filled within six months. For companies planning AI workloads, it is a signal to secure capacity early.",
+        "dataFigure": "1,125",
+        "dataLabel": "new liquid-cooled cabinets at Equinix JK1 Phase 2",
+        "dataSource": "Equinix, JK1 Phase 2 launch, 10 November 2026",
+        "seoTitle": "Equinix JK1 Phase 2: AI-Ready Data Center in Jakarta",
+        "seoDescription": "Equinix adds 1,125 liquid-cooled cabinets at JK1 Jakarta. What it means for companies planning AI workloads in Indonesia.",
+        "summaryHtml": "<ul><li>Equinix opened JK1 Phase 2 in Jakarta on 10 November 2026. The expansion adds about 1,125 cabinets, bringing JK1 to about 1,660 cabinets in total. Capital expenditure for this phase is estimated at US$39 million, and Equinix's total investment commitment in Indonesia reaches US$94 million. (Bisnis.com)</li><li>JK1 Phase 2 includes AI-ready capacity with liquid cooling and is targeted to operate in Q4 2026. (Bisnis.com)</li><li>Haris Izmee, Managing Director of Equinix Indonesia, expects most of the data hall to be filled within six months. Demand comes from AI, oil and gas, mining and banking. (Fortune IDN)</li><li>According to Haris, AI is driving demand for AI-ready infrastructure that is interconnected and close to the cloud. JK1 connects to AWS, Microsoft Azure, Google Cloud and Alibaba Cloud. (Katadata)</li><li>Komdigi puts Indonesia's current data center capacity at about 600 MW. Deputy Minister Nezar Patria compared it with Malaysia, which he said has reached about 3 GW. (Katadata, Fortune IDN)</li></ul>",
+        "analysisHtml": "<h3>What matters is not the cabinet count but the liquid cooling</h3><p>GPU servers for AI generate far more heat per rack than ordinary servers. Conventional air cooling struggles to handle it. The &ldquo;AI-ready&rdquo; label on JK1 Phase 2 therefore means more than the figure of 1,125 cabinets. Not every facility in Jakarta can host high-power AI racks.</p><h3>Capacity may run out faster than companies' IT plans</h3><p>The expectation that the data hall fills within six months shows demand existed before the building opened. Demand also comes not only from AI companies but from traditional sectors such as mining and banking. Companies that only start planning AI workloads for next year may find AI-ready capacity in strategic locations already booked.</p><h3>600 MW versus 3 GW: Indonesia is still catching up with Malaysia</h3><p>The capacity gap with Malaysia explains why some regional workloads are served from Johor. However, data sovereignty and location rules push many Indonesian companies to run sensitive workloads in the country. Together, these factors make domestic AI-ready capacity a scarce asset over the next two to three years.</p>",
+        "actionHtml": "<h3>For CIOs and heads of infrastructure</h3><ol><li>Map the AI workloads that must stay in Indonesia for personal data or sector regulation reasons.</li><li>Estimate high-power rack needs for the next 12&ndash;24 months, then discuss capacity reservations early.</li><li>Design direct connectivity to the cloud providers already in use to cut latency and data transfer costs.</li><li>Ask for evidence behind sustainability claims, such as closed-loop cooling and energy sources, for ESG reporting.</li></ol><h3>For solution providers</h3><p>The biggest opportunities are in services that spare companies from building it themselves: GPU as a service, migrating workloads to colocation, hybrid cloud network management and technical support for liquid cooling systems.</p>",
+        "faqHtml": "<h3>When does JK1 Phase 2 start operating?</h3><p>Equinix targets operation of JK1 Phase 2 in Q4 2026.</p><h3>How much has Equinix invested in Indonesia?</h3><p>With this expansion, Equinix's total investment commitment in Indonesia reaches US$94 million.</p>",
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/equinix-jk1-phase-2-kapasitas-data-center-jakarta-en.png",
+        "audience": [
+          "CIO",
+          "Head of infrastructure",
+          "Cloud and colocation providers"
+        ]
+      }
     },
     {
       "slug": "serangan-siber-2-2-juta-indonesia-analisis",
@@ -398,7 +521,51 @@
           }
         ]
       },
-      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/serangan-siber-2-2-juta-indonesia-analisis.png"
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/serangan-siber-2-2-juta-indonesia-analisis.png",
+      "en": {
+        "title": "2.2 Million Cyberattacks on Indonesia in 24 Hours: Reading the Numbers Behind the Panic",
+        "dek": "Attempted cyberattacks on Indonesia shown on the FortiGuard Labs dashboard rose from about 350,600 to 2.2 million in three days. The number is real, but it is not a count of breached systems. The biggest risk for companies lies elsewhere.",
+        "dataFigure": "2.2 million",
+        "dataLabel": "attempted cyberattacks on Indonesia in 24 hours",
+        "dataSource": "FortiGuard Labs dashboard, 24-hour snapshot as of 10 November 2026",
+        "seoTitle": "2.2M Cyberattacks on Indonesia: What It Means for Banks",
+        "seoDescription": "FortiGuard's count jumped from 350,000 to 2.2 million in three days. What actually happened, and the steps Indonesian companies should take now.",
+        "summaryHtml": "<ul><li>The FortiGuard Labs dashboard recorded about 350,600 attempted attacks in the 24 hours to 7 November 2026, about 657,000 on 8 November, about 1.6 million on 9 November and about 2.2 million in the 24 hours to 07:30 WIB on 10 November. About 1 million of them targeted the financial sector. (Bisnis.com, Gebrak.id, Fortune IDN, Katadata)</li><li>Alfons Tanujaya of Vaksincom explained that the figure counts attack attempts detected and blocked by Fortinet sensors, &ldquo;not the number of systems that were breached&rdquo;. (Bisnis.com)</li><li>BSSN issued a Security Advisory on 8 November. The threats in circulation are linked to opposition to SPP-TDLN, a tax policy on foreign digital transactions, and have not been verified. (Katadata)</li><li>Komdigi sent three advisory letters on 9 November to users of the National Data Center and Government Cloud, government domain managers and public-sector electronic system operators. Aries Kusdaryono stressed that the potential risk of these attacks must not be ignored. (Katadata)</li><li>OJK and Bank Indonesia activated the Cyber Incident Response Team (TTIS) and asked banks to hold anomalous transactions for verification. (The Star / The Jakarta Post)</li></ul>",
+        "analysisHtml": "<h3>1. The dashboard figure is one vendor's telemetry, not an incident count</h3><p>The FortiGuard dashboard counts suspicious traffic seen by Fortinet sensors. The size of the number depends on how many devices are installed and how logs are counted. It is better read as the &ldquo;temperature&rdquo; of Indonesia's internet than as a list of victims. A sixfold jump in three days usually means automated scanning is rising sharply.</p><h3>2. Half of the attacks used an old flaw from 2021</h3><p>On 9 November, attacks exploiting the Apache Log4j flaw were recorded about 774,000 times, or 53% of the total. Log4j is a vulnerability disclosed at the end of 2021. Most of this traffic is mass scanning for unpatched servers, not a sophisticated attack aimed at one bank.</p><h3>3. The real problem: 96.7% of detected .co.id servers run outdated PHP</h3><p>A Vaksincom scan as of 23 October 2026 found 4,650 .co.id servers whose PHP version could be read. Of these, 4,495 (96.7%) run versions that no longer receive security updates. Only 0.2% of the detected PHP servers had patched the critical PHP2Shell flaw. Company websites, customer portals and legacy systems connected to the internet are the most likely entry points.</p><h3>4. The hacktivist pattern: the target is public attention, not money</h3><p>Hacktivists typically use DDoS and website defacement against highly visible targets. Core banking systems are rarely the victims of such campaigns. Public-facing applications and websites can still be disrupted, and that is enough to damage a reputation.</p><h3>5. The second wave: fraud riding on the panic</h3><p>Big news about cyberattacks is usually followed by phishing disguised as bank notifications. Bank Indonesia had earlier projected losses from cyberattacks in Indonesia of about US$6.2 billion in 2026.</p>",
+        "actionHtml": "<h3>For CIOs and CISOs</h3><ol><li>Inventory every internet-facing system, including forgotten subdomains.</li><li>Update outdated PHP, Java (Log4j) and CMS installations, starting with systems that hold customer data.</li><li>Turn on DDoS protection and a WAF for public websites and APIs.</li><li>Require MFA for every administrator account.</li><li>Test restoring from backup, not just that backups exist.</li><li>Prepare official customer messages so that fraudsters cannot fill the information gap.</li></ol><p>OJK already requires banks to run regular penetration tests, attack simulations and technology audits. The Cyber Security and Resilience Bill is also on the 2026 Priority National Legislation Program. Cybersecurity is now a board-level matter.</p><h3>For security solution providers</h3><p>The most urgent needs are in four areas: web application modernization and patch management, DDoS protection and WAF, SOC and Managed Detection &amp; Response, and anti-fraud and phishing education. The effective approach is not to scare buyers with the 2.2 million figure but to offer a quick check of their internet-facing systems.</p>",
+        "faqHtml": "<h3>Do 2.2 million attacks mean 2.2 million systems were hacked?</h3><p>No. The figure counts attack attempts detected and blocked by FortiGuard Labs sensors over 24 hours.</p><h3>Are bank customers' funds safe?</h3><p>OJK and Bank Indonesia have activated an incident response team. Customers are asked to keep transacting as usual through the banks' official channels.</p><h3>What should a company do first?</h3><p>Check and update every internet-facing system, especially those running old versions of PHP, Java or a CMS.</p>",
+        "chart": {
+          "bars": [
+            {
+              "label": "7 Nov",
+              "value": 350600,
+              "display": "351K"
+            },
+            {
+              "label": "8 Nov",
+              "value": 657000,
+              "display": "657K"
+            },
+            {
+              "label": "9 Nov",
+              "value": 1600000,
+              "display": "1.6M"
+            },
+            {
+              "label": "10 Nov",
+              "value": 2200000,
+              "display": "2.2M"
+            }
+          ]
+        },
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/serangan-siber-2-2-juta-indonesia-analisis-en.png",
+        "audience": [
+          "CIO / CISO",
+          "Board of directors",
+          "Banking",
+          "Security vendors"
+        ]
+      }
     }
   ]
 }

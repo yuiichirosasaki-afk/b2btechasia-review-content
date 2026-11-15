@@ -53,5 +53,24 @@
   "seoDescription": "Equinix menambah 1.125 kabinet berpendingin cair di JK1 Jakarta. Apa artinya bagi perusahaan yang merencanakan beban kerja AI di Indonesia.",
   "publishAt": "2026-11-15T10:00:00+07:00",
   "language": "id",
-  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/equinix-jk1-phase-2-kapasitas-data-center-jakarta.png"
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/equinix-jk1-phase-2-kapasitas-data-center-jakarta.png",
+  "en": {
+    "title": "Equinix Adds 1,125 Cabinets at JK1 Jakarta: AI-Ready Data Center Capacity Becomes Contested",
+    "dek": "Equinix opened JK1 Phase 2 in Jakarta, adding about 1,125 liquid-cooled cabinets. Equinix expects most of the data hall space to be filled within six months. For companies planning AI workloads, it is a signal to secure capacity early.",
+    "dataFigure": "1,125",
+    "dataLabel": "new liquid-cooled cabinets at Equinix JK1 Phase 2",
+    "dataSource": "Equinix, JK1 Phase 2 launch, 10 November 2026",
+    "seoTitle": "Equinix JK1 Phase 2: AI-Ready Data Center in Jakarta",
+    "seoDescription": "Equinix adds 1,125 liquid-cooled cabinets at JK1 Jakarta. What it means for companies planning AI workloads in Indonesia.",
+    "summaryHtml": "<ul><li>Equinix opened JK1 Phase 2 in Jakarta on 10 November 2026. The expansion adds about 1,125 cabinets, bringing JK1 to about 1,660 cabinets in total. Capital expenditure for this phase is estimated at US$39 million, and Equinix's total investment commitment in Indonesia reaches US$94 million. (Bisnis.com)</li><li>JK1 Phase 2 includes AI-ready capacity with liquid cooling and is targeted to operate in Q4 2026. (Bisnis.com)</li><li>Haris Izmee, Managing Director of Equinix Indonesia, expects most of the data hall to be filled within six months. Demand comes from AI, oil and gas, mining and banking. (Fortune IDN)</li><li>According to Haris, AI is driving demand for AI-ready infrastructure that is interconnected and close to the cloud. JK1 connects to AWS, Microsoft Azure, Google Cloud and Alibaba Cloud. (Katadata)</li><li>Komdigi puts Indonesia's current data center capacity at about 600 MW. Deputy Minister Nezar Patria compared it with Malaysia, which he said has reached about 3 GW. (Katadata, Fortune IDN)</li></ul>",
+    "analysisHtml": "<h3>What matters is not the cabinet count but the liquid cooling</h3><p>GPU servers for AI generate far more heat per rack than ordinary servers. Conventional air cooling struggles to handle it. The &ldquo;AI-ready&rdquo; label on JK1 Phase 2 therefore means more than the figure of 1,125 cabinets. Not every facility in Jakarta can host high-power AI racks.</p><h3>Capacity may run out faster than companies' IT plans</h3><p>The expectation that the data hall fills within six months shows demand existed before the building opened. Demand also comes not only from AI companies but from traditional sectors such as mining and banking. Companies that only start planning AI workloads for next year may find AI-ready capacity in strategic locations already booked.</p><h3>600 MW versus 3 GW: Indonesia is still catching up with Malaysia</h3><p>The capacity gap with Malaysia explains why some regional workloads are served from Johor. However, data sovereignty and location rules push many Indonesian companies to run sensitive workloads in the country. Together, these factors make domestic AI-ready capacity a scarce asset over the next two to three years.</p>",
+    "actionHtml": "<h3>For CIOs and heads of infrastructure</h3><ol><li>Map the AI workloads that must stay in Indonesia for personal data or sector regulation reasons.</li><li>Estimate high-power rack needs for the next 12&ndash;24 months, then discuss capacity reservations early.</li><li>Design direct connectivity to the cloud providers already in use to cut latency and data transfer costs.</li><li>Ask for evidence behind sustainability claims, such as closed-loop cooling and energy sources, for ESG reporting.</li></ol><h3>For solution providers</h3><p>The biggest opportunities are in services that spare companies from building it themselves: GPU as a service, migrating workloads to colocation, hybrid cloud network management and technical support for liquid cooling systems.</p>",
+    "faqHtml": "<h3>When does JK1 Phase 2 start operating?</h3><p>Equinix targets operation of JK1 Phase 2 in Q4 2026.</p><h3>How much has Equinix invested in Indonesia?</h3><p>With this expansion, Equinix's total investment commitment in Indonesia reaches US$94 million.</p>",
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/equinix-jk1-phase-2-kapasitas-data-center-jakarta-en.png",
+    "audience": [
+      "CIO",
+      "Head of infrastructure",
+      "Cloud and colocation providers"
+    ]
+  }
 }

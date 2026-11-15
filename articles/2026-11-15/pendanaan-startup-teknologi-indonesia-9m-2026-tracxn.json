@@ -61,5 +61,38 @@
       }
     ]
   },
-  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pendanaan-startup-teknologi-indonesia-9m-2026-tracxn.png"
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pendanaan-startup-teknologi-indonesia-9m-2026-tracxn.png",
+  "en": {
+    "title": "Indonesian Tech Funding Up 111%, but One Deal Accounts for 74%",
+    "dek": "A Tracxn report puts funding for Indonesian tech companies at US$365 million in January–September 2026. Almost all of the increase came from Ajaib's Series C round. Beneath the surface, the number of rounds, investors and early-stage funding shrank sharply.",
+    "dataFigure": "74%",
+    "dataLabel": "Ajaib's share of total Indonesian tech funding, January–September 2026",
+    "dataSource": "Tracxn, Indonesia Tech – 9M 2026, via Katadata",
+    "seoTitle": "Indonesia Startup Funding 9M 2026 Up 111% on Ajaib",
+    "seoDescription": "Tracxn: Indonesian tech funding rose 111% to US$365 million, but 74% came from Ajaib. Seed fell 92%. What it means for B2B buyers and vendors.",
+    "summaryHtml": "<ul><li>According to Tracxn's report &ldquo;Indonesia Tech &ndash; 9M 2026&rdquo;, total funding for Indonesian tech companies reached US$365 million, up 111% from US$173 million in the same period of 2025. The number of rounds fell 56% to 14. (Katadata)</li><li>Ajaib raised US$270 million in a Series C round in August 2026 with SBI Group, equal to about 74% of nine-month funding. Waresix raised US$27 million (Series B) and Green Rebel US$13 million (Series A). (Katadata)</li><li>Late-stage funding reached US$280 million, or 77% of the total. Early-stage funding fell 16% to US$83 million, and seed funding plunged 92% to US$2 million from just 4 rounds. (Katadata)</li><li>Active investors fell to 27: 20 foreign and 7 domestic. There were no tech IPOs and only one acquisition, NOBI by Bybit. (Katadata)</li><li>Across Southeast Asia, tech funding rose 176% to US$13.5 billion while the number of rounds fell 28% to 189. The increase was also concentrated in a few large deals. (TechNode Global)</li></ul>",
+    "analysisHtml": "<h3>Without Ajaib, funding actually fell</h3><p>Excluding the Ajaib round, Indonesian tech funding in the first nine months of 2026 was only about US$95 million, roughly 45% lower than last year's US$173 million (our calculation). The headline &ldquo;up 111%&rdquo; describes one large deal, not a broad market recovery.</p><h3>Seed has nearly vanished, and the B2B startup pipeline is thinning</h3><p>Seed rounds fell from 23 to 4. Far fewer new software companies were born with venture capital this year. For buyers, there will be fewer new local vendors to choose from. For existing vendors, competition from newcomers falls, but access to capital for expansion is also harder.</p><h3>Foreign capital dominates</h3><p>With 20 of the 27 investors from abroad, the direction of funding depends heavily on regional and global investor appetite. The same Southeast Asian pattern, with values up but deal counts down, shows investors picking a few companies they consider strongest.</p>",
+    "actionHtml": "<h3>For companies buying from startups</h3><ol><li>Add vendor financial health checks, including remaining runway and funding sources, to procurement.</li><li>Make sure contracts include data export rights and a service continuity plan in case the vendor shuts down.</li><li>Consider longer contracts with healthy vendors as leverage on price.</li></ol><h3>For startups and B2B solution providers</h3><p>With early-stage funding thinning, revenue from enterprise contracts is the most realistic source of growth. Case studies with corporate customers and a compliance track record will be more convincing to investors and buyers alike.</p>",
+    "faqHtml": "<h3>Why did funding rise while the number of deals fell?</h3><p>Because one large round, Ajaib's US$270 million Series C, accounted for about 74% of total funding in the first nine months of 2026.</p>",
+    "chart": {
+      "bars": [
+        {
+          "label": "9M 2025",
+          "value": 173,
+          "display": "US$173M"
+        },
+        {
+          "label": "9M 2026",
+          "value": 365,
+          "display": "US$365M"
+        }
+      ]
+    },
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pendanaan-startup-teknologi-indonesia-9m-2026-tracxn-en.png",
+    "audience": [
+      "Procurement",
+      "B2B founders",
+      "Investors"
+    ]
+  }
 }

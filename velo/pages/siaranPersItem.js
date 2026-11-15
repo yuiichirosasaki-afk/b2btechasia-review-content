@@ -16,10 +16,16 @@ const MONTHS = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 
 function esc(s) {
   return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
-function date(d) {
+// English fields of Review articles come from enJson; Indonesian is the fallback.
+function localize(a, isEn) {
+  if (!isEn || !a.enJson) return a;
+  try { return Object.assign({}, a, JSON.parse(a.enJson)); } catch (e) { return a; }
+}
+const EN_MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+function date(d, isEn) {
   if (!d) return '';
   const x = new Date(new Date(d).getTime() + 7 * 3600 * 1000);
-  return `${x.getUTCDate()} ${MONTHS[x.getUTCMonth()]} ${x.getUTCFullYear()}`;
+  return `${x.getUTCDate()} ${(isEn ? EN_MONTHS : MONTHS)[x.getUTCMonth()]} ${x.getUTCFullYear()}`;
 }
 
 // Keep only simple tags, drop attributes (except href), add explicit colours and fonts.
@@ -45,7 +51,8 @@ $w.onReady(async function () {
 
   const lang = (wixWindowFrontend.multilingual && wixWindowFrontend.multilingual.currentLanguage) || 'id';
   const base = lang && lang !== 'en' ? '/' + lang : '';
-  const chrome = { base, narrow: true, now: new Date().toISOString(), active: 'siaran-pers' };
+  const isEn = lang === 'en';
+  const chrome = { base, lang: isEn ? 'en' : 'id', path: '/siaran-pers/' + item.slug, narrow: true, now: new Date().toISOString(), active: 'siaran-pers' };
   const top = $w('#customElement1');
   const bottom = $w('#customElement2');
   top.setAttribute('part', 'top');
@@ -55,23 +62,23 @@ $w.onReady(async function () {
   const more = await wixData.query('ReviewArticles').le('publishAt', new Date()).descending('publishAt').limit(3).find()
     .then((r) => r.items).catch(() => []);
   bottom.setAttribute('data', JSON.stringify(Object.assign({}, chrome, {
-    relatedTitle: 'Analisis Terbaru dari Redaksi',
-    related: more.map((r) => ({ slug: r.slug, title: r.title, category: r.category, heroImage: r.heroImage || '' })),
+    relatedTitle: isEn ? 'Latest Analysis from Our Editors' : 'Analisis Terbaru dari Redaksi',
+    related: more.map((r) => localize(r, isEn)).map((r) => ({ slug: r.slug, title: r.title, category: r.category, heroImage: r.heroImage || '' })),
   })));
 
   const parts = [];
-  parts.push(`<p style="font-size:13px"><span style="${SANS}; color:${SUB}"><a href="/review"><span style="color:${SUB}">Berita</span></a> &nbsp;›&nbsp; <a href="/review?kategori=siaran-pers"><span style="color:${SUB}">Siaran Pers</span></a></span></p>`);
-  parts.push(`<p style="font-size:12px; letter-spacing:0.1em"><span style="${SANS}; color:#4A5361"><strong>SIARAN PERS</strong></span><span style="${SANS}; color:${SUB}"> &nbsp;·&nbsp; BUKAN KONTEN REDAKSI</span></p>`);
+  parts.push(`<p style="font-size:13px"><span style="${SANS}; color:${SUB}"><a href="/review"><span style="color:${SUB}">${isEn ? 'News' : 'Berita'}</span></a> &nbsp;›&nbsp; <a href="/review?kategori=siaran-pers"><span style="color:${SUB}">${isEn ? 'Press Releases' : 'Siaran Pers'}</span></a></span></p>`);
+  parts.push(`<p style="font-size:12px; letter-spacing:0.1em"><span style="${SANS}; color:#4A5361"><strong>${isEn ? 'PRESS RELEASE' : 'SIARAN PERS'}</strong></span><span style="${SANS}; color:${SUB}"> &nbsp;·&nbsp; ${isEn ? 'NOT EDITORIAL CONTENT · IN INDONESIAN' : 'BUKAN KONTEN REDAKSI'}</span></p>`);
   parts.push(`<h1 style="font-size:40px; line-height:1.15"><span style="${SERIF}; color:${INK}"><strong>${esc(item.title)}</strong></span></h1>`);
-  parts.push(`<p style="font-size:14px; line-height:1.6"><span style="${SANS}; color:#4A5361">${esc(date(item.publishedDate))} &nbsp;·&nbsp; Didistribusikan melalui VRITIMES</span></p>`);
+  parts.push(`<p style="font-size:14px; line-height:1.6"><span style="${SANS}; color:#4A5361">${esc(date(item.publishedDate, isEn))} &nbsp;·&nbsp; ${isEn ? 'Distributed via VRITIMES' : 'Didistribusikan melalui VRITIMES'}</span></p>`);
   parts.push(`<p style="font-size:12px; line-height:1"><span>&nbsp;</span></p>`);
   parts.push(clean(item.bodyHtml || `<p>${esc(item.excerpt)}</p>`));
   parts.push(`<p style="font-size:12px; line-height:1"><span>&nbsp;</span></p>`);
-  parts.push(`<p style="font-size:14px; line-height:1.6"><span style="${SANS}; color:${SUB}">Konten ini adalah siaran pers dari perusahaan terkait dan didistribusikan melalui VRITIMES. Redaksi B2B Tech Asia Review tidak mengubah isinya. </span><a href="${esc(item.sourceUrl)}" target="_blank" rel="noopener"><span style="${SANS}; color:${NAVY}"><u>Baca versi asli di VRITIMES</u></span></a></p>`);
+  parts.push(`<p style="font-size:14px; line-height:1.6"><span style="${SANS}; color:${SUB}">${isEn ? 'This is a press release from the company concerned, distributed via VRITIMES. The B2B Tech Asia Review editors have not changed its content. ' : 'Konten ini adalah siaran pers dari perusahaan terkait dan didistribusikan melalui VRITIMES. Redaksi B2B Tech Asia Review tidak mengubah isinya. '}</span><a href="${esc(item.sourceUrl)}" target="_blank" rel="noopener"><span style="${SANS}; color:${NAVY}"><u>${isEn ? 'Read the original on VRITIMES' : 'Baca versi asli di VRITIMES'}</u></span></a></p>`);
   $w('#text747').html = parts.join('');
 
   const desc = String(item.excerpt || '').slice(0, 155);
-  wixSeoFrontend.setTitle(`${item.title} | Siaran Pers | B2B Tech Asia Review`);
+  wixSeoFrontend.setTitle(`${item.title} | ${isEn ? 'Press Release' : 'Siaran Pers'} | B2B Tech Asia Review`);
   wixSeoFrontend.setMetaTags([
     { name: 'description', content: desc },
     { property: 'og:title', content: item.title },

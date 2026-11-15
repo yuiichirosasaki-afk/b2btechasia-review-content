@@ -66,6 +66,7 @@ async function upsertArticles(list) {
       sourcesJson: JSON.stringify(a.sources || []),
       heroImage: a.heroImage || '',
       chartJson: a.chart ? JSON.stringify(a.chart) : '',
+      enJson: a.en ? JSON.stringify(a.en) : '',
       seoTitle: a.seoTitle,
       seoDescription: a.seoDescription,
       publishAt,

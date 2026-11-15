@@ -41,5 +41,24 @@
   "seoDescription": "Survei Cloudera: biaya token memaksa perusahaan merancang ulang AI, sementara investasi AI di Indonesia terus naik. Ini langkah yang perlu diambil.",
   "publishAt": "2026-11-15T11:30:00+07:00",
   "language": "id",
-  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/biaya-token-ai-perusahaan-indonesia-cloudera-2026.png"
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/biaya-token-ai-perusahaan-indonesia-cloudera-2026.png",
+  "en": {
+    "title": "Token Costs Soar, 89% of Companies Redesign AI: What It Means for Indonesian Enterprises",
+    "dek": "A Cloudera survey of 1,500 IT leaders found that 89% of companies are limiting or redesigning AI use cases as token consumption rises. In Indonesia, AI investment keeps climbing. The question is shifting from whether to use AI to what each result costs.",
+    "dataFigure": "89%",
+    "dataLabel": "of companies limit or redesign AI use cases as token consumption rises",
+    "dataSource": "Cloudera, The State of Enterprise AI 2026 (survey of 1,500 IT leaders)",
+    "seoTitle": "89% of Firms Redesign AI as Token Costs Soar",
+    "seoDescription": "Cloudera survey: token costs force companies to redesign AI, while AI investment in Indonesia keeps rising. The steps enterprises should take.",
+    "summaryHtml": "<ul><li>Cloudera's report &ldquo;The State of Enterprise AI 2026: The New Rules of Scale&rdquo; surveyed 1,500 IT leaders in several countries. Wakefield Research conducted the survey in September 2026. (IndoTelko)</li><li>Globally, 89% of respondents are limiting or redesigning AI use cases as token consumption rises, and 45% have moved AI workloads because of higher or fluctuating costs. (IndoTelko)</li><li>In Indonesia, 88% of companies increased AI investment from the previous year, and 70% allocate at least US$500,000 a year. The biggest obstacles are governance and compliance (65%), skills shortages (55%) and data integration (45%). (IndoTelko)</li><li>Data location and jurisdiction affect where AI workloads are placed for 88% of Indonesian organizations. (IndoTelko)</li><li>PwC Indonesia's 2026 CEO Survey shows 22% of CEOs see revenue gains from AI and 28% see cost reductions, but only 10% see both. (Fortune IDN)</li></ul>",
+    "analysisHtml": "<h3>Inference costs are a new operating expense</h3><p>Software licenses are usually fixed per user. AI model costs are different: every question, every document read and every step an AI agent takes consumes tokens. As use spreads across the company, the bill grows with it. AI agents that run many automated steps can multiply consumption without users noticing.</p><h3>Investment is rising, but results are uneven</h3><p>The 88% of Indonesian companies increasing AI investment looks positive. Yet PwC's data shows only 10% of CEOs see higher revenue and lower costs at the same time. The gap suggests many AI projects are not yet measured in clear unit economics, such as the cost per resolved service ticket.</p><h3>Data sovereignty also shapes cost</h3><p>For 88% of Indonesian organizations, data location affects where AI runs. Models that must run in the country or on in-house infrastructure have a different cost structure from public cloud services. This architecture decision is best made together with finance, not by IT alone.</p>",
+    "actionHtml": "<h3>For CIOs, CDOs and CFOs</h3><ol><li>Set a cost-per-outcome metric for every AI use case, not just a total budget.</li><li>Use small models for simple tasks and large models only where they are really needed.</li><li>Monitor token consumption per application and per team before scaling up.</li><li>Build governance from the start: 49% of global respondents say they would do so if they could start over.</li></ol><h3>For AI solution providers</h3><p>Enterprise buyers will increasingly demand predictable costs. Clear pricing, options to deploy on local infrastructure and usage dashboards will set vendors apart in procurement.</p>",
+    "faqHtml": "<h3>What is a token in AI?</h3><p>A token is a unit of text processed by an AI model. Language model services are usually priced by the number of tokens going in and out.</p>",
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/biaya-token-ai-perusahaan-indonesia-cloudera-2026-en.png",
+    "audience": [
+      "CIO / CDO",
+      "CFO",
+      "AI vendors"
+    ]
+  }
 }

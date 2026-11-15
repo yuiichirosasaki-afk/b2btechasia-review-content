@@ -102,6 +102,21 @@ def check(path):
         errs.append(f"{len(quotes)} quotes but only {len(src)} sources")
     if "b2b tech asia" in text(body).lower():
         errs.append("do not mention B2B Tech Asia in body")
+    en = a.get("en")
+    if not isinstance(en, dict):
+        errs.append("missing en (English version)")
+    else:
+        for k in ("title", "dek", "summaryHtml", "analysisHtml", "actionHtml", "dataFigure", "dataLabel", "seoTitle", "seoDescription"):
+            if not en.get(k):
+                errs.append(f"en missing {k}")
+        if len(en.get("seoTitle", "")) > 60:
+            errs.append(f"en.seoTitle {len(en['seoTitle'])} > 60")
+        if len(en.get("seoDescription", "")) > 155:
+            errs.append(f"en.seoDescription {len(en['seoDescription'])} > 155")
+        if a.get("chart") and en.get("chart") and len(en["chart"].get("bars", [])) != len(a["chart"].get("bars", [])):
+            errs.append("en.chart must have the same bars as chart")
+        if "b2b tech asia" in text(" ".join(en.get(k, "") for k in ("summaryHtml", "analysisHtml", "actionHtml", "faqHtml"))).lower():
+            errs.append("do not mention B2B Tech Asia in en body")
     return errs
 
 

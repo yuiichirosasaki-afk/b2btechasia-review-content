@@ -62,5 +62,38 @@
       }
     ]
   },
-  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bank-indonesia-adopsi-ai-tata-kelola-4-persen.png"
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bank-indonesia-adopsi-ai-tata-kelola-4-persen.png",
+  "en": {
+    "title": "88% of Banks Have Tried AI, Only 4% Have Formal Governance: The Gap Bank Indonesia Flags",
+    "dek": "An IBM and Perbanas study found that almost every bank in Indonesia has tried AI, but only 4% have formally built it into corporate governance. Bank Indonesia warns of risks missing from older risk manuals, including AI agents behaving in lockstep.",
+    "dataFigure": "4%",
+    "dataLabel": "of banks in Indonesia have formally integrated AI into corporate governance",
+    "dataSource": "IBM and Perbanas study, October 2026",
+    "seoTitle": "88% of Indonesian Banks Try AI, Only 4% Have Governance",
+    "seoDescription": "IBM-Perbanas study: almost every Indonesian bank has tried AI, but governance lags. Bank Indonesia flags deepfake and herding risks.",
+    "summaryHtml": "<ul><li>An IBM and Perbanas study shows 88% of banks in Indonesia have tried AI technology, while 12% have not started. Only 4% have formally integrated AI into corporate governance. (Indonesia Business Post)</li><li>The findings were released with the white paper &ldquo;Digital Sovereign AI and the Future of Trusted Banking&rdquo; by IBM, Perbanas and Kiantara &amp; Associates on 27 October 2026. (Indonesia Business Post)</li><li>Juvanus Tjandra, Managing Partner of IBM Consulting Indonesia, said AI adoption in the industry is still fragmented and many banks lack a centralized architecture. Use is concentrated in customer service, such as chatbots. (Indonesia Business Post)</li><li>Ricky Satria of Bank Indonesia warned of fraud using synthetic voices and faces, and of attacks that now unfold within hours rather than weeks. (Katadata)</li><li>Bank Indonesia also highlighted herding risk: many AI agents using the same models and cloud providers can give similar recommendations at the same time. It urged banks to keep full control over the AI they use. (Katadata)</li></ul>",
+    "analysisHtml": "<h3>AI came in through the front door; governance is trailing behind</h3><p>The gap between 88% and 4% shows a common pattern: AI is first used in chatbots and customer service because results show quickly. Governance is considered only after use has spread. In banking this order is risky, because AI models that touch customer data and credit decisions are under strict supervision.</p><h3>Herding is a new risk missing from older risk manuals</h3><p>Traditional risk management assesses one model at one bank. Herding risk comes from many banks using the same models and data sources. If the model is wrong, the error happens everywhere at once. Provider diversity and the ability to switch off AI agents quickly are therefore likely to become part of supervision.</p><h3>Sovereign AI will change how banks buy technology</h3><p>Bank Indonesia's push for banks to keep full control over AI points to a preference for models that can run on their own or domestic infrastructure. BNI, for example, has already developed on-premise generative AI based on open-source models with Cloudera. Vendors that only offer services from abroad will face more questions in procurement.</p>",
+    "actionHtml": "<h3>For banks and financial services firms</h3><ol><li>List every AI system in use, including those bought separately by business units.</li><li>Bring AI models into the model risk management framework, with owners, testing and monitoring.</li><li>Limit AI agents' access to customer data and transactions, and prepare a kill switch to stop them.</li><li>Review dependence on a single model or cloud provider.</li></ol><h3>For solution providers</h3><p>The biggest needs are AI governance tools, model monitoring, deepfake detection for customer verification, and deploying AI on local infrastructure that meets data sovereignty requirements.</p>",
+    "faqHtml": "<h3>What is herding risk in AI?</h3><p>The risk that many AI systems using the same models and data make similar decisions at the same time. Under market stress, this can amplify shocks.</p>",
+    "chart": {
+      "bars": [
+        {
+          "label": "Tried AI",
+          "value": 88,
+          "display": "88%"
+        },
+        {
+          "label": "Governance",
+          "value": 4,
+          "display": "4%"
+        }
+      ]
+    },
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bank-indonesia-adopsi-ai-tata-kelola-4-persen-en.png",
+    "audience": [
+      "Bank directors",
+      "CRO / Risk management",
+      "AI and security vendors"
+    ]
+  }
 }

@@ -44,7 +44,7 @@ def wrap(draw, text, fnt, max_w):
     return lines
 
 
-def render(a, out):
+def render(a, out, source_word='Sumber'):
     img = Image.new('RGB', (W, H), NAVY)
     d = ImageDraw.Draw(img)
     pad = 96
@@ -64,7 +64,7 @@ def render(a, out):
     label_f = font('IBMPlexSans-Regular.ttf', 36)
     label_lines = wrap(d, a.get('dataLabel') or '', label_f, min(left_w, 720))[:4]
     src_f = font('IBMPlexSans-Regular.ttf', 24)
-    src_lines = wrap(d, 'Sumber: ' + (a.get('dataSource') or ''), src_f, left_w)[:2]
+    src_lines = wrap(d, source_word + ': ' + (a.get('dataSource') or ''), src_f, left_w)[:2]
 
     src_h = len(src_lines) * 34
     label_h = len(label_lines) * 50
@@ -131,6 +131,13 @@ def main():
         out = ROOT / 'images' / f"{a['slug']}.png"
         render(a, out)
         a['heroImage'] = RAW + out.name
+        en = a.get('en')
+        if en and en.get('dataFigure'):
+            en_view = dict(a, dataFigure=en['dataFigure'], dataLabel=en.get('dataLabel', ''),
+                           dataSource=en.get('dataSource', a.get('dataSource', '')), chart=en.get('chart', a.get('chart')))
+            out_en = ROOT / 'images' / f"{a['slug']}-en.png"
+            render(en_view, out_en, source_word='Source')
+            en['heroImage'] = RAW + out_en.name
         f.write_text(json.dumps(a, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
         print(f'{f}: {out.relative_to(ROOT)}')
 

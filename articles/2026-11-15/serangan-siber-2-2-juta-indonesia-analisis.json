@@ -98,5 +98,49 @@
       }
     ]
   },
-  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/serangan-siber-2-2-juta-indonesia-analisis.png"
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/serangan-siber-2-2-juta-indonesia-analisis.png",
+  "en": {
+    "title": "2.2 Million Cyberattacks on Indonesia in 24 Hours: Reading the Numbers Behind the Panic",
+    "dek": "Attempted cyberattacks on Indonesia shown on the FortiGuard Labs dashboard rose from about 350,600 to 2.2 million in three days. The number is real, but it is not a count of breached systems. The biggest risk for companies lies elsewhere.",
+    "dataFigure": "2.2 million",
+    "dataLabel": "attempted cyberattacks on Indonesia in 24 hours",
+    "dataSource": "FortiGuard Labs dashboard, 24-hour snapshot as of 10 November 2026",
+    "seoTitle": "2.2M Cyberattacks on Indonesia: What It Means for Banks",
+    "seoDescription": "FortiGuard's count jumped from 350,000 to 2.2 million in three days. What actually happened, and the steps Indonesian companies should take now.",
+    "summaryHtml": "<ul><li>The FortiGuard Labs dashboard recorded about 350,600 attempted attacks in the 24 hours to 7 November 2026, about 657,000 on 8 November, about 1.6 million on 9 November and about 2.2 million in the 24 hours to 07:30 WIB on 10 November. About 1 million of them targeted the financial sector. (Bisnis.com, Gebrak.id, Fortune IDN, Katadata)</li><li>Alfons Tanujaya of Vaksincom explained that the figure counts attack attempts detected and blocked by Fortinet sensors, &ldquo;not the number of systems that were breached&rdquo;. (Bisnis.com)</li><li>BSSN issued a Security Advisory on 8 November. The threats in circulation are linked to opposition to SPP-TDLN, a tax policy on foreign digital transactions, and have not been verified. (Katadata)</li><li>Komdigi sent three advisory letters on 9 November to users of the National Data Center and Government Cloud, government domain managers and public-sector electronic system operators. Aries Kusdaryono stressed that the potential risk of these attacks must not be ignored. (Katadata)</li><li>OJK and Bank Indonesia activated the Cyber Incident Response Team (TTIS) and asked banks to hold anomalous transactions for verification. (The Star / The Jakarta Post)</li></ul>",
+    "analysisHtml": "<h3>1. The dashboard figure is one vendor's telemetry, not an incident count</h3><p>The FortiGuard dashboard counts suspicious traffic seen by Fortinet sensors. The size of the number depends on how many devices are installed and how logs are counted. It is better read as the &ldquo;temperature&rdquo; of Indonesia's internet than as a list of victims. A sixfold jump in three days usually means automated scanning is rising sharply.</p><h3>2. Half of the attacks used an old flaw from 2021</h3><p>On 9 November, attacks exploiting the Apache Log4j flaw were recorded about 774,000 times, or 53% of the total. Log4j is a vulnerability disclosed at the end of 2021. Most of this traffic is mass scanning for unpatched servers, not a sophisticated attack aimed at one bank.</p><h3>3. The real problem: 96.7% of detected .co.id servers run outdated PHP</h3><p>A Vaksincom scan as of 23 October 2026 found 4,650 .co.id servers whose PHP version could be read. Of these, 4,495 (96.7%) run versions that no longer receive security updates. Only 0.2% of the detected PHP servers had patched the critical PHP2Shell flaw. Company websites, customer portals and legacy systems connected to the internet are the most likely entry points.</p><h3>4. The hacktivist pattern: the target is public attention, not money</h3><p>Hacktivists typically use DDoS and website defacement against highly visible targets. Core banking systems are rarely the victims of such campaigns. Public-facing applications and websites can still be disrupted, and that is enough to damage a reputation.</p><h3>5. The second wave: fraud riding on the panic</h3><p>Big news about cyberattacks is usually followed by phishing disguised as bank notifications. Bank Indonesia had earlier projected losses from cyberattacks in Indonesia of about US$6.2 billion in 2026.</p>",
+    "actionHtml": "<h3>For CIOs and CISOs</h3><ol><li>Inventory every internet-facing system, including forgotten subdomains.</li><li>Update outdated PHP, Java (Log4j) and CMS installations, starting with systems that hold customer data.</li><li>Turn on DDoS protection and a WAF for public websites and APIs.</li><li>Require MFA for every administrator account.</li><li>Test restoring from backup, not just that backups exist.</li><li>Prepare official customer messages so that fraudsters cannot fill the information gap.</li></ol><p>OJK already requires banks to run regular penetration tests, attack simulations and technology audits. The Cyber Security and Resilience Bill is also on the 2026 Priority National Legislation Program. Cybersecurity is now a board-level matter.</p><h3>For security solution providers</h3><p>The most urgent needs are in four areas: web application modernization and patch management, DDoS protection and WAF, SOC and Managed Detection &amp; Response, and anti-fraud and phishing education. The effective approach is not to scare buyers with the 2.2 million figure but to offer a quick check of their internet-facing systems.</p>",
+    "faqHtml": "<h3>Do 2.2 million attacks mean 2.2 million systems were hacked?</h3><p>No. The figure counts attack attempts detected and blocked by FortiGuard Labs sensors over 24 hours.</p><h3>Are bank customers' funds safe?</h3><p>OJK and Bank Indonesia have activated an incident response team. Customers are asked to keep transacting as usual through the banks' official channels.</p><h3>What should a company do first?</h3><p>Check and update every internet-facing system, especially those running old versions of PHP, Java or a CMS.</p>",
+    "chart": {
+      "bars": [
+        {
+          "label": "7 Nov",
+          "value": 350600,
+          "display": "351K"
+        },
+        {
+          "label": "8 Nov",
+          "value": 657000,
+          "display": "657K"
+        },
+        {
+          "label": "9 Nov",
+          "value": 1600000,
+          "display": "1.6M"
+        },
+        {
+          "label": "10 Nov",
+          "value": 2200000,
+          "display": "2.2M"
+        }
+      ]
+    },
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/serangan-siber-2-2-juta-indonesia-analisis-en.png",
+    "audience": [
+      "CIO / CISO",
+      "Board of directors",
+      "Banking",
+      "Security vendors"
+    ]
+  }
 }

@@ -17,7 +17,7 @@ There is no human review. Nobody approves articles and nobody is notified. Quali
    - **Regulasi** — PDP law, OJK/BI rules, Komdigi, AI regulation, tax on digital services
    - **Deals** — funding, M&A, partnerships, large contracts
    Use WebSearch (Indonesian and English queries) and WebFetch to read the actual articles. Prefer primary sources (regulator, company press release, filings) plus at least one reputable outlet (Kontan, Bisnis.com, Katadata, CNBC Indonesia, Kompas, Tempo, The Jakarta Post, Reuters, DealStreetAsia, Tech in Asia, KrASIA).
-3. Write **one article per category** (6 per day). If a category has no news that passes the rules, write a `penjelasan` (explainer) on a current issue in that category, or skip the category that day. Never invent news to fill a slot.
+3. Write **one article per category** (6 per day), in Bahasa Indonesia, **and** its English version in the `en` field (see Article format). If a category has no news that passes the rules, write a `penjelasan` (explainer) on a current issue in that category, or skip the category that day. Never invent news to fill a slot.
 4. Save each article as `articles/YYYY-MM-DD/<slug>.json` (date = publish date, WIB) following `schema/article.schema.json`.
 5. `python3 scripts/make_images.py articles/YYYY-MM-DD` — renders the hero data graphic (`images/<slug>.png`) and sets `heroImage`.
 6. `python3 scripts/validate.py articles/YYYY-MM-DD` — must print `OK` for every file. Fix and re-run until it does. Delete any article you cannot fix.
@@ -35,6 +35,7 @@ There is no human review. Nobody approves articles and nobody is notified. Quali
 - `faqHtml`: 2–3 `<h3>` question + `<p>` answer pairs that match what people search on Google.
 - `dataFigure` / `dataLabel` / `dataSource`: one key number for the hero graphic (e.g. "2,2 juta" / "percobaan serangan siber dalam 24 jam" / "FortiGuard Labs, 10 November 2026").
 - `chart` (optional, recommended when the sources give a series or a comparison): `{"bars": [{"label": "7 Nov", "value": 350600, "display": "351rb"}, ...]}` — 2–6 bars, labels ≤ 12 chars, display ≤ 10 chars, the highlighted (last) bar is the key value. Every value must come from the sources. Keep `dataFigure` short (≤ 10 chars, e.g. "2,2 juta", "74%", "US$365 jt").
+- `en`: the English version for readers of /review (English site). Same facts, numbers, sources and structure as the Indonesian text — a faithful translation, not a new article. Fields: `title`, `dek`, `summaryHtml`, `analysisHtml`, `actionHtml`, `faqHtml`, `dataFigure` (English number format, e.g. "2.2 million", "US$365M"), `dataLabel`, `dataSource`, `seoTitle` (≤ 60), `seoDescription` (≤ 155), `audience` (English role names), and `chart` (same bars as `chart`, English `label`/`display`) when `chart` is set. Direct quotes become English paraphrase with attribution unless the original quote was in English. `make_images.py` renders `images/<slug>-en.png` and sets `en.heroImage`.
 - `sources`: 2–5 entries `{name, title, url, date}`; URLs must be ones you actually opened.
 - `seoTitle` ≤ 60 chars, `seoDescription` ≤ 155 chars, both in Indonesian with the main keyword.
 - `slug`: lowercase Indonesian keywords, hyphens, ≤ 80 chars, unique.
@@ -44,7 +45,7 @@ There is no human review. Nobody approves articles and nobody is notified. Quali
 
 ## Publishing rules (non-negotiable)
 
-1. **Facts only from sources.** Every number, date, person, company and quote must appear in a source you opened. If two sources disagree, say so.
+1. **Facts only from sources** (in both languages). Every number, date, person, company and quote must appear in a source you opened. If two sources disagree, say so.
 2. **Quotation, not copying.** At most one direct quote per source, under 15 words, in quotation marks with attribution. Everything else in your own words. Do not mirror the source article's structure.
 3. **Original analysis ≥ half** of the article text (analysisHtml + actionHtml + faqHtml vs summaryHtml).
 4. **Breach victims:** name a company as a victim of a breach or leak only if the company itself or a regulator/authority confirmed it. Otherwise write "sebuah perusahaan [sektor]" and attribute the claim ("menurut klaim kelompok peretas…").
