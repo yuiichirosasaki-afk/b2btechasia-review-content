@@ -1,0 +1,62 @@
+{
+  "slug": "perpres-ai-etika-peta-jalan-yang-perlu-disiapkan-perusahaan",
+  "title": "Perpres AI Tinggal Menunggu Tanda Tangan: 5 Hal yang Perlu Disiapkan Perusahaan dari Sekarang",
+  "category": "Regulasi",
+  "articleType": "penjelasan",
+  "dek": "Dua rancangan Peraturan Presiden tentang AI, yaitu Peta Jalan AI Nasional 2026–2029 dan Etika AI, telah rampung dibahas lintas kementerian. Perusahaan yang memakai AI untuk data pribadi, layanan publik, atau keputusan berdampak besar sebaiknya bersiap sebelum aturan teknisnya terbit.",
+  "summaryHtml": "<ul><li>Komdigi bersama kementerian lintas sektor menyelesaikan pembahasan RPerpres Etika Kecerdasan Artifisial dan RPerpres Peta Jalan Kecerdasan Artifisial Nasional 2026&ndash;2029 pada 5 Mei 2026. (JDIH Komdigi)</li><li>Pada 3 September 2026, Dirjen Ekosistem Digital Komdigi Edwin Hidayat Abdullah menyebut kedua Perpres tinggal menunggu tanda tangan Presiden. Hingga artikel ini ditulis pada 15 November 2026, redaksi belum menemukan laporan bahwa keduanya telah ditandatangani. (Selular.ID)</li><li>Menkomdigi Meutya Hafid menyatakan Komdigi menyiapkan aturan payung, sementara aturan teknis disusun oleh masing-masing sektor. Peta jalan memuat 10 sektor prioritas, termasuk kesehatan, pendidikan, serta ekonomi dan keuangan. (detikInet)</li><li>Rancangan Perpres Etika AI membagi risiko AI ke dalam tiga kategori: rendah, tinggi, dan tidak dapat diterima. Sistem berisiko tinggi wajib menjalani penilaian risiko sejak tahap desain, dan konten buatan AI direncanakan wajib diberi label. (Katadata)</li><li>Komdigi mempertahankan ketentuan yang mewajibkan pelaporan seluruh jenis insiden operasional AI, tanpa memandang skala risikonya. (Bisnis.com)</li></ul>",
+  "analysisHtml": "<h3>Siapa yang paling terdampak</h3><p>Menurut rancangan yang dilaporkan, sistem berisiko tinggi adalah AI yang memakai data pribadi tertentu atau berdampak besar pada hak asasi, keselamatan, dan layanan publik penting. Kategori ini kemungkinan mencakup penilaian kredit, rekrutmen, layanan kesehatan, dan verifikasi identitas. Perusahaan di sektor keuangan, kesehatan, dan telekomunikasi perlu memperhatikannya lebih dulu.</p><h3>Kewajiban pelaporan insiden sering terlewat</h3><p>Banyak perusahaan sudah punya prosedur insiden keamanan siber, tetapi belum punya prosedur untuk insiden AI, misalnya chatbot yang memberi informasi keliru atau model yang menolak nasabah secara tidak wajar. Jika semua insiden operasional AI wajib dilaporkan, perusahaan perlu mendefinisikan apa yang dihitung sebagai insiden dan siapa yang bertanggung jawab melaporkannya.</p><h3>Aturan sektoral akan menentukan detailnya</h3><p>Perpres hanya menjadi payung. Detail teknis dan sanksi akan datang dari regulator sektor, seperti OJK untuk jasa keuangan, serta peraturan menteri Komdigi untuk pelabelan konten. Perusahaan yang menunggu aturan sektoral terbit baru bergerak akan memiliki waktu persiapan yang sempit.</p>",
+  "actionHtml": "<h3>5 hal yang perlu disiapkan perusahaan</h3><ol><li><strong>Inventarisasi sistem AI</strong> dan klasifikasikan masing-masing ke kategori risiko rendah, tinggi, atau tidak dapat diterima.</li><li><strong>Penilaian risiko sejak desain</strong> untuk sistem yang memakai data pribadi atau memengaruhi keputusan penting tentang orang.</li><li><strong>Label dan transparansi</strong>: siapkan cara memberi tahu pengguna bahwa mereka berinteraksi dengan AI dan menandai konten buatan AI.</li><li><strong>Prosedur insiden AI</strong>: definisi insiden, jalur eskalasi, dan penanggung jawab pelaporan.</li><li><strong>Pemantauan regulasi sektor</strong>: tunjuk satu pemilik yang memantau aturan turunan dari Komdigi dan regulator sektor Anda.</li></ol><h3>Untuk penyedia solusi</h3><p>Fitur yang mendukung kepatuhan, seperti log audit, penjelasan keputusan model, dan pelabelan otomatis, akan menjadi syarat dalam pengadaan enterprise setelah Perpres berlaku.</p>",
+  "faqHtml": "<h3>Apakah Perpres AI sudah berlaku?</h3><p>Hingga 15 November 2026, redaksi belum menemukan laporan bahwa kedua Perpres telah ditandatangani. Komdigi menyatakan keduanya tinggal menunggu tanda tangan Presiden.</p><h3>Apakah ada sanksi?</h3><p>Rencana sanksi untuk pelanggaran pelabelan konten AI akan diatur dalam peraturan menteri yang terpisah. Detailnya belum diterbitkan.</p>",
+  "dataFigure": "3",
+  "dataLabel": "kategori risiko AI dalam rancangan Perpres Etika AI: rendah, tinggi, tidak dapat diterima",
+  "dataSource": "Rancangan Perpres Etika AI, sebagaimana dilaporkan Katadata, Agustus 2026",
+  "audience": [
+    "Direksi",
+    "Legal dan kepatuhan",
+    "CIO / CDO"
+  ],
+  "tags": [
+    "Perpres AI",
+    "Etika AI",
+    "Komdigi",
+    "Regulasi",
+    "Kepatuhan"
+  ],
+  "sources": [
+    {
+      "name": "JDIH Komdigi",
+      "title": "Pembahasan RPerpres Etika KA dan Peta Jalan KA Nasional selesai",
+      "url": "https://jdih.komdigi.go.id/berita/view/116",
+      "date": "2026-05-05"
+    },
+    {
+      "name": "Selular.ID",
+      "title": "Dua Perpres AI Tunggu Tanda Tangan Presiden Prabowo",
+      "url": "https://selular.id/2026/09/dua-perpres-ai-tunggu-tanda-tangan-presiden-prabowo/",
+      "date": "2026-09-03"
+    },
+    {
+      "name": "detikInet",
+      "title": "Tak Mau AI Lepas Kendali, Pemerintah Pastikan Perpres AI Terbit Tahun Ini",
+      "url": "https://inet.detik.com/law-and-policy/d-8529010/tak-mau-ai-lepas-kendali-pemerintah-pastikan-perpres-ai-terbit-tahun-ini",
+      "date": "2026-06-12"
+    },
+    {
+      "name": "Katadata",
+      "title": "Bocoran Aturan AI yang Segera Terbit: Label, MBG, Tiga Tingkat Risiko",
+      "url": "https://katadata.co.id/digital/teknologi/6a7568af9df16/bocoran-perpres-ai-yang-segera-terbit-label-mbg-tiga-tingkat-risiko",
+      "date": "2026-08-07"
+    },
+    {
+      "name": "Bisnis.com",
+      "title": "Jawab Keraguan AS, Komdigi Pastikan Prinsip Etika AI Mengacu Standar Internasional",
+      "url": "https://teknologi.bisnis.com/read/20260618/84/1981574/jawab-keraguan-as-komdigi-pastikan-prinsip-etika-ai-mengacu-standar-internasional/All",
+      "date": "2026-06-18"
+    }
+  ],
+  "seoTitle": "Perpres AI: 5 Hal yang Perlu Disiapkan Perusahaan",
+  "seoDescription": "Perpres Etika AI dan Peta Jalan AI tinggal menunggu tanda tangan. Ini kategori risiko, kewajiban label, dan langkah persiapan bagi perusahaan.",
+  "publishAt": "2026-11-15T14:30:00+07:00",
+  "language": "id"
+}

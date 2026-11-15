@@ -1,0 +1,56 @@
+{
+  "slug": "equinix-jk1-phase-2-kapasitas-data-center-jakarta",
+  "title": "Equinix Tambah 1.125 Kabinet di JK1 Jakarta: Kapasitas Data Center Siap AI Mulai Jadi Rebutan",
+  "category": "Cloud & Data Center",
+  "articleType": "berita",
+  "dek": "Equinix meresmikan JK1 Phase 2 di Jakarta dengan tambahan sekitar 1.125 kabinet berpendingin cair. Equinix memperkirakan sebagian besar ruang data hall terisi dalam enam bulan. Bagi perusahaan yang berencana menjalankan beban kerja AI, ini sinyal untuk mengamankan kapasitas lebih awal.",
+  "summaryHtml": "<ul><li>Equinix meresmikan JK1 Phase 2 di Jakarta pada 10 November 2026. Ekspansi ini menambah sekitar 1.125 kabinet sehingga total JK1 mencapai sekitar 1.660 kabinet. Belanja modal tahap ini diperkirakan US$39 juta, dan total komitmen investasi Equinix di Indonesia menjadi US$94 juta. (Bisnis.com)</li><li>JK1 Phase 2 dilengkapi kapasitas siap AI dengan pendingin cair (liquid cooling) dan ditargetkan beroperasi pada kuartal IV/2026. (Bisnis.com)</li><li>Managing Director Equinix Indonesia Haris Izmee memperkirakan sebagian besar data hall akan terisi dalam enam bulan. Permintaan datang dari AI, minyak dan gas, pertambangan, serta perbankan. (Fortune IDN)</li><li>Menurut Haris, &ldquo;AI mendorong permintaan akan infrastruktur siap AI yang saling terkoneksi dan berdekatan dengan cloud.&rdquo; JK1 terhubung ke AWS, Microsoft Azure, Google Cloud, dan Alibaba Cloud. (Katadata)</li><li>Komdigi menyebut kapasitas pusat data Indonesia saat ini sekitar 600 MW. Wamenkomdigi Nezar Patria membandingkannya dengan Malaysia, yang menurutnya sudah mencapai sekitar 3 GW. (Katadata, Fortune IDN)</li></ul>",
+  "analysisHtml": "<h3>Yang penting bukan jumlah kabinet, melainkan pendingin cair</h3><p>Server GPU untuk AI menghasilkan panas jauh lebih besar per rak dibanding server biasa. Pendingin udara konvensional sulit menanganinya. Karena itu, label &ldquo;siap AI&rdquo; pada JK1 Phase 2 lebih bermakna daripada angka 1.125 kabinet. Tidak semua fasilitas di Jakarta mampu menampung rak AI berdaya tinggi.</p><h3>Kapasitas bisa habis lebih cepat dari rencana TI perusahaan</h3><p>Perkiraan bahwa data hall terisi dalam enam bulan menunjukkan permintaan sudah ada sebelum gedung beroperasi. Permintaan juga tidak hanya dari perusahaan AI, tetapi dari sektor tradisional seperti pertambangan dan perbankan. Perusahaan yang baru mulai merencanakan beban kerja AI tahun depan bisa mendapati kapasitas siap AI di lokasi strategis sudah dipesan pihak lain.</p><h3>600 MW versus 3 GW: Indonesia masih mengejar Malaysia</h3><p>Selisih kapasitas dengan Malaysia menjelaskan mengapa sebagian beban kerja regional dilayani dari Johor. Namun, aturan kedaulatan dan lokasi data mendorong banyak perusahaan Indonesia menjalankan beban kerja sensitif di dalam negeri. Kedua faktor ini membuat kapasitas domestik yang siap AI menjadi aset yang langka dalam dua sampai tiga tahun ke depan.</p>",
+  "actionHtml": "<h3>Untuk CIO dan kepala infrastruktur</h3><ol><li>Petakan beban kerja AI yang wajib berada di Indonesia karena alasan data pribadi atau regulasi sektor.</li><li>Hitung kebutuhan rak berdaya tinggi untuk 12&ndash;24 bulan ke depan, lalu bicarakan reservasi kapasitas lebih awal.</li><li>Rancang konektivitas langsung ke penyedia cloud yang sudah dipakai untuk menekan latensi dan biaya transfer data.</li><li>Minta bukti klaim keberlanjutan, seperti sistem pendingin tertutup dan sumber energi, untuk kebutuhan pelaporan ESG.</li></ol><h3>Untuk penyedia solusi</h3><p>Peluang terbesar ada pada layanan yang mengurangi beban perusahaan untuk membangun sendiri: GPU sebagai layanan, migrasi beban kerja ke colocation, manajemen jaringan hybrid cloud, serta dukungan teknis untuk sistem pendingin cair.</p>",
+  "faqHtml": "<h3>Kapan JK1 Phase 2 mulai beroperasi?</h3><p>Equinix menargetkan JK1 Phase 2 beroperasi pada kuartal IV/2026.</p><h3>Berapa total investasi Equinix di Indonesia?</h3><p>Dengan ekspansi ini, total komitmen investasi Equinix di Indonesia menjadi US$94 juta.</p>",
+  "dataFigure": "1.125",
+  "dataLabel": "kabinet baru berpendingin cair di Equinix JK1 Phase 2",
+  "dataSource": "Equinix, peluncuran JK1 Phase 2, 10 November 2026",
+  "audience": [
+    "CIO",
+    "Kepala infrastruktur",
+    "Penyedia cloud dan colocation"
+  ],
+  "tags": [
+    "Equinix",
+    "Data center",
+    "Liquid cooling",
+    "Komdigi",
+    "AI infrastructure"
+  ],
+  "sources": [
+    {
+      "name": "Bisnis.com",
+      "title": "Equinix Ekspansi Data Center JK1, Tambah Kapasitas 1.125 Kabinet",
+      "url": "https://teknologi.bisnis.com/read/20261110/101/2020077/equinix-ekspansi-data-center-jk1-tambah-kapasitas-1125-kabinet",
+      "date": "2026-11-10"
+    },
+    {
+      "name": "Bisnis.com",
+      "title": "Equinix Buka Peluang Ekspansi Data Center ke Luar Jakarta",
+      "url": "https://teknologi.bisnis.com/read/20261110/84/2020115/equinix-buka-peluang-ekspansi-data-center-ke-luar-jakarta",
+      "date": "2026-11-10"
+    },
+    {
+      "name": "Katadata",
+      "title": "Equinix Investasi Rp 1,7 Triliun untuk Tambah Kapasitas Data Center di Jakarta",
+      "url": "https://katadata.co.id/digital/teknologi/6af2f23f0582b/equinix-investasi-rp-1-7-triliun-untuk-tambah-kapasitas-data-center-di-jakarta",
+      "date": "2026-11-10"
+    },
+    {
+      "name": "Fortune IDN",
+      "title": "Equinix Ekspansi Data Center JK1, Tambah Kapasitas 1.125 Kabinet",
+      "url": "https://www.fortuneidn.com/tech/equinix-ekspansi-data-center-jk1-tambah-kapasitas-1-125-kabinet-00-6cmtl-0pzb78",
+      "date": "2026-11-10"
+    }
+  ],
+  "seoTitle": "Equinix JK1 Phase 2: Data Center Siap AI di Jakarta",
+  "seoDescription": "Equinix menambah 1.125 kabinet berpendingin cair di JK1 Jakarta. Apa artinya bagi perusahaan yang merencanakan beban kerja AI di Indonesia.",
+  "publishAt": "2026-11-15T10:00:00+07:00",
+  "language": "id"
+}

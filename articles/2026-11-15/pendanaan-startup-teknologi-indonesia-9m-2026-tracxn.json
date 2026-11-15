@@ -1,0 +1,50 @@
+{
+  "slug": "pendanaan-startup-teknologi-indonesia-9m-2026-tracxn",
+  "title": "Pendanaan Teknologi Indonesia Naik 111%, tetapi Satu Kesepakatan Menyumbang 74%",
+  "category": "Deals",
+  "articleType": "berita",
+  "dek": "Laporan Tracxn mencatat pendanaan perusahaan teknologi Indonesia mencapai US$365 juta pada Januari–September 2026. Kenaikannya hampir seluruhnya berasal dari putaran Seri C Ajaib. Di bawah permukaan, jumlah putaran, investor, dan pendanaan tahap awal justru menyusut tajam.",
+  "summaryHtml": "<ul><li>Menurut laporan Tracxn &ldquo;Indonesia Tech &ndash; 9M 2026&rdquo;, total pendanaan perusahaan teknologi Indonesia mencapai US$365 juta, naik 111% dari US$173 juta pada periode yang sama 2025. Jumlah putaran turun 56% menjadi 14. (Katadata)</li><li>Ajaib meraih US$270 juta dalam putaran Seri C pada Agustus 2026 bersama SBI Group, setara sekitar 74% dari total pendanaan sembilan bulan. Waresix memperoleh US$27 juta (Seri B) dan Green Rebel US$13 juta (Seri A). (Katadata)</li><li>Pendanaan tahap akhir mencapai US$280 juta atau 77% dari total. Pendanaan tahap awal turun 16% menjadi US$83 juta, dan pendanaan seed anjlok 92% menjadi US$2 juta dari hanya 4 putaran. (Katadata)</li><li>Investor aktif turun menjadi 27, terdiri dari 20 investor asing dan 7 domestik. Tidak ada IPO perusahaan teknologi dan hanya satu akuisisi, yaitu NOBI oleh Bybit. (Katadata)</li><li>Di tingkat Asia Tenggara, pendanaan teknologi naik 176% menjadi US$13,5 miliar, sementara jumlah putaran turun 28% menjadi 189. Kenaikan juga terkonsentrasi pada beberapa kesepakatan besar. (TechNode Global)</li></ul>",
+  "analysisHtml": "<h3>Tanpa Ajaib, pendanaan justru turun</h3><p>Jika putaran Ajaib dikeluarkan, pendanaan teknologi Indonesia sembilan bulan pertama 2026 hanya sekitar US$95 juta, sekitar 45% lebih rendah dari US$173 juta tahun lalu (hitungan redaksi). Angka utama &ldquo;naik 111%&rdquo; menggambarkan satu kesepakatan besar, bukan pemulihan pasar secara luas.</p><h3>Seed hampir hilang, pipa startup B2B menipis</h3><p>Putaran seed turun dari 23 menjadi 4. Artinya, jauh lebih sedikit perusahaan perangkat lunak baru yang lahir dengan modal ventura tahun ini. Bagi perusahaan pembeli, pilihan vendor lokal baru akan lebih sedikit. Bagi vendor yang sudah ada, persaingan dari pendatang baru berkurang, tetapi akses ke modal untuk ekspansi juga lebih sulit.</p><h3>Modal asing mendominasi</h3><p>Dengan 20 dari 27 investor berasal dari luar negeri, arah pendanaan sangat dipengaruhi minat investor regional dan global. Pola Asia Tenggara yang sama, yaitu nilai naik tetapi jumlah transaksi turun, menunjukkan investor memilih sedikit perusahaan yang dianggap paling kuat.</p>",
+  "actionHtml": "<h3>Untuk perusahaan yang membeli solusi dari startup</h3><ol><li>Tambahkan pemeriksaan kesehatan keuangan vendor, termasuk sisa runway dan sumber pendanaan, ke proses pengadaan.</li><li>Pastikan kontrak memuat hak ekspor data dan rencana kelanjutan layanan jika vendor berhenti beroperasi.</li><li>Pertimbangkan kontrak jangka lebih panjang dengan vendor yang sehat sebagai posisi tawar harga.</li></ol><h3>Untuk startup dan penyedia solusi B2B</h3><p>Dengan pendanaan tahap awal yang menipis, pendapatan dari kontrak enterprise menjadi sumber pertumbuhan yang paling realistis. Studi kasus dengan pelanggan korporasi dan rekam jejak kepatuhan akan lebih meyakinkan investor maupun pembeli.</p>",
+  "faqHtml": "<h3>Mengapa pendanaan naik padahal jumlah transaksi turun?</h3><p>Karena satu putaran besar, yaitu Seri C Ajaib senilai US$270 juta, menyumbang sekitar 74% dari total pendanaan sembilan bulan pertama 2026.</p>",
+  "dataFigure": "74%",
+  "dataLabel": "porsi putaran Ajaib dari total pendanaan teknologi Indonesia Januari–September 2026",
+  "dataSource": "Tracxn, Indonesia Tech – 9M 2026, via Katadata",
+  "audience": [
+    "Pengadaan / Procurement",
+    "Founder B2B",
+    "Investor"
+  ],
+  "tags": [
+    "Tracxn",
+    "Pendanaan startup",
+    "Ajaib",
+    "Waresix",
+    "Venture capital"
+  ],
+  "sources": [
+    {
+      "name": "Katadata",
+      "title": "Jumlah Investor yang Berinvestasi di Startup Indonesia Berkurang, IPO Juga Lesu",
+      "url": "https://katadata.co.id/digital/startup/6ae19792d25d5/jumlah-investor-yang-berinvestasi-di-startup-indonesia-berkurang-ipo-juga-lesu",
+      "date": "2026-10-28"
+    },
+    {
+      "name": "TechNode Global",
+      "title": "Southeast Asia tech funding jumps 176% to $13.5B, 3 deals drive growth: Tracxn",
+      "url": "https://technode.global/2026/10/05/southeast-asia-tech-funding-jumps-176-to-13-5b-3-deals-drive-growth-tracxn/",
+      "date": "2026-10-05"
+    },
+    {
+      "name": "FinTech Global",
+      "title": "SBI invests $270m in Indonesia's Ajaib in record round",
+      "url": "https://fintech.global/2026/08/31/sbi-invests-270m-in-indonesias-ajaib-in-record-round/",
+      "date": "2026-08-31"
+    }
+  ],
+  "seoTitle": "Pendanaan Startup Indonesia 9M 2026 Naik 111% Berkat Ajaib",
+  "seoDescription": "Tracxn: pendanaan teknologi Indonesia naik 111% ke US$365 juta, tetapi 74% dari Ajaib. Seed anjlok 92%. Ini artinya bagi pembeli dan vendor B2B.",
+  "publishAt": "2026-11-15T16:00:00+07:00",
+  "language": "id"
+}

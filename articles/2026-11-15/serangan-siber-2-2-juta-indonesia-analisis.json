@@ -1,0 +1,77 @@
+{
+  "slug": "serangan-siber-2-2-juta-indonesia-analisis",
+  "title": "2,2 Juta Serangan Siber ke Indonesia dalam 24 Jam: Membaca Angka di Balik Kepanikan",
+  "category": "Cybersecurity",
+  "articleType": "analisis",
+  "dek": "Jumlah percobaan serangan siber ke Indonesia di dashboard FortiGuard Labs naik dari sekitar 350.600 menjadi 2,2 juta dalam tiga hari. Angka itu nyata, tetapi bukan jumlah sistem yang jebol. Risiko terbesar bagi perusahaan justru ada di tempat lain.",
+  "summaryHtml": "<ul><li>Dashboard FortiGuard Labs mencatat sekitar 350.600 percobaan serangan dalam 24 jam per 7 November 2026, sekitar 657.000 pada 8 November, sekitar 1,6 juta pada 9 November, dan sekitar 2,2 juta dalam 24 jam hingga 10 November pukul 07.30 WIB. Sekitar 1 juta di antaranya menyasar sektor keuangan. (Bisnis.com, Gebrak.id, Fortune IDN, Katadata)</li><li>Alfons Tanujaya dari Vaksincom menjelaskan bahwa angka tersebut adalah upaya serangan yang terdeteksi dan diblokir sensor Fortinet, &ldquo;bukan jumlah sistem yang berhasil dibobol&rdquo;. (Bisnis.com)</li><li>BSSN menerbitkan Security Advisory pada 8 November. Ancaman yang beredar dikaitkan dengan penolakan terhadap SPP-TDLN, kebijakan pajak transaksi digital luar negeri, dan belum terverifikasi. (Katadata)</li><li>Komdigi mengirim tiga surat imbauan pada 9 November kepada pengguna PDN dan Cloud Pemerintah, pengelola domain instansi, serta PSE lingkup publik. Aries Kusdaryono menegaskan, &ldquo;Kita tidak boleh mengabaikan potensi risiko ancaman serangan tersebut.&rdquo; (Katadata)</li><li>OJK dan BI mengaktifkan Tim Tanggap Insiden Siber (TTIS) dan meminta bank menahan transaksi yang anomali untuk diverifikasi. (The Star / The Jakarta Post)</li></ul>",
+  "analysisHtml": "<h3>1. Angka dashboard adalah telemetri satu vendor, bukan jumlah insiden</h3><p>Dashboard FortiGuard menghitung lalu lintas mencurigakan yang terlihat oleh sensor Fortinet. Besar kecilnya angka dipengaruhi jumlah perangkat yang terpasang dan cara log dihitung. Angka ini lebih tepat dibaca sebagai &ldquo;suhu&rdquo; internet Indonesia, bukan daftar korban. Lonjakan enam kali lipat dalam tiga hari biasanya berarti pemindaian otomatis sedang meningkat tajam.</p><h3>2. Separuh serangan memakai celah lama dari tahun 2021</h3><p>Pada 9 November, serangan yang memanfaatkan celah Apache Log4j tercatat sekitar 774.000 kali, atau 53% dari total. Log4j adalah kerentanan yang diumumkan pada akhir 2021. Sebagian besar lalu lintas ini adalah pemindaian massal yang mencari server yang belum ditambal, bukan serangan canggih yang menargetkan satu bank.</p><h3>3. Masalah sebenarnya: 96,7% server .co.id yang terdeteksi memakai PHP kedaluwarsa</h3><p>Pemindaian Vaksincom per 23 Oktober 2026 menemukan 4.650 server .co.id yang versi PHP-nya terbaca. Sebanyak 4.495 di antaranya (96,7%) memakai versi yang sudah tidak mendapat pembaruan keamanan. Hanya 0,2% server PHP yang terdeteksi sudah menambal celah kritis PHP2Shell. Situs perusahaan, portal pelanggan, dan sistem lama yang terhubung ke internet adalah pintu masuk yang paling mungkin.</p><h3>4. Pola hacktivisme: yang diincar perhatian publik, bukan uang</h3><p>Senjata khas hacktivis adalah DDoS dan deface pada target yang terlihat publik. Sistem inti perbankan jarang menjadi korban kampanye semacam ini. Namun, aplikasi dan situs yang menghadap publik bisa terganggu, dan itu cukup untuk merusak reputasi.</p><h3>5. Gelombang kedua: penipuan yang menunggangi kepanikan</h3><p>Berita besar soal serangan siber biasanya diikuti phishing yang menyamar sebagai pemberitahuan bank. Bank Indonesia sebelumnya memproyeksikan kerugian akibat serangan siber di Indonesia mencapai sekitar US$6,2 miliar pada 2026.</p>",
+  "actionHtml": "<h3>Untuk CIO dan CISO</h3><ol><li>Inventarisasi semua sistem yang menghadap internet, termasuk subdomain yang terlupakan.</li><li>Perbarui PHP, Java (Log4j), dan CMS yang kedaluwarsa, mulai dari sistem yang menyimpan data pelanggan.</li><li>Aktifkan proteksi DDoS dan WAF pada situs dan API publik.</li><li>Wajibkan MFA untuk semua akun administrator.</li><li>Uji pemulihan dari backup, bukan hanya memastikan backup ada.</li><li>Siapkan pesan resmi untuk pelanggan agar penipu tidak mengisi kekosongan informasi.</li></ol><p>OJK sudah mewajibkan bank menjalankan uji penetrasi, simulasi serangan, dan audit teknologi secara rutin. RUU Keamanan dan Ketahanan Siber juga masuk Prolegnas Prioritas 2026. Keamanan siber kini menjadi urusan direksi.</p><h3>Untuk penyedia solusi keamanan</h3><p>Kebutuhan paling mendesak ada di empat area: modernisasi aplikasi web dan patch management, proteksi DDoS dan WAF, SOC dan Managed Detection &amp; Response, serta anti-fraud dan edukasi phishing. Pendekatan yang efektif bukan menakut-nakuti dengan angka 2,2 juta, melainkan menawarkan pemeriksaan cepat atas sistem yang menghadap internet.</p>",
+  "faqHtml": "<h3>Apakah 2,2 juta serangan berarti 2,2 juta sistem diretas?</h3><p>Tidak. Angka itu adalah percobaan serangan yang terdeteksi dan diblokir sensor FortiGuard Labs dalam 24 jam.</p><h3>Apakah dana nasabah bank aman?</h3><p>OJK dan BI telah mengaktifkan tim tanggap insiden. Nasabah diminta tetap bertransaksi seperti biasa melalui kanal resmi bank.</p><h3>Apa langkah pertama yang perlu dilakukan perusahaan?</h3><p>Periksa dan perbarui semua sistem yang menghadap internet, terutama yang memakai PHP, Java, atau CMS versi lama.</p>",
+  "dataFigure": "2,2 juta",
+  "dataLabel": "percobaan serangan siber ke Indonesia dalam 24 jam",
+  "dataSource": "Dashboard FortiGuard Labs, snapshot 24 jam per 10 November 2026",
+  "audience": [
+    "CIO / CISO",
+    "Direksi",
+    "Perbankan",
+    "Vendor keamanan"
+  ],
+  "tags": [
+    "FortiGuard",
+    "BSSN",
+    "OJK",
+    "Komdigi",
+    "Perbankan",
+    "DDoS",
+    "PHP EOL"
+  ],
+  "sources": [
+    {
+      "name": "Bisnis.com",
+      "title": "RI Digempur 350.600 Percobaan Serangan Siber, Pakar Bilang Begini",
+      "url": "https://teknologi.bisnis.com/read/20261109/84/2019498/ri-digempur-350600-percobaan-serangan-siber-pakar-bilang-begini",
+      "date": "2026-11-09"
+    },
+    {
+      "name": "Katadata",
+      "title": "Komdigi Terbitkan Tiga Surat Imbauan Antisipasi Serangan Hacker ke Pemerintah",
+      "url": "https://katadata.co.id/digital/teknologi/6af3052abb008/komdigi-terbitkan-tiga-surat-imbauan-antisipasi-serangan-hacker-ke-pemerintah",
+      "date": "2026-11-10"
+    },
+    {
+      "name": "Katadata",
+      "title": "Komdigi Minta Instansi Pemerintah Waspada Ancaman Serangan Hacker",
+      "url": "https://katadata.co.id/digital/teknologi/6af3003ae8088/komdigi-minta-instansi-pemerintah-waspada-ancaman-serangan-hacker",
+      "date": "2026-11-10"
+    },
+    {
+      "name": "The Star / The Jakarta Post",
+      "title": "Indonesian banks face surge in cyberattacks",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/09/indonesian-banks-face-surge-in-cyberattacks-with-12-million-attempts-in-24-hours",
+      "date": "2026-11-09"
+    },
+    {
+      "name": "Gebrak.id",
+      "title": "657.000 Serangan Siber Hantam Indonesia dalam 24 Jam",
+      "url": "https://www.gebrak.id/?p=62159",
+      "date": "2026-11-08"
+    },
+    {
+      "name": "Journal Arta",
+      "title": "Serangan Siber Indonesia Capai 1,6 Juta dalam 24 Jam",
+      "url": "https://journalarta.com/news/2026/11/09/serangan-siber-indonesia-16-juta-24-jam/?jpage=2",
+      "date": "2026-11-09"
+    },
+    {
+      "name": "Indonesia Business Post",
+      "title": "Bank Indonesia projects cyberattack losses to surpass Rp110T in 2026",
+      "url": "https://indonesiabusinesspost.com/7446/cyber-and-espionage/bank-indonesia-projects-cyberattack-losses-to-surpass-rp110t-in-2026",
+      "date": "2026-09-24"
+    }
+  ],
+  "seoTitle": "2,2 Juta Serangan Siber ke Indonesia: Apa Artinya bagi Bank",
+  "seoDescription": "Angka FortiGuard melonjak dari 350 ribu ke 2,2 juta dalam tiga hari. Ini yang sebenarnya terjadi dan langkah yang perlu diambil perusahaan.",
+  "publishAt": "2026-11-15T09:00:00+07:00",
+  "language": "id"
+}

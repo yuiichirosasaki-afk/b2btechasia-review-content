@@ -1,0 +1,51 @@
+{
+  "slug": "bank-indonesia-adopsi-ai-tata-kelola-4-persen",
+  "title": "88% Bank Sudah Menjajal AI, Baru 4% Punya Tata Kelola Formal: Celah yang Disorot BI",
+  "category": "Enterprise Adoption",
+  "articleType": "berita",
+  "dek": "Studi IBM dan Perbanas menemukan hampir semua bank di Indonesia sudah menjajal AI, tetapi hanya 4% yang memasukkannya ke tata kelola perusahaan secara formal. Bank Indonesia mengingatkan risiko yang belum ada di buku manual risiko lama, termasuk perilaku seragam agen AI.",
+  "summaryHtml": "<ul><li>Studi IBM dan Perbanas menunjukkan 88% bank di Indonesia sudah menjajal teknologi AI, sementara 12% belum memulai. Hanya 4% yang telah mengintegrasikan AI secara formal ke tata kelola perusahaan. (Indonesia Business Post)</li><li>Temuan ini dirilis bersama white paper &ldquo;Digital Sovereign AI and the Future of Trusted Banking&rdquo; dari IBM, Perbanas, dan Kiantara &amp; Associates pada 27 Oktober 2026. (Indonesia Business Post)</li><li>Managing Partner IBM Consulting Indonesia Juvanus Tjandra menilai penerapan AI di industri masih terfragmentasi dan banyak bank belum punya arsitektur terpusat. Penggunaan masih terkonsentrasi di layanan nasabah seperti chatbot. (Indonesia Business Post)</li><li>Ricky Satria dari Bank Indonesia mengingatkan penipuan dengan suara dan wajah sintetis, serta serangan yang kini berlangsung dalam hitungan jam. &ldquo;Serangan sangat cepat, bukan lagi berminggu-minggu,&rdquo; ujarnya. (Katadata)</li><li>BI juga menyoroti risiko herding: banyak agen AI yang memakai model dan penyedia cloud yang sama bisa memberi rekomendasi serupa pada saat bersamaan. BI mendorong bank memegang kendali penuh atas AI yang dipakai. (Katadata)</li></ul>",
+  "analysisHtml": "<h3>AI masuk lewat pintu depan, tata kelola tertinggal di belakang</h3><p>Selisih antara 88% dan 4% menunjukkan pola yang umum: AI pertama kali dipakai di chatbot dan layanan nasabah karena cepat terlihat hasilnya. Tata kelola baru dipikirkan setelah penggunaan menyebar. Di bank, urutan ini berisiko karena model AI yang menyentuh data nasabah dan keputusan kredit tunduk pada pengawasan ketat.</p><h3>Herding adalah risiko baru yang belum ada di manual risiko lama</h3><p>Manajemen risiko tradisional menilai satu model pada satu bank. Risiko herding muncul dari banyak bank yang memakai model dan sumber data yang sama. Jika model keliru, kesalahannya terjadi serentak. Karena itu, keragaman penyedia dan kemampuan mematikan agen AI dengan cepat akan menjadi bagian dari pengawasan.</p><h3>Sovereign AI akan mengubah cara bank membeli teknologi</h3><p>Dorongan BI agar bank memegang kendali penuh atas AI berarti preferensi pada model yang bisa dijalankan di infrastruktur sendiri atau di dalam negeri. BNI, misalnya, sudah mengembangkan AI generatif secara on-premise berbasis model open-source bersama Cloudera. Vendor yang hanya menawarkan layanan dari luar negeri akan menghadapi pertanyaan lebih banyak dalam proses pengadaan.</p>",
+  "actionHtml": "<h3>Untuk bank dan perusahaan jasa keuangan</h3><ol><li>Buat daftar seluruh sistem AI yang dipakai, termasuk yang dibeli unit bisnis secara terpisah.</li><li>Masukkan model AI ke kerangka manajemen risiko model, lengkap dengan pemilik, pengujian, dan pemantauan.</li><li>Batasi hak akses agen AI ke data dan transaksi nasabah, serta siapkan tombol darurat untuk menghentikannya.</li><li>Tinjau ketergantungan pada satu penyedia model atau cloud.</li></ol><h3>Untuk penyedia solusi</h3><p>Kebutuhan terbesar ada pada perangkat tata kelola AI, pemantauan model, deteksi deepfake untuk verifikasi nasabah, dan penerapan AI di infrastruktur lokal yang memenuhi tuntutan kedaulatan data.</p>",
+  "faqHtml": "<h3>Apa itu risiko herding dalam AI?</h3><p>Risiko ketika banyak sistem AI memakai model dan data yang sama sehingga mengambil keputusan serupa pada saat bersamaan. Dalam kondisi pasar tertekan, hal ini dapat memperbesar guncangan.</p>",
+  "dataFigure": "4%",
+  "dataLabel": "bank di Indonesia yang sudah mengintegrasikan AI secara formal ke tata kelola perusahaan",
+  "dataSource": "Studi IBM dan Perbanas, Oktober 2026",
+  "audience": [
+    "Direksi bank",
+    "CRO / Manajemen risiko",
+    "Vendor AI dan keamanan"
+  ],
+  "tags": [
+    "Perbankan",
+    "IBM",
+    "Perbanas",
+    "Bank Indonesia",
+    "Tata kelola AI",
+    "Sovereign AI"
+  ],
+  "sources": [
+    {
+      "name": "Indonesia Business Post",
+      "title": "Indonesia lags behind AI banking adoption prompting new framework, study says",
+      "url": "https://indonesiabusinesspost.com/7696/markets-and-finance/indonesia-lags-behind-ai-banking-adoption-prompting-new-framework-study-says",
+      "date": "2026-10-29"
+    },
+    {
+      "name": "Katadata",
+      "title": "BI Ingatkan Risiko AI di Perbankan: Penipuan hingga Ancaman Tarik Uang Massal",
+      "url": "https://katadata.co.id/digital/fintech/6ae06cfd314ed/bi-ingatkan-risiko-ai-di-perbankan-penipuan-hingga-ancaman-penarikan-massal",
+      "date": "2026-10-27"
+    },
+    {
+      "name": "Infobank",
+      "title": "BNI Perluas Pemanfaatan AI, Perkuat Operasional hingga Keamanan Data",
+      "url": "https://infobanknews.com/bni-perluas-pemanfaatan-ai-perkuat-operasional-hingga-keamanan-data/",
+      "date": "2026"
+    }
+  ],
+  "seoTitle": "88% Bank Menjajal AI, Baru 4% Punya Tata Kelola Formal",
+  "seoDescription": "Studi IBM-Perbanas: hampir semua bank di Indonesia menjajal AI, tetapi tata kelola tertinggal. BI menyoroti risiko deepfake dan herding.",
+  "publishAt": "2026-11-15T13:00:00+07:00",
+  "language": "id"
+}

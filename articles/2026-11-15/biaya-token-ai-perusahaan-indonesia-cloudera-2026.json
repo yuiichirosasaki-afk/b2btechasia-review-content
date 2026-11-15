@@ -1,0 +1,44 @@
+{
+  "slug": "biaya-token-ai-perusahaan-indonesia-cloudera-2026",
+  "title": "Biaya Token Melonjak, 89% Perusahaan Rancang Ulang AI: Apa Artinya bagi Perusahaan Indonesia",
+  "category": "AI & Data",
+  "articleType": "berita",
+  "dek": "Survei Cloudera terhadap 1.500 pemimpin TI menemukan 89% perusahaan membatasi atau merancang ulang kasus penggunaan AI karena konsumsi token meningkat. Di Indonesia, investasi AI justru terus naik. Pertanyaannya bergeser dari apakah memakai AI menjadi berapa biaya untuk setiap hasil.",
+  "summaryHtml": "<ul><li>Laporan Cloudera &ldquo;The State of Enterprise AI 2026: The New Rules of Scale&rdquo; menyurvei 1.500 pemimpin TI di sejumlah negara. Survei dilakukan Wakefield Research pada September 2026. (IndoTelko)</li><li>Secara global, 89% responden membatasi atau merancang ulang kasus penggunaan AI karena konsumsi token meningkat, dan 45% memindahkan beban kerja AI karena biaya yang lebih tinggi atau berfluktuasi. (IndoTelko)</li><li>Di Indonesia, 88% perusahaan menambah investasi AI dibanding tahun sebelumnya, dan 70% mengalokasikan setidaknya US$500.000 per tahun. Hambatan terbesar adalah tata kelola dan kepatuhan (65%), kekurangan keahlian (55%), serta integrasi data (45%). (IndoTelko)</li><li>Lokasi dan yurisdiksi data memengaruhi penempatan beban kerja AI bagi 88% organisasi Indonesia. (IndoTelko)</li><li>Survei CEO PwC Indonesia 2026 menunjukkan 22% CEO melihat kenaikan pendapatan dari AI dan 28% melihat penurunan biaya, tetapi hanya 10% merasakan keduanya. (Fortune IDN)</li></ul>",
+  "analysisHtml": "<h3>Biaya inferensi adalah biaya operasional baru</h3><p>Lisensi perangkat lunak biasanya tetap per pengguna. Biaya model AI berbeda: setiap pertanyaan, setiap dokumen yang dibaca, dan setiap langkah agen AI memakan token. Ketika penggunaan meluas ke seluruh perusahaan, tagihan ikut membesar. Agen AI yang menjalankan banyak langkah otomatis bisa melipatgandakan konsumsi tanpa terlihat oleh pengguna.</p><h3>Investasi naik, tetapi hasil belum merata</h3><p>Angka 88% perusahaan Indonesia yang menambah investasi AI terlihat positif. Namun, data PwC menunjukkan baru 10% CEO yang merasakan kenaikan pendapatan sekaligus penurunan biaya. Selisih ini menandakan banyak proyek AI belum diukur dengan satuan ekonomi yang jelas, misalnya biaya per tiket layanan yang terselesaikan.</p><h3>Kedaulatan data ikut menentukan biaya</h3><p>Bagi 88% organisasi Indonesia, lokasi data memengaruhi di mana AI dijalankan. Model yang harus berjalan di dalam negeri atau di infrastruktur sendiri punya struktur biaya berbeda dari layanan cloud publik. Keputusan arsitektur ini sebaiknya dibuat bersama tim keuangan, bukan hanya tim TI.</p>",
+  "actionHtml": "<h3>Untuk CIO, CDO, dan CFO</h3><ol><li>Tetapkan metrik biaya per hasil untuk setiap kasus penggunaan AI, bukan hanya total anggaran.</li><li>Gunakan model kecil untuk tugas sederhana dan model besar hanya untuk tugas yang memang membutuhkannya.</li><li>Pasang pemantauan konsumsi token per aplikasi dan per tim sebelum skala diperluas.</li><li>Bangun tata kelola sejak awal: 49% responden global mengatakan akan melakukannya jika bisa mengulang dari awal.</li></ol><h3>Untuk penyedia solusi AI</h3><p>Pembeli enterprise akan semakin menuntut prediktabilitas biaya. Paket harga yang jelas, opsi penerapan di infrastruktur lokal, serta dasbor pemakaian akan menjadi pembeda dalam proses pengadaan.</p>",
+  "faqHtml": "<h3>Apa itu token dalam AI?</h3><p>Token adalah satuan teks yang diproses model AI. Biaya layanan model bahasa umumnya dihitung berdasarkan jumlah token yang masuk dan keluar.</p>",
+  "dataFigure": "89%",
+  "dataLabel": "perusahaan membatasi atau merancang ulang kasus penggunaan AI karena konsumsi token meningkat",
+  "dataSource": "Cloudera, The State of Enterprise AI 2026 (survei 1.500 pemimpin TI)",
+  "audience": [
+    "CIO / CDO",
+    "CFO",
+    "Vendor AI"
+  ],
+  "tags": [
+    "Cloudera",
+    "Biaya AI",
+    "Token",
+    "Tata kelola AI",
+    "PwC"
+  ],
+  "sources": [
+    {
+      "name": "IndoTelko",
+      "title": "89% perusahaan rancang ulang penggunaan AI akibat lonjakan biaya",
+      "url": "https://www.indotelko.com/read/1793799577/IndoTelko.com",
+      "date": "2026-11-07"
+    },
+    {
+      "name": "Fortune IDN",
+      "title": "Adopsi AI Kian Masif, Fondasi Data Jadi Tantangan Bisnis",
+      "url": "https://www.fortuneidn.com/tech/adopsi-ai-kian-masif-fondasi-data-jadi-tantangan-bisnis-00-4vfn9-tgjn8s",
+      "date": "2026"
+    }
+  ],
+  "seoTitle": "89% Perusahaan Rancang Ulang AI karena Biaya Token Melonjak",
+  "seoDescription": "Survei Cloudera: biaya token memaksa perusahaan merancang ulang AI, sementara investasi AI di Indonesia terus naik. Ini langkah yang perlu diambil.",
+  "publishAt": "2026-11-15T11:30:00+07:00",
+  "language": "id"
+}

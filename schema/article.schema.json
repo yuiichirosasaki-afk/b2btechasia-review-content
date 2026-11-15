@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "B2B Tech Asia Review article",
+  "type": "object",
+  "required": ["slug", "title", "category", "articleType", "dek", "summaryHtml", "analysisHtml", "actionHtml", "sources", "seoTitle", "seoDescription", "publishAt", "language"],
+  "properties": {
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "description": "URL slug, unique. Page URL is /review/{slug}" },
+    "title": { "type": "string", "maxLength": 120 },
+    "category": { "enum": ["Cybersecurity", "AI & Data", "Cloud & Data Center", "Enterprise Adoption", "Regulasi", "Deals"] },
+    "articleType": { "enum": ["analisis", "berita", "penjelasan"], "description": "analisis = Di Balik Berita (deep), berita = standard news, penjelasan = explainer" },
+    "dek": { "type": "string", "description": "Lead paragraph shown under the headline (1-3 sentences)" },
+    "summaryHtml": { "type": "string", "description": "Ringkasan Berita: <ul><li> list of facts with source names, short quotes only" },
+    "analysisHtml": { "type": "string", "description": "Di Balik Berita: <h3> + <p> sections of original analysis" },
+    "actionHtml": { "type": "string", "description": "Apa Artinya bagi Anda: what enterprises and vendors should do" },
+    "faqHtml": { "type": "string", "description": "Optional FAQ: <h3>question</h3><p>answer</p> pairs" },
+    "dataFigure": { "type": "string", "description": "Optional big number for the data graphic, e.g. '96,7%'" },
+    "dataLabel": { "type": "string", "description": "What the number means, one line" },
+    "dataSource": { "type": "string", "description": "Source line for the data graphic" },
+    "audience": { "type": "array", "items": { "type": "string" }, "description": "Ditulis untuk: e.g. CIO / CISO, Direksi, Vendor keamanan" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "sources": {
+      "type": "array", "minItems": 2,
+      "items": { "type": "object", "required": ["name", "title", "url"], "properties": { "name": { "type": "string" }, "title": { "type": "string" }, "url": { "type": "string" }, "date": { "type": "string" } } }
+    },
+    "seoTitle": { "type": "string", "maxLength": 60 },
+    "seoDescription": { "type": "string", "maxLength": 155 },
+    "publishAt": { "type": "string", "format": "date-time", "description": "ISO 8601 with +07:00. The page is hidden until this time" },
+    "language": { "const": "id" }
+  }
+}
