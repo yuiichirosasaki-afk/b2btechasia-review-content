@@ -1,6 +1,6 @@
-# B2B Tech Asia Review — daily article run
+# VRI B2B Tech Asia Review — daily article run
 
-This repo is the article feed for **B2B Tech Asia Review** (https://www.b2btechasia.com/id/review/<slug>), the news section of B2B Tech Asia Expo (14–15 July 2027, The Ritz-Carlton Jakarta, Pacific Place). Wix reads `feed.json` every hour and publishes each article once its `publishAt` time has passed.
+This repo is the article feed for **VRI B2B Tech Asia Review** (https://www.b2btechasia.com/id/review/<slug>), the news section of VRI B2B Tech Asia (14–15 July 2027, The Ritz-Carlton Jakarta, Pacific Place). Wix reads `feed.json` every hour and publishes each article once its `publishAt` time has passed.
 
 The purpose of the site is to bring Indonesian B2B tech decision makers (CIO, CISO, CTO, directors, IT buyers, tech vendors) to the Expo through organic search. Tone: a serious business newspaper (like Nikkei). Language: Bahasa Indonesia (formal, clear, no hype).
 
@@ -9,7 +9,7 @@ There is no human review. Nobody approves articles and nobody is notified. Quali
 ## The daily run (weekdays, ~03:00 WIB)
 
 1. `python3 scripts/recent_slugs.py` — lists articles from the last 30 days, so you do not repeat a story, and the zone coverage of the last 7 days.
-2. Research news from the last 72 hours (Indonesia first, then Southeast Asia if it affects Indonesian companies). Categories follow the **B2B Tech Asia Expo 2027 zones** (`taxonomy.json`): 3 hubs × 4 zones. An article's `category` is exactly one zone name.
+2. Research news from the last 72 hours (Indonesia first, then Southeast Asia if it affects Indonesian companies). Categories follow the **VRI B2B Tech Asia 2027 zones** (`taxonomy.json`): 3 hubs × 4 zones. An article's `category` is exactly one zone name.
    - **AI & Automation Hub** (CTO, IT Director, Infrastructure Lead): `AI & Automation` · `Cloud & IT Infrastructure` · `Cybersecurity & Data Protection` · `Enterprise Software & ERP`
    - **Growth & Revenue Hub** (CMO, Head of Sales, Growth Lead): `Marketing Technology` · `Sales & CRM` · `Customer Engagement & CX` · `E-Commerce & Retail Tech`
    - **Back Office & Operations Hub** (CFO, HR Director, Operations Head): `FinTech & Financial Operations` · `HR Tech & Workforce Management` · `Legal, Compliance & Governance Tech` · `Logistics & Supply Chain Tech`
@@ -51,7 +51,7 @@ There is no human review. Nobody approves articles and nobody is notified. Quali
 6. **No investment advice**, no stock recommendations.
 7. **No political opinion.** Report government policy neutrally with its effect on business.
 8. **No duplication:** do not repeat a story already covered in the last 30 days unless there is a material new development (then link the angle as an update).
-9. Do not mention B2B Tech Asia Expo inside the article body (the page template adds the Expo box automatically).
+9. Do not mention VRI B2B Tech Asia inside the article body (the page template adds the Expo box automatically).
 10. Press releases are NOT written here (Siaran Pers comes from VRITIMES automatically).
 
 ## Cost

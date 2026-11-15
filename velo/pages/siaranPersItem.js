@@ -74,11 +74,11 @@ $w.onReady(async function () {
   parts.push(`<p style="font-size:12px; line-height:1"><span>&nbsp;</span></p>`);
   parts.push(clean(item.bodyHtml || `<p>${esc(item.excerpt)}</p>`));
   parts.push(`<p style="font-size:12px; line-height:1"><span>&nbsp;</span></p>`);
-  parts.push(`<p style="font-size:14px; line-height:1.6"><span style="${SANS}; color:${SUB}">${isEn ? 'This is a press release from the company concerned, distributed via VRITIMES. The B2B Tech Asia Review editors have not changed its content. ' : 'Konten ini adalah siaran pers dari perusahaan terkait dan didistribusikan melalui VRITIMES. Redaksi B2B Tech Asia Review tidak mengubah isinya. '}</span><a href="${esc(item.sourceUrl)}" target="_blank" rel="noopener"><span style="${SANS}; color:${NAVY}"><u>${isEn ? 'Read the original on VRITIMES' : 'Baca versi asli di VRITIMES'}</u></span></a></p>`);
+  parts.push(`<p style="font-size:14px; line-height:1.6"><span style="${SANS}; color:${SUB}">${isEn ? 'This is a press release from the company concerned, distributed via VRITIMES. The VRI B2B Tech Asia Review editors have not changed its content. ' : 'Konten ini adalah siaran pers dari perusahaan terkait dan didistribusikan melalui VRITIMES. Redaksi VRI B2B Tech Asia Review tidak mengubah isinya. '}</span><a href="${esc(item.sourceUrl)}" target="_blank" rel="noopener"><span style="${SANS}; color:${NAVY}"><u>${isEn ? 'Read the original on VRITIMES' : 'Baca versi asli di VRITIMES'}</u></span></a></p>`);
   $w('#text747').html = parts.join('');
 
   const desc = String(item.excerpt || '').slice(0, 155);
-  wixSeoFrontend.setTitle(`${item.title} | ${isEn ? 'Press Release' : 'Siaran Pers'} | B2B Tech Asia Review`);
+  wixSeoFrontend.setTitle(`${item.title} | ${isEn ? 'Press Release' : 'Siaran Pers'} | VRI B2B Tech Asia Review`);
   wixSeoFrontend.setMetaTags([
     { name: 'description', content: desc },
     { property: 'og:title', content: item.title },

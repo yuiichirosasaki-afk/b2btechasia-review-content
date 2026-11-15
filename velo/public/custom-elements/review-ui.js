@@ -1,6 +1,6 @@
 // public/custom-elements/review-ui.js
 // <review-ui part="front|top|side|bottom" data='{...}'>
-// Renders the B2B Tech Asia Review design (see the design mockup "Beranda" / "Halaman Artikel")
+// Renders the VRI B2B Tech Asia Review design (see the design mockup "Beranda" / "Halaman Artikel")
 // into the light DOM. Page code passes the data as a JSON string in the "data" attribute.
 //   front  — the whole front page (masthead, lead story, Terbaru, Di Balik Berita, categories, Siaran Pers, Expo band, footer)
 //   top    — top bar (with ID|EN switch) + compact masthead + category nav + Expo leaderboard (article and Siaran Pers pages)
@@ -19,7 +19,7 @@ const PANEL = '#F4F5F7';
 const SERIF = "'Source Serif 4', Georgia, serif";
 const SANS = "'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif";
 
-// Categories = B2B Tech Asia Expo 2027 zones (3 hubs x 4 zones). Keep in sync with taxonomy.json.
+// Categories = VRI B2B Tech Asia 2027 zones (3 hubs x 4 zones). Keep in sync with taxonomy.json.
 const HUBS = [
   { n: 'AI & Automation Hub', s: 'ai-automation-hub', no: 1, color: '#8E3B3F', tint: '#F7EFEF', ink: '#5A2427',
     id: 'Keputusan teknis dan infrastruktur', en: 'Technical & infrastructure decisions', who: 'CTO, IT Director, Infrastructure Lead',
@@ -50,30 +50,30 @@ const TEXT = {
     latest: 'Terbaru', pr: 'Siaran Pers', tagline: 'Berita dan analisis teknologi B2B untuk pengambil keputusan',
     behind: 'Di Balik Berita', behindSub: 'Kutipan berita, ditambah analisis redaksi tentang apa artinya bagi bisnis Anda',
     prSub: 'Disediakan oleh perusahaan melalui VRITIMES, bukan konten redaksi', prAll: 'Lihat semua siaran pers →', via: 'via VRITIMES',
-    byline: 'Redaksi B2B Tech Asia Review', minRead: 'menit baca', forWho: 'Untuk', writtenFor: 'Ditulis untuk', related: 'Berita Terkait',
-    empty: 'Belum ada artikel di bagian ini.', expoLink: 'B2B Tech Asia Expo 2027 →', register: 'Daftar sebagai Pengunjung',
+    byline: 'Redaksi VRI B2B Tech Asia Review', minRead: 'menit baca', forWho: 'Untuk', writtenFor: 'Ditulis untuk', related: 'Berita Terkait',
+    empty: 'Belum ada artikel di bagian ini.', expoLink: 'VRI B2B Tech Asia 2027 →', register: 'Daftar sebagai Pengunjung',
     exhibitors: 'Lihat Exhibitor', proposal: 'Minta Proposal Exhibitor', expoDates: '14–15 Juli 2027', ad: 'Iklan', cta: 'Lihat Detail Acara', dateLabel: 'Tanggal', venueLabel: 'Tempat', expoTagline: 'Ajang software B2B terbesar di Asia Tenggara',
     expoKicker: 'Pameran · Jakarta', expoDesc: 'Bertemu langsung dengan penyedia SaaS, AI, dan keamanan siber yang Anda baca di sini.',
     expoShort: 'Pameran SaaS, AI, dan keamanan siber untuk perusahaan di Indonesia.',
-    sideTitle: (c) => `Temui penyedia ${c} di B2B Tech Asia Expo 2027`,
-    vendorTitle: 'Untuk vendor teknologi', vendorHead: 'Jadi exhibitor di B2B Tech Asia 2027',
+    sideTitle: (c) => `Temui penyedia ${c} di VRI B2B Tech Asia 2027`,
+    vendorTitle: 'Untuk vendor teknologi', vendorHead: 'Jadi exhibitor di VRI B2B Tech Asia 2027',
     vendorDesc: '3 hub dan 12 zona, disusun sesuai cara komite pembelian mengambil keputusan.',
-    about: 'Diterbitkan oleh B2B Tech Asia Expo. Setiap kutipan mencantumkan sumber aslinya. Hak cipta kutipan tetap milik media masing-masing. Analisis ditulis oleh redaksi B2B Tech Asia Review.',
+    about: 'Diterbitkan oleh VRI B2B Tech Asia. Setiap kutipan mencantumkan sumber aslinya. Hak cipta kutipan tetap milik media masing-masing. Analisis ditulis oleh redaksi VRI B2B Tech Asia Review.',
     topics: 'Topik', allZones: 'Semua zona', allIn: (h) => 'Semua di ' + h, expo: 'Expo', exhibitor: 'Exhibitor', navLabel: 'Kategori', langLabel: 'Bahasa',
   },
   en: {
     latest: 'Latest', pr: 'Press Releases', tagline: 'B2B technology news and analysis for decision makers',
     behind: 'Behind the News', behindSub: 'News in brief, plus our editors’ analysis of what it means for your business',
     prSub: 'Supplied by companies via VRITIMES (in Indonesian), not editorial content', prAll: 'All press releases →', via: 'via VRITIMES',
-    byline: 'B2B Tech Asia Review editors', minRead: 'min read', forWho: 'For', writtenFor: 'Written for', related: 'Related',
-    empty: 'No articles in this section yet.', expoLink: 'B2B Tech Asia Expo 2027 →', register: 'Register to Visit',
+    byline: 'VRI B2B Tech Asia Review editors', minRead: 'min read', forWho: 'For', writtenFor: 'Written for', related: 'Related',
+    empty: 'No articles in this section yet.', expoLink: 'VRI B2B Tech Asia 2027 →', register: 'Register to Visit',
     exhibitors: 'See Exhibitors', proposal: 'Request Exhibitor Proposal', expoDates: '14–15 July 2027', ad: 'Advertisement', cta: 'See Event Details', dateLabel: 'Date', venueLabel: 'Venue', expoTagline: 'The Biggest Event for B2B Software only in Southeast Asia',
     expoKicker: 'Exhibition · Jakarta', expoDesc: 'Meet the SaaS, AI and cybersecurity providers you read about here, in person.',
     expoShort: 'The SaaS, AI and cybersecurity exhibition for companies in Indonesia.',
-    sideTitle: (c) => `Meet ${c} providers at B2B Tech Asia Expo 2027`,
-    vendorTitle: 'For technology vendors', vendorHead: 'Exhibit at B2B Tech Asia 2027',
+    sideTitle: (c) => `Meet ${c} providers at VRI B2B Tech Asia 2027`,
+    vendorTitle: 'For technology vendors', vendorHead: 'Exhibit at VRI B2B Tech Asia 2027',
     vendorDesc: '3 hubs and 12 zones, organized around how buying committees actually decide.',
-    about: 'Published by B2B Tech Asia Expo. Every quotation credits its original source; copyright in quoted material remains with each publisher. Analysis is written by the B2B Tech Asia Review editors.',
+    about: 'Published by VRI B2B Tech Asia. Every quotation credits its original source; copyright in quoted material remains with each publisher. Analysis is written by the VRI B2B Tech Asia Review editors.',
     topics: 'Topics', allZones: 'All zones', allIn: (h) => 'All of ' + h, expo: 'Expo', exhibitor: 'Exhibitors', navLabel: 'Categories', langLabel: 'Language',
   },
 };
@@ -176,7 +176,7 @@ review-ui .tk-band .tk-body{padding:32px 36px}
 @media (max-width:760px){review-ui .bn-title{font-size:22px!important}review-ui .bn-band{padding:28px 22px}review-ui .bn-leader,review-ui .bn-vendor{padding:20px}}
 @media (max-width:760px){
  review-ui .rv-lead-title{font-size:32px!important}
- review-ui .rv-masthead-logo{font-size:32px!important}
+ review-ui .rv-masthead-logo{font-size:28px!important}
 }
 `;
 
@@ -275,7 +275,7 @@ ${h.zones.map(([n, s]) => `<a href="${L('/review?kategori=' + s)}" style="color:
     return `<header class="rv-wrap" style="padding-top:28px">
 <div style="display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:flex-end;padding-bottom:20px">
 <a href="${L('/review')}" style="display:flex;flex-direction:column;gap:6px">
-<span class="rv-logo rv-masthead-logo" style="font-size:44px">B2B Tech Asia <span>Review</span></span>
+<span class="rv-logo rv-masthead-logo" style="font-size:44px">VRI B2B Tech Asia <span>Review</span></span>
 <span style="font-size:14px;color:${MUTED}">${T().tagline}</span>
 </a>
 </div>
@@ -287,7 +287,7 @@ ${this.subNav(d, L)}
   compactHeader(d, L) {
     return `<header class="rv-wrap" style="padding-top:20px">
 <div style="display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;align-items:center">
-<a href="${L('/review')}" class="rv-logo" style="font-size:30px;padding:6px 0">B2B Tech Asia <span>Review</span></a>
+<a href="${L('/review')}" class="rv-logo" style="font-size:30px;padding:6px 0">VRI B2B Tech Asia <span>Review</span></a>
 <nav aria-label="${T().navLabel}"><div class="rv-nav" style="font-size:14px;gap:0 22px">${this.navLinks(d, L, d.active)}</div></nav>
 </div>
 <div style="border-top:3px solid ${NAVY};margin-top:6px"></div>
@@ -299,7 +299,7 @@ ${this.subNav(d, L)}
   // Visuals come from the Expo site (b2btechasia.com): logo, main-stage and exhibition-hall photos,
   // the Monas skyline, Montserrat and the Expo navy/indigo. Text uses only facts from that site.
   logoChip(dark) {
-    return `<span class="bn-logo${dark ? ' bn-logo-dark' : ''}"><img src="${BN_LOGO}" alt="" width="28" height="26">B2B TECH ASIA</span>`;
+    return `<span class="bn-logo${dark ? ' bn-logo-dark' : ''}"><img src="${BN_LOGO}" alt="" width="28" height="26">VRI B2B TECH ASIA</span>`;
   }
 
   // Ticket rows: date and venue (design C).
@@ -312,12 +312,12 @@ ${this.subNav(d, L)}
   leader(d, L, top, inGrid) {
     const t = T();
     return `<div ${inGrid ? 'style="grid-column:1/-1"' : `class="rv-wrap" style="margin-top:${top == null ? 24 : top}px"`}><span class="rv-adlabel">${t.ad}</span>
-<a class="tk" href="${L('/')}" aria-label="B2B Tech Asia 2027 — ${esc(t.cta)}">
+<a class="tk" href="${L('/')}" aria-label="VRI B2B Tech Asia 2027 — ${esc(t.cta)}">
 <span class="tk-stub" style="background-image:url('${bnMonas(760, 380)}')"><span class="tk-tag">Jakarta · 2027</span></span>
 <span class="tk-body">
 <span class="bn-col" style="gap:6px">
 <span class="tk-label">${t.expoTagline}</span>
-<span class="tk-title">B2B TECH ASIA 2027</span>
+<span class="tk-title">VRI B2B TECH ASIA 2027</span>
 ${this.ticketRows()}
 </span>
 <span class="tk-cta">${t.cta} →</span>
@@ -357,7 +357,7 @@ ${this.ticketRows()}
 <span class="tk-stub" style="background-image:url('${bnMonas(640, 360)}')"><span class="tk-tag">Jakarta · 2027</span></span>
 <span class="tk-body">
 <span class="tk-label">${t.expoTagline}</span>
-<span class="tk-title" style="font-size:22px">B2B TECH ASIA 2027</span>
+<span class="tk-title" style="font-size:22px">VRI B2B TECH ASIA 2027</span>
 ${this.ticketRows()}
 <span class="tk-cta" style="align-self:flex-start;margin-top:4px">${t.cta} →</span>
 </span></a></div>`;
@@ -564,13 +564,13 @@ ${rel.map((r) => `<a href="${L('/review/' + r.slug)}" class="rv-serif" style="di
   expoBand(d, L, standalone) {
     const t = T();
     return `<div class="rv-wrap" style="margin-top:${standalone ? 32 : 64}px">
-<section class="tk tk-band" aria-label="B2B Tech Asia 2027">
+<section class="tk tk-band" aria-label="VRI B2B Tech Asia 2027">
 <a class="tk-stub" href="${L('/')}" style="background-image:url('${bnMonas(900, 600)}')"><span class="tk-tag">Jakarta · 2027</span></a>
 <span class="tk-body">
 <span class="bn-col" style="gap:10px;flex:1 1 380px">
 ${this.logoChip()}
 <span class="tk-label">${t.expoTagline}</span>
-<span class="tk-title" style="font-size:34px">B2B TECH ASIA 2027</span>
+<span class="tk-title" style="font-size:34px">VRI B2B TECH ASIA 2027</span>
 ${this.ticketRows()}
 <span style="font-size:15px;line-height:1.55;color:#4A5361;max-width:520px">${t.expoDesc}</span>
 </span>
@@ -586,14 +586,14 @@ ${this.ticketRows()}
     return `<footer style="margin-top:64px;border-top:1px solid ${LINE};background:${PANEL}">
 <div class="rv-wrap" style="padding-top:36px;padding-bottom:36px;display:flex;flex-wrap:wrap;gap:32px;justify-content:space-between;font-size:14px;color:${MUTED}">
 <div style="display:flex;flex-direction:column;gap:8px;flex:1 1 360px">
-<span class="rv-logo" style="font-size:22px">B2B Tech Asia <span>Review</span></span>
+<span class="rv-logo" style="font-size:22px">VRI B2B Tech Asia <span>Review</span></span>
 <span style="line-height:1.6">${t.about}</span>
 <span>${this.langSwitch(d)}</span>
 </div>
 <div style="display:flex;flex-wrap:wrap;gap:40px">
 ${HUBS.map((h) => `<div style="display:flex;flex-direction:column;gap:10px;max-width:220px"><a href="${L('/review?kategori=' + h.s)}" style="color:${INK}"><strong>${esc(h.n)}</strong></a>${h.zones.map(([n, s]) => `<a href="${L('/review?kategori=' + s)}" style="color:${MUTED}">${esc(n)}</a>`).join('')}</div>`).join('')}
 <div style="display:flex;flex-direction:column;gap:10px"><strong style="color:${INK}">${t.pr}</strong><a href="${L('/review?kategori=siaran-pers')}" style="color:${MUTED}">${t.prAll.replace(' →', '')}</a></div>
-<div style="display:flex;flex-direction:column;gap:10px"><strong style="color:${INK}">${t.expo}</strong><a href="${L('/')}" style="color:${MUTED}">B2B Tech Asia Expo</a><a href="${L('/register-now-2')}" style="color:${MUTED}">${t.register}</a><a href="${L(d.exhibitorPath || '/copy-of-agenda-2027')}" style="color:${MUTED}">${t.exhibitor}</a><a href="${L('/request-proposal-form')}" style="color:${MUTED}">${t.proposal}</a></div>
+<div style="display:flex;flex-direction:column;gap:10px"><strong style="color:${INK}">${t.expo}</strong><a href="${L('/')}" style="color:${MUTED}">VRI B2B Tech Asia</a><a href="${L('/register-now-2')}" style="color:${MUTED}">${t.register}</a><a href="${L(d.exhibitorPath || '/copy-of-agenda-2027')}" style="color:${MUTED}">${t.exhibitor}</a><a href="${L('/request-proposal-form')}" style="color:${MUTED}">${t.proposal}</a></div>
 </div></div></footer>`;
   }
 }

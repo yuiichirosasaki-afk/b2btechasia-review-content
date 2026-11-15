@@ -1,5 +1,5 @@
 // backend/reviewImport.js
-// B2B Tech Asia Review: imports articles from the GitHub feed and press releases from VRITIMES.
+// VRI B2B Tech Asia Review: imports articles from the GitHub feed and press releases from VRITIMES.
 // Runs from backend/jobs.config every hour.
 
 import { fetch } from 'wix-fetch';

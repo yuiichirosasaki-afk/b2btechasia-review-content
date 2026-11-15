@@ -20,21 +20,21 @@ const EN_MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July
 const EN_TYPE = { analisis: 'Analysis', berita: 'News', penjelasan: 'Explainer' };
 const TXT = {
   id: {
-    news: 'Berita', byline: 'Redaksi B2B Tech Asia Review', minRead: 'menit baca', graphic: 'Grafis: B2B Tech Asia Review. Data:',
+    news: 'Berita', byline: 'Redaksi VRI B2B Tech Asia Review', minRead: 'menit baca', graphic: 'Grafis: VRI B2B Tech Asia Review. Data:',
     summary: 'RINGKASAN BERITA', summaryNote: 'Disusun dari laporan media. Kutipan langsung ditandai dan sumber dicantumkan.',
     behind: 'DI BALIK BERITA', explainer: 'PENJELASAN', action: 'APA ARTINYA BAGI ANDA', faq: 'PERTANYAAN YANG SERING DIAJUKAN', sources: 'SUMBER',
-    rights: 'Kutipan digunakan secara terbatas dengan menyebut sumber. Hak cipta kutipan tetap milik media masing-masing. Analisis adalah pandangan redaksi B2B Tech Asia Review.',
-    moreIn: (c) => 'Lainnya di ' + c, related: 'Berita Terkait', author: 'Redaksi B2B Tech Asia Review',
+    rights: 'Kutipan digunakan secara terbatas dengan menyebut sumber. Hak cipta kutipan tetap milik media masing-masing. Analisis adalah pandangan redaksi VRI B2B Tech Asia Review.',
+    moreIn: (c) => 'Lainnya di ' + c, related: 'Berita Terkait', author: 'Redaksi VRI B2B Tech Asia Review',
   },
   en: {
-    news: 'News', byline: 'B2B Tech Asia Review editors', minRead: 'min read', graphic: 'Graphic: B2B Tech Asia Review. Data:',
+    news: 'News', byline: 'VRI B2B Tech Asia Review editors', minRead: 'min read', graphic: 'Graphic: VRI B2B Tech Asia Review. Data:',
     summary: 'NEWS IN BRIEF', summaryNote: 'Compiled from media reports. Direct quotes are marked and sources are listed.',
     behind: 'BEHIND THE NEWS', explainer: 'EXPLAINER', action: 'WHAT IT MEANS FOR YOU', faq: 'FREQUENTLY ASKED QUESTIONS', sources: 'SOURCES',
-    rights: 'Quotations are used sparingly and credited to their source. Copyright in quoted material remains with each publisher. Analysis reflects the view of the B2B Tech Asia Review editors.',
-    moreIn: (c) => 'More in ' + c, related: 'Related', author: 'B2B Tech Asia Review editors',
+    rights: 'Quotations are used sparingly and credited to their source. Copyright in quoted material remains with each publisher. Analysis reflects the view of the VRI B2B Tech Asia Review editors.',
+    moreIn: (c) => 'More in ' + c, related: 'Related', author: 'VRI B2B Tech Asia Review editors',
   },
 };
-// Categories = B2B Tech Asia Expo 2027 zones. Keep in sync with taxonomy.json.
+// Categories = VRI B2B Tech Asia 2027 zones. Keep in sync with taxonomy.json.
 const HUBS = [
   ['AI & Automation Hub', 'ai-automation-hub', [['AI & Automation', 'ai-automation'], ['Cloud & IT Infrastructure', 'cloud-it-infrastructure'], ['Cybersecurity & Data Protection', 'cybersecurity-data-protection'], ['Enterprise Software & ERP', 'enterprise-software-erp']]],
   ['Growth & Revenue Hub', 'growth-revenue-hub', [['Marketing Technology', 'marketing-technology'], ['Sales & CRM', 'sales-crm'], ['Customer Engagement & CX', 'customer-engagement-cx'], ['E-Commerce & Retail Tech', 'ecommerce-retail-tech']]],
@@ -176,7 +176,7 @@ $w.onReady(async function () {
   $w('#text748').html = b.join('');
 
   const description = item.seoDescription || item.dek;
-  await wixSeoFrontend.setTitle((item.seoTitle || item.title) + ' | B2B Tech Asia Review');
+  await wixSeoFrontend.setTitle((item.seoTitle || item.title) + ' | VRI B2B Tech Asia Review');
   await wixSeoFrontend.setMetaTags([
     { name: 'description', content: description },
     { property: 'og:title', content: item.seoTitle || item.title },
@@ -194,6 +194,6 @@ $w.onReady(async function () {
     inLanguage: isEn ? 'en' : 'id',
     articleSection: catLabel,
     author: { '@type': 'Organization', name: t.author },
-    publisher: { '@type': 'Organization', name: 'B2B Tech Asia Review' },
+    publisher: { '@type': 'Organization', name: 'VRI B2B Tech Asia Review' },
   }]);
 });

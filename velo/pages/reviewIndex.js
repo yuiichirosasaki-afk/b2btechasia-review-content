@@ -1,5 +1,5 @@
 // Page code: Review Articles (List) — URL /review (Indonesian: /id/review)
-// Front page and section pages (?kategori=<slug>) of B2B Tech Asia Review.
+// Front page and section pages (?kategori=<slug>) of VRI B2B Tech Asia Review.
 // The layout is drawn by the <review-ui> custom element (#customElement1,
 // public/custom-elements/wix-default-custom-element.js); this code loads the data.
 import wixData from 'wix-data';
@@ -7,7 +7,7 @@ import wixLocationFrontend from 'wix-location-frontend';
 import wixWindowFrontend from 'wix-window-frontend';
 import wixSeoFrontend from 'wix-seo-frontend';
 
-// Categories = B2B Tech Asia Expo 2027 zones (3 hubs x 4 zones). Keep in sync with taxonomy.json.
+// Categories = VRI B2B Tech Asia 2027 zones (3 hubs x 4 zones). Keep in sync with taxonomy.json.
 const HUBS = [
   { n: 'AI & Automation Hub', s: 'ai-automation-hub', id: 'Keputusan teknis dan infrastruktur', en: 'Technical & infrastructure decisions',
     zones: [['AI & Automation', 'ai-automation'], ['Cloud & IT Infrastructure', 'cloud-it-infrastructure'], ['Cybersecurity & Data Protection', 'cybersecurity-data-protection'], ['Enterprise Software & ERP', 'enterprise-software-erp']] },
@@ -55,7 +55,7 @@ $w.onReady(async function () {
   const data = { base, lang: isEn ? 'en' : 'id', path, now: now.toISOString(), active: hub || zone ? kategori : (isPR ? 'siaran-pers' : '') };
   const catLabel = hub ? hub.n : (zone ? zone[0] : '');
 
-  let title = isEn ? 'B2B Tech Asia Review — Indonesia B2B Technology News & Analysis' : 'B2B Tech Asia Review — Berita & Analisis Teknologi B2B Indonesia';
+  let title = isEn ? 'VRI B2B Tech Asia Review — Indonesia B2B Technology News & Analysis' : 'VRI B2B Tech Asia Review — Berita & Analisis Teknologi B2B Indonesia';
   let desc = isEn
     ? 'News and analysis on B2B technology in Indonesia: cybersecurity, AI, cloud, enterprise adoption, regulation and deals.'
     : 'Berita dan analisis teknologi B2B Indonesia: keamanan siber, AI, cloud, adopsi teknologi perusahaan, regulasi, dan transaksi.';
@@ -67,7 +67,7 @@ $w.onReady(async function () {
       intro: isEn ? 'Supplied by companies via VRITIMES (in Indonesian), not editorial content' : 'Disediakan oleh perusahaan melalui VRITIMES, bukan konten redaksi',
       releases: pr.items.map(slimPr),
     });
-    title = isEn ? 'Technology & Business Press Releases | B2B Tech Asia Review' : 'Siaran Pers Teknologi & Bisnis | B2B Tech Asia Review';
+    title = isEn ? 'Technology & Business Press Releases | VRI B2B Tech Asia Review' : 'Siaran Pers Teknologi & Bisnis | VRI B2B Tech Asia Review';
     desc = isEn ? 'The latest press releases from technology and business companies in Indonesia, distributed via VRITIMES.'
       : 'Siaran pers terbaru dari perusahaan teknologi dan bisnis di Indonesia, didistribusikan melalui VRITIMES.';
   } else if (hub || zone) {
@@ -80,9 +80,9 @@ $w.onReady(async function () {
       intro: hub ? (isEn ? h.en : h.id) : (isEn ? 'News and analysis for decision makers in Indonesia' : 'Berita dan analisis untuk pengambil keputusan di Indonesia'),
       articles: res.items.map((a) => slim(a, lang)),
     });
-    title = isEn ? `${catLabel} — News & Analysis | B2B Tech Asia Review` : `${catLabel} — Berita & Analisis | B2B Tech Asia Review`;
-    desc = isEn ? `${catLabel} news and analysis for companies in Indonesia from B2B Tech Asia Review.`
-      : `Berita dan analisis ${catLabel} untuk perusahaan di Indonesia dari B2B Tech Asia Review.`;
+    title = isEn ? `${catLabel} — News & Analysis | VRI B2B Tech Asia Review` : `${catLabel} — Berita & Analisis | VRI B2B Tech Asia Review`;
+    desc = isEn ? `${catLabel} news and analysis for companies in Indonesia from VRI B2B Tech Asia Review.`
+      : `Berita dan analisis ${catLabel} untuk perusahaan di Indonesia dari VRI B2B Tech Asia Review.`;
   } else {
     const [arts, pr] = await Promise.all([
       wixData.query('ReviewArticles').le('publishAt', now).descending('publishAt').limit(60).find(),
