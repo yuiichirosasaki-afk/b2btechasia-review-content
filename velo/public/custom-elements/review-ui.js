@@ -150,7 +150,7 @@ review-ui .bn-hubs{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
 review-ui .bn-hub{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);padding:4px 10px 4px 4px;border-radius:999px}
 review-ui .bn-hub i{font-style:normal;display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;font-size:11px;font-weight:700}
 review-ui .bn-rect{flex-direction:column;align-items:stretch;gap:0}
-review-ui .bn-photo{position:relative;display:block;aspect-ratio:16/9;background-size:cover;background-position:center}
+review-ui .bn-photo{position:relative;display:block;flex:0 0 auto;height:0;padding-top:56.25%;background-size:cover;background-position:center}
 review-ui .bn-pill{position:absolute;left:14px;bottom:12px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;background:${BN_INDIGO};color:#fff;padding:5px 10px;border-radius:999px}
 review-ui .bn-body{display:flex;flex-direction:column;gap:10px;padding:18px 20px 22px}
 review-ui .bn-rect .bn-cta{align-self:flex-start;margin-top:4px}
