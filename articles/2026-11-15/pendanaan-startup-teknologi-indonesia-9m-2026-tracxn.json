@@ -46,5 +46,20 @@
   "seoTitle": "Pendanaan Startup Indonesia 9M 2026 Naik 111% Berkat Ajaib",
   "seoDescription": "Tracxn: pendanaan teknologi Indonesia naik 111% ke US$365 juta, tetapi 74% dari Ajaib. Seed anjlok 92%. Ini artinya bagi pembeli dan vendor B2B.",
   "publishAt": "2026-11-15T16:00:00+07:00",
-  "language": "id"
+  "language": "id",
+  "chart": {
+    "bars": [
+      {
+        "label": "9M 2025",
+        "value": 173,
+        "display": "US$173jt"
+      },
+      {
+        "label": "9M 2026",
+        "value": 365,
+        "display": "US$365jt"
+      }
+    ]
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pendanaan-startup-teknologi-indonesia-9m-2026-tracxn.png"
 }

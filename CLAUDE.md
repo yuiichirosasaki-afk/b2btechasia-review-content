@@ -19,9 +19,10 @@ There is no human review. Nobody approves articles and nobody is notified. Quali
    Use WebSearch (Indonesian and English queries) and WebFetch to read the actual articles. Prefer primary sources (regulator, company press release, filings) plus at least one reputable outlet (Kontan, Bisnis.com, Katadata, CNBC Indonesia, Kompas, Tempo, The Jakarta Post, Reuters, DealStreetAsia, Tech in Asia, KrASIA).
 3. Write **one article per category** (6 per day). If a category has no news that passes the rules, write a `penjelasan` (explainer) on a current issue in that category, or skip the category that day. Never invent news to fill a slot.
 4. Save each article as `articles/YYYY-MM-DD/<slug>.json` (date = publish date, WIB) following `schema/article.schema.json`.
-5. `python3 scripts/validate.py articles/YYYY-MM-DD` — must print `OK` for every file. Fix and re-run until it does. Delete any article you cannot fix.
-6. `python3 scripts/build_feed.py` — rebuilds `feed.json` from the last 30 days of `articles/`.
-7. Commit and push to `main` with message `Articles YYYY-MM-DD (n)`. Done. Do not send any message, Slack post or email.
+5. `python3 scripts/make_images.py articles/YYYY-MM-DD` — renders the hero data graphic (`images/<slug>.png`) and sets `heroImage`.
+6. `python3 scripts/validate.py articles/YYYY-MM-DD` — must print `OK` for every file. Fix and re-run until it does. Delete any article you cannot fix.
+7. `python3 scripts/build_feed.py` — rebuilds `feed.json` from the last 30 days of `articles/`.
+8. Commit and push to `main` (including `images/`) with message `Articles YYYY-MM-DD (n)`. Done. Do not send any message, Slack post or email.
 
 ## Article format
 
@@ -33,6 +34,7 @@ There is no human review. Nobody approves articles and nobody is notified. Quali
 - `actionHtml` ("Apa Artinya bagi Anda"): concrete steps by role (`<h3>Untuk CIO dan CISO</h3><ol><li>…`), for vendors as well where relevant.
 - `faqHtml`: 2–3 `<h3>` question + `<p>` answer pairs that match what people search on Google.
 - `dataFigure` / `dataLabel` / `dataSource`: one key number for the hero graphic (e.g. "2,2 juta" / "percobaan serangan siber dalam 24 jam" / "FortiGuard Labs, 10 November 2026").
+- `chart` (optional, recommended when the sources give a series or a comparison): `{"bars": [{"label": "7 Nov", "value": 350600, "display": "351rb"}, ...]}` — 2–6 bars, labels ≤ 12 chars, display ≤ 10 chars, the highlighted (last) bar is the key value. Every value must come from the sources. Keep `dataFigure` short (≤ 10 chars, e.g. "2,2 juta", "74%", "US$365 jt").
 - `sources`: 2–5 entries `{name, title, url, date}`; URLs must be ones you actually opened.
 - `seoTitle` ≤ 60 chars, `seoDescription` ≤ 155 chars, both in Indonesian with the main keyword.
 - `slug`: lowercase Indonesian keywords, hyphens, ≤ 80 chars, unique.

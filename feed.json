@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T16:36:17+07:00",
+  "generatedAt": "2026-11-15T17:04:28+07:00",
   "site": "B2B Tech Asia Review",
   "articles": [
     {
@@ -50,7 +50,22 @@
       "seoTitle": "Pendanaan Startup Indonesia 9M 2026 Naik 111% Berkat Ajaib",
       "seoDescription": "Tracxn: pendanaan teknologi Indonesia naik 111% ke US$365 juta, tetapi 74% dari Ajaib. Seed anjlok 92%. Ini artinya bagi pembeli dan vendor B2B.",
       "publishAt": "2026-11-15T16:00:00+07:00",
-      "language": "id"
+      "language": "id",
+      "chart": {
+        "bars": [
+          {
+            "label": "9M 2025",
+            "value": 173,
+            "display": "US$173jt"
+          },
+          {
+            "label": "9M 2026",
+            "value": 365,
+            "display": "US$365jt"
+          }
+        ]
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pendanaan-startup-teknologi-indonesia-9m-2026-tracxn.png"
     },
     {
       "slug": "perpres-ai-etika-peta-jalan-yang-perlu-disiapkan-perusahaan",
@@ -112,7 +127,8 @@
       "seoTitle": "Perpres AI: 5 Hal yang Perlu Disiapkan Perusahaan",
       "seoDescription": "Perpres Etika AI dan Peta Jalan AI tinggal menunggu tanda tangan. Ini kategori risiko, kewajiban label, dan langkah persiapan bagi perusahaan.",
       "publishAt": "2026-11-15T14:30:00+07:00",
-      "language": "id"
+      "language": "id",
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/perpres-ai-etika-peta-jalan-yang-perlu-disiapkan-perusahaan.png"
     },
     {
       "slug": "bank-indonesia-adopsi-ai-tata-kelola-4-persen",
@@ -163,7 +179,22 @@
       "seoTitle": "88% Bank Menjajal AI, Baru 4% Punya Tata Kelola Formal",
       "seoDescription": "Studi IBM-Perbanas: hampir semua bank di Indonesia menjajal AI, tetapi tata kelola tertinggal. BI menyoroti risiko deepfake dan herding.",
       "publishAt": "2026-11-15T13:00:00+07:00",
-      "language": "id"
+      "language": "id",
+      "chart": {
+        "bars": [
+          {
+            "label": "Menjajal AI",
+            "value": 88,
+            "display": "88%"
+          },
+          {
+            "label": "Tata kelola",
+            "value": 4,
+            "display": "4%"
+          }
+        ]
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bank-indonesia-adopsi-ai-tata-kelola-4-persen.png"
     },
     {
       "slug": "biaya-token-ai-perusahaan-indonesia-cloudera-2026",
@@ -207,7 +238,8 @@
       "seoTitle": "89% Perusahaan Rancang Ulang AI karena Biaya Token Melonjak",
       "seoDescription": "Survei Cloudera: biaya token memaksa perusahaan merancang ulang AI, sementara investasi AI di Indonesia terus naik. Ini langkah yang perlu diambil.",
       "publishAt": "2026-11-15T11:30:00+07:00",
-      "language": "id"
+      "language": "id",
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/biaya-token-ai-perusahaan-indonesia-cloudera-2026.png"
     },
     {
       "slug": "equinix-jk1-phase-2-kapasitas-data-center-jakarta",
@@ -263,7 +295,8 @@
       "seoTitle": "Equinix JK1 Phase 2: Data Center Siap AI di Jakarta",
       "seoDescription": "Equinix menambah 1.125 kabinet berpendingin cair di JK1 Jakarta. Apa artinya bagi perusahaan yang merencanakan beban kerja AI di Indonesia.",
       "publishAt": "2026-11-15T10:00:00+07:00",
-      "language": "id"
+      "language": "id",
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/equinix-jk1-phase-2-kapasitas-data-center-jakarta.png"
     },
     {
       "slug": "serangan-siber-2-2-juta-indonesia-analisis",
@@ -340,7 +373,32 @@
       "seoTitle": "2,2 Juta Serangan Siber ke Indonesia: Apa Artinya bagi Bank",
       "seoDescription": "Angka FortiGuard melonjak dari 350 ribu ke 2,2 juta dalam tiga hari. Ini yang sebenarnya terjadi dan langkah yang perlu diambil perusahaan.",
       "publishAt": "2026-11-15T09:00:00+07:00",
-      "language": "id"
+      "language": "id",
+      "chart": {
+        "bars": [
+          {
+            "label": "7 Nov",
+            "value": 350600,
+            "display": "351rb"
+          },
+          {
+            "label": "8 Nov",
+            "value": 657000,
+            "display": "657rb"
+          },
+          {
+            "label": "9 Nov",
+            "value": 1600000,
+            "display": "1,6jt"
+          },
+          {
+            "label": "10 Nov",
+            "value": 2200000,
+            "display": "2,2jt"
+          }
+        ]
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/serangan-siber-2-2-juta-indonesia-analisis.png"
     }
   ]
 }

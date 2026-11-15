@@ -73,5 +73,30 @@
   "seoTitle": "2,2 Juta Serangan Siber ke Indonesia: Apa Artinya bagi Bank",
   "seoDescription": "Angka FortiGuard melonjak dari 350 ribu ke 2,2 juta dalam tiga hari. Ini yang sebenarnya terjadi dan langkah yang perlu diambil perusahaan.",
   "publishAt": "2026-11-15T09:00:00+07:00",
-  "language": "id"
+  "language": "id",
+  "chart": {
+    "bars": [
+      {
+        "label": "7 Nov",
+        "value": 350600,
+        "display": "351rb"
+      },
+      {
+        "label": "8 Nov",
+        "value": 657000,
+        "display": "657rb"
+      },
+      {
+        "label": "9 Nov",
+        "value": 1600000,
+        "display": "1,6jt"
+      },
+      {
+        "label": "10 Nov",
+        "value": 2200000,
+        "display": "2,2jt"
+      }
+    ]
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/serangan-siber-2-2-juta-indonesia-analisis.png"
 }

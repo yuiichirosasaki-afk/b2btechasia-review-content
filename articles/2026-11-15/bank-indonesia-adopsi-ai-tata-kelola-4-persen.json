@@ -47,5 +47,20 @@
   "seoTitle": "88% Bank Menjajal AI, Baru 4% Punya Tata Kelola Formal",
   "seoDescription": "Studi IBM-Perbanas: hampir semua bank di Indonesia menjajal AI, tetapi tata kelola tertinggal. BI menyoroti risiko deepfake dan herding.",
   "publishAt": "2026-11-15T13:00:00+07:00",
-  "language": "id"
+  "language": "id",
+  "chart": {
+    "bars": [
+      {
+        "label": "Menjajal AI",
+        "value": 88,
+        "display": "88%"
+      },
+      {
+        "label": "Tata kelola",
+        "value": 4,
+        "display": "4%"
+      }
+    ]
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bank-indonesia-adopsi-ai-tata-kelola-4-persen.png"
 }
