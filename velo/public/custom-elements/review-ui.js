@@ -59,7 +59,7 @@ const TEXT = {
     vendorTitle: 'Untuk vendor teknologi', vendorHead: 'Tampilkan solusi Anda kepada pengambil keputusan TI di Indonesia',
     vendorDesc: 'Jadi exhibitor atau sponsor di B2B Tech Asia Expo 2027.',
     about: 'Diterbitkan oleh B2B Tech Asia Expo. Setiap kutipan mencantumkan sumber aslinya. Hak cipta kutipan tetap milik media masing-masing. Analisis ditulis oleh redaksi B2B Tech Asia Review.',
-    topics: 'Topik', allZones: 'Semua zona', expo: 'Expo', exhibitor: 'Exhibitor', navLabel: 'Kategori', langLabel: 'Bahasa',
+    topics: 'Topik', allZones: 'Semua zona', allIn: (h) => 'Semua di ' + h, expo: 'Expo', exhibitor: 'Exhibitor', navLabel: 'Kategori', langLabel: 'Bahasa',
   },
   en: {
     latest: 'Latest', pr: 'Press Releases', tagline: 'B2B technology news and analysis for decision makers',
@@ -74,7 +74,7 @@ const TEXT = {
     vendorTitle: 'For technology vendors', vendorHead: 'Put your solution in front of IT decision makers in Indonesia',
     vendorDesc: 'Exhibit or sponsor at B2B Tech Asia Expo 2027.',
     about: 'Published by B2B Tech Asia Expo. Every quotation credits its original source; copyright in quoted material remains with each publisher. Analysis is written by the B2B Tech Asia Review editors.',
-    topics: 'Topics', allZones: 'All zones', expo: 'Expo', exhibitor: 'Exhibitors', navLabel: 'Categories', langLabel: 'Language',
+    topics: 'Topics', allZones: 'All zones', allIn: (h) => 'All of ' + h, expo: 'Expo', exhibitor: 'Exhibitors', navLabel: 'Categories', langLabel: 'Language',
   },
 };
 const VENUE = 'The Ritz-Carlton Jakarta, Pacific Place';
@@ -108,6 +108,14 @@ review-ui .rv-logo{font-family:${SERIF};font-weight:700;letter-spacing:-.5px;lin
 review-ui .rv-logo span{color:${RED}}
 review-ui .rv-nav{display:flex;flex-wrap:wrap;gap:0 28px;font-size:15px;font-weight:600}
 review-ui .rv-nav a{padding:12px 0;display:inline-block}
+review-ui .rv-dd{position:relative;display:inline-flex;align-items:center;gap:4px}
+review-ui .rv-dd-caret{font-size:11px;color:#8A94A3}
+review-ui .rv-dd-menu{display:none;position:absolute;top:100%;left:-16px;z-index:50;min-width:300px;background:#fff;border:1px solid ${LINE};border-top:3px solid ${NAVY};box-shadow:0 8px 24px rgba(11,42,74,.12);padding:6px 0}
+review-ui .rv-dd:hover .rv-dd-menu,review-ui .rv-dd:focus-within .rv-dd-menu{display:block}
+review-ui .rv-dd-menu a{display:block;padding:10px 16px;font-size:14px;font-weight:600;white-space:nowrap}
+review-ui .rv-dd-menu a:hover{background:${PANEL}}
+review-ui .rv-subnav{display:flex;flex-wrap:wrap;align-items:center;gap:6px 22px;padding:10px 0;border-bottom:1px solid ${LINE};font-size:14px;font-weight:600}
+@media (hover:none){review-ui .rv-dd-caret{display:none}}
 review-ui .rv-kicker{font-size:12px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase}
 review-ui .rv-serif{font-family:${SERIF}}
 review-ui .rv-img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:${NAVY}}
@@ -187,12 +195,27 @@ ${this.langSwitch(d)}
 </div></div>`;
   }
 
+  // Main menu: Terbaru, the 3 hubs (each with a drop-down of its 4 zones), Siaran Pers.
   navLinks(d, L, active) {
     const hub = hubOf(active);
-    const items = [[T().latest, L('/review'), !active, false]]
-      .concat(HUBS.map((h) => [h.n, L('/review?kategori=' + h.s), !!hub && hub.s === h.s, false]))
-      .concat([[T().pr, L('/review?kategori=siaran-pers'), active === 'siaran-pers', true]]);
-    return items.map(([n, h, on, pr]) => `<a href="${h}" style="color:${on ? RED : (pr ? MUTED : INK)}">${esc(n)}</a>`).join('');
+    const link = (n, h, on, color) => `<a href="${h}" style="color:${on ? RED : color}">${esc(n)}</a>`;
+    const hubs = HUBS.map((h) => {
+      const on = !!hub && hub.s === h.s;
+      return `<span class="rv-dd">${link(h.n, L('/review?kategori=' + h.s), on, INK)}<span class="rv-dd-caret" aria-hidden="true">▾</span>
+<span class="rv-dd-menu" role="menu">
+<a role="menuitem" href="${L('/review?kategori=' + h.s)}" style="font-weight:700;color:${NAVY}">${esc(T().allIn(h.n))}</a>
+${h.zones.map(([n, s]) => `<a role="menuitem" href="${L('/review?kategori=' + s)}" style="color:${active === s ? RED : INK}">${esc(n)}</a>`).join('')}
+</span></span>`;
+    }).join('');
+    return link(T().latest, L('/review'), !active, INK) + hubs + link(T().pr, L('/review?kategori=siaran-pers'), active === 'siaran-pers', MUTED);
+  }
+
+  // Second menu row: the zones of the current hub (hub, zone and article pages).
+  subNav(d, L) {
+    const h = hubOf(d.active);
+    if (!h) return '';
+    return `<nav aria-label="${esc(h.n)}" class="rv-subnav"><span style="display:inline-flex;align-items:center;gap:8px;font-weight:700;color:${NAVY}">${this.hubBadge(h, 20)}<a href="${L('/review?kategori=' + h.s)}" style="color:${d.active === h.s ? RED : NAVY}">${esc(h.n)}</a></span>
+${h.zones.map(([n, s]) => `<a href="${L('/review?kategori=' + s)}" style="color:${d.active === s ? RED : MUTED};${d.active === s ? 'font-weight:700' : ''}">${esc(n)}</a>`).join('')}</nav>`;
   }
 
   masthead(d, L) {
@@ -204,6 +227,7 @@ ${this.langSwitch(d)}
 </a>
 </div>
 <nav aria-label="${T().navLabel}" style="border-top:3px solid ${NAVY};border-bottom:1px solid ${LINE}"><div class="rv-nav">${this.navLinks(d, L, d.active)}</div></nav>
+${this.subNav(d, L)}
 </header>`;
   }
 
@@ -214,6 +238,7 @@ ${this.langSwitch(d)}
 <nav aria-label="${T().navLabel}"><div class="rv-nav" style="font-size:14px;gap:0 22px">${this.navLinks(d, L, d.active)}</div></nav>
 </div>
 <div style="border-top:3px solid ${NAVY};margin-top:6px"></div>
+${this.subNav(d, L)}
 </header>`;
   }
 
@@ -394,8 +419,7 @@ ${label ? `<span class="rv-kicker" style="font-size:11px;display:flex;gap:8px;al
     const lh = hubOf(d.active);
     out.push(`${d.kicker ? `<div class="rv-kicker" style="font-size:12px;margin-bottom:8px"><a href="${L('/review?kategori=' + (lh ? lh.s : ''))}" style="color:${RED}">${esc(d.kicker)}</a></div>` : ''}
 <div class="rv-sechead" style="border-top:none;padding-top:0"><h1 class="rv-serif" style="margin:0;font-size:40px;font-weight:700;color:${NAVY};display:flex;gap:14px;align-items:center">${lh && lh.s === d.active ? this.hubBadge(lh, 40) : ''}${esc(d.heading || '')}</h1>
-${d.intro ? `<span style="font-size:14px;color:${MUTED}">${esc(d.intro)}</span>` : ''}</div>
-${this.zoneChips(d, L)}`);
+${d.intro ? `<span style="font-size:14px;color:${MUTED}">${esc(d.intro)}</span>` : ''}</div>`);
     // A banner after every 6 cards; the first one is for visitors, the next for vendors.
     const withAds = (cards) => cards.map((c, i) => c + ((i + 1) % 6 === 0 && i + 1 < cards.length
       ? (((i + 1) / 6) % 2 === 1 ? this.vendorWide(d, L) : this.leader(d, L, 0, true)) : '')).join('');
