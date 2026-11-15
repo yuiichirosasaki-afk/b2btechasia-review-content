@@ -19,14 +19,22 @@ const PANEL = '#F4F5F7';
 const SERIF = "'Source Serif 4', Georgia, serif";
 const SANS = "'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif";
 
-const CATEGORIES = [
-  ['Cybersecurity', 'cybersecurity'],
-  ['AI & Data', 'ai-data'],
-  ['Cloud & Data Center', 'cloud-data-center'],
-  ['Enterprise Adoption', 'enterprise-adoption'],
-  ['Regulasi', 'regulasi'],
-  ['Deals', 'deals'],
+// Categories = B2B Tech Asia Expo 2027 zones (3 hubs x 4 zones). Keep in sync with taxonomy.json.
+const HUBS = [
+  { n: 'AI & Automation Hub', s: 'ai-automation-hub', no: 1, color: '#8E3B3F',
+    id: 'Keputusan teknis dan infrastruktur', en: 'Technical & infrastructure decisions', who: 'CTO, IT Director, Infrastructure Lead',
+    zones: [['AI & Automation', 'ai-automation'], ['Cloud & IT Infrastructure', 'cloud-it-infrastructure'], ['Cybersecurity & Data Protection', 'cybersecurity-data-protection'], ['Enterprise Software & ERP', 'enterprise-software-erp']] },
+  { n: 'Growth & Revenue Hub', s: 'growth-revenue-hub', no: 2, color: '#2C4A68',
+    id: 'Akuisisi dan retensi pelanggan', en: 'Customer acquisition & retention', who: 'CMO, Head of Sales, Growth Lead',
+    zones: [['Marketing Technology', 'marketing-technology'], ['Sales & CRM', 'sales-crm'], ['Customer Engagement & CX', 'customer-engagement-cx'], ['E-Commerce & Retail Tech', 'ecommerce-retail-tech']] },
+  { n: 'Back Office & Operations Hub', s: 'back-office-operations-hub', no: 3, color: '#3E5A44',
+    id: 'Fungsi yang menjaga bisnis tetap berjalan', en: 'Functions that keep business running', who: 'CFO, HR Director, Operations Head',
+    zones: [['FinTech & Financial Operations', 'fintech-financial-operations'], ['HR Tech & Workforce Management', 'hr-tech-workforce'], ['Legal, Compliance & Governance Tech', 'legal-compliance-governance'], ['Logistics & Supply Chain Tech', 'logistics-supply-chain']] },
 ];
+const LEGACY = { Cybersecurity: 'Cybersecurity & Data Protection', 'AI & Data': 'AI & Automation', 'Cloud & Data Center': 'Cloud & IT Infrastructure', Regulasi: 'Legal, Compliance & Governance Tech' };
+const ZONES = HUBS.reduce((acc, h) => acc.concat(h.zones.map(([n, s]) => ({ n, s, hub: h }))), []);
+function zoneOf(name) { const n = LEGACY[name] || name; return ZONES.find((z) => z.n === n) || null; }
+function hubOf(slug) { return HUBS.find((h) => h.s === slug || h.zones.some((z) => z[1] === slug)) || null; }
 const TYPE_LABEL = { analisis: 'Analisis', berita: 'Berita', penjelasan: 'Penjelasan' };
 const MONTHS = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
 const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des'];
@@ -34,7 +42,6 @@ const DAYS = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
 const EN_MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const EN_MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const EN_DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-const EN_CAT = { Regulasi: 'Regulation' };
 const EN_TYPE = { analisis: 'Analysis', berita: 'News', penjelasan: 'Explainer' };
 
 // UI text. Page code sets d.lang = 'id' | 'en'.
@@ -52,7 +59,7 @@ const TEXT = {
     vendorTitle: 'Untuk vendor teknologi', vendorHead: 'Tampilkan solusi Anda kepada pengambil keputusan TI di Indonesia',
     vendorDesc: 'Jadi exhibitor atau sponsor di B2B Tech Asia Expo 2027.',
     about: 'Diterbitkan oleh B2B Tech Asia Expo. Setiap kutipan mencantumkan sumber aslinya. Hak cipta kutipan tetap milik media masing-masing. Analisis ditulis oleh redaksi B2B Tech Asia Review.',
-    topics: 'Topik', expo: 'Expo', exhibitor: 'Exhibitor', navLabel: 'Kategori', langLabel: 'Bahasa',
+    topics: 'Topik', allZones: 'Semua zona', expo: 'Expo', exhibitor: 'Exhibitor', navLabel: 'Kategori', langLabel: 'Bahasa',
   },
   en: {
     latest: 'Latest', pr: 'Press Releases', tagline: 'B2B technology news and analysis for decision makers',
@@ -67,7 +74,7 @@ const TEXT = {
     vendorTitle: 'For technology vendors', vendorHead: 'Put your solution in front of IT decision makers in Indonesia',
     vendorDesc: 'Exhibit or sponsor at B2B Tech Asia Expo 2027.',
     about: 'Published by B2B Tech Asia Expo. Every quotation credits its original source; copyright in quoted material remains with each publisher. Analysis is written by the B2B Tech Asia Review editors.',
-    topics: 'Topics', expo: 'Expo', exhibitor: 'Exhibitors', navLabel: 'Categories', langLabel: 'Language',
+    topics: 'Topics', allZones: 'All zones', expo: 'Expo', exhibitor: 'Exhibitors', navLabel: 'Categories', langLabel: 'Language',
   },
 };
 const VENUE = 'The Ritz-Carlton Jakarta, Pacific Place';
@@ -81,8 +88,8 @@ const en = () => LANG === 'en';
 function longDate(d) { const x = wib(d); return `${(en() ? EN_DAYS : DAYS)[x.getUTCDay()]}, ${x.getUTCDate()} ${(en() ? EN_MONTHS : MONTHS)[x.getUTCMonth()]} ${x.getUTCFullYear()}`; }
 function date(d) { if (!d) return ''; const x = wib(d); return `${x.getUTCDate()} ${(en() ? EN_MONTHS : MONTHS)[x.getUTCMonth()]} ${x.getUTCFullYear()}`; }
 function shortDate(d) { const x = wib(d); return `${x.getUTCDate()} ${(en() ? EN_MON : MON)[x.getUTCMonth()]}`; }
-function catSlug(name) { const c = CATEGORIES.find((x) => x[0] === name); return c ? c[1] : ''; }
-function catName(name) { return en() ? (EN_CAT[name] || name) : name; }
+function catSlug(name) { const z = zoneOf(name); return z ? z.s : ''; }
+function catName(name) { const z = zoneOf(name); return z ? z.n : (name || ''); }
 function typeName(t) { return (en() ? EN_TYPE : TYPE_LABEL)[t] || (en() ? 'Analysis' : 'Analisis'); }
 function T() { return TEXT[LANG] || TEXT.id; }
 
@@ -181,8 +188,9 @@ ${this.langSwitch(d)}
   }
 
   navLinks(d, L, active) {
+    const hub = hubOf(active);
     const items = [[T().latest, L('/review'), !active, false]]
-      .concat(CATEGORIES.map(([n, s]) => [catName(n), L('/review?kategori=' + s), active === s, false]))
+      .concat(HUBS.map((h) => [h.n, L('/review?kategori=' + h.s), !!hub && hub.s === h.s, false]))
       .concat([[T().pr, L('/review?kategori=siaran-pers'), active === 'siaran-pers', true]]);
     return items.map(([n, h, on, pr]) => `<a href="${h}" style="color:${on ? RED : (pr ? MUTED : INK)}">${esc(n)}</a>`).join('');
   }
@@ -269,8 +277,6 @@ ${this.langSwitch(d)}
     const lead = arts[0];
     const latest = arts.slice(1, 7);
     const analysis = arts.filter((a) => a !== lead && (a.articleType === 'analisis' || a.articleType === 'penjelasan')).slice(0, 3);
-    const sections = CATEGORIES.map(([n, s]) => ({ n, s, items: arts.filter((a) => a.category === n) }))
-      .filter((x) => x.items.length);
     const pr = d.releases || [];
     const out = [];
     out.push(this.topbar(d, L));
@@ -315,17 +321,9 @@ ${(a.audience || []).length ? `<span style="font-size:13px;color:${SUB}">${t.for
 
     out.push(`<div style="margin-top:48px">${this.vendorWide(d, L)}</div>`);
 
-    if (sections.length) {
-      out.push(`<section class="rv-grid" style="margin-top:48px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:40px">
-${sections.map((s) => `<div style="display:flex;flex-direction:column">
-<h2 class="rv-serif" style="margin:0;font-size:22px;font-weight:700;padding:12px 0 14px;border-top:3px solid ${NAVY}"><a href="${L('/review?kategori=' + s.s)}" style="color:${NAVY}">${esc(catName(s.n))}</a></h2>
-<a href="${L('/review/' + s.items[0].slug)}">${this.heroImage(s.items[0], L)}</a>
-${s.items.slice(0, 3).map((it) => `<a href="${L('/review/' + it.slug)}" style="display:flex;flex-direction:column;gap:6px;padding:14px 0;border-bottom:1px solid ${LINE}">
-<span class="rv-serif" style="font-size:17px;line-height:1.35;font-weight:600">${esc(it.title)}</span>
-<span style="font-size:13px;color:${SUB}">${esc(typeName(it.articleType))} · ${esc(date(it.publishAt))}</span></a>`).join('')}
-</div>`).join('')}
+    out.push(`<section class="rv-grid" style="margin-top:48px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:40px">
+${HUBS.map((h) => this.hubColumn(h, arts.filter((a) => { const z = zoneOf(a.category); return z && z.hub === h; }), L)).join('')}
 </section>`);
-    }
 
     if (pr.length) {
       out.push(`<section style="margin-top:64px" aria-labelledby="rv-pr">
@@ -344,6 +342,41 @@ ${pr.slice(0, 4).map((r) => this.prCard(r, L, true)).join('')}
     return out.join('');
   }
 
+  hubBadge(h, size) {
+    const px = size || 28;
+    return `<span aria-hidden="true" style="flex:0 0 ${px}px;width:${px}px;height:${px}px;border-radius:50%;background:${h.color};color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:${Math.round(px * 0.5)}px">${h.no}</span>`;
+  }
+
+  // One hub on the front page: name, description, zone links, latest articles of the hub.
+  hubColumn(h, items, L) {
+    const t = T();
+    return `<div style="display:flex;flex-direction:column">
+<div style="border-top:3px solid ${NAVY};padding-top:12px;display:flex;gap:12px;align-items:center">
+${this.hubBadge(h)}
+<h2 class="rv-serif" style="margin:0;font-size:22px;font-weight:700"><a href="${L('/review?kategori=' + h.s)}" style="color:${NAVY}">${esc(h.n)}</a></h2>
+</div>
+<span style="font-size:14px;color:${MUTED};margin:6px 0 10px">${esc(en() ? h.en : h.id)} · ${t.forWho}: ${esc(h.who)}</span>
+<div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px">${h.zones.map(([n, s]) => `<a href="${L('/review?kategori=' + s)}" style="font-size:12px;font-weight:600;border:1px solid #C4CAD3;padding:4px 8px;color:${INK}">${esc(n)}</a>`).join('')}</div>
+${items.length ? `<a href="${L('/review/' + items[0].slug)}">${this.heroImage(items[0], L)}</a>
+${items.slice(0, 3).map((it) => `<a href="${L('/review/' + it.slug)}" style="display:flex;flex-direction:column;gap:6px;padding:14px 0;border-bottom:1px solid ${LINE}">
+<span class="rv-kicker" style="font-size:11px;color:${RED}">${esc(catName(it.category))}</span>
+<span class="rv-serif" style="font-size:17px;line-height:1.35;font-weight:600">${esc(it.title)}</span>
+<span style="font-size:13px;color:${SUB}">${esc(typeName(it.articleType))} · ${esc(date(it.publishAt))}</span></a>`).join('')}`
+    : `<p style="margin:0;font-size:15px;color:${MUTED}">${t.empty}</p>`}
+</div>`;
+  }
+
+  // Zone filter under a hub or zone heading.
+  zoneChips(d, L) {
+    const h = hubOf(d.active);
+    if (!h) return '';
+    const chip = (label, slug) => {
+      const on = d.active === slug;
+      return `<a href="${L('/review?kategori=' + slug)}" style="font-size:13px;font-weight:600;padding:6px 12px;border:1px solid ${on ? NAVY : '#C4CAD3'};background:${on ? NAVY : '#fff'};color:${on ? '#fff' : INK}">${esc(label)}</a>`;
+    };
+    return `<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:16px">${chip(T().allZones, h.s)}${h.zones.map(([n, s]) => chip(n, s)).join('')}</div>`;
+  }
+
   prCard(r, L, label) {
     const t = T();
     return `<a href="${L('/siaran-pers/' + r.slug)}" style="display:flex;flex-direction:column;gap:10px">
@@ -358,8 +391,11 @@ ${label ? `<span class="rv-kicker" style="font-size:11px;display:flex;gap:8px;al
     const arts = d.articles || [];
     const pr = d.releases || [];
     const out = [this.topbar(d, L), this.masthead(d, L), this.leader(d, L), `<main class="rv-wrap" style="padding-top:32px">`];
-    out.push(`<div class="rv-sechead" style="border-top:none;padding-top:0"><h1 class="rv-serif" style="margin:0;font-size:40px;font-weight:700;color:${NAVY}">${esc(d.heading || '')}</h1>
-${d.intro ? `<span style="font-size:14px;color:${MUTED}">${esc(d.intro)}</span>` : ''}</div>`);
+    const lh = hubOf(d.active);
+    out.push(`${d.kicker ? `<div class="rv-kicker" style="font-size:12px;margin-bottom:8px"><a href="${L('/review?kategori=' + (lh ? lh.s : ''))}" style="color:${RED}">${esc(d.kicker)}</a></div>` : ''}
+<div class="rv-sechead" style="border-top:none;padding-top:0"><h1 class="rv-serif" style="margin:0;font-size:40px;font-weight:700;color:${NAVY};display:flex;gap:14px;align-items:center">${lh && lh.s === d.active ? this.hubBadge(lh, 40) : ''}${esc(d.heading || '')}</h1>
+${d.intro ? `<span style="font-size:14px;color:${MUTED}">${esc(d.intro)}</span>` : ''}</div>
+${this.zoneChips(d, L)}`);
     // A banner after every 6 cards; the first one is for visitors, the next for vendors.
     const withAds = (cards) => cards.map((c, i) => c + ((i + 1) % 6 === 0 && i + 1 < cards.length
       ? (((i + 1) / 6) % 2 === 1 ? this.vendorWide(d, L) : this.leader(d, L, 0, true)) : '')).join('');
@@ -452,7 +488,8 @@ ${rel.map((r) => `<a href="${L('/review/' + r.slug)}" class="rv-serif" style="di
 <span>${this.langSwitch(d)}</span>
 </div>
 <div style="display:flex;flex-wrap:wrap;gap:40px">
-<div style="display:flex;flex-direction:column;gap:10px"><strong style="color:${INK}">${t.topics}</strong>${CATEGORIES.map(([n, s]) => `<a href="${L('/review?kategori=' + s)}" style="color:${MUTED}">${esc(catName(n))}</a>`).join('')}<a href="${L('/review?kategori=siaran-pers')}" style="color:${MUTED}">${t.pr}</a></div>
+${HUBS.map((h) => `<div style="display:flex;flex-direction:column;gap:10px;max-width:220px"><a href="${L('/review?kategori=' + h.s)}" style="color:${INK}"><strong>${esc(h.n)}</strong></a>${h.zones.map(([n, s]) => `<a href="${L('/review?kategori=' + s)}" style="color:${MUTED}">${esc(n)}</a>`).join('')}</div>`).join('')}
+<div style="display:flex;flex-direction:column;gap:10px"><strong style="color:${INK}">${t.pr}</strong><a href="${L('/review?kategori=siaran-pers')}" style="color:${MUTED}">${t.prAll.replace(' →', '')}</a></div>
 <div style="display:flex;flex-direction:column;gap:10px"><strong style="color:${INK}">${t.expo}</strong><a href="${L('/')}" style="color:${MUTED}">B2B Tech Asia Expo</a><a href="${L('/register-now-2')}" style="color:${MUTED}">${t.register}</a><a href="${L(d.exhibitorPath || '/copy-of-agenda-2027')}" style="color:${MUTED}">${t.exhibitor}</a><a href="${L('/request-proposal-form')}" style="color:${MUTED}">${t.proposal}</a></div>
 </div></div></footer>`;
   }

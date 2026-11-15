@@ -30,13 +30,20 @@
     },
     "category": {
       "enum": [
-        "Cybersecurity",
-        "AI & Data",
-        "Cloud & Data Center",
-        "Enterprise Adoption",
-        "Regulasi",
-        "Deals"
-      ]
+        "AI & Automation",
+        "Cloud & IT Infrastructure",
+        "Cybersecurity & Data Protection",
+        "Enterprise Software & ERP",
+        "Marketing Technology",
+        "Sales & CRM",
+        "Customer Engagement & CX",
+        "E-Commerce & Retail Tech",
+        "FinTech & Financial Operations",
+        "HR Tech & Workforce Management",
+        "Legal, Compliance & Governance Tech",
+        "Logistics & Supply Chain Tech"
+      ],
+      "description": "One Expo zone (see taxonomy.json). The hub follows from the zone."
     },
     "articleType": {
       "enum": [

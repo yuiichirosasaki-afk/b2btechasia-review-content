@@ -8,16 +8,14 @@ There is no human review. Nobody approves articles and nobody is notified. Quali
 
 ## The daily run (weekdays, ~03:00 WIB)
 
-1. `python3 scripts/recent_slugs.py` — lists articles from the last 30 days, so you do not repeat a story.
-2. Research news from the last 72 hours (Indonesia first, then Southeast Asia if it affects Indonesian companies) for each of the 6 categories:
-   - **Cybersecurity** — incidents, threats, BSSN / OJK / Komdigi actions, vendor research
-   - **AI & Data** — enterprise AI, data platforms, AI cost and governance
-   - **Cloud & Data Center** — hyperscaler regions, data center capacity, power, pricing
-   - **Enterprise Adoption** — named companies (banks, telcos, BUMN, retailers, manufacturers) adopting technology; this is the most valuable category
-   - **Regulasi** — PDP law, OJK/BI rules, Komdigi, AI regulation, tax on digital services
-   - **Deals** — funding, M&A, partnerships, large contracts
+1. `python3 scripts/recent_slugs.py` — lists articles from the last 30 days, so you do not repeat a story, and the zone coverage of the last 7 days.
+2. Research news from the last 72 hours (Indonesia first, then Southeast Asia if it affects Indonesian companies). Categories follow the **B2B Tech Asia Expo 2027 zones** (`taxonomy.json`): 3 hubs × 4 zones. An article's `category` is exactly one zone name.
+   - **AI & Automation Hub** (CTO, IT Director, Infrastructure Lead): `AI & Automation` · `Cloud & IT Infrastructure` · `Cybersecurity & Data Protection` · `Enterprise Software & ERP`
+   - **Growth & Revenue Hub** (CMO, Head of Sales, Growth Lead): `Marketing Technology` · `Sales & CRM` · `Customer Engagement & CX` · `E-Commerce & Retail Tech`
+   - **Back Office & Operations Hub** (CFO, HR Director, Operations Head): `FinTech & Financial Operations` · `HR Tech & Workforce Management` · `Legal, Compliance & Governance Tech` · `Logistics & Supply Chain Tech`
+   See `scope` in `taxonomy.json` for what each zone covers. Regulation goes in the zone it affects most, or in `Legal, Compliance & Governance Tech` when it is about compliance itself. **Enterprise adoption** (a named bank, telco, BUMN, retailer or manufacturer adopting technology — the most valuable kind of story) and **deals** (funding, M&A, partnerships, large contracts) are angles, not categories: put the story in its zone and add the tag `Enterprise Adoption` or `Deals`.
    Use WebSearch (Indonesian and English queries) and WebFetch to read the actual articles. Prefer primary sources (regulator, company press release, filings) plus at least one reputable outlet (Kontan, Bisnis.com, Katadata, CNBC Indonesia, Kompas, Tempo, The Jakarta Post, Reuters, DealStreetAsia, Tech in Asia, KrASIA).
-3. Write **one article per category** (6 per day), in Bahasa Indonesia, **and** its English version in the `en` field (see Article format). If a category has no news that passes the rules, write a `penjelasan` (explainer) on a current issue in that category, or skip the category that day. Never invent news to fill a slot.
+3. Write **6 articles per day: 2 per hub, each in a different zone**, in Bahasa Indonesia, **and** each article's English version in the `en` field (see Article format). Use the zone coverage printed by `recent_slugs.py` to favour zones with few articles in the last 7 days, so all 12 zones get covered over the week — but news quality comes first: never force a weak story into a zone. If a hub has no news that passes the rules, write a `penjelasan` (explainer) on a current issue in one of its zones, or skip that slot. Never invent news to fill a slot.
 4. Save each article as `articles/YYYY-MM-DD/<slug>.json` (date = publish date, WIB) following `schema/article.schema.json`.
 5. `python3 scripts/make_images.py articles/YYYY-MM-DD` — renders the hero data graphic (`images/<slug>.png`) and sets `heroImage`.
 6. `python3 scripts/validate.py articles/YYYY-MM-DD` — must print `OK` for every file. Fix and re-run until it does. Delete any article you cannot fix.
@@ -58,4 +56,4 @@ There is no human review. Nobody approves articles and nobody is notified. Quali
 
 ## Cost
 
-Keep each run efficient: about 3–6 searches per category, fetch only the articles you will cite. One run per weekday.
+Keep each run efficient: about 3–6 searches per article, fetch only the articles you will cite. One run per weekday.

@@ -18,7 +18,6 @@ const MONTHS = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 
 const TYPE_LABEL = { analisis: 'Analisis', berita: 'Berita', penjelasan: 'Penjelasan' };
 const EN_MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const EN_TYPE = { analisis: 'Analysis', berita: 'News', penjelasan: 'Explainer' };
-const EN_CAT = { Regulasi: 'Regulation' };
 const TXT = {
   id: {
     news: 'Berita', byline: 'Redaksi B2B Tech Asia Review', minRead: 'menit baca', graphic: 'Grafis: B2B Tech Asia Review. Data:',
@@ -35,7 +34,19 @@ const TXT = {
     moreIn: (c) => 'More in ' + c, related: 'Related', author: 'B2B Tech Asia Review editors',
   },
 };
-const CAT_SLUG = { 'Cybersecurity': 'cybersecurity', 'AI & Data': 'ai-data', 'Cloud & Data Center': 'cloud-data-center', 'Enterprise Adoption': 'enterprise-adoption', 'Regulasi': 'regulasi', 'Deals': 'deals' };
+// Categories = B2B Tech Asia Expo 2027 zones. Keep in sync with taxonomy.json.
+const HUBS = [
+  ['AI & Automation Hub', 'ai-automation-hub', [['AI & Automation', 'ai-automation'], ['Cloud & IT Infrastructure', 'cloud-it-infrastructure'], ['Cybersecurity & Data Protection', 'cybersecurity-data-protection'], ['Enterprise Software & ERP', 'enterprise-software-erp']]],
+  ['Growth & Revenue Hub', 'growth-revenue-hub', [['Marketing Technology', 'marketing-technology'], ['Sales & CRM', 'sales-crm'], ['Customer Engagement & CX', 'customer-engagement-cx'], ['E-Commerce & Retail Tech', 'ecommerce-retail-tech']]],
+  ['Back Office & Operations Hub', 'back-office-operations-hub', [['FinTech & Financial Operations', 'fintech-financial-operations'], ['HR Tech & Workforce Management', 'hr-tech-workforce'], ['Legal, Compliance & Governance Tech', 'legal-compliance-governance'], ['Logistics & Supply Chain Tech', 'logistics-supply-chain']]],
+];
+function zoneInfo(name) {
+  for (const [hn, hs, zones] of HUBS) {
+    const z = zones.find((x) => x[0] === name);
+    if (z) return { zone: z[0], zoneSlug: z[1], hub: hn, hubSlug: hs, hubZones: zones.map((x) => x[0]) };
+  }
+  return { zone: name || '', zoneSlug: '', hub: '', hubSlug: '', hubZones: [name] };
+}
 
 function esc(s) {
   return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -90,16 +101,21 @@ $w.onReady(async function () {
   const isEn = lang === 'en';
   const t = TXT[isEn ? 'en' : 'id'];
   const item = localize(raw, isEn);
-  const catSlug = CAT_SLUG[item.category] || '';
-  const catLabel = isEn ? (EN_CAT[item.category] || item.category) : item.category;
+  const zi = zoneInfo(item.category);
+  const catSlug = zi.zoneSlug;
+  const catLabel = zi.zone;
   const type = (isEn ? EN_TYPE : TYPE_LABEL)[item.articleType] || (isEn ? 'Analysis' : 'Analisis');
   const readMin = Math.max(2, Math.round((words(item.summaryHtml) + words(item.analysisHtml) + words(item.actionHtml) + words(item.faqHtml)) / 200));
 
   const related = await wixData.query('ReviewArticles')
     .eq('category', item.category).ne('slug', item.slug).le('publishAt', new Date())
     .descending('publishAt').limit(3).find().then((r) => r.items).catch(() => []);
-  const latest = related.length ? related : await wixData.query('ReviewArticles')
-    .ne('slug', item.slug).le('publishAt', new Date()).descending('publishAt').limit(3).find().then((r) => r.items).catch(() => []);
+  // Same zone first, then the same hub, then the latest articles.
+  const sameHub = related.length ? [] : await wixData.query('ReviewArticles')
+    .hasSome('category', zi.hubZones).ne('slug', item.slug).le('publishAt', new Date())
+    .descending('publishAt').limit(3).find().then((r) => r.items).catch(() => []);
+  const latest = related.length ? related : (sameHub.length ? sameHub : await wixData.query('ReviewArticles')
+    .ne('slug', item.slug).le('publishAt', new Date()).descending('publishAt').limit(3).find().then((r) => r.items).catch(() => []));
 
   const chrome = { base, lang: isEn ? 'en' : 'id', path: '/review/' + item.slug, narrow: true, now: new Date().toISOString(), active: catSlug };
   const top = $w('#customElement1');
@@ -109,13 +125,13 @@ $w.onReady(async function () {
   top.setAttribute('data', JSON.stringify(chrome));
   bottom.setAttribute('data', JSON.stringify(Object.assign({}, chrome, {
     article: { category: item.category, audience: item.audience || [] },
-    relatedTitle: related.length ? t.moreIn(catLabel) : t.related,
+    relatedTitle: related.length ? t.moreIn(catLabel) : (sameHub.length ? t.moreIn(zi.hub) : t.related),
     related: latest.map((r) => localize(r, isEn)).map((r) => ({ slug: r.slug, title: r.title, category: r.category, heroImage: r.heroImage || '' })),
   })));
 
   // Headline block
   const head = [];
-  head.push(`<p style="font-size:13px"><span style="${SANS}; color:${SUB}"><a href="/review"><span style="color:${SUB}">${t.news}</span></a> &nbsp;›&nbsp; <a href="/review?kategori=${catSlug}"><span style="color:${SUB}">${esc(catLabel)}</span></a> &nbsp;›&nbsp; ${type}</span></p>`);
+  head.push(`<p style="font-size:13px"><span style="${SANS}; color:${SUB}"><a href="/review"><span style="color:${SUB}">${t.news}</span></a>${zi.hubSlug ? ` &nbsp;›&nbsp; <a href="/review?kategori=${zi.hubSlug}"><span style="color:${SUB}">${esc(zi.hub)}</span></a>` : ''} &nbsp;›&nbsp; <a href="/review?kategori=${catSlug}"><span style="color:${SUB}">${esc(catLabel)}</span></a> &nbsp;›&nbsp; ${type}</span></p>`);
   head.push(gap(8));
   head.push(`<p style="font-size:12px; letter-spacing:0.1em"><span style="${SANS}; color:${RED}"><strong>${type.toUpperCase()}</strong></span><span style="${SANS}; color:${NAVY}"><strong> &nbsp;·&nbsp; ${esc(catLabel).toUpperCase()}</strong></span></p>`);
   head.push(`<h1 style="font-size:46px; line-height:1.12"><span style="${SERIF}; color:${INK}"><strong>${esc(item.title)}</strong></span></h1>`);

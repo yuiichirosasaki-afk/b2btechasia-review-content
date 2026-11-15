@@ -9,7 +9,7 @@ from pathlib import Path
 from datetime import datetime
 
 ROOT = Path(__file__).resolve().parent.parent
-CATEGORIES = {"Cybersecurity", "AI & Data", "Cloud & Data Center", "Enterprise Adoption", "Regulasi", "Deals"}
+CATEGORIES = {z["name"] for h in json.loads((Path(__file__).resolve().parent.parent / "taxonomy.json").read_text(encoding="utf-8"))["hubs"] for z in h["zones"]}
 TYPES = {"analisis", "berita", "penjelasan"}
 REQUIRED = ["slug", "title", "category", "articleType", "dek", "summaryHtml", "analysisHtml",
             "actionHtml", "sources", "seoTitle", "seoDescription", "publishAt", "language"]

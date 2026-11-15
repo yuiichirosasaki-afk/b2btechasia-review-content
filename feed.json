@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-15T17:48:48+07:00",
+  "generatedAt": "2026-11-15T19:30:18+07:00",
   "site": "B2B Tech Asia Review",
   "articles": [
     {
       "slug": "pendanaan-startup-teknologi-indonesia-9m-2026-tracxn",
       "title": "Pendanaan Teknologi Indonesia Naik 111%, tetapi Satu Kesepakatan Menyumbang 74%",
-      "category": "Deals",
+      "category": "FinTech & Financial Operations",
       "articleType": "berita",
       "dek": "Laporan Tracxn mencatat pendanaan perusahaan teknologi Indonesia mencapai US$365 juta pada Januari–September 2026. Kenaikannya hampir seluruhnya berasal dari putaran Seri C Ajaib. Di bawah permukaan, jumlah putaran, investor, dan pendanaan tahap awal justru menyusut tajam.",
       "summaryHtml": "<ul><li>Menurut laporan Tracxn &ldquo;Indonesia Tech &ndash; 9M 2026&rdquo;, total pendanaan perusahaan teknologi Indonesia mencapai US$365 juta, naik 111% dari US$173 juta pada periode yang sama 2025. Jumlah putaran turun 56% menjadi 14. (Katadata)</li><li>Ajaib meraih US$270 juta dalam putaran Seri C pada Agustus 2026 bersama SBI Group, setara sekitar 74% dari total pendanaan sembilan bulan. Waresix memperoleh US$27 juta (Seri B) dan Green Rebel US$13 juta (Seri A). (Katadata)</li><li>Pendanaan tahap akhir mencapai US$280 juta atau 77% dari total. Pendanaan tahap awal turun 16% menjadi US$83 juta, dan pendanaan seed anjlok 92% menjadi US$2 juta dari hanya 4 putaran. (Katadata)</li><li>Investor aktif turun menjadi 27, terdiri dari 20 investor asing dan 7 domestik. Tidak ada IPO perusahaan teknologi dan hanya satu akuisisi, yaitu NOBI oleh Bybit. (Katadata)</li><li>Di tingkat Asia Tenggara, pendanaan teknologi naik 176% menjadi US$13,5 miliar, sementara jumlah putaran turun 28% menjadi 189. Kenaikan juga terkonsentrasi pada beberapa kesepakatan besar. (TechNode Global)</li></ul>",
@@ -21,6 +21,7 @@
         "Investor"
       ],
       "tags": [
+        "Deals",
         "Tracxn",
         "Pendanaan startup",
         "Ajaib",
@@ -103,7 +104,7 @@
     {
       "slug": "perpres-ai-etika-peta-jalan-yang-perlu-disiapkan-perusahaan",
       "title": "Perpres AI Tinggal Menunggu Tanda Tangan: 5 Hal yang Perlu Disiapkan Perusahaan dari Sekarang",
-      "category": "Regulasi",
+      "category": "Legal, Compliance & Governance Tech",
       "articleType": "penjelasan",
       "dek": "Dua rancangan Peraturan Presiden tentang AI, yaitu Peta Jalan AI Nasional 2026–2029 dan Etika AI, telah rampung dibahas lintas kementerian. Perusahaan yang memakai AI untuk data pribadi, layanan publik, atau keputusan berdampak besar sebaiknya bersiap sebelum aturan teknisnya terbit.",
       "summaryHtml": "<ul><li>Komdigi bersama kementerian lintas sektor menyelesaikan pembahasan RPerpres Etika Kecerdasan Artifisial dan RPerpres Peta Jalan Kecerdasan Artifisial Nasional 2026&ndash;2029 pada 5 Mei 2026. (JDIH Komdigi)</li><li>Pada 3 September 2026, Dirjen Ekosistem Digital Komdigi Edwin Hidayat Abdullah menyebut kedua Perpres tinggal menunggu tanda tangan Presiden. Hingga artikel ini ditulis pada 15 November 2026, redaksi belum menemukan laporan bahwa keduanya telah ditandatangani. (Selular.ID)</li><li>Menkomdigi Meutya Hafid menyatakan Komdigi menyiapkan aturan payung, sementara aturan teknis disusun oleh masing-masing sektor. Peta jalan memuat 10 sektor prioritas, termasuk kesehatan, pendidikan, serta ekonomi dan keuangan. (detikInet)</li><li>Rancangan Perpres Etika AI membagi risiko AI ke dalam tiga kategori: rendah, tinggi, dan tidak dapat diterima. Sistem berisiko tinggi wajib menjalani penilaian risiko sejak tahap desain, dan konten buatan AI direncanakan wajib diberi label. (Katadata)</li><li>Komdigi mempertahankan ketentuan yang mewajibkan pelaporan seluruh jenis insiden operasional AI, tanpa memandang skala risikonya. (Bisnis.com)</li></ul>",
@@ -185,7 +186,7 @@
     {
       "slug": "bank-indonesia-adopsi-ai-tata-kelola-4-persen",
       "title": "88% Bank Sudah Menjajal AI, Baru 4% Punya Tata Kelola Formal: Celah yang Disorot BI",
-      "category": "Enterprise Adoption",
+      "category": "AI & Automation",
       "articleType": "berita",
       "dek": "Studi IBM dan Perbanas menemukan hampir semua bank di Indonesia sudah menjajal AI, tetapi hanya 4% yang memasukkannya ke tata kelola perusahaan secara formal. Bank Indonesia mengingatkan risiko yang belum ada di buku manual risiko lama, termasuk perilaku seragam agen AI.",
       "summaryHtml": "<ul><li>Studi IBM dan Perbanas menunjukkan 88% bank di Indonesia sudah menjajal teknologi AI, sementara 12% belum memulai. Hanya 4% yang telah mengintegrasikan AI secara formal ke tata kelola perusahaan. (Indonesia Business Post)</li><li>Temuan ini dirilis bersama white paper &ldquo;Digital Sovereign AI and the Future of Trusted Banking&rdquo; dari IBM, Perbanas, dan Kiantara &amp; Associates pada 27 Oktober 2026. (Indonesia Business Post)</li><li>Managing Partner IBM Consulting Indonesia Juvanus Tjandra menilai penerapan AI di industri masih terfragmentasi dan banyak bank belum punya arsitektur terpusat. Penggunaan masih terkonsentrasi di layanan nasabah seperti chatbot. (Indonesia Business Post)</li><li>Ricky Satria dari Bank Indonesia mengingatkan penipuan dengan suara dan wajah sintetis, serta serangan yang kini berlangsung dalam hitungan jam. &ldquo;Serangan sangat cepat, bukan lagi berminggu-minggu,&rdquo; ujarnya. (Katadata)</li><li>BI juga menyoroti risiko herding: banyak agen AI yang memakai model dan penyedia cloud yang sama bisa memberi rekomendasi serupa pada saat bersamaan. BI mendorong bank memegang kendali penuh atas AI yang dipakai. (Katadata)</li></ul>",
@@ -201,6 +202,7 @@
         "Vendor AI dan keamanan"
       ],
       "tags": [
+        "Enterprise Adoption",
         "Perbankan",
         "IBM",
         "Perbanas",
@@ -284,7 +286,7 @@
     {
       "slug": "biaya-token-ai-perusahaan-indonesia-cloudera-2026",
       "title": "Biaya Token Melonjak, 89% Perusahaan Rancang Ulang AI: Apa Artinya bagi Perusahaan Indonesia",
-      "category": "AI & Data",
+      "category": "AI & Automation",
       "articleType": "berita",
       "dek": "Survei Cloudera terhadap 1.500 pemimpin TI menemukan 89% perusahaan membatasi atau merancang ulang kasus penggunaan AI karena konsumsi token meningkat. Di Indonesia, investasi AI justru terus naik. Pertanyaannya bergeser dari apakah memakai AI menjadi berapa biaya untuk setiap hasil.",
       "summaryHtml": "<ul><li>Laporan Cloudera &ldquo;The State of Enterprise AI 2026: The New Rules of Scale&rdquo; menyurvei 1.500 pemimpin TI di sejumlah negara. Survei dilakukan Wakefield Research pada September 2026. (IndoTelko)</li><li>Secara global, 89% responden membatasi atau merancang ulang kasus penggunaan AI karena konsumsi token meningkat, dan 45% memindahkan beban kerja AI karena biaya yang lebih tinggi atau berfluktuasi. (IndoTelko)</li><li>Di Indonesia, 88% perusahaan menambah investasi AI dibanding tahun sebelumnya, dan 70% mengalokasikan setidaknya US$500.000 per tahun. Hambatan terbesar adalah tata kelola dan kepatuhan (65%), kekurangan keahlian (55%), serta integrasi data (45%). (IndoTelko)</li><li>Lokasi dan yurisdiksi data memengaruhi penempatan beban kerja AI bagi 88% organisasi Indonesia. (IndoTelko)</li><li>Survei CEO PwC Indonesia 2026 menunjukkan 22% CEO melihat kenaikan pendapatan dari AI dan 28% melihat penurunan biaya, tetapi hanya 10% merasakan keduanya. (Fortune IDN)</li></ul>",
@@ -348,7 +350,7 @@
     {
       "slug": "equinix-jk1-phase-2-kapasitas-data-center-jakarta",
       "title": "Equinix Tambah 1.125 Kabinet di JK1 Jakarta: Kapasitas Data Center Siap AI Mulai Jadi Rebutan",
-      "category": "Cloud & Data Center",
+      "category": "Cloud & IT Infrastructure",
       "articleType": "berita",
       "dek": "Equinix meresmikan JK1 Phase 2 di Jakarta dengan tambahan sekitar 1.125 kabinet berpendingin cair. Equinix memperkirakan sebagian besar ruang data hall terisi dalam enam bulan. Bagi perusahaan yang berencana menjalankan beban kerja AI, ini sinyal untuk mengamankan kapasitas lebih awal.",
       "summaryHtml": "<ul><li>Equinix meresmikan JK1 Phase 2 di Jakarta pada 10 November 2026. Ekspansi ini menambah sekitar 1.125 kabinet sehingga total JK1 mencapai sekitar 1.660 kabinet. Belanja modal tahap ini diperkirakan US$39 juta, dan total komitmen investasi Equinix di Indonesia menjadi US$94 juta. (Bisnis.com)</li><li>JK1 Phase 2 dilengkapi kapasitas siap AI dengan pendingin cair (liquid cooling) dan ditargetkan beroperasi pada kuartal IV/2026. (Bisnis.com)</li><li>Managing Director Equinix Indonesia Haris Izmee memperkirakan sebagian besar data hall akan terisi dalam enam bulan. Permintaan datang dari AI, minyak dan gas, pertambangan, serta perbankan. (Fortune IDN)</li><li>Menurut Haris, &ldquo;AI mendorong permintaan akan infrastruktur siap AI yang saling terkoneksi dan berdekatan dengan cloud.&rdquo; JK1 terhubung ke AWS, Microsoft Azure, Google Cloud, dan Alibaba Cloud. (Katadata)</li><li>Komdigi menyebut kapasitas pusat data Indonesia saat ini sekitar 600 MW. Wamenkomdigi Nezar Patria membandingkannya dengan Malaysia, yang menurutnya sudah mencapai sekitar 3 GW. (Katadata, Fortune IDN)</li></ul>",
@@ -424,7 +426,7 @@
     {
       "slug": "serangan-siber-2-2-juta-indonesia-analisis",
       "title": "2,2 Juta Serangan Siber ke Indonesia dalam 24 Jam: Membaca Angka di Balik Kepanikan",
-      "category": "Cybersecurity",
+      "category": "Cybersecurity & Data Protection",
       "articleType": "analisis",
       "dek": "Jumlah percobaan serangan siber ke Indonesia di dashboard FortiGuard Labs naik dari sekitar 350.600 menjadi 2,2 juta dalam tiga hari. Angka itu nyata, tetapi bukan jumlah sistem yang jebol. Risiko terbesar bagi perusahaan justru ada di tempat lain.",
       "summaryHtml": "<ul><li>Dashboard FortiGuard Labs mencatat sekitar 350.600 percobaan serangan dalam 24 jam per 7 November 2026, sekitar 657.000 pada 8 November, sekitar 1,6 juta pada 9 November, dan sekitar 2,2 juta dalam 24 jam hingga 10 November pukul 07.30 WIB. Sekitar 1 juta di antaranya menyasar sektor keuangan. (Bisnis.com, Gebrak.id, Fortune IDN, Katadata)</li><li>Alfons Tanujaya dari Vaksincom menjelaskan bahwa angka tersebut adalah upaya serangan yang terdeteksi dan diblokir sensor Fortinet, &ldquo;bukan jumlah sistem yang berhasil dibobol&rdquo;. (Bisnis.com)</li><li>BSSN menerbitkan Security Advisory pada 8 November. Ancaman yang beredar dikaitkan dengan penolakan terhadap SPP-TDLN, kebijakan pajak transaksi digital luar negeri, dan belum terverifikasi. (Katadata)</li><li>Komdigi mengirim tiga surat imbauan pada 9 November kepada pengguna PDN dan Cloud Pemerintah, pengelola domain instansi, serta PSE lingkup publik. Aries Kusdaryono menegaskan, &ldquo;Kita tidak boleh mengabaikan potensi risiko ancaman serangan tersebut.&rdquo; (Katadata)</li><li>OJK dan BI mengaktifkan Tim Tanggap Insiden Siber (TTIS) dan meminta bank menahan transaksi yang anomali untuk diverifikasi. (The Star / The Jakarta Post)</li></ul>",

@@ -1,7 +1,7 @@
 {
   "slug": "bank-indonesia-adopsi-ai-tata-kelola-4-persen",
   "title": "88% Bank Sudah Menjajal AI, Baru 4% Punya Tata Kelola Formal: Celah yang Disorot BI",
-  "category": "Enterprise Adoption",
+  "category": "AI & Automation",
   "articleType": "berita",
   "dek": "Studi IBM dan Perbanas menemukan hampir semua bank di Indonesia sudah menjajal AI, tetapi hanya 4% yang memasukkannya ke tata kelola perusahaan secara formal. Bank Indonesia mengingatkan risiko yang belum ada di buku manual risiko lama, termasuk perilaku seragam agen AI.",
   "summaryHtml": "<ul><li>Studi IBM dan Perbanas menunjukkan 88% bank di Indonesia sudah menjajal teknologi AI, sementara 12% belum memulai. Hanya 4% yang telah mengintegrasikan AI secara formal ke tata kelola perusahaan. (Indonesia Business Post)</li><li>Temuan ini dirilis bersama white paper &ldquo;Digital Sovereign AI and the Future of Trusted Banking&rdquo; dari IBM, Perbanas, dan Kiantara &amp; Associates pada 27 Oktober 2026. (Indonesia Business Post)</li><li>Managing Partner IBM Consulting Indonesia Juvanus Tjandra menilai penerapan AI di industri masih terfragmentasi dan banyak bank belum punya arsitektur terpusat. Penggunaan masih terkonsentrasi di layanan nasabah seperti chatbot. (Indonesia Business Post)</li><li>Ricky Satria dari Bank Indonesia mengingatkan penipuan dengan suara dan wajah sintetis, serta serangan yang kini berlangsung dalam hitungan jam. &ldquo;Serangan sangat cepat, bukan lagi berminggu-minggu,&rdquo; ujarnya. (Katadata)</li><li>BI juga menyoroti risiko herding: banyak agen AI yang memakai model dan penyedia cloud yang sama bisa memberi rekomendasi serupa pada saat bersamaan. BI mendorong bank memegang kendali penuh atas AI yang dipakai. (Katadata)</li></ul>",
@@ -17,6 +17,7 @@
     "Vendor AI dan keamanan"
   ],
   "tags": [
+    "Enterprise Adoption",
     "Perbankan",
     "IBM",
     "Perbanas",

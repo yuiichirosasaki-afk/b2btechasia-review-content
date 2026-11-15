@@ -7,22 +7,17 @@ import wixLocationFrontend from 'wix-location-frontend';
 import wixWindowFrontend from 'wix-window-frontend';
 import wixSeoFrontend from 'wix-seo-frontend';
 
-const CATEGORIES = [
-  ['Cybersecurity', 'cybersecurity'],
-  ['AI & Data', 'ai-data'],
-  ['Cloud & Data Center', 'cloud-data-center'],
-  ['Enterprise Adoption', 'enterprise-adoption'],
-  ['Regulasi', 'regulasi'],
-  ['Deals', 'deals'],
+// Categories = B2B Tech Asia Expo 2027 zones (3 hubs x 4 zones). Keep in sync with taxonomy.json.
+const HUBS = [
+  { n: 'AI & Automation Hub', s: 'ai-automation-hub', id: 'Keputusan teknis dan infrastruktur', en: 'Technical & infrastructure decisions',
+    zones: [['AI & Automation', 'ai-automation'], ['Cloud & IT Infrastructure', 'cloud-it-infrastructure'], ['Cybersecurity & Data Protection', 'cybersecurity-data-protection'], ['Enterprise Software & ERP', 'enterprise-software-erp']] },
+  { n: 'Growth & Revenue Hub', s: 'growth-revenue-hub', id: 'Akuisisi dan retensi pelanggan', en: 'Customer acquisition & retention',
+    zones: [['Marketing Technology', 'marketing-technology'], ['Sales & CRM', 'sales-crm'], ['Customer Engagement & CX', 'customer-engagement-cx'], ['E-Commerce & Retail Tech', 'ecommerce-retail-tech']] },
+  { n: 'Back Office & Operations Hub', s: 'back-office-operations-hub', id: 'Fungsi yang menjaga bisnis tetap berjalan', en: 'Functions that keep business running',
+    zones: [['FinTech & Financial Operations', 'fintech-financial-operations'], ['HR Tech & Workforce Management', 'hr-tech-workforce'], ['Legal, Compliance & Governance Tech', 'legal-compliance-governance'], ['Logistics & Supply Chain Tech', 'logistics-supply-chain']] },
 ];
-
-const EN_CAT = { Regulasi: 'Regulation' };
-
-// English fields come from enJson (the `en` object in the feed); Indonesian is the fallback.
-function localize(a, lang) {
-  if (lang !== 'en' || !a.enJson) return a;
-  try { return Object.assign({}, a, JSON.parse(a.enJson)); } catch (e) { return a; }
-}
+// Old category slugs (before the zone structure) → zone slugs.
+const LEGACY_SLUG = { cybersecurity: 'cybersecurity-data-protection', 'ai-data': 'ai-automation', 'cloud-data-center': 'cloud-it-infrastructure', regulasi: 'legal-compliance-governance' };
 
 function slim(raw, lang) {
   const a = localize(raw, lang);
@@ -43,14 +38,16 @@ $w.onReady(async function () {
 
   const lang = (wixWindowFrontend.multilingual && wixWindowFrontend.multilingual.currentLanguage) || 'id';
   const base = lang && lang !== 'en' ? '/' + lang : '';
-  const kategori = String(wixLocationFrontend.query.kategori || '');
-  const cat = CATEGORIES.find((c) => c[1] === kategori);
+  const kategori = LEGACY_SLUG[String(wixLocationFrontend.query.kategori || '')] || String(wixLocationFrontend.query.kategori || '');
+  const hub = HUBS.find((h) => h.s === kategori);
+  const zoneHub = HUBS.find((h) => h.zones.some((z) => z[1] === kategori));
+  const zone = zoneHub ? zoneHub.zones.find((z) => z[1] === kategori) : null;
   const isPR = kategori === 'siaran-pers';
   const now = new Date();
   const isEn = lang === 'en';
   const path = '/review' + (kategori ? '?kategori=' + encodeURIComponent(kategori) : '');
-  const data = { base, lang: isEn ? 'en' : 'id', path, now: now.toISOString(), active: cat ? cat[1] : (isPR ? 'siaran-pers' : '') };
-  const catLabel = cat ? (isEn ? (EN_CAT[cat[0]] || cat[0]) : cat[0]) : '';
+  const data = { base, lang: isEn ? 'en' : 'id', path, now: now.toISOString(), active: hub || zone ? kategori : (isPR ? 'siaran-pers' : '') };
+  const catLabel = hub ? hub.n : (zone ? zone[0] : '');
 
   let title = isEn ? 'B2B Tech Asia Review — Indonesia B2B Technology News & Analysis' : 'B2B Tech Asia Review — Berita & Analisis Teknologi B2B Indonesia';
   let desc = isEn
@@ -67,11 +64,14 @@ $w.onReady(async function () {
     title = isEn ? 'Technology & Business Press Releases | B2B Tech Asia Review' : 'Siaran Pers Teknologi & Bisnis | B2B Tech Asia Review';
     desc = isEn ? 'The latest press releases from technology and business companies in Indonesia, distributed via VRITIMES.'
       : 'Siaran pers terbaru dari perusahaan teknologi dan bisnis di Indonesia, didistribusikan melalui VRITIMES.';
-  } else if (cat) {
-    const res = await wixData.query('ReviewArticles').eq('category', cat[0]).le('publishAt', now).descending('publishAt').limit(60).find();
+  } else if (hub || zone) {
+    const names = hub ? hub.zones.map((z) => z[0]) : [zone[0]];
+    const res = await wixData.query('ReviewArticles').hasSome('category', names).le('publishAt', now).descending('publishAt').limit(60).find();
+    const h = hub || zoneHub;
     Object.assign(data, {
       view: 'list', heading: catLabel,
-      intro: isEn ? 'News and analysis for decision makers in Indonesia' : 'Berita dan analisis untuk pengambil keputusan di Indonesia',
+      kicker: hub ? '' : h.n,
+      intro: hub ? (isEn ? h.en : h.id) : (isEn ? 'News and analysis for decision makers in Indonesia' : 'Berita dan analisis untuk pengambil keputusan di Indonesia'),
       articles: res.items.map((a) => slim(a, lang)),
     });
     title = isEn ? `${catLabel} — News & Analysis | B2B Tech Asia Review` : `${catLabel} — Berita & Analisis | B2B Tech Asia Review`;

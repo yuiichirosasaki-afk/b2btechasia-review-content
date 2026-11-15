@@ -1,7 +1,7 @@
 {
   "slug": "serangan-siber-2-2-juta-indonesia-analisis",
   "title": "2,2 Juta Serangan Siber ke Indonesia dalam 24 Jam: Membaca Angka di Balik Kepanikan",
-  "category": "Cybersecurity",
+  "category": "Cybersecurity & Data Protection",
   "articleType": "analisis",
   "dek": "Jumlah percobaan serangan siber ke Indonesia di dashboard FortiGuard Labs naik dari sekitar 350.600 menjadi 2,2 juta dalam tiga hari. Angka itu nyata, tetapi bukan jumlah sistem yang jebol. Risiko terbesar bagi perusahaan justru ada di tempat lain.",
   "summaryHtml": "<ul><li>Dashboard FortiGuard Labs mencatat sekitar 350.600 percobaan serangan dalam 24 jam per 7 November 2026, sekitar 657.000 pada 8 November, sekitar 1,6 juta pada 9 November, dan sekitar 2,2 juta dalam 24 jam hingga 10 November pukul 07.30 WIB. Sekitar 1 juta di antaranya menyasar sektor keuangan. (Bisnis.com, Gebrak.id, Fortune IDN, Katadata)</li><li>Alfons Tanujaya dari Vaksincom menjelaskan bahwa angka tersebut adalah upaya serangan yang terdeteksi dan diblokir sensor Fortinet, &ldquo;bukan jumlah sistem yang berhasil dibobol&rdquo;. (Bisnis.com)</li><li>BSSN menerbitkan Security Advisory pada 8 November. Ancaman yang beredar dikaitkan dengan penolakan terhadap SPP-TDLN, kebijakan pajak transaksi digital luar negeri, dan belum terverifikasi. (Katadata)</li><li>Komdigi mengirim tiga surat imbauan pada 9 November kepada pengguna PDN dan Cloud Pemerintah, pengelola domain instansi, serta PSE lingkup publik. Aries Kusdaryono menegaskan, &ldquo;Kita tidak boleh mengabaikan potensi risiko ancaman serangan tersebut.&rdquo; (Katadata)</li><li>OJK dan BI mengaktifkan Tim Tanggap Insiden Siber (TTIS) dan meminta bank menahan transaksi yang anomali untuk diverifikasi. (The Star / The Jakarta Post)</li></ul>",

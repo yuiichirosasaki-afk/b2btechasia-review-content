@@ -1,0 +1,42 @@
+{
+  "note": "Categories follow the B2B Tech Asia Expo 2027 zone architecture: 3 hubs, 12 zones. An article's `category` is one zone name. Keep velo/public/custom-elements/review-ui.js and velo/pages/*.js in sync with this file.",
+  "hubs": [
+    {
+      "name": "AI & Automation Hub", "slug": "ai-automation-hub",
+      "desc_id": "Keputusan teknis dan infrastruktur", "desc_en": "Technical & infrastructure decisions",
+      "audience": "CTO, IT Director, Infrastructure Lead",
+      "zones": [
+        {"name": "AI & Automation", "slug": "ai-automation", "scope": "machine learning, generative AI, workflow automation, AI cost and governance in companies, data platforms"},
+        {"name": "Cloud & IT Infrastructure", "slug": "cloud-it-infrastructure", "scope": "cloud regions, data centers, networking, power, IT infrastructure providers"},
+        {"name": "Cybersecurity & Data Protection", "slug": "cybersecurity-data-protection", "scope": "threats, incidents, BSSN/OJK/Komdigi security actions, data privacy (PDP law in practice), security vendors"},
+        {"name": "Enterprise Software & ERP", "slug": "enterprise-software-erp", "scope": "ERP, core business systems, enterprise-wide platforms, SaaS adoption, core banking systems"}
+      ]
+    },
+    {
+      "name": "Growth & Revenue Hub", "slug": "growth-revenue-hub",
+      "desc_id": "Akuisisi dan retensi pelanggan", "desc_en": "Customer acquisition & retention",
+      "audience": "CMO, Head of Sales, Growth Lead",
+      "zones": [
+        {"name": "Marketing Technology", "slug": "marketing-technology", "scope": "campaign management, marketing automation, analytics, digital advertising, martech"},
+        {"name": "Sales & CRM", "slug": "sales-crm", "scope": "pipeline management, sales enablement, CRM"},
+        {"name": "Customer Engagement & CX", "slug": "customer-engagement-cx", "scope": "customer service, chat and WhatsApp business, loyalty, contact centers, customer experience platforms"},
+        {"name": "E-Commerce & Retail Tech", "slug": "ecommerce-retail-tech", "scope": "online storefronts, marketplaces, social commerce, payments at checkout, retail enablement tools"}
+      ]
+    },
+    {
+      "name": "Back Office & Operations Hub", "slug": "back-office-operations-hub",
+      "desc_id": "Fungsi yang menjaga bisnis tetap berjalan", "desc_en": "Functions that keep business running",
+      "audience": "CFO, HR Director, Operations Head",
+      "zones": [
+        {"name": "FinTech & Financial Operations", "slug": "fintech-financial-operations", "scope": "accounting, treasury, financial management platforms, payments, digital banking and fintech companies, QRIS"},
+        {"name": "HR Tech & Workforce Management", "slug": "hr-tech-workforce", "scope": "payroll, talent management, workforce platforms, digital skills"},
+        {"name": "Legal, Compliance & Governance Tech", "slug": "legal-compliance-governance", "scope": "risk, regulation (PDP, OJK/BI rules, Komdigi, AI regulation, digital tax), governance and compliance tools"},
+        {"name": "Logistics & Supply Chain Tech", "slug": "logistics-supply-chain", "scope": "fleet, warehouse, supply chain management platforms, logistics companies"}
+      ]
+    }
+  ],
+  "legacy": {
+    "Cybersecurity": "Cybersecurity & Data Protection", "AI & Data": "AI & Automation", "Cloud & Data Center": "Cloud & IT Infrastructure",
+    "Regulasi": "Legal, Compliance & Governance Tech"
+  }
+}
