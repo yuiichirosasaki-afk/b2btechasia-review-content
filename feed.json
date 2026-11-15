@@ -1,7 +1,270 @@
 {
-  "generatedAt": "2026-11-15T16:30:00+07:00",
+  "generatedAt": "2026-11-15T16:36:17+07:00",
   "site": "B2B Tech Asia Review",
   "articles": [
+    {
+      "slug": "pendanaan-startup-teknologi-indonesia-9m-2026-tracxn",
+      "title": "Pendanaan Teknologi Indonesia Naik 111%, tetapi Satu Kesepakatan Menyumbang 74%",
+      "category": "Deals",
+      "articleType": "berita",
+      "dek": "Laporan Tracxn mencatat pendanaan perusahaan teknologi Indonesia mencapai US$365 juta pada Januari–September 2026. Kenaikannya hampir seluruhnya berasal dari putaran Seri C Ajaib. Di bawah permukaan, jumlah putaran, investor, dan pendanaan tahap awal justru menyusut tajam.",
+      "summaryHtml": "<ul><li>Menurut laporan Tracxn &ldquo;Indonesia Tech &ndash; 9M 2026&rdquo;, total pendanaan perusahaan teknologi Indonesia mencapai US$365 juta, naik 111% dari US$173 juta pada periode yang sama 2025. Jumlah putaran turun 56% menjadi 14. (Katadata)</li><li>Ajaib meraih US$270 juta dalam putaran Seri C pada Agustus 2026 bersama SBI Group, setara sekitar 74% dari total pendanaan sembilan bulan. Waresix memperoleh US$27 juta (Seri B) dan Green Rebel US$13 juta (Seri A). (Katadata)</li><li>Pendanaan tahap akhir mencapai US$280 juta atau 77% dari total. Pendanaan tahap awal turun 16% menjadi US$83 juta, dan pendanaan seed anjlok 92% menjadi US$2 juta dari hanya 4 putaran. (Katadata)</li><li>Investor aktif turun menjadi 27, terdiri dari 20 investor asing dan 7 domestik. Tidak ada IPO perusahaan teknologi dan hanya satu akuisisi, yaitu NOBI oleh Bybit. (Katadata)</li><li>Di tingkat Asia Tenggara, pendanaan teknologi naik 176% menjadi US$13,5 miliar, sementara jumlah putaran turun 28% menjadi 189. Kenaikan juga terkonsentrasi pada beberapa kesepakatan besar. (TechNode Global)</li></ul>",
+      "analysisHtml": "<h3>Tanpa Ajaib, pendanaan justru turun</h3><p>Jika putaran Ajaib dikeluarkan, pendanaan teknologi Indonesia sembilan bulan pertama 2026 hanya sekitar US$95 juta, sekitar 45% lebih rendah dari US$173 juta tahun lalu (hitungan redaksi). Angka utama &ldquo;naik 111%&rdquo; menggambarkan satu kesepakatan besar, bukan pemulihan pasar secara luas.</p><h3>Seed hampir hilang, pipa startup B2B menipis</h3><p>Putaran seed turun dari 23 menjadi 4. Artinya, jauh lebih sedikit perusahaan perangkat lunak baru yang lahir dengan modal ventura tahun ini. Bagi perusahaan pembeli, pilihan vendor lokal baru akan lebih sedikit. Bagi vendor yang sudah ada, persaingan dari pendatang baru berkurang, tetapi akses ke modal untuk ekspansi juga lebih sulit.</p><h3>Modal asing mendominasi</h3><p>Dengan 20 dari 27 investor berasal dari luar negeri, arah pendanaan sangat dipengaruhi minat investor regional dan global. Pola Asia Tenggara yang sama, yaitu nilai naik tetapi jumlah transaksi turun, menunjukkan investor memilih sedikit perusahaan yang dianggap paling kuat.</p>",
+      "actionHtml": "<h3>Untuk perusahaan yang membeli solusi dari startup</h3><ol><li>Tambahkan pemeriksaan kesehatan keuangan vendor, termasuk sisa runway dan sumber pendanaan, ke proses pengadaan.</li><li>Pastikan kontrak memuat hak ekspor data dan rencana kelanjutan layanan jika vendor berhenti beroperasi.</li><li>Pertimbangkan kontrak jangka lebih panjang dengan vendor yang sehat sebagai posisi tawar harga.</li></ol><h3>Untuk startup dan penyedia solusi B2B</h3><p>Dengan pendanaan tahap awal yang menipis, pendapatan dari kontrak enterprise menjadi sumber pertumbuhan yang paling realistis. Studi kasus dengan pelanggan korporasi dan rekam jejak kepatuhan akan lebih meyakinkan investor maupun pembeli.</p>",
+      "faqHtml": "<h3>Mengapa pendanaan naik padahal jumlah transaksi turun?</h3><p>Karena satu putaran besar, yaitu Seri C Ajaib senilai US$270 juta, menyumbang sekitar 74% dari total pendanaan sembilan bulan pertama 2026.</p>",
+      "dataFigure": "74%",
+      "dataLabel": "porsi putaran Ajaib dari total pendanaan teknologi Indonesia Januari–September 2026",
+      "dataSource": "Tracxn, Indonesia Tech – 9M 2026, via Katadata",
+      "audience": [
+        "Pengadaan / Procurement",
+        "Founder B2B",
+        "Investor"
+      ],
+      "tags": [
+        "Tracxn",
+        "Pendanaan startup",
+        "Ajaib",
+        "Waresix",
+        "Venture capital"
+      ],
+      "sources": [
+        {
+          "name": "Katadata",
+          "title": "Jumlah Investor yang Berinvestasi di Startup Indonesia Berkurang, IPO Juga Lesu",
+          "url": "https://katadata.co.id/digital/startup/6ae19792d25d5/jumlah-investor-yang-berinvestasi-di-startup-indonesia-berkurang-ipo-juga-lesu",
+          "date": "2026-10-28"
+        },
+        {
+          "name": "TechNode Global",
+          "title": "Southeast Asia tech funding jumps 176% to $13.5B, 3 deals drive growth: Tracxn",
+          "url": "https://technode.global/2026/10/05/southeast-asia-tech-funding-jumps-176-to-13-5b-3-deals-drive-growth-tracxn/",
+          "date": "2026-10-05"
+        },
+        {
+          "name": "FinTech Global",
+          "title": "SBI invests $270m in Indonesia's Ajaib in record round",
+          "url": "https://fintech.global/2026/08/31/sbi-invests-270m-in-indonesias-ajaib-in-record-round/",
+          "date": "2026-08-31"
+        }
+      ],
+      "seoTitle": "Pendanaan Startup Indonesia 9M 2026 Naik 111% Berkat Ajaib",
+      "seoDescription": "Tracxn: pendanaan teknologi Indonesia naik 111% ke US$365 juta, tetapi 74% dari Ajaib. Seed anjlok 92%. Ini artinya bagi pembeli dan vendor B2B.",
+      "publishAt": "2026-11-15T16:00:00+07:00",
+      "language": "id"
+    },
+    {
+      "slug": "perpres-ai-etika-peta-jalan-yang-perlu-disiapkan-perusahaan",
+      "title": "Perpres AI Tinggal Menunggu Tanda Tangan: 5 Hal yang Perlu Disiapkan Perusahaan dari Sekarang",
+      "category": "Regulasi",
+      "articleType": "penjelasan",
+      "dek": "Dua rancangan Peraturan Presiden tentang AI, yaitu Peta Jalan AI Nasional 2026–2029 dan Etika AI, telah rampung dibahas lintas kementerian. Perusahaan yang memakai AI untuk data pribadi, layanan publik, atau keputusan berdampak besar sebaiknya bersiap sebelum aturan teknisnya terbit.",
+      "summaryHtml": "<ul><li>Komdigi bersama kementerian lintas sektor menyelesaikan pembahasan RPerpres Etika Kecerdasan Artifisial dan RPerpres Peta Jalan Kecerdasan Artifisial Nasional 2026&ndash;2029 pada 5 Mei 2026. (JDIH Komdigi)</li><li>Pada 3 September 2026, Dirjen Ekosistem Digital Komdigi Edwin Hidayat Abdullah menyebut kedua Perpres tinggal menunggu tanda tangan Presiden. Hingga artikel ini ditulis pada 15 November 2026, redaksi belum menemukan laporan bahwa keduanya telah ditandatangani. (Selular.ID)</li><li>Menkomdigi Meutya Hafid menyatakan Komdigi menyiapkan aturan payung, sementara aturan teknis disusun oleh masing-masing sektor. Peta jalan memuat 10 sektor prioritas, termasuk kesehatan, pendidikan, serta ekonomi dan keuangan. (detikInet)</li><li>Rancangan Perpres Etika AI membagi risiko AI ke dalam tiga kategori: rendah, tinggi, dan tidak dapat diterima. Sistem berisiko tinggi wajib menjalani penilaian risiko sejak tahap desain, dan konten buatan AI direncanakan wajib diberi label. (Katadata)</li><li>Komdigi mempertahankan ketentuan yang mewajibkan pelaporan seluruh jenis insiden operasional AI, tanpa memandang skala risikonya. (Bisnis.com)</li></ul>",
+      "analysisHtml": "<h3>Siapa yang paling terdampak</h3><p>Menurut rancangan yang dilaporkan, sistem berisiko tinggi adalah AI yang memakai data pribadi tertentu atau berdampak besar pada hak asasi, keselamatan, dan layanan publik penting. Kategori ini kemungkinan mencakup penilaian kredit, rekrutmen, layanan kesehatan, dan verifikasi identitas. Perusahaan di sektor keuangan, kesehatan, dan telekomunikasi perlu memperhatikannya lebih dulu.</p><h3>Kewajiban pelaporan insiden sering terlewat</h3><p>Banyak perusahaan sudah punya prosedur insiden keamanan siber, tetapi belum punya prosedur untuk insiden AI, misalnya chatbot yang memberi informasi keliru atau model yang menolak nasabah secara tidak wajar. Jika semua insiden operasional AI wajib dilaporkan, perusahaan perlu mendefinisikan apa yang dihitung sebagai insiden dan siapa yang bertanggung jawab melaporkannya.</p><h3>Aturan sektoral akan menentukan detailnya</h3><p>Perpres hanya menjadi payung. Detail teknis dan sanksi akan datang dari regulator sektor, seperti OJK untuk jasa keuangan, serta peraturan menteri Komdigi untuk pelabelan konten. Perusahaan yang menunggu aturan sektoral terbit baru bergerak akan memiliki waktu persiapan yang sempit.</p>",
+      "actionHtml": "<h3>5 hal yang perlu disiapkan perusahaan</h3><ol><li><strong>Inventarisasi sistem AI</strong> dan klasifikasikan masing-masing ke kategori risiko rendah, tinggi, atau tidak dapat diterima.</li><li><strong>Penilaian risiko sejak desain</strong> untuk sistem yang memakai data pribadi atau memengaruhi keputusan penting tentang orang.</li><li><strong>Label dan transparansi</strong>: siapkan cara memberi tahu pengguna bahwa mereka berinteraksi dengan AI dan menandai konten buatan AI.</li><li><strong>Prosedur insiden AI</strong>: definisi insiden, jalur eskalasi, dan penanggung jawab pelaporan.</li><li><strong>Pemantauan regulasi sektor</strong>: tunjuk satu pemilik yang memantau aturan turunan dari Komdigi dan regulator sektor Anda.</li></ol><h3>Untuk penyedia solusi</h3><p>Fitur yang mendukung kepatuhan, seperti log audit, penjelasan keputusan model, dan pelabelan otomatis, akan menjadi syarat dalam pengadaan enterprise setelah Perpres berlaku.</p>",
+      "faqHtml": "<h3>Apakah Perpres AI sudah berlaku?</h3><p>Hingga 15 November 2026, redaksi belum menemukan laporan bahwa kedua Perpres telah ditandatangani. Komdigi menyatakan keduanya tinggal menunggu tanda tangan Presiden.</p><h3>Apakah ada sanksi?</h3><p>Rencana sanksi untuk pelanggaran pelabelan konten AI akan diatur dalam peraturan menteri yang terpisah. Detailnya belum diterbitkan.</p>",
+      "dataFigure": "3",
+      "dataLabel": "kategori risiko AI dalam rancangan Perpres Etika AI: rendah, tinggi, tidak dapat diterima",
+      "dataSource": "Rancangan Perpres Etika AI, sebagaimana dilaporkan Katadata, Agustus 2026",
+      "audience": [
+        "Direksi",
+        "Legal dan kepatuhan",
+        "CIO / CDO"
+      ],
+      "tags": [
+        "Perpres AI",
+        "Etika AI",
+        "Komdigi",
+        "Regulasi",
+        "Kepatuhan"
+      ],
+      "sources": [
+        {
+          "name": "JDIH Komdigi",
+          "title": "Pembahasan RPerpres Etika KA dan Peta Jalan KA Nasional selesai",
+          "url": "https://jdih.komdigi.go.id/berita/view/116",
+          "date": "2026-05-05"
+        },
+        {
+          "name": "Selular.ID",
+          "title": "Dua Perpres AI Tunggu Tanda Tangan Presiden Prabowo",
+          "url": "https://selular.id/2026/09/dua-perpres-ai-tunggu-tanda-tangan-presiden-prabowo/",
+          "date": "2026-09-03"
+        },
+        {
+          "name": "detikInet",
+          "title": "Tak Mau AI Lepas Kendali, Pemerintah Pastikan Perpres AI Terbit Tahun Ini",
+          "url": "https://inet.detik.com/law-and-policy/d-8529010/tak-mau-ai-lepas-kendali-pemerintah-pastikan-perpres-ai-terbit-tahun-ini",
+          "date": "2026-06-12"
+        },
+        {
+          "name": "Katadata",
+          "title": "Bocoran Aturan AI yang Segera Terbit: Label, MBG, Tiga Tingkat Risiko",
+          "url": "https://katadata.co.id/digital/teknologi/6a7568af9df16/bocoran-perpres-ai-yang-segera-terbit-label-mbg-tiga-tingkat-risiko",
+          "date": "2026-08-07"
+        },
+        {
+          "name": "Bisnis.com",
+          "title": "Jawab Keraguan AS, Komdigi Pastikan Prinsip Etika AI Mengacu Standar Internasional",
+          "url": "https://teknologi.bisnis.com/read/20260618/84/1981574/jawab-keraguan-as-komdigi-pastikan-prinsip-etika-ai-mengacu-standar-internasional/All",
+          "date": "2026-06-18"
+        }
+      ],
+      "seoTitle": "Perpres AI: 5 Hal yang Perlu Disiapkan Perusahaan",
+      "seoDescription": "Perpres Etika AI dan Peta Jalan AI tinggal menunggu tanda tangan. Ini kategori risiko, kewajiban label, dan langkah persiapan bagi perusahaan.",
+      "publishAt": "2026-11-15T14:30:00+07:00",
+      "language": "id"
+    },
+    {
+      "slug": "bank-indonesia-adopsi-ai-tata-kelola-4-persen",
+      "title": "88% Bank Sudah Menjajal AI, Baru 4% Punya Tata Kelola Formal: Celah yang Disorot BI",
+      "category": "Enterprise Adoption",
+      "articleType": "berita",
+      "dek": "Studi IBM dan Perbanas menemukan hampir semua bank di Indonesia sudah menjajal AI, tetapi hanya 4% yang memasukkannya ke tata kelola perusahaan secara formal. Bank Indonesia mengingatkan risiko yang belum ada di buku manual risiko lama, termasuk perilaku seragam agen AI.",
+      "summaryHtml": "<ul><li>Studi IBM dan Perbanas menunjukkan 88% bank di Indonesia sudah menjajal teknologi AI, sementara 12% belum memulai. Hanya 4% yang telah mengintegrasikan AI secara formal ke tata kelola perusahaan. (Indonesia Business Post)</li><li>Temuan ini dirilis bersama white paper &ldquo;Digital Sovereign AI and the Future of Trusted Banking&rdquo; dari IBM, Perbanas, dan Kiantara &amp; Associates pada 27 Oktober 2026. (Indonesia Business Post)</li><li>Managing Partner IBM Consulting Indonesia Juvanus Tjandra menilai penerapan AI di industri masih terfragmentasi dan banyak bank belum punya arsitektur terpusat. Penggunaan masih terkonsentrasi di layanan nasabah seperti chatbot. (Indonesia Business Post)</li><li>Ricky Satria dari Bank Indonesia mengingatkan penipuan dengan suara dan wajah sintetis, serta serangan yang kini berlangsung dalam hitungan jam. &ldquo;Serangan sangat cepat, bukan lagi berminggu-minggu,&rdquo; ujarnya. (Katadata)</li><li>BI juga menyoroti risiko herding: banyak agen AI yang memakai model dan penyedia cloud yang sama bisa memberi rekomendasi serupa pada saat bersamaan. BI mendorong bank memegang kendali penuh atas AI yang dipakai. (Katadata)</li></ul>",
+      "analysisHtml": "<h3>AI masuk lewat pintu depan, tata kelola tertinggal di belakang</h3><p>Selisih antara 88% dan 4% menunjukkan pola yang umum: AI pertama kali dipakai di chatbot dan layanan nasabah karena cepat terlihat hasilnya. Tata kelola baru dipikirkan setelah penggunaan menyebar. Di bank, urutan ini berisiko karena model AI yang menyentuh data nasabah dan keputusan kredit tunduk pada pengawasan ketat.</p><h3>Herding adalah risiko baru yang belum ada di manual risiko lama</h3><p>Manajemen risiko tradisional menilai satu model pada satu bank. Risiko herding muncul dari banyak bank yang memakai model dan sumber data yang sama. Jika model keliru, kesalahannya terjadi serentak. Karena itu, keragaman penyedia dan kemampuan mematikan agen AI dengan cepat akan menjadi bagian dari pengawasan.</p><h3>Sovereign AI akan mengubah cara bank membeli teknologi</h3><p>Dorongan BI agar bank memegang kendali penuh atas AI berarti preferensi pada model yang bisa dijalankan di infrastruktur sendiri atau di dalam negeri. BNI, misalnya, sudah mengembangkan AI generatif secara on-premise berbasis model open-source bersama Cloudera. Vendor yang hanya menawarkan layanan dari luar negeri akan menghadapi pertanyaan lebih banyak dalam proses pengadaan.</p>",
+      "actionHtml": "<h3>Untuk bank dan perusahaan jasa keuangan</h3><ol><li>Buat daftar seluruh sistem AI yang dipakai, termasuk yang dibeli unit bisnis secara terpisah.</li><li>Masukkan model AI ke kerangka manajemen risiko model, lengkap dengan pemilik, pengujian, dan pemantauan.</li><li>Batasi hak akses agen AI ke data dan transaksi nasabah, serta siapkan tombol darurat untuk menghentikannya.</li><li>Tinjau ketergantungan pada satu penyedia model atau cloud.</li></ol><h3>Untuk penyedia solusi</h3><p>Kebutuhan terbesar ada pada perangkat tata kelola AI, pemantauan model, deteksi deepfake untuk verifikasi nasabah, dan penerapan AI di infrastruktur lokal yang memenuhi tuntutan kedaulatan data.</p>",
+      "faqHtml": "<h3>Apa itu risiko herding dalam AI?</h3><p>Risiko ketika banyak sistem AI memakai model dan data yang sama sehingga mengambil keputusan serupa pada saat bersamaan. Dalam kondisi pasar tertekan, hal ini dapat memperbesar guncangan.</p>",
+      "dataFigure": "4%",
+      "dataLabel": "bank di Indonesia yang sudah mengintegrasikan AI secara formal ke tata kelola perusahaan",
+      "dataSource": "Studi IBM dan Perbanas, Oktober 2026",
+      "audience": [
+        "Direksi bank",
+        "CRO / Manajemen risiko",
+        "Vendor AI dan keamanan"
+      ],
+      "tags": [
+        "Perbankan",
+        "IBM",
+        "Perbanas",
+        "Bank Indonesia",
+        "Tata kelola AI",
+        "Sovereign AI"
+      ],
+      "sources": [
+        {
+          "name": "Indonesia Business Post",
+          "title": "Indonesia lags behind AI banking adoption prompting new framework, study says",
+          "url": "https://indonesiabusinesspost.com/7696/markets-and-finance/indonesia-lags-behind-ai-banking-adoption-prompting-new-framework-study-says",
+          "date": "2026-10-29"
+        },
+        {
+          "name": "Katadata",
+          "title": "BI Ingatkan Risiko AI di Perbankan: Penipuan hingga Ancaman Tarik Uang Massal",
+          "url": "https://katadata.co.id/digital/fintech/6ae06cfd314ed/bi-ingatkan-risiko-ai-di-perbankan-penipuan-hingga-ancaman-penarikan-massal",
+          "date": "2026-10-27"
+        },
+        {
+          "name": "Infobank",
+          "title": "BNI Perluas Pemanfaatan AI, Perkuat Operasional hingga Keamanan Data",
+          "url": "https://infobanknews.com/bni-perluas-pemanfaatan-ai-perkuat-operasional-hingga-keamanan-data/",
+          "date": "2026"
+        }
+      ],
+      "seoTitle": "88% Bank Menjajal AI, Baru 4% Punya Tata Kelola Formal",
+      "seoDescription": "Studi IBM-Perbanas: hampir semua bank di Indonesia menjajal AI, tetapi tata kelola tertinggal. BI menyoroti risiko deepfake dan herding.",
+      "publishAt": "2026-11-15T13:00:00+07:00",
+      "language": "id"
+    },
+    {
+      "slug": "biaya-token-ai-perusahaan-indonesia-cloudera-2026",
+      "title": "Biaya Token Melonjak, 89% Perusahaan Rancang Ulang AI: Apa Artinya bagi Perusahaan Indonesia",
+      "category": "AI & Data",
+      "articleType": "berita",
+      "dek": "Survei Cloudera terhadap 1.500 pemimpin TI menemukan 89% perusahaan membatasi atau merancang ulang kasus penggunaan AI karena konsumsi token meningkat. Di Indonesia, investasi AI justru terus naik. Pertanyaannya bergeser dari apakah memakai AI menjadi berapa biaya untuk setiap hasil.",
+      "summaryHtml": "<ul><li>Laporan Cloudera &ldquo;The State of Enterprise AI 2026: The New Rules of Scale&rdquo; menyurvei 1.500 pemimpin TI di sejumlah negara. Survei dilakukan Wakefield Research pada September 2026. (IndoTelko)</li><li>Secara global, 89% responden membatasi atau merancang ulang kasus penggunaan AI karena konsumsi token meningkat, dan 45% memindahkan beban kerja AI karena biaya yang lebih tinggi atau berfluktuasi. (IndoTelko)</li><li>Di Indonesia, 88% perusahaan menambah investasi AI dibanding tahun sebelumnya, dan 70% mengalokasikan setidaknya US$500.000 per tahun. Hambatan terbesar adalah tata kelola dan kepatuhan (65%), kekurangan keahlian (55%), serta integrasi data (45%). (IndoTelko)</li><li>Lokasi dan yurisdiksi data memengaruhi penempatan beban kerja AI bagi 88% organisasi Indonesia. (IndoTelko)</li><li>Survei CEO PwC Indonesia 2026 menunjukkan 22% CEO melihat kenaikan pendapatan dari AI dan 28% melihat penurunan biaya, tetapi hanya 10% merasakan keduanya. (Fortune IDN)</li></ul>",
+      "analysisHtml": "<h3>Biaya inferensi adalah biaya operasional baru</h3><p>Lisensi perangkat lunak biasanya tetap per pengguna. Biaya model AI berbeda: setiap pertanyaan, setiap dokumen yang dibaca, dan setiap langkah agen AI memakan token. Ketika penggunaan meluas ke seluruh perusahaan, tagihan ikut membesar. Agen AI yang menjalankan banyak langkah otomatis bisa melipatgandakan konsumsi tanpa terlihat oleh pengguna.</p><h3>Investasi naik, tetapi hasil belum merata</h3><p>Angka 88% perusahaan Indonesia yang menambah investasi AI terlihat positif. Namun, data PwC menunjukkan baru 10% CEO yang merasakan kenaikan pendapatan sekaligus penurunan biaya. Selisih ini menandakan banyak proyek AI belum diukur dengan satuan ekonomi yang jelas, misalnya biaya per tiket layanan yang terselesaikan.</p><h3>Kedaulatan data ikut menentukan biaya</h3><p>Bagi 88% organisasi Indonesia, lokasi data memengaruhi di mana AI dijalankan. Model yang harus berjalan di dalam negeri atau di infrastruktur sendiri punya struktur biaya berbeda dari layanan cloud publik. Keputusan arsitektur ini sebaiknya dibuat bersama tim keuangan, bukan hanya tim TI.</p>",
+      "actionHtml": "<h3>Untuk CIO, CDO, dan CFO</h3><ol><li>Tetapkan metrik biaya per hasil untuk setiap kasus penggunaan AI, bukan hanya total anggaran.</li><li>Gunakan model kecil untuk tugas sederhana dan model besar hanya untuk tugas yang memang membutuhkannya.</li><li>Pasang pemantauan konsumsi token per aplikasi dan per tim sebelum skala diperluas.</li><li>Bangun tata kelola sejak awal: 49% responden global mengatakan akan melakukannya jika bisa mengulang dari awal.</li></ol><h3>Untuk penyedia solusi AI</h3><p>Pembeli enterprise akan semakin menuntut prediktabilitas biaya. Paket harga yang jelas, opsi penerapan di infrastruktur lokal, serta dasbor pemakaian akan menjadi pembeda dalam proses pengadaan.</p>",
+      "faqHtml": "<h3>Apa itu token dalam AI?</h3><p>Token adalah satuan teks yang diproses model AI. Biaya layanan model bahasa umumnya dihitung berdasarkan jumlah token yang masuk dan keluar.</p>",
+      "dataFigure": "89%",
+      "dataLabel": "perusahaan membatasi atau merancang ulang kasus penggunaan AI karena konsumsi token meningkat",
+      "dataSource": "Cloudera, The State of Enterprise AI 2026 (survei 1.500 pemimpin TI)",
+      "audience": [
+        "CIO / CDO",
+        "CFO",
+        "Vendor AI"
+      ],
+      "tags": [
+        "Cloudera",
+        "Biaya AI",
+        "Token",
+        "Tata kelola AI",
+        "PwC"
+      ],
+      "sources": [
+        {
+          "name": "IndoTelko",
+          "title": "89% perusahaan rancang ulang penggunaan AI akibat lonjakan biaya",
+          "url": "https://www.indotelko.com/read/1793799577/IndoTelko.com",
+          "date": "2026-11-07"
+        },
+        {
+          "name": "Fortune IDN",
+          "title": "Adopsi AI Kian Masif, Fondasi Data Jadi Tantangan Bisnis",
+          "url": "https://www.fortuneidn.com/tech/adopsi-ai-kian-masif-fondasi-data-jadi-tantangan-bisnis-00-4vfn9-tgjn8s",
+          "date": "2026"
+        }
+      ],
+      "seoTitle": "89% Perusahaan Rancang Ulang AI karena Biaya Token Melonjak",
+      "seoDescription": "Survei Cloudera: biaya token memaksa perusahaan merancang ulang AI, sementara investasi AI di Indonesia terus naik. Ini langkah yang perlu diambil.",
+      "publishAt": "2026-11-15T11:30:00+07:00",
+      "language": "id"
+    },
+    {
+      "slug": "equinix-jk1-phase-2-kapasitas-data-center-jakarta",
+      "title": "Equinix Tambah 1.125 Kabinet di JK1 Jakarta: Kapasitas Data Center Siap AI Mulai Jadi Rebutan",
+      "category": "Cloud & Data Center",
+      "articleType": "berita",
+      "dek": "Equinix meresmikan JK1 Phase 2 di Jakarta dengan tambahan sekitar 1.125 kabinet berpendingin cair. Equinix memperkirakan sebagian besar ruang data hall terisi dalam enam bulan. Bagi perusahaan yang berencana menjalankan beban kerja AI, ini sinyal untuk mengamankan kapasitas lebih awal.",
+      "summaryHtml": "<ul><li>Equinix meresmikan JK1 Phase 2 di Jakarta pada 10 November 2026. Ekspansi ini menambah sekitar 1.125 kabinet sehingga total JK1 mencapai sekitar 1.660 kabinet. Belanja modal tahap ini diperkirakan US$39 juta, dan total komitmen investasi Equinix di Indonesia menjadi US$94 juta. (Bisnis.com)</li><li>JK1 Phase 2 dilengkapi kapasitas siap AI dengan pendingin cair (liquid cooling) dan ditargetkan beroperasi pada kuartal IV/2026. (Bisnis.com)</li><li>Managing Director Equinix Indonesia Haris Izmee memperkirakan sebagian besar data hall akan terisi dalam enam bulan. Permintaan datang dari AI, minyak dan gas, pertambangan, serta perbankan. (Fortune IDN)</li><li>Menurut Haris, &ldquo;AI mendorong permintaan akan infrastruktur siap AI yang saling terkoneksi dan berdekatan dengan cloud.&rdquo; JK1 terhubung ke AWS, Microsoft Azure, Google Cloud, dan Alibaba Cloud. (Katadata)</li><li>Komdigi menyebut kapasitas pusat data Indonesia saat ini sekitar 600 MW. Wamenkomdigi Nezar Patria membandingkannya dengan Malaysia, yang menurutnya sudah mencapai sekitar 3 GW. (Katadata, Fortune IDN)</li></ul>",
+      "analysisHtml": "<h3>Yang penting bukan jumlah kabinet, melainkan pendingin cair</h3><p>Server GPU untuk AI menghasilkan panas jauh lebih besar per rak dibanding server biasa. Pendingin udara konvensional sulit menanganinya. Karena itu, label &ldquo;siap AI&rdquo; pada JK1 Phase 2 lebih bermakna daripada angka 1.125 kabinet. Tidak semua fasilitas di Jakarta mampu menampung rak AI berdaya tinggi.</p><h3>Kapasitas bisa habis lebih cepat dari rencana TI perusahaan</h3><p>Perkiraan bahwa data hall terisi dalam enam bulan menunjukkan permintaan sudah ada sebelum gedung beroperasi. Permintaan juga tidak hanya dari perusahaan AI, tetapi dari sektor tradisional seperti pertambangan dan perbankan. Perusahaan yang baru mulai merencanakan beban kerja AI tahun depan bisa mendapati kapasitas siap AI di lokasi strategis sudah dipesan pihak lain.</p><h3>600 MW versus 3 GW: Indonesia masih mengejar Malaysia</h3><p>Selisih kapasitas dengan Malaysia menjelaskan mengapa sebagian beban kerja regional dilayani dari Johor. Namun, aturan kedaulatan dan lokasi data mendorong banyak perusahaan Indonesia menjalankan beban kerja sensitif di dalam negeri. Kedua faktor ini membuat kapasitas domestik yang siap AI menjadi aset yang langka dalam dua sampai tiga tahun ke depan.</p>",
+      "actionHtml": "<h3>Untuk CIO dan kepala infrastruktur</h3><ol><li>Petakan beban kerja AI yang wajib berada di Indonesia karena alasan data pribadi atau regulasi sektor.</li><li>Hitung kebutuhan rak berdaya tinggi untuk 12&ndash;24 bulan ke depan, lalu bicarakan reservasi kapasitas lebih awal.</li><li>Rancang konektivitas langsung ke penyedia cloud yang sudah dipakai untuk menekan latensi dan biaya transfer data.</li><li>Minta bukti klaim keberlanjutan, seperti sistem pendingin tertutup dan sumber energi, untuk kebutuhan pelaporan ESG.</li></ol><h3>Untuk penyedia solusi</h3><p>Peluang terbesar ada pada layanan yang mengurangi beban perusahaan untuk membangun sendiri: GPU sebagai layanan, migrasi beban kerja ke colocation, manajemen jaringan hybrid cloud, serta dukungan teknis untuk sistem pendingin cair.</p>",
+      "faqHtml": "<h3>Kapan JK1 Phase 2 mulai beroperasi?</h3><p>Equinix menargetkan JK1 Phase 2 beroperasi pada kuartal IV/2026.</p><h3>Berapa total investasi Equinix di Indonesia?</h3><p>Dengan ekspansi ini, total komitmen investasi Equinix di Indonesia menjadi US$94 juta.</p>",
+      "dataFigure": "1.125",
+      "dataLabel": "kabinet baru berpendingin cair di Equinix JK1 Phase 2",
+      "dataSource": "Equinix, peluncuran JK1 Phase 2, 10 November 2026",
+      "audience": [
+        "CIO",
+        "Kepala infrastruktur",
+        "Penyedia cloud dan colocation"
+      ],
+      "tags": [
+        "Equinix",
+        "Data center",
+        "Liquid cooling",
+        "Komdigi",
+        "AI infrastructure"
+      ],
+      "sources": [
+        {
+          "name": "Bisnis.com",
+          "title": "Equinix Ekspansi Data Center JK1, Tambah Kapasitas 1.125 Kabinet",
+          "url": "https://teknologi.bisnis.com/read/20261110/101/2020077/equinix-ekspansi-data-center-jk1-tambah-kapasitas-1125-kabinet",
+          "date": "2026-11-10"
+        },
+        {
+          "name": "Bisnis.com",
+          "title": "Equinix Buka Peluang Ekspansi Data Center ke Luar Jakarta",
+          "url": "https://teknologi.bisnis.com/read/20261110/84/2020115/equinix-buka-peluang-ekspansi-data-center-ke-luar-jakarta",
+          "date": "2026-11-10"
+        },
+        {
+          "name": "Katadata",
+          "title": "Equinix Investasi Rp 1,7 Triliun untuk Tambah Kapasitas Data Center di Jakarta",
+          "url": "https://katadata.co.id/digital/teknologi/6af2f23f0582b/equinix-investasi-rp-1-7-triliun-untuk-tambah-kapasitas-data-center-di-jakarta",
+          "date": "2026-11-10"
+        },
+        {
+          "name": "Fortune IDN",
+          "title": "Equinix Ekspansi Data Center JK1, Tambah Kapasitas 1.125 Kabinet",
+          "url": "https://www.fortuneidn.com/tech/equinix-ekspansi-data-center-jk1-tambah-kapasitas-1-125-kabinet-00-6cmtl-0pzb78",
+          "date": "2026-11-10"
+        }
+      ],
+      "seoTitle": "Equinix JK1 Phase 2: Data Center Siap AI di Jakarta",
+      "seoDescription": "Equinix menambah 1.125 kabinet berpendingin cair di JK1 Jakarta. Apa artinya bagi perusahaan yang merencanakan beban kerja AI di Indonesia.",
+      "publishAt": "2026-11-15T10:00:00+07:00",
+      "language": "id"
+    },
     {
       "slug": "serangan-siber-2-2-juta-indonesia-analisis",
       "title": "2,2 Juta Serangan Siber ke Indonesia dalam 24 Jam: Membaca Angka di Balik Kepanikan",
@@ -77,269 +340,6 @@
       "seoTitle": "2,2 Juta Serangan Siber ke Indonesia: Apa Artinya bagi Bank",
       "seoDescription": "Angka FortiGuard melonjak dari 350 ribu ke 2,2 juta dalam tiga hari. Ini yang sebenarnya terjadi dan langkah yang perlu diambil perusahaan.",
       "publishAt": "2026-11-15T09:00:00+07:00",
-      "language": "id"
-    },
-    {
-      "slug": "equinix-jk1-phase-2-kapasitas-data-center-jakarta",
-      "title": "Equinix Tambah 1.125 Kabinet di JK1 Jakarta: Kapasitas Data Center Siap AI Mulai Jadi Rebutan",
-      "category": "Cloud & Data Center",
-      "articleType": "berita",
-      "dek": "Equinix meresmikan JK1 Phase 2 di Jakarta dengan tambahan sekitar 1.125 kabinet berpendingin cair. Equinix memperkirakan sebagian besar ruang data hall terisi dalam enam bulan. Bagi perusahaan yang berencana menjalankan beban kerja AI, ini sinyal untuk mengamankan kapasitas lebih awal.",
-      "summaryHtml": "<ul><li>Equinix meresmikan JK1 Phase 2 di Jakarta pada 10 November 2026. Ekspansi ini menambah sekitar 1.125 kabinet sehingga total JK1 mencapai sekitar 1.660 kabinet. Belanja modal tahap ini diperkirakan US$39 juta, dan total komitmen investasi Equinix di Indonesia menjadi US$94 juta. (Bisnis.com)</li><li>JK1 Phase 2 dilengkapi kapasitas siap AI dengan pendingin cair (liquid cooling) dan ditargetkan beroperasi pada kuartal IV/2026. (Bisnis.com)</li><li>Managing Director Equinix Indonesia Haris Izmee memperkirakan sebagian besar data hall akan terisi dalam enam bulan. Permintaan datang dari AI, minyak dan gas, pertambangan, serta perbankan. (Fortune IDN)</li><li>Menurut Haris, &ldquo;AI mendorong permintaan akan infrastruktur siap AI yang saling terkoneksi dan berdekatan dengan cloud.&rdquo; JK1 terhubung ke AWS, Microsoft Azure, Google Cloud, dan Alibaba Cloud. (Katadata)</li><li>Komdigi menyebut kapasitas pusat data Indonesia saat ini sekitar 600 MW. Wamenkomdigi Nezar Patria membandingkannya dengan Malaysia, yang menurutnya sudah mencapai sekitar 3 GW. (Katadata, Fortune IDN)</li></ul>",
-      "analysisHtml": "<h3>Yang penting bukan jumlah kabinet, melainkan pendingin cair</h3><p>Server GPU untuk AI menghasilkan panas jauh lebih besar per rak dibanding server biasa. Pendingin udara konvensional sulit menanganinya. Karena itu, label &ldquo;siap AI&rdquo; pada JK1 Phase 2 lebih bermakna daripada angka 1.125 kabinet. Tidak semua fasilitas di Jakarta mampu menampung rak AI berdaya tinggi.</p><h3>Kapasitas bisa habis lebih cepat dari rencana TI perusahaan</h3><p>Perkiraan bahwa data hall terisi dalam enam bulan menunjukkan permintaan sudah ada sebelum gedung beroperasi. Permintaan juga tidak hanya dari perusahaan AI, tetapi dari sektor tradisional seperti pertambangan dan perbankan. Perusahaan yang baru mulai merencanakan beban kerja AI tahun depan bisa mendapati kapasitas siap AI di lokasi strategis sudah dipesan pihak lain.</p><h3>600 MW versus 3 GW: Indonesia masih mengejar Malaysia</h3><p>Selisih kapasitas dengan Malaysia menjelaskan mengapa sebagian beban kerja regional dilayani dari Johor. Namun, aturan kedaulatan dan lokasi data mendorong banyak perusahaan Indonesia menjalankan beban kerja sensitif di dalam negeri. Kedua faktor ini membuat kapasitas domestik yang siap AI menjadi aset yang langka dalam dua sampai tiga tahun ke depan.</p>",
-      "actionHtml": "<h3>Untuk CIO dan kepala infrastruktur</h3><ol><li>Petakan beban kerja AI yang wajib berada di Indonesia karena alasan data pribadi atau regulasi sektor.</li><li>Hitung kebutuhan rak berdaya tinggi untuk 12&ndash;24 bulan ke depan, lalu bicarakan reservasi kapasitas lebih awal.</li><li>Rancang konektivitas langsung ke penyedia cloud yang sudah dipakai untuk menekan latensi dan biaya transfer data.</li><li>Minta bukti klaim keberlanjutan, seperti sistem pendingin tertutup dan sumber energi, untuk kebutuhan pelaporan ESG.</li></ol><h3>Untuk penyedia solusi</h3><p>Peluang terbesar ada pada layanan yang mengurangi beban perusahaan untuk membangun sendiri: GPU sebagai layanan, migrasi beban kerja ke colocation, manajemen jaringan hybrid cloud, serta dukungan teknis untuk sistem pendingin cair.</p>",
-      "faqHtml": "<h3>Kapan JK1 Phase 2 mulai beroperasi?</h3><p>Equinix menargetkan JK1 Phase 2 beroperasi pada kuartal IV/2026.</p><h3>Berapa total investasi Equinix di Indonesia?</h3><p>Dengan ekspansi ini, total komitmen investasi Equinix di Indonesia menjadi US$94 juta.</p>",
-      "dataFigure": "1.125",
-      "dataLabel": "kabinet baru berpendingin cair di Equinix JK1 Phase 2",
-      "dataSource": "Equinix, peluncuran JK1 Phase 2, 10 November 2026",
-      "audience": [
-        "CIO",
-        "Kepala infrastruktur",
-        "Penyedia cloud dan colocation"
-      ],
-      "tags": [
-        "Equinix",
-        "Data center",
-        "Liquid cooling",
-        "Komdigi",
-        "AI infrastructure"
-      ],
-      "sources": [
-        {
-          "name": "Bisnis.com",
-          "title": "Equinix Ekspansi Data Center JK1, Tambah Kapasitas 1.125 Kabinet",
-          "url": "https://teknologi.bisnis.com/read/20261110/101/2020077/equinix-ekspansi-data-center-jk1-tambah-kapasitas-1125-kabinet",
-          "date": "2026-11-10"
-        },
-        {
-          "name": "Bisnis.com",
-          "title": "Equinix Buka Peluang Ekspansi Data Center ke Luar Jakarta",
-          "url": "https://teknologi.bisnis.com/read/20261110/84/2020115/equinix-buka-peluang-ekspansi-data-center-ke-luar-jakarta",
-          "date": "2026-11-10"
-        },
-        {
-          "name": "Katadata",
-          "title": "Equinix Investasi Rp 1,7 Triliun untuk Tambah Kapasitas Data Center di Jakarta",
-          "url": "https://katadata.co.id/digital/teknologi/6af2f23f0582b/equinix-investasi-rp-1-7-triliun-untuk-tambah-kapasitas-data-center-di-jakarta",
-          "date": "2026-11-10"
-        },
-        {
-          "name": "Fortune IDN",
-          "title": "Equinix Ekspansi Data Center JK1, Tambah Kapasitas 1.125 Kabinet",
-          "url": "https://www.fortuneidn.com/tech/equinix-ekspansi-data-center-jk1-tambah-kapasitas-1-125-kabinet-00-6cmtl-0pzb78",
-          "date": "2026-11-10"
-        }
-      ],
-      "seoTitle": "Equinix JK1 Phase 2: Data Center Siap AI di Jakarta",
-      "seoDescription": "Equinix menambah 1.125 kabinet berpendingin cair di JK1 Jakarta. Apa artinya bagi perusahaan yang merencanakan beban kerja AI di Indonesia.",
-      "publishAt": "2026-11-15T10:00:00+07:00",
-      "language": "id"
-    },
-    {
-      "slug": "biaya-token-ai-perusahaan-indonesia-cloudera-2026",
-      "title": "Biaya Token Melonjak, 89% Perusahaan Rancang Ulang AI: Apa Artinya bagi Perusahaan Indonesia",
-      "category": "AI & Data",
-      "articleType": "berita",
-      "dek": "Survei Cloudera terhadap 1.500 pemimpin TI menemukan 89% perusahaan membatasi atau merancang ulang kasus penggunaan AI karena konsumsi token meningkat. Di Indonesia, investasi AI justru terus naik. Pertanyaannya bergeser dari apakah memakai AI menjadi berapa biaya untuk setiap hasil.",
-      "summaryHtml": "<ul><li>Laporan Cloudera &ldquo;The State of Enterprise AI 2026: The New Rules of Scale&rdquo; menyurvei 1.500 pemimpin TI di sejumlah negara. Survei dilakukan Wakefield Research pada September 2026. (IndoTelko)</li><li>Secara global, 89% responden membatasi atau merancang ulang kasus penggunaan AI karena konsumsi token meningkat, dan 45% memindahkan beban kerja AI karena biaya yang lebih tinggi atau berfluktuasi. (IndoTelko)</li><li>Di Indonesia, 88% perusahaan menambah investasi AI dibanding tahun sebelumnya, dan 70% mengalokasikan setidaknya US$500.000 per tahun. Hambatan terbesar adalah tata kelola dan kepatuhan (65%), kekurangan keahlian (55%), serta integrasi data (45%). (IndoTelko)</li><li>Lokasi dan yurisdiksi data memengaruhi penempatan beban kerja AI bagi 88% organisasi Indonesia. (IndoTelko)</li><li>Survei CEO PwC Indonesia 2026 menunjukkan 22% CEO melihat kenaikan pendapatan dari AI dan 28% melihat penurunan biaya, tetapi hanya 10% merasakan keduanya. (Fortune IDN)</li></ul>",
-      "analysisHtml": "<h3>Biaya inferensi adalah biaya operasional baru</h3><p>Lisensi perangkat lunak biasanya tetap per pengguna. Biaya model AI berbeda: setiap pertanyaan, setiap dokumen yang dibaca, dan setiap langkah agen AI memakan token. Ketika penggunaan meluas ke seluruh perusahaan, tagihan ikut membesar. Agen AI yang menjalankan banyak langkah otomatis bisa melipatgandakan konsumsi tanpa terlihat oleh pengguna.</p><h3>Investasi naik, tetapi hasil belum merata</h3><p>Angka 88% perusahaan Indonesia yang menambah investasi AI terlihat positif. Namun, data PwC menunjukkan baru 10% CEO yang merasakan kenaikan pendapatan sekaligus penurunan biaya. Selisih ini menandakan banyak proyek AI belum diukur dengan satuan ekonomi yang jelas, misalnya biaya per tiket layanan yang terselesaikan.</p><h3>Kedaulatan data ikut menentukan biaya</h3><p>Bagi 88% organisasi Indonesia, lokasi data memengaruhi di mana AI dijalankan. Model yang harus berjalan di dalam negeri atau di infrastruktur sendiri punya struktur biaya berbeda dari layanan cloud publik. Keputusan arsitektur ini sebaiknya dibuat bersama tim keuangan, bukan hanya tim TI.</p>",
-      "actionHtml": "<h3>Untuk CIO, CDO, dan CFO</h3><ol><li>Tetapkan metrik biaya per hasil untuk setiap kasus penggunaan AI, bukan hanya total anggaran.</li><li>Gunakan model kecil untuk tugas sederhana dan model besar hanya untuk tugas yang memang membutuhkannya.</li><li>Pasang pemantauan konsumsi token per aplikasi dan per tim sebelum skala diperluas.</li><li>Bangun tata kelola sejak awal: 49% responden global mengatakan akan melakukannya jika bisa mengulang dari awal.</li></ol><h3>Untuk penyedia solusi AI</h3><p>Pembeli enterprise akan semakin menuntut prediktabilitas biaya. Paket harga yang jelas, opsi penerapan di infrastruktur lokal, serta dasbor pemakaian akan menjadi pembeda dalam proses pengadaan.</p>",
-      "faqHtml": "<h3>Apa itu token dalam AI?</h3><p>Token adalah satuan teks yang diproses model AI. Biaya layanan model bahasa umumnya dihitung berdasarkan jumlah token yang masuk dan keluar.</p>",
-      "dataFigure": "89%",
-      "dataLabel": "perusahaan membatasi atau merancang ulang kasus penggunaan AI karena konsumsi token meningkat",
-      "dataSource": "Cloudera, The State of Enterprise AI 2026 (survei 1.500 pemimpin TI)",
-      "audience": [
-        "CIO / CDO",
-        "CFO",
-        "Vendor AI"
-      ],
-      "tags": [
-        "Cloudera",
-        "Biaya AI",
-        "Token",
-        "Tata kelola AI",
-        "PwC"
-      ],
-      "sources": [
-        {
-          "name": "IndoTelko",
-          "title": "89% perusahaan rancang ulang penggunaan AI akibat lonjakan biaya",
-          "url": "https://www.indotelko.com/read/1793799577/IndoTelko.com",
-          "date": "2026-11-07"
-        },
-        {
-          "name": "Fortune IDN",
-          "title": "Adopsi AI Kian Masif, Fondasi Data Jadi Tantangan Bisnis",
-          "url": "https://www.fortuneidn.com/tech/adopsi-ai-kian-masif-fondasi-data-jadi-tantangan-bisnis-00-4vfn9-tgjn8s",
-          "date": "2026"
-        }
-      ],
-      "seoTitle": "89% Perusahaan Rancang Ulang AI karena Biaya Token Melonjak",
-      "seoDescription": "Survei Cloudera: biaya token memaksa perusahaan merancang ulang AI, sementara investasi AI di Indonesia terus naik. Ini langkah yang perlu diambil.",
-      "publishAt": "2026-11-15T11:30:00+07:00",
-      "language": "id"
-    },
-    {
-      "slug": "bank-indonesia-adopsi-ai-tata-kelola-4-persen",
-      "title": "88% Bank Sudah Menjajal AI, Baru 4% Punya Tata Kelola Formal: Celah yang Disorot BI",
-      "category": "Enterprise Adoption",
-      "articleType": "berita",
-      "dek": "Studi IBM dan Perbanas menemukan hampir semua bank di Indonesia sudah menjajal AI, tetapi hanya 4% yang memasukkannya ke tata kelola perusahaan secara formal. Bank Indonesia mengingatkan risiko yang belum ada di buku manual risiko lama, termasuk perilaku seragam agen AI.",
-      "summaryHtml": "<ul><li>Studi IBM dan Perbanas menunjukkan 88% bank di Indonesia sudah menjajal teknologi AI, sementara 12% belum memulai. Hanya 4% yang telah mengintegrasikan AI secara formal ke tata kelola perusahaan. (Indonesia Business Post)</li><li>Temuan ini dirilis bersama white paper &ldquo;Digital Sovereign AI and the Future of Trusted Banking&rdquo; dari IBM, Perbanas, dan Kiantara &amp; Associates pada 27 Oktober 2026. (Indonesia Business Post)</li><li>Managing Partner IBM Consulting Indonesia Juvanus Tjandra menilai penerapan AI di industri masih terfragmentasi dan banyak bank belum punya arsitektur terpusat. Penggunaan masih terkonsentrasi di layanan nasabah seperti chatbot. (Indonesia Business Post)</li><li>Ricky Satria dari Bank Indonesia mengingatkan penipuan dengan suara dan wajah sintetis, serta serangan yang kini berlangsung dalam hitungan jam. &ldquo;Serangan sangat cepat, bukan lagi berminggu-minggu,&rdquo; ujarnya. (Katadata)</li><li>BI juga menyoroti risiko herding: banyak agen AI yang memakai model dan penyedia cloud yang sama bisa memberi rekomendasi serupa pada saat bersamaan. BI mendorong bank memegang kendali penuh atas AI yang dipakai. (Katadata)</li></ul>",
-      "analysisHtml": "<h3>AI masuk lewat pintu depan, tata kelola tertinggal di belakang</h3><p>Selisih antara 88% dan 4% menunjukkan pola yang umum: AI pertama kali dipakai di chatbot dan layanan nasabah karena cepat terlihat hasilnya. Tata kelola baru dipikirkan setelah penggunaan menyebar. Di bank, urutan ini berisiko karena model AI yang menyentuh data nasabah dan keputusan kredit tunduk pada pengawasan ketat.</p><h3>Herding adalah risiko baru yang belum ada di manual risiko lama</h3><p>Manajemen risiko tradisional menilai satu model pada satu bank. Risiko herding muncul dari banyak bank yang memakai model dan sumber data yang sama. Jika model keliru, kesalahannya terjadi serentak. Karena itu, keragaman penyedia dan kemampuan mematikan agen AI dengan cepat akan menjadi bagian dari pengawasan.</p><h3>Sovereign AI akan mengubah cara bank membeli teknologi</h3><p>Dorongan BI agar bank memegang kendali penuh atas AI berarti preferensi pada model yang bisa dijalankan di infrastruktur sendiri atau di dalam negeri. BNI, misalnya, sudah mengembangkan AI generatif secara on-premise berbasis model open-source bersama Cloudera. Vendor yang hanya menawarkan layanan dari luar negeri akan menghadapi pertanyaan lebih banyak dalam proses pengadaan.</p>",
-      "actionHtml": "<h3>Untuk bank dan perusahaan jasa keuangan</h3><ol><li>Buat daftar seluruh sistem AI yang dipakai, termasuk yang dibeli unit bisnis secara terpisah.</li><li>Masukkan model AI ke kerangka manajemen risiko model, lengkap dengan pemilik, pengujian, dan pemantauan.</li><li>Batasi hak akses agen AI ke data dan transaksi nasabah, serta siapkan tombol darurat untuk menghentikannya.</li><li>Tinjau ketergantungan pada satu penyedia model atau cloud.</li></ol><h3>Untuk penyedia solusi</h3><p>Kebutuhan terbesar ada pada perangkat tata kelola AI, pemantauan model, deteksi deepfake untuk verifikasi nasabah, dan penerapan AI di infrastruktur lokal yang memenuhi tuntutan kedaulatan data.</p>",
-      "faqHtml": "<h3>Apa itu risiko herding dalam AI?</h3><p>Risiko ketika banyak sistem AI memakai model dan data yang sama sehingga mengambil keputusan serupa pada saat bersamaan. Dalam kondisi pasar tertekan, hal ini dapat memperbesar guncangan.</p>",
-      "dataFigure": "4%",
-      "dataLabel": "bank di Indonesia yang sudah mengintegrasikan AI secara formal ke tata kelola perusahaan",
-      "dataSource": "Studi IBM dan Perbanas, Oktober 2026",
-      "audience": [
-        "Direksi bank",
-        "CRO / Manajemen risiko",
-        "Vendor AI dan keamanan"
-      ],
-      "tags": [
-        "Perbankan",
-        "IBM",
-        "Perbanas",
-        "Bank Indonesia",
-        "Tata kelola AI",
-        "Sovereign AI"
-      ],
-      "sources": [
-        {
-          "name": "Indonesia Business Post",
-          "title": "Indonesia lags behind AI banking adoption prompting new framework, study says",
-          "url": "https://indonesiabusinesspost.com/7696/markets-and-finance/indonesia-lags-behind-ai-banking-adoption-prompting-new-framework-study-says",
-          "date": "2026-10-29"
-        },
-        {
-          "name": "Katadata",
-          "title": "BI Ingatkan Risiko AI di Perbankan: Penipuan hingga Ancaman Tarik Uang Massal",
-          "url": "https://katadata.co.id/digital/fintech/6ae06cfd314ed/bi-ingatkan-risiko-ai-di-perbankan-penipuan-hingga-ancaman-penarikan-massal",
-          "date": "2026-10-27"
-        },
-        {
-          "name": "Infobank",
-          "title": "BNI Perluas Pemanfaatan AI, Perkuat Operasional hingga Keamanan Data",
-          "url": "https://infobanknews.com/bni-perluas-pemanfaatan-ai-perkuat-operasional-hingga-keamanan-data/",
-          "date": "2026"
-        }
-      ],
-      "seoTitle": "88% Bank Menjajal AI, Baru 4% Punya Tata Kelola Formal",
-      "seoDescription": "Studi IBM-Perbanas: hampir semua bank di Indonesia menjajal AI, tetapi tata kelola tertinggal. BI menyoroti risiko deepfake dan herding.",
-      "publishAt": "2026-11-15T13:00:00+07:00",
-      "language": "id"
-    },
-    {
-      "slug": "perpres-ai-etika-peta-jalan-yang-perlu-disiapkan-perusahaan",
-      "title": "Perpres AI Tinggal Menunggu Tanda Tangan: 5 Hal yang Perlu Disiapkan Perusahaan dari Sekarang",
-      "category": "Regulasi",
-      "articleType": "penjelasan",
-      "dek": "Dua rancangan Peraturan Presiden tentang AI, yaitu Peta Jalan AI Nasional 2026–2029 dan Etika AI, telah rampung dibahas lintas kementerian. Perusahaan yang memakai AI untuk data pribadi, layanan publik, atau keputusan berdampak besar sebaiknya bersiap sebelum aturan teknisnya terbit.",
-      "summaryHtml": "<ul><li>Komdigi bersama kementerian lintas sektor menyelesaikan pembahasan RPerpres Etika Kecerdasan Artifisial dan RPerpres Peta Jalan Kecerdasan Artifisial Nasional 2026&ndash;2029 pada 5 Mei 2026. (JDIH Komdigi)</li><li>Pada 3 September 2026, Dirjen Ekosistem Digital Komdigi Edwin Hidayat Abdullah menyebut kedua Perpres tinggal menunggu tanda tangan Presiden. Hingga artikel ini ditulis pada 15 November 2026, redaksi belum menemukan laporan bahwa keduanya telah ditandatangani. (Selular.ID)</li><li>Menkomdigi Meutya Hafid menyatakan Komdigi menyiapkan aturan payung, sementara aturan teknis disusun oleh masing-masing sektor. Peta jalan memuat 10 sektor prioritas, termasuk kesehatan, pendidikan, serta ekonomi dan keuangan. (detikInet)</li><li>Rancangan Perpres Etika AI membagi risiko AI ke dalam tiga kategori: rendah, tinggi, dan tidak dapat diterima. Sistem berisiko tinggi wajib menjalani penilaian risiko sejak tahap desain, dan konten buatan AI direncanakan wajib diberi label. (Katadata)</li><li>Komdigi mempertahankan ketentuan yang mewajibkan pelaporan seluruh jenis insiden operasional AI, tanpa memandang skala risikonya. (Bisnis.com)</li></ul>",
-      "analysisHtml": "<h3>Siapa yang paling terdampak</h3><p>Menurut rancangan yang dilaporkan, sistem berisiko tinggi adalah AI yang memakai data pribadi tertentu atau berdampak besar pada hak asasi, keselamatan, dan layanan publik penting. Kategori ini kemungkinan mencakup penilaian kredit, rekrutmen, layanan kesehatan, dan verifikasi identitas. Perusahaan di sektor keuangan, kesehatan, dan telekomunikasi perlu memperhatikannya lebih dulu.</p><h3>Kewajiban pelaporan insiden sering terlewat</h3><p>Banyak perusahaan sudah punya prosedur insiden keamanan siber, tetapi belum punya prosedur untuk insiden AI, misalnya chatbot yang memberi informasi keliru atau model yang menolak nasabah secara tidak wajar. Jika semua insiden operasional AI wajib dilaporkan, perusahaan perlu mendefinisikan apa yang dihitung sebagai insiden dan siapa yang bertanggung jawab melaporkannya.</p><h3>Aturan sektoral akan menentukan detailnya</h3><p>Perpres hanya menjadi payung. Detail teknis dan sanksi akan datang dari regulator sektor, seperti OJK untuk jasa keuangan, serta peraturan menteri Komdigi untuk pelabelan konten. Perusahaan yang menunggu aturan sektoral terbit baru bergerak akan memiliki waktu persiapan yang sempit.</p>",
-      "actionHtml": "<h3>5 hal yang perlu disiapkan perusahaan</h3><ol><li><strong>Inventarisasi sistem AI</strong> dan klasifikasikan masing-masing ke kategori risiko rendah, tinggi, atau tidak dapat diterima.</li><li><strong>Penilaian risiko sejak desain</strong> untuk sistem yang memakai data pribadi atau memengaruhi keputusan penting tentang orang.</li><li><strong>Label dan transparansi</strong>: siapkan cara memberi tahu pengguna bahwa mereka berinteraksi dengan AI dan menandai konten buatan AI.</li><li><strong>Prosedur insiden AI</strong>: definisi insiden, jalur eskalasi, dan penanggung jawab pelaporan.</li><li><strong>Pemantauan regulasi sektor</strong>: tunjuk satu pemilik yang memantau aturan turunan dari Komdigi dan regulator sektor Anda.</li></ol><h3>Untuk penyedia solusi</h3><p>Fitur yang mendukung kepatuhan, seperti log audit, penjelasan keputusan model, dan pelabelan otomatis, akan menjadi syarat dalam pengadaan enterprise setelah Perpres berlaku.</p>",
-      "faqHtml": "<h3>Apakah Perpres AI sudah berlaku?</h3><p>Hingga 15 November 2026, redaksi belum menemukan laporan bahwa kedua Perpres telah ditandatangani. Komdigi menyatakan keduanya tinggal menunggu tanda tangan Presiden.</p><h3>Apakah ada sanksi?</h3><p>Rencana sanksi untuk pelanggaran pelabelan konten AI akan diatur dalam peraturan menteri yang terpisah. Detailnya belum diterbitkan.</p>",
-      "dataFigure": "3",
-      "dataLabel": "kategori risiko AI dalam rancangan Perpres Etika AI: rendah, tinggi, tidak dapat diterima",
-      "dataSource": "Rancangan Perpres Etika AI, sebagaimana dilaporkan Katadata, Agustus 2026",
-      "audience": [
-        "Direksi",
-        "Legal dan kepatuhan",
-        "CIO / CDO"
-      ],
-      "tags": [
-        "Perpres AI",
-        "Etika AI",
-        "Komdigi",
-        "Regulasi",
-        "Kepatuhan"
-      ],
-      "sources": [
-        {
-          "name": "JDIH Komdigi",
-          "title": "Pembahasan RPerpres Etika KA dan Peta Jalan KA Nasional selesai",
-          "url": "https://jdih.komdigi.go.id/berita/view/116",
-          "date": "2026-05-05"
-        },
-        {
-          "name": "Selular.ID",
-          "title": "Dua Perpres AI Tunggu Tanda Tangan Presiden Prabowo",
-          "url": "https://selular.id/2026/09/dua-perpres-ai-tunggu-tanda-tangan-presiden-prabowo/",
-          "date": "2026-09-03"
-        },
-        {
-          "name": "detikInet",
-          "title": "Tak Mau AI Lepas Kendali, Pemerintah Pastikan Perpres AI Terbit Tahun Ini",
-          "url": "https://inet.detik.com/law-and-policy/d-8529010/tak-mau-ai-lepas-kendali-pemerintah-pastikan-perpres-ai-terbit-tahun-ini",
-          "date": "2026-06-12"
-        },
-        {
-          "name": "Katadata",
-          "title": "Bocoran Aturan AI yang Segera Terbit: Label, MBG, Tiga Tingkat Risiko",
-          "url": "https://katadata.co.id/digital/teknologi/6a7568af9df16/bocoran-perpres-ai-yang-segera-terbit-label-mbg-tiga-tingkat-risiko",
-          "date": "2026-08-07"
-        },
-        {
-          "name": "Bisnis.com",
-          "title": "Jawab Keraguan AS, Komdigi Pastikan Prinsip Etika AI Mengacu Standar Internasional",
-          "url": "https://teknologi.bisnis.com/read/20260618/84/1981574/jawab-keraguan-as-komdigi-pastikan-prinsip-etika-ai-mengacu-standar-internasional/All",
-          "date": "2026-06-18"
-        }
-      ],
-      "seoTitle": "Perpres AI: 5 Hal yang Perlu Disiapkan Perusahaan",
-      "seoDescription": "Perpres Etika AI dan Peta Jalan AI tinggal menunggu tanda tangan. Ini kategori risiko, kewajiban label, dan langkah persiapan bagi perusahaan.",
-      "publishAt": "2026-11-15T14:30:00+07:00",
-      "language": "id"
-    },
-    {
-      "slug": "pendanaan-startup-teknologi-indonesia-9m-2026-tracxn",
-      "title": "Pendanaan Teknologi Indonesia Naik 111%, tetapi Satu Kesepakatan Menyumbang 74%",
-      "category": "Deals",
-      "articleType": "berita",
-      "dek": "Laporan Tracxn mencatat pendanaan perusahaan teknologi Indonesia mencapai US$365 juta pada Januari–September 2026. Kenaikannya hampir seluruhnya berasal dari putaran Seri C Ajaib. Di bawah permukaan, jumlah putaran, investor, dan pendanaan tahap awal justru menyusut tajam.",
-      "summaryHtml": "<ul><li>Menurut laporan Tracxn &ldquo;Indonesia Tech &ndash; 9M 2026&rdquo;, total pendanaan perusahaan teknologi Indonesia mencapai US$365 juta, naik 111% dari US$173 juta pada periode yang sama 2025. Jumlah putaran turun 56% menjadi 14. (Katadata)</li><li>Ajaib meraih US$270 juta dalam putaran Seri C pada Agustus 2026 bersama SBI Group, setara sekitar 74% dari total pendanaan sembilan bulan. Waresix memperoleh US$27 juta (Seri B) dan Green Rebel US$13 juta (Seri A). (Katadata)</li><li>Pendanaan tahap akhir mencapai US$280 juta atau 77% dari total. Pendanaan tahap awal turun 16% menjadi US$83 juta, dan pendanaan seed anjlok 92% menjadi US$2 juta dari hanya 4 putaran. (Katadata)</li><li>Investor aktif turun menjadi 27, terdiri dari 20 investor asing dan 7 domestik. Tidak ada IPO perusahaan teknologi dan hanya satu akuisisi, yaitu NOBI oleh Bybit. (Katadata)</li><li>Di tingkat Asia Tenggara, pendanaan teknologi naik 176% menjadi US$13,5 miliar, sementara jumlah putaran turun 28% menjadi 189. Kenaikan juga terkonsentrasi pada beberapa kesepakatan besar. (TechNode Global)</li></ul>",
-      "analysisHtml": "<h3>Tanpa Ajaib, pendanaan justru turun</h3><p>Jika putaran Ajaib dikeluarkan, pendanaan teknologi Indonesia sembilan bulan pertama 2026 hanya sekitar US$95 juta, sekitar 45% lebih rendah dari US$173 juta tahun lalu (hitungan redaksi). Angka utama &ldquo;naik 111%&rdquo; menggambarkan satu kesepakatan besar, bukan pemulihan pasar secara luas.</p><h3>Seed hampir hilang, pipa startup B2B menipis</h3><p>Putaran seed turun dari 23 menjadi 4. Artinya, jauh lebih sedikit perusahaan perangkat lunak baru yang lahir dengan modal ventura tahun ini. Bagi perusahaan pembeli, pilihan vendor lokal baru akan lebih sedikit. Bagi vendor yang sudah ada, persaingan dari pendatang baru berkurang, tetapi akses ke modal untuk ekspansi juga lebih sulit.</p><h3>Modal asing mendominasi</h3><p>Dengan 20 dari 27 investor berasal dari luar negeri, arah pendanaan sangat dipengaruhi minat investor regional dan global. Pola Asia Tenggara yang sama, yaitu nilai naik tetapi jumlah transaksi turun, menunjukkan investor memilih sedikit perusahaan yang dianggap paling kuat.</p>",
-      "actionHtml": "<h3>Untuk perusahaan yang membeli solusi dari startup</h3><ol><li>Tambahkan pemeriksaan kesehatan keuangan vendor, termasuk sisa runway dan sumber pendanaan, ke proses pengadaan.</li><li>Pastikan kontrak memuat hak ekspor data dan rencana kelanjutan layanan jika vendor berhenti beroperasi.</li><li>Pertimbangkan kontrak jangka lebih panjang dengan vendor yang sehat sebagai posisi tawar harga.</li></ol><h3>Untuk startup dan penyedia solusi B2B</h3><p>Dengan pendanaan tahap awal yang menipis, pendapatan dari kontrak enterprise menjadi sumber pertumbuhan yang paling realistis. Studi kasus dengan pelanggan korporasi dan rekam jejak kepatuhan akan lebih meyakinkan investor maupun pembeli.</p>",
-      "faqHtml": "<h3>Mengapa pendanaan naik padahal jumlah transaksi turun?</h3><p>Karena satu putaran besar, yaitu Seri C Ajaib senilai US$270 juta, menyumbang sekitar 74% dari total pendanaan sembilan bulan pertama 2026.</p>",
-      "dataFigure": "74%",
-      "dataLabel": "porsi putaran Ajaib dari total pendanaan teknologi Indonesia Januari–September 2026",
-      "dataSource": "Tracxn, Indonesia Tech – 9M 2026, via Katadata",
-      "audience": [
-        "Pengadaan / Procurement",
-        "Founder B2B",
-        "Investor"
-      ],
-      "tags": [
-        "Tracxn",
-        "Pendanaan startup",
-        "Ajaib",
-        "Waresix",
-        "Venture capital"
-      ],
-      "sources": [
-        {
-          "name": "Katadata",
-          "title": "Jumlah Investor yang Berinvestasi di Startup Indonesia Berkurang, IPO Juga Lesu",
-          "url": "https://katadata.co.id/digital/startup/6ae19792d25d5/jumlah-investor-yang-berinvestasi-di-startup-indonesia-berkurang-ipo-juga-lesu",
-          "date": "2026-10-28"
-        },
-        {
-          "name": "TechNode Global",
-          "title": "Southeast Asia tech funding jumps 176% to $13.5B, 3 deals drive growth: Tracxn",
-          "url": "https://technode.global/2026/10/05/southeast-asia-tech-funding-jumps-176-to-13-5b-3-deals-drive-growth-tracxn/",
-          "date": "2026-10-05"
-        },
-        {
-          "name": "FinTech Global",
-          "title": "SBI invests $270m in Indonesia's Ajaib in record round",
-          "url": "https://fintech.global/2026/08/31/sbi-invests-270m-in-indonesias-ajaib-in-record-round/",
-          "date": "2026-08-31"
-        }
-      ],
-      "seoTitle": "Pendanaan Startup Indonesia 9M 2026 Naik 111% Berkat Ajaib",
-      "seoDescription": "Tracxn: pendanaan teknologi Indonesia naik 111% ke US$365 juta, tetapi 74% dari Ajaib. Seed anjlok 92%. Ini artinya bagi pembeli dan vendor B2B.",
-      "publishAt": "2026-11-15T16:00:00+07:00",
       "language": "id"
     }
   ]

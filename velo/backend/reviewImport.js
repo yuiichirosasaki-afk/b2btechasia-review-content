@@ -6,7 +6,7 @@ import { fetch } from 'wix-fetch';
 import wixData from 'wix-data';
 
 // Set FEED_URL to the raw URL of feed.json in the GitHub repo.
-const FEED_URL = 'https://raw.githubusercontent.com/OWNER/b2btechasia-review-content/main/feed.json';
+const FEED_URL = 'https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/feed.json';
 const VRITIMES_RSS = 'https://rss.vritimes-api.com/api/v2/rss/505ecc5a-87d3-4e9c-a4ab-6c5a1dcf850b';
 const OPTS = { suppressAuth: true };
 
