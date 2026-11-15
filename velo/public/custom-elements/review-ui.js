@@ -98,7 +98,7 @@ class ReviewUi extends HTMLElement {
     if (part === 'front') html = d.view === 'list' ? this.list(d, L) : this.front(d, L);
     else if (part === 'top') html = this.topbar(d, L) + this.compactHeader(d, L);
     else if (part === 'side') html = this.side(d, L);
-    else if (part === 'bottom') html = this.expoBand(d, L, true) + this.footer(d, L);
+    else if (part === 'bottom') html = this.related(d, L) + this.expoBand(d, L, true) + this.footer(d, L);
     this.innerHTML = html;
   }
 
@@ -255,6 +255,21 @@ ${r.imageUrl ? `<img class="rv-img" src="${esc(r.imageUrl)}" alt="" loading="laz
     out.push(this.expoBand(d, L, false));
     out.push(this.footer(d, L));
     return out.join('');
+  }
+
+  related(d, L) {
+    const a = d.article || {};
+    const rel = d.related || [];
+    if (!rel.length && !(a.audience || []).length) return '';
+    return `<div class="rv-wrap" style="margin-top:24px"><div style="display:flex;flex-wrap:wrap;gap:32px 56px;border-top:3px solid ${NAVY};padding-top:16px">
+${rel.length ? `<section style="flex:2 1 420px"><h2 class="rv-kicker" style="margin:0 0 4px;font-size:13px;color:${NAVY}">${esc(d.relatedTitle || 'Berita Terkait')}</h2>
+${rel.map((r) => `<a href="${L('/review/' + r.slug)}" style="display:flex;gap:16px;align-items:flex-start;padding:14px 0;border-bottom:1px solid ${LINE}">
+${r.heroImage ? `<img src="${esc(r.heroImage)}" alt="" loading="lazy" style="flex:0 0 160px;width:160px;aspect-ratio:16/9;object-fit:cover;background:${NAVY}">` : ''}
+<span style="display:flex;flex-direction:column;gap:4px"><span class="rv-kicker" style="font-size:11px;color:${RED}">${esc(r.category || '')}</span>
+<span class="rv-serif" style="font-size:18px;line-height:1.35;font-weight:600">${esc(r.title)}</span></span></a>`).join('')}</section>` : ''}
+${(a.audience || []).length ? `<section style="flex:1 1 240px"><h2 class="rv-kicker" style="margin:0 0 12px;font-size:13px;color:${NAVY}">Ditulis untuk</h2>
+<div style="display:flex;flex-wrap:wrap;gap:8px">${a.audience.map((x) => `<span style="font-size:13px;font-weight:600;border:1px solid #C4CAD3;padding:6px 10px;color:${INK}">${esc(x)}</span>`).join('')}</div></section>` : ''}
+</div></div>`;
   }
 
   side(d, L) {

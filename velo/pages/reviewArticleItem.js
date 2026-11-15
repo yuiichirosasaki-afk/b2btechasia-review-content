@@ -1,7 +1,7 @@
 // Page code: Review Articles (Item) — URL /review/{slug}
-// Layout (top to bottom): #ceTop (<review-ui part="top">), #text747 (headline block, server-rendered),
-// #heroImage (data graphic), #bodyText (article body, server-rendered) with #ceSide beside it,
-// #ceBottom (<review-ui part="bottom">). Article text stays in Wix text elements so it is indexable.
+// Layout (top to bottom): #customElement1 (<review-ui part="top">), #text747 (headline block, server-rendered),
+// #image262 (hero data graphic), #text748 (article body, server-rendered),
+// #customElement2 (<review-ui part="bottom">: related articles, Expo band, footer). Article text stays in Wix text elements so it is indexable.
 
 import wixData from 'wix-data';
 import wixSeoFrontend from 'wix-seo-frontend';
@@ -70,14 +70,15 @@ $w.onReady(async function () {
     .ne('slug', item.slug).le('publishAt', new Date()).descending('publishAt').limit(3).find().then((r) => r.items).catch(() => []);
 
   const chrome = { base, narrow: true, now: new Date().toISOString(), active: catSlug };
-  $w('#ceTop').setAttribute('part', 'top');
-  $w('#ceBottom').setAttribute('part', 'bottom');
-  $w('#ceSide').setAttribute('part', 'side');
-  $w('#ceTop').setAttribute('data', JSON.stringify(chrome));
-  $w('#ceBottom').setAttribute('data', JSON.stringify(chrome));
-  $w('#ceSide').setAttribute('data', JSON.stringify(Object.assign({}, chrome, {
+  const top = $w('#customElement1');
+  const bottom = $w('#customElement2');
+  top.setAttribute('part', 'top');
+  bottom.setAttribute('part', 'bottom');
+  top.setAttribute('data', JSON.stringify(chrome));
+  bottom.setAttribute('data', JSON.stringify(Object.assign({}, chrome, {
     article: { category: item.category, audience: item.audience || [] },
-    related: latest.map((r) => ({ slug: r.slug, title: r.title })),
+    relatedTitle: related.length ? 'Lainnya di ' + item.category : 'Berita Terkait',
+    related: latest.map((r) => ({ slug: r.slug, title: r.title, category: r.category, heroImage: r.heroImage || '' })),
   })));
 
   // Headline block
@@ -94,10 +95,10 @@ $w.onReady(async function () {
 
   // Hero data graphic
   if (item.heroImage) {
-    $w('#heroImage').src = item.heroImage;
-    $w('#heroImage').alt = `${item.dataFigure || ''} ${item.dataLabel || ''}`.trim();
+    $w('#image262').src = item.heroImage;
+    $w('#image262').alt = `${item.dataFigure || ''} ${item.dataLabel || ''}`.trim();
   } else {
-    $w('#heroImage').collapse();
+    $w('#image262').collapse();
   }
 
   // Body
@@ -124,7 +125,7 @@ $w.onReady(async function () {
   b.push(kicker('SUMBER'));
   b.push(body(item.sourcesHtml, { sans: true, size: 16 }));
   b.push(`<p style="font-size:13px; line-height:1.6"><span style="${SANS}; color:${SUB}">Kutipan digunakan secara terbatas dengan menyebut sumber. Hak cipta kutipan tetap milik media masing-masing. Analisis adalah pandangan redaksi B2B Tech Asia Review.</span></p>`);
-  $w('#bodyText').html = b.join('');
+  $w('#text748').html = b.join('');
 
   const description = item.seoDescription || item.dek;
   await wixSeoFrontend.setTitle((item.seoTitle || item.title) + ' | B2B Tech Asia Review');
