@@ -1,0 +1,101 @@
+{
+  "slug": "asean-defa-ditandatangani-dampak-ecommerce-perusahaan-indonesia",
+  "title": "ASEAN Teken DEFA di Manila: Aturan Data, Pembayaran, dan AI Lintas Negara yang Mengikat 11 Negara",
+  "category": "E-Commerce & Retail Tech",
+  "articleType": "analisis",
+  "dek": "Negara-negara ASEAN menandatangani Digital Economy Framework Agreement (DEFA) di Manila pada 14 November 2026, perjanjian ekonomi digital pertama kawasan yang berdiri sendiri dan mengikat secara hukum. Bagi perusahaan Indonesia yang menjual atau membayar lintas negara, DEFA menggeser aturan main dari sekadar e-commerce ke data, pembayaran, identitas digital, dan AI.",
+  "summaryHtml": "<ul><li>Negara anggota ASEAN resmi menandatangani DEFA pada Sabtu, 14 November 2026, di Manila dalam pertemuan Dewan Masyarakat Ekonomi ASEAN (AECC). Indonesia menggagas perjanjian ini saat memegang keketuaan ASEAN pada 2023. (ANTARA)</li><li>DEFA disebut sebagai perjanjian ekonomi digital ASEAN pertama yang berdiri sendiri dan mengikat secara hukum. Isinya mencakup perdagangan digital, aliran data lintas batas, pembayaran elektronik, keamanan siber, dan kecerdasan artifisial. Proyek prioritas yang dibidik antara lain sistem pembayaran digital, identitas digital untuk pelaku usaha, dan dokumen perdagangan elektronik. (The Star)</li><li>DEFA akan menggantikan perjanjian e-commerce ASEAN tahun 2019, yang diratifikasi Indonesia melalui UU Nomor 4 Tahun 2021. Indonesia akan meratifikasi DEFA lewat panitia antarkementerian. (ANTARA)</li><li>Soal mulai berlakunya, sumber berbeda: ANTARA menyebut 180 hari setelah negara anggota terakhir menandatangani, sedangkan The Star mengutip Kementerian Ekonomi Jepang (METI) yang menyebut 180 hari setelah penandatanganan. ASEAN menargetkan proyek pertama bergulir awal 2027. (ANTARA, The Star)</li><li>Studi BCG memperkirakan implementasi penuh DEFA dapat menaikkan nilai ekonomi digital ASEAN dari sekitar US$1 triliun menjadi US$2 triliun pada 2030. Presiden Prabowo Subianto mengulang angka ini di KTT ASEAN ke-49, 15 November 2026. Menko Perekonomian Airlangga Hartarto menyebut penandatanganan ini &ldquo;langkah strategis&rdquo;. (ANTARA)</li></ul>",
+  "analysisHtml": "<h3>Dari aturan toko online ke aturan infrastruktur digital</h3><p>Perjanjian e-commerce ASEAN 2019 pada dasarnya mengatur jual beli daring. DEFA melangkah lebih jauh: aliran data, pembayaran, identitas digital pelaku usaha, keamanan siber, dan AI masuk ke satu kerangka yang mengikat. Bagi perusahaan, artinya keputusan teknologi seperti di mana data pelanggan disimpan, gerbang pembayaran apa yang dipakai di checkout lintas negara, dan bagaimana verifikasi mitra dagang dilakukan, ke depan akan dinilai juga terhadap komitmen regional, bukan hanya aturan domestik.</p><h3>Yang belum dikatakan berita: isi komitmen dan tanggal berlaku</h3><p>Sumber yang tersedia belum merinci kewajiban spesifik, misalnya pengecualian untuk penyimpanan data di dalam negeri atau seberapa jauh aliran data lintas batas dibuka. Tanggal berlakunya pun dijelaskan berbeda oleh dua sumber. Bagi Indonesia, ada satu tahap tambahan: ratifikasi lewat panitia antarkementerian. Karena itu, kemungkinan besar dampak praktis bagi perusahaan Indonesia baru terasa bertahap mulai paruh kedua 2027, dan bergantung pada aturan turunan. Perusahaan sebaiknya tidak mengubah arsitektur data hanya berdasarkan judul berita.</p><h3>Angka US$2 triliun perlu dibaca hati-hati</h3><p>US$2 triliun adalah potensi dari studi BCG dengan asumsi implementasi penuh, bukan proyeksi dasar. Angka ini juga tidak bisa dibandingkan langsung dengan nilai transaksi bruto (GMV) ekonomi digital yang biasa dikutip dari laporan Google, Temasek, dan Bain, karena metodenya berbeda. Yang lebih penting bagi pelaku usaha adalah mekanisme fleksibel DEFA: negara yang siap boleh jalan lebih dulu dalam inisiatif tertentu. Artinya, kemudahan lintas negara kemungkinan tidak merata; koridor tertentu bisa lebih cepat terbuka dibanding yang lain.</p><h3>Siapa diuntungkan, siapa tertekan</h3><p>Penjual dan merek yang sudah atau ingin menjual ke negara ASEAN lain, penyedia pembayaran lintas negara, serta penyedia dokumen perdagangan elektronik berpotensi paling diuntungkan jika proyek prioritas berjalan. Di sisi lain, aturan yang lebih seragam juga memudahkan pemain dari negara tetangga masuk ke pasar Indonesia, pasar ekonomi digital terbesar di kawasan menurut e-Conomy SEA 2025. Pelaku lokal yang selama ini terlindungi oleh perbedaan aturan perlu mencermati hal ini.</p>",
+  "actionHtml": "<h3>Untuk Head of E-Commerce dan CMO</h3><ol><li>Petakan pasar ASEAN yang realistis untuk ekspansi daring 2027–2028 dan pantau koridor mana yang lebih dulu menjalankan proyek DEFA.</li><li>Siapkan opsi pembayaran lintas negara di checkout dan uji biayanya sebelum kerangka pembayaran regional berjalan.</li></ol><h3>Untuk CIO, Legal, dan Compliance</h3><ol><li>Inventarisasi data pelanggan yang mengalir ke luar negeri (cloud, CRM, analitik) dan dasar hukumnya saat ini.</li><li>Pantau proses ratifikasi di Indonesia dan aturan turunannya; libatkan asosiasi industri untuk memberi masukan.</li><li>Siapkan proses verifikasi mitra yang kompatibel dengan identitas digital pelaku usaha, jika skema itu diterapkan.</li></ol><h3>Untuk penyedia teknologi</h3><p>Peluang ada pada pembayaran lintas negara, dokumen perdagangan elektronik, verifikasi identitas usaha, dan alat kepatuhan data multi-negara. Bangun produk yang bisa menyesuaikan diri dengan negara yang bergabung lebih dulu.</p>",
+  "faqHtml": "<h3>Apa itu ASEAN DEFA?</h3><p>Digital Economy Framework Agreement adalah perjanjian ekonomi digital ASEAN yang mengikat secara hukum, mencakup perdagangan digital, aliran data lintas batas, pembayaran elektronik, keamanan siber, dan AI. Perjanjian ini ditandatangani di Manila pada 14 November 2026.</p><h3>Kapan DEFA mulai berlaku?</h3><p>Sumber berbeda: 180 hari setelah penandatanganan menurut METI Jepang, atau 180 hari setelah negara anggota terakhir menandatangani menurut ANTARA. Indonesia masih perlu meratifikasinya.</p><h3>Apakah DEFA menggantikan perjanjian e-commerce ASEAN?</h3><p>Ya. DEFA menggantikan perjanjian e-commerce ASEAN 2019 yang diratifikasi Indonesia melalui UU Nomor 4 Tahun 2021.</p>",
+  "dataFigure": "US$2 T",
+  "dataLabel": "potensi nilai ekonomi digital ASEAN pada 2030 jika DEFA diterapkan penuh",
+  "dataSource": "Studi BCG, dikutip ANTARA, 13 November 2026",
+  "chart": {
+    "bars": [
+      {
+        "label": "Saat ini",
+        "value": 1,
+        "display": "US$1 T"
+      },
+      {
+        "label": "2030 (DEFA)",
+        "value": 2,
+        "display": "US$2 T"
+      }
+    ]
+  },
+  "audience": [
+    "Head of E-Commerce",
+    "CMO",
+    "CIO dan Legal",
+    "Penyedia pembayaran"
+  ],
+  "tags": [
+    "ASEAN DEFA",
+    "Perdagangan digital",
+    "Aliran data lintas batas",
+    "Pembayaran lintas negara",
+    "Airlangga Hartarto",
+    "Regulasi"
+  ],
+  "sources": [
+    {
+      "name": "ANTARA",
+      "title": "Indonesia siap tandatangani ASEAN DEFA pada 14 November 2026",
+      "url": "https://www.antaranews.com/berita/5852259/indonesia-siap-tandatangani-asean-defa-pada-14-november-2026",
+      "date": "2026-11-13"
+    },
+    {
+      "name": "The Star",
+      "title": "Asean states sign Digital Economy Framework Agreement, which kicks in from early 2027",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/14/asean-states-sign-digital-economy-framework-agreement-which-kicks-in-from-early-2027",
+      "date": "2026-11-14"
+    },
+    {
+      "name": "ANTARA News",
+      "title": "ASEAN digital economy could reach US$2 trillion through DEFA: Prabowo",
+      "url": "https://en.antaranews.com/news/442811/asean-digital-economy-could-reach-us2-trillion-through-defa-prabowo",
+      "date": "2026-11-15"
+    }
+  ],
+  "seoTitle": "ASEAN DEFA Diteken: Dampak bagi E-Commerce dan Data",
+  "seoDescription": "ASEAN menandatangani DEFA di Manila, 14 November 2026: aturan data lintas batas, pembayaran, dan AI. Apa artinya bagi perusahaan Indonesia.",
+  "publishAt": "2026-11-16T06:00:00+07:00",
+  "language": "id",
+  "en": {
+    "title": "ASEAN Signs DEFA in Manila: Binding Cross-Border Rules on Data, Payments and AI for 11 Countries",
+    "dek": "ASEAN member states signed the Digital Economy Framework Agreement (DEFA) in Manila on 14 November 2026, the region's first standalone, legally binding digital economy agreement. For Indonesian companies that sell or pay across borders, DEFA shifts the rules from e-commerce alone to data, payments, digital identity and AI.",
+    "summaryHtml": "<ul><li>ASEAN member states officially signed DEFA on Saturday, 14 November 2026, in Manila during the ASEAN Economic Community Council (AECC) meeting. Indonesia initiated the agreement during its 2023 ASEAN chairmanship. (ANTARA)</li><li>DEFA is described as ASEAN's first standalone, legally binding digital economy agreement. It covers digital trade, cross-border data flows, electronic payments, cybersecurity and artificial intelligence. Priority projects could include digital payment systems, digital identities for businesses and electronic trade documents. (The Star)</li><li>DEFA will replace the 2019 ASEAN e-commerce agreement, which Indonesia ratified through Law No. 4 of 2021. Indonesia will ratify DEFA through an inter-ministerial committee. (ANTARA)</li><li>Sources differ on entry into force: ANTARA says 180 days after the last member state signs, while The Star cites Japan's Ministry of Economy, Trade and Industry (METI) as saying 180 days after signing. ASEAN aims to roll out the first projects in early 2027. (ANTARA, The Star)</li><li>A BCG study estimates full DEFA implementation could raise the value of ASEAN's digital economy from about US$1 trillion to US$2 trillion by 2030. President Prabowo Subianto repeated the figure at the 49th ASEAN Summit on 15 November 2026. Coordinating Minister for Economic Affairs Airlangga Hartarto called the signing a strategic step. (ANTARA)</li></ul>",
+    "analysisHtml": "<h3>From online-store rules to digital-infrastructure rules</h3><p>The 2019 ASEAN e-commerce agreement mainly governed online buying and selling. DEFA goes further: data flows, payments, business digital identity, cybersecurity and AI come under one binding framework. For companies, technology decisions such as where customer data is stored, which payment gateway runs cross-border checkout and how trading partners are verified will increasingly be judged against regional commitments, not only domestic rules.</p><h3>What the news does not say: the commitments and the start date</h3><p>The available sources do not yet detail specific obligations, such as exceptions for storing data in-country or how far cross-border data flows will be opened. Two sources also describe the entry-into-force date differently. For Indonesia there is an extra step: ratification through an inter-ministerial committee. The practical impact on Indonesian companies is therefore likely to arrive gradually from the second half of 2027 and depend on implementing rules. Companies should not change their data architecture on the strength of headlines alone.</p><h3>The US$2 trillion figure needs careful reading</h3><p>US$2 trillion is a BCG estimate that assumes full implementation, not a baseline projection. It also cannot be compared directly with the gross merchandise value (GMV) figures usually cited from the Google, Temasek and Bain reports, because the methods differ. More important for business is DEFA's flexible mechanism: countries that are ready may move first on specific initiatives. Cross-border ease is therefore likely to be uneven, with some corridors opening faster than others.</p><h3>Who gains, who is squeezed</h3><p>Sellers and brands that already sell, or want to sell, into other ASEAN countries, cross-border payment providers and electronic trade-document providers stand to gain most if the priority projects move ahead. On the other hand, more uniform rules also make it easier for players from neighbouring countries to enter Indonesia, the region's largest digital economy according to e-Conomy SEA 2025. Local players that have been shielded by differences in rules should watch this closely.</p>",
+    "actionHtml": "<h3>For Heads of E-Commerce and CMOs</h3><ol><li>Map realistic ASEAN markets for online expansion in 2027–2028 and track which corridors run DEFA projects first.</li><li>Prepare cross-border payment options at checkout and test their costs before the regional payments framework is in place.</li></ol><h3>For CIOs, Legal and Compliance</h3><ol><li>Inventory customer data that flows abroad (cloud, CRM, analytics) and its current legal basis.</li><li>Follow Indonesia's ratification process and implementing rules; work through industry associations to give input.</li><li>Prepare partner-verification processes compatible with business digital identity, if such a scheme is adopted.</li></ol><h3>For technology providers</h3><p>Opportunities lie in cross-border payments, electronic trade documents, business identity verification and multi-country data compliance tools. Build products that can adapt to the countries that join first.</p>",
+    "faqHtml": "<h3>What is ASEAN DEFA?</h3><p>The Digital Economy Framework Agreement is a legally binding ASEAN digital economy agreement covering digital trade, cross-border data flows, electronic payments, cybersecurity and AI. It was signed in Manila on 14 November 2026.</p><h3>When does DEFA take effect?</h3><p>Sources differ: 180 days after signing according to Japan's METI, or 180 days after the last member state signs according to ANTARA. Indonesia still needs to ratify it.</p><h3>Does DEFA replace the ASEAN e-commerce agreement?</h3><p>Yes. DEFA replaces the 2019 ASEAN e-commerce agreement, which Indonesia ratified through Law No. 4 of 2021.</p>",
+    "dataFigure": "US$2T",
+    "dataLabel": "potential value of ASEAN's digital economy in 2030 with full DEFA implementation",
+    "dataSource": "BCG study, cited by ANTARA, 13 November 2026",
+    "chart": {
+      "bars": [
+        {
+          "label": "Today",
+          "value": 1,
+          "display": "US$1T"
+        },
+        {
+          "label": "2030 (DEFA)",
+          "value": 2,
+          "display": "US$2T"
+        }
+      ]
+    },
+    "seoTitle": "ASEAN Signs DEFA: What It Means for E-Commerce and Data",
+    "seoDescription": "ASEAN signed DEFA in Manila on 14 November 2026: rules on cross-border data, payments and AI. What it means for companies in Indonesia.",
+    "audience": [
+      "Heads of E-Commerce",
+      "CMOs",
+      "CIOs and Legal",
+      "Payment providers"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/asean-defa-ditandatangani-dampak-ecommerce-perusahaan-indonesia-en.png"
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/asean-defa-ditandatangani-dampak-ecommerce-perusahaan-indonesia.png"
+}

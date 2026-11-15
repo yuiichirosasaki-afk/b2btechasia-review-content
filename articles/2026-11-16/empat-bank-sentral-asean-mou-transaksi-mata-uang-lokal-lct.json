@@ -1,0 +1,101 @@
+{
+  "slug": "empat-bank-sentral-asean-mou-transaksi-mata-uang-lokal-lct",
+  "title": "BI, BNM, BOT, dan BSP Teken MoU Transaksi Mata Uang Lokal: Filipina Masuk, Rupiah-Peso Tanpa Dolar",
+  "category": "FinTech & Financial Operations",
+  "articleType": "berita",
+  "dek": "Bank Indonesia, Bank Negara Malaysia, Bank of Thailand, dan Bangko Sentral ng Pilipinas meneken nota kesepahaman baru tentang transaksi mata uang lokal (LCT) pada 13 November 2026. Bagi CFO perusahaan yang berdagang dengan Filipina, Malaysia, dan Thailand, ini membuka opsi penyelesaian transaksi tanpa konversi ganda melalui dolar AS.",
+  "summaryHtml": "<ul><li>Pada 13 November 2026, Gubernur BI Destry Damayanti, Gubernur BNM Abdul Rasheed Ghaffour, Gubernur BOT Vitai Ratanakorn, dan Gubernur BSP Eli M. Remolona Jr. menandatangani MoU kerja sama dalam kerangka transaksi mata uang lokal. (Bank Indonesia)</li><li>MoU ini menjadi kerangka bagi keempat bank sentral untuk mendorong penggunaan mata uang lokal dalam transaksi bilateral lintas batas, termasuk perdagangan dan investasi. MoU baru menggantikan kesepakatan BI, BNM, dan BOT yang dibuat pada Agustus 2023. (Bank Indonesia, Bernama)</li><li>Tujuan yang dinyatakan: penyelesaian lintas batas yang lebih efisien, biaya konversi mata uang berlapis yang lebih rendah, dan fleksibilitas lebih besar bagi pelaku usaha dalam mengelola risiko nilai tukar. (Bank Indonesia, Bernama)</li><li>Pada hari yang sama, BI dan BSP juga menandatangani MoU bilateral yang lebih luas, mencakup sistem pembayaran, inovasi keuangan digital, keamanan siber, keuangan syariah, serta anti pencucian uang. Remolona menyebut kerja sama ini &ldquo;sangat krusial&rdquo; di tengah ketidakpastian yang meningkat. (CNBC Indonesia)</li><li>Rilis resmi tidak memuat data volume transaksi LCT maupun jadwal implementasi. (Bank Indonesia)</li></ul>",
+  "analysisHtml": "<h3>Dari tiga menjadi empat: koridor Filipina yang paling baru</h3><p>Kerangka LCT antara Indonesia, Malaysia, dan Thailand sudah berjalan sejak kesepakatan 2023. Hal baru dari MoU ini adalah masuknya Filipina dan penyatuan kerja sama ke satu kerangka empat pihak. Bagi perusahaan Indonesia, koridor rupiah-peso adalah yang paling relevan untuk dicermati, karena transaksi dengan mitra Filipina sebelumnya belum tercakup dalam kerangka LCT ini. Kerja sama bilateral BI-BSP yang ditandatangani bersamaan, yang mencakup sistem pembayaran dan keamanan siber, menunjukkan bahwa koneksi pembayaran kedua negara kemungkinan menjadi langkah berikutnya.</p><h3>Manfaat nyata bergantung pada bank dan likuiditas</h3><p>MoU bank sentral hanyalah kerangka. Manfaat bagi perusahaan baru terasa jika bank komersial menawarkan kuotasi kurs langsung rupiah-peso yang kompetitif, likuiditas cukup, dan produk lindung nilai. Rilis resmi tidak menyebut volume, bank pelaksana, maupun jadwal, sehingga perlu dicermati seberapa cepat kerangka ini diterjemahkan menjadi produk perbankan untuk koridor Filipina. Kemungkinan besar adopsinya akan bertahap.</p><h3>Bagian dari agenda yang lebih besar</h3><p>Penandatanganan ini terjadi sehari sebelum ASEAN meneken perjanjian ekonomi digital DEFA, yang juga menyasar sistem pembayaran lintas negara. Keduanya mengarah ke tujuan yang sama: transaksi intra-ASEAN yang lebih murah dan lebih sedikit bergantung pada dolar AS. Bagi fungsi keuangan perusahaan, ini berarti pengelolaan kas multi-mata uang regional akan menjadi kebutuhan, bukan lagi hanya urusan perusahaan besar.</p><h3>Siapa yang paling diuntungkan</h3><p>Eksportir dan importir menengah yang berdagang rutin dengan Malaysia, Thailand, dan Filipina paling diuntungkan, karena biaya konversi berlapis lebih terasa pada margin mereka. Penyedia pembayaran lintas negara dan perangkat lunak treasury juga mendapat ruang, sementara perusahaan yang seluruh kontraknya berdenominasi dolar AS perlu meninjau apakah struktur itu masih paling efisien.</p>",
+  "actionHtml": "<h3>Untuk CFO dan treasurer</h3><ol><li>Petakan transaksi dengan mitra di Malaysia, Thailand, dan Filipina, termasuk mata uang yang dipakai dan biaya konversinya saat ini.</li><li>Tanyakan kepada bank mitra apakah mereka menyediakan penyelesaian langsung dalam ringgit, baht, atau peso, beserta kurs dan produk lindung nilainya.</li><li>Pertimbangkan klausul mata uang lokal dalam kontrak baru jika biayanya lebih rendah.</li><li>Pastikan sistem ERP dan akuntansi siap mencatat dan merekonsiliasi transaksi multi-mata uang regional.</li></ol><h3>Untuk fintech dan penyedia pembayaran</h3><p>Siapkan produk pembayaran dan pengelolaan kas untuk koridor rupiah-peso, serta pantau tindak lanjut kerja sama sistem pembayaran BI-BSP.</p>",
+  "faqHtml": "<h3>Apa itu Local Currency Transaction (LCT)?</h3><p>LCT adalah kerangka yang mendorong transaksi lintas negara diselesaikan langsung dalam mata uang kedua negara, misalnya rupiah dan peso, tanpa melalui dolar AS.</p><h3>Apa bedanya MoU empat bank sentral dengan MoU BI-BSP?</h3><p>MoU empat bank sentral khusus mengatur kerangka LCT antara Indonesia, Malaysia, Thailand, dan Filipina. MoU BI-BSP bersifat bilateral dan lebih luas, mencakup sistem pembayaran, keamanan siber, hingga keuangan syariah.</p>",
+  "dataFigure": "4",
+  "dataLabel": "bank sentral ASEAN dalam kerangka baru transaksi mata uang lokal (LCT), setelah Filipina bergabung",
+  "dataSource": "Bank Indonesia, 13 November 2026",
+  "chart": {
+    "bars": [
+      {
+        "label": "MoU 2023",
+        "value": 3,
+        "display": "3"
+      },
+      {
+        "label": "MoU 2026",
+        "value": 4,
+        "display": "4"
+      }
+    ]
+  },
+  "audience": [
+    "CFO",
+    "Treasurer",
+    "Eksportir dan importir",
+    "Fintech pembayaran"
+  ],
+  "tags": [
+    "Bank Indonesia",
+    "LCT",
+    "Bangko Sentral ng Pilipinas",
+    "Pembayaran lintas negara",
+    "Treasury",
+    "ASEAN"
+  ],
+  "sources": [
+    {
+      "name": "Bank Indonesia",
+      "title": "Bank Indonesia, Bank Negara Malaysia, Bank of Thailand, dan Bangko Sentral ng Pilipinas Memperkuat Kerja Sama dalam Kerangka Mata Uang Lokal",
+      "url": "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2824926.aspx",
+      "date": "2026-11-13"
+    },
+    {
+      "name": "Bernama",
+      "title": "Four ASEAN Central Banks Sign MoU On Local Currency Transaction Framework",
+      "url": "https://bernamabiz.com/news.php?id=2633915",
+      "date": "2026-11-13"
+    },
+    {
+      "name": "CNBC Indonesia",
+      "title": "Lindungi Rupiah-Peso, RI & Filipina Perkuat Transaksi Tanpa Dolar AS",
+      "url": "https://www.cnbcindonesia.com/news/20261113142023-4-785035/lindungi-rupiah-peso-ri-filipina-perkuat-transaksi-tanpa-dolar-as",
+      "date": "2026-11-13"
+    }
+  ],
+  "seoTitle": "MoU LCT 4 Bank Sentral ASEAN: Rupiah-Peso Tanpa Dolar",
+  "seoDescription": "BI, BNM, BOT, dan BSP teken MoU transaksi mata uang lokal 13 November 2026. Apa artinya bagi CFO, treasury, dan biaya konversi valas.",
+  "publishAt": "2026-11-16T09:00:00+07:00",
+  "language": "id",
+  "en": {
+    "title": "BI, BNM, BOT and BSP Sign Local Currency Transaction MoU: Philippines Joins, Rupiah-Peso Without the Dollar",
+    "dek": "Bank Indonesia, Bank Negara Malaysia, the Bank of Thailand and Bangko Sentral ng Pilipinas signed a new memorandum of understanding on local currency transactions (LCT) on 13 November 2026. For CFOs of companies trading with the Philippines, Malaysia and Thailand, it opens the option of settling without double conversion through the US dollar.",
+    "summaryHtml": "<ul><li>On 13 November 2026, BI Governor Destry Damayanti, BNM Governor Abdul Rasheed Ghaffour, BOT Governor Vitai Ratanakorn and BSP Governor Eli M. Remolona Jr. signed an MoU on cooperation under the local currency transaction framework. (Bank Indonesia)</li><li>The MoU sets a framework for the four central banks to promote local currency use in bilateral cross-border transactions, including trade and investment. It replaces the agreement made by BI, BNM and BOT in August 2023. (Bank Indonesia, Bernama)</li><li>The stated aims: more efficient cross-border settlement, lower costs from multiple currency conversions, and more flexibility for businesses in managing exchange rate risk. (Bank Indonesia, Bernama)</li><li>On the same day, BI and BSP also signed a broader bilateral MoU covering payment systems, digital financial innovation, cybersecurity, Islamic finance and anti-money laundering. Remolona called the cooperation crucial at a time of rising uncertainty. (CNBC Indonesia)</li><li>The official release contains no LCT volume data or implementation schedule. (Bank Indonesia)</li></ul>",
+    "analysisHtml": "<h3>From three to four: the Philippine corridor is the newest</h3><p>The LCT framework between Indonesia, Malaysia and Thailand has been running since the 2023 agreement. What is new in this MoU is the Philippines joining and the cooperation being brought into one four-party framework. For Indonesian companies, the rupiah-peso corridor is the one to watch, because transactions with Philippine partners were not previously covered by this LCT framework. The bilateral BI-BSP cooperation signed at the same time, covering payment systems and cybersecurity, suggests that a payment link between the two countries is likely to be a next step.</p><h3>Real benefits depend on banks and liquidity</h3><p>A central bank MoU is only a framework. Companies benefit only when commercial banks offer competitive direct rupiah-peso quotes, enough liquidity and hedging products. The official release mentions no volumes, implementing banks or schedule, so it is worth watching how quickly the framework turns into banking products for the Philippine corridor. Adoption is likely to be gradual.</p><h3>Part of a bigger agenda</h3><p>The signing came a day before ASEAN signed the DEFA digital economy agreement, which also targets cross-border payment systems. Both point to the same goal: cheaper intra-ASEAN transactions that depend less on the US dollar. For corporate finance functions, this means regional multi-currency cash management will become a need, no longer only a concern for large corporations.</p><h3>Who benefits most</h3><p>Mid-sized exporters and importers that trade regularly with Malaysia, Thailand and the Philippines benefit most, because multiple conversion costs weigh more on their margins. Cross-border payment providers and treasury software also gain room, while companies whose contracts are all denominated in US dollars should review whether that structure is still the most efficient.</p>",
+    "actionHtml": "<h3>For CFOs and treasurers</h3><ol><li>Map transactions with partners in Malaysia, Thailand and the Philippines, including the currencies used and current conversion costs.</li><li>Ask partner banks whether they offer direct settlement in ringgit, baht or peso, with rates and hedging products.</li><li>Consider local-currency clauses in new contracts if costs are lower.</li><li>Make sure ERP and accounting systems can record and reconcile regional multi-currency transactions.</li></ol><h3>For fintechs and payment providers</h3><p>Prepare payment and cash management products for the rupiah-peso corridor, and follow up on the BI-BSP payment system cooperation.</p>",
+    "faqHtml": "<h3>What is Local Currency Transaction (LCT)?</h3><p>LCT is a framework that encourages cross-border transactions to be settled directly in the two countries' currencies, such as rupiah and peso, without going through the US dollar.</p><h3>How does the four-central-bank MoU differ from the BI-BSP MoU?</h3><p>The four-party MoU covers only the LCT framework between Indonesia, Malaysia, Thailand and the Philippines. The BI-BSP MoU is bilateral and broader, covering payment systems, cybersecurity and Islamic finance, among others.</p>",
+    "dataFigure": "4",
+    "dataLabel": "ASEAN central banks in the new local currency transaction (LCT) framework, after the Philippines joined",
+    "dataSource": "Bank Indonesia, 13 November 2026",
+    "chart": {
+      "bars": [
+        {
+          "label": "2023 MoU",
+          "value": 3,
+          "display": "3"
+        },
+        {
+          "label": "2026 MoU",
+          "value": 4,
+          "display": "4"
+        }
+      ]
+    },
+    "seoTitle": "4 ASEAN Central Banks Sign LCT MoU: Rupiah-Peso Trade",
+    "seoDescription": "BI, BNM, BOT and BSP signed a local currency transaction MoU on 13 November 2026. What it means for CFOs, treasury and FX conversion costs.",
+    "audience": [
+      "CFOs",
+      "Treasurers",
+      "Exporters and importers",
+      "Payment fintechs"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/empat-bank-sentral-asean-mou-transaksi-mata-uang-lokal-lct-en.png"
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/empat-bank-sentral-asean-mou-transaksi-mata-uang-lokal-lct.png"
+}

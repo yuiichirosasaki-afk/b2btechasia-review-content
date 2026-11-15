@@ -1,0 +1,105 @@
+{
+  "slug": "kemnaker-prioritas-disrupsi-ai-pijak-2027-ibm-dicoding-40000-talenta",
+  "title": "Kemnaker Siapkan 3 Prioritas Hadapi Disrupsi AI, IBM-Dicoding Bidik 40.000 Peserta Pelatihan",
+  "category": "HR Tech & Workforce Management",
+  "articleType": "analisis",
+  "dek": "Menteri Ketenagakerjaan Yassierli menetapkan tiga prioritas untuk menghadapi dampak AI pada tenaga kerja, sementara IBM dan Dicoding meluncurkan program pelatihan AI Pijak 2027 dengan target 40.000 peserta. Data program tahun lalu menunjukkan persoalan utamanya bukan akses, melainkan berapa banyak peserta yang sampai ke pelatihan mendalam.",
+  "summaryHtml": "<ul><li>Menaker Yassierli, Jumat (13/11/2026) di Jakarta, menyampaikan tiga program prioritas menghadapi disrupsi AI: peningkatan kompetensi SDM, peningkatan produktivitas, dan pelindungan pekerja. Ia meminta dunia usaha ikut menyusun kurikulum pelatihan vokasi. (Disway)</li><li>Program produktivitas dijalankan bersama Asian Productivity Organization (APO), termasuk pendampingan perusahaan untuk perbaikan proses bisnis. Kemnaker juga memperluas akses pelatihan bagi penyandang disabilitas. (Disway)</li><li>Dicoding Indonesia dan IBM, melalui IBM SkillsBuild, meluncurkan beasiswa pelatihan AI Pijak 2027 di Jakarta pada 12 November 2026 dengan target 40.000 peserta, terbuka bagi siswa SMK, mahasiswa vokasi, dan usia 18–34 tahun. (Tribunnews)</li><li>Sebanyak 800 peserta terbaik akan mengikuti pelatihan intensif 798 jam. Pada edisi 2026, pendaftar lebih dari 39.000 orang, lebih dari 20.600 aktif belajar, dan 645 orang terpilih ke pelatihan intensif. (Tribunnews)</li><li>CTO IBM Indonesia Wisu Suntoyo menekankan perlunya keterampilan memakai AI secara efektif dan bertanggung jawab. CEO Dicoding Narenda Wicaksono menyebut keterampilan AI kini dibutuhkan juga oleh profesional di luar jalur karier teknologi. (Tribunnews)</li></ul>",
+  "analysisHtml": "<h3>Corong pelatihan menyempit tajam</h3><p>Angka Pijak 2026 memperlihatkan pola yang umum dalam program pelatihan digital massal: dari lebih dari 39.000 pendaftar, sekitar separuh aktif belajar, dan hanya 645 yang masuk pelatihan intensif. Target 2027 mengikuti struktur serupa, dengan 800 kursi intensif dari 40.000 peserta. Artinya, program ini lebih tepat dibaca sebagai literasi AI berskala besar ditambah jalur talenta sempit, bukan pencetak puluhan ribu tenaga siap kerja di bidang AI. Perusahaan yang berharap merekrut lulusan siap pakai dari program semacam ini perlu menyesuaikan ekspektasi.</p><h3>Pemerintah meminta perusahaan ikut menyusun kurikulum</h3><p>Pesan paling relevan dari Kemnaker bagi direktur SDM adalah permintaan agar dunia usaha terlibat dalam desain kurikulum dan praktik di lingkungan industri. Ini berarti kesenjangan keterampilan AI tidak bisa diserahkan sepenuhnya ke pemerintah atau penyedia pelatihan. Perusahaan yang aktif terlibat berpeluang membentuk pasokan talenta sesuai kebutuhannya; yang pasif kemungkinan harus bersaing merebut talenta yang sama dengan biaya lebih tinggi.</p><h3>Yang tidak dijelaskan</h3><p>Kedua sumber tidak memuat data hasil: berapa alumni yang kemudian bekerja, di posisi apa, atau berapa perusahaan yang menyerap mereka. Kemnaker juga belum merinci anggaran, target kuantitatif, maupun jadwal ketiga prioritasnya. Tanpa ukuran keberhasilan seperti tingkat penempatan kerja, sulit menilai apakah program-program ini benar-benar mengurangi risiko disrupsi atau sekadar memperluas akses kursus.</p><h3>Pergeseran dari rekrut ke latih ulang</h3><p>Pernyataan Dicoding bahwa keterampilan AI juga dibutuhkan profesional non-teknologi sejalan dengan pergeseran yang perlu dicermati di perusahaan: kebutuhan terbesar kemungkinan bukan menambah insinyur AI, melainkan melatih ulang staf keuangan, pemasaran, layanan pelanggan, dan operasional agar bisa memakai AI dengan aman dalam pekerjaan sehari-hari. Bagi penyedia HR tech, ini membuka permintaan untuk platform pembelajaran internal yang terhubung dengan data kinerja.</p>",
+  "actionHtml": "<h3>Untuk HR Director dan Chief People Officer</h3><ol><li>Petakan peran yang paling terdampak AI dan susun jalur pelatihan ulang per peran, bukan satu kursus AI untuk semua.</li><li>Ukur hasil pelatihan dengan perubahan produktivitas atau kualitas kerja, bukan hanya jumlah peserta yang lulus kursus.</li><li>Jajaki kemitraan kurikulum dengan SMK, politeknik, atau program pelatihan pemerintah sesuai ajakan Kemnaker.</li><li>Tetapkan aturan internal penggunaan AI agar pelatihan diikuti praktik yang aman.</li></ol><h3>Untuk CIO</h3><p>Siapkan lingkungan AI yang disetujui perusahaan agar karyawan yang baru terlatih tidak beralih ke alat yang tidak terkelola.</p><h3>Untuk penyedia HR tech dan pelatihan</h3><p>Tawarkan pengukuran hasil pembelajaran yang terhubung dengan data kinerja, karena di situlah celah terbesar program pelatihan massal.</p>",
+  "faqHtml": "<h3>Apa tiga prioritas Kemnaker menghadapi disrupsi AI?</h3><p>Peningkatan kompetensi sumber daya manusia, peningkatan produktivitas, dan pelindungan pekerja, seperti disampaikan Menaker Yassierli pada 13 November 2026.</p><h3>Siapa yang bisa ikut beasiswa AI Pijak 2027?</h3><p>Siswa SMK, mahasiswa vokasi, dan masyarakat usia 18–34 tahun, termasuk lulusan baru, pencari kerja, pekerja awal karier, profesional, dan mereka yang beralih karier.</p>",
+  "dataFigure": "645",
+  "dataLabel": "peserta Pijak 2026 yang lolos ke pelatihan intensif, dari lebih dari 39.000 pendaftar",
+  "dataSource": "Tribunnews, 13 November 2026",
+  "chart": {
+    "bars": [
+      {
+        "label": "Pendaftar",
+        "value": 39000,
+        "display": "39rb+"
+      },
+      {
+        "label": "Aktif",
+        "value": 20600,
+        "display": "20,6rb+"
+      },
+      {
+        "label": "Intensif",
+        "value": 645,
+        "display": "645"
+      }
+    ]
+  },
+  "audience": [
+    "HR Director",
+    "Chief People Officer",
+    "CIO",
+    "Penyedia HR tech"
+  ],
+  "tags": [
+    "Kemnaker",
+    "Yassierli",
+    "IBM",
+    "Dicoding",
+    "Talenta AI",
+    "Upskilling"
+  ],
+  "sources": [
+    {
+      "name": "Disway",
+      "title": "Kemnaker Siapkan 3 Program Prioritas Hadapi Disrupsi AI, Fokus Tingkatkan Kompetensi dan Lindungi Pekerja",
+      "url": "https://disway.id/read/979171/kemnaker-siapkan-3-program-prioritas-hadapi-disrupsi-ai-fokus-tingkatkan-kompetensi-dan-lindungi-pekerja",
+      "date": "2026-11-14"
+    },
+    {
+      "name": "Tribunnews",
+      "title": "Beasiswa AI 2027 Sasar 40.000 Peserta, Kemenaker: Siapkan Talenta Hadapi Kebutuhan Industri",
+      "url": "https://www.tribunnews.com/nasional/7911197/beasiswa-ai-2027-sasar-40000-peserta-kemenaker-siapkan-talenta-hadapi-kebutuhan-industri",
+      "date": "2026-11-13"
+    }
+  ],
+  "seoTitle": "Kemnaker Hadapi Disrupsi AI, Pijak 2027 Target 40.000",
+  "seoDescription": "Kemnaker tetapkan 3 prioritas hadapi disrupsi AI; IBM-Dicoding luncurkan Pijak 2027 untuk 40.000 peserta. Apa artinya bagi HR Director.",
+  "publishAt": "2026-11-16T10:30:00+07:00",
+  "language": "id",
+  "en": {
+    "title": "Indonesia's Manpower Ministry Sets 3 Priorities for AI Disruption as IBM-Dicoding Target 40,000 Trainees",
+    "dek": "Manpower Minister Yassierli set three priorities to deal with AI's impact on the workforce, while IBM and Dicoding launched the Pijak 2027 AI training programme with a target of 40,000 participants. Last year's programme data show that the main problem is not access but how many participants reach in-depth training.",
+    "summaryHtml": "<ul><li>Manpower Minister Yassierli, speaking in Jakarta on Friday 13 November 2026, set out three priority programmes to deal with AI disruption: improving workforce competence, raising productivity and protecting workers. He asked businesses to help design vocational training curricula. (Disway)</li><li>The productivity programme is run with the Asian Productivity Organization (APO), including support for companies on business process improvement. The ministry is also widening training access for people with disabilities. (Disway)</li><li>Dicoding Indonesia and IBM, through IBM SkillsBuild, launched the Pijak 2027 AI training scholarship in Jakarta on 12 November 2026, targeting 40,000 participants and open to vocational high school students, vocational college students and people aged 18–34. (Tribunnews)</li><li>The best 800 participants will take 798 hours of intensive training. In the 2026 edition, more than 39,000 people registered, more than 20,600 actively studied, and 645 were selected for intensive training. (Tribunnews)</li><li>IBM Indonesia CTO Wisu Suntoyo stressed the need for skills to use AI effectively and responsibly. Dicoding CEO Narenda Wicaksono said AI skills are now needed by professionals outside technology career paths as well. (Tribunnews)</li></ul>",
+    "analysisHtml": "<h3>The training funnel narrows sharply</h3><p>The Pijak 2026 figures show a pattern common in mass digital training programmes: of more than 39,000 registrants, about half studied actively, and only 645 entered intensive training. The 2027 target follows a similar structure, with 800 intensive places out of 40,000 participants. The programme is therefore better read as large-scale AI literacy plus a narrow talent track, not a producer of tens of thousands of job-ready AI workers. Companies hoping to hire ready-made graduates from such programmes should adjust their expectations.</p><h3>The government is asking companies to help design curricula</h3><p>The most relevant message from the ministry for HR directors is the request that businesses take part in curriculum design and on-the-job practice. The AI skills gap cannot be left entirely to the government or training providers. Companies that engage actively can shape a talent supply that fits their needs; passive ones will likely have to compete for the same talent at higher cost.</p><h3>What is not explained</h3><p>Neither source includes outcome data: how many alumni went on to work, in which roles, or how many companies hired them. The ministry has also not detailed the budget, quantitative targets or schedule for its three priorities. Without measures of success such as job placement rates, it is hard to judge whether these programmes actually reduce disruption risk or simply widen access to courses.</p><h3>A shift from hiring to reskilling</h3><p>Dicoding's point that non-technology professionals also need AI skills matches a shift companies should watch: the biggest need is likely not more AI engineers but reskilling finance, marketing, customer service and operations staff to use AI safely in daily work. For HR tech providers, this creates demand for internal learning platforms linked to performance data.</p>",
+    "actionHtml": "<h3>For HR Directors and Chief People Officers</h3><ol><li>Map the roles most affected by AI and build reskilling paths per role, not one AI course for everyone.</li><li>Measure training outcomes by changes in productivity or work quality, not only by the number of course completions.</li><li>Explore curriculum partnerships with vocational schools, polytechnics or government training programmes, as the ministry has invited.</li><li>Set internal rules for AI use so that training is followed by safe practice.</li></ol><h3>For CIOs</h3><p>Provide company-approved AI environments so that newly trained employees do not turn to unmanaged tools.</p><h3>For HR tech and training providers</h3><p>Offer learning-outcome measurement linked to performance data, because that is the biggest gap in mass training programmes.</p>",
+    "faqHtml": "<h3>What are the Manpower Ministry's three priorities for AI disruption?</h3><p>Improving workforce competence, raising productivity and protecting workers, as stated by Minister Yassierli on 13 November 2026.</p><h3>Who can join the Pijak 2027 AI scholarship?</h3><p>Vocational high school students, vocational college students and people aged 18–34, including new graduates, job seekers, early-career workers, professionals and career switchers.</p>",
+    "dataFigure": "645",
+    "dataLabel": "Pijak 2026 participants who reached intensive training, out of more than 39,000 registrants",
+    "dataSource": "Tribunnews, 13 November 2026",
+    "chart": {
+      "bars": [
+        {
+          "label": "Registered",
+          "value": 39000,
+          "display": "39k+"
+        },
+        {
+          "label": "Active",
+          "value": 20600,
+          "display": "20.6k+"
+        },
+        {
+          "label": "Intensive",
+          "value": 645,
+          "display": "645"
+        }
+      ]
+    },
+    "seoTitle": "Indonesia Prepares for AI Disruption; Pijak 2027 Eyes 40,000",
+    "seoDescription": "Indonesia's Manpower Ministry sets 3 priorities for AI disruption; IBM-Dicoding launch Pijak 2027 for 40,000 trainees. What it means for HR leaders.",
+    "audience": [
+      "HR Directors",
+      "Chief People Officers",
+      "CIOs",
+      "HR tech providers"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kemnaker-prioritas-disrupsi-ai-pijak-2027-ibm-dicoding-40000-talenta-en.png"
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kemnaker-prioritas-disrupsi-ai-pijak-2027-ibm-dicoding-40000-talenta.png"
+}

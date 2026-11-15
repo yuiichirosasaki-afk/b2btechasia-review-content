@@ -1,0 +1,115 @@
+{
+  "slug": "digital-2027-indonesia-riset-merek-lewat-ai-ad-blocker-cmo",
+  "title": "28,2% Pengguna Internet Indonesia Riset Merek lewat AI, 39,4% Pakai Ad Blocker: Yang Berubah bagi CMO",
+  "category": "Marketing Technology",
+  "articleType": "penjelasan",
+  "dek": "Laporan Digital 2027: Indonesia dari We Are Social dan Meltwater menunjukkan AI mulai menjadi pintu masuk riset merek, sementara iklan makin sering diblokir dan jarang dirasa relevan. Penjelasan ini merangkum apa artinya bagi anggaran dan strategi pemasaran perusahaan.",
+  "summaryHtml": "<ul><li>Laporan Digital 2027: Indonesia dirilis We Are Social bersama Meltwater pada 5 November 2026. Indonesia tercatat memiliki 231 juta pengguna internet, setara 80,2% populasi. (Marketing.co.id)</li><li>Sebanyak 28,2% pengguna internet memakai AI sebagai sumber utama riset merek, sementara 60% memakai media sosial, kanal paling banyak dipakai untuk riset merek. Lebih dari dua pertiga pengguna meriset merek dan produk secara daring sebelum membeli. (Tek.id, Marketing.co.id)</li><li>Sebanyak 39,4% pengguna internet memakai ad blocker, tertinggi di antara negara dalam laporan, dan hanya 13,2% merasa terwakili oleh iklan yang mereka lihat. (Marketing.co.id)</li><li>94,9% pengguna internet usia 16 tahun ke atas memakai alat AI dalam sebulan terakhir, tetapi hanya 28,3% merasa nyaman memakainya. WhatsApp dipakai 92,7% pengguna, dengan rata-rata 1 jam 55 menit per hari. (Tek.id)</li><li>Yudhi Hastiardi dari We Are Social Indonesia menilai persaingan merek bergeser &ldquo;menuju perebutan kepercayaan dan rekomendasi&rdquo;. (Marketing.co.id)</li></ul>",
+  "analysisHtml": "<h3>AI menjadi penjaga gerbang baru</h3><p>Selama ini merek bersaing di hasil pencarian dan lini masa media sosial. Ketika lebih dari seperempat pengguna internet menjadikan AI sumber utama riset merek, muncul kanal ketiga yang tidak bisa dibeli dengan cara yang sama. Jawaban asisten AI dibentuk oleh informasi yang tersedia di web, ulasan, dan liputan pihak ketiga. Artinya, konten yang jelas, konsisten, dan dapat dikutip, misalnya spesifikasi produk, harga, dan ulasan pelanggan, kemungkinan akan makin menentukan apakah merek muncul dalam jawaban AI.</p><h3>Iklan berbayar menghadapi dua hambatan sekaligus</h3><p>Kombinasi 39,4% pengguna ad blocker dan hanya 13,2% yang merasa terwakili iklan memberi sinyal bahwa jangkauan berbayar makin mahal untuk hasil yang sama. Ini tidak berarti iklan digital tidak efektif, tetapi porsi anggaran untuk konten kreator, komunitas, dan ulasan kemungkinan perlu ditinjau ulang. Data bahwa 60% pengguna meriset merek di media sosial menguatkan peran rekomendasi orang lain dibanding pesan merek sendiri.</p><h3>Paradoks kepercayaan pada AI</h3><p>Hampir semua pengguna sudah memakai AI, tetapi kurang dari sepertiga merasa nyaman. Bagi pemasar, ini peringatan: memakai AI untuk konten, chatbot, atau personalisasi tanpa transparansi bisa merusak kepercayaan. Pemakaian AI di titik kontak pelanggan sebaiknya disertai keterangan yang jelas dan jalur ke manusia.</p><h3>Yang tidak diukur laporan ini</h3><p>Laporan ini mengukur perilaku dan persepsi pengguna internet, bukan konversi penjualan. Ia tidak menunjukkan seberapa besar riset lewat AI berujung pada pembelian, atau kategori produk apa yang paling terpengaruh. Definisi &ldquo;sumber utama&rdquo; juga perlu dibaca hati-hati. Perusahaan sebaiknya memakai angka ini sebagai arah, lalu mengujinya dengan data penjualan dan atribusi sendiri.</p>",
+  "actionHtml": "<h3>Untuk CMO dan Head of Digital Marketing</h3><ol><li>Uji bagaimana asisten AI populer menjawab pertanyaan tentang merek dan kategori Anda, lalu perbaiki informasi publik yang keliru atau kurang.</li><li>Tinjau komposisi anggaran antara iklan berbayar, kreator, dan program ulasan pelanggan berdasarkan data atribusi sendiri.</li><li>Ukur kinerja kampanye dengan mempertimbangkan pengguna ad blocker yang tidak terlihat dalam data iklan.</li></ol><h3>Untuk Head of CX</h3><ol><li>Prioritaskan WhatsApp sebagai kanal layanan dan percakapan penjualan, mengingat tingkat pemakaian dan durasinya.</li><li>Beri label jelas pada chatbot AI dan sediakan jalur cepat ke agen manusia.</li></ol><h3>Untuk vendor martech</h3><p>Permintaan kemungkinan tumbuh untuk pemantauan visibilitas merek di jawaban AI, manajemen ulasan, dan atribusi lintas kanal yang tidak bergantung pada cookie iklan.</p>",
+  "faqHtml": "<h3>Berapa persen pengguna internet Indonesia yang riset merek lewat AI?</h3><p>Menurut Digital 2027: Indonesia dari We Are Social dan Meltwater, 28,2% pengguna internet memakai AI sebagai sumber utama riset merek.</p><h3>Berapa banyak pengguna internet Indonesia yang memakai ad blocker?</h3><p>Sebanyak 39,4%, tertinggi di antara negara yang dibandingkan dalam laporan tersebut.</p><h3>Berapa jumlah pengguna internet Indonesia menurut Digital 2027?</h3><p>231 juta pengguna, setara 80,2% populasi.</p>",
+  "dataFigure": "28,2%",
+  "dataLabel": "pengguna internet Indonesia yang memakai AI sebagai sumber utama riset merek",
+  "dataSource": "Digital 2027: Indonesia, We Are Social dan Meltwater, November 2026",
+  "chart": {
+    "bars": [
+      {
+        "label": "Riset medsos",
+        "value": 60,
+        "display": "60%"
+      },
+      {
+        "label": "Ad blocker",
+        "value": 39.4,
+        "display": "39,4%"
+      },
+      {
+        "label": "Iklan relevan",
+        "value": 13.2,
+        "display": "13,2%"
+      },
+      {
+        "label": "Riset via AI",
+        "value": 28.2,
+        "display": "28,2%"
+      }
+    ]
+  },
+  "audience": [
+    "CMO",
+    "Head of Digital Marketing",
+    "Head of CX",
+    "Vendor martech"
+  ],
+  "tags": [
+    "Digital 2027",
+    "We Are Social",
+    "Meltwater",
+    "Ad blocker",
+    "AI search",
+    "WhatsApp"
+  ],
+  "sources": [
+    {
+      "name": "Tek.id",
+      "title": "Riset Digital 2027: Orang Indonesia Gemar Pakai AI",
+      "url": "https://www.tek.id/insight/riset-digital-2027-orang-indonesia-gemar-pakai-ai-b2qeq9uiI",
+      "date": "2026-11-05"
+    },
+    {
+      "name": "Marketing.co.id",
+      "title": "28,2% Pengguna Internet Indonesia Riset Brand lewat AI",
+      "url": "https://marketing.co.id/pengguna-internet-indonesia-riset-brand-ai-2027/",
+      "date": "2026-11-06"
+    }
+  ],
+  "seoTitle": "Digital 2027 Indonesia: 28,2% Riset Merek lewat AI",
+  "seoDescription": "Digital 2027 Indonesia: 28,2% riset merek lewat AI, 39,4% pakai ad blocker, hanya 13,2% merasa terwakili iklan. Apa artinya bagi CMO.",
+  "publishAt": "2026-11-16T12:00:00+07:00",
+  "language": "id",
+  "en": {
+    "title": "28.2% of Indonesian Internet Users Research Brands via AI, 39.4% Use Ad Blockers: What Changes for CMOs",
+    "dek": "The Digital 2027: Indonesia report by We Are Social and Meltwater shows AI becoming an entry point for brand research, while ads are increasingly blocked and rarely seen as relevant. This explainer sets out what it means for corporate marketing budgets and strategy.",
+    "summaryHtml": "<ul><li>The Digital 2027: Indonesia report was released by We Are Social with Meltwater on 5 November 2026. Indonesia has 231 million internet users, equal to 80.2% of the population. (Marketing.co.id)</li><li>28.2% of internet users use AI as their main source for brand research, while 60% use social networks, the most-used channel for brand research. More than two-thirds of users research brands and products online before buying. (Tek.id, Marketing.co.id)</li><li>39.4% of internet users use ad blockers, the highest among the countries in the report, and only 13.2% feel represented by the ads they see. (Marketing.co.id)</li><li>94.9% of internet users aged 16 and over used AI tools in the past month, but only 28.3% feel comfortable using them. WhatsApp is used by 92.7% of users, for an average of 1 hour 55 minutes a day. (Tek.id)</li><li>Yudhi Hastiardi of We Are Social Indonesia said brand competition is shifting toward a contest for trust and recommendations. (Marketing.co.id)</li></ul>",
+    "analysisHtml": "<h3>AI becomes a new gatekeeper</h3><p>Brands have long competed in search results and social media feeds. When more than a quarter of internet users treat AI as their main source for brand research, a third channel emerges that cannot be bought in the same way. AI assistants' answers are shaped by information available on the web, reviews and third-party coverage. Clear, consistent and quotable content, such as product specifications, prices and customer reviews, is therefore likely to matter more in whether a brand appears in AI answers.</p><h3>Paid ads face two hurdles at once</h3><p>The combination of 39.4% ad-blocker use and only 13.2% feeling represented by ads signals that paid reach is becoming more expensive for the same result. This does not mean digital ads are ineffective, but the budget share for creators, communities and reviews likely needs a fresh look. The finding that 60% research brands on social media reinforces the role of other people's recommendations over a brand's own messaging.</p><h3>The AI trust paradox</h3><p>Almost all users already use AI, but fewer than a third feel comfortable with it. For marketers this is a warning: using AI for content, chatbots or personalisation without transparency can damage trust. AI at customer touchpoints should come with clear disclosure and a route to a human.</p><h3>What the report does not measure</h3><p>The report measures internet users' behaviour and perceptions, not sales conversion. It does not show how much AI-based research leads to purchases, or which product categories are most affected. The definition of &ldquo;main source&rdquo; also needs careful reading. Companies should use these figures as direction, then test them against their own sales and attribution data.</p>",
+    "actionHtml": "<h3>For CMOs and Heads of Digital Marketing</h3><ol><li>Test how popular AI assistants answer questions about your brand and category, then fix public information that is wrong or missing.</li><li>Review the budget mix between paid ads, creators and customer review programmes based on your own attribution data.</li><li>Measure campaign performance while allowing for ad-blocker users who are invisible in ad data.</li></ol><h3>For Heads of CX</h3><ol><li>Prioritise WhatsApp as a service and sales-conversation channel, given its reach and time spent.</li><li>Label AI chatbots clearly and provide a fast route to a human agent.</li></ol><h3>For martech vendors</h3><p>Demand is likely to grow for monitoring brand visibility in AI answers, review management, and cross-channel attribution that does not depend on ad cookies.</p>",
+    "faqHtml": "<h3>What share of Indonesian internet users research brands via AI?</h3><p>According to Digital 2027: Indonesia by We Are Social and Meltwater, 28.2% of internet users use AI as their main source for brand research.</p><h3>How many Indonesian internet users use ad blockers?</h3><p>39.4%, the highest among the countries compared in the report.</p><h3>How many internet users does Indonesia have according to Digital 2027?</h3><p>231 million users, equal to 80.2% of the population.</p>",
+    "dataFigure": "28.2%",
+    "dataLabel": "of Indonesian internet users use AI as their main source for brand research",
+    "dataSource": "Digital 2027: Indonesia, We Are Social and Meltwater, November 2026",
+    "chart": {
+      "bars": [
+        {
+          "label": "Social media",
+          "value": 60,
+          "display": "60%"
+        },
+        {
+          "label": "Ad blockers",
+          "value": 39.4,
+          "display": "39.4%"
+        },
+        {
+          "label": "Ads relevant",
+          "value": 13.2,
+          "display": "13.2%"
+        },
+        {
+          "label": "AI research",
+          "value": 28.2,
+          "display": "28.2%"
+        }
+      ]
+    },
+    "seoTitle": "Digital 2027 Indonesia: 28.2% Research Brands via AI",
+    "seoDescription": "Digital 2027 Indonesia: 28.2% research brands via AI, 39.4% use ad blockers, only 13.2% feel represented by ads. What it means for CMOs.",
+    "audience": [
+      "CMOs",
+      "Heads of Digital Marketing",
+      "Heads of CX",
+      "Martech vendors"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/digital-2027-indonesia-riset-merek-lewat-ai-ad-blocker-cmo-en.png"
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/digital-2027-indonesia-riset-merek-lewat-ai-ad-blocker-cmo.png"
+}

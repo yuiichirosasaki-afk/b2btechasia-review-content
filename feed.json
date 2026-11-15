@@ -1,7 +1,502 @@
 {
-  "generatedAt": "2026-11-15T19:30:18+07:00",
+  "generatedAt": "2026-11-16T03:01:53+07:00",
   "site": "B2B Tech Asia Review",
   "articles": [
+    {
+      "slug": "digital-2027-indonesia-riset-merek-lewat-ai-ad-blocker-cmo",
+      "title": "28,2% Pengguna Internet Indonesia Riset Merek lewat AI, 39,4% Pakai Ad Blocker: Yang Berubah bagi CMO",
+      "category": "Marketing Technology",
+      "articleType": "penjelasan",
+      "dek": "Laporan Digital 2027: Indonesia dari We Are Social dan Meltwater menunjukkan AI mulai menjadi pintu masuk riset merek, sementara iklan makin sering diblokir dan jarang dirasa relevan. Penjelasan ini merangkum apa artinya bagi anggaran dan strategi pemasaran perusahaan.",
+      "summaryHtml": "<ul><li>Laporan Digital 2027: Indonesia dirilis We Are Social bersama Meltwater pada 5 November 2026. Indonesia tercatat memiliki 231 juta pengguna internet, setara 80,2% populasi. (Marketing.co.id)</li><li>Sebanyak 28,2% pengguna internet memakai AI sebagai sumber utama riset merek, sementara 60% memakai media sosial, kanal paling banyak dipakai untuk riset merek. Lebih dari dua pertiga pengguna meriset merek dan produk secara daring sebelum membeli. (Tek.id, Marketing.co.id)</li><li>Sebanyak 39,4% pengguna internet memakai ad blocker, tertinggi di antara negara dalam laporan, dan hanya 13,2% merasa terwakili oleh iklan yang mereka lihat. (Marketing.co.id)</li><li>94,9% pengguna internet usia 16 tahun ke atas memakai alat AI dalam sebulan terakhir, tetapi hanya 28,3% merasa nyaman memakainya. WhatsApp dipakai 92,7% pengguna, dengan rata-rata 1 jam 55 menit per hari. (Tek.id)</li><li>Yudhi Hastiardi dari We Are Social Indonesia menilai persaingan merek bergeser &ldquo;menuju perebutan kepercayaan dan rekomendasi&rdquo;. (Marketing.co.id)</li></ul>",
+      "analysisHtml": "<h3>AI menjadi penjaga gerbang baru</h3><p>Selama ini merek bersaing di hasil pencarian dan lini masa media sosial. Ketika lebih dari seperempat pengguna internet menjadikan AI sumber utama riset merek, muncul kanal ketiga yang tidak bisa dibeli dengan cara yang sama. Jawaban asisten AI dibentuk oleh informasi yang tersedia di web, ulasan, dan liputan pihak ketiga. Artinya, konten yang jelas, konsisten, dan dapat dikutip, misalnya spesifikasi produk, harga, dan ulasan pelanggan, kemungkinan akan makin menentukan apakah merek muncul dalam jawaban AI.</p><h3>Iklan berbayar menghadapi dua hambatan sekaligus</h3><p>Kombinasi 39,4% pengguna ad blocker dan hanya 13,2% yang merasa terwakili iklan memberi sinyal bahwa jangkauan berbayar makin mahal untuk hasil yang sama. Ini tidak berarti iklan digital tidak efektif, tetapi porsi anggaran untuk konten kreator, komunitas, dan ulasan kemungkinan perlu ditinjau ulang. Data bahwa 60% pengguna meriset merek di media sosial menguatkan peran rekomendasi orang lain dibanding pesan merek sendiri.</p><h3>Paradoks kepercayaan pada AI</h3><p>Hampir semua pengguna sudah memakai AI, tetapi kurang dari sepertiga merasa nyaman. Bagi pemasar, ini peringatan: memakai AI untuk konten, chatbot, atau personalisasi tanpa transparansi bisa merusak kepercayaan. Pemakaian AI di titik kontak pelanggan sebaiknya disertai keterangan yang jelas dan jalur ke manusia.</p><h3>Yang tidak diukur laporan ini</h3><p>Laporan ini mengukur perilaku dan persepsi pengguna internet, bukan konversi penjualan. Ia tidak menunjukkan seberapa besar riset lewat AI berujung pada pembelian, atau kategori produk apa yang paling terpengaruh. Definisi &ldquo;sumber utama&rdquo; juga perlu dibaca hati-hati. Perusahaan sebaiknya memakai angka ini sebagai arah, lalu mengujinya dengan data penjualan dan atribusi sendiri.</p>",
+      "actionHtml": "<h3>Untuk CMO dan Head of Digital Marketing</h3><ol><li>Uji bagaimana asisten AI populer menjawab pertanyaan tentang merek dan kategori Anda, lalu perbaiki informasi publik yang keliru atau kurang.</li><li>Tinjau komposisi anggaran antara iklan berbayar, kreator, dan program ulasan pelanggan berdasarkan data atribusi sendiri.</li><li>Ukur kinerja kampanye dengan mempertimbangkan pengguna ad blocker yang tidak terlihat dalam data iklan.</li></ol><h3>Untuk Head of CX</h3><ol><li>Prioritaskan WhatsApp sebagai kanal layanan dan percakapan penjualan, mengingat tingkat pemakaian dan durasinya.</li><li>Beri label jelas pada chatbot AI dan sediakan jalur cepat ke agen manusia.</li></ol><h3>Untuk vendor martech</h3><p>Permintaan kemungkinan tumbuh untuk pemantauan visibilitas merek di jawaban AI, manajemen ulasan, dan atribusi lintas kanal yang tidak bergantung pada cookie iklan.</p>",
+      "faqHtml": "<h3>Berapa persen pengguna internet Indonesia yang riset merek lewat AI?</h3><p>Menurut Digital 2027: Indonesia dari We Are Social dan Meltwater, 28,2% pengguna internet memakai AI sebagai sumber utama riset merek.</p><h3>Berapa banyak pengguna internet Indonesia yang memakai ad blocker?</h3><p>Sebanyak 39,4%, tertinggi di antara negara yang dibandingkan dalam laporan tersebut.</p><h3>Berapa jumlah pengguna internet Indonesia menurut Digital 2027?</h3><p>231 juta pengguna, setara 80,2% populasi.</p>",
+      "dataFigure": "28,2%",
+      "dataLabel": "pengguna internet Indonesia yang memakai AI sebagai sumber utama riset merek",
+      "dataSource": "Digital 2027: Indonesia, We Are Social dan Meltwater, November 2026",
+      "chart": {
+        "bars": [
+          {
+            "label": "Riset medsos",
+            "value": 60,
+            "display": "60%"
+          },
+          {
+            "label": "Ad blocker",
+            "value": 39.4,
+            "display": "39,4%"
+          },
+          {
+            "label": "Iklan relevan",
+            "value": 13.2,
+            "display": "13,2%"
+          },
+          {
+            "label": "Riset via AI",
+            "value": 28.2,
+            "display": "28,2%"
+          }
+        ]
+      },
+      "audience": [
+        "CMO",
+        "Head of Digital Marketing",
+        "Head of CX",
+        "Vendor martech"
+      ],
+      "tags": [
+        "Digital 2027",
+        "We Are Social",
+        "Meltwater",
+        "Ad blocker",
+        "AI search",
+        "WhatsApp"
+      ],
+      "sources": [
+        {
+          "name": "Tek.id",
+          "title": "Riset Digital 2027: Orang Indonesia Gemar Pakai AI",
+          "url": "https://www.tek.id/insight/riset-digital-2027-orang-indonesia-gemar-pakai-ai-b2qeq9uiI",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Marketing.co.id",
+          "title": "28,2% Pengguna Internet Indonesia Riset Brand lewat AI",
+          "url": "https://marketing.co.id/pengguna-internet-indonesia-riset-brand-ai-2027/",
+          "date": "2026-11-06"
+        }
+      ],
+      "seoTitle": "Digital 2027 Indonesia: 28,2% Riset Merek lewat AI",
+      "seoDescription": "Digital 2027 Indonesia: 28,2% riset merek lewat AI, 39,4% pakai ad blocker, hanya 13,2% merasa terwakili iklan. Apa artinya bagi CMO.",
+      "publishAt": "2026-11-16T12:00:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "28.2% of Indonesian Internet Users Research Brands via AI, 39.4% Use Ad Blockers: What Changes for CMOs",
+        "dek": "The Digital 2027: Indonesia report by We Are Social and Meltwater shows AI becoming an entry point for brand research, while ads are increasingly blocked and rarely seen as relevant. This explainer sets out what it means for corporate marketing budgets and strategy.",
+        "summaryHtml": "<ul><li>The Digital 2027: Indonesia report was released by We Are Social with Meltwater on 5 November 2026. Indonesia has 231 million internet users, equal to 80.2% of the population. (Marketing.co.id)</li><li>28.2% of internet users use AI as their main source for brand research, while 60% use social networks, the most-used channel for brand research. More than two-thirds of users research brands and products online before buying. (Tek.id, Marketing.co.id)</li><li>39.4% of internet users use ad blockers, the highest among the countries in the report, and only 13.2% feel represented by the ads they see. (Marketing.co.id)</li><li>94.9% of internet users aged 16 and over used AI tools in the past month, but only 28.3% feel comfortable using them. WhatsApp is used by 92.7% of users, for an average of 1 hour 55 minutes a day. (Tek.id)</li><li>Yudhi Hastiardi of We Are Social Indonesia said brand competition is shifting toward a contest for trust and recommendations. (Marketing.co.id)</li></ul>",
+        "analysisHtml": "<h3>AI becomes a new gatekeeper</h3><p>Brands have long competed in search results and social media feeds. When more than a quarter of internet users treat AI as their main source for brand research, a third channel emerges that cannot be bought in the same way. AI assistants' answers are shaped by information available on the web, reviews and third-party coverage. Clear, consistent and quotable content, such as product specifications, prices and customer reviews, is therefore likely to matter more in whether a brand appears in AI answers.</p><h3>Paid ads face two hurdles at once</h3><p>The combination of 39.4% ad-blocker use and only 13.2% feeling represented by ads signals that paid reach is becoming more expensive for the same result. This does not mean digital ads are ineffective, but the budget share for creators, communities and reviews likely needs a fresh look. The finding that 60% research brands on social media reinforces the role of other people's recommendations over a brand's own messaging.</p><h3>The AI trust paradox</h3><p>Almost all users already use AI, but fewer than a third feel comfortable with it. For marketers this is a warning: using AI for content, chatbots or personalisation without transparency can damage trust. AI at customer touchpoints should come with clear disclosure and a route to a human.</p><h3>What the report does not measure</h3><p>The report measures internet users' behaviour and perceptions, not sales conversion. It does not show how much AI-based research leads to purchases, or which product categories are most affected. The definition of &ldquo;main source&rdquo; also needs careful reading. Companies should use these figures as direction, then test them against their own sales and attribution data.</p>",
+        "actionHtml": "<h3>For CMOs and Heads of Digital Marketing</h3><ol><li>Test how popular AI assistants answer questions about your brand and category, then fix public information that is wrong or missing.</li><li>Review the budget mix between paid ads, creators and customer review programmes based on your own attribution data.</li><li>Measure campaign performance while allowing for ad-blocker users who are invisible in ad data.</li></ol><h3>For Heads of CX</h3><ol><li>Prioritise WhatsApp as a service and sales-conversation channel, given its reach and time spent.</li><li>Label AI chatbots clearly and provide a fast route to a human agent.</li></ol><h3>For martech vendors</h3><p>Demand is likely to grow for monitoring brand visibility in AI answers, review management, and cross-channel attribution that does not depend on ad cookies.</p>",
+        "faqHtml": "<h3>What share of Indonesian internet users research brands via AI?</h3><p>According to Digital 2027: Indonesia by We Are Social and Meltwater, 28.2% of internet users use AI as their main source for brand research.</p><h3>How many Indonesian internet users use ad blockers?</h3><p>39.4%, the highest among the countries compared in the report.</p><h3>How many internet users does Indonesia have according to Digital 2027?</h3><p>231 million users, equal to 80.2% of the population.</p>",
+        "dataFigure": "28.2%",
+        "dataLabel": "of Indonesian internet users use AI as their main source for brand research",
+        "dataSource": "Digital 2027: Indonesia, We Are Social and Meltwater, November 2026",
+        "chart": {
+          "bars": [
+            {
+              "label": "Social media",
+              "value": 60,
+              "display": "60%"
+            },
+            {
+              "label": "Ad blockers",
+              "value": 39.4,
+              "display": "39.4%"
+            },
+            {
+              "label": "Ads relevant",
+              "value": 13.2,
+              "display": "13.2%"
+            },
+            {
+              "label": "AI research",
+              "value": 28.2,
+              "display": "28.2%"
+            }
+          ]
+        },
+        "seoTitle": "Digital 2027 Indonesia: 28.2% Research Brands via AI",
+        "seoDescription": "Digital 2027 Indonesia: 28.2% research brands via AI, 39.4% use ad blockers, only 13.2% feel represented by ads. What it means for CMOs.",
+        "audience": [
+          "CMOs",
+          "Heads of Digital Marketing",
+          "Heads of CX",
+          "Martech vendors"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/digital-2027-indonesia-riset-merek-lewat-ai-ad-blocker-cmo-en.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/digital-2027-indonesia-riset-merek-lewat-ai-ad-blocker-cmo.png"
+    },
+    {
+      "slug": "kemnaker-prioritas-disrupsi-ai-pijak-2027-ibm-dicoding-40000-talenta",
+      "title": "Kemnaker Siapkan 3 Prioritas Hadapi Disrupsi AI, IBM-Dicoding Bidik 40.000 Peserta Pelatihan",
+      "category": "HR Tech & Workforce Management",
+      "articleType": "analisis",
+      "dek": "Menteri Ketenagakerjaan Yassierli menetapkan tiga prioritas untuk menghadapi dampak AI pada tenaga kerja, sementara IBM dan Dicoding meluncurkan program pelatihan AI Pijak 2027 dengan target 40.000 peserta. Data program tahun lalu menunjukkan persoalan utamanya bukan akses, melainkan berapa banyak peserta yang sampai ke pelatihan mendalam.",
+      "summaryHtml": "<ul><li>Menaker Yassierli, Jumat (13/11/2026) di Jakarta, menyampaikan tiga program prioritas menghadapi disrupsi AI: peningkatan kompetensi SDM, peningkatan produktivitas, dan pelindungan pekerja. Ia meminta dunia usaha ikut menyusun kurikulum pelatihan vokasi. (Disway)</li><li>Program produktivitas dijalankan bersama Asian Productivity Organization (APO), termasuk pendampingan perusahaan untuk perbaikan proses bisnis. Kemnaker juga memperluas akses pelatihan bagi penyandang disabilitas. (Disway)</li><li>Dicoding Indonesia dan IBM, melalui IBM SkillsBuild, meluncurkan beasiswa pelatihan AI Pijak 2027 di Jakarta pada 12 November 2026 dengan target 40.000 peserta, terbuka bagi siswa SMK, mahasiswa vokasi, dan usia 18–34 tahun. (Tribunnews)</li><li>Sebanyak 800 peserta terbaik akan mengikuti pelatihan intensif 798 jam. Pada edisi 2026, pendaftar lebih dari 39.000 orang, lebih dari 20.600 aktif belajar, dan 645 orang terpilih ke pelatihan intensif. (Tribunnews)</li><li>CTO IBM Indonesia Wisu Suntoyo menekankan perlunya keterampilan memakai AI secara efektif dan bertanggung jawab. CEO Dicoding Narenda Wicaksono menyebut keterampilan AI kini dibutuhkan juga oleh profesional di luar jalur karier teknologi. (Tribunnews)</li></ul>",
+      "analysisHtml": "<h3>Corong pelatihan menyempit tajam</h3><p>Angka Pijak 2026 memperlihatkan pola yang umum dalam program pelatihan digital massal: dari lebih dari 39.000 pendaftar, sekitar separuh aktif belajar, dan hanya 645 yang masuk pelatihan intensif. Target 2027 mengikuti struktur serupa, dengan 800 kursi intensif dari 40.000 peserta. Artinya, program ini lebih tepat dibaca sebagai literasi AI berskala besar ditambah jalur talenta sempit, bukan pencetak puluhan ribu tenaga siap kerja di bidang AI. Perusahaan yang berharap merekrut lulusan siap pakai dari program semacam ini perlu menyesuaikan ekspektasi.</p><h3>Pemerintah meminta perusahaan ikut menyusun kurikulum</h3><p>Pesan paling relevan dari Kemnaker bagi direktur SDM adalah permintaan agar dunia usaha terlibat dalam desain kurikulum dan praktik di lingkungan industri. Ini berarti kesenjangan keterampilan AI tidak bisa diserahkan sepenuhnya ke pemerintah atau penyedia pelatihan. Perusahaan yang aktif terlibat berpeluang membentuk pasokan talenta sesuai kebutuhannya; yang pasif kemungkinan harus bersaing merebut talenta yang sama dengan biaya lebih tinggi.</p><h3>Yang tidak dijelaskan</h3><p>Kedua sumber tidak memuat data hasil: berapa alumni yang kemudian bekerja, di posisi apa, atau berapa perusahaan yang menyerap mereka. Kemnaker juga belum merinci anggaran, target kuantitatif, maupun jadwal ketiga prioritasnya. Tanpa ukuran keberhasilan seperti tingkat penempatan kerja, sulit menilai apakah program-program ini benar-benar mengurangi risiko disrupsi atau sekadar memperluas akses kursus.</p><h3>Pergeseran dari rekrut ke latih ulang</h3><p>Pernyataan Dicoding bahwa keterampilan AI juga dibutuhkan profesional non-teknologi sejalan dengan pergeseran yang perlu dicermati di perusahaan: kebutuhan terbesar kemungkinan bukan menambah insinyur AI, melainkan melatih ulang staf keuangan, pemasaran, layanan pelanggan, dan operasional agar bisa memakai AI dengan aman dalam pekerjaan sehari-hari. Bagi penyedia HR tech, ini membuka permintaan untuk platform pembelajaran internal yang terhubung dengan data kinerja.</p>",
+      "actionHtml": "<h3>Untuk HR Director dan Chief People Officer</h3><ol><li>Petakan peran yang paling terdampak AI dan susun jalur pelatihan ulang per peran, bukan satu kursus AI untuk semua.</li><li>Ukur hasil pelatihan dengan perubahan produktivitas atau kualitas kerja, bukan hanya jumlah peserta yang lulus kursus.</li><li>Jajaki kemitraan kurikulum dengan SMK, politeknik, atau program pelatihan pemerintah sesuai ajakan Kemnaker.</li><li>Tetapkan aturan internal penggunaan AI agar pelatihan diikuti praktik yang aman.</li></ol><h3>Untuk CIO</h3><p>Siapkan lingkungan AI yang disetujui perusahaan agar karyawan yang baru terlatih tidak beralih ke alat yang tidak terkelola.</p><h3>Untuk penyedia HR tech dan pelatihan</h3><p>Tawarkan pengukuran hasil pembelajaran yang terhubung dengan data kinerja, karena di situlah celah terbesar program pelatihan massal.</p>",
+      "faqHtml": "<h3>Apa tiga prioritas Kemnaker menghadapi disrupsi AI?</h3><p>Peningkatan kompetensi sumber daya manusia, peningkatan produktivitas, dan pelindungan pekerja, seperti disampaikan Menaker Yassierli pada 13 November 2026.</p><h3>Siapa yang bisa ikut beasiswa AI Pijak 2027?</h3><p>Siswa SMK, mahasiswa vokasi, dan masyarakat usia 18–34 tahun, termasuk lulusan baru, pencari kerja, pekerja awal karier, profesional, dan mereka yang beralih karier.</p>",
+      "dataFigure": "645",
+      "dataLabel": "peserta Pijak 2026 yang lolos ke pelatihan intensif, dari lebih dari 39.000 pendaftar",
+      "dataSource": "Tribunnews, 13 November 2026",
+      "chart": {
+        "bars": [
+          {
+            "label": "Pendaftar",
+            "value": 39000,
+            "display": "39rb+"
+          },
+          {
+            "label": "Aktif",
+            "value": 20600,
+            "display": "20,6rb+"
+          },
+          {
+            "label": "Intensif",
+            "value": 645,
+            "display": "645"
+          }
+        ]
+      },
+      "audience": [
+        "HR Director",
+        "Chief People Officer",
+        "CIO",
+        "Penyedia HR tech"
+      ],
+      "tags": [
+        "Kemnaker",
+        "Yassierli",
+        "IBM",
+        "Dicoding",
+        "Talenta AI",
+        "Upskilling"
+      ],
+      "sources": [
+        {
+          "name": "Disway",
+          "title": "Kemnaker Siapkan 3 Program Prioritas Hadapi Disrupsi AI, Fokus Tingkatkan Kompetensi dan Lindungi Pekerja",
+          "url": "https://disway.id/read/979171/kemnaker-siapkan-3-program-prioritas-hadapi-disrupsi-ai-fokus-tingkatkan-kompetensi-dan-lindungi-pekerja",
+          "date": "2026-11-14"
+        },
+        {
+          "name": "Tribunnews",
+          "title": "Beasiswa AI 2027 Sasar 40.000 Peserta, Kemenaker: Siapkan Talenta Hadapi Kebutuhan Industri",
+          "url": "https://www.tribunnews.com/nasional/7911197/beasiswa-ai-2027-sasar-40000-peserta-kemenaker-siapkan-talenta-hadapi-kebutuhan-industri",
+          "date": "2026-11-13"
+        }
+      ],
+      "seoTitle": "Kemnaker Hadapi Disrupsi AI, Pijak 2027 Target 40.000",
+      "seoDescription": "Kemnaker tetapkan 3 prioritas hadapi disrupsi AI; IBM-Dicoding luncurkan Pijak 2027 untuk 40.000 peserta. Apa artinya bagi HR Director.",
+      "publishAt": "2026-11-16T10:30:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "Indonesia's Manpower Ministry Sets 3 Priorities for AI Disruption as IBM-Dicoding Target 40,000 Trainees",
+        "dek": "Manpower Minister Yassierli set three priorities to deal with AI's impact on the workforce, while IBM and Dicoding launched the Pijak 2027 AI training programme with a target of 40,000 participants. Last year's programme data show that the main problem is not access but how many participants reach in-depth training.",
+        "summaryHtml": "<ul><li>Manpower Minister Yassierli, speaking in Jakarta on Friday 13 November 2026, set out three priority programmes to deal with AI disruption: improving workforce competence, raising productivity and protecting workers. He asked businesses to help design vocational training curricula. (Disway)</li><li>The productivity programme is run with the Asian Productivity Organization (APO), including support for companies on business process improvement. The ministry is also widening training access for people with disabilities. (Disway)</li><li>Dicoding Indonesia and IBM, through IBM SkillsBuild, launched the Pijak 2027 AI training scholarship in Jakarta on 12 November 2026, targeting 40,000 participants and open to vocational high school students, vocational college students and people aged 18–34. (Tribunnews)</li><li>The best 800 participants will take 798 hours of intensive training. In the 2026 edition, more than 39,000 people registered, more than 20,600 actively studied, and 645 were selected for intensive training. (Tribunnews)</li><li>IBM Indonesia CTO Wisu Suntoyo stressed the need for skills to use AI effectively and responsibly. Dicoding CEO Narenda Wicaksono said AI skills are now needed by professionals outside technology career paths as well. (Tribunnews)</li></ul>",
+        "analysisHtml": "<h3>The training funnel narrows sharply</h3><p>The Pijak 2026 figures show a pattern common in mass digital training programmes: of more than 39,000 registrants, about half studied actively, and only 645 entered intensive training. The 2027 target follows a similar structure, with 800 intensive places out of 40,000 participants. The programme is therefore better read as large-scale AI literacy plus a narrow talent track, not a producer of tens of thousands of job-ready AI workers. Companies hoping to hire ready-made graduates from such programmes should adjust their expectations.</p><h3>The government is asking companies to help design curricula</h3><p>The most relevant message from the ministry for HR directors is the request that businesses take part in curriculum design and on-the-job practice. The AI skills gap cannot be left entirely to the government or training providers. Companies that engage actively can shape a talent supply that fits their needs; passive ones will likely have to compete for the same talent at higher cost.</p><h3>What is not explained</h3><p>Neither source includes outcome data: how many alumni went on to work, in which roles, or how many companies hired them. The ministry has also not detailed the budget, quantitative targets or schedule for its three priorities. Without measures of success such as job placement rates, it is hard to judge whether these programmes actually reduce disruption risk or simply widen access to courses.</p><h3>A shift from hiring to reskilling</h3><p>Dicoding's point that non-technology professionals also need AI skills matches a shift companies should watch: the biggest need is likely not more AI engineers but reskilling finance, marketing, customer service and operations staff to use AI safely in daily work. For HR tech providers, this creates demand for internal learning platforms linked to performance data.</p>",
+        "actionHtml": "<h3>For HR Directors and Chief People Officers</h3><ol><li>Map the roles most affected by AI and build reskilling paths per role, not one AI course for everyone.</li><li>Measure training outcomes by changes in productivity or work quality, not only by the number of course completions.</li><li>Explore curriculum partnerships with vocational schools, polytechnics or government training programmes, as the ministry has invited.</li><li>Set internal rules for AI use so that training is followed by safe practice.</li></ol><h3>For CIOs</h3><p>Provide company-approved AI environments so that newly trained employees do not turn to unmanaged tools.</p><h3>For HR tech and training providers</h3><p>Offer learning-outcome measurement linked to performance data, because that is the biggest gap in mass training programmes.</p>",
+        "faqHtml": "<h3>What are the Manpower Ministry's three priorities for AI disruption?</h3><p>Improving workforce competence, raising productivity and protecting workers, as stated by Minister Yassierli on 13 November 2026.</p><h3>Who can join the Pijak 2027 AI scholarship?</h3><p>Vocational high school students, vocational college students and people aged 18–34, including new graduates, job seekers, early-career workers, professionals and career switchers.</p>",
+        "dataFigure": "645",
+        "dataLabel": "Pijak 2026 participants who reached intensive training, out of more than 39,000 registrants",
+        "dataSource": "Tribunnews, 13 November 2026",
+        "chart": {
+          "bars": [
+            {
+              "label": "Registered",
+              "value": 39000,
+              "display": "39k+"
+            },
+            {
+              "label": "Active",
+              "value": 20600,
+              "display": "20.6k+"
+            },
+            {
+              "label": "Intensive",
+              "value": 645,
+              "display": "645"
+            }
+          ]
+        },
+        "seoTitle": "Indonesia Prepares for AI Disruption; Pijak 2027 Eyes 40,000",
+        "seoDescription": "Indonesia's Manpower Ministry sets 3 priorities for AI disruption; IBM-Dicoding launch Pijak 2027 for 40,000 trainees. What it means for HR leaders.",
+        "audience": [
+          "HR Directors",
+          "Chief People Officers",
+          "CIOs",
+          "HR tech providers"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kemnaker-prioritas-disrupsi-ai-pijak-2027-ibm-dicoding-40000-talenta-en.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kemnaker-prioritas-disrupsi-ai-pijak-2027-ibm-dicoding-40000-talenta.png"
+    },
+    {
+      "slug": "empat-bank-sentral-asean-mou-transaksi-mata-uang-lokal-lct",
+      "title": "BI, BNM, BOT, dan BSP Teken MoU Transaksi Mata Uang Lokal: Filipina Masuk, Rupiah-Peso Tanpa Dolar",
+      "category": "FinTech & Financial Operations",
+      "articleType": "berita",
+      "dek": "Bank Indonesia, Bank Negara Malaysia, Bank of Thailand, dan Bangko Sentral ng Pilipinas meneken nota kesepahaman baru tentang transaksi mata uang lokal (LCT) pada 13 November 2026. Bagi CFO perusahaan yang berdagang dengan Filipina, Malaysia, dan Thailand, ini membuka opsi penyelesaian transaksi tanpa konversi ganda melalui dolar AS.",
+      "summaryHtml": "<ul><li>Pada 13 November 2026, Gubernur BI Destry Damayanti, Gubernur BNM Abdul Rasheed Ghaffour, Gubernur BOT Vitai Ratanakorn, dan Gubernur BSP Eli M. Remolona Jr. menandatangani MoU kerja sama dalam kerangka transaksi mata uang lokal. (Bank Indonesia)</li><li>MoU ini menjadi kerangka bagi keempat bank sentral untuk mendorong penggunaan mata uang lokal dalam transaksi bilateral lintas batas, termasuk perdagangan dan investasi. MoU baru menggantikan kesepakatan BI, BNM, dan BOT yang dibuat pada Agustus 2023. (Bank Indonesia, Bernama)</li><li>Tujuan yang dinyatakan: penyelesaian lintas batas yang lebih efisien, biaya konversi mata uang berlapis yang lebih rendah, dan fleksibilitas lebih besar bagi pelaku usaha dalam mengelola risiko nilai tukar. (Bank Indonesia, Bernama)</li><li>Pada hari yang sama, BI dan BSP juga menandatangani MoU bilateral yang lebih luas, mencakup sistem pembayaran, inovasi keuangan digital, keamanan siber, keuangan syariah, serta anti pencucian uang. Remolona menyebut kerja sama ini &ldquo;sangat krusial&rdquo; di tengah ketidakpastian yang meningkat. (CNBC Indonesia)</li><li>Rilis resmi tidak memuat data volume transaksi LCT maupun jadwal implementasi. (Bank Indonesia)</li></ul>",
+      "analysisHtml": "<h3>Dari tiga menjadi empat: koridor Filipina yang paling baru</h3><p>Kerangka LCT antara Indonesia, Malaysia, dan Thailand sudah berjalan sejak kesepakatan 2023. Hal baru dari MoU ini adalah masuknya Filipina dan penyatuan kerja sama ke satu kerangka empat pihak. Bagi perusahaan Indonesia, koridor rupiah-peso adalah yang paling relevan untuk dicermati, karena transaksi dengan mitra Filipina sebelumnya belum tercakup dalam kerangka LCT ini. Kerja sama bilateral BI-BSP yang ditandatangani bersamaan, yang mencakup sistem pembayaran dan keamanan siber, menunjukkan bahwa koneksi pembayaran kedua negara kemungkinan menjadi langkah berikutnya.</p><h3>Manfaat nyata bergantung pada bank dan likuiditas</h3><p>MoU bank sentral hanyalah kerangka. Manfaat bagi perusahaan baru terasa jika bank komersial menawarkan kuotasi kurs langsung rupiah-peso yang kompetitif, likuiditas cukup, dan produk lindung nilai. Rilis resmi tidak menyebut volume, bank pelaksana, maupun jadwal, sehingga perlu dicermati seberapa cepat kerangka ini diterjemahkan menjadi produk perbankan untuk koridor Filipina. Kemungkinan besar adopsinya akan bertahap.</p><h3>Bagian dari agenda yang lebih besar</h3><p>Penandatanganan ini terjadi sehari sebelum ASEAN meneken perjanjian ekonomi digital DEFA, yang juga menyasar sistem pembayaran lintas negara. Keduanya mengarah ke tujuan yang sama: transaksi intra-ASEAN yang lebih murah dan lebih sedikit bergantung pada dolar AS. Bagi fungsi keuangan perusahaan, ini berarti pengelolaan kas multi-mata uang regional akan menjadi kebutuhan, bukan lagi hanya urusan perusahaan besar.</p><h3>Siapa yang paling diuntungkan</h3><p>Eksportir dan importir menengah yang berdagang rutin dengan Malaysia, Thailand, dan Filipina paling diuntungkan, karena biaya konversi berlapis lebih terasa pada margin mereka. Penyedia pembayaran lintas negara dan perangkat lunak treasury juga mendapat ruang, sementara perusahaan yang seluruh kontraknya berdenominasi dolar AS perlu meninjau apakah struktur itu masih paling efisien.</p>",
+      "actionHtml": "<h3>Untuk CFO dan treasurer</h3><ol><li>Petakan transaksi dengan mitra di Malaysia, Thailand, dan Filipina, termasuk mata uang yang dipakai dan biaya konversinya saat ini.</li><li>Tanyakan kepada bank mitra apakah mereka menyediakan penyelesaian langsung dalam ringgit, baht, atau peso, beserta kurs dan produk lindung nilainya.</li><li>Pertimbangkan klausul mata uang lokal dalam kontrak baru jika biayanya lebih rendah.</li><li>Pastikan sistem ERP dan akuntansi siap mencatat dan merekonsiliasi transaksi multi-mata uang regional.</li></ol><h3>Untuk fintech dan penyedia pembayaran</h3><p>Siapkan produk pembayaran dan pengelolaan kas untuk koridor rupiah-peso, serta pantau tindak lanjut kerja sama sistem pembayaran BI-BSP.</p>",
+      "faqHtml": "<h3>Apa itu Local Currency Transaction (LCT)?</h3><p>LCT adalah kerangka yang mendorong transaksi lintas negara diselesaikan langsung dalam mata uang kedua negara, misalnya rupiah dan peso, tanpa melalui dolar AS.</p><h3>Apa bedanya MoU empat bank sentral dengan MoU BI-BSP?</h3><p>MoU empat bank sentral khusus mengatur kerangka LCT antara Indonesia, Malaysia, Thailand, dan Filipina. MoU BI-BSP bersifat bilateral dan lebih luas, mencakup sistem pembayaran, keamanan siber, hingga keuangan syariah.</p>",
+      "dataFigure": "4",
+      "dataLabel": "bank sentral ASEAN dalam kerangka baru transaksi mata uang lokal (LCT), setelah Filipina bergabung",
+      "dataSource": "Bank Indonesia, 13 November 2026",
+      "chart": {
+        "bars": [
+          {
+            "label": "MoU 2023",
+            "value": 3,
+            "display": "3"
+          },
+          {
+            "label": "MoU 2026",
+            "value": 4,
+            "display": "4"
+          }
+        ]
+      },
+      "audience": [
+        "CFO",
+        "Treasurer",
+        "Eksportir dan importir",
+        "Fintech pembayaran"
+      ],
+      "tags": [
+        "Bank Indonesia",
+        "LCT",
+        "Bangko Sentral ng Pilipinas",
+        "Pembayaran lintas negara",
+        "Treasury",
+        "ASEAN"
+      ],
+      "sources": [
+        {
+          "name": "Bank Indonesia",
+          "title": "Bank Indonesia, Bank Negara Malaysia, Bank of Thailand, dan Bangko Sentral ng Pilipinas Memperkuat Kerja Sama dalam Kerangka Mata Uang Lokal",
+          "url": "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2824926.aspx",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "Bernama",
+          "title": "Four ASEAN Central Banks Sign MoU On Local Currency Transaction Framework",
+          "url": "https://bernamabiz.com/news.php?id=2633915",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "CNBC Indonesia",
+          "title": "Lindungi Rupiah-Peso, RI & Filipina Perkuat Transaksi Tanpa Dolar AS",
+          "url": "https://www.cnbcindonesia.com/news/20261113142023-4-785035/lindungi-rupiah-peso-ri-filipina-perkuat-transaksi-tanpa-dolar-as",
+          "date": "2026-11-13"
+        }
+      ],
+      "seoTitle": "MoU LCT 4 Bank Sentral ASEAN: Rupiah-Peso Tanpa Dolar",
+      "seoDescription": "BI, BNM, BOT, dan BSP teken MoU transaksi mata uang lokal 13 November 2026. Apa artinya bagi CFO, treasury, dan biaya konversi valas.",
+      "publishAt": "2026-11-16T09:00:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "BI, BNM, BOT and BSP Sign Local Currency Transaction MoU: Philippines Joins, Rupiah-Peso Without the Dollar",
+        "dek": "Bank Indonesia, Bank Negara Malaysia, the Bank of Thailand and Bangko Sentral ng Pilipinas signed a new memorandum of understanding on local currency transactions (LCT) on 13 November 2026. For CFOs of companies trading with the Philippines, Malaysia and Thailand, it opens the option of settling without double conversion through the US dollar.",
+        "summaryHtml": "<ul><li>On 13 November 2026, BI Governor Destry Damayanti, BNM Governor Abdul Rasheed Ghaffour, BOT Governor Vitai Ratanakorn and BSP Governor Eli M. Remolona Jr. signed an MoU on cooperation under the local currency transaction framework. (Bank Indonesia)</li><li>The MoU sets a framework for the four central banks to promote local currency use in bilateral cross-border transactions, including trade and investment. It replaces the agreement made by BI, BNM and BOT in August 2023. (Bank Indonesia, Bernama)</li><li>The stated aims: more efficient cross-border settlement, lower costs from multiple currency conversions, and more flexibility for businesses in managing exchange rate risk. (Bank Indonesia, Bernama)</li><li>On the same day, BI and BSP also signed a broader bilateral MoU covering payment systems, digital financial innovation, cybersecurity, Islamic finance and anti-money laundering. Remolona called the cooperation crucial at a time of rising uncertainty. (CNBC Indonesia)</li><li>The official release contains no LCT volume data or implementation schedule. (Bank Indonesia)</li></ul>",
+        "analysisHtml": "<h3>From three to four: the Philippine corridor is the newest</h3><p>The LCT framework between Indonesia, Malaysia and Thailand has been running since the 2023 agreement. What is new in this MoU is the Philippines joining and the cooperation being brought into one four-party framework. For Indonesian companies, the rupiah-peso corridor is the one to watch, because transactions with Philippine partners were not previously covered by this LCT framework. The bilateral BI-BSP cooperation signed at the same time, covering payment systems and cybersecurity, suggests that a payment link between the two countries is likely to be a next step.</p><h3>Real benefits depend on banks and liquidity</h3><p>A central bank MoU is only a framework. Companies benefit only when commercial banks offer competitive direct rupiah-peso quotes, enough liquidity and hedging products. The official release mentions no volumes, implementing banks or schedule, so it is worth watching how quickly the framework turns into banking products for the Philippine corridor. Adoption is likely to be gradual.</p><h3>Part of a bigger agenda</h3><p>The signing came a day before ASEAN signed the DEFA digital economy agreement, which also targets cross-border payment systems. Both point to the same goal: cheaper intra-ASEAN transactions that depend less on the US dollar. For corporate finance functions, this means regional multi-currency cash management will become a need, no longer only a concern for large corporations.</p><h3>Who benefits most</h3><p>Mid-sized exporters and importers that trade regularly with Malaysia, Thailand and the Philippines benefit most, because multiple conversion costs weigh more on their margins. Cross-border payment providers and treasury software also gain room, while companies whose contracts are all denominated in US dollars should review whether that structure is still the most efficient.</p>",
+        "actionHtml": "<h3>For CFOs and treasurers</h3><ol><li>Map transactions with partners in Malaysia, Thailand and the Philippines, including the currencies used and current conversion costs.</li><li>Ask partner banks whether they offer direct settlement in ringgit, baht or peso, with rates and hedging products.</li><li>Consider local-currency clauses in new contracts if costs are lower.</li><li>Make sure ERP and accounting systems can record and reconcile regional multi-currency transactions.</li></ol><h3>For fintechs and payment providers</h3><p>Prepare payment and cash management products for the rupiah-peso corridor, and follow up on the BI-BSP payment system cooperation.</p>",
+        "faqHtml": "<h3>What is Local Currency Transaction (LCT)?</h3><p>LCT is a framework that encourages cross-border transactions to be settled directly in the two countries' currencies, such as rupiah and peso, without going through the US dollar.</p><h3>How does the four-central-bank MoU differ from the BI-BSP MoU?</h3><p>The four-party MoU covers only the LCT framework between Indonesia, Malaysia, Thailand and the Philippines. The BI-BSP MoU is bilateral and broader, covering payment systems, cybersecurity and Islamic finance, among others.</p>",
+        "dataFigure": "4",
+        "dataLabel": "ASEAN central banks in the new local currency transaction (LCT) framework, after the Philippines joined",
+        "dataSource": "Bank Indonesia, 13 November 2026",
+        "chart": {
+          "bars": [
+            {
+              "label": "2023 MoU",
+              "value": 3,
+              "display": "3"
+            },
+            {
+              "label": "2026 MoU",
+              "value": 4,
+              "display": "4"
+            }
+          ]
+        },
+        "seoTitle": "4 ASEAN Central Banks Sign LCT MoU: Rupiah-Peso Trade",
+        "seoDescription": "BI, BNM, BOT and BSP signed a local currency transaction MoU on 13 November 2026. What it means for CFOs, treasury and FX conversion costs.",
+        "audience": [
+          "CFOs",
+          "Treasurers",
+          "Exporters and importers",
+          "Payment fintechs"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/empat-bank-sentral-asean-mou-transaksi-mata-uang-lokal-lct-en.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/empat-bank-sentral-asean-mou-transaksi-mata-uang-lokal-lct.png"
+    },
+    {
+      "slug": "gangguan-microsoft-365-november-2026-pelajaran-ketergantungan-saas",
+      "title": "Gangguan Global Microsoft 365 Lumpuhkan 8 Layanan, BSSN Ingatkan Serangan Susulan: Pelajaran Ketergantungan SaaS",
+      "category": "Enterprise Software & ERP",
+      "articleType": "analisis",
+      "dek": "Gangguan global Microsoft 365 sejak dini hari 13 November 2026 WIB mengganggu email, kolaborasi, hingga konsol keamanan di instansi pemerintah dan perusahaan Indonesia. Microsoft menyatakan tidak ada bukti serangan, tetapi BSSN mengingatkan bahwa kepanikan saat layanan mati adalah celah bagi phishing.",
+      "summaryHtml": "<ul><li>Gangguan berawal Kamis, 12 November 2026 waktu Amerika Serikat, atau sejak sekitar pukul 01.00 WIB Jumat, 13 November, dan berlanjut hingga Jumat. Microsoft mencatatnya dalam insiden MO1550821 dan EX1550543. (SecurityWeek, CNBC Indonesia)</li><li>Layanan yang terdampak antara lain Exchange Online, Microsoft Teams, SharePoint Online, OneDrive, Microsoft 365 Copilot, Microsoft Defender XDR, Intune, dan portal Microsoft 365. Di Indonesia, gangguan menyentuh email, ruang kerja kolaborasi, dan sinkronisasi server di instansi pemerintah maupun swasta. (CNBC Indonesia, tvOnenews)</li><li>Menurut Microsoft, banyak server menjadi tidak tersedia meski lalu lintas tidak naik; proses yang membangun koneksi aman kewalahan sehingga server gagal dalam pemeriksaan kesehatan otomatis. Microsoft mulai membatalkan perubahan konfigurasi jaringan terbaru dan menyatakan tidak menemukan bukti aktivitas berbahaya. Laporan pasca-insiden dijanjikan setelah mitigasi. (SecurityWeek)</li><li>BSSN menerbitkan imbauan keamanan yang memperingatkan email phishing palsu, situs login tiruan, MFA fatigue, vishing dan smishing, business email compromise, serta malware yang menyamar sebagai alat pemulihan. (CNBC Indonesia)</li><li>BSSN merekomendasikan MFA tahan phishing (FIDO2 atau passkey), penerapan SPF, DKIM, dan DMARC, pemblokiran domain tiruan, jalur komunikasi cadangan di luar Microsoft, pemantauan log login, serta pengecekan status hanya lewat kanal resmi status.cloud.microsoft. (tvOnenews, CNBC Indonesia)</li></ul>",
+      "analysisHtml": "<h3>Satu platform, dua fungsi kritis tumbang bersamaan</h3><p>Yang menonjol dari daftar layanan terdampak bukan hanya email dan Teams, tetapi juga Defender XDR dan Intune, yakni alat keamanan dan manajemen perangkat. Banyak perusahaan Indonesia menyatukan produktivitas, kolaborasi, dan keamanan dalam satu langganan karena lebih murah dan mudah dikelola. Gangguan ini menunjukkan sisi lainnya: ketika platform bermasalah, tim TI kehilangan alat kerja sekaligus sebagian visibilitas keamanan, tepat saat penyerang paling mungkin memanfaatkan kebingungan.</p><h3>Bukan serangan, tetapi jendela serangan</h3><p>Microsoft menyatakan tidak ada bukti aktivitas berbahaya. Namun imbauan BSSN menggeser fokus ke risiko berikutnya: karyawan yang sedang menunggu layanan pulih lebih mudah percaya email &ldquo;pemulihan akun&rdquo; palsu atau menyetujui permintaan MFA yang tidak mereka kenali. Pola ini membuat gangguan teknis biasa berpotensi berubah menjadi insiden keamanan, terutama di organisasi yang masih memakai MFA berbasis notifikasi atau SMS.</p><h3>Yang belum diketahui</h3><p>Hingga sumber terakhir, akar masalah belum dikonfirmasi, durasi total gangguan tidak disebut, dan tidak ada data berapa organisasi di Indonesia yang terdampak. Laporan pasca-insiden Microsoft perlu dicermati: apakah perubahan konfigurasi jaringan memang pemicunya, dan apa yang diubah agar tidak terulang. Perusahaan juga perlu memeriksa apakah kontrak mereka memberi hak atas kompensasi tingkat layanan dan bagaimana klaimnya diajukan.</p><h3>Dampak pada keputusan pembelian perangkat lunak</h3><p>Kemungkinan besar gangguan ini tidak membuat perusahaan meninggalkan SaaS, tetapi akan mengubah pertanyaan dalam pengadaan: bagaimana rencana kelangsungan bisnis jika penyedia utama mati beberapa jam, kanal komunikasi apa yang tetap hidup, dan apakah alat keamanan inti sebaiknya berada di platform yang sama dengan sistem yang dilindunginya. Bagi penyedia lokal dan regional, ini membuka ruang untuk menawarkan komunikasi darurat, pencadangan, dan pemantauan independen sebagai pelengkap, bukan pengganti.</p>",
+      "actionHtml": "<h3>Untuk CIO</h3><ol><li>Petakan proses bisnis yang berhenti jika email, Teams, dan penyimpanan file mati bersamaan; tetapkan prioritas pemulihannya.</li><li>Siapkan jalur komunikasi darurat di luar platform utama dan uji pemakaiannya minimal sekali per kuartal.</li><li>Minta laporan pasca-insiden dari penyedia dan tinjau ketentuan tingkat layanan dalam kontrak.</li></ol><h3>Untuk CISO</h3><ol><li>Kirim peringatan phishing kepada karyawan setiap kali layanan besar terganggu; jangan menunggu insiden.</li><li>Prioritaskan MFA tahan phishing (FIDO2 atau passkey) untuk admin dan pengguna berisiko tinggi.</li><li>Pastikan SPF, DKIM, dan DMARC aktif, dan pantau log login yang tidak wajar selama dan setelah gangguan.</li></ol><h3>Untuk vendor</h3><p>Tawarkan pencadangan data SaaS, komunikasi darurat, dan pemantauan keamanan independen dengan narasi kelangsungan bisnis yang konkret, bukan sekadar migrasi platform.</p>",
+      "faqHtml": "<h3>Apa penyebab gangguan Microsoft 365 pada 12–13 November 2026?</h3><p>Microsoft menyebut banyak server tidak tersedia dan proses pembentuk koneksi aman kewalahan, lalu mulai membatalkan perubahan konfigurasi jaringan terbaru. Akar masalah resmi akan dimuat dalam laporan pasca-insiden.</p><h3>Apakah gangguan Microsoft 365 ini serangan siber?</h3><p>Microsoft menyatakan tidak menemukan bukti aktivitas berbahaya. BSSN tetap mengingatkan potensi serangan susulan seperti phishing yang memanfaatkan gangguan.</p><h3>Apa yang sebaiknya dilakukan karyawan saat Microsoft 365 down?</h3><p>Cek status hanya lewat status.cloud.microsoft atau pengumuman TI internal, jangan klik tautan atau lampiran email yang mengaku dari Microsoft, dan tolak permintaan MFA yang tidak dikenali.</p>",
+      "dataFigure": "8",
+      "dataLabel": "layanan Microsoft 365 terdampak, dari Exchange Online hingga Defender XDR dan Intune",
+      "dataSource": "CNBC Indonesia, 13 November 2026",
+      "audience": [
+        "CIO",
+        "CISO",
+        "IT Operations",
+        "Vendor SaaS dan keamanan"
+      ],
+      "tags": [
+        "Microsoft 365",
+        "BSSN",
+        "SaaS",
+        "Kelangsungan bisnis",
+        "Phishing",
+        "Exchange Online"
+      ],
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
+          "url": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
+          "date": "2026-11-12"
+        },
+        {
+          "name": "CNBC Indonesia",
+          "title": "BSSN Minta Warga RI Waspada Modus Penipuan Baru Usai Microsoft Down",
+          "url": "https://www.cnbcindonesia.com/tech/20261113163411-37-785110/bssn-minta-warga-ri-waspada-modus-penipuan-baru-usai-microsoft-down",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "tvOnenews",
+          "title": "Microsoft Alami Gangguan Global, BSSN Terbitkan Peringatan Keamanan Nasional",
+          "url": "https://www.tvonenews.com/berita/nasional/478217-microsoft-alami-gangguan-global-bssn-terbitkan-peringatan-keamanan-nasional",
+          "date": "2026-11-13"
+        }
+      ],
+      "seoTitle": "Gangguan Microsoft 365: Pelajaran Ketergantungan SaaS",
+      "seoDescription": "Microsoft 365 down 13 November 2026: 8 layanan terdampak, BSSN ingatkan phishing susulan. Langkah CIO dan CISO untuk kelangsungan bisnis.",
+      "publishAt": "2026-11-16T07:30:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "Global Microsoft 365 Outage Hits 8 Services as BSSN Warns of Follow-up Attacks: Lessons on SaaS Dependence",
+        "dek": "A global Microsoft 365 outage from the early hours of 13 November 2026 (Jakarta time) disrupted email, collaboration and even security consoles at Indonesian government agencies and companies. Microsoft said there was no evidence of an attack, but Indonesia's cyber agency BSSN warned that the panic during an outage is an opening for phishing.",
+        "summaryHtml": "<ul><li>The outage began on Thursday, 12 November 2026, US time, or from around 01:00 WIB on Friday, 13 November, and continued into Friday. Microsoft logged it under incidents MO1550821 and EX1550543. (SecurityWeek, CNBC Indonesia)</li><li>Affected services included Exchange Online, Microsoft Teams, SharePoint Online, OneDrive, Microsoft 365 Copilot, Microsoft Defender XDR, Intune and the Microsoft 365 portal. In Indonesia, the disruption hit email, collaboration workspaces and server synchronization at government agencies and private companies. (CNBC Indonesia, tvOnenews)</li><li>According to Microsoft, a large number of servers became unavailable although traffic had not increased; a process that establishes secure connections was overwhelmed, so servers failed automated health checks. Microsoft began rolling back a recent network configuration change and said it had no evidence of malicious activity. It promised a post-incident report after mitigation. (SecurityWeek)</li><li>BSSN issued a security advisory warning of fake phishing emails, lookalike login sites, MFA fatigue, vishing and smishing, business email compromise, and malware disguised as recovery tools. (CNBC Indonesia)</li><li>BSSN recommended phishing-resistant MFA (FIDO2 or passkeys), SPF, DKIM and DMARC, blocking lookalike domains, backup communication channels outside Microsoft, monitoring login logs, and checking status only through the official status.cloud.microsoft channel. (tvOnenews, CNBC Indonesia)</li></ul>",
+        "analysisHtml": "<h3>One platform, two critical functions down at once</h3><p>What stands out in the list of affected services is not only email and Teams but also Defender XDR and Intune, the security and device-management tools. Many Indonesian companies combine productivity, collaboration and security in one subscription because it is cheaper and easier to manage. This outage shows the other side: when the platform fails, IT teams lose their working tools and part of their security visibility at the same time, exactly when attackers are most likely to exploit the confusion.</p><h3>Not an attack, but an attack window</h3><p>Microsoft said there was no evidence of malicious activity. BSSN's advisory, however, shifts the focus to the next risk: employees waiting for services to return are more likely to trust a fake &ldquo;account recovery&rdquo; email or approve an MFA request they do not recognise. This pattern can turn an ordinary technical failure into a security incident, especially in organisations that still use push-notification or SMS-based MFA.</p><h3>What is still unknown</h3><p>As of the latest sources, the root cause had not been confirmed, the total duration was not stated, and there was no data on how many organisations in Indonesia were affected. Microsoft's post-incident report deserves close reading: whether the network configuration change was indeed the trigger, and what will change to prevent a repeat. Companies should also check whether their contracts entitle them to service-level credits and how to claim them.</p><h3>The impact on software buying decisions</h3><p>The outage is unlikely to make companies abandon SaaS, but it will likely change the questions asked in procurement: what is the business continuity plan if the main provider is down for hours, which communication channels stay up, and should core security tools sit on the same platform as the systems they protect. For local and regional providers, this opens room to offer emergency communication, backup and independent monitoring as complements, not replacements.</p>",
+        "actionHtml": "<h3>For CIOs</h3><ol><li>Map the business processes that stop if email, Teams and file storage go down together; set their recovery priorities.</li><li>Set up an emergency communication channel outside the main platform and test it at least once a quarter.</li><li>Request the post-incident report from the provider and review the service-level terms in the contract.</li></ol><h3>For CISOs</h3><ol><li>Send employees a phishing alert whenever a major service is disrupted; do not wait for an incident.</li><li>Prioritise phishing-resistant MFA (FIDO2 or passkeys) for admins and high-risk users.</li><li>Make sure SPF, DKIM and DMARC are enforced, and watch for unusual logins during and after the outage.</li></ol><h3>For vendors</h3><p>Offer SaaS data backup, emergency communication and independent security monitoring with a concrete business continuity story, not just platform migration.</p>",
+        "faqHtml": "<h3>What caused the Microsoft 365 outage on 12–13 November 2026?</h3><p>Microsoft said many servers became unavailable and a process that establishes secure connections was overwhelmed, then began rolling back a recent network configuration change. The official root cause will be in the post-incident report.</p><h3>Was the Microsoft 365 outage a cyberattack?</h3><p>Microsoft said it found no evidence of malicious activity. BSSN still warned of possible follow-up attacks such as phishing that exploits the outage.</p><h3>What should employees do when Microsoft 365 is down?</h3><p>Check status only via status.cloud.microsoft or internal IT announcements, do not click links or attachments in emails claiming to be from Microsoft, and reject MFA requests you do not recognise.</p>",
+        "dataFigure": "8",
+        "dataLabel": "Microsoft 365 services affected, from Exchange Online to Defender XDR and Intune",
+        "dataSource": "CNBC Indonesia, 13 November 2026",
+        "seoTitle": "Microsoft 365 Outage: Lessons on SaaS Dependence",
+        "seoDescription": "Microsoft 365 went down on 13 November 2026: 8 services hit, BSSN warns of follow-up phishing. Steps for CIOs and CISOs on business continuity.",
+        "audience": [
+          "CIOs",
+          "CISOs",
+          "IT Operations",
+          "SaaS and security vendors"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/gangguan-microsoft-365-november-2026-pelajaran-ketergantungan-saas-en.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/gangguan-microsoft-365-november-2026-pelajaran-ketergantungan-saas.png"
+    },
+    {
+      "slug": "asean-defa-ditandatangani-dampak-ecommerce-perusahaan-indonesia",
+      "title": "ASEAN Teken DEFA di Manila: Aturan Data, Pembayaran, dan AI Lintas Negara yang Mengikat 11 Negara",
+      "category": "E-Commerce & Retail Tech",
+      "articleType": "analisis",
+      "dek": "Negara-negara ASEAN menandatangani Digital Economy Framework Agreement (DEFA) di Manila pada 14 November 2026, perjanjian ekonomi digital pertama kawasan yang berdiri sendiri dan mengikat secara hukum. Bagi perusahaan Indonesia yang menjual atau membayar lintas negara, DEFA menggeser aturan main dari sekadar e-commerce ke data, pembayaran, identitas digital, dan AI.",
+      "summaryHtml": "<ul><li>Negara anggota ASEAN resmi menandatangani DEFA pada Sabtu, 14 November 2026, di Manila dalam pertemuan Dewan Masyarakat Ekonomi ASEAN (AECC). Indonesia menggagas perjanjian ini saat memegang keketuaan ASEAN pada 2023. (ANTARA)</li><li>DEFA disebut sebagai perjanjian ekonomi digital ASEAN pertama yang berdiri sendiri dan mengikat secara hukum. Isinya mencakup perdagangan digital, aliran data lintas batas, pembayaran elektronik, keamanan siber, dan kecerdasan artifisial. Proyek prioritas yang dibidik antara lain sistem pembayaran digital, identitas digital untuk pelaku usaha, dan dokumen perdagangan elektronik. (The Star)</li><li>DEFA akan menggantikan perjanjian e-commerce ASEAN tahun 2019, yang diratifikasi Indonesia melalui UU Nomor 4 Tahun 2021. Indonesia akan meratifikasi DEFA lewat panitia antarkementerian. (ANTARA)</li><li>Soal mulai berlakunya, sumber berbeda: ANTARA menyebut 180 hari setelah negara anggota terakhir menandatangani, sedangkan The Star mengutip Kementerian Ekonomi Jepang (METI) yang menyebut 180 hari setelah penandatanganan. ASEAN menargetkan proyek pertama bergulir awal 2027. (ANTARA, The Star)</li><li>Studi BCG memperkirakan implementasi penuh DEFA dapat menaikkan nilai ekonomi digital ASEAN dari sekitar US$1 triliun menjadi US$2 triliun pada 2030. Presiden Prabowo Subianto mengulang angka ini di KTT ASEAN ke-49, 15 November 2026. Menko Perekonomian Airlangga Hartarto menyebut penandatanganan ini &ldquo;langkah strategis&rdquo;. (ANTARA)</li></ul>",
+      "analysisHtml": "<h3>Dari aturan toko online ke aturan infrastruktur digital</h3><p>Perjanjian e-commerce ASEAN 2019 pada dasarnya mengatur jual beli daring. DEFA melangkah lebih jauh: aliran data, pembayaran, identitas digital pelaku usaha, keamanan siber, dan AI masuk ke satu kerangka yang mengikat. Bagi perusahaan, artinya keputusan teknologi seperti di mana data pelanggan disimpan, gerbang pembayaran apa yang dipakai di checkout lintas negara, dan bagaimana verifikasi mitra dagang dilakukan, ke depan akan dinilai juga terhadap komitmen regional, bukan hanya aturan domestik.</p><h3>Yang belum dikatakan berita: isi komitmen dan tanggal berlaku</h3><p>Sumber yang tersedia belum merinci kewajiban spesifik, misalnya pengecualian untuk penyimpanan data di dalam negeri atau seberapa jauh aliran data lintas batas dibuka. Tanggal berlakunya pun dijelaskan berbeda oleh dua sumber. Bagi Indonesia, ada satu tahap tambahan: ratifikasi lewat panitia antarkementerian. Karena itu, kemungkinan besar dampak praktis bagi perusahaan Indonesia baru terasa bertahap mulai paruh kedua 2027, dan bergantung pada aturan turunan. Perusahaan sebaiknya tidak mengubah arsitektur data hanya berdasarkan judul berita.</p><h3>Angka US$2 triliun perlu dibaca hati-hati</h3><p>US$2 triliun adalah potensi dari studi BCG dengan asumsi implementasi penuh, bukan proyeksi dasar. Angka ini juga tidak bisa dibandingkan langsung dengan nilai transaksi bruto (GMV) ekonomi digital yang biasa dikutip dari laporan Google, Temasek, dan Bain, karena metodenya berbeda. Yang lebih penting bagi pelaku usaha adalah mekanisme fleksibel DEFA: negara yang siap boleh jalan lebih dulu dalam inisiatif tertentu. Artinya, kemudahan lintas negara kemungkinan tidak merata; koridor tertentu bisa lebih cepat terbuka dibanding yang lain.</p><h3>Siapa diuntungkan, siapa tertekan</h3><p>Penjual dan merek yang sudah atau ingin menjual ke negara ASEAN lain, penyedia pembayaran lintas negara, serta penyedia dokumen perdagangan elektronik berpotensi paling diuntungkan jika proyek prioritas berjalan. Di sisi lain, aturan yang lebih seragam juga memudahkan pemain dari negara tetangga masuk ke pasar Indonesia, pasar ekonomi digital terbesar di kawasan menurut e-Conomy SEA 2025. Pelaku lokal yang selama ini terlindungi oleh perbedaan aturan perlu mencermati hal ini.</p>",
+      "actionHtml": "<h3>Untuk Head of E-Commerce dan CMO</h3><ol><li>Petakan pasar ASEAN yang realistis untuk ekspansi daring 2027–2028 dan pantau koridor mana yang lebih dulu menjalankan proyek DEFA.</li><li>Siapkan opsi pembayaran lintas negara di checkout dan uji biayanya sebelum kerangka pembayaran regional berjalan.</li></ol><h3>Untuk CIO, Legal, dan Compliance</h3><ol><li>Inventarisasi data pelanggan yang mengalir ke luar negeri (cloud, CRM, analitik) dan dasar hukumnya saat ini.</li><li>Pantau proses ratifikasi di Indonesia dan aturan turunannya; libatkan asosiasi industri untuk memberi masukan.</li><li>Siapkan proses verifikasi mitra yang kompatibel dengan identitas digital pelaku usaha, jika skema itu diterapkan.</li></ol><h3>Untuk penyedia teknologi</h3><p>Peluang ada pada pembayaran lintas negara, dokumen perdagangan elektronik, verifikasi identitas usaha, dan alat kepatuhan data multi-negara. Bangun produk yang bisa menyesuaikan diri dengan negara yang bergabung lebih dulu.</p>",
+      "faqHtml": "<h3>Apa itu ASEAN DEFA?</h3><p>Digital Economy Framework Agreement adalah perjanjian ekonomi digital ASEAN yang mengikat secara hukum, mencakup perdagangan digital, aliran data lintas batas, pembayaran elektronik, keamanan siber, dan AI. Perjanjian ini ditandatangani di Manila pada 14 November 2026.</p><h3>Kapan DEFA mulai berlaku?</h3><p>Sumber berbeda: 180 hari setelah penandatanganan menurut METI Jepang, atau 180 hari setelah negara anggota terakhir menandatangani menurut ANTARA. Indonesia masih perlu meratifikasinya.</p><h3>Apakah DEFA menggantikan perjanjian e-commerce ASEAN?</h3><p>Ya. DEFA menggantikan perjanjian e-commerce ASEAN 2019 yang diratifikasi Indonesia melalui UU Nomor 4 Tahun 2021.</p>",
+      "dataFigure": "US$2 T",
+      "dataLabel": "potensi nilai ekonomi digital ASEAN pada 2030 jika DEFA diterapkan penuh",
+      "dataSource": "Studi BCG, dikutip ANTARA, 13 November 2026",
+      "chart": {
+        "bars": [
+          {
+            "label": "Saat ini",
+            "value": 1,
+            "display": "US$1 T"
+          },
+          {
+            "label": "2030 (DEFA)",
+            "value": 2,
+            "display": "US$2 T"
+          }
+        ]
+      },
+      "audience": [
+        "Head of E-Commerce",
+        "CMO",
+        "CIO dan Legal",
+        "Penyedia pembayaran"
+      ],
+      "tags": [
+        "ASEAN DEFA",
+        "Perdagangan digital",
+        "Aliran data lintas batas",
+        "Pembayaran lintas negara",
+        "Airlangga Hartarto",
+        "Regulasi"
+      ],
+      "sources": [
+        {
+          "name": "ANTARA",
+          "title": "Indonesia siap tandatangani ASEAN DEFA pada 14 November 2026",
+          "url": "https://www.antaranews.com/berita/5852259/indonesia-siap-tandatangani-asean-defa-pada-14-november-2026",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "The Star",
+          "title": "Asean states sign Digital Economy Framework Agreement, which kicks in from early 2027",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/14/asean-states-sign-digital-economy-framework-agreement-which-kicks-in-from-early-2027",
+          "date": "2026-11-14"
+        },
+        {
+          "name": "ANTARA News",
+          "title": "ASEAN digital economy could reach US$2 trillion through DEFA: Prabowo",
+          "url": "https://en.antaranews.com/news/442811/asean-digital-economy-could-reach-us2-trillion-through-defa-prabowo",
+          "date": "2026-11-15"
+        }
+      ],
+      "seoTitle": "ASEAN DEFA Diteken: Dampak bagi E-Commerce dan Data",
+      "seoDescription": "ASEAN menandatangani DEFA di Manila, 14 November 2026: aturan data lintas batas, pembayaran, dan AI. Apa artinya bagi perusahaan Indonesia.",
+      "publishAt": "2026-11-16T06:00:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "ASEAN Signs DEFA in Manila: Binding Cross-Border Rules on Data, Payments and AI for 11 Countries",
+        "dek": "ASEAN member states signed the Digital Economy Framework Agreement (DEFA) in Manila on 14 November 2026, the region's first standalone, legally binding digital economy agreement. For Indonesian companies that sell or pay across borders, DEFA shifts the rules from e-commerce alone to data, payments, digital identity and AI.",
+        "summaryHtml": "<ul><li>ASEAN member states officially signed DEFA on Saturday, 14 November 2026, in Manila during the ASEAN Economic Community Council (AECC) meeting. Indonesia initiated the agreement during its 2023 ASEAN chairmanship. (ANTARA)</li><li>DEFA is described as ASEAN's first standalone, legally binding digital economy agreement. It covers digital trade, cross-border data flows, electronic payments, cybersecurity and artificial intelligence. Priority projects could include digital payment systems, digital identities for businesses and electronic trade documents. (The Star)</li><li>DEFA will replace the 2019 ASEAN e-commerce agreement, which Indonesia ratified through Law No. 4 of 2021. Indonesia will ratify DEFA through an inter-ministerial committee. (ANTARA)</li><li>Sources differ on entry into force: ANTARA says 180 days after the last member state signs, while The Star cites Japan's Ministry of Economy, Trade and Industry (METI) as saying 180 days after signing. ASEAN aims to roll out the first projects in early 2027. (ANTARA, The Star)</li><li>A BCG study estimates full DEFA implementation could raise the value of ASEAN's digital economy from about US$1 trillion to US$2 trillion by 2030. President Prabowo Subianto repeated the figure at the 49th ASEAN Summit on 15 November 2026. Coordinating Minister for Economic Affairs Airlangga Hartarto called the signing a strategic step. (ANTARA)</li></ul>",
+        "analysisHtml": "<h3>From online-store rules to digital-infrastructure rules</h3><p>The 2019 ASEAN e-commerce agreement mainly governed online buying and selling. DEFA goes further: data flows, payments, business digital identity, cybersecurity and AI come under one binding framework. For companies, technology decisions such as where customer data is stored, which payment gateway runs cross-border checkout and how trading partners are verified will increasingly be judged against regional commitments, not only domestic rules.</p><h3>What the news does not say: the commitments and the start date</h3><p>The available sources do not yet detail specific obligations, such as exceptions for storing data in-country or how far cross-border data flows will be opened. Two sources also describe the entry-into-force date differently. For Indonesia there is an extra step: ratification through an inter-ministerial committee. The practical impact on Indonesian companies is therefore likely to arrive gradually from the second half of 2027 and depend on implementing rules. Companies should not change their data architecture on the strength of headlines alone.</p><h3>The US$2 trillion figure needs careful reading</h3><p>US$2 trillion is a BCG estimate that assumes full implementation, not a baseline projection. It also cannot be compared directly with the gross merchandise value (GMV) figures usually cited from the Google, Temasek and Bain reports, because the methods differ. More important for business is DEFA's flexible mechanism: countries that are ready may move first on specific initiatives. Cross-border ease is therefore likely to be uneven, with some corridors opening faster than others.</p><h3>Who gains, who is squeezed</h3><p>Sellers and brands that already sell, or want to sell, into other ASEAN countries, cross-border payment providers and electronic trade-document providers stand to gain most if the priority projects move ahead. On the other hand, more uniform rules also make it easier for players from neighbouring countries to enter Indonesia, the region's largest digital economy according to e-Conomy SEA 2025. Local players that have been shielded by differences in rules should watch this closely.</p>",
+        "actionHtml": "<h3>For Heads of E-Commerce and CMOs</h3><ol><li>Map realistic ASEAN markets for online expansion in 2027–2028 and track which corridors run DEFA projects first.</li><li>Prepare cross-border payment options at checkout and test their costs before the regional payments framework is in place.</li></ol><h3>For CIOs, Legal and Compliance</h3><ol><li>Inventory customer data that flows abroad (cloud, CRM, analytics) and its current legal basis.</li><li>Follow Indonesia's ratification process and implementing rules; work through industry associations to give input.</li><li>Prepare partner-verification processes compatible with business digital identity, if such a scheme is adopted.</li></ol><h3>For technology providers</h3><p>Opportunities lie in cross-border payments, electronic trade documents, business identity verification and multi-country data compliance tools. Build products that can adapt to the countries that join first.</p>",
+        "faqHtml": "<h3>What is ASEAN DEFA?</h3><p>The Digital Economy Framework Agreement is a legally binding ASEAN digital economy agreement covering digital trade, cross-border data flows, electronic payments, cybersecurity and AI. It was signed in Manila on 14 November 2026.</p><h3>When does DEFA take effect?</h3><p>Sources differ: 180 days after signing according to Japan's METI, or 180 days after the last member state signs according to ANTARA. Indonesia still needs to ratify it.</p><h3>Does DEFA replace the ASEAN e-commerce agreement?</h3><p>Yes. DEFA replaces the 2019 ASEAN e-commerce agreement, which Indonesia ratified through Law No. 4 of 2021.</p>",
+        "dataFigure": "US$2T",
+        "dataLabel": "potential value of ASEAN's digital economy in 2030 with full DEFA implementation",
+        "dataSource": "BCG study, cited by ANTARA, 13 November 2026",
+        "chart": {
+          "bars": [
+            {
+              "label": "Today",
+              "value": 1,
+              "display": "US$1T"
+            },
+            {
+              "label": "2030 (DEFA)",
+              "value": 2,
+              "display": "US$2T"
+            }
+          ]
+        },
+        "seoTitle": "ASEAN Signs DEFA: What It Means for E-Commerce and Data",
+        "seoDescription": "ASEAN signed DEFA in Manila on 14 November 2026: rules on cross-border data, payments and AI. What it means for companies in Indonesia.",
+        "audience": [
+          "Heads of E-Commerce",
+          "CMOs",
+          "CIOs and Legal",
+          "Payment providers"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/asean-defa-ditandatangani-dampak-ecommerce-perusahaan-indonesia-en.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/asean-defa-ditandatangani-dampak-ecommerce-perusahaan-indonesia.png"
+    },
     {
       "slug": "pendanaan-startup-teknologi-indonesia-9m-2026-tracxn",
       "title": "Pendanaan Teknologi Indonesia Naik 111%, tetapi Satu Kesepakatan Menyumbang 74%",
