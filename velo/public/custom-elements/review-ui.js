@@ -117,11 +117,12 @@ review-ui .rv-logo{font-family:${SERIF};font-weight:700;letter-spacing:-.5px;lin
 review-ui .rv-logo span{color:${RED}}
 review-ui .rv-nav{display:flex;flex-wrap:wrap;gap:0 28px;font-size:15px;font-weight:600}
 review-ui .rv-nav a{padding:12px 0;display:inline-block}
+review-ui .rv-nav a.rv-hublink{display:inline-flex;align-items:center;gap:8px}
 review-ui .rv-subnav{display:flex;align-items:center;gap:0;padding:0;border-bottom:1px solid ${LINE};font-size:14px;font-weight:500;overflow-x:auto;white-space:nowrap;scrollbar-width:none}
 review-ui .rv-subnav::-webkit-scrollbar{display:none}
 review-ui .rv-zgroup{display:inline-flex;align-items:center;gap:16px;padding:11px 16px;border-left:1px solid ${LINE}}
 review-ui .rv-zgroup:first-child{border-left:none;padding-left:0}
-review-ui .rv-zgroup i{font-style:normal;flex:0 0 18px;width:18px;height:18px;border-radius:50%;color:#fff;font-size:10px;font-weight:700;display:inline-flex;align-items:center;justify-content:center}
+review-ui .rv-zgroup-unused i{font-style:normal;flex:0 0 18px;width:18px;height:18px;border-radius:50%;color:#fff;font-size:10px;font-weight:700;display:inline-flex;align-items:center;justify-content:center}
 review-ui .rv-zgroup a:hover{color:${RED}!important}
 review-ui .rv-kicker{font-size:12px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase}
 review-ui .rv-serif{font-family:${SERIF}}
@@ -221,14 +222,15 @@ ${this.langSwitch(d)}
   navLinks(d, L, active) {
     const hub = hubOf(active);
     const link = (n, h, on, color) => `<a href="${h}" style="color:${on ? RED : color}">${esc(n)}</a>`;
-    const hubs = HUBS.map((h) => link(h.n, L('/review?kategori=' + h.s), !!hub && hub.s === h.s, INK)).join('');
+    // Each hub carries the same numbered colour badge as its zone group in the second row.
+    const hubs = HUBS.map((h) => `<a href="${L('/review?kategori=' + h.s)}" class="rv-hublink" style="color:${hub && hub.s === h.s ? RED : INK}">${this.hubBadge(h, 20)}${esc(h.n)}</a>`).join('');
     return link(T().latest, L('/review'), !active, INK) + hubs + link(T().pr, L('/review?kategori=siaran-pers'), active === 'siaran-pers', MUTED);
   }
 
   // Second menu row: all 12 zones (short names), grouped by hub, on every page.
   subNav(d, L) {
     const h = hubOf(d.active);
-    return `<nav aria-label="Zones" class="rv-subnav">${HUBS.map((hb) => `<span class="rv-zgroup${h && h.s === hb.s ? ' on' : ''}"><i style="background:${hb.color}" title="${esc(hb.n)}">${hb.no}</i>${hb.zones.map(([n, s, sh]) => `<a href="${L('/review?kategori=' + s)}" title="${esc(n)}" style="color:${d.active === s ? RED : INK};${d.active === s ? 'font-weight:700' : ''}">${esc(sh || n)}</a>`).join('')}</span>`).join('')}</nav>`;
+    return `<nav aria-label="Zones" class="rv-subnav">${HUBS.map((hb) => `<span class="rv-zgroup${h && h.s === hb.s ? ' on' : ''}"><a href="${L('/review?kategori=' + hb.s)}" aria-label="${esc(hb.n)}" title="${esc(hb.n)}" style="display:inline-flex">${this.hubBadge(hb, 18)}</a>${hb.zones.map(([n, s, sh]) => `<a href="${L('/review?kategori=' + s)}" title="${esc(n)}" style="color:${d.active === s ? RED : INK};${d.active === s ? 'font-weight:700' : ''}">${esc(sh || n)}</a>`).join('')}</span>`).join('')}</nav>`;
   }
 
   masthead(d, L) {
