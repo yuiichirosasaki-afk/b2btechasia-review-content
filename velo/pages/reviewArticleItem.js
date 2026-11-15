@@ -1,69 +1,127 @@
 // Page code: Review Articles (Item) — URL /review/{slug}
-// The whole article is rendered into one text element (#text747) so it is
-// server-rendered and indexable. Layout helpers live in public/reviewUi.js.
+// Layout (top to bottom): #ceTop (<review-ui part="top">), #text747 (headline block, server-rendered),
+// #heroImage (data graphic), #bodyText (article body, server-rendered) with #ceSide beside it,
+// #ceBottom (<review-ui part="bottom">). Article text stays in Wix text elements so it is indexable.
 
 import wixData from 'wix-data';
 import wixSeoFrontend from 'wix-seo-frontend';
-import { C, TYPE_LABEL, esc, fmtDate, p, a, rule, masthead, expoBox, footer, ink, categorySlug } from 'public/reviewUi.js';
+import wixWindowFrontend from 'wix-window-frontend';
 
-const SERIF = "font-family:'playfair display',georgia,serif";
+const NAVY = '#0B2A4A';
+const RED = '#B42318';
+const INK = '#14181F';
+const BODY = '#1F2630';
+const SUB = '#5F6B7A';
+const SERIF = "font-family:'Source Serif 4',Georgia,serif";
+const SANS = "font-family:'IBM Plex Sans',system-ui,sans-serif";
+const MONTHS = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+const TYPE_LABEL = { analisis: 'Analisis', berita: 'Berita', penjelasan: 'Penjelasan' };
+const CAT_SLUG = { 'Cybersecurity': 'cybersecurity', 'AI & Data': 'ai-data', 'Cloud & Data Center': 'cloud-data-center', 'Enterprise Adoption': 'enterprise-adoption', 'Regulasi': 'regulasi', 'Deals': 'deals' };
 
-function heading(text) {
-  return `<h2 style="font-size:26px; line-height:1.3"><span style="color:${C.navy}">${text}</span></h2>`;
+function esc(s) {
+  return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
+function wib(d) { return new Date(new Date(d).getTime() + 7 * 3600 * 1000); }
+function dateTime(d) {
+  const x = wib(d);
+  return `${x.getUTCDate()} ${MONTHS[x.getUTCMonth()]} ${x.getUTCFullYear()}, ${String(x.getUTCHours()).padStart(2, '0')}.${String(x.getUTCMinutes()).padStart(2, '0')} WIB`;
+}
+function words(h) { return String(h || '').replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length; }
+
+function kicker(text, color) {
+  return `<h2 style="font-size:13px; letter-spacing:0.1em; line-height:1.4"><span style="${SANS}; color:${color || NAVY}"><strong>${text}</strong></span></h2>`;
+}
+
+// Article HTML (p, ul, ol, li, h3, strong, em, a) → styled HTML. Lists become paragraphs with
+// explicit markers because the site theme hides list bullets.
+function body(html, opts) {
+  const o = opts || {};
+  const size = o.size || 19;
+  const font = o.sans ? SANS : SERIF;
+  let s = String(html || '');
+  s = s.replace(/<ol>([\s\S]*?)<\/ol>/g, (m, inner) => {
+    let n = 0;
+    return inner.replace(/<li>([\s\S]*?)<\/li>/g, (mm, li) => `<p style="font-size:${size - 2}px; line-height:1.65; margin-left:26px; text-indent:-26px"><span style="${font}; color:${BODY}"><strong>${++n}.</strong>&nbsp;&nbsp;${li}</span></p>`);
+  });
+  s = s.replace(/<ul>([\s\S]*?)<\/ul>/g, (m, inner) =>
+    inner.replace(/<li>([\s\S]*?)<\/li>/g, (mm, li) => `<p style="font-size:${size - 2}px; line-height:1.65; margin-left:22px; text-indent:-18px"><span style="${font}; color:${BODY}">•&nbsp;&nbsp;${li}</span></p>`));
+  return s
+    .replace(/<p>/g, `<p style="font-size:${size}px; line-height:1.7"><span style="${font}; color:${BODY}">`).replace(/<\/p>/g, '</span></p>')
+    .replace(/<h3>/g, `<h3 style="font-size:24px; line-height:1.3"><span style="${SERIF}; color:${INK}"><strong>`).replace(/<\/h3>/g, '</strong></span></h3>')
+    .replace(/<a\s[^>]*?href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/g, `<a href="$1" target="_blank" rel="noopener"><span style="color:${NAVY}"><u>$2</u></span></a>`);
+}
+
+function gap(px) { return `<p style="font-size:${px}px; line-height:1"><span>&nbsp;</span></p>`; }
 
 $w.onReady(async function () {
   const item = $w('#dynamicDataset').getCurrentItem();
   if (!item) return;
 
+  const lang = (wixWindowFrontend.multilingual && wixWindowFrontend.multilingual.currentLanguage) || 'id';
+  const base = lang && lang !== 'en' ? '/' + lang : '';
+  const catSlug = CAT_SLUG[item.category] || '';
+  const type = TYPE_LABEL[item.articleType] || 'Analisis';
+  const readMin = Math.max(2, Math.round((words(item.summaryHtml) + words(item.analysisHtml) + words(item.actionHtml) + words(item.faqHtml)) / 200));
+
   const related = await wixData.query('ReviewArticles')
     .eq('category', item.category).ne('slug', item.slug).le('publishAt', new Date())
     .descending('publishAt').limit(3).find().then((r) => r.items).catch(() => []);
+  const latest = related.length ? related : await wixData.query('ReviewArticles')
+    .ne('slug', item.slug).le('publishAt', new Date()).descending('publishAt').limit(3).find().then((r) => r.items).catch(() => []);
 
-  const parts = [masthead(categorySlug(item.category))];
+  const chrome = { base, narrow: true, now: new Date().toISOString(), active: catSlug };
+  $w('#ceTop').setAttribute('data', JSON.stringify(chrome));
+  $w('#ceBottom').setAttribute('data', JSON.stringify(chrome));
+  $w('#ceSide').setAttribute('data', JSON.stringify(Object.assign({}, chrome, {
+    article: { category: item.category, audience: item.audience || [] },
+    related: latest.map((r) => ({ slug: r.slug, title: r.title })),
+  })));
 
-  parts.push(p(`<strong>${a('/review?kategori=' + categorySlug(item.category), esc(item.category).toUpperCase(), C.red)}</strong><span style="color:${C.muted}"> · ${TYPE_LABEL[item.articleType] || 'Analisis'}</span>`, 13, C.red, 'letter-spacing:0.06em'));
-  parts.push(`<h1 style="font-size:38px; line-height:1.15"><span style="color:${C.head}">${esc(item.title)}</span></h1>`);
-  parts.push(p(esc(item.dek), 20, '#333B47', 'line-height:1.5'));
-  parts.push(p(`Redaksi B2B Tech Asia Review · ${fmtDate(item.publishAt)}`, 14, C.muted));
-  parts.push(p('&nbsp;', 6, C.ink));
+  // Headline block
+  const head = [];
+  head.push(`<p style="font-size:13px"><span style="${SANS}; color:${SUB}"><a href="/review"><span style="color:${SUB}">Berita</span></a> &nbsp;›&nbsp; <a href="/review?kategori=${catSlug}"><span style="color:${SUB}">${esc(item.category)}</span></a> &nbsp;›&nbsp; ${type}</span></p>`);
+  head.push(gap(8));
+  head.push(`<p style="font-size:12px; letter-spacing:0.1em"><span style="${SANS}; color:${RED}"><strong>${type.toUpperCase()}</strong></span><span style="${SANS}; color:${NAVY}"><strong> &nbsp;·&nbsp; ${esc(item.category).toUpperCase()}</strong></span></p>`);
+  head.push(`<h1 style="font-size:46px; line-height:1.12"><span style="${SERIF}; color:${INK}"><strong>${esc(item.title)}</strong></span></h1>`);
+  head.push(gap(6));
+  head.push(`<p style="font-size:21px; line-height:1.5"><span style="${SERIF}; color:#333B47">${esc(item.dek)}</span></p>`);
+  head.push(gap(6));
+  head.push(`<p style="font-size:14px; line-height:1.6"><span style="${SANS}; color:${INK}"><strong>Redaksi B2B Tech Asia Review</strong></span><span style="${SANS}; color:#4A5361"> &nbsp;·&nbsp; ${dateTime(item.publishAt)} &nbsp;·&nbsp; ${readMin} menit baca</span></p>`);
+  $w('#text747').html = head.join('');
 
-  if (item.dataFigure) {
-    parts.push(rule());
-    parts.push(`<p style="font-size:60px; line-height:1.05; ${SERIF}"><span style="color:${C.navy}">${esc(item.dataFigure)}</span></p>`);
-    parts.push(p(esc(item.dataLabel), 17, '#333B47'));
-    parts.push(p(`Sumber: ${esc(item.dataSource)}`, 12, C.muted));
-    parts.push(rule());
+  // Hero data graphic
+  if (item.heroImage) {
+    $w('#heroImage').src = item.heroImage;
+    $w('#heroImage').alt = `${item.dataFigure || ''} ${item.dataLabel || ''}`.trim();
+  } else {
+    $w('#heroImage').collapse();
   }
 
-  parts.push(heading('Ringkasan Berita'));
-  parts.push(p('Disusun dari laporan media. Kutipan langsung ditandai dan sumber dicantumkan.', 13, C.muted));
-  parts.push(ink(item.summaryHtml));
-  parts.push(heading(item.articleType === 'penjelasan' ? 'Penjelasan' : 'Di Balik Berita'));
-  parts.push(ink(item.analysisHtml));
-  parts.push(heading('Apa Artinya bagi Anda'));
-  parts.push(ink(item.actionHtml));
+  // Body
+  const b = [];
+  if (item.dataSource) {
+    b.push(`<p style="font-size:13px; line-height:1.5"><span style="${SANS}; color:${SUB}">Grafis: B2B Tech Asia Review. Data: ${esc(item.dataSource)}.</span></p>`);
+    b.push(gap(18));
+  }
+  b.push(kicker('RINGKASAN BERITA'));
+  b.push(`<p style="font-size:13px"><span style="${SANS}; color:${SUB}">Disusun dari laporan media. Kutipan langsung ditandai dan sumber dicantumkan.</span></p>`);
+  b.push(body(item.summaryHtml, { sans: true, size: 17 }));
+  b.push(gap(24));
+  b.push(kicker(item.articleType === 'penjelasan' ? 'PENJELASAN' : 'DI BALIK BERITA', RED));
+  b.push(body(item.analysisHtml));
+  b.push(gap(24));
+  b.push(kicker('APA ARTINYA BAGI ANDA', RED));
+  b.push(body(item.actionHtml));
   if (item.faqHtml) {
-    parts.push(heading('Pertanyaan yang Sering Diajukan'));
-    parts.push(ink(item.faqHtml));
+    b.push(gap(24));
+    b.push(kicker('PERTANYAAN YANG SERING DIAJUKAN'));
+    b.push(body(item.faqHtml));
   }
-  parts.push(heading('Sumber'));
-  parts.push(ink(item.sourcesHtml));
-  parts.push(p('Kutipan digunakan secara terbatas dengan menyebut sumber. Hak cipta kutipan tetap milik media masing-masing. Analisis adalah pandangan redaksi B2B Tech Asia Review.', 13, C.muted));
-
-  parts.push(expoBox());
-
-  if (related.length) {
-    parts.push(`<h2 style="font-size:22px"><span style="color:${C.head}">Lainnya di ${esc(item.category)}</span></h2>`);
-    related.forEach((r) => {
-      parts.push(`<h3 style="font-size:19px; line-height:1.35">${a('/review/' + r.slug, esc(r.title), C.head)}</h3>`);
-      parts.push(p(fmtDate(r.publishAt), 13, C.muted));
-    });
-  }
-  parts.push(p(a('/review', '← Semua artikel B2B Tech Asia Review', C.accent), 16, C.accent));
-  parts.push(footer());
-
-  $w('#text747').html = parts.join('');
+  b.push(gap(24));
+  b.push(kicker('SUMBER'));
+  b.push(body(item.sourcesHtml, { sans: true, size: 16 }));
+  b.push(`<p style="font-size:13px; line-height:1.6"><span style="${SANS}; color:${SUB}">Kutipan digunakan secara terbatas dengan menyebut sumber. Hak cipta kutipan tetap milik media masing-masing. Analisis adalah pandangan redaksi B2B Tech Asia Review.</span></p>`);
+  $w('#bodyText').html = b.join('');
 
   const description = item.seoDescription || item.dek;
   await wixSeoFrontend.setTitle((item.seoTitle || item.title) + ' | B2B Tech Asia Review');
@@ -72,12 +130,13 @@ $w.onReady(async function () {
     { property: 'og:title', content: item.seoTitle || item.title },
     { property: 'og:description', content: description },
     { property: 'og:type', content: 'article' },
-  ]);
+  ].concat(item.heroImage ? [{ property: 'og:image', content: item.heroImage }] : []));
   await wixSeoFrontend.setStructuredData([{
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
     headline: item.title,
     description,
+    image: item.heroImage ? [item.heroImage] : undefined,
     datePublished: new Date(item.publishAt).toISOString(),
     dateModified: new Date(item._updatedDate || item.publishAt).toISOString(),
     inLanguage: 'id',

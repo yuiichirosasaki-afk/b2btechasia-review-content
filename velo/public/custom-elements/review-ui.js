@@ -45,6 +45,8 @@ review-ui *{box-sizing:border-box}
 review-ui a{color:${INK};text-decoration:none}
 review-ui a:hover{color:${RED}}
 review-ui .rv-wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+review-ui.rv-narrow .rv-wrap{max-width:1028px}
+review-ui.rv-side .rv-wrap{padding:0}
 review-ui .rv-topbar{border-bottom:1px solid ${LINE};background:${PANEL}}
 review-ui .rv-topbar .rv-wrap{padding-top:8px;padding-bottom:8px;display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;align-items:center;font-size:13px;color:${MUTED}}
 review-ui .rv-logo{font-family:${SERIF};font-weight:700;letter-spacing:-.5px;line-height:1;color:${NAVY}}
@@ -91,6 +93,7 @@ class ReviewUi extends HTMLElement {
     const part = this.getAttribute('part') || 'front';
     const base = d.base || '';
     const L = (path) => base + path;
+    this.classList.toggle('rv-narrow', !!d.narrow);
     let html = '';
     if (part === 'front') html = d.view === 'list' ? this.list(d, L) : this.front(d, L);
     else if (part === 'top') html = this.topbar(d, L) + this.compactHeader(d, L);
