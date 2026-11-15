@@ -70,6 +70,9 @@ $w.onReady(async function () {
     .ne('slug', item.slug).le('publishAt', new Date()).descending('publishAt').limit(3).find().then((r) => r.items).catch(() => []);
 
   const chrome = { base, narrow: true, now: new Date().toISOString(), active: catSlug };
+  $w('#ceTop').setAttribute('part', 'top');
+  $w('#ceBottom').setAttribute('part', 'bottom');
+  $w('#ceSide').setAttribute('part', 'side');
   $w('#ceTop').setAttribute('data', JSON.stringify(chrome));
   $w('#ceBottom').setAttribute('data', JSON.stringify(chrome));
   $w('#ceSide').setAttribute('data', JSON.stringify(Object.assign({}, chrome, {
