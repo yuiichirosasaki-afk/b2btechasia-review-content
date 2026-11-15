@@ -23,7 +23,7 @@ const SANS = "'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif"
 const HUBS = [
   { n: 'AI & Automation Hub', s: 'ai-automation-hub', no: 1, color: '#8E3B3F',
     id: 'Keputusan teknis dan infrastruktur', en: 'Technical & infrastructure decisions', who: 'CTO, IT Director, Infrastructure Lead',
-    zones: [['AI & Automation', 'ai-automation', 'AI & Automation'], ['Cloud & IT Infrastructure', 'cloud-it-infrastructure', 'Cloud & Infra'], ['Cybersecurity & Data Protection', 'cybersecurity-data-protection', 'Cybersecurity'], ['Enterprise Software & ERP', 'enterprise-software-erp', 'ERP & Software']] },
+    zones: [['AI & Automation', 'ai-automation', 'AI'], ['Cloud & IT Infrastructure', 'cloud-it-infrastructure', 'Cloud'], ['Cybersecurity & Data Protection', 'cybersecurity-data-protection', 'Cybersecurity'], ['Enterprise Software & ERP', 'enterprise-software-erp', 'ERP']] },
   { n: 'Growth & Revenue Hub', s: 'growth-revenue-hub', no: 2, color: '#2C4A68',
     id: 'Akuisisi dan retensi pelanggan', en: 'Customer acquisition & retention', who: 'CMO, Head of Sales, Growth Lead',
     zones: [['Marketing Technology', 'marketing-technology', 'MarTech'], ['Sales & CRM', 'sales-crm', 'Sales & CRM'], ['Customer Engagement & CX', 'customer-engagement-cx', 'CX'], ['E-Commerce & Retail Tech', 'ecommerce-retail-tech', 'E-Commerce']] },
@@ -52,7 +52,7 @@ const TEXT = {
     prSub: 'Disediakan oleh perusahaan melalui VRITIMES, bukan konten redaksi', prAll: 'Lihat semua siaran pers →', via: 'via VRITIMES',
     byline: 'Redaksi B2B Tech Asia Review', minRead: 'menit baca', forWho: 'Untuk', writtenFor: 'Ditulis untuk', related: 'Berita Terkait',
     empty: 'Belum ada artikel di bagian ini.', expoLink: 'B2B Tech Asia Expo 2027 →', register: 'Daftar sebagai Pengunjung',
-    exhibitors: 'Lihat Exhibitor', proposal: 'Minta Proposal Exhibitor', expoDates: '14–15 Juli 2027', ad: 'Iklan', cta: 'Daftar Sekarang', tagline: 'Ajang software B2B terbesar di Asia Tenggara',
+    exhibitors: 'Lihat Exhibitor', proposal: 'Minta Proposal Exhibitor', expoDates: '14–15 Juli 2027', ad: 'Iklan', cta: 'Daftar Sekarang', expoTagline: 'Ajang software B2B terbesar di Asia Tenggara',
     expoKicker: 'Pameran · Jakarta', expoDesc: 'Bertemu langsung dengan penyedia SaaS, AI, dan keamanan siber yang Anda baca di sini.',
     expoShort: 'Pameran SaaS, AI, dan keamanan siber untuk perusahaan di Indonesia.',
     sideTitle: (c) => `Temui penyedia ${c} di B2B Tech Asia Expo 2027`,
@@ -67,7 +67,7 @@ const TEXT = {
     prSub: 'Supplied by companies via VRITIMES (in Indonesian), not editorial content', prAll: 'All press releases →', via: 'via VRITIMES',
     byline: 'B2B Tech Asia Review editors', minRead: 'min read', forWho: 'For', writtenFor: 'Written for', related: 'Related',
     empty: 'No articles in this section yet.', expoLink: 'B2B Tech Asia Expo 2027 →', register: 'Register to Visit',
-    exhibitors: 'See Exhibitors', proposal: 'Request Exhibitor Proposal', expoDates: '14–15 July 2027', ad: 'Advertisement', cta: 'Register Now', tagline: 'The Biggest Event for B2B Software only in Southeast Asia',
+    exhibitors: 'See Exhibitors', proposal: 'Request Exhibitor Proposal', expoDates: '14–15 July 2027', ad: 'Advertisement', cta: 'Register Now', expoTagline: 'The Biggest Event for B2B Software only in Southeast Asia',
     expoKicker: 'Exhibition · Jakarta', expoDesc: 'Meet the SaaS, AI and cybersecurity providers you read about here, in person.',
     expoShort: 'The SaaS, AI and cybersecurity exhibition for companies in Indonesia.',
     sideTitle: (c) => `Meet ${c} providers at B2B Tech Asia Expo 2027`,
@@ -119,7 +119,7 @@ review-ui .rv-nav{display:flex;flex-wrap:wrap;gap:0 28px;font-size:15px;font-wei
 review-ui .rv-nav a{padding:12px 0;display:inline-block}
 review-ui .rv-subnav{display:flex;align-items:center;gap:0;padding:0;border-bottom:1px solid ${LINE};font-size:14px;font-weight:500;overflow-x:auto;white-space:nowrap;scrollbar-width:none}
 review-ui .rv-subnav::-webkit-scrollbar{display:none}
-review-ui .rv-zgroup{display:inline-flex;align-items:center;gap:18px;padding:11px 18px;border-left:1px solid ${LINE}}
+review-ui .rv-zgroup{display:inline-flex;align-items:center;gap:16px;padding:11px 16px;border-left:1px solid ${LINE}}
 review-ui .rv-zgroup:first-child{border-left:none;padding-left:0}
 review-ui .rv-zgroup i{font-style:normal;flex:0 0 18px;width:18px;height:18px;border-radius:50%;color:#fff;font-size:10px;font-weight:700;display:inline-flex;align-items:center;justify-content:center}
 review-ui .rv-zgroup a:hover{color:${RED}!important}
@@ -266,12 +266,12 @@ ${this.subNav(d, L)}
   leader(d, L, top, inGrid) {
     const t = T();
     return `<div ${inGrid ? 'style="grid-column:1/-1"' : `class="rv-wrap" style="margin-top:${top == null ? 24 : top}px"`}><span class="rv-adlabel">${t.ad}</span>
-<a class="bn bn-leader" href="${L('/register-now-2')}" aria-label="B2B Tech Asia 2027 — ${esc(t.cta)}" style="background-image:linear-gradient(90deg,${BN_NAVY} 0%,${BN_NAVY} 42%,rgba(18,26,58,.72) 68%,rgba(18,26,58,.25) 100%),url('${bnImg(BN_STAGE, 1400, 360)}')">
+<a class="bn bn-leader" href="${L('/register-now-2')}" aria-label="B2B Tech Asia 2027 — ${esc(t.cta)}" style="background-image:linear-gradient(90deg,${BN_NAVY} 0%,rgba(18,26,58,.92) 38%,rgba(18,26,58,.55) 64%,rgba(18,26,58,.15) 100%),url('${bnImg(BN_STAGE, 1400, 360)}')">
 ${this.logoChip()}
 <span class="bn-col">
 <span class="bn-date">${t.expoDates} · Jakarta</span>
 <span class="bn-title">B2B TECH ASIA 2027</span>
-<span class="bn-sub">${t.tagline}</span>
+<span class="bn-sub">${t.expoTagline}</span>
 </span>
 <span class="bn-cta">${t.cta} →</span>
 </a></div>`;
@@ -311,7 +311,7 @@ ${this.logoChip()}
 <span class="bn-body">
 ${this.logoChip()}
 <span class="bn-title" style="font-size:24px">B2B TECH ASIA 2027</span>
-<span class="bn-sub">${t.tagline}</span>
+<span class="bn-sub">${t.expoTagline}</span>
 <span class="bn-sub" style="opacity:.8">${VENUE}</span>
 <span class="bn-cta">${t.cta} →</span>
 </span></a></div>`;
@@ -523,7 +523,7 @@ ${rel.map((r) => `<a href="${L('/review/' + r.slug)}" class="rv-serif" style="di
 ${this.logoChip()}
 <span class="bn-date">${t.expoDates} · ${VENUE}</span>
 <span class="bn-title" style="font-size:40px">B2B TECH ASIA 2027</span>
-<span class="bn-sub" style="font-size:17px;max-width:560px">${t.tagline}. ${t.expoDesc}</span>
+<span class="bn-sub" style="font-size:17px;max-width:560px">${t.expoTagline}. ${t.expoDesc}</span>
 </span>
 <span style="display:flex;flex-wrap:wrap;gap:12px">
 <a href="${L('/register-now-2')}" class="bn-cta">${t.cta} →</a>
