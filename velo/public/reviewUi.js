@@ -68,7 +68,7 @@ export function a(href, text, color, external) {
 }
 
 export function rule() {
-  return p('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━', 10, C.rule, 'letter-spacing:-1px; overflow:hidden; white-space:nowrap');
+  return p('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━', 10, C.rule, 'letter-spacing:-1px; overflow:hidden; white-space:nowrap');
 }
 
 export function categorySlug(name) {
