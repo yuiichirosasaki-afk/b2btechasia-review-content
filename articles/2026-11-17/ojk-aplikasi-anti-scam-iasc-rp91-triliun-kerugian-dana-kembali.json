@@ -1,0 +1,106 @@
+{
+  "slug": "ojk-aplikasi-anti-scam-iasc-rp91-triliun-kerugian-dana-kembali",
+  "title": "OJK Siapkan Aplikasi Anti-Scam: Rp9,1 Triliun Kerugian Dilaporkan, Baru Rp208,9 Miliar Kembali",
+  "category": "Cybersecurity & Data Protection",
+  "articleType": "analisis",
+  "dek": "OJK menyiapkan aplikasi anti-scam terintegrasi yang masih berada di tahap sandbox. Data Indonesia Anti-Scam Centre menunjukkan kerugian yang dilaporkan lebih dari Rp9,1 triliun, sementara dana korban yang dikembalikan baru Rp208,9 miliar.",
+  "summaryHtml": "<ul><li>Kabarbisnis (16 November 2026) melaporkan OJK menyiapkan aplikasi anti-scam terintegrasi. Dicky Kartikoyono, Kepala Eksekutif Pengawas Perilaku Pelaku Usaha Jasa Keuangan, Edukasi dan Pelindungan Konsumen, menyampaikannya di acara GEBER PK 2027 di Jakarta.</li><li>Aplikasi dirancang menjawab empat pertanyaan: apakah nomor telepon sah, apakah tautan asli, apakah video atau suara asli atau deepfake AI, dan apakah rekening tujuan aman atau pernah ditandai dipakai untuk kejahatan. Statusnya masih sandbox, dengan dukungan pendanaan dari ADB, Bank Dunia, dan Gates Foundation.</li><li>Tahap pertama memetakan status keamanan lewat daftar hitam dan daftar putih; tahap kedua menghubungkan data ke Satgas PASTI, kementerian dan lembaga, operator telekomunikasi, serta asosiasi industri keuangan; kemudian ditambah AI untuk analisis jaringan penipuan.</li><li>Data Indonesia Anti-Scam Centre (IASC) yang beroperasi sejak 22 November 2024, per 28 Oktober 2026: 737.686 laporan; 1.471.112 rekening dilaporkan, 743.589 diblokir; dana korban diblokir Rp967,5 miliar dan dikembalikan Rp208,9 miliar; total kerugian yang dilaporkan lebih dari Rp9,1 triliun; sekitar 1.000 laporan per hari.</li><li>Katadata (3 Oktober 2026) mencatat Dicky menyebut konsepnya mirip QRIS, serta waktu emas penanganan setelah penipuan kurang dari empat menit karena dana bisa berpindah antarbank.</li></ul>",
+  "analysisHtml": "<h3>Selisih terbesar: dana yang terblokir versus yang hilang</h3><p>Dengan angka OJK, dana korban yang berhasil diblokir (Rp967,5 miliar) setara paling banyak sekitar 10,6% dari kerugian yang dilaporkan (lebih dari Rp9,1 triliun), dan dana yang sudah dikembalikan (Rp208,9 miliar) sekitar 21,6% dari yang terblokir (hitungan redaksi). Perbandingan ini kasar karena periodenya kumulatif dan angka kerugian dinyatakan sebagai lebih dari, tetapi arahnya jelas: pemulihan setelah kejadian hanya menyelamatkan sebagian kecil. Itu menjelaskan mengapa OJK menggeser fokus ke pencegahan sebelum transaksi.</p><h3>Mengapa empat menit menentukan</h3><p>Menurut Dicky, waktu emas penanganan kurang dari empat menit karena dana dapat berpindah ke beberapa bank, bahkan ke aset kripto atau luar negeri. Aplikasi yang memungkinkan pengecekan nomor, tautan, dan rekening sebelum transfer menarik logika kecepatan itu ke hulu. Pada Oktober cakupan yang disebut baru pengecekan legalitas perusahaan dan rekening; pada November ditambah pemeriksaan deepfake, yang menunjukkan cakupannya melebar.</p><h3>Nilainya bergantung pada kualitas data</h3><p>OJK meminta industri dan pihak lain menyumbangkan data, dan menyebut Malaysia yang menyatukan delapan kementerian dan lembaga dalam satu platform. Pertanyaan yang belum terjawab di sumber: siapa yang memperbarui daftar hitam dan putih, bagaimana kesalahan penandaan ditangani, dan kapan aplikasi diluncurkan. Tidak ada tanggal peluncuran dalam kedua laporan. Perlu dicermati juga bahwa daftar hitam hanya efektif bila rekening baru yang dipakai penipu cepat masuk daftar.</p><h3>Dampak bagi perusahaan</h3><p>Bank, fintech, e-commerce, dan operator telekomunikasi kemungkinan menjadi penyumbang dan pengguna data utama. Bagi perusahaan lain, nama dan merek yang sering dipalsukan penipu dapat menjadi beban layanan pelanggan; integrasi dengan sistem rujukan resmi bisa mengurangi beban itu, tetapi detail teknisnya belum diumumkan.</p>",
+  "actionHtml": "<h3>Untuk CISO dan Kepala Risiko/Fraud di bank, fintech, dan e-commerce</h3><ol><li>Petakan data yang dapat dikontribusikan (nomor, tautan, rekening yang pernah dilaporkan) dan tentukan prosedur pembagian yang sesuai ketentuan pelindungan data pribadi.</li><li>Uji kemampuan membekukan atau menandai transaksi mencurigakan dalam hitungan menit, bukan jam, mengingat acuan empat menit.</li><li>Pantau perkembangan sandbox dan siapkan kesiapan integrasi API ketika OJK membuka tahap kedua.</li></ol><h3>Untuk Kepala Layanan Pelanggan dan Komunikasi</h3><p>Siapkan pesan cek sebelum transfer dan daftar kanal resmi perusahaan agar pelanggan mudah membedakan komunikasi asli dari palsu.</p><h3>Untuk vendor keamanan dan anti-fraud</h3><p>Pasar yang paling terbuka kemungkinan ada pada deteksi deepfake dan analisis jaringan rekening; tunggu spesifikasi resmi sebelum merancang produk.</p>",
+  "faqHtml": "<h3>Apakah aplikasi anti-scam OJK sudah bisa diunduh?</h3><p>Belum. Laporan 16 November 2026 menyebut aplikasi masih tahap sandbox, dan tidak ada tanggal peluncuran yang diumumkan.</p><h3>Apa saja yang akan bisa dicek lewat aplikasi ini?</h3><p>Keabsahan nomor telepon, keaslian tautan, keaslian video atau suara (apakah deepfake AI), dan keamanan rekening tujuan transfer.</p>",
+  "dataFigure": "Rp9,1 T+",
+  "dataLabel": "total kerugian penipuan yang dilaporkan ke IASC sejak 22 November 2024",
+  "dataSource": "OJK/IASC, data per 28 Oktober 2026, via Kabarbisnis (16 November 2026)",
+  "chart": {
+    "bars": [
+      {
+        "label": "Kerugian",
+        "value": 9100,
+        "display": "Rp9,1 T+"
+      },
+      {
+        "label": "Diblokir",
+        "value": 967.5,
+        "display": "Rp967,5 M"
+      },
+      {
+        "label": "Kembali",
+        "value": 208.9,
+        "display": "Rp208,9 M"
+      }
+    ]
+  },
+  "audience": [
+    "CISO",
+    "Kepala Risiko/Fraud",
+    "Bank dan fintech",
+    "Vendor keamanan"
+  ],
+  "tags": [
+    "OJK",
+    "Anti-scam",
+    "IASC",
+    "Penipuan digital",
+    "Deepfake",
+    "Satgas PASTI",
+    "Perlindungan konsumen"
+  ],
+  "sources": [
+    {
+      "name": "Kabarbisnis",
+      "title": "Cegah Penipuan, OJK Siapkan Aplikasi Anti-Scam",
+      "url": "https://www.kabarbisnis.com/read/28137953/cegah-penipuan-ojk-siapkan-aplikasi-anti-scam",
+      "date": "2026-11-16"
+    },
+    {
+      "name": "Katadata",
+      "title": "OJK Siapkan Aplikasi Anti-Scam, Konsepnya Mirip QRIS",
+      "url": "https://katadata.co.id/finansial/keuangan/6ac0e9a9d593a/ojk-siapkan-aplikasi-anti-scam-konsepnya-mirip-qris",
+      "date": "2026-10-03"
+    }
+  ],
+  "seoTitle": "Aplikasi Anti-Scam OJK: Rp9,1 Triliun Kerugian Dilaporkan",
+  "seoDescription": "OJK siapkan aplikasi anti-scam. Data IASC: kerugian lebih dari Rp9,1 triliun, dana kembali Rp208,9 miliar. Apa langkah CISO dan tim fraud?",
+  "publishAt": "2026-11-17T07:30:00+07:00",
+  "language": "id",
+  "en": {
+    "title": "OJK Prepares Anti-Scam App: Rp9.1 Trillion in Losses Reported, Only Rp208.9 Billion Returned",
+    "dek": "OJK is preparing an integrated anti-scam app that is still in a sandbox stage. Data from the Indonesia Anti-Scam Centre shows reported losses of more than Rp9.1 trillion, while victim funds returned total only Rp208.9 billion.",
+    "dataFigure": "Rp9.1T+",
+    "dataLabel": "total scam losses reported to IASC since 22 November 2024",
+    "dataSource": "OJK/IASC, data as of 28 October 2026, via Kabarbisnis (16 November 2026)",
+    "seoTitle": "OJK Anti-Scam App: Rp9.1 Trillion in Losses Reported",
+    "seoDescription": "OJK is preparing an anti-scam app. IASC data: losses above Rp9.1 trillion, Rp208.9 billion returned. What CISOs and fraud teams should do.",
+    "audience": [
+      "CISO",
+      "Head of Risk/Fraud",
+      "Banks and fintechs",
+      "Security vendors"
+    ],
+    "chart": {
+      "bars": [
+        {
+          "label": "Losses",
+          "value": 9100,
+          "display": "Rp9.1T+"
+        },
+        {
+          "label": "Blocked",
+          "value": 967.5,
+          "display": "Rp967.5B"
+        },
+        {
+          "label": "Returned",
+          "value": 208.9,
+          "display": "Rp208.9B"
+        }
+      ]
+    },
+    "summaryHtml": "<ul><li>Kabarbisnis (16 November 2026) reports that OJK is preparing an integrated anti-scam app. Dicky Kartikoyono, OJK's chief executive for business conduct supervision, education and consumer protection, announced it at GEBER PK 2027 in Jakarta.</li><li>The app is designed to answer four questions: is the phone number legitimate, is the link genuine, is the video or audio real or an AI deepfake, and is the destination account safe or flagged as used for crime. It is still in a sandbox, with funding support from ADB, the World Bank and the Gates Foundation.</li><li>Phase one maps safety status through blacklists and whitelists; phase two connects the data to Satgas PASTI, ministries and agencies, telecom operators and financial industry associations; AI for fraud-network analysis is to follow.</li><li>Data from the Indonesia Anti-Scam Centre (IASC), operating since 22 November 2024, as of 28 October 2026: 737,686 reports; 1,471,112 accounts reported and 743,589 blocked; victim funds of Rp967.5 billion blocked and Rp208.9 billion returned; total reported losses above Rp9.1 trillion; about 1,000 reports a day.</li><li>Katadata (3 October 2026) noted that Dicky described the concept as like QRIS and said the waktu emas after a scam is under four minutes because funds can move across banks.</li></ul>",
+    "analysisHtml": "<h3>The biggest gap: funds blocked versus funds lost</h3><p>Using OJK's figures, the victim funds blocked (Rp967.5 billion) equal at most about 10.6% of reported losses (more than Rp9.1 trillion), and funds already returned (Rp208.9 billion) equal about 21.6% of those blocked (our calculation). The comparison is rough because the period is cumulative and the loss figure is stated as more than, but the direction is clear: recovery after the fact saves only a small share. That explains why OJK is shifting focus to prevention before the transaction.</p><h3>Why four minutes matters</h3><p>According to Dicky, the golden time for action is under four minutes because money can move across several banks, even into crypto assets or abroad. An app that lets people check a number, link and account before transferring pulls that speed logic upstream. In October the scope described was only checking the legality of companies and accounts; in November deepfake checks were added, which shows the scope widening.</p><h3>Its value depends on data quality</h3><p>OJK is asking industry and others to contribute data, and cites Malaysia, which combined eight ministries and agencies in one platform. Questions the sources leave open: who updates the blacklists and whitelists, how mislabelling is handled, and when the app launches. Neither report gives a launch date. It also bears watching that a blacklist is only effective if new accounts used by scammers enter it quickly.</p><h3>Impact on companies</h3><p>Banks, fintechs, e-commerce firms and telecom operators are likely to be the main contributors and users of the data. For other companies, names and brands that scammers often impersonate can become a customer-service burden; integration with an official reference system could reduce that burden, but technical details have not been announced.</p>",
+    "actionHtml": "<h3>For CISOs and Heads of Risk/Fraud at banks, fintechs and e-commerce</h3><ol><li>Map the data you could contribute (numbers, links, accounts previously reported) and set a sharing procedure consistent with personal data protection rules.</li><li>Test your ability to freeze or flag suspicious transactions in minutes, not hours, given the four-minute benchmark.</li><li>Follow the sandbox and prepare API integration readiness for when OJK opens phase two.</li></ol><h3>For Heads of Customer Service and Communications</h3><p>Prepare a check before you transfer message and a list of official channels so customers can tell genuine communication from fake.</p><h3>For security and anti-fraud vendors</h3><p>The most open opportunity is likely in deepfake detection and account-network analysis; wait for official specifications before designing products.</p>",
+    "faqHtml": "<h3>Can the OJK anti-scam app be downloaded yet?</h3><p>Not yet. The 16 November 2026 report says the app is still in a sandbox and no launch date has been announced.</p><h3>What will the app be able to check?</h3><p>Whether a phone number is legitimate, whether a link is genuine, whether a video or audio is real or an AI deepfake, and whether the destination account is safe.</p>",
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/ojk-aplikasi-anti-scam-iasc-rp91-triliun-kerugian-dana-kembali-en.png"
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/ojk-aplikasi-anti-scam-iasc-rp91-triliun-kerugian-dana-kembali.png"
+}

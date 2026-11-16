@@ -1,0 +1,67 @@
+{
+  "slug": "pgeo-lintasarta-mou-panas-bumi-ai-berdaulat-pusat-data",
+  "title": "PGEO Gandeng Lintasarta Garap AI Berdaulat: Panas Bumi Masuk Rantai Pasok Pusat Data",
+  "category": "Cloud & IT Infrastructure",
+  "articleType": "analisis",
+  "dek": "PT Pertamina Geothermal Energy menandatangani nota kesepahaman dengan Lintasarta, anak usaha Indosat, untuk mengembangkan teknologi AI yang aman dan berkelanjutan. Belum ada angka kapasitas maupun investasi, tetapi langkah ini menunjukkan pasokan listrik mulai menjadi variabel dalam keputusan pusat data.",
+  "summaryHtml": "<ul><li>Katadata (16 November 2026) melaporkan bahwa PT Pertamina Geothermal Energy Tbk (PGEO) menandatangani MoU bertema &ldquo;Dukungan Digitalisasi Berdaulat&rdquo; dengan PT Aplikanusa Lintasarta, anak usaha PT Indosat Tbk (ISAT).</li><li>Kedua pihak berencana mengembangkan dan memanfaatkan teknologi AI yang aman, inovatif, dan berkelanjutan. PGEO menyumbang energi panas bumi bersih, Lintasarta menyumbang teknologi dan bisnis digital.</li><li>PGEO juga menjajaki kerja sama dengan Indonesia Data Center Provider Organization (IDPRO) dan Fakultas Teknik Universitas Indonesia untuk membangun landasan teknis dan komersial pemanfaatan panas bumi bagi pusat data.</li><li>Laporan tersebut tidak memuat angka kapasitas, nilai investasi, jadwal, maupun target pendapatan bisnis AI.</li><li>Pada 8 September 2026, IDX Channel melaporkan PGE menyebut panas bumi siap menjadi pasokan listrik beban dasar bagi pusat data, dan tengah mengkaji pilot pusat data hijau di Kamojang, Jawa Barat. Mengutip Komdigi dan APJII, Indonesia memiliki 185 fasilitas pusat data dan 235,26 juta pengguna internet.</li></ul>",
+  "analysisHtml": "<h3>Yang diumumkan adalah niat, bukan proyek</h3><p>Nota kesepahaman bukan kontrak pasokan. Dalam laporan Katadata tidak ada lokasi, kapasitas dalam megawatt, harga, maupun pelanggan. Bahkan proyek percontohan di Kamojang, menurut laporan September, masih berada pada tahap kajian. Pembaca yang menyusun rencana kapasitas sebaiknya memperlakukan berita ini sebagai sinyal arah, bukan sebagai kapasitas yang sudah tersedia.</p><h3>Mengapa listrik mulai masuk keputusan pusat data</h3><p>Presiden Direktur PGE, Ahmad Yani, berargumen bahwa pusat data dan pabrik AI memerlukan listrik yang stabil, tersedia 24 jam, dan bersih, sesuatu yang menurutnya sulit dipenuhi sumber terbarukan yang intermiten. Itu pandangan pihak yang berkepentingan, tetapi logikanya relevan bagi pembeli: beban kerja AI berjalan terus-menerus, sehingga keandalan dan asal listrik makin memengaruhi risiko layanan dan, kemungkinan, biaya jangka panjang.</p><p>PGE sendiri menyebut empat prasyarat kebijakan: tarif yang kompetitif dan dapat diprediksi, insentif fiskal dan pembiayaan hijau, keselarasan wilayah kerja panas bumi dengan RUPTL dan jaringan listrik, serta keselarasan dengan cetak biru pusat data nasional. Artinya, model ini bergantung pada keputusan regulasi yang belum dijamin, dan perlu dicermati.</p><h3>Siapa yang diuntungkan, dan apa yang belum dijelaskan</h3><p>Bagi Lintasarta dan Indosat, kemitraan ini menambah mitra energi untuk bisnis konektivitas, komputasi awan, infrastruktur AI, dan aplikasi AI yang sudah mereka bangun, termasuk bersama GoTo dalam proyek GPU Merdeka dan Sahabat-AI. Analis Mirae Asset Sekuritas, Nafan Aji Gusta, menilai AI bagi ISAT tidak harus dimonetisasi dengan menjual LLM secara langsung, melainkan lewat peluang seperti GPU-as-a-Service, komputasi awan, penyimpanan, keamanan siber, solusi AI perusahaan, dan konektivitas. Sementara itu, istilah berdaulat dalam judul MoU tidak didefinisikan dalam sumber yang kami baca; apakah itu berarti lokasi data, kepemilikan, atau kontrol operasional belum jelas.</p><h3>Yang tidak dikatakan berita</h3><p>Tidak ada informasi tentang kapan kapasitas pertama beroperasi, berapa harga listrik atau layanan, siapa pelanggan awal, atau bagaimana pusat data akan terhubung ke jaringan panas bumi yang lokasinya terbatas pada wilayah tertentu. Tanpa jawaban itu, dampak bagi pembeli baru akan terasa jika MoU berlanjut menjadi kontrak.</p>",
+  "actionHtml": "<h3>Untuk CIO dan Direktur Infrastruktur</h3><ol><li>Tambahkan pertanyaan sumber listrik dan keandalan pasokan ke kriteria seleksi penyedia pusat data dan komputasi awan, terutama untuk beban kerja AI yang berjalan terus-menerus.</li><li>Minta komitmen kapasitas, jadwal, dan harga secara tertulis dari penyedia; jangan menyamakan MoU dengan ketersediaan layanan.</li><li>Tetapkan definisi internal kedaulatan data (lokasi, kontrol enkripsi, yurisdiksi) sebelum menilai klaim penyedia.</li></ol><h3>Untuk penyedia pusat data dan vendor infrastruktur</h3><p>Siapkan data sumber energi, efisiensi, dan rencana pasokan yang dapat diverifikasi; pembeli korporasi kemungkinan akan menanyakannya lebih sering.</p>",
+  "faqHtml": "<h3>Apakah MoU PGEO&ndash;Lintasarta berarti pusat data panas bumi sudah dibangun?</h3><p>Belum. Laporan Katadata hanya menyebut nota kesepahaman untuk mengembangkan dan memanfaatkan teknologi AI. Tidak ada angka kapasitas, investasi, atau jadwal yang diumumkan.</p><h3>Mengapa pusat data AI membutuhkan listrik yang stabil?</h3><p>Menurut Presiden Direktur PGE, pusat data dan pabrik AI memerlukan listrik yang andal, tersedia 24 jam, dan bersih, sehingga sumber yang intermiten dinilainya kesulitan memenuhi kebutuhan itu.</p>",
+  "dataFigure": "185",
+  "dataLabel": "fasilitas pusat data di Indonesia, di tengah rencana pasokan listrik panas bumi",
+  "dataSource": "IDX Channel, 8 September 2026 (mengutip Komdigi dan APJII)",
+  "audience": [
+    "CIO",
+    "Direktur Infrastruktur",
+    "Vendor pusat data"
+  ],
+  "tags": [
+    "Deals",
+    "Enterprise Adoption",
+    "PGEO",
+    "Lintasarta",
+    "Indosat",
+    "Pusat data",
+    "Panas bumi",
+    "AI berdaulat"
+  ],
+  "sources": [
+    {
+      "name": "Katadata",
+      "title": "PGEO Mulai Masuk Bisnis AI Gandeng Lintasarta Punya ISAT, Bagaimana Strateginya?",
+      "url": "https://katadata.co.id/finansial/bursa/6afa725684265/pgeo-mulai-masuk-bisnis-ai-gandeng-lintasarta-punya-isat-bagaimana-strateginya",
+      "date": "2026-11-16"
+    },
+    {
+      "name": "IDX Channel",
+      "title": "Dukung Ekosistem AI, PGEO Siapkan Pasokan Listrik dari Panas Bumi untuk Data Center",
+      "url": "https://www.idxchannel.com/market-news/dukung-ekosistem-ai-pgeo-siapkan-pasokan-listrik-dari-panas-bumi-untuk-data-center",
+      "date": "2026-09-08"
+    }
+  ],
+  "seoTitle": "PGEO–Lintasarta MoU AI Berdaulat dan Pusat Data Panas Bumi",
+  "seoDescription": "PGEO dan Lintasarta teken MoU AI berdaulat. Belum ada angka kapasitas; ini yang perlu dicermati CIO soal pasokan listrik pusat data.",
+  "publishAt": "2026-11-17T06:00:00+07:00",
+  "language": "id",
+  "en": {
+    "title": "PGEO Teams Up with Lintasarta on Sovereign AI: Geothermal Enters the Data Center Supply Chain",
+    "dek": "Pertamina Geothermal Energy has signed a memorandum of understanding with Lintasarta, an Indosat subsidiary, to develop secure and sustainable AI technology. No capacity or investment figures have been given, but the move shows power supply becoming a variable in data center decisions.",
+    "dataFigure": "185",
+    "dataLabel": "data center facilities in Indonesia, as geothermal power supply plans emerge",
+    "dataSource": "IDX Channel, 8 September 2026 (citing Komdigi and APJII)",
+    "seoTitle": "PGEO–Lintasarta MoU: Sovereign AI, Geothermal Data Centers",
+    "seoDescription": "PGEO and Lintasarta signed a sovereign AI MoU. No capacity figures yet; what CIOs should watch on data center power supply.",
+    "audience": [
+      "CIO",
+      "Infrastructure Director",
+      "Data center vendors"
+    ],
+    "summaryHtml": "<ul><li>Katadata (16 November 2026) reports that PT Pertamina Geothermal Energy Tbk (PGEO) signed an MoU themed &ldquo;Sovereign Digitalisation Support&rdquo; with PT Aplikanusa Lintasarta, a subsidiary of PT Indosat Tbk (ISAT).</li><li>The two sides plan to develop and use secure, innovative and sustainable AI technology. PGEO contributes clean geothermal energy; Lintasarta contributes technology and its digital business.</li><li>PGEO is also exploring cooperation with the Indonesia Data Center Provider Organization (IDPRO) and the Faculty of Engineering at Universitas Indonesia to build the technical and commercial groundwork for geothermal power for data centers.</li><li>The report gives no capacity, investment value, timeline or AI revenue target.</li><li>On 8 September 2026, IDX Channel reported that PGE says geothermal is ready to supply baseload power for data centers and is studying a green data center pilot at Kamojang, West Java. Citing Komdigi and APJII, Indonesia has 185 data center facilities and 235.26 million internet users.</li></ul>",
+    "analysisHtml": "<h3>What was announced is an intention, not a project</h3><p>A memorandum of understanding is not a supply contract. Katadata's report gives no location, no capacity in megawatts, no price and no customer. Even the Kamojang pilot was, according to the September report, still at the study stage. Readers planning capacity should treat this as a signal of direction, not as capacity that is available.</p><h3>Why electricity is entering data center decisions</h3><p>PGE President Director Ahmad Yani argues that data centers and AI factories need electricity that is stable, available 24 hours and clean, which he says intermittent renewables struggle to provide. That is the view of an interested party, but the logic matters to buyers: AI workloads run continuously, so reliability and the origin of power increasingly affect service risk and, possibly, long-term cost.</p><p>PGE itself names four policy prerequisites: competitive and predictable tariffs, fiscal incentives and green financing, alignment of geothermal working areas with the national electricity plan (RUPTL) and the grid, and alignment with the national data center blueprint. The model therefore depends on regulatory decisions that are not guaranteed, which bears watching.</p><h3>Who benefits, and what remains unexplained</h3><p>For Lintasarta and Indosat, the partnership adds an energy partner to the connectivity, cloud, AI infrastructure and AI application businesses they are already building, including with GoTo on the GPU Merdeka and Sahabat-AI projects. Mirae Asset Sekuritas analyst Nafan Aji Gusta says AI need not be monetised for ISAT by selling LLMs directly, but through opportunities such as GPU-as-a-Service, cloud, storage, cybersecurity, enterprise AI solutions and connectivity. Meanwhile, the word sovereign in the MoU's title is not defined in the sources we read; whether it means data location, ownership or operational control is unclear.</p><h3>What the news does not say</h3><p>There is no information on when the first capacity will operate, what electricity or service will cost, who the first customers are, or how a data center would connect to geothermal sites that exist only in specific regions. Without those answers, the effect on buyers will be felt only if the MoU becomes a contract.</p>",
+    "actionHtml": "<h3>For CIOs and Infrastructure Directors</h3><ol><li>Add questions on power source and supply reliability to the selection criteria for data center and cloud providers, especially for always-on AI workloads.</li><li>Ask providers for written commitments on capacity, schedule and price; do not equate an MoU with available service.</li><li>Define internally what data sovereignty means (location, encryption control, jurisdiction) before assessing provider claims.</li></ol><h3>For data center providers and infrastructure vendors</h3><p>Prepare verifiable data on energy sources, efficiency and supply plans; corporate buyers are likely to ask for it more often.</p>",
+    "faqHtml": "<h3>Does the PGEO&ndash;Lintasarta MoU mean a geothermal-powered data center has been built?</h3><p>No. Katadata only reports a memorandum of understanding to develop and use AI technology. No capacity, investment or timeline has been announced.</p><h3>Why do AI data centers need stable electricity?</h3><p>According to PGE's President Director, data centers and AI factories need reliable, 24-hour, clean power, so he says intermittent sources struggle to meet that need.</p>",
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pgeo-lintasarta-mou-panas-bumi-ai-berdaulat-pusat-data-en.png"
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pgeo-lintasarta-mou-panas-bumi-ai-berdaulat-pusat-data.png"
+}

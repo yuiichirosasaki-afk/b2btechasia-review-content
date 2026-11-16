@@ -1,7 +1,286 @@
 {
-  "generatedAt": "2026-11-16T03:01:53+07:00",
+  "generatedAt": "2026-11-17T02:52:45+07:00",
   "site": "B2B Tech Asia Review",
   "articles": [
+    {
+      "slug": "bank-danai-pindar-rp7158-triliun-twp90-536-persen-september-2026",
+      "title": "Bank Biayai 67,22% Pindar Senilai Rp71,58 Triliun, Saat TWP90 Menembus Batas Aman 5,36%",
+      "category": "FinTech & Financial Operations",
+      "articleType": "analisis",
+      "dek": "Data OJK per September 2026 menunjukkan bank menyumbang 67,22% pendanaan industri pinjaman daring, sekitar Rp71,58 triliun. Pada saat yang sama, kredit bermasalah agregat (TWP90) naik ke 5,36%, melewati ambang aman OJK sebesar 5%.",
+      "summaryHtml": "<ul><li>Kontan (16 November 2026) melaporkan bahwa pendanaan lender perbankan di fintech lending (pindar) per September 2026 mencapai Rp71,58 triliun, atau 67,22% dari total pendanaan industri. Menurut OJK, dana bank umumnya disalurkan lewat skema kerja sama dengan penyelenggara.</li><li>Kontan (5 November 2026) mencatat TWP90 industri naik dari 4,73% pada Agustus menjadi 5,36% pada September, di atas ambang aman OJK 5%. Pembiayaan outstanding mencapai Rp106,48 triliun, tumbuh 17,02% secara tahunan.</li><li>Agusman, pejabat OJK yang membawahi pengawasan lembaga pembiayaan, menyatakan OJK memantau eksposur bank agar manajemen risiko memadai, dan berharap bank tetap menjadi sumber pendanaan utama dengan penekanan pada tata kelola, manajemen risiko, dan pelindungan konsumen.</li><li>OJK menyebut BI Rate yang bertahan di 5,75% dapat memengaruhi biaya dana bank, dan dampaknya terhadap penyaluran bank ke pindar sedang dipantau.</li><li>Nailul Huda dari Celios menilai kemampuan bayar rumah tangga menurun dan ekspansi platform lebih cepat dari kualitas credit scoring; menurutnya TWP90 naik sejak awal 2026 sementara pertumbuhan penyaluran masih di atas 20%.</li></ul>",
+      "analysisHtml": "<h3>Risiko pindar kini juga risiko bank</h3><p>Dengan dua pertiga pendanaan berasal dari bank, kualitas kredit pindar tidak lagi hanya urusan platform dan pemberi dana ritel. Namun sumber yang kami baca tidak menjelaskan siapa yang menanggung kerugian kredit dalam skema kerja sama bank dan penyelenggara, apakah bank atau platform. Tanpa itu, sulit menilai seberapa besar paparan bank yang sebenarnya; ini informasi kunci yang perlu dicermati dari laporan OJK berikutnya.</p><h3>Angka 5,36% adalah rata-rata industri</h3><p>TWP90 agregat menyembunyikan sebaran antarplatform. Laporan yang kami baca tidak menyebut berapa platform yang melewati 5% pada September, sehingga kesimpulan tentang platform tertentu tidak bisa ditarik. Bagi pembuat keputusan, hal yang relevan adalah tren: dari 4,73% ke 5,36% hanya dalam satu bulan, melewati batas yang ditetapkan regulator sendiri.</p><h3>Dua sinyal yang berlawanan</h3><p>Pembiayaan tumbuh 17,02% secara tahunan, tetapi kualitasnya memburuk. Pengamat Celios mengaitkannya dengan daya beli yang tertekan dan penilaian risiko yang tertinggal dari laju ekspansi, serta memperingatkan TWP90 dapat sulit diturunkan jika tekanan daya beli berlanjut. Itu pandangan satu analis, bukan angka OJK. BI Rate 5,75% yang bertahan juga membuat biaya dana bank tidak turun; apakah itu akan mengubah minat bank menyalurkan dana ke pindar masih dipantau, belum terbukti.</p><h3>Yang tidak dikatakan berita</h3><p>Tidak ada data tentang rasio kredit bermasalah di sisi bank, tentang konsentrasi pendanaan pada beberapa bank, maupun tentang langkah OJK jika TWP90 terus naik. Pada saat penulisan, OJK baru menyatakan akan memantau.</p>",
+      "actionHtml": "<h3>Untuk CFO dan Kepala Manajemen Risiko di bank pemberi dana</h3><ol><li>Pastikan skema kerja sama dengan penyelenggara menetapkan dengan jelas pihak yang menanggung kerugian kredit, serta batas eksposur per platform.</li><li>Minta data kualitas kredit per platform, bukan hanya rata-rata industri, dan tetapkan pemicu peninjauan jika TWP90 platform melewati 5%.</li><li>Uji skenario di mana tekanan daya beli berlanjut dan biaya dana tetap tinggi.</li></ol><h3>Untuk CFO perusahaan yang bermitra dengan platform pinjaman daring</h3><p>Jika perusahaan Anda memakai pindar untuk pembiayaan konsumen, mitra, atau karyawan, tinjau klausul kelangsungan layanan dan perlindungan data bila platform mengetatkan persetujuan kredit.</p><h3>Untuk penyelenggara pindar dan vendor credit scoring</h3><p>Perbaikan kualitas penilaian kredit menjadi isu utama; data alternatif dan pemantauan dini keterlambatan kemungkinan menjadi pembeda saat pendanaan bank dipantau lebih ketat.</p>",
+      "faqHtml": "<h3>Apa batas aman TWP90 pindar menurut OJK?</h3><p>Menurut laporan Kontan, ambang aman yang dipakai adalah 5%. Pada September 2026 angka industri mencapai 5,36%, naik dari 4,73% pada Agustus.</p><h3>Berapa porsi bank dalam pendanaan pinjaman daring?</h3><p>Per September 2026, lender perbankan menyumbang Rp71,58 triliun atau 67,22% dari total pendanaan industri, menurut data OJK yang dikutip Kontan.</p>",
+      "dataFigure": "67,22%",
+      "dataLabel": "porsi lender perbankan dalam pendanaan industri pindar per September 2026",
+      "dataSource": "OJK, via Kontan, 16 November 2026",
+      "chart": {
+        "bars": [
+          {
+            "label": "Agt 2026",
+            "value": 4.73,
+            "display": "4,73%"
+          },
+          {
+            "label": "Batas aman",
+            "value": 5,
+            "display": "5%"
+          },
+          {
+            "label": "Sep 2026",
+            "value": 5.36,
+            "display": "5,36%"
+          }
+        ]
+      },
+      "audience": [
+        "CFO",
+        "Kepala Manajemen Risiko",
+        "Bank",
+        "Penyelenggara fintech"
+      ],
+      "tags": [
+        "Pindar",
+        "Fintech lending",
+        "TWP90",
+        "OJK",
+        "Pendanaan perbankan",
+        "Risiko kredit",
+        "BI Rate"
+      ],
+      "sources": [
+        {
+          "name": "Kontan",
+          "title": "Lender Perbankan Dominasi Pendanaan Fintech Lending, Nilainya Capai Rp 71,58 Triliun",
+          "url": "https://keuangan.kontan.co.id/news/lender-perbankan-mendominasi-pendanaan-di-fintech-lending-per-september-2026",
+          "date": "2026-11-16"
+        },
+        {
+          "name": "Kontan",
+          "title": "Lampaui Ambang Batas Aman, TWP90 Fintech Lending Jadi 5,36% per September 2026",
+          "url": "https://keuangan.kontan.co.id/news/lampaui-ambang-batas-aman-twp90-fintech-lending-jadi-536-per-september-2026",
+          "date": "2026-11-05"
+        }
+      ],
+      "seoTitle": "Bank Danai 67,22% Pindar Rp71,58 Triliun, TWP90 Capai 5,36%",
+      "seoDescription": "OJK: bank danai 67,22% pindar (Rp71,58 triliun) saat TWP90 naik ke 5,36%, di atas batas aman 5%. Apa artinya bagi CFO dan manajer risiko.",
+      "publishAt": "2026-11-17T09:00:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "Banks Fund 67.22% of P2P Lending, Rp71.58 Trillion, as TWP90 Breaches the 5.36% Safe Limit",
+        "dek": "OJK data as of September 2026 show banks supply 67.22% of peer-to-peer lending funding, about Rp71.58 trillion. At the same time the aggregate bad-loan measure (TWP90) rose to 5.36%, above OJK's 5% safe threshold.",
+        "dataFigure": "67.22%",
+        "dataLabel": "share of bank lenders in P2P lending funding, September 2026",
+        "dataSource": "OJK, via Kontan, 16 November 2026",
+        "seoTitle": "Banks Fund 67.22% of P2P Lending; TWP90 Hits 5.36%",
+        "seoDescription": "OJK: banks fund 67.22% of P2P lending (Rp71.58 trillion) as TWP90 rises to 5.36%, above the 5% safe limit. What CFOs and risk heads should do.",
+        "audience": [
+          "CFO",
+          "Head of Risk Management",
+          "Banks",
+          "Fintech operators"
+        ],
+        "chart": {
+          "bars": [
+            {
+              "label": "Aug 2026",
+              "value": 4.73,
+              "display": "4.73%"
+            },
+            {
+              "label": "Safe limit",
+              "value": 5,
+              "display": "5%"
+            },
+            {
+              "label": "Sep 2026",
+              "value": 5.36,
+              "display": "5.36%"
+            }
+          ]
+        },
+        "summaryHtml": "<ul><li>Kontan (16 November 2026) reports that bank lenders' funding in P2P lending as of September 2026 reached Rp71.58 trillion, or 67.22% of total industry funding. According to OJK, bank funds are usually channelled through cooperation schemes with operators.</li><li>Kontan (5 November 2026) recorded industry TWP90 rising from 4.73% in August to 5.36% in September, above OJK's 5% safe threshold. Outstanding financing reached Rp106.48 trillion, up 17.02% year on year.</li><li>Agusman, the OJK official overseeing financing institutions, said OJK is monitoring bank exposure to ensure adequate risk management, and expects banks to remain the main funding source with emphasis on governance, risk management and consumer protection.</li><li>OJK said the BI Rate holding at 5.75% may affect banks' funding costs, and the effect on bank lending to P2P platforms is being watched.</li><li>Nailul Huda of Celios says households' ability to repay is declining and platforms are expanding faster than credit scoring quality; in his view TWP90 has risen since early 2026 while disbursement growth remains above 20%.</li></ul>",
+        "analysisHtml": "<h3>P2P lending risk is now also bank risk</h3><p>With two-thirds of funding coming from banks, P2P credit quality is no longer only a matter for platforms and retail lenders. However, the sources we read do not explain who bears credit losses in the cooperation schemes between banks and operators, banks or platforms. Without that, it is hard to judge banks' true exposure; this is key information to watch for in OJK's next report.</p><h3>The 5.36% figure is an industry average</h3><p>Aggregate TWP90 hides differences between platforms. The reports we read do not say how many platforms exceeded 5% in September, so no conclusion about any particular platform can be drawn. What matters to decision makers is the trend: from 4.73% to 5.36% in a single month, passing a limit set by the regulator itself.</p><h3>Two opposing signals</h3><p>Financing grew 17.02% year on year, but its quality worsened. The Celios analyst links this to weak purchasing power and risk assessment lagging the pace of expansion, and warns TWP90 could be hard to bring down if purchasing-power pressure continues. That is one analyst's view, not an OJK figure. The BI Rate holding at 5.75% also means bank funding costs are not falling; whether that will change banks' appetite for lending to P2P platforms is being monitored, not yet proven.</p><h3>What the news does not say</h3><p>There is no data on non-performing loan ratios on the bank side, on how concentrated the funding is among a few banks, or on what OJK will do if TWP90 keeps rising. At the time of writing, OJK has only said it will monitor.</p>",
+        "actionHtml": "<h3>For CFOs and Heads of Risk Management at funding banks</h3><ol><li>Make sure cooperation schemes with operators state clearly who bears credit losses, and set exposure limits per platform.</li><li>Ask for credit quality data per platform, not only the industry average, and set a review trigger if a platform's TWP90 passes 5%.</li><li>Stress-test a scenario in which purchasing-power pressure continues and funding costs stay high.</li></ol><h3>For CFOs of companies partnering with online lending platforms</h3><p>If your company uses P2P lending for consumer, partner or employee financing, review service-continuity and data-protection clauses in case a platform tightens credit approvals.</p><h3>For P2P operators and credit scoring vendors</h3><p>Improving credit assessment is the central issue; alternative data and early delinquency monitoring are likely differentiators as bank funding comes under closer watch.</p>",
+        "faqHtml": "<h3>What is the safe limit for P2P lending TWP90 according to OJK?</h3><p>According to Kontan, the safe threshold used is 5%. In September 2026 the industry figure reached 5.36%, up from 4.73% in August.</p><h3>What share of online lending funding comes from banks?</h3><p>As of September 2026, bank lenders contributed Rp71.58 trillion, or 67.22% of total industry funding, according to OJK data cited by Kontan.</p>",
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bank-danai-pindar-rp7158-triliun-twp90-536-persen-september-2026-en.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bank-danai-pindar-rp7158-triliun-twp90-536-persen-september-2026.png"
+    },
+    {
+      "slug": "ojk-aplikasi-anti-scam-iasc-rp91-triliun-kerugian-dana-kembali",
+      "title": "OJK Siapkan Aplikasi Anti-Scam: Rp9,1 Triliun Kerugian Dilaporkan, Baru Rp208,9 Miliar Kembali",
+      "category": "Cybersecurity & Data Protection",
+      "articleType": "analisis",
+      "dek": "OJK menyiapkan aplikasi anti-scam terintegrasi yang masih berada di tahap sandbox. Data Indonesia Anti-Scam Centre menunjukkan kerugian yang dilaporkan lebih dari Rp9,1 triliun, sementara dana korban yang dikembalikan baru Rp208,9 miliar.",
+      "summaryHtml": "<ul><li>Kabarbisnis (16 November 2026) melaporkan OJK menyiapkan aplikasi anti-scam terintegrasi. Dicky Kartikoyono, Kepala Eksekutif Pengawas Perilaku Pelaku Usaha Jasa Keuangan, Edukasi dan Pelindungan Konsumen, menyampaikannya di acara GEBER PK 2027 di Jakarta.</li><li>Aplikasi dirancang menjawab empat pertanyaan: apakah nomor telepon sah, apakah tautan asli, apakah video atau suara asli atau deepfake AI, dan apakah rekening tujuan aman atau pernah ditandai dipakai untuk kejahatan. Statusnya masih sandbox, dengan dukungan pendanaan dari ADB, Bank Dunia, dan Gates Foundation.</li><li>Tahap pertama memetakan status keamanan lewat daftar hitam dan daftar putih; tahap kedua menghubungkan data ke Satgas PASTI, kementerian dan lembaga, operator telekomunikasi, serta asosiasi industri keuangan; kemudian ditambah AI untuk analisis jaringan penipuan.</li><li>Data Indonesia Anti-Scam Centre (IASC) yang beroperasi sejak 22 November 2024, per 28 Oktober 2026: 737.686 laporan; 1.471.112 rekening dilaporkan, 743.589 diblokir; dana korban diblokir Rp967,5 miliar dan dikembalikan Rp208,9 miliar; total kerugian yang dilaporkan lebih dari Rp9,1 triliun; sekitar 1.000 laporan per hari.</li><li>Katadata (3 Oktober 2026) mencatat Dicky menyebut konsepnya mirip QRIS, serta waktu emas penanganan setelah penipuan kurang dari empat menit karena dana bisa berpindah antarbank.</li></ul>",
+      "analysisHtml": "<h3>Selisih terbesar: dana yang terblokir versus yang hilang</h3><p>Dengan angka OJK, dana korban yang berhasil diblokir (Rp967,5 miliar) setara paling banyak sekitar 10,6% dari kerugian yang dilaporkan (lebih dari Rp9,1 triliun), dan dana yang sudah dikembalikan (Rp208,9 miliar) sekitar 21,6% dari yang terblokir (hitungan redaksi). Perbandingan ini kasar karena periodenya kumulatif dan angka kerugian dinyatakan sebagai lebih dari, tetapi arahnya jelas: pemulihan setelah kejadian hanya menyelamatkan sebagian kecil. Itu menjelaskan mengapa OJK menggeser fokus ke pencegahan sebelum transaksi.</p><h3>Mengapa empat menit menentukan</h3><p>Menurut Dicky, waktu emas penanganan kurang dari empat menit karena dana dapat berpindah ke beberapa bank, bahkan ke aset kripto atau luar negeri. Aplikasi yang memungkinkan pengecekan nomor, tautan, dan rekening sebelum transfer menarik logika kecepatan itu ke hulu. Pada Oktober cakupan yang disebut baru pengecekan legalitas perusahaan dan rekening; pada November ditambah pemeriksaan deepfake, yang menunjukkan cakupannya melebar.</p><h3>Nilainya bergantung pada kualitas data</h3><p>OJK meminta industri dan pihak lain menyumbangkan data, dan menyebut Malaysia yang menyatukan delapan kementerian dan lembaga dalam satu platform. Pertanyaan yang belum terjawab di sumber: siapa yang memperbarui daftar hitam dan putih, bagaimana kesalahan penandaan ditangani, dan kapan aplikasi diluncurkan. Tidak ada tanggal peluncuran dalam kedua laporan. Perlu dicermati juga bahwa daftar hitam hanya efektif bila rekening baru yang dipakai penipu cepat masuk daftar.</p><h3>Dampak bagi perusahaan</h3><p>Bank, fintech, e-commerce, dan operator telekomunikasi kemungkinan menjadi penyumbang dan pengguna data utama. Bagi perusahaan lain, nama dan merek yang sering dipalsukan penipu dapat menjadi beban layanan pelanggan; integrasi dengan sistem rujukan resmi bisa mengurangi beban itu, tetapi detail teknisnya belum diumumkan.</p>",
+      "actionHtml": "<h3>Untuk CISO dan Kepala Risiko/Fraud di bank, fintech, dan e-commerce</h3><ol><li>Petakan data yang dapat dikontribusikan (nomor, tautan, rekening yang pernah dilaporkan) dan tentukan prosedur pembagian yang sesuai ketentuan pelindungan data pribadi.</li><li>Uji kemampuan membekukan atau menandai transaksi mencurigakan dalam hitungan menit, bukan jam, mengingat acuan empat menit.</li><li>Pantau perkembangan sandbox dan siapkan kesiapan integrasi API ketika OJK membuka tahap kedua.</li></ol><h3>Untuk Kepala Layanan Pelanggan dan Komunikasi</h3><p>Siapkan pesan cek sebelum transfer dan daftar kanal resmi perusahaan agar pelanggan mudah membedakan komunikasi asli dari palsu.</p><h3>Untuk vendor keamanan dan anti-fraud</h3><p>Pasar yang paling terbuka kemungkinan ada pada deteksi deepfake dan analisis jaringan rekening; tunggu spesifikasi resmi sebelum merancang produk.</p>",
+      "faqHtml": "<h3>Apakah aplikasi anti-scam OJK sudah bisa diunduh?</h3><p>Belum. Laporan 16 November 2026 menyebut aplikasi masih tahap sandbox, dan tidak ada tanggal peluncuran yang diumumkan.</p><h3>Apa saja yang akan bisa dicek lewat aplikasi ini?</h3><p>Keabsahan nomor telepon, keaslian tautan, keaslian video atau suara (apakah deepfake AI), dan keamanan rekening tujuan transfer.</p>",
+      "dataFigure": "Rp9,1 T+",
+      "dataLabel": "total kerugian penipuan yang dilaporkan ke IASC sejak 22 November 2024",
+      "dataSource": "OJK/IASC, data per 28 Oktober 2026, via Kabarbisnis (16 November 2026)",
+      "chart": {
+        "bars": [
+          {
+            "label": "Kerugian",
+            "value": 9100,
+            "display": "Rp9,1 T+"
+          },
+          {
+            "label": "Diblokir",
+            "value": 967.5,
+            "display": "Rp967,5 M"
+          },
+          {
+            "label": "Kembali",
+            "value": 208.9,
+            "display": "Rp208,9 M"
+          }
+        ]
+      },
+      "audience": [
+        "CISO",
+        "Kepala Risiko/Fraud",
+        "Bank dan fintech",
+        "Vendor keamanan"
+      ],
+      "tags": [
+        "OJK",
+        "Anti-scam",
+        "IASC",
+        "Penipuan digital",
+        "Deepfake",
+        "Satgas PASTI",
+        "Perlindungan konsumen"
+      ],
+      "sources": [
+        {
+          "name": "Kabarbisnis",
+          "title": "Cegah Penipuan, OJK Siapkan Aplikasi Anti-Scam",
+          "url": "https://www.kabarbisnis.com/read/28137953/cegah-penipuan-ojk-siapkan-aplikasi-anti-scam",
+          "date": "2026-11-16"
+        },
+        {
+          "name": "Katadata",
+          "title": "OJK Siapkan Aplikasi Anti-Scam, Konsepnya Mirip QRIS",
+          "url": "https://katadata.co.id/finansial/keuangan/6ac0e9a9d593a/ojk-siapkan-aplikasi-anti-scam-konsepnya-mirip-qris",
+          "date": "2026-10-03"
+        }
+      ],
+      "seoTitle": "Aplikasi Anti-Scam OJK: Rp9,1 Triliun Kerugian Dilaporkan",
+      "seoDescription": "OJK siapkan aplikasi anti-scam. Data IASC: kerugian lebih dari Rp9,1 triliun, dana kembali Rp208,9 miliar. Apa langkah CISO dan tim fraud?",
+      "publishAt": "2026-11-17T07:30:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "OJK Prepares Anti-Scam App: Rp9.1 Trillion in Losses Reported, Only Rp208.9 Billion Returned",
+        "dek": "OJK is preparing an integrated anti-scam app that is still in a sandbox stage. Data from the Indonesia Anti-Scam Centre shows reported losses of more than Rp9.1 trillion, while victim funds returned total only Rp208.9 billion.",
+        "dataFigure": "Rp9.1T+",
+        "dataLabel": "total scam losses reported to IASC since 22 November 2024",
+        "dataSource": "OJK/IASC, data as of 28 October 2026, via Kabarbisnis (16 November 2026)",
+        "seoTitle": "OJK Anti-Scam App: Rp9.1 Trillion in Losses Reported",
+        "seoDescription": "OJK is preparing an anti-scam app. IASC data: losses above Rp9.1 trillion, Rp208.9 billion returned. What CISOs and fraud teams should do.",
+        "audience": [
+          "CISO",
+          "Head of Risk/Fraud",
+          "Banks and fintechs",
+          "Security vendors"
+        ],
+        "chart": {
+          "bars": [
+            {
+              "label": "Losses",
+              "value": 9100,
+              "display": "Rp9.1T+"
+            },
+            {
+              "label": "Blocked",
+              "value": 967.5,
+              "display": "Rp967.5B"
+            },
+            {
+              "label": "Returned",
+              "value": 208.9,
+              "display": "Rp208.9B"
+            }
+          ]
+        },
+        "summaryHtml": "<ul><li>Kabarbisnis (16 November 2026) reports that OJK is preparing an integrated anti-scam app. Dicky Kartikoyono, OJK's chief executive for business conduct supervision, education and consumer protection, announced it at GEBER PK 2027 in Jakarta.</li><li>The app is designed to answer four questions: is the phone number legitimate, is the link genuine, is the video or audio real or an AI deepfake, and is the destination account safe or flagged as used for crime. It is still in a sandbox, with funding support from ADB, the World Bank and the Gates Foundation.</li><li>Phase one maps safety status through blacklists and whitelists; phase two connects the data to Satgas PASTI, ministries and agencies, telecom operators and financial industry associations; AI for fraud-network analysis is to follow.</li><li>Data from the Indonesia Anti-Scam Centre (IASC), operating since 22 November 2024, as of 28 October 2026: 737,686 reports; 1,471,112 accounts reported and 743,589 blocked; victim funds of Rp967.5 billion blocked and Rp208.9 billion returned; total reported losses above Rp9.1 trillion; about 1,000 reports a day.</li><li>Katadata (3 October 2026) noted that Dicky described the concept as like QRIS and said the waktu emas after a scam is under four minutes because funds can move across banks.</li></ul>",
+        "analysisHtml": "<h3>The biggest gap: funds blocked versus funds lost</h3><p>Using OJK's figures, the victim funds blocked (Rp967.5 billion) equal at most about 10.6% of reported losses (more than Rp9.1 trillion), and funds already returned (Rp208.9 billion) equal about 21.6% of those blocked (our calculation). The comparison is rough because the period is cumulative and the loss figure is stated as more than, but the direction is clear: recovery after the fact saves only a small share. That explains why OJK is shifting focus to prevention before the transaction.</p><h3>Why four minutes matters</h3><p>According to Dicky, the golden time for action is under four minutes because money can move across several banks, even into crypto assets or abroad. An app that lets people check a number, link and account before transferring pulls that speed logic upstream. In October the scope described was only checking the legality of companies and accounts; in November deepfake checks were added, which shows the scope widening.</p><h3>Its value depends on data quality</h3><p>OJK is asking industry and others to contribute data, and cites Malaysia, which combined eight ministries and agencies in one platform. Questions the sources leave open: who updates the blacklists and whitelists, how mislabelling is handled, and when the app launches. Neither report gives a launch date. It also bears watching that a blacklist is only effective if new accounts used by scammers enter it quickly.</p><h3>Impact on companies</h3><p>Banks, fintechs, e-commerce firms and telecom operators are likely to be the main contributors and users of the data. For other companies, names and brands that scammers often impersonate can become a customer-service burden; integration with an official reference system could reduce that burden, but technical details have not been announced.</p>",
+        "actionHtml": "<h3>For CISOs and Heads of Risk/Fraud at banks, fintechs and e-commerce</h3><ol><li>Map the data you could contribute (numbers, links, accounts previously reported) and set a sharing procedure consistent with personal data protection rules.</li><li>Test your ability to freeze or flag suspicious transactions in minutes, not hours, given the four-minute benchmark.</li><li>Follow the sandbox and prepare API integration readiness for when OJK opens phase two.</li></ol><h3>For Heads of Customer Service and Communications</h3><p>Prepare a check before you transfer message and a list of official channels so customers can tell genuine communication from fake.</p><h3>For security and anti-fraud vendors</h3><p>The most open opportunity is likely in deepfake detection and account-network analysis; wait for official specifications before designing products.</p>",
+        "faqHtml": "<h3>Can the OJK anti-scam app be downloaded yet?</h3><p>Not yet. The 16 November 2026 report says the app is still in a sandbox and no launch date has been announced.</p><h3>What will the app be able to check?</h3><p>Whether a phone number is legitimate, whether a link is genuine, whether a video or audio is real or an AI deepfake, and whether the destination account is safe.</p>",
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/ojk-aplikasi-anti-scam-iasc-rp91-triliun-kerugian-dana-kembali-en.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/ojk-aplikasi-anti-scam-iasc-rp91-triliun-kerugian-dana-kembali.png"
+    },
+    {
+      "slug": "pgeo-lintasarta-mou-panas-bumi-ai-berdaulat-pusat-data",
+      "title": "PGEO Gandeng Lintasarta Garap AI Berdaulat: Panas Bumi Masuk Rantai Pasok Pusat Data",
+      "category": "Cloud & IT Infrastructure",
+      "articleType": "analisis",
+      "dek": "PT Pertamina Geothermal Energy menandatangani nota kesepahaman dengan Lintasarta, anak usaha Indosat, untuk mengembangkan teknologi AI yang aman dan berkelanjutan. Belum ada angka kapasitas maupun investasi, tetapi langkah ini menunjukkan pasokan listrik mulai menjadi variabel dalam keputusan pusat data.",
+      "summaryHtml": "<ul><li>Katadata (16 November 2026) melaporkan bahwa PT Pertamina Geothermal Energy Tbk (PGEO) menandatangani MoU bertema &ldquo;Dukungan Digitalisasi Berdaulat&rdquo; dengan PT Aplikanusa Lintasarta, anak usaha PT Indosat Tbk (ISAT).</li><li>Kedua pihak berencana mengembangkan dan memanfaatkan teknologi AI yang aman, inovatif, dan berkelanjutan. PGEO menyumbang energi panas bumi bersih, Lintasarta menyumbang teknologi dan bisnis digital.</li><li>PGEO juga menjajaki kerja sama dengan Indonesia Data Center Provider Organization (IDPRO) dan Fakultas Teknik Universitas Indonesia untuk membangun landasan teknis dan komersial pemanfaatan panas bumi bagi pusat data.</li><li>Laporan tersebut tidak memuat angka kapasitas, nilai investasi, jadwal, maupun target pendapatan bisnis AI.</li><li>Pada 8 September 2026, IDX Channel melaporkan PGE menyebut panas bumi siap menjadi pasokan listrik beban dasar bagi pusat data, dan tengah mengkaji pilot pusat data hijau di Kamojang, Jawa Barat. Mengutip Komdigi dan APJII, Indonesia memiliki 185 fasilitas pusat data dan 235,26 juta pengguna internet.</li></ul>",
+      "analysisHtml": "<h3>Yang diumumkan adalah niat, bukan proyek</h3><p>Nota kesepahaman bukan kontrak pasokan. Dalam laporan Katadata tidak ada lokasi, kapasitas dalam megawatt, harga, maupun pelanggan. Bahkan proyek percontohan di Kamojang, menurut laporan September, masih berada pada tahap kajian. Pembaca yang menyusun rencana kapasitas sebaiknya memperlakukan berita ini sebagai sinyal arah, bukan sebagai kapasitas yang sudah tersedia.</p><h3>Mengapa listrik mulai masuk keputusan pusat data</h3><p>Presiden Direktur PGE, Ahmad Yani, berargumen bahwa pusat data dan pabrik AI memerlukan listrik yang stabil, tersedia 24 jam, dan bersih, sesuatu yang menurutnya sulit dipenuhi sumber terbarukan yang intermiten. Itu pandangan pihak yang berkepentingan, tetapi logikanya relevan bagi pembeli: beban kerja AI berjalan terus-menerus, sehingga keandalan dan asal listrik makin memengaruhi risiko layanan dan, kemungkinan, biaya jangka panjang.</p><p>PGE sendiri menyebut empat prasyarat kebijakan: tarif yang kompetitif dan dapat diprediksi, insentif fiskal dan pembiayaan hijau, keselarasan wilayah kerja panas bumi dengan RUPTL dan jaringan listrik, serta keselarasan dengan cetak biru pusat data nasional. Artinya, model ini bergantung pada keputusan regulasi yang belum dijamin, dan perlu dicermati.</p><h3>Siapa yang diuntungkan, dan apa yang belum dijelaskan</h3><p>Bagi Lintasarta dan Indosat, kemitraan ini menambah mitra energi untuk bisnis konektivitas, komputasi awan, infrastruktur AI, dan aplikasi AI yang sudah mereka bangun, termasuk bersama GoTo dalam proyek GPU Merdeka dan Sahabat-AI. Analis Mirae Asset Sekuritas, Nafan Aji Gusta, menilai AI bagi ISAT tidak harus dimonetisasi dengan menjual LLM secara langsung, melainkan lewat peluang seperti GPU-as-a-Service, komputasi awan, penyimpanan, keamanan siber, solusi AI perusahaan, dan konektivitas. Sementara itu, istilah berdaulat dalam judul MoU tidak didefinisikan dalam sumber yang kami baca; apakah itu berarti lokasi data, kepemilikan, atau kontrol operasional belum jelas.</p><h3>Yang tidak dikatakan berita</h3><p>Tidak ada informasi tentang kapan kapasitas pertama beroperasi, berapa harga listrik atau layanan, siapa pelanggan awal, atau bagaimana pusat data akan terhubung ke jaringan panas bumi yang lokasinya terbatas pada wilayah tertentu. Tanpa jawaban itu, dampak bagi pembeli baru akan terasa jika MoU berlanjut menjadi kontrak.</p>",
+      "actionHtml": "<h3>Untuk CIO dan Direktur Infrastruktur</h3><ol><li>Tambahkan pertanyaan sumber listrik dan keandalan pasokan ke kriteria seleksi penyedia pusat data dan komputasi awan, terutama untuk beban kerja AI yang berjalan terus-menerus.</li><li>Minta komitmen kapasitas, jadwal, dan harga secara tertulis dari penyedia; jangan menyamakan MoU dengan ketersediaan layanan.</li><li>Tetapkan definisi internal kedaulatan data (lokasi, kontrol enkripsi, yurisdiksi) sebelum menilai klaim penyedia.</li></ol><h3>Untuk penyedia pusat data dan vendor infrastruktur</h3><p>Siapkan data sumber energi, efisiensi, dan rencana pasokan yang dapat diverifikasi; pembeli korporasi kemungkinan akan menanyakannya lebih sering.</p>",
+      "faqHtml": "<h3>Apakah MoU PGEO&ndash;Lintasarta berarti pusat data panas bumi sudah dibangun?</h3><p>Belum. Laporan Katadata hanya menyebut nota kesepahaman untuk mengembangkan dan memanfaatkan teknologi AI. Tidak ada angka kapasitas, investasi, atau jadwal yang diumumkan.</p><h3>Mengapa pusat data AI membutuhkan listrik yang stabil?</h3><p>Menurut Presiden Direktur PGE, pusat data dan pabrik AI memerlukan listrik yang andal, tersedia 24 jam, dan bersih, sehingga sumber yang intermiten dinilainya kesulitan memenuhi kebutuhan itu.</p>",
+      "dataFigure": "185",
+      "dataLabel": "fasilitas pusat data di Indonesia, di tengah rencana pasokan listrik panas bumi",
+      "dataSource": "IDX Channel, 8 September 2026 (mengutip Komdigi dan APJII)",
+      "audience": [
+        "CIO",
+        "Direktur Infrastruktur",
+        "Vendor pusat data"
+      ],
+      "tags": [
+        "Deals",
+        "Enterprise Adoption",
+        "PGEO",
+        "Lintasarta",
+        "Indosat",
+        "Pusat data",
+        "Panas bumi",
+        "AI berdaulat"
+      ],
+      "sources": [
+        {
+          "name": "Katadata",
+          "title": "PGEO Mulai Masuk Bisnis AI Gandeng Lintasarta Punya ISAT, Bagaimana Strateginya?",
+          "url": "https://katadata.co.id/finansial/bursa/6afa725684265/pgeo-mulai-masuk-bisnis-ai-gandeng-lintasarta-punya-isat-bagaimana-strateginya",
+          "date": "2026-11-16"
+        },
+        {
+          "name": "IDX Channel",
+          "title": "Dukung Ekosistem AI, PGEO Siapkan Pasokan Listrik dari Panas Bumi untuk Data Center",
+          "url": "https://www.idxchannel.com/market-news/dukung-ekosistem-ai-pgeo-siapkan-pasokan-listrik-dari-panas-bumi-untuk-data-center",
+          "date": "2026-09-08"
+        }
+      ],
+      "seoTitle": "PGEO–Lintasarta MoU AI Berdaulat dan Pusat Data Panas Bumi",
+      "seoDescription": "PGEO dan Lintasarta teken MoU AI berdaulat. Belum ada angka kapasitas; ini yang perlu dicermati CIO soal pasokan listrik pusat data.",
+      "publishAt": "2026-11-17T06:00:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "PGEO Teams Up with Lintasarta on Sovereign AI: Geothermal Enters the Data Center Supply Chain",
+        "dek": "Pertamina Geothermal Energy has signed a memorandum of understanding with Lintasarta, an Indosat subsidiary, to develop secure and sustainable AI technology. No capacity or investment figures have been given, but the move shows power supply becoming a variable in data center decisions.",
+        "dataFigure": "185",
+        "dataLabel": "data center facilities in Indonesia, as geothermal power supply plans emerge",
+        "dataSource": "IDX Channel, 8 September 2026 (citing Komdigi and APJII)",
+        "seoTitle": "PGEO–Lintasarta MoU: Sovereign AI, Geothermal Data Centers",
+        "seoDescription": "PGEO and Lintasarta signed a sovereign AI MoU. No capacity figures yet; what CIOs should watch on data center power supply.",
+        "audience": [
+          "CIO",
+          "Infrastructure Director",
+          "Data center vendors"
+        ],
+        "summaryHtml": "<ul><li>Katadata (16 November 2026) reports that PT Pertamina Geothermal Energy Tbk (PGEO) signed an MoU themed &ldquo;Sovereign Digitalisation Support&rdquo; with PT Aplikanusa Lintasarta, a subsidiary of PT Indosat Tbk (ISAT).</li><li>The two sides plan to develop and use secure, innovative and sustainable AI technology. PGEO contributes clean geothermal energy; Lintasarta contributes technology and its digital business.</li><li>PGEO is also exploring cooperation with the Indonesia Data Center Provider Organization (IDPRO) and the Faculty of Engineering at Universitas Indonesia to build the technical and commercial groundwork for geothermal power for data centers.</li><li>The report gives no capacity, investment value, timeline or AI revenue target.</li><li>On 8 September 2026, IDX Channel reported that PGE says geothermal is ready to supply baseload power for data centers and is studying a green data center pilot at Kamojang, West Java. Citing Komdigi and APJII, Indonesia has 185 data center facilities and 235.26 million internet users.</li></ul>",
+        "analysisHtml": "<h3>What was announced is an intention, not a project</h3><p>A memorandum of understanding is not a supply contract. Katadata's report gives no location, no capacity in megawatts, no price and no customer. Even the Kamojang pilot was, according to the September report, still at the study stage. Readers planning capacity should treat this as a signal of direction, not as capacity that is available.</p><h3>Why electricity is entering data center decisions</h3><p>PGE President Director Ahmad Yani argues that data centers and AI factories need electricity that is stable, available 24 hours and clean, which he says intermittent renewables struggle to provide. That is the view of an interested party, but the logic matters to buyers: AI workloads run continuously, so reliability and the origin of power increasingly affect service risk and, possibly, long-term cost.</p><p>PGE itself names four policy prerequisites: competitive and predictable tariffs, fiscal incentives and green financing, alignment of geothermal working areas with the national electricity plan (RUPTL) and the grid, and alignment with the national data center blueprint. The model therefore depends on regulatory decisions that are not guaranteed, which bears watching.</p><h3>Who benefits, and what remains unexplained</h3><p>For Lintasarta and Indosat, the partnership adds an energy partner to the connectivity, cloud, AI infrastructure and AI application businesses they are already building, including with GoTo on the GPU Merdeka and Sahabat-AI projects. Mirae Asset Sekuritas analyst Nafan Aji Gusta says AI need not be monetised for ISAT by selling LLMs directly, but through opportunities such as GPU-as-a-Service, cloud, storage, cybersecurity, enterprise AI solutions and connectivity. Meanwhile, the word sovereign in the MoU's title is not defined in the sources we read; whether it means data location, ownership or operational control is unclear.</p><h3>What the news does not say</h3><p>There is no information on when the first capacity will operate, what electricity or service will cost, who the first customers are, or how a data center would connect to geothermal sites that exist only in specific regions. Without those answers, the effect on buyers will be felt only if the MoU becomes a contract.</p>",
+        "actionHtml": "<h3>For CIOs and Infrastructure Directors</h3><ol><li>Add questions on power source and supply reliability to the selection criteria for data center and cloud providers, especially for always-on AI workloads.</li><li>Ask providers for written commitments on capacity, schedule and price; do not equate an MoU with available service.</li><li>Define internally what data sovereignty means (location, encryption control, jurisdiction) before assessing provider claims.</li></ol><h3>For data center providers and infrastructure vendors</h3><p>Prepare verifiable data on energy sources, efficiency and supply plans; corporate buyers are likely to ask for it more often.</p>",
+        "faqHtml": "<h3>Does the PGEO&ndash;Lintasarta MoU mean a geothermal-powered data center has been built?</h3><p>No. Katadata only reports a memorandum of understanding to develop and use AI technology. No capacity, investment or timeline has been announced.</p><h3>Why do AI data centers need stable electricity?</h3><p>According to PGE's President Director, data centers and AI factories need reliable, 24-hour, clean power, so he says intermittent sources struggle to meet that need.</p>",
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pgeo-lintasarta-mou-panas-bumi-ai-berdaulat-pusat-data-en.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pgeo-lintasarta-mou-panas-bumi-ai-berdaulat-pusat-data.png"
+    },
     {
       "slug": "digital-2027-indonesia-riset-merek-lewat-ai-ad-blocker-cmo",
       "title": "28,2% Pengguna Internet Indonesia Riset Merek lewat AI, 39,4% Pakai Ad Blocker: Yang Berubah bagi CMO",

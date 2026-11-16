@@ -1,0 +1,106 @@
+{
+  "slug": "bank-danai-pindar-rp7158-triliun-twp90-536-persen-september-2026",
+  "title": "Bank Biayai 67,22% Pindar Senilai Rp71,58 Triliun, Saat TWP90 Menembus Batas Aman 5,36%",
+  "category": "FinTech & Financial Operations",
+  "articleType": "analisis",
+  "dek": "Data OJK per September 2026 menunjukkan bank menyumbang 67,22% pendanaan industri pinjaman daring, sekitar Rp71,58 triliun. Pada saat yang sama, kredit bermasalah agregat (TWP90) naik ke 5,36%, melewati ambang aman OJK sebesar 5%.",
+  "summaryHtml": "<ul><li>Kontan (16 November 2026) melaporkan bahwa pendanaan lender perbankan di fintech lending (pindar) per September 2026 mencapai Rp71,58 triliun, atau 67,22% dari total pendanaan industri. Menurut OJK, dana bank umumnya disalurkan lewat skema kerja sama dengan penyelenggara.</li><li>Kontan (5 November 2026) mencatat TWP90 industri naik dari 4,73% pada Agustus menjadi 5,36% pada September, di atas ambang aman OJK 5%. Pembiayaan outstanding mencapai Rp106,48 triliun, tumbuh 17,02% secara tahunan.</li><li>Agusman, pejabat OJK yang membawahi pengawasan lembaga pembiayaan, menyatakan OJK memantau eksposur bank agar manajemen risiko memadai, dan berharap bank tetap menjadi sumber pendanaan utama dengan penekanan pada tata kelola, manajemen risiko, dan pelindungan konsumen.</li><li>OJK menyebut BI Rate yang bertahan di 5,75% dapat memengaruhi biaya dana bank, dan dampaknya terhadap penyaluran bank ke pindar sedang dipantau.</li><li>Nailul Huda dari Celios menilai kemampuan bayar rumah tangga menurun dan ekspansi platform lebih cepat dari kualitas credit scoring; menurutnya TWP90 naik sejak awal 2026 sementara pertumbuhan penyaluran masih di atas 20%.</li></ul>",
+  "analysisHtml": "<h3>Risiko pindar kini juga risiko bank</h3><p>Dengan dua pertiga pendanaan berasal dari bank, kualitas kredit pindar tidak lagi hanya urusan platform dan pemberi dana ritel. Namun sumber yang kami baca tidak menjelaskan siapa yang menanggung kerugian kredit dalam skema kerja sama bank dan penyelenggara, apakah bank atau platform. Tanpa itu, sulit menilai seberapa besar paparan bank yang sebenarnya; ini informasi kunci yang perlu dicermati dari laporan OJK berikutnya.</p><h3>Angka 5,36% adalah rata-rata industri</h3><p>TWP90 agregat menyembunyikan sebaran antarplatform. Laporan yang kami baca tidak menyebut berapa platform yang melewati 5% pada September, sehingga kesimpulan tentang platform tertentu tidak bisa ditarik. Bagi pembuat keputusan, hal yang relevan adalah tren: dari 4,73% ke 5,36% hanya dalam satu bulan, melewati batas yang ditetapkan regulator sendiri.</p><h3>Dua sinyal yang berlawanan</h3><p>Pembiayaan tumbuh 17,02% secara tahunan, tetapi kualitasnya memburuk. Pengamat Celios mengaitkannya dengan daya beli yang tertekan dan penilaian risiko yang tertinggal dari laju ekspansi, serta memperingatkan TWP90 dapat sulit diturunkan jika tekanan daya beli berlanjut. Itu pandangan satu analis, bukan angka OJK. BI Rate 5,75% yang bertahan juga membuat biaya dana bank tidak turun; apakah itu akan mengubah minat bank menyalurkan dana ke pindar masih dipantau, belum terbukti.</p><h3>Yang tidak dikatakan berita</h3><p>Tidak ada data tentang rasio kredit bermasalah di sisi bank, tentang konsentrasi pendanaan pada beberapa bank, maupun tentang langkah OJK jika TWP90 terus naik. Pada saat penulisan, OJK baru menyatakan akan memantau.</p>",
+  "actionHtml": "<h3>Untuk CFO dan Kepala Manajemen Risiko di bank pemberi dana</h3><ol><li>Pastikan skema kerja sama dengan penyelenggara menetapkan dengan jelas pihak yang menanggung kerugian kredit, serta batas eksposur per platform.</li><li>Minta data kualitas kredit per platform, bukan hanya rata-rata industri, dan tetapkan pemicu peninjauan jika TWP90 platform melewati 5%.</li><li>Uji skenario di mana tekanan daya beli berlanjut dan biaya dana tetap tinggi.</li></ol><h3>Untuk CFO perusahaan yang bermitra dengan platform pinjaman daring</h3><p>Jika perusahaan Anda memakai pindar untuk pembiayaan konsumen, mitra, atau karyawan, tinjau klausul kelangsungan layanan dan perlindungan data bila platform mengetatkan persetujuan kredit.</p><h3>Untuk penyelenggara pindar dan vendor credit scoring</h3><p>Perbaikan kualitas penilaian kredit menjadi isu utama; data alternatif dan pemantauan dini keterlambatan kemungkinan menjadi pembeda saat pendanaan bank dipantau lebih ketat.</p>",
+  "faqHtml": "<h3>Apa batas aman TWP90 pindar menurut OJK?</h3><p>Menurut laporan Kontan, ambang aman yang dipakai adalah 5%. Pada September 2026 angka industri mencapai 5,36%, naik dari 4,73% pada Agustus.</p><h3>Berapa porsi bank dalam pendanaan pinjaman daring?</h3><p>Per September 2026, lender perbankan menyumbang Rp71,58 triliun atau 67,22% dari total pendanaan industri, menurut data OJK yang dikutip Kontan.</p>",
+  "dataFigure": "67,22%",
+  "dataLabel": "porsi lender perbankan dalam pendanaan industri pindar per September 2026",
+  "dataSource": "OJK, via Kontan, 16 November 2026",
+  "chart": {
+    "bars": [
+      {
+        "label": "Agt 2026",
+        "value": 4.73,
+        "display": "4,73%"
+      },
+      {
+        "label": "Batas aman",
+        "value": 5,
+        "display": "5%"
+      },
+      {
+        "label": "Sep 2026",
+        "value": 5.36,
+        "display": "5,36%"
+      }
+    ]
+  },
+  "audience": [
+    "CFO",
+    "Kepala Manajemen Risiko",
+    "Bank",
+    "Penyelenggara fintech"
+  ],
+  "tags": [
+    "Pindar",
+    "Fintech lending",
+    "TWP90",
+    "OJK",
+    "Pendanaan perbankan",
+    "Risiko kredit",
+    "BI Rate"
+  ],
+  "sources": [
+    {
+      "name": "Kontan",
+      "title": "Lender Perbankan Dominasi Pendanaan Fintech Lending, Nilainya Capai Rp 71,58 Triliun",
+      "url": "https://keuangan.kontan.co.id/news/lender-perbankan-mendominasi-pendanaan-di-fintech-lending-per-september-2026",
+      "date": "2026-11-16"
+    },
+    {
+      "name": "Kontan",
+      "title": "Lampaui Ambang Batas Aman, TWP90 Fintech Lending Jadi 5,36% per September 2026",
+      "url": "https://keuangan.kontan.co.id/news/lampaui-ambang-batas-aman-twp90-fintech-lending-jadi-536-per-september-2026",
+      "date": "2026-11-05"
+    }
+  ],
+  "seoTitle": "Bank Danai 67,22% Pindar Rp71,58 Triliun, TWP90 Capai 5,36%",
+  "seoDescription": "OJK: bank danai 67,22% pindar (Rp71,58 triliun) saat TWP90 naik ke 5,36%, di atas batas aman 5%. Apa artinya bagi CFO dan manajer risiko.",
+  "publishAt": "2026-11-17T09:00:00+07:00",
+  "language": "id",
+  "en": {
+    "title": "Banks Fund 67.22% of P2P Lending, Rp71.58 Trillion, as TWP90 Breaches the 5.36% Safe Limit",
+    "dek": "OJK data as of September 2026 show banks supply 67.22% of peer-to-peer lending funding, about Rp71.58 trillion. At the same time the aggregate bad-loan measure (TWP90) rose to 5.36%, above OJK's 5% safe threshold.",
+    "dataFigure": "67.22%",
+    "dataLabel": "share of bank lenders in P2P lending funding, September 2026",
+    "dataSource": "OJK, via Kontan, 16 November 2026",
+    "seoTitle": "Banks Fund 67.22% of P2P Lending; TWP90 Hits 5.36%",
+    "seoDescription": "OJK: banks fund 67.22% of P2P lending (Rp71.58 trillion) as TWP90 rises to 5.36%, above the 5% safe limit. What CFOs and risk heads should do.",
+    "audience": [
+      "CFO",
+      "Head of Risk Management",
+      "Banks",
+      "Fintech operators"
+    ],
+    "chart": {
+      "bars": [
+        {
+          "label": "Aug 2026",
+          "value": 4.73,
+          "display": "4.73%"
+        },
+        {
+          "label": "Safe limit",
+          "value": 5,
+          "display": "5%"
+        },
+        {
+          "label": "Sep 2026",
+          "value": 5.36,
+          "display": "5.36%"
+        }
+      ]
+    },
+    "summaryHtml": "<ul><li>Kontan (16 November 2026) reports that bank lenders' funding in P2P lending as of September 2026 reached Rp71.58 trillion, or 67.22% of total industry funding. According to OJK, bank funds are usually channelled through cooperation schemes with operators.</li><li>Kontan (5 November 2026) recorded industry TWP90 rising from 4.73% in August to 5.36% in September, above OJK's 5% safe threshold. Outstanding financing reached Rp106.48 trillion, up 17.02% year on year.</li><li>Agusman, the OJK official overseeing financing institutions, said OJK is monitoring bank exposure to ensure adequate risk management, and expects banks to remain the main funding source with emphasis on governance, risk management and consumer protection.</li><li>OJK said the BI Rate holding at 5.75% may affect banks' funding costs, and the effect on bank lending to P2P platforms is being watched.</li><li>Nailul Huda of Celios says households' ability to repay is declining and platforms are expanding faster than credit scoring quality; in his view TWP90 has risen since early 2026 while disbursement growth remains above 20%.</li></ul>",
+    "analysisHtml": "<h3>P2P lending risk is now also bank risk</h3><p>With two-thirds of funding coming from banks, P2P credit quality is no longer only a matter for platforms and retail lenders. However, the sources we read do not explain who bears credit losses in the cooperation schemes between banks and operators, banks or platforms. Without that, it is hard to judge banks' true exposure; this is key information to watch for in OJK's next report.</p><h3>The 5.36% figure is an industry average</h3><p>Aggregate TWP90 hides differences between platforms. The reports we read do not say how many platforms exceeded 5% in September, so no conclusion about any particular platform can be drawn. What matters to decision makers is the trend: from 4.73% to 5.36% in a single month, passing a limit set by the regulator itself.</p><h3>Two opposing signals</h3><p>Financing grew 17.02% year on year, but its quality worsened. The Celios analyst links this to weak purchasing power and risk assessment lagging the pace of expansion, and warns TWP90 could be hard to bring down if purchasing-power pressure continues. That is one analyst's view, not an OJK figure. The BI Rate holding at 5.75% also means bank funding costs are not falling; whether that will change banks' appetite for lending to P2P platforms is being monitored, not yet proven.</p><h3>What the news does not say</h3><p>There is no data on non-performing loan ratios on the bank side, on how concentrated the funding is among a few banks, or on what OJK will do if TWP90 keeps rising. At the time of writing, OJK has only said it will monitor.</p>",
+    "actionHtml": "<h3>For CFOs and Heads of Risk Management at funding banks</h3><ol><li>Make sure cooperation schemes with operators state clearly who bears credit losses, and set exposure limits per platform.</li><li>Ask for credit quality data per platform, not only the industry average, and set a review trigger if a platform's TWP90 passes 5%.</li><li>Stress-test a scenario in which purchasing-power pressure continues and funding costs stay high.</li></ol><h3>For CFOs of companies partnering with online lending platforms</h3><p>If your company uses P2P lending for consumer, partner or employee financing, review service-continuity and data-protection clauses in case a platform tightens credit approvals.</p><h3>For P2P operators and credit scoring vendors</h3><p>Improving credit assessment is the central issue; alternative data and early delinquency monitoring are likely differentiators as bank funding comes under closer watch.</p>",
+    "faqHtml": "<h3>What is the safe limit for P2P lending TWP90 according to OJK?</h3><p>According to Kontan, the safe threshold used is 5%. In September 2026 the industry figure reached 5.36%, up from 4.73% in August.</p><h3>What share of online lending funding comes from banks?</h3><p>As of September 2026, bank lenders contributed Rp71.58 trillion, or 67.22% of total industry funding, according to OJK data cited by Kontan.</p>",
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bank-danai-pindar-rp7158-triliun-twp90-536-persen-september-2026-en.png"
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bank-danai-pindar-rp7158-triliun-twp90-536-persen-september-2026.png"
+}
