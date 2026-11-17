@@ -1,7 +1,193 @@
 {
-  "generatedAt": "2026-11-17T02:52:45+07:00",
+  "generatedAt": "2026-11-18T02:50:21+07:00",
   "site": "B2B Tech Asia Review",
   "articles": [
+    {
+      "slug": "perpres-lembaga-pdp-menunggu-keputusan-presiden-kesiapan-perusahaan",
+      "title": "Lembaga Pengawas PDP Menunggu Keputusan Presiden: 4 Tahun Setelah UU, Apa yang Perlu Disiapkan Perusahaan",
+      "category": "Legal, Compliance & Governance Tech",
+      "articleType": "analisis",
+      "dek": "Komdigi menyatakan rancangan Perpres pembentukan lembaga pengawas pelindungan data pribadi (PDP) sudah masuk tahap final dan diajukan ke Presiden. Selama lembaga itu belum berdiri, pengawasan tetap berada di Komdigi, sehingga perusahaan menghadapi masa transisi dengan wasit yang akan berganti.",
+      "summaryHtml": "<ul><li>Komdigi menyatakan pada 4 November 2026 bahwa rancangan Perpres pembentukan lembaga PDP telah masuk tahap final dan diajukan kepada Presiden melalui Kementerian Sekretariat Negara. Pernyataan disampaikan Direktur Strategi dan Kebijakan Pengawasan Ruang Digital, Muchtarul Huda. (Katadata, Telset)</li><li>Komdigi telah membentuk satuan tugas khusus untuk menangani masa transisi, dan menjalankan fungsi PDP sampai lembaga resmi dibentuk. Pemerintah menargetkan penyelesaian pada 2026. (Katadata, Telset)</li><li>Lembaga ini diamanatkan UU 27/2022 tentang PDP. Tugasnya mencakup perumusan kebijakan, penerimaan pengaduan, pengawasan, pemeriksaan, penegakan sanksi administratif, dan fasilitasi penyelesaian sengketa di luar pengadilan, serta menilai pemenuhan syarat transfer data lintas negara. (Katadata)</li><li>Proses penyusunan dimulai akhir 2022, izin prakarsa Presiden terbit 4 Maret 2025, dan harmonisasi berlangsung Oktober 2025 hingga Februari 2026. (Telset)</li></ul>",
+      "analysisHtml": "<h3>Aturannya berlaku, wasitnya belum ada</h3><p>Menurut laporan IDXChannel, masa transisi UU PDP berakhir pada Oktober 2024, dan undang-undang itu mengatur denda administratif hingga 2% pendapatan tahunan serta kewajiban melaporkan insiden dalam 72 jam. Artinya kewajiban perusahaan sudah berjalan, sementara lembaga independen yang dimaksud undang-undang belum terbentuk. Dalam masa jeda ini, Komdigi menjalankan fungsi tersebut, dan satgas transisi disiapkan agar penanganan insiden tidak terputus. Dari sudut pandang perusahaan, ketidakpastian utama bukan pada isi kewajiban, melainkan pada siapa yang menilai, dengan prosedur apa, dan kapan.</p><h3>Yang belum jelas: garis pelaporan dan kewenangan</h3><p>Sumber berbeda dalam menjelaskan posisi lembaga. Telset menyebut lembaga akan independen dan melapor langsung kepada Presiden, bukan kepada kementerian. Katadata mengutip pernyataan Wakil Menteri Komdigi Nezar Patria pada 21 Juli bahwa lembaga bekerja independen, tetapi laporannya sampai ke Presiden melalui Komdigi. Perbedaan ini penting bagi persepsi independensi, dan baru akan jelas ketika teks Perpres dipublikasikan. Dalam sumber yang kami baca, juga belum ada penjelasan tentang struktur sanksi turunan, anggaran, atau jumlah personel.</p><h3>Setelah Perpres terbit: dua tahap, bukan satu</h3><p>Telset menjelaskan pekerjaan setelah penetapan berjalan dalam dua fase: pembentukan resmi lembaga, lalu penyiapan operasional seperti staf, lokasi kantor, dan anggaran. Kemungkinan besar ini berarti penegakan penuh tidak langsung terasa sehari setelah Perpres terbit. Meski demikian, perusahaan sebaiknya tidak menganggap jeda ini sebagai kelonggaran, karena kewajiban dalam UU sudah berlaku. Kami juga tidak menemukan pengumuman penetapan Perpres tersebut dalam pencarian kami hingga laporan ini ditulis; statusnya perlu dicek ulang ke sumber resmi.</p><h3>Peran baru yang relevan bagi dunia usaha</h3><p>Tugas lembaga mencakup menilai pemenuhan syarat transfer data pribadi lintas negara dan bekerja sama dengan otoritas PDP negara lain. Bagi perusahaan yang memakai cloud, CRM, atau analitik di luar negeri, ini menunjukkan bahwa dokumentasi dasar hukum transfer data kemungkinan akan menjadi objek pemeriksaan.</p>",
+      "actionHtml": "<h3>Untuk Legal, Compliance, dan Pejabat PDP</h3><ol><li>Perbarui register pemrosesan data pribadi dan dasar hukum setiap pemrosesan, agar siap jika lembaga baru meminta bukti.</li><li>Dokumentasikan setiap transfer data lintas negara beserta penyedia dan lokasinya.</li><li>Pastikan prosedur pelaporan insiden dalam 72 jam sudah diuji, termasuk siapa yang berwenang menyampaikannya dan ke mana pada masa transisi.</li></ol><h3>Untuk CIO dan CISO</h3><ol><li>Petakan sistem yang menyimpan data pribadi (cloud, CRM, analitik, vendor) dan pastikan log akses dapat diaudit.</li><li>Tinjau kontrak pemroses data pihak ketiga agar kewajiban PDP dan notifikasi insiden tertulis jelas.</li></ol><h3>Untuk penyedia teknologi kepatuhan</h3><p>Permintaan kemungkinan meningkat pada pemetaan data, pencatatan transfer lintas negara, dan manajemen insiden. Tunggu teks Perpres sebelum mengklaim kesesuaian dengan lembaga baru.</p>",
+      "faqHtml": "<h3>Apa status lembaga pengawas PDP di Indonesia?</h3><p>Per pernyataan Komdigi pada 4 November 2026, rancangan Perpres pembentukannya sudah final dan diajukan kepada Presiden. Sampai lembaga berdiri, Komdigi menjalankan fungsi PDP.</p><h3>Apa saja tugas lembaga PDP?</h3><p>Menurut Katadata, tugasnya meliputi merumuskan kebijakan, menerima pengaduan, melakukan pengawasan dan pemeriksaan, menegakkan sanksi administratif, memfasilitasi penyelesaian sengketa di luar pengadilan, serta menilai syarat transfer data lintas negara.</p><h3>Apakah perusahaan boleh menunggu lembaga terbentuk untuk patuh pada UU PDP?</h3><p>Tidak ada dasar untuk menunggu: menurut IDXChannel masa transisi UU PDP berakhir pada Oktober 2024. Untuk kepastian hukum pada kasus tertentu, konsultasikan dengan penasihat hukum.</p>",
+      "dataFigure": "UU 27/2022",
+      "dataLabel": "dasar hukum lembaga pengawas PDP; Perpres pembentukannya kini menunggu keputusan Presiden",
+      "dataSource": "Komdigi, dikutip Katadata, 5 November 2026",
+      "audience": [
+        "Legal dan Compliance",
+        "Pejabat PDP",
+        "CIO dan CISO",
+        "Penyedia teknologi kepatuhan"
+      ],
+      "tags": [
+        "Lembaga PDP",
+        "UU PDP",
+        "Komdigi",
+        "Perpres",
+        "Transfer data lintas negara",
+        "Kepatuhan",
+        "Regulasi"
+      ],
+      "sources": [
+        {
+          "name": "Katadata",
+          "title": "Komdigi: Perpres Lembaga Pengawas PDP Masuk Tahap Final",
+          "url": "https://katadata.co.id/digital/teknologi/6aec368e80c97/komdigi-perpres-lembaga-pengawas-pdp-masuk-tahap-final",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Telset",
+          "title": "Regulasi Badan PDP Masuk Tahap Final, Pengawasan Data Pribadi Segera Pindah",
+          "url": "https://telset.id/news/telko/regulasi-badan-pdp-masuk-tahap-final-pengawasan-data-pribadi-segera-pindah",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "IDXChannel",
+          "title": "Tata Kelola AI di Sektor Jasa Keuangan Bakal Diawasi Ketat",
+          "url": "https://www.rctiplus.com/news/detail/idxchannel/5439739/tata-kelola-ai-di-sektor-jasa-keuangan-bakal-diawasi-ketat",
+          "date": "2026-07-30"
+        }
+      ],
+      "seoTitle": "Lembaga Pengawas PDP Menunggu Keputusan Presiden",
+      "seoDescription": "Perpres lembaga pengawas PDP sudah di meja Presiden. Selama transisi Komdigi mengawasi; ini yang perlu disiapkan perusahaan untuk kepatuhan UU PDP.",
+      "publishAt": "2026-11-18T07:30:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "Data Protection Regulator Awaits the President's Decision: What Companies Should Prepare Four Years After the Law",
+        "dek": "Komdigi says the draft presidential regulation to establish Indonesia's personal data protection (PDP) supervisory agency has reached its final stage and been submitted to the President. Until the agency exists, oversight stays with Komdigi, so companies face a transition period in which the referee will change.",
+        "summaryHtml": "<ul><li>Komdigi stated on 4 November 2026 that the draft presidential regulation establishing the PDP agency has reached its final stage and been submitted to the President through the State Secretariat. The statement came from Muchtarul Huda, Director of Digital Space Strategy and Supervision Policy. (Katadata, Telset)</li><li>Komdigi has set up a special task force to manage the transition and performs PDP functions until the agency is formally established. The government targets completion in 2026. (Katadata, Telset)</li><li>The agency is mandated by Law 27/2022 on PDP. Its duties include policy-making, receiving complaints, supervision, examinations, administrative enforcement and facilitating out-of-court dispute resolution, as well as assessing whether cross-border data transfers meet requirements. (Katadata)</li><li>Drafting began in late 2022, the presidential initiative permit was issued on 4 March 2025, and harmonization ran from October 2025 to February 2026. (Telset)</li></ul>",
+        "analysisHtml": "<h3>The rules apply, but the referee does not yet exist</h3><p>According to IDXChannel, the PDP Law's transition period ended in October 2024, and the law provides for administrative fines of up to 2% of annual revenue and a duty to report incidents within 72 hours. Company obligations are therefore already running, while the independent agency the law envisions has not been formed. In the gap, Komdigi performs the function, and a transition task force is intended to keep incident handling uninterrupted. From a company's viewpoint, the main uncertainty is not the content of the obligations but who will assess them, under what procedures, and when.</p><h3>What remains unclear: reporting line and powers</h3><p>Sources differ on the agency's position. Telset says the agency will be independent and report directly to the President, not to a ministry. Katadata quotes Komdigi Deputy Minister Nezar Patria on 21 July saying the agency works independently, but its reports go to the President through Komdigi. The difference matters for perceived independence and will only be settled when the regulation's text is published. The sources we read also do not describe derivative sanction structures, budget or headcount.</p><h3>After the regulation: two phases, not one</h3><p>Telset explains that work after enactment runs in two phases: formal establishment of the agency, then operational setup such as staffing, office location and budget. This probably means full enforcement will not be felt the day after the regulation is issued. Even so, companies should not treat the gap as leniency, because the law's obligations already apply. We also found no announcement that the regulation has been enacted in our searches up to the time of writing; its status should be rechecked against official sources.</p><h3>A new role relevant to business</h3><p>The agency's duties include assessing whether cross-border personal data transfers meet requirements and cooperating with foreign PDP authorities. For companies using cloud, CRM or analytics services abroad, this suggests that documentation of the legal basis for transfers is likely to become a subject of examination.</p>",
+        "actionHtml": "<h3>For Legal, Compliance and data protection officers</h3><ol><li>Update the register of personal data processing and the legal basis for each activity, so you are ready if the new agency asks for evidence.</li><li>Document every cross-border data transfer along with the provider and location.</li><li>Test the 72-hour incident reporting procedure, including who is authorized to report and to whom during the transition.</li></ol><h3>For CIOs and CISOs</h3><ol><li>Map the systems that hold personal data (cloud, CRM, analytics, vendors) and make sure access logs can be audited.</li><li>Review third-party processor contracts so PDP obligations and incident notification duties are written down clearly.</li></ol><h3>For compliance technology vendors</h3><p>Demand is likely to rise for data mapping, cross-border transfer records and incident management. Wait for the regulation's text before claiming alignment with the new agency.</p>",
+        "faqHtml": "<h3>What is the status of Indonesia's PDP supervisory agency?</h3><p>As of Komdigi's statement on 4 November 2026, the draft regulation establishing it is final and has been submitted to the President. Until the agency exists, Komdigi performs PDP functions.</p><h3>What are the PDP agency's duties?</h3><p>According to Katadata, they include formulating policy, receiving complaints, supervising and examining, enforcing administrative sanctions, facilitating out-of-court dispute resolution and assessing cross-border data transfer requirements.</p><h3>Can companies wait for the agency before complying with the PDP Law?</h3><p>There is no basis for waiting: according to IDXChannel, the PDP Law's transition period ended in October 2024. For certainty in a specific case, consult legal counsel.</p>",
+        "dataFigure": "Law 27/2022",
+        "dataLabel": "legal basis of the PDP agency; the regulation establishing it now awaits the President's decision",
+        "dataSource": "Komdigi, quoted by Katadata, 5 November 2026",
+        "seoTitle": "Indonesia PDP Agency Awaits the President's Decision",
+        "seoDescription": "The regulation creating Indonesia's PDP supervisory agency is with the President. Komdigi oversees meanwhile; what companies should prepare.",
+        "audience": [
+          "Legal and Compliance",
+          "Data protection officers",
+          "CIOs and CISOs",
+          "Compliance technology vendors"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/perpres-lembaga-pdp-menunggu-keputusan-presiden-kesiapan-perusahaan-en.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/perpres-lembaga-pdp-menunggu-keputusan-presiden-kesiapan-perusahaan.png"
+    },
+    {
+      "slug": "kai-logistik-kargo-halal-kereta-164-ribu-ton-perpres-logistik",
+      "title": "KAI Logistik Catat 164.142 Ton Kargo Halal via Kereta, Naik Tiap Kuartal: Ujian Awal Perpres Logistik",
+      "category": "Logistics & Supply Chain Tech",
+      "articleType": "analisis",
+      "dek": "Volume angkutan kontainer halal KAI Logistik lewat kereta mencapai 164.142 ton hingga Oktober 2026, dengan manufaktur dan FMCG sebagai pengguna utama. Di tengah target pemerintah menekan biaya logistik lewat Perpres 41/2026, angka ini menunjukkan seberapa jauh pergeseran dari truk ke rel sudah terjadi, dan apa yang belum bisa dibaca darinya.",
+      "summaryHtml": "<ul><li>KAI Logistik melaporkan angkutan kontainer halal lewat kereta api mencapai 164.142 ton sepanjang Januari–Oktober 2026. Angka ini disampaikan Direktur Pengembangan Bisnis Aniek Dwi Deviyanti. (JPNN, 17 November 2026)</li><li>Volume per kuartal: 37.710 ton (kuartal I), 49.842 ton (kuartal II), dan 59.418 ton (kuartal III, tertinggi). Oktober, bulan pertama kuartal IV, tercatat 954 TEUs atau 17.172 ton. (JPNN)</li><li>Pengguna layanan terutama perusahaan manufaktur dan FMCG, dan KAI Logistik memperkirakan tren positif berlanjut hingga akhir tahun. (JPNN)</li><li>Perpres 41/2026 tentang Penguatan Logistik Nasional, yang ditetapkan 16 Juli 2026, menargetkan biaya logistik turun dari sekitar 14,29% PDB menuju 12,5% dan akhirnya 8% PDB, dengan prioritas integrasi moda jalan, rel, dan laut. (CNN Indonesia, Fortune Indonesia)</li></ul>",
+      "analysisHtml": "<h3>Pertumbuhan yang jelas, tetapi bulan Oktober perlu dicermati</h3><p>Dari kuartal I ke kuartal III, volume naik dari 37.710 ton menjadi 59.418 ton, atau sekitar 58%. Kenaikan kuartal III terhadap kuartal II sekitar 19%. Namun Oktober tercatat 17.172 ton, lebih rendah dari rata-rata bulanan kuartal III yang sekitar 19.800 ton (59.418 dibagi tiga). Satu bulan belum cukup untuk menyimpulkan perlambatan; pola musiman, jadwal pengiriman kontainer, atau kapasitas armada bisa menjelaskannya. Sumber tidak memberi penjelasan, sehingga pembaca sebaiknya menunggu data November dan Desember sebelum menyebut tren.</p><h3>Mengapa kargo halal menjadi ukuran yang menarik</h3><p>Aniek menekankan bahwa logistik halal bukan hanya soal sertifikasi, tetapi menjaga integritas produk selama penyimpanan, penanganan, dan pengiriman. Bagi pembeli korporasi, ini berarti kebutuhan akan pelacakan dan pencatatan rantai pengiriman yang dapat diaudit. JPNN tidak menyebut sistem digital apa yang dipakai KAI Logistik, jadi kami tidak dapat menilai seberapa jauh pelacakan itu sudah terotomasi. Ini celah yang layak ditanyakan perusahaan pengguna kepada penyedia jasa.</p><h3>Kaitan dengan Perpres 41/2026: searah, tetapi belum terbukti</h3><p>Perpres 41/2026 menempatkan integrasi moda dan digitalisasi sebagai strategi inti, termasuk memperluas platform Ekosistem Logistik Nasional (NLE) menjadi digitalisasi ujung ke ujung dan membangun pelabuhan darat (dry port), antara lain di Kawasan Industri Terpadu Batang. Pemerintah mengklaim NLE telah menurunkan biaya logistik hingga 17% dan waktu layanan 73%; angka ini klaim pemerintah dan tidak diverifikasi independen dalam laporan yang kami baca. Kenaikan volume KAI Logistik searah dengan arah kebijakan, tetapi tidak ada sumber yang menyatakan kenaikan itu akibat Perpres, sehingga hubungan sebab-akibat tidak dapat dipastikan. Perlu juga dicatat bahwa sumber berbeda dalam menyebut basis angka 14,29% PDB: CNN Indonesia mengaitkannya dengan data 2022, sedangkan Fortune Indonesia menyebutnya sebagai kondisi saat ini.</p><h3>Siapa diuntungkan dan apa berikutnya</h3><p>Pemilik barang manufaktur dan FMCG dengan volume besar dan jadwal pengiriman yang dapat diprediksi paling mungkin diuntungkan oleh angkutan kereta. Pengangkut yang sepenuhnya bergantung pada truk menghadapi tekanan untuk mencari peran dalam rantai multimoda; pemerintah sendiri membuka pembiayaan lewat Kredit Industri Padat Karya (KIPK) untuk peremajaan armada truk. Yang kemungkinan menentukan adalah kesiapan data: kontainer yang berpindah antar moda hanya memberi penghematan jika statusnya terlihat secara real-time oleh pemilik barang.</p>",
+      "actionHtml": "<h3>Untuk Kepala Logistik dan Supply Chain</h3><ol><li>Hitung ulang rute berbiaya tinggi yang masih sepenuhnya bergantung pada truk dan uji kelayakan skema kereta atau multimoda pada rute tersebut.</li><li>Minta penyedia jasa menjelaskan cara pelacakan kontainer dan rekam jejak penanganan, terutama untuk produk yang membutuhkan jaminan halal.</li><li>Jangan menarik kesimpulan dari satu bulan data; bandingkan volume November–Desember sebelum mengubah kontrak.</li></ol><h3>Untuk CIO dan Direktur Operasi</h3><ol><li>Pastikan sistem manajemen transportasi dan gudang dapat menerima data status dari beberapa moda dan penyedia.</li><li>Pantau ketentuan turunan Perpres 41/2026 dan perkembangan NLE agar integrasi data kepabeanan dan perizinan tidak dikerjakan dua kali.</li></ol><h3>Untuk penyedia teknologi logistik</h3><p>Peluang ada pada visibilitas lintas moda, pelacakan kontainer, dan pencatatan kepatuhan halal yang dapat diaudit. Tawarkan bukti hasil pada rute nyata, bukan klaim umum.</p>",
+      "faqHtml": "<h3>Berapa volume angkutan kontainer halal KAI Logistik lewat kereta pada 2026?</h3><p>Hingga Oktober 2026, volumenya 164.142 ton: 37.710 ton pada kuartal I, 49.842 ton pada kuartal II, 59.418 ton pada kuartal III, dan 17.172 ton pada Oktober, menurut KAI Logistik yang dikutip JPNN.</p><h3>Apa target Perpres 41/2026 untuk biaya logistik?</h3><p>Pemerintah menargetkan penurunan biaya logistik dari sekitar 14,29% PDB menuju 12,5% dan akhirnya 8% PDB, tanpa tenggat tegas dalam laporan yang kami baca. Strateginya meliputi infrastruktur, integrasi dan digitalisasi, serta daya saing SDM dan penyedia jasa logistik.</p><h3>Apakah kenaikan volume ini akibat Perpres 41/2026?</h3><p>Tidak ada sumber yang menyatakan demikian. Perpres ditetapkan pada Juli 2026, dan kenaikan volume sudah terlihat dari kuartal I, sehingga hubungannya tidak dapat dipastikan.</p>",
+      "dataFigure": "164 rb ton",
+      "dataLabel": "angkutan kontainer halal KAI Logistik lewat kereta, Januari–Oktober 2026",
+      "dataSource": "KAI Logistik, dikutip JPNN, 17 November 2026",
+      "chart": {
+        "bars": [
+          {
+            "label": "Kuartal I",
+            "value": 37710,
+            "display": "37,7rb"
+          },
+          {
+            "label": "Kuartal II",
+            "value": 49842,
+            "display": "49,8rb"
+          },
+          {
+            "label": "Kuartal III",
+            "value": 59418,
+            "display": "59,4rb"
+          }
+        ]
+      },
+      "audience": [
+        "Kepala Logistik",
+        "Direktur Operasi",
+        "CIO",
+        "Penyedia teknologi logistik"
+      ],
+      "tags": [
+        "KAI Logistik",
+        "Logistik halal",
+        "Angkutan kereta",
+        "Perpres 41/2026",
+        "Ekosistem Logistik Nasional",
+        "Manufaktur",
+        "FMCG"
+      ],
+      "sources": [
+        {
+          "name": "JPNN",
+          "title": "Volume Angkutan KAI Logistik Capai 164 Ribu Ton",
+          "url": "https://www.jpnn.com/news/volume-angkutankai-logistik-capai-164-ribu-ton",
+          "date": "2026-11-17"
+        },
+        {
+          "name": "CNN Indonesia",
+          "title": "Pemerintah Optimistis Perpres 41/2026 Mampu Pangkas Biaya Logistik RI",
+          "url": "https://www.cnnindonesia.com/ekonomi/20261017154042-537-1416504/pemerintah-optimistis-perpres-41-2026-mampu-pangkas-biaya-logistik-ri",
+          "date": "2026-10-17"
+        },
+        {
+          "name": "Fortune Indonesia",
+          "title": "Biaya Logistik Nasional Ditargetkan Turun hingga 8 Persen",
+          "url": "https://www.fortuneidn.com/news/pemerintah-bidik-penurunan-biaya-logistik-nasional-hingga-8-persen-00-6cmtl-4py9gw",
+          "date": "2026-10-16"
+        }
+      ],
+      "seoTitle": "KAI Logistik Kargo Halal Kereta 164 Ribu Ton 2026",
+      "seoDescription": "KAI Logistik angkut 164.142 ton kontainer halal via kereta hingga Oktober 2026. Apa artinya bagi logistik manufaktur dan FMCG di tengah Perpres 41/2026.",
+      "publishAt": "2026-11-18T06:00:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "KAI Logistik Moves 164,142 Tons of Halal Cargo by Rail, Rising Each Quarter: An Early Test for the Logistics Decree",
+        "dek": "KAI Logistik's halal container freight by rail reached 164,142 tons through October 2026, with manufacturers and FMCG companies as the main users. As the government aims to cut logistics costs under Presidential Regulation 41/2026, the figure shows how far the shift from trucks to rail has gone, and what it cannot tell us yet.",
+        "summaryHtml": "<ul><li>KAI Logistik reports that halal container freight by rail reached 164,142 tons from January to October 2026. The figure was given by Business Development Director Aniek Dwi Deviyanti. (JPNN, 17 November 2026)</li><li>Quarterly volumes: 37,710 tons (Q1), 49,842 tons (Q2) and 59,418 tons (Q3, the highest). October, the first month of Q4, recorded 954 TEUs, or 17,172 tons. (JPNN)</li><li>Customers are mainly manufacturing and FMCG companies, and KAI Logistik expects the positive trend to continue through year-end. (JPNN)</li><li>Presidential Regulation 41/2026 on Strengthening National Logistics, enacted on 16 July 2026, targets cutting logistics costs from about 14.29% of GDP toward 12.5% and eventually 8% of GDP, prioritizing integration of road, rail and sea transport. (CNN Indonesia, Fortune Indonesia)</li></ul>",
+        "analysisHtml": "<h3>Clear growth, but October deserves a closer look</h3><p>From Q1 to Q3, volume rose from 37,710 tons to 59,418 tons, about 58%. Q3 was roughly 19% above Q2. October, however, came in at 17,172 tons, below Q3's monthly average of about 19,800 tons (59,418 divided by three). One month is not enough to call a slowdown; seasonality, container scheduling or fleet capacity could explain it. The source gives no explanation, so readers should wait for November and December data before naming a trend.</p><h3>Why halal cargo is an interesting yardstick</h3><p>Aniek stressed that halal logistics is not only about certification but about preserving product integrity through storage, handling and delivery. For corporate buyers, that means a need for auditable tracking and records along the shipping chain. JPNN does not say which digital systems KAI Logistik uses, so we cannot judge how automated that tracking already is. This is a gap worth raising with logistics providers.</p><h3>The link to Regulation 41/2026: aligned, but unproven</h3><p>Regulation 41/2026 makes modal integration and digitalization core strategies, including expanding the National Logistics Ecosystem (NLE) platform into end-to-end digitalization and building dry ports, among them at the Batang Integrated Industrial Estate. The government claims NLE has cut logistics costs by up to 17% and service times by 73%; these are government claims and were not independently verified in the reports we read. KAI Logistik's rising volume is consistent with the policy direction, but no source says the increase was caused by the regulation, so causality cannot be established. Note also that sources differ on the basis of the 14.29% of GDP figure: CNN Indonesia ties it to 2022 data, while Fortune Indonesia presents it as the current level.</p><h3>Who gains and what comes next</h3><p>Manufacturing and FMCG shippers with large volumes and predictable schedules are most likely to benefit from rail. Carriers that depend entirely on trucks face pressure to find a role in multimodal chains; the government itself is offering financing through the Labor-Intensive Industry Credit (KIPK) to renew aging truck fleets. What will probably matter most is data readiness: containers moving between modes only deliver savings if their status is visible to cargo owners in real time.</p>",
+        "actionHtml": "<h3>For heads of logistics and supply chain</h3><ol><li>Recalculate high-cost routes that still rely entirely on trucks and test the feasibility of rail or multimodal options on them.</li><li>Ask providers to explain how containers are tracked and how handling records are kept, especially for products that need halal assurance.</li><li>Do not draw conclusions from one month of data; compare November–December volumes before changing contracts.</li></ol><h3>For CIOs and operations directors</h3><ol><li>Make sure transport and warehouse management systems can receive status data from several modes and providers.</li><li>Follow the implementing rules of Regulation 41/2026 and NLE developments so customs and licensing data integration is not built twice.</li></ol><h3>For logistics technology vendors</h3><p>Opportunities lie in cross-modal visibility, container tracking and auditable halal compliance records. Offer proof of results on real routes, not generic claims.</p>",
+        "faqHtml": "<h3>How much halal container freight did KAI Logistik move by rail in 2026?</h3><p>Through October 2026 the volume was 164,142 tons: 37,710 tons in Q1, 49,842 tons in Q2, 59,418 tons in Q3 and 17,172 tons in October, according to KAI Logistik as quoted by JPNN.</p><h3>What does Regulation 41/2026 target for logistics costs?</h3><p>The government aims to cut logistics costs from about 14.29% of GDP toward 12.5% and eventually 8% of GDP, with no firm deadline in the reports we read. The strategy covers infrastructure, integration and digitalization, and the competitiveness of workers and logistics providers.</p><h3>Is the volume increase a result of Regulation 41/2026?</h3><p>No source says so. The regulation was enacted in July 2026 and the volume increase was already visible from Q1, so the relationship cannot be established.</p>",
+        "dataFigure": "164K tons",
+        "dataLabel": "halal container freight moved by KAI Logistik by rail, January–October 2026",
+        "dataSource": "KAI Logistik, quoted by JPNN, 17 November 2026",
+        "chart": {
+          "bars": [
+            {
+              "label": "Q1",
+              "value": 37710,
+              "display": "37.7K"
+            },
+            {
+              "label": "Q2",
+              "value": 49842,
+              "display": "49.8K"
+            },
+            {
+              "label": "Q3",
+              "value": 59418,
+              "display": "59.4K"
+            }
+          ]
+        },
+        "seoTitle": "KAI Logistik Halal Rail Cargo Hits 164K Tons in 2026",
+        "seoDescription": "KAI Logistik moved 164,142 tons of halal container freight by rail through Oct 2026. What it means for Indonesian manufacturing and FMCG logistics.",
+        "audience": [
+          "Heads of Logistics",
+          "Operations Directors",
+          "CIOs",
+          "Logistics technology vendors"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kai-logistik-kargo-halal-kereta-164-ribu-ton-perpres-logistik-en.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kai-logistik-kargo-halal-kereta-164-ribu-ton-perpres-logistik.png"
+    },
     {
       "slug": "bank-danai-pindar-rp7158-triliun-twp90-536-persen-september-2026",
       "title": "Bank Biayai 67,22% Pindar Senilai Rp71,58 Triliun, Saat TWP90 Menembus Batas Aman 5,36%",
