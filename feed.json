@@ -1,7 +1,314 @@
 {
-  "generatedAt": "2026-11-18T02:50:21+07:00",
+  "generatedAt": "2026-11-19T02:51:30+07:00",
   "site": "B2B Tech Asia Review",
   "articles": [
+    {
+      "slug": "bi-qris-70-juta-pengguna-penipuan-ai-ikksp-7703-persen",
+      "title": "Pengguna QRIS 70,59 Juta, BI Peringatkan Penipuan Digital Berbasis AI dan Minta Penyedia Perkuat Perlindungan",
+      "category": "FinTech & Financial Operations",
+      "articleType": "analisis",
+      "dek": "Bank Indonesia melaporkan pengguna QRIS mencapai 70,59 juta dan transaksi kumulatif lebih dari 20 miliar. Di saat yang sama BI menilai penipuan terorganisasi berbasis AI sebagai risiko dan meminta penyedia jasa pembayaran menjadikan perlindungan konsumen bagian dari strategi bisnis.",
+      "summaryHtml": "<ul><li>Kontan dan Republika (16 November 2026) melaporkan pernyataan Deputi Gubernur BI Filianingsih Hendarta di acara GEBER PK 2027 di Jakarta.</li><li>Menurut Kontan, pengguna QRIS mencapai 70,59 juta (naik 8,17% secara tahunan), merchant 49,39 juta (naik 36,04%), dan transaksi kumulatif lebih dari 20 miliar dengan pertumbuhan 149,1%. Republika mencatat angka dibulatkan: lebih dari 70 juta pengguna hingga kuartal III 2026, 49 juta merchant, dan lebih dari 20 miliar transaksi.</li><li>Survei nasional tiga tahunan BI menempatkan Indeks Keberdayaan Konsumen Sistem Pembayaran (IKKSP) 2026 di 77,03%, naik 12,36 poin dari 64,67% pada 2023, namun masih kategori kritis dan belum mencapai kategori berdaya, menurut Kontan.</li><li>BI menyoroti risiko kejahatan siber lintas negara dan penipuan terorganisasi berbasis AI, serta meminta penguatan edukasi konsumen, sistem peringatan dini, dan langkah pencegahan oleh penyedia.</li><li>BI meminta penyedia memandang pelindungan konsumen sebagai bagian dari strategi bisnis dan manajemen risiko, mencakup keamanan transaksi, transparansi layanan, dan penanganan pengaduan yang lebih cepat.</li></ul>",
+      "analysisHtml": "<h3>Pertumbuhan merchant jauh melampaui pengguna</h3><p>Angka Kontan menunjukkan merchant tumbuh 36,04% sedangkan pengguna 8,17%. Pola itu menunjukkan ekspansi saat ini lebih ditentukan oleh sisi penerimaan, yakni jumlah gerai yang memasang QRIS, ketimbang pertambahan pemakai baru. Itu interpretasi kami atas dua angka tersebut; BI tidak menyatakannya secara eksplisit. Bagi perusahaan yang menjadi acquirer atau menyediakan layanan pembayaran, lebih banyak merchant berarti permukaan serangan yang lebih luas.</p><h3>Kepercayaan sebagai syarat pertumbuhan</h3><p>Republika mencatat BI mengutip studi atas 1.133 pelaku usaha kecil di Indonesia, dimuat di Journal of Financial Services Marketing, yang menemukan bahwa persepsi risiko menurunkan niat memakai pembayaran digital. Dalam laporan Republika, Filianingsih menyebut bahwa responden cenderung kembali ke tunai ketika kepercayaan hilang. Kesimpulannya tegas: satu gelombang penipuan yang ditangani buruk dapat memengaruhi adopsi lebih dari sekadar kerugian langsung.</p><h3>Indeks naik, tetapi masih kritis</h3><p>IKKSP naik dari 64,67% ke 77,03%, namun BI masih menggolongkannya kritis. Kami tidak menemukan penjelasan di sumber mengapa angka 77% belum masuk kategori berdaya, sehingga ambang kategori tidak dapat kami jelaskan. Perbandingan 2023 dan 2026 juga berasal dari survei, bukan data kejadian penipuan.</p><h3>Yang tidak dikatakan berita</h3><p>Tidak ada data jumlah kasus penipuan QRIS, nilai kerugian, atau sanksi baru bagi penyedia. BI menyebut kebutuhan penguatan, tetapi sumber belum memuat aturan baru yang mengikat; arah kebijakan dan jadwalnya perlu dicermati.</p>",
+      "actionHtml": "<h3>Untuk CFO dan pimpinan keuangan</h3><ol><li>Jika perusahaan menerima QRIS, tetapkan prosedur verifikasi nama merchant dan nominal sebelum konfirmasi, sebagaimana imbauan BI kepada pengguna, dan latih kasir serta staf keuangan.</li><li>Rekonsiliasi transaksi QRIS harian dan tetapkan jalur eskalasi bila ada pembayaran yang tidak dikenali.</li></ol><h3>Untuk CIO dan CISO di penyedia jasa pembayaran dan bank</h3><ol><li>Petakan kontrol deteksi penipuan, sistem peringatan dini, dan waktu penanganan pengaduan terhadap tiga hal yang diminta BI: keamanan transaksi, transparansi layanan, dan kecepatan penanganan pengaduan.</li><li>Siapkan skenario penipuan berbasis AI, termasuk rekayasa sosial, dalam uji ketahanan.</li></ol><h3>Untuk vendor fintech dan keamanan</h3><p>Permintaan BI agar perlindungan konsumen menjadi strategi bisnis membuka kebutuhan alat pemantauan, edukasi pengguna, dan manajemen pengaduan; tunjukkan hasil yang terukur, bukan hanya fitur.</p>",
+      "faqHtml": "<h3>Berapa pengguna QRIS saat ini?</h3><p>Menurut Kontan yang mengutip BI, 70,59 juta pengguna; Republika menyebut lebih dari 70 juta hingga kuartal III 2026.</p><h3>Apa yang diminta BI kepada penyedia pembayaran?</h3><p>Menjadikan pelindungan konsumen bagian dari strategi bisnis dan manajemen risiko: keamanan transaksi, transparansi layanan, dan penanganan pengaduan yang lebih cepat.</p><h3>Bagaimana pengguna menghindari penipuan QRIS?</h3><p>BI mengimbau memeriksa nama merchant dan nominal sebelum konfirmasi serta merahasiakan PIN, kata sandi, dan OTP.</p>",
+      "dataFigure": "70,59 juta",
+      "dataLabel": "pengguna QRIS, dengan 49,39 juta merchant dan lebih dari 20 miliar transaksi kumulatif",
+      "dataSource": "Bank Indonesia, via Kontan, 16 November 2026",
+      "chart": {
+        "bars": [
+          {
+            "label": "IKKSP 2023",
+            "value": 64.67,
+            "display": "64,67%"
+          },
+          {
+            "label": "IKKSP 2026",
+            "value": 77.03,
+            "display": "77,03%"
+          }
+        ]
+      },
+      "audience": [
+        "CFO",
+        "CIO",
+        "CISO",
+        "Penyedia pembayaran"
+      ],
+      "tags": [
+        "QRIS",
+        "Bank Indonesia",
+        "Penipuan digital",
+        "Pelindungan konsumen",
+        "GEBER PK",
+        "Sistem pembayaran"
+      ],
+      "sources": [
+        {
+          "name": "Kontan",
+          "title": "Transaksi QRIS Melejit 149,1%, BI Perketat Pelindungan Konsumen dari Penipuan AI",
+          "url": "https://keuangan.kontan.co.id/news/transaksi-qris-melejit-1491-bi-perketat-pelindungan-konsumen-dari-penipuan-ai",
+          "date": "2026-11-16"
+        },
+        {
+          "name": "Republika",
+          "title": "Pengguna QRIS Capai 70 Juta, BI Ingatkan Risiko Penipuan Digital",
+          "url": "https://ekonomi.republika.co.id/berita/tokynm423/pengguna-qris-capai-70-juta-bi-ingatkan-risiko-penipuan-digital",
+          "date": "2026-11-16"
+        }
+      ],
+      "seoTitle": "Pengguna QRIS 70,59 Juta, BI Waspadai Penipuan AI",
+      "seoDescription": "BI: pengguna QRIS 70,59 juta, merchant 49,39 juta. BI minta penyedia perkuat perlindungan dari penipuan berbasis AI. Apa langkah CFO dan CISO.",
+      "publishAt": "2026-11-19T09:00:00+07:00",
+      "en": {
+        "title": "QRIS Users Reach 70.59 Million as BI Warns of AI-Driven Digital Fraud and Urges Providers to Strengthen Protection",
+        "dek": "Bank Indonesia reports QRIS users at 70.59 million and cumulative transactions above 20 billion. BI also sees organised AI-enabled fraud as a risk and asks payment providers to make consumer protection part of business strategy.",
+        "summaryHtml": "<ul><li>Kontan and Republika (16 November 2026) report remarks by BI Deputy Governor Filianingsih Hendarta at the GEBER PK 2027 event in Jakarta.</li><li>According to Kontan, QRIS users reached 70.59 million (up 8.17% year on year), merchants 49.39 million (up 36.04%), and cumulative transactions exceeded 20 billion, growing 149.1%. Republika rounds the figures: over 70 million users as of Q3 2026, 49 million merchants and over 20 billion transactions.</li><li>BI's triennial national survey puts the 2026 Payment System Consumer Empowerment Index (IKKSP) at 77.03%, up 12.36 points from 64.67% in 2023, but still in the critical category and short of the empowered category, according to Kontan.</li><li>BI highlights cross-border cybercrime and organised AI-enabled fraud, and calls for stronger consumer education, early-warning systems and preventive measures by providers.</li><li>BI asks providers to treat consumer protection as part of business strategy and risk management, covering transaction security, service transparency and faster complaint handling.</li></ul>",
+        "analysisHtml": "<h3>Merchant growth far outpaces user growth</h3><p>Kontan's figures show merchants growing 36.04% while users grew 8.17%. The pattern suggests current expansion is driven more by the acceptance side, the number of outlets adopting QRIS, than by new users. That is our interpretation of the two figures; BI does not state it explicitly. For companies acting as acquirers or providing payment services, more merchants means a wider attack surface.</p><h3>Trust as a condition for growth</h3><p>Republika notes BI cited a study of 1,133 small business operators in Indonesia, published in the Journal of Financial Services Marketing, finding that perceived risk reduces the intention to use digital payments. In Republika's report, Filianingsih said respondents tend to return to cash once trust is lost. The implication is clear: one badly handled wave of fraud can affect adoption beyond the direct losses.</p><h3>Index up, but still critical</h3><p>The IKKSP rose from 64.67% to 77.03%, yet BI still classifies it as critical. We found no explanation in the sources of why 77% falls short of the empowered category, so we cannot explain the category thresholds. The 2023-2026 comparison also comes from a survey, not fraud-incident data.</p><h3>What the news does not say</h3><p>There is no data on the number of QRIS fraud cases, the value of losses, or new sanctions for providers. BI cites the need for strengthening, but the sources contain no new binding rule; the policy direction and timing bear watching.</p>",
+        "actionHtml": "<h3>For CFOs and finance leaders</h3><ol><li>If your company accepts QRIS, set a procedure to verify merchant name and amount before confirmation, as BI advises users, and train cashiers and finance staff.</li><li>Reconcile QRIS transactions daily and define an escalation path for unrecognised payments.</li></ol><h3>For CIOs and CISOs at payment providers and banks</h3><ol><li>Map fraud-detection controls, early-warning systems and complaint-handling times against the three things BI asks for: transaction security, service transparency and complaint-handling speed.</li><li>Include AI-enabled fraud scenarios, including social engineering, in resilience testing.</li></ol><h3>For fintech and security vendors</h3><p>BI's request that consumer protection become business strategy opens demand for monitoring tools, user education and complaint management; show measurable outcomes, not only features.</p>",
+        "faqHtml": "<h3>How many QRIS users are there?</h3><p>According to Kontan, citing BI, 70.59 million users; Republika says over 70 million as of Q3 2026.</p><h3>What does BI ask of payment providers?</h3><p>To make consumer protection part of business strategy and risk management: transaction security, service transparency and faster complaint handling.</p><h3>How can users avoid QRIS fraud?</h3><p>BI advises checking the merchant name and amount before confirming and keeping PINs, passwords and OTPs confidential.</p>",
+        "dataFigure": "70.59 million",
+        "dataLabel": "QRIS users, with 49.39 million merchants and over 20 billion cumulative transactions",
+        "dataSource": "Bank Indonesia, via Kontan, 16 November 2026",
+        "seoTitle": "QRIS Users Hit 70.59M, BI Warns of AI Fraud",
+        "seoDescription": "BI: QRIS users 70.59 million, merchants 49.39 million. BI urges providers to strengthen protection against AI-driven fraud. What CFOs and CISOs do.",
+        "audience": [
+          "CFO",
+          "CIO",
+          "CISO",
+          "Payment providers"
+        ],
+        "chart": {
+          "bars": [
+            {
+              "label": "IKKSP 2023",
+              "value": 64.67,
+              "display": "64.67%"
+            },
+            {
+              "label": "IKKSP 2026",
+              "value": 77.03,
+              "display": "77.03%"
+            }
+          ]
+        },
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bi-qris-70-juta-pengguna-penipuan-ai-ikksp-7703-persen-en.png"
+      },
+      "language": "id",
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bi-qris-70-juta-pengguna-penipuan-ai-ikksp-7703-persen.png"
+    },
+    {
+      "slug": "economy-sea-2026-ecommerce-indonesia-us85-miliar-belanja-ai",
+      "title": "E-Commerce Indonesia Diperkirakan Capai US$85 Miliar pada 2026, 37% Perjalanan Belanja Dimulai dengan Bantuan AI",
+      "category": "E-Commerce & Retail Tech",
+      "articleType": "analisis",
+      "dek": "Laporan e-Conomy SEA 2026 dari Google, Temasek, dan Bain dan Company memperkirakan nilai transaksi e-commerce Indonesia naik 16% menjadi US$85 miliar. Laporan itu juga menunjukkan AI mulai masuk di awal proses belanja, sementara pembayaran oleh agen AI masih tahap awal.",
+      "summaryHtml": "<ul><li>Katadata (11 November 2026), mengutip laporan e-Conomy SEA 2026, melaporkan perkiraan nilai transaksi e-commerce Indonesia 2026 sebesar US$85 miliar (Rp1.541 triliun pada kurs Rp18.130), naik 16% dari US$73 miliar; nilai 2024 sebesar US$62 miliar.</li><li>Proyeksi laporan itu: US$175 miliar pada 2030 dan US$362 miliar pada 2035.</li><li>Sebanyak 37% perjalanan belanja konsumen di Indonesia dimulai dengan bantuan AI, dan 84% pengguna AI yang disurvei bersedia membiarkan agen AI mencari harga terbaik dan menyelesaikan pembelian, dibandingkan rata-rata 75% di enam negara Asia Tenggara.</li><li>Lebih dari 90% konsumen masih melakukan riset tambahan atau membaca ulasan setelah rekomendasi AI, dan fitur checkout oleh agen AI disebut masih dalam pengembangan.</li><li>Lazada dan Shopee menyampaikan hasil penggunaan AI: asisten Lazzie mencapai sekitar 3 juta pengguna aktif harian saat kampanye 6.6, dan chatbot Shopee menangani sekitar 80% pertanyaan konsumen dengan biaya per kontak turun 30% secara tahunan.</li></ul>",
+      "analysisHtml": "<h3>Pertumbuhan 16% dan peran AI</h3><p>Perkiraan US$85 miliar menempatkan e-commerce Indonesia pada lintasan pertumbuhan dua digit, tetapi laporan yang kami baca tidak menjelaskan seberapa besar kenaikan itu berasal dari AI. Data AI dan data nilai transaksi di laporan adalah dua temuan terpisah; hubungan sebab-akibat belum dibuktikan. Satu-satunya angka yang mengaitkan keduanya adalah klaim Lazada bahwa pesanan dengan bantuan AI memiliki nilai pesanan rata-rata sekitar 75% lebih tinggi, yang merupakan klaim perusahaan dan bukan temuan survei independen.</p><h3>Minat tinggi, kebiasaan belum berubah</h3><p>Ada jarak antara kesediaan dan perilaku. Sebanyak 84% pengguna AI bersedia menyerahkan pembelian kepada agen AI, tetapi pengguna Indonesia rata-rata hanya 1,76 sesi AI per minggu, terendah di antara enam negara, dan lebih dari 90% masih mengecek ulasan setelah rekomendasi AI. Jadi, tingkat kepercayaan terhadap AI sebagai asisten (93%) tidak otomatis berarti konsumen akan melepas keputusan akhir. Bagi pelaku usaha, rekomendasi AI tampaknya menjadi pintu masuk, sementara ulasan dan reputasi toko tetap menjadi penentu.</p><h3>Pemenang dan yang tertekan</h3><p>Penjual yang datanya rapi (judul produk, atribut, foto, ulasan) kemungkinan lebih mudah ditemukan oleh asisten AI; Lazada menyebut lebih dari 95% penjualnya memakai fitur AI Smart Listing, sehingga fitur dasar itu mulai menjadi standar, bukan pembeda. Penjual kecil yang bergantung pada promo tanggal kembar menghadapi persaingan lain: JawaPos (10 November 2026) mencatat Harbolnas 2025 menghasilkan Rp36,4 triliun transaksi menurut Kementerian Perdagangan, dan 54% konsumen membeli lewat tautan afiliasi kreator. Angka itu bukan perbandingan langsung dengan perkiraan tahunan 2026 karena periode dan definisinya berbeda.</p><h3>Yang tidak dikatakan berita</h3><p>Laporan tidak menjelaskan metodologi perkiraan nilai transaksi per platform, dan angka kinerja Lazada dan Shopee berasal dari perusahaan itu sendiri. Proyeksi 2030 dan 2035 adalah perkiraan; kemungkinan realisasinya sangat bergantung pada daya beli dan regulasi platform.</p>",
+      "actionHtml": "<h3>Untuk CMO dan Kepala E-Commerce</h3><ol><li>Audit katalog produk: judul, atribut, dan deskripsi yang lengkap dan konsisten membantu produk ditemukan oleh asisten belanja AI.</li><li>Ukur sumber lalu lintas dan konversi per kanal, termasuk perjalanan yang dimulai di aplikasi AI, bukan hanya pencarian dan media sosial.</li><li>Kelola ulasan dan reputasi toko secara aktif, karena mayoritas pembeli masih memeriksa ulasan setelah rekomendasi AI.</li></ol><h3>Untuk CIO dan pemimpin operasi</h3><ol><li>Siapkan data produk, stok, dan harga yang dapat diakses lewat API agar siap bila checkout oleh agen AI tersedia.</li><li>Tinjau layanan pelanggan berbasis AI dengan ukuran biaya per kontak dan kepuasan, seperti yang dilaporkan Shopee.</li></ol><h3>Untuk vendor e-commerce dan martech</h3><p>Fokuskan penawaran pada data produk yang bersih dan integrasi lintas marketplace; jangan menjanjikan checkout otonom sebelum teknologi dan kepercayaan konsumen siap.</p>",
+      "faqHtml": "<h3>Berapa nilai e-commerce Indonesia pada 2026 menurut e-Conomy SEA?</h3><p>Perkiraan US$85 miliar atau Rp1.541 triliun, naik 16% dari US$73 miliar, menurut laporan yang dikutip Katadata.</p><h3>Berapa persen konsumen Indonesia memulai belanja dengan AI?</h3><p>Laporan mencatat 37% perjalanan belanja konsumen di Indonesia dimulai dengan bantuan AI.</p><h3>Apakah agen AI sudah bisa membayar belanjaan?</h3><p>Laporan menyebut checkout atau pembayaran oleh agen AI masih dalam pengembangan.</p>",
+      "dataFigure": "US$85 mi",
+      "dataLabel": "perkiraan nilai transaksi e-commerce Indonesia 2026, naik 16%",
+      "dataSource": "e-Conomy SEA 2026 (Google, Temasek, Bain), via Katadata, 11 November 2026",
+      "chart": {
+        "bars": [
+          {
+            "label": "2024",
+            "value": 62,
+            "display": "US$62 mi"
+          },
+          {
+            "label": "2025",
+            "value": 73,
+            "display": "US$73 mi"
+          },
+          {
+            "label": "2026 (perk.)",
+            "value": 85,
+            "display": "US$85 mi"
+          }
+        ]
+      },
+      "audience": [
+        "CMO",
+        "Kepala E-Commerce",
+        "CIO",
+        "Vendor martech"
+      ],
+      "tags": [
+        "e-Conomy SEA 2026",
+        "E-commerce",
+        "AI belanja",
+        "Shopee",
+        "Lazada",
+        "Agentic commerce",
+        "Harbolnas"
+      ],
+      "sources": [
+        {
+          "name": "Katadata",
+          "title": "Transaksi Shopee hingga Lazada Rp1.541 Triliun, Warga RI Belanja Online Pakai AI",
+          "url": "https://katadata.co.id/digital/e-commerce/6af417bc8d352/transaksi-shopee-hingga-lazada-rp1541-triliun-warga-ri-belanja-online-pakai-ai",
+          "date": "2026-11-11"
+        },
+        {
+          "name": "JawaPos",
+          "title": "Promo 11.11 2026 Dorong Pertumbuhan Perdagangan Digital",
+          "url": "https://www.jawapos.com/ekonomi/2611090489/promo-1111-2026-dorong-pertumbuhan-perdagangan-digital",
+          "date": "2026-11-10"
+        }
+      ],
+      "seoTitle": "E-Commerce Indonesia 2026 US$85 Miliar, AI Mulai Belanja",
+      "seoDescription": "e-Conomy SEA 2026: e-commerce Indonesia US$85 miliar, 37% perjalanan belanja dimulai dengan AI. Apa artinya bagi CMO dan pelaku retail.",
+      "publishAt": "2026-11-19T07:30:00+07:00",
+      "en": {
+        "title": "Indonesia's E-Commerce Seen Reaching US$85 Billion in 2026, With 37% of Shopping Journeys Starting with AI",
+        "dek": "The e-Conomy SEA 2026 report by Google, Temasek and Bain and Company estimates Indonesia's e-commerce transaction value rising 16% to US$85 billion. It also shows AI entering the start of the shopping process, while AI-agent payments remain at an early stage.",
+        "summaryHtml": "<ul><li>Katadata (11 November 2026), citing the e-Conomy SEA 2026 report, reports estimated 2026 Indonesian e-commerce transaction value of US$85 billion (Rp1,541 trillion at Rp18,130), up 16% from US$73 billion; the 2024 value was US$62 billion.</li><li>The report projects US$175 billion in 2030 and US$362 billion in 2035.</li><li>37% of consumer shopping journeys in Indonesia begin with AI assistance, and 84% of surveyed AI users would let an AI agent find the best price and complete a purchase, versus a 75% average across six Southeast Asian countries.</li><li>More than 90% of consumers still do extra research or read reviews after an AI recommendation, and agentic checkout is described as still in development.</li><li>Lazada and Shopee report AI results: Lazada's assistant Lazzie reached about 3 million daily active users during the 6.6 campaign, and Shopee's chatbot handles about 80% of consumer questions with cost per contact down 30% year on year.</li></ul>",
+        "analysisHtml": "<h3>16% growth and the role of AI</h3><p>The US$85 billion estimate puts Indonesian e-commerce on a double-digit growth path, but the report we read does not explain how much of the increase comes from AI. The AI data and the transaction-value data are two separate findings; causality is not shown. The only figure linking the two is Lazada's claim that AI-guided orders have an average order value about 75% higher, which is a company claim, not an independent survey finding.</p><h3>High willingness, habits not yet changed</h3><p>There is a gap between willingness and behaviour. 84% of AI users would hand purchases to an AI agent, yet Indonesian users average just 1.76 AI sessions per week, the lowest of the six countries, and more than 90% still check reviews after an AI recommendation. So trust in AI as an assistant (93%) does not automatically mean consumers will hand over the final decision. For businesses, AI recommendations appear to be an entry point, while reviews and store reputation remain the decider.</p><h3>Winners and those under pressure</h3><p>Sellers with clean data (product titles, attributes, photos, reviews) are likely to be easier for AI assistants to find; Lazada says over 95% of its sellers use its AI Smart Listing feature, so that basic feature is becoming standard, not a differentiator. Small sellers reliant on twin-date promotions face other competition: JawaPos (10 November 2026) notes Harbolnas 2025 produced Rp36.4 trillion in transactions according to the Ministry of Trade, and 54% of consumers bought through creator affiliate links. That figure is not a direct comparison with the 2026 annual estimate because period and definition differ.</p><h3>What the news does not say</h3><p>The report does not explain the methodology behind per-platform transaction estimates, and the Lazada and Shopee performance figures come from the companies themselves. The 2030 and 2035 figures are projections; realisation will likely depend heavily on purchasing power and platform regulation.</p>",
+        "actionHtml": "<h3>For CMOs and Heads of E-Commerce</h3><ol><li>Audit your product catalogue: complete, consistent titles, attributes and descriptions help products be found by AI shopping assistants.</li><li>Measure traffic sources and conversion per channel, including journeys that start in AI apps, not only search and social media.</li><li>Manage reviews and store reputation actively, since most buyers still check reviews after an AI recommendation.</li></ol><h3>For CIOs and operations leaders</h3><ol><li>Prepare product, stock and price data that can be reached through APIs so you are ready if agent-led checkout becomes available.</li><li>Review AI-based customer service using cost-per-contact and satisfaction measures, as Shopee reports.</li></ol><h3>For e-commerce and martech vendors</h3><p>Focus offers on clean product data and cross-marketplace integration; do not promise autonomous checkout before the technology and consumer trust are ready.</p>",
+        "faqHtml": "<h3>What is Indonesia's e-commerce value in 2026 according to e-Conomy SEA?</h3><p>An estimated US$85 billion, or Rp1,541 trillion, up 16% from US$73 billion, according to the report as cited by Katadata.</p><h3>What share of Indonesian consumers start shopping with AI?</h3><p>The report records that 37% of consumer shopping journeys in Indonesia begin with AI assistance.</p><h3>Can AI agents already pay for purchases?</h3><p>The report says agentic checkout or AI-agent payment is still in development.</p>",
+        "dataFigure": "US$85B",
+        "dataLabel": "estimated Indonesian e-commerce transaction value in 2026, up 16%",
+        "dataSource": "e-Conomy SEA 2026 (Google, Temasek, Bain), via Katadata, 11 November 2026",
+        "seoTitle": "Indonesia E-Commerce 2026 US$85B, AI Starts Shopping",
+        "seoDescription": "e-Conomy SEA 2026: Indonesia e-commerce at US$85 billion, 37% of shopping journeys start with AI. What it means for CMOs and retailers.",
+        "audience": [
+          "CMO",
+          "Head of E-Commerce",
+          "CIO",
+          "Martech vendors"
+        ],
+        "chart": {
+          "bars": [
+            {
+              "label": "2024",
+              "value": 62,
+              "display": "US$62B"
+            },
+            {
+              "label": "2025",
+              "value": 73,
+              "display": "US$73B"
+            },
+            {
+              "label": "2026 (est.)",
+              "value": 85,
+              "display": "US$85B"
+            }
+          ]
+        },
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/economy-sea-2026-ecommerce-indonesia-us85-miliar-belanja-ai-en.png"
+      },
+      "language": "id",
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/economy-sea-2026-ecommerce-indonesia-us85-miliar-belanja-ai.png"
+    },
+    {
+      "slug": "kbank-indonesia-core-banking-baru-tiga-afiliasi-rp3762-miliar",
+      "title": "KBank Indonesia Tunjuk Tiga Afiliasi Garap Core Banking Baru, Nilai Kontrak Setara Rp37,62 Miliar",
+      "category": "Enterprise Software & ERP",
+      "articleType": "analisis",
+      "dek": "PT Bank Kasikorn Indonesia Tbk (BMAS) mengungkap tiga transaksi afiliasi untuk membangun sistem inti perbankan (core banking system) baru. Nilainya setara sekitar Rp37,62 miliar, dengan kontrak infrastruktur dan implementasi yang berjalan hingga 2036.",
+      "summaryHtml": "<ul><li>Kontan dan Emitennews (16 November 2026) melaporkan bahwa BMAS menyampaikan keterbukaan informasi tentang tiga transaksi afiliasi untuk core banking system (CBS) baru.</li><li>Kasikorn Soft (KSoft) menangani pengembangan aplikasi, integrasi, pengujian, dan dukungan go-live hingga akhir 2027, senilai 12,784 juta baht.</li><li>Kasikorn Infra (KInfra) menangani desain dan penyiapan infrastruktur seluruh lingkungan proyek hingga akhir 2036, senilai 12,6 juta baht. KBTG Vietnam menangani implementasi menyeluruh, termasuk migrasi data, cutover, dan hypercare hingga akhir 2036, senilai US$1,31 juta.</li><li>Emitennews menghitung total setara sekitar Rp37,62 miliar dengan kurs sekitar Rp539,18 per baht dan Rp18.269 per dolar AS pada 16 November 2026; angka akhir bisa berbeda mengikuti kurs saat pembayaran.</li><li>Manajemen menyatakan transaksi tidak mengandung benturan kepentingan sesuai POJK No. 42/POJK.04/2020.</li></ul>",
+      "analysisHtml": "<h3>Proyek core banking dibeli dari dalam grup</h3><p>Ketiga penyedia adalah perusahaan afiliasi, sehingga keputusan teknologi ini sekaligus keputusan tata kelola. Itu sebabnya aturan transaksi afiliasi berlaku dan pernyataan bebas benturan kepentingan dimuat dalam keterbukaan informasi. Bagi bank kecil-menengah yang dimiliki grup regional, model ini lazim dipertimbangkan karena tim teknologi grup sudah memahami platform yang akan dipakai; namun sumber yang kami baca tidak menjelaskan alasan pemilihan atau apakah ada pembanding harga dari pihak ketiga.</p><h3>Biaya awal kecil, komitmen panjang</h3><p>Nilai Rp37,62 miliar terbilang kecil untuk proyek sistem inti bank. Yang lebih penting adalah tenornya: kontrak KInfra dan KBTG Vietnam berjalan hingga akhir 2036, sedangkan pengembangan aplikasi selesai pada akhir 2027. Artinya, ada kemungkinan nilai total biaya sistem lebih besar daripada tiga kontrak ini, karena sumber tidak merinci lisensi, perangkat keras, atau biaya internal. Kami tidak dapat menyimpulkan total anggaran proyek dari data yang dipublikasikan.</p><h3>Selisih angka antarsumber</h3><p>Kontan mencatat nilai kontrak KBTG Vietnam US$1,31 juta; Emitennews merinci US$1.310.210. Keduanya konsisten. Namun deskripsi cakupan kerja KInfra sedikit berbeda: Kontan menyebut desain, persiapan, dan kesiapan operasional lingkungan proyek, Emitennews menyebut desain, penyiapan awal, dan pemeliharaan. Pembaca perlu merujuk dokumen keterbukaan di Bursa Efek Indonesia untuk rincian resmi.</p><h3>Yang tidak dikatakan berita</h3><p>Tidak ada informasi tentang jadwal peluncuran CBS baru kepada nasabah, vendor perangkat lunak inti yang dipakai, atau risiko migrasi data. Tahap cutover dan hypercare biasanya menjadi titik rawan bagi bank mana pun; ini pengamatan umum, bukan temuan dari berita ini.</p>",
+      "actionHtml": "<h3>Untuk CIO dan CTO bank</h3><ol><li>Jika proyek core banking Anda melibatkan afiliasi grup, siapkan dokumentasi pembanding harga dan pemisahan peran sejak awal agar mudah dibuktikan bebas benturan kepentingan.</li><li>Pisahkan kontrak pembangunan (hingga go-live) dari kontrak operasi jangka panjang, dan tetapkan klausul keluar serta kepemilikan data untuk kontrak yang berjalan hingga 2036.</li><li>Rencanakan migrasi data, cutover, dan hypercare sebagai paket kerja tersendiri dengan kriteria keberhasilan terukur.</li></ol><h3>Untuk CFO dan komite audit</h3><p>Pantau transaksi afiliasi secara berkala: nilai kontrak dalam mata uang asing menimbulkan risiko kurs, sebagaimana catatan bahwa angka akhir dapat berbeda dari konversi rupiah saat ini.</p><h3>Untuk vendor perangkat lunak perbankan</h3><p>Di bank yang bagian dari grup regional, keputusan teknologi sering dipengaruhi struktur grup; pelajari hubungan afiliasi sebelum mengajukan penawaran.</p>",
+      "faqHtml": "<h3>Apa itu core banking system?</h3><p>Sistem inti yang mencatat rekening, simpanan, kredit, dan transaksi nasabah. Penggantiannya termasuk proyek teknologi paling besar risikonya bagi sebuah bank.</p><h3>Siapa saja afiliasi yang terlibat dalam proyek KBank Indonesia?</h3><p>Kasikorn Soft Company Limited, Kasikorn Infra Company Limited, dan KBTG Vietnam Company Limited, menurut keterbukaan informasi BMAS yang dilaporkan Kontan dan Emitennews pada 16 November 2026.</p><h3>Berapa total nilai kontraknya?</h3><p>Emitennews menghitung sekitar Rp37,62 miliar, dengan catatan kurs yang dipakai Rp539,18 per baht dan Rp18.269 per dolar AS.</p>",
+      "dataFigure": "Rp37,62 mi",
+      "dataLabel": "total nilai tiga kontrak afiliasi untuk core banking baru KBank Indonesia (setara rupiah)",
+      "dataSource": "Emitennews, 16 November 2026",
+      "chart": {
+        "bars": [
+          {
+            "label": "KSoft",
+            "value": 6.89,
+            "display": "Rp6,89 mi"
+          },
+          {
+            "label": "KInfra",
+            "value": 6.79,
+            "display": "Rp6,79 mi"
+          },
+          {
+            "label": "KBTG-VN",
+            "value": 23.94,
+            "display": "Rp23,94 mi"
+          }
+        ]
+      },
+      "audience": [
+        "CIO",
+        "CTO",
+        "CFO",
+        "Bank"
+      ],
+      "tags": [
+        "Enterprise Adoption",
+        "Deals",
+        "KBank Indonesia",
+        "BMAS",
+        "Core banking",
+        "Transaksi afiliasi",
+        "KBTG"
+      ],
+      "sources": [
+        {
+          "name": "Kontan",
+          "title": "KBank Indonesia Gandeng Tiga Perusahaan Afiliasi untuk Garap Core Banking System Baru",
+          "url": "https://keuangan.kontan.co.id/news/kbank-indonesia-gandeng-tiga-perusahaan-afiliasi-untuk-garap-core-banking-system-baru",
+          "date": "2026-11-16"
+        },
+        {
+          "name": "Emitennews",
+          "title": "BMAS Kucurkan Rp37,62 Miliar untuk Modernisasi Core Banking System",
+          "url": "https://emitennews.com/news/bmas-kucurkan-rp3762-miliar-untuk-modernisasi-core-banking-system",
+          "date": "2026-11-16"
+        }
+      ],
+      "seoTitle": "KBank Indonesia Garap Core Banking Baru, Rp37,62 Miliar",
+      "seoDescription": "BMAS tunjuk tiga afiliasi untuk core banking baru senilai setara Rp37,62 miliar, kontrak hingga 2036. Pelajaran bagi CIO dan CFO bank.",
+      "publishAt": "2026-11-19T06:00:00+07:00",
+      "en": {
+        "title": "KBank Indonesia Appoints Three Affiliates to Build New Core Banking, Contracts Worth About Rp37.62 Billion",
+        "dek": "PT Bank Kasikorn Indonesia Tbk (BMAS) disclosed three affiliated-party transactions to build a new core banking system. The contracts are worth about Rp37.62 billion, with infrastructure and implementation terms running to 2036.",
+        "summaryHtml": "<ul><li>Kontan and Emitennews (16 November 2026) report that BMAS filed a disclosure on three affiliated transactions for its new core banking system (CBS).</li><li>Kasikorn Soft (KSoft) handles application development, integration, testing and go-live support until end-2027, valued at 12.784 million baht.</li><li>Kasikorn Infra (KInfra) handles infrastructure design and preparation for all project environments until end-2036, valued at 12.6 million baht. KBTG Vietnam handles end-to-end implementation, including data migration, cutover and hypercare until end-2036, valued at US$1.31 million.</li><li>Emitennews calculates the total at about Rp37.62 billion, using roughly Rp539.18 per baht and Rp18,269 per US dollar on 16 November 2026; final figures may differ with the exchange rate at payment.</li><li>Management states the transactions contain no conflict of interest under POJK No. 42/POJK.04/2020.</li></ul>",
+        "analysisHtml": "<h3>The core banking project is sourced from within the group</h3><p>All three providers are affiliates, so this technology decision is also a governance decision. That is why affiliated-transaction rules apply and a no-conflict statement appears in the disclosure. For small and mid-sized banks owned by a regional group, this model is a common option because the group's technology teams already know the platform to be used; but the sources we read do not explain why the providers were chosen or whether third-party price comparisons were made.</p><h3>Small upfront cost, long commitment</h3><p>Rp37.62 billion is modest for a bank core-system project. The tenor matters more: the KInfra and KBTG Vietnam contracts run to end-2036, while application development ends in late 2027. The total system cost may therefore be larger than these three contracts, as the sources do not itemise licences, hardware or internal costs. We cannot infer the full project budget from the published data.</p><h3>Differences between sources</h3><p>Kontan records KBTG Vietnam's contract at US$1.31 million; Emitennews gives US$1,310,210. The two are consistent. The description of KInfra's scope differs slightly: Kontan cites design, preparation and operational readiness of project environments, Emitennews cites design, initial setup and maintenance. Readers should consult the disclosure filed with the Indonesia Stock Exchange for official detail.</p><h3>What the news does not say</h3><p>There is no information on when the new CBS will go live for customers, which core software vendor is used, or the data-migration risks. Cutover and hypercare are typically the fragile phases for any bank; this is a general observation, not a finding of this news.</p>",
+        "actionHtml": "<h3>For bank CIOs and CTOs</h3><ol><li>If your core banking project involves group affiliates, prepare price benchmarks and a clear separation of roles from the start so that absence of conflict of interest is easy to demonstrate.</li><li>Separate the build contract (to go-live) from the long-term operations contract, and set exit clauses and data-ownership terms for contracts running to 2036.</li><li>Plan data migration, cutover and hypercare as a distinct work package with measurable success criteria.</li></ol><h3>For CFOs and audit committees</h3><p>Monitor affiliated transactions regularly: foreign-currency contract values create exchange-rate risk, as the note that final figures may differ from today's rupiah conversion shows.</p><h3>For banking software vendors</h3><p>At banks that belong to regional groups, technology decisions are often shaped by group structure; study affiliate relationships before bidding.</p>",
+        "faqHtml": "<h3>What is a core banking system?</h3><p>The central system that records customer accounts, deposits, loans and transactions. Replacing it is among the riskiest technology projects a bank can undertake.</p><h3>Which affiliates are involved in KBank Indonesia's project?</h3><p>Kasikorn Soft Company Limited, Kasikorn Infra Company Limited and KBTG Vietnam Company Limited, according to BMAS's disclosure as reported by Kontan and Emitennews on 16 November 2026.</p><h3>What is the total contract value?</h3><p>Emitennews calculates about Rp37.62 billion, using Rp539.18 per baht and Rp18,269 per US dollar.</p>",
+        "dataFigure": "Rp37.62B",
+        "dataLabel": "total value of three affiliate contracts for KBank Indonesia's new core banking (rupiah equivalent)",
+        "dataSource": "Emitennews, 16 November 2026",
+        "seoTitle": "KBank Indonesia Builds New Core Banking, Rp37.62B",
+        "seoDescription": "BMAS appoints three affiliates for a new core banking system worth about Rp37.62 billion, contracts to 2036. Lessons for bank CIOs and CFOs.",
+        "audience": [
+          "CIO",
+          "CTO",
+          "CFO",
+          "Banks"
+        ],
+        "chart": {
+          "bars": [
+            {
+              "label": "KSoft",
+              "value": 6.89,
+              "display": "Rp6.89B"
+            },
+            {
+              "label": "KInfra",
+              "value": 6.79,
+              "display": "Rp6.79B"
+            },
+            {
+              "label": "KBTG-VN",
+              "value": 23.94,
+              "display": "Rp23.94B"
+            }
+          ]
+        },
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kbank-indonesia-core-banking-baru-tiga-afiliasi-rp3762-miliar-en.png"
+      },
+      "language": "id",
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kbank-indonesia-core-banking-baru-tiga-afiliasi-rp3762-miliar.png"
+    },
     {
       "slug": "perpres-lembaga-pdp-menunggu-keputusan-presiden-kesiapan-perusahaan",
       "title": "Lembaga Pengawas PDP Menunggu Keputusan Presiden: 4 Tahun Setelah UU, Apa yang Perlu Disiapkan Perusahaan",

@@ -1,0 +1,95 @@
+{
+  "slug": "bi-qris-70-juta-pengguna-penipuan-ai-ikksp-7703-persen",
+  "title": "Pengguna QRIS 70,59 Juta, BI Peringatkan Penipuan Digital Berbasis AI dan Minta Penyedia Perkuat Perlindungan",
+  "category": "FinTech & Financial Operations",
+  "articleType": "analisis",
+  "dek": "Bank Indonesia melaporkan pengguna QRIS mencapai 70,59 juta dan transaksi kumulatif lebih dari 20 miliar. Di saat yang sama BI menilai penipuan terorganisasi berbasis AI sebagai risiko dan meminta penyedia jasa pembayaran menjadikan perlindungan konsumen bagian dari strategi bisnis.",
+  "summaryHtml": "<ul><li>Kontan dan Republika (16 November 2026) melaporkan pernyataan Deputi Gubernur BI Filianingsih Hendarta di acara GEBER PK 2027 di Jakarta.</li><li>Menurut Kontan, pengguna QRIS mencapai 70,59 juta (naik 8,17% secara tahunan), merchant 49,39 juta (naik 36,04%), dan transaksi kumulatif lebih dari 20 miliar dengan pertumbuhan 149,1%. Republika mencatat angka dibulatkan: lebih dari 70 juta pengguna hingga kuartal III 2026, 49 juta merchant, dan lebih dari 20 miliar transaksi.</li><li>Survei nasional tiga tahunan BI menempatkan Indeks Keberdayaan Konsumen Sistem Pembayaran (IKKSP) 2026 di 77,03%, naik 12,36 poin dari 64,67% pada 2023, namun masih kategori kritis dan belum mencapai kategori berdaya, menurut Kontan.</li><li>BI menyoroti risiko kejahatan siber lintas negara dan penipuan terorganisasi berbasis AI, serta meminta penguatan edukasi konsumen, sistem peringatan dini, dan langkah pencegahan oleh penyedia.</li><li>BI meminta penyedia memandang pelindungan konsumen sebagai bagian dari strategi bisnis dan manajemen risiko, mencakup keamanan transaksi, transparansi layanan, dan penanganan pengaduan yang lebih cepat.</li></ul>",
+  "analysisHtml": "<h3>Pertumbuhan merchant jauh melampaui pengguna</h3><p>Angka Kontan menunjukkan merchant tumbuh 36,04% sedangkan pengguna 8,17%. Pola itu menunjukkan ekspansi saat ini lebih ditentukan oleh sisi penerimaan, yakni jumlah gerai yang memasang QRIS, ketimbang pertambahan pemakai baru. Itu interpretasi kami atas dua angka tersebut; BI tidak menyatakannya secara eksplisit. Bagi perusahaan yang menjadi acquirer atau menyediakan layanan pembayaran, lebih banyak merchant berarti permukaan serangan yang lebih luas.</p><h3>Kepercayaan sebagai syarat pertumbuhan</h3><p>Republika mencatat BI mengutip studi atas 1.133 pelaku usaha kecil di Indonesia, dimuat di Journal of Financial Services Marketing, yang menemukan bahwa persepsi risiko menurunkan niat memakai pembayaran digital. Dalam laporan Republika, Filianingsih menyebut bahwa responden cenderung kembali ke tunai ketika kepercayaan hilang. Kesimpulannya tegas: satu gelombang penipuan yang ditangani buruk dapat memengaruhi adopsi lebih dari sekadar kerugian langsung.</p><h3>Indeks naik, tetapi masih kritis</h3><p>IKKSP naik dari 64,67% ke 77,03%, namun BI masih menggolongkannya kritis. Kami tidak menemukan penjelasan di sumber mengapa angka 77% belum masuk kategori berdaya, sehingga ambang kategori tidak dapat kami jelaskan. Perbandingan 2023 dan 2026 juga berasal dari survei, bukan data kejadian penipuan.</p><h3>Yang tidak dikatakan berita</h3><p>Tidak ada data jumlah kasus penipuan QRIS, nilai kerugian, atau sanksi baru bagi penyedia. BI menyebut kebutuhan penguatan, tetapi sumber belum memuat aturan baru yang mengikat; arah kebijakan dan jadwalnya perlu dicermati.</p>",
+  "actionHtml": "<h3>Untuk CFO dan pimpinan keuangan</h3><ol><li>Jika perusahaan menerima QRIS, tetapkan prosedur verifikasi nama merchant dan nominal sebelum konfirmasi, sebagaimana imbauan BI kepada pengguna, dan latih kasir serta staf keuangan.</li><li>Rekonsiliasi transaksi QRIS harian dan tetapkan jalur eskalasi bila ada pembayaran yang tidak dikenali.</li></ol><h3>Untuk CIO dan CISO di penyedia jasa pembayaran dan bank</h3><ol><li>Petakan kontrol deteksi penipuan, sistem peringatan dini, dan waktu penanganan pengaduan terhadap tiga hal yang diminta BI: keamanan transaksi, transparansi layanan, dan kecepatan penanganan pengaduan.</li><li>Siapkan skenario penipuan berbasis AI, termasuk rekayasa sosial, dalam uji ketahanan.</li></ol><h3>Untuk vendor fintech dan keamanan</h3><p>Permintaan BI agar perlindungan konsumen menjadi strategi bisnis membuka kebutuhan alat pemantauan, edukasi pengguna, dan manajemen pengaduan; tunjukkan hasil yang terukur, bukan hanya fitur.</p>",
+  "faqHtml": "<h3>Berapa pengguna QRIS saat ini?</h3><p>Menurut Kontan yang mengutip BI, 70,59 juta pengguna; Republika menyebut lebih dari 70 juta hingga kuartal III 2026.</p><h3>Apa yang diminta BI kepada penyedia pembayaran?</h3><p>Menjadikan pelindungan konsumen bagian dari strategi bisnis dan manajemen risiko: keamanan transaksi, transparansi layanan, dan penanganan pengaduan yang lebih cepat.</p><h3>Bagaimana pengguna menghindari penipuan QRIS?</h3><p>BI mengimbau memeriksa nama merchant dan nominal sebelum konfirmasi serta merahasiakan PIN, kata sandi, dan OTP.</p>",
+  "dataFigure": "70,59 juta",
+  "dataLabel": "pengguna QRIS, dengan 49,39 juta merchant dan lebih dari 20 miliar transaksi kumulatif",
+  "dataSource": "Bank Indonesia, via Kontan, 16 November 2026",
+  "chart": {
+    "bars": [
+      {
+        "label": "IKKSP 2023",
+        "value": 64.67,
+        "display": "64,67%"
+      },
+      {
+        "label": "IKKSP 2026",
+        "value": 77.03,
+        "display": "77,03%"
+      }
+    ]
+  },
+  "audience": [
+    "CFO",
+    "CIO",
+    "CISO",
+    "Penyedia pembayaran"
+  ],
+  "tags": [
+    "QRIS",
+    "Bank Indonesia",
+    "Penipuan digital",
+    "Pelindungan konsumen",
+    "GEBER PK",
+    "Sistem pembayaran"
+  ],
+  "sources": [
+    {
+      "name": "Kontan",
+      "title": "Transaksi QRIS Melejit 149,1%, BI Perketat Pelindungan Konsumen dari Penipuan AI",
+      "url": "https://keuangan.kontan.co.id/news/transaksi-qris-melejit-1491-bi-perketat-pelindungan-konsumen-dari-penipuan-ai",
+      "date": "2026-11-16"
+    },
+    {
+      "name": "Republika",
+      "title": "Pengguna QRIS Capai 70 Juta, BI Ingatkan Risiko Penipuan Digital",
+      "url": "https://ekonomi.republika.co.id/berita/tokynm423/pengguna-qris-capai-70-juta-bi-ingatkan-risiko-penipuan-digital",
+      "date": "2026-11-16"
+    }
+  ],
+  "seoTitle": "Pengguna QRIS 70,59 Juta, BI Waspadai Penipuan AI",
+  "seoDescription": "BI: pengguna QRIS 70,59 juta, merchant 49,39 juta. BI minta penyedia perkuat perlindungan dari penipuan berbasis AI. Apa langkah CFO dan CISO.",
+  "publishAt": "2026-11-19T09:00:00+07:00",
+  "en": {
+    "title": "QRIS Users Reach 70.59 Million as BI Warns of AI-Driven Digital Fraud and Urges Providers to Strengthen Protection",
+    "dek": "Bank Indonesia reports QRIS users at 70.59 million and cumulative transactions above 20 billion. BI also sees organised AI-enabled fraud as a risk and asks payment providers to make consumer protection part of business strategy.",
+    "summaryHtml": "<ul><li>Kontan and Republika (16 November 2026) report remarks by BI Deputy Governor Filianingsih Hendarta at the GEBER PK 2027 event in Jakarta.</li><li>According to Kontan, QRIS users reached 70.59 million (up 8.17% year on year), merchants 49.39 million (up 36.04%), and cumulative transactions exceeded 20 billion, growing 149.1%. Republika rounds the figures: over 70 million users as of Q3 2026, 49 million merchants and over 20 billion transactions.</li><li>BI's triennial national survey puts the 2026 Payment System Consumer Empowerment Index (IKKSP) at 77.03%, up 12.36 points from 64.67% in 2023, but still in the critical category and short of the empowered category, according to Kontan.</li><li>BI highlights cross-border cybercrime and organised AI-enabled fraud, and calls for stronger consumer education, early-warning systems and preventive measures by providers.</li><li>BI asks providers to treat consumer protection as part of business strategy and risk management, covering transaction security, service transparency and faster complaint handling.</li></ul>",
+    "analysisHtml": "<h3>Merchant growth far outpaces user growth</h3><p>Kontan's figures show merchants growing 36.04% while users grew 8.17%. The pattern suggests current expansion is driven more by the acceptance side, the number of outlets adopting QRIS, than by new users. That is our interpretation of the two figures; BI does not state it explicitly. For companies acting as acquirers or providing payment services, more merchants means a wider attack surface.</p><h3>Trust as a condition for growth</h3><p>Republika notes BI cited a study of 1,133 small business operators in Indonesia, published in the Journal of Financial Services Marketing, finding that perceived risk reduces the intention to use digital payments. In Republika's report, Filianingsih said respondents tend to return to cash once trust is lost. The implication is clear: one badly handled wave of fraud can affect adoption beyond the direct losses.</p><h3>Index up, but still critical</h3><p>The IKKSP rose from 64.67% to 77.03%, yet BI still classifies it as critical. We found no explanation in the sources of why 77% falls short of the empowered category, so we cannot explain the category thresholds. The 2023-2026 comparison also comes from a survey, not fraud-incident data.</p><h3>What the news does not say</h3><p>There is no data on the number of QRIS fraud cases, the value of losses, or new sanctions for providers. BI cites the need for strengthening, but the sources contain no new binding rule; the policy direction and timing bear watching.</p>",
+    "actionHtml": "<h3>For CFOs and finance leaders</h3><ol><li>If your company accepts QRIS, set a procedure to verify merchant name and amount before confirmation, as BI advises users, and train cashiers and finance staff.</li><li>Reconcile QRIS transactions daily and define an escalation path for unrecognised payments.</li></ol><h3>For CIOs and CISOs at payment providers and banks</h3><ol><li>Map fraud-detection controls, early-warning systems and complaint-handling times against the three things BI asks for: transaction security, service transparency and complaint-handling speed.</li><li>Include AI-enabled fraud scenarios, including social engineering, in resilience testing.</li></ol><h3>For fintech and security vendors</h3><p>BI's request that consumer protection become business strategy opens demand for monitoring tools, user education and complaint management; show measurable outcomes, not only features.</p>",
+    "faqHtml": "<h3>How many QRIS users are there?</h3><p>According to Kontan, citing BI, 70.59 million users; Republika says over 70 million as of Q3 2026.</p><h3>What does BI ask of payment providers?</h3><p>To make consumer protection part of business strategy and risk management: transaction security, service transparency and faster complaint handling.</p><h3>How can users avoid QRIS fraud?</h3><p>BI advises checking the merchant name and amount before confirming and keeping PINs, passwords and OTPs confidential.</p>",
+    "dataFigure": "70.59 million",
+    "dataLabel": "QRIS users, with 49.39 million merchants and over 20 billion cumulative transactions",
+    "dataSource": "Bank Indonesia, via Kontan, 16 November 2026",
+    "seoTitle": "QRIS Users Hit 70.59M, BI Warns of AI Fraud",
+    "seoDescription": "BI: QRIS users 70.59 million, merchants 49.39 million. BI urges providers to strengthen protection against AI-driven fraud. What CFOs and CISOs do.",
+    "audience": [
+      "CFO",
+      "CIO",
+      "CISO",
+      "Payment providers"
+    ],
+    "chart": {
+      "bars": [
+        {
+          "label": "IKKSP 2023",
+          "value": 64.67,
+          "display": "64.67%"
+        },
+        {
+          "label": "IKKSP 2026",
+          "value": 77.03,
+          "display": "77.03%"
+        }
+      ]
+    },
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bi-qris-70-juta-pengguna-penipuan-ai-ikksp-7703-persen-en.png"
+  },
+  "language": "id",
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bi-qris-70-juta-pengguna-penipuan-ai-ikksp-7703-persen.png"
+}

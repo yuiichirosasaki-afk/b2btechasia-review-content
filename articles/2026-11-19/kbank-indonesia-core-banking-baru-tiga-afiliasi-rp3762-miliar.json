@@ -1,0 +1,106 @@
+{
+  "slug": "kbank-indonesia-core-banking-baru-tiga-afiliasi-rp3762-miliar",
+  "title": "KBank Indonesia Tunjuk Tiga Afiliasi Garap Core Banking Baru, Nilai Kontrak Setara Rp37,62 Miliar",
+  "category": "Enterprise Software & ERP",
+  "articleType": "analisis",
+  "dek": "PT Bank Kasikorn Indonesia Tbk (BMAS) mengungkap tiga transaksi afiliasi untuk membangun sistem inti perbankan (core banking system) baru. Nilainya setara sekitar Rp37,62 miliar, dengan kontrak infrastruktur dan implementasi yang berjalan hingga 2036.",
+  "summaryHtml": "<ul><li>Kontan dan Emitennews (16 November 2026) melaporkan bahwa BMAS menyampaikan keterbukaan informasi tentang tiga transaksi afiliasi untuk core banking system (CBS) baru.</li><li>Kasikorn Soft (KSoft) menangani pengembangan aplikasi, integrasi, pengujian, dan dukungan go-live hingga akhir 2027, senilai 12,784 juta baht.</li><li>Kasikorn Infra (KInfra) menangani desain dan penyiapan infrastruktur seluruh lingkungan proyek hingga akhir 2036, senilai 12,6 juta baht. KBTG Vietnam menangani implementasi menyeluruh, termasuk migrasi data, cutover, dan hypercare hingga akhir 2036, senilai US$1,31 juta.</li><li>Emitennews menghitung total setara sekitar Rp37,62 miliar dengan kurs sekitar Rp539,18 per baht dan Rp18.269 per dolar AS pada 16 November 2026; angka akhir bisa berbeda mengikuti kurs saat pembayaran.</li><li>Manajemen menyatakan transaksi tidak mengandung benturan kepentingan sesuai POJK No. 42/POJK.04/2020.</li></ul>",
+  "analysisHtml": "<h3>Proyek core banking dibeli dari dalam grup</h3><p>Ketiga penyedia adalah perusahaan afiliasi, sehingga keputusan teknologi ini sekaligus keputusan tata kelola. Itu sebabnya aturan transaksi afiliasi berlaku dan pernyataan bebas benturan kepentingan dimuat dalam keterbukaan informasi. Bagi bank kecil-menengah yang dimiliki grup regional, model ini lazim dipertimbangkan karena tim teknologi grup sudah memahami platform yang akan dipakai; namun sumber yang kami baca tidak menjelaskan alasan pemilihan atau apakah ada pembanding harga dari pihak ketiga.</p><h3>Biaya awal kecil, komitmen panjang</h3><p>Nilai Rp37,62 miliar terbilang kecil untuk proyek sistem inti bank. Yang lebih penting adalah tenornya: kontrak KInfra dan KBTG Vietnam berjalan hingga akhir 2036, sedangkan pengembangan aplikasi selesai pada akhir 2027. Artinya, ada kemungkinan nilai total biaya sistem lebih besar daripada tiga kontrak ini, karena sumber tidak merinci lisensi, perangkat keras, atau biaya internal. Kami tidak dapat menyimpulkan total anggaran proyek dari data yang dipublikasikan.</p><h3>Selisih angka antarsumber</h3><p>Kontan mencatat nilai kontrak KBTG Vietnam US$1,31 juta; Emitennews merinci US$1.310.210. Keduanya konsisten. Namun deskripsi cakupan kerja KInfra sedikit berbeda: Kontan menyebut desain, persiapan, dan kesiapan operasional lingkungan proyek, Emitennews menyebut desain, penyiapan awal, dan pemeliharaan. Pembaca perlu merujuk dokumen keterbukaan di Bursa Efek Indonesia untuk rincian resmi.</p><h3>Yang tidak dikatakan berita</h3><p>Tidak ada informasi tentang jadwal peluncuran CBS baru kepada nasabah, vendor perangkat lunak inti yang dipakai, atau risiko migrasi data. Tahap cutover dan hypercare biasanya menjadi titik rawan bagi bank mana pun; ini pengamatan umum, bukan temuan dari berita ini.</p>",
+  "actionHtml": "<h3>Untuk CIO dan CTO bank</h3><ol><li>Jika proyek core banking Anda melibatkan afiliasi grup, siapkan dokumentasi pembanding harga dan pemisahan peran sejak awal agar mudah dibuktikan bebas benturan kepentingan.</li><li>Pisahkan kontrak pembangunan (hingga go-live) dari kontrak operasi jangka panjang, dan tetapkan klausul keluar serta kepemilikan data untuk kontrak yang berjalan hingga 2036.</li><li>Rencanakan migrasi data, cutover, dan hypercare sebagai paket kerja tersendiri dengan kriteria keberhasilan terukur.</li></ol><h3>Untuk CFO dan komite audit</h3><p>Pantau transaksi afiliasi secara berkala: nilai kontrak dalam mata uang asing menimbulkan risiko kurs, sebagaimana catatan bahwa angka akhir dapat berbeda dari konversi rupiah saat ini.</p><h3>Untuk vendor perangkat lunak perbankan</h3><p>Di bank yang bagian dari grup regional, keputusan teknologi sering dipengaruhi struktur grup; pelajari hubungan afiliasi sebelum mengajukan penawaran.</p>",
+  "faqHtml": "<h3>Apa itu core banking system?</h3><p>Sistem inti yang mencatat rekening, simpanan, kredit, dan transaksi nasabah. Penggantiannya termasuk proyek teknologi paling besar risikonya bagi sebuah bank.</p><h3>Siapa saja afiliasi yang terlibat dalam proyek KBank Indonesia?</h3><p>Kasikorn Soft Company Limited, Kasikorn Infra Company Limited, dan KBTG Vietnam Company Limited, menurut keterbukaan informasi BMAS yang dilaporkan Kontan dan Emitennews pada 16 November 2026.</p><h3>Berapa total nilai kontraknya?</h3><p>Emitennews menghitung sekitar Rp37,62 miliar, dengan catatan kurs yang dipakai Rp539,18 per baht dan Rp18.269 per dolar AS.</p>",
+  "dataFigure": "Rp37,62 mi",
+  "dataLabel": "total nilai tiga kontrak afiliasi untuk core banking baru KBank Indonesia (setara rupiah)",
+  "dataSource": "Emitennews, 16 November 2026",
+  "chart": {
+    "bars": [
+      {
+        "label": "KSoft",
+        "value": 6.89,
+        "display": "Rp6,89 mi"
+      },
+      {
+        "label": "KInfra",
+        "value": 6.79,
+        "display": "Rp6,79 mi"
+      },
+      {
+        "label": "KBTG-VN",
+        "value": 23.94,
+        "display": "Rp23,94 mi"
+      }
+    ]
+  },
+  "audience": [
+    "CIO",
+    "CTO",
+    "CFO",
+    "Bank"
+  ],
+  "tags": [
+    "Enterprise Adoption",
+    "Deals",
+    "KBank Indonesia",
+    "BMAS",
+    "Core banking",
+    "Transaksi afiliasi",
+    "KBTG"
+  ],
+  "sources": [
+    {
+      "name": "Kontan",
+      "title": "KBank Indonesia Gandeng Tiga Perusahaan Afiliasi untuk Garap Core Banking System Baru",
+      "url": "https://keuangan.kontan.co.id/news/kbank-indonesia-gandeng-tiga-perusahaan-afiliasi-untuk-garap-core-banking-system-baru",
+      "date": "2026-11-16"
+    },
+    {
+      "name": "Emitennews",
+      "title": "BMAS Kucurkan Rp37,62 Miliar untuk Modernisasi Core Banking System",
+      "url": "https://emitennews.com/news/bmas-kucurkan-rp3762-miliar-untuk-modernisasi-core-banking-system",
+      "date": "2026-11-16"
+    }
+  ],
+  "seoTitle": "KBank Indonesia Garap Core Banking Baru, Rp37,62 Miliar",
+  "seoDescription": "BMAS tunjuk tiga afiliasi untuk core banking baru senilai setara Rp37,62 miliar, kontrak hingga 2036. Pelajaran bagi CIO dan CFO bank.",
+  "publishAt": "2026-11-19T06:00:00+07:00",
+  "en": {
+    "title": "KBank Indonesia Appoints Three Affiliates to Build New Core Banking, Contracts Worth About Rp37.62 Billion",
+    "dek": "PT Bank Kasikorn Indonesia Tbk (BMAS) disclosed three affiliated-party transactions to build a new core banking system. The contracts are worth about Rp37.62 billion, with infrastructure and implementation terms running to 2036.",
+    "summaryHtml": "<ul><li>Kontan and Emitennews (16 November 2026) report that BMAS filed a disclosure on three affiliated transactions for its new core banking system (CBS).</li><li>Kasikorn Soft (KSoft) handles application development, integration, testing and go-live support until end-2027, valued at 12.784 million baht.</li><li>Kasikorn Infra (KInfra) handles infrastructure design and preparation for all project environments until end-2036, valued at 12.6 million baht. KBTG Vietnam handles end-to-end implementation, including data migration, cutover and hypercare until end-2036, valued at US$1.31 million.</li><li>Emitennews calculates the total at about Rp37.62 billion, using roughly Rp539.18 per baht and Rp18,269 per US dollar on 16 November 2026; final figures may differ with the exchange rate at payment.</li><li>Management states the transactions contain no conflict of interest under POJK No. 42/POJK.04/2020.</li></ul>",
+    "analysisHtml": "<h3>The core banking project is sourced from within the group</h3><p>All three providers are affiliates, so this technology decision is also a governance decision. That is why affiliated-transaction rules apply and a no-conflict statement appears in the disclosure. For small and mid-sized banks owned by a regional group, this model is a common option because the group's technology teams already know the platform to be used; but the sources we read do not explain why the providers were chosen or whether third-party price comparisons were made.</p><h3>Small upfront cost, long commitment</h3><p>Rp37.62 billion is modest for a bank core-system project. The tenor matters more: the KInfra and KBTG Vietnam contracts run to end-2036, while application development ends in late 2027. The total system cost may therefore be larger than these three contracts, as the sources do not itemise licences, hardware or internal costs. We cannot infer the full project budget from the published data.</p><h3>Differences between sources</h3><p>Kontan records KBTG Vietnam's contract at US$1.31 million; Emitennews gives US$1,310,210. The two are consistent. The description of KInfra's scope differs slightly: Kontan cites design, preparation and operational readiness of project environments, Emitennews cites design, initial setup and maintenance. Readers should consult the disclosure filed with the Indonesia Stock Exchange for official detail.</p><h3>What the news does not say</h3><p>There is no information on when the new CBS will go live for customers, which core software vendor is used, or the data-migration risks. Cutover and hypercare are typically the fragile phases for any bank; this is a general observation, not a finding of this news.</p>",
+    "actionHtml": "<h3>For bank CIOs and CTOs</h3><ol><li>If your core banking project involves group affiliates, prepare price benchmarks and a clear separation of roles from the start so that absence of conflict of interest is easy to demonstrate.</li><li>Separate the build contract (to go-live) from the long-term operations contract, and set exit clauses and data-ownership terms for contracts running to 2036.</li><li>Plan data migration, cutover and hypercare as a distinct work package with measurable success criteria.</li></ol><h3>For CFOs and audit committees</h3><p>Monitor affiliated transactions regularly: foreign-currency contract values create exchange-rate risk, as the note that final figures may differ from today's rupiah conversion shows.</p><h3>For banking software vendors</h3><p>At banks that belong to regional groups, technology decisions are often shaped by group structure; study affiliate relationships before bidding.</p>",
+    "faqHtml": "<h3>What is a core banking system?</h3><p>The central system that records customer accounts, deposits, loans and transactions. Replacing it is among the riskiest technology projects a bank can undertake.</p><h3>Which affiliates are involved in KBank Indonesia's project?</h3><p>Kasikorn Soft Company Limited, Kasikorn Infra Company Limited and KBTG Vietnam Company Limited, according to BMAS's disclosure as reported by Kontan and Emitennews on 16 November 2026.</p><h3>What is the total contract value?</h3><p>Emitennews calculates about Rp37.62 billion, using Rp539.18 per baht and Rp18,269 per US dollar.</p>",
+    "dataFigure": "Rp37.62B",
+    "dataLabel": "total value of three affiliate contracts for KBank Indonesia's new core banking (rupiah equivalent)",
+    "dataSource": "Emitennews, 16 November 2026",
+    "seoTitle": "KBank Indonesia Builds New Core Banking, Rp37.62B",
+    "seoDescription": "BMAS appoints three affiliates for a new core banking system worth about Rp37.62 billion, contracts to 2036. Lessons for bank CIOs and CFOs.",
+    "audience": [
+      "CIO",
+      "CTO",
+      "CFO",
+      "Banks"
+    ],
+    "chart": {
+      "bars": [
+        {
+          "label": "KSoft",
+          "value": 6.89,
+          "display": "Rp6.89B"
+        },
+        {
+          "label": "KInfra",
+          "value": 6.79,
+          "display": "Rp6.79B"
+        },
+        {
+          "label": "KBTG-VN",
+          "value": 23.94,
+          "display": "Rp23.94B"
+        }
+      ]
+    },
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kbank-indonesia-core-banking-baru-tiga-afiliasi-rp3762-miliar-en.png"
+  },
+  "language": "id",
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kbank-indonesia-core-banking-baru-tiga-afiliasi-rp3762-miliar.png"
+}

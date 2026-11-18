@@ -1,0 +1,106 @@
+{
+  "slug": "economy-sea-2026-ecommerce-indonesia-us85-miliar-belanja-ai",
+  "title": "E-Commerce Indonesia Diperkirakan Capai US$85 Miliar pada 2026, 37% Perjalanan Belanja Dimulai dengan Bantuan AI",
+  "category": "E-Commerce & Retail Tech",
+  "articleType": "analisis",
+  "dek": "Laporan e-Conomy SEA 2026 dari Google, Temasek, dan Bain dan Company memperkirakan nilai transaksi e-commerce Indonesia naik 16% menjadi US$85 miliar. Laporan itu juga menunjukkan AI mulai masuk di awal proses belanja, sementara pembayaran oleh agen AI masih tahap awal.",
+  "summaryHtml": "<ul><li>Katadata (11 November 2026), mengutip laporan e-Conomy SEA 2026, melaporkan perkiraan nilai transaksi e-commerce Indonesia 2026 sebesar US$85 miliar (Rp1.541 triliun pada kurs Rp18.130), naik 16% dari US$73 miliar; nilai 2024 sebesar US$62 miliar.</li><li>Proyeksi laporan itu: US$175 miliar pada 2030 dan US$362 miliar pada 2035.</li><li>Sebanyak 37% perjalanan belanja konsumen di Indonesia dimulai dengan bantuan AI, dan 84% pengguna AI yang disurvei bersedia membiarkan agen AI mencari harga terbaik dan menyelesaikan pembelian, dibandingkan rata-rata 75% di enam negara Asia Tenggara.</li><li>Lebih dari 90% konsumen masih melakukan riset tambahan atau membaca ulasan setelah rekomendasi AI, dan fitur checkout oleh agen AI disebut masih dalam pengembangan.</li><li>Lazada dan Shopee menyampaikan hasil penggunaan AI: asisten Lazzie mencapai sekitar 3 juta pengguna aktif harian saat kampanye 6.6, dan chatbot Shopee menangani sekitar 80% pertanyaan konsumen dengan biaya per kontak turun 30% secara tahunan.</li></ul>",
+  "analysisHtml": "<h3>Pertumbuhan 16% dan peran AI</h3><p>Perkiraan US$85 miliar menempatkan e-commerce Indonesia pada lintasan pertumbuhan dua digit, tetapi laporan yang kami baca tidak menjelaskan seberapa besar kenaikan itu berasal dari AI. Data AI dan data nilai transaksi di laporan adalah dua temuan terpisah; hubungan sebab-akibat belum dibuktikan. Satu-satunya angka yang mengaitkan keduanya adalah klaim Lazada bahwa pesanan dengan bantuan AI memiliki nilai pesanan rata-rata sekitar 75% lebih tinggi, yang merupakan klaim perusahaan dan bukan temuan survei independen.</p><h3>Minat tinggi, kebiasaan belum berubah</h3><p>Ada jarak antara kesediaan dan perilaku. Sebanyak 84% pengguna AI bersedia menyerahkan pembelian kepada agen AI, tetapi pengguna Indonesia rata-rata hanya 1,76 sesi AI per minggu, terendah di antara enam negara, dan lebih dari 90% masih mengecek ulasan setelah rekomendasi AI. Jadi, tingkat kepercayaan terhadap AI sebagai asisten (93%) tidak otomatis berarti konsumen akan melepas keputusan akhir. Bagi pelaku usaha, rekomendasi AI tampaknya menjadi pintu masuk, sementara ulasan dan reputasi toko tetap menjadi penentu.</p><h3>Pemenang dan yang tertekan</h3><p>Penjual yang datanya rapi (judul produk, atribut, foto, ulasan) kemungkinan lebih mudah ditemukan oleh asisten AI; Lazada menyebut lebih dari 95% penjualnya memakai fitur AI Smart Listing, sehingga fitur dasar itu mulai menjadi standar, bukan pembeda. Penjual kecil yang bergantung pada promo tanggal kembar menghadapi persaingan lain: JawaPos (10 November 2026) mencatat Harbolnas 2025 menghasilkan Rp36,4 triliun transaksi menurut Kementerian Perdagangan, dan 54% konsumen membeli lewat tautan afiliasi kreator. Angka itu bukan perbandingan langsung dengan perkiraan tahunan 2026 karena periode dan definisinya berbeda.</p><h3>Yang tidak dikatakan berita</h3><p>Laporan tidak menjelaskan metodologi perkiraan nilai transaksi per platform, dan angka kinerja Lazada dan Shopee berasal dari perusahaan itu sendiri. Proyeksi 2030 dan 2035 adalah perkiraan; kemungkinan realisasinya sangat bergantung pada daya beli dan regulasi platform.</p>",
+  "actionHtml": "<h3>Untuk CMO dan Kepala E-Commerce</h3><ol><li>Audit katalog produk: judul, atribut, dan deskripsi yang lengkap dan konsisten membantu produk ditemukan oleh asisten belanja AI.</li><li>Ukur sumber lalu lintas dan konversi per kanal, termasuk perjalanan yang dimulai di aplikasi AI, bukan hanya pencarian dan media sosial.</li><li>Kelola ulasan dan reputasi toko secara aktif, karena mayoritas pembeli masih memeriksa ulasan setelah rekomendasi AI.</li></ol><h3>Untuk CIO dan pemimpin operasi</h3><ol><li>Siapkan data produk, stok, dan harga yang dapat diakses lewat API agar siap bila checkout oleh agen AI tersedia.</li><li>Tinjau layanan pelanggan berbasis AI dengan ukuran biaya per kontak dan kepuasan, seperti yang dilaporkan Shopee.</li></ol><h3>Untuk vendor e-commerce dan martech</h3><p>Fokuskan penawaran pada data produk yang bersih dan integrasi lintas marketplace; jangan menjanjikan checkout otonom sebelum teknologi dan kepercayaan konsumen siap.</p>",
+  "faqHtml": "<h3>Berapa nilai e-commerce Indonesia pada 2026 menurut e-Conomy SEA?</h3><p>Perkiraan US$85 miliar atau Rp1.541 triliun, naik 16% dari US$73 miliar, menurut laporan yang dikutip Katadata.</p><h3>Berapa persen konsumen Indonesia memulai belanja dengan AI?</h3><p>Laporan mencatat 37% perjalanan belanja konsumen di Indonesia dimulai dengan bantuan AI.</p><h3>Apakah agen AI sudah bisa membayar belanjaan?</h3><p>Laporan menyebut checkout atau pembayaran oleh agen AI masih dalam pengembangan.</p>",
+  "dataFigure": "US$85 mi",
+  "dataLabel": "perkiraan nilai transaksi e-commerce Indonesia 2026, naik 16%",
+  "dataSource": "e-Conomy SEA 2026 (Google, Temasek, Bain), via Katadata, 11 November 2026",
+  "chart": {
+    "bars": [
+      {
+        "label": "2024",
+        "value": 62,
+        "display": "US$62 mi"
+      },
+      {
+        "label": "2025",
+        "value": 73,
+        "display": "US$73 mi"
+      },
+      {
+        "label": "2026 (perk.)",
+        "value": 85,
+        "display": "US$85 mi"
+      }
+    ]
+  },
+  "audience": [
+    "CMO",
+    "Kepala E-Commerce",
+    "CIO",
+    "Vendor martech"
+  ],
+  "tags": [
+    "e-Conomy SEA 2026",
+    "E-commerce",
+    "AI belanja",
+    "Shopee",
+    "Lazada",
+    "Agentic commerce",
+    "Harbolnas"
+  ],
+  "sources": [
+    {
+      "name": "Katadata",
+      "title": "Transaksi Shopee hingga Lazada Rp1.541 Triliun, Warga RI Belanja Online Pakai AI",
+      "url": "https://katadata.co.id/digital/e-commerce/6af417bc8d352/transaksi-shopee-hingga-lazada-rp1541-triliun-warga-ri-belanja-online-pakai-ai",
+      "date": "2026-11-11"
+    },
+    {
+      "name": "JawaPos",
+      "title": "Promo 11.11 2026 Dorong Pertumbuhan Perdagangan Digital",
+      "url": "https://www.jawapos.com/ekonomi/2611090489/promo-1111-2026-dorong-pertumbuhan-perdagangan-digital",
+      "date": "2026-11-10"
+    }
+  ],
+  "seoTitle": "E-Commerce Indonesia 2026 US$85 Miliar, AI Mulai Belanja",
+  "seoDescription": "e-Conomy SEA 2026: e-commerce Indonesia US$85 miliar, 37% perjalanan belanja dimulai dengan AI. Apa artinya bagi CMO dan pelaku retail.",
+  "publishAt": "2026-11-19T07:30:00+07:00",
+  "en": {
+    "title": "Indonesia's E-Commerce Seen Reaching US$85 Billion in 2026, With 37% of Shopping Journeys Starting with AI",
+    "dek": "The e-Conomy SEA 2026 report by Google, Temasek and Bain and Company estimates Indonesia's e-commerce transaction value rising 16% to US$85 billion. It also shows AI entering the start of the shopping process, while AI-agent payments remain at an early stage.",
+    "summaryHtml": "<ul><li>Katadata (11 November 2026), citing the e-Conomy SEA 2026 report, reports estimated 2026 Indonesian e-commerce transaction value of US$85 billion (Rp1,541 trillion at Rp18,130), up 16% from US$73 billion; the 2024 value was US$62 billion.</li><li>The report projects US$175 billion in 2030 and US$362 billion in 2035.</li><li>37% of consumer shopping journeys in Indonesia begin with AI assistance, and 84% of surveyed AI users would let an AI agent find the best price and complete a purchase, versus a 75% average across six Southeast Asian countries.</li><li>More than 90% of consumers still do extra research or read reviews after an AI recommendation, and agentic checkout is described as still in development.</li><li>Lazada and Shopee report AI results: Lazada's assistant Lazzie reached about 3 million daily active users during the 6.6 campaign, and Shopee's chatbot handles about 80% of consumer questions with cost per contact down 30% year on year.</li></ul>",
+    "analysisHtml": "<h3>16% growth and the role of AI</h3><p>The US$85 billion estimate puts Indonesian e-commerce on a double-digit growth path, but the report we read does not explain how much of the increase comes from AI. The AI data and the transaction-value data are two separate findings; causality is not shown. The only figure linking the two is Lazada's claim that AI-guided orders have an average order value about 75% higher, which is a company claim, not an independent survey finding.</p><h3>High willingness, habits not yet changed</h3><p>There is a gap between willingness and behaviour. 84% of AI users would hand purchases to an AI agent, yet Indonesian users average just 1.76 AI sessions per week, the lowest of the six countries, and more than 90% still check reviews after an AI recommendation. So trust in AI as an assistant (93%) does not automatically mean consumers will hand over the final decision. For businesses, AI recommendations appear to be an entry point, while reviews and store reputation remain the decider.</p><h3>Winners and those under pressure</h3><p>Sellers with clean data (product titles, attributes, photos, reviews) are likely to be easier for AI assistants to find; Lazada says over 95% of its sellers use its AI Smart Listing feature, so that basic feature is becoming standard, not a differentiator. Small sellers reliant on twin-date promotions face other competition: JawaPos (10 November 2026) notes Harbolnas 2025 produced Rp36.4 trillion in transactions according to the Ministry of Trade, and 54% of consumers bought through creator affiliate links. That figure is not a direct comparison with the 2026 annual estimate because period and definition differ.</p><h3>What the news does not say</h3><p>The report does not explain the methodology behind per-platform transaction estimates, and the Lazada and Shopee performance figures come from the companies themselves. The 2030 and 2035 figures are projections; realisation will likely depend heavily on purchasing power and platform regulation.</p>",
+    "actionHtml": "<h3>For CMOs and Heads of E-Commerce</h3><ol><li>Audit your product catalogue: complete, consistent titles, attributes and descriptions help products be found by AI shopping assistants.</li><li>Measure traffic sources and conversion per channel, including journeys that start in AI apps, not only search and social media.</li><li>Manage reviews and store reputation actively, since most buyers still check reviews after an AI recommendation.</li></ol><h3>For CIOs and operations leaders</h3><ol><li>Prepare product, stock and price data that can be reached through APIs so you are ready if agent-led checkout becomes available.</li><li>Review AI-based customer service using cost-per-contact and satisfaction measures, as Shopee reports.</li></ol><h3>For e-commerce and martech vendors</h3><p>Focus offers on clean product data and cross-marketplace integration; do not promise autonomous checkout before the technology and consumer trust are ready.</p>",
+    "faqHtml": "<h3>What is Indonesia's e-commerce value in 2026 according to e-Conomy SEA?</h3><p>An estimated US$85 billion, or Rp1,541 trillion, up 16% from US$73 billion, according to the report as cited by Katadata.</p><h3>What share of Indonesian consumers start shopping with AI?</h3><p>The report records that 37% of consumer shopping journeys in Indonesia begin with AI assistance.</p><h3>Can AI agents already pay for purchases?</h3><p>The report says agentic checkout or AI-agent payment is still in development.</p>",
+    "dataFigure": "US$85B",
+    "dataLabel": "estimated Indonesian e-commerce transaction value in 2026, up 16%",
+    "dataSource": "e-Conomy SEA 2026 (Google, Temasek, Bain), via Katadata, 11 November 2026",
+    "seoTitle": "Indonesia E-Commerce 2026 US$85B, AI Starts Shopping",
+    "seoDescription": "e-Conomy SEA 2026: Indonesia e-commerce at US$85 billion, 37% of shopping journeys start with AI. What it means for CMOs and retailers.",
+    "audience": [
+      "CMO",
+      "Head of E-Commerce",
+      "CIO",
+      "Martech vendors"
+    ],
+    "chart": {
+      "bars": [
+        {
+          "label": "2024",
+          "value": 62,
+          "display": "US$62B"
+        },
+        {
+          "label": "2025",
+          "value": 73,
+          "display": "US$73B"
+        },
+        {
+          "label": "2026 (est.)",
+          "value": 85,
+          "display": "US$85B"
+        }
+      ]
+    },
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/economy-sea-2026-ecommerce-indonesia-us85-miliar-belanja-ai-en.png"
+  },
+  "language": "id",
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/economy-sea-2026-ecommerce-indonesia-us85-miliar-belanja-ai.png"
+}
