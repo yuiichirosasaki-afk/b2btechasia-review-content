@@ -70,5 +70,25 @@
     ],
     "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/perpres-lembaga-pdp-menunggu-keputusan-presiden-kesiapan-perusahaan-en.png"
   },
-  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/perpres-lembaga-pdp-menunggu-keputusan-presiden-kesiapan-perusahaan.png"
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/perpres-lembaga-pdp-menunggu-keputusan-presiden-kesiapan-perusahaan.png",
+  "ja": {
+    "title": "個人データ保護の監督機関、大統領の判断待ち　法律制定から4年、企業が備えるべきこと",
+    "dek": "通信デジタル省（Komdigi）は、インドネシアの個人データ保護（PDP）監督機関を設置する大統領令案が最終段階に入り、大統領に提出されたと明らかにした。機関ができるまで監督はKomdigiが担うため、企業は「審判」が交代する移行期を迎える。",
+    "summaryHtml": "<ul><li>Komdigiは2026年11月4日、PDP機関を設置する大統領令案が最終段階に入り、国家官房を通じて大統領に提出されたと発表した。デジタル空間戦略・監督政策局長のMuchtarul Huda氏が述べた。（Katadata、Telset）</li><li>Komdigiは移行期に対応する特別タスクフォースを設け、機関が正式に設置されるまでPDPの機能を担う。政府は2026年中の完了を目指している。（Katadata、Telset）</li><li>機関はPDPに関する2022年法律第27号で定められている。任務には、政策の立案、苦情の受け付け、監督、検査、行政処分の執行、裁判外の紛争解決の支援、越境データ移転の要件充足の評価が含まれる。（Katadata）</li><li>起草は2022年末に始まり、大統領による発議の許可は2025年3月4日に出て、調整は2025年10月から2026年2月まで行われた。（Telset）</li></ul>",
+    "analysisHtml": "<h3>ルールは適用されているが、審判はまだいない</h3><p>IDXChannelによると、PDP法の移行期間は2024年10月に終わり、同法は年間売上高の最大2%の行政制裁金と、72時間以内のインシデント報告義務を定めている。企業の義務はすでに動いているのに、法律が想定する独立機関はまだできていない。その空白の間はKomdigiが機能を担い、移行期のタスクフォースがインシデント対応を途切れさせないことになっている。企業から見た最大の不確実性は、義務の中身ではなく、誰が、どのような手続きで、いつ評価するのかにある。</p><h3>まだはっきりしないこと：報告ラインと権限</h3><p>機関の位置付けについて、情報源の説明は異なる。Telsetは、機関は独立しており、省ではなく大統領に直接報告するとしている。Katadataは、Komdigiのネザル・パトリア副大臣が7月21日、機関は独立して業務を行うが、報告はKomdigiを通じて大統領に上げると述べたと伝えている。この違いは独立性の受け止め方に関わり、大統領令の条文が公表されて初めて決着する。本紙が確認した報道は、制裁の細則、予算、人員についても伝えていない。</p><h3>大統領令の後：段階は1つではなく2つ</h3><p>Telsetは、制定後の作業は2段階で進むと説明する。まず機関の正式な設置、次に人員の配置、事務所の所在地、予算といった運営の準備だ。これは、大統領令が出た翌日から本格的な執行が感じられるわけではないことを意味するとみられる。それでも、法律上の義務はすでに適用されているため、企業はこの空白を猶予とみなすべきではない。執筆時点までの本紙の調べでは、大統領令が制定されたとの発表は見つかっていない。状況は公式の情報源で改めて確認する必要がある。</p><h3>ビジネスに関わる新しい役割</h3><p>機関の任務には、越境の個人データ移転が要件を満たしているかの評価と、外国のPDP当局との協力が含まれる。海外のクラウド、CRM、分析サービスを使う企業にとっては、データ移転の法的根拠の文書化が検査の対象になる可能性が高いことを示唆している。</p>",
+    "actionHtml": "<h3>法務・コンプライアンス部門、データ保護責任者へ</h3><ol><li>新しい機関が証拠を求めてきても対応できるよう、個人データの処理記録と、それぞれの処理の法的根拠を更新する。</li><li>すべての越境データ移転を、委託先と所在地とともに文書化する。</li><li>移行期に誰が、誰に報告する権限を持つかを含め、72時間以内のインシデント報告の手順を試す。</li></ol><h3>CIO・CISOへ</h3><ol><li>個人データを持つシステム（クラウド、CRM、分析、委託先）を洗い出し、アクセス記録を監査できるようにする。</li><li>第三者の委託先との契約を見直し、PDP上の義務とインシデント通知の義務を明記する。</li></ol><h3>コンプライアンス技術のベンダーへ</h3><p>データマッピング、越境移転の記録、インシデント管理の需要が高まるとみられる。新しい機関への準拠をうたうのは、大統領令の条文を待ってからにすべきだ。</p>",
+    "faqHtml": "<h3>インドネシアのPDP監督機関の状況は</h3><p>2026年11月4日のKomdigiの発表時点で、機関を設置する大統領令案は最終段階にあり、大統領に提出されている。機関ができるまではKomdigiがPDPの機能を担う。</p><h3>PDP機関の任務は何か</h3><p>Katadataによると、政策の立案、苦情の受け付け、監督と検査、行政処分の執行、裁判外の紛争解決の支援、越境データ移転の要件の評価が含まれる。</p><h3>企業は機関ができるまでPDP法の遵守を待ってよいか</h3><p>待つ根拠はない。IDXChannelによると、PDP法の移行期間は2024年10月に終わっている。個別の事案については法律の専門家に相談してほしい。</p>",
+    "dataFigure": "法27/2022",
+    "dataLabel": "PDP機関の法的根拠。機関を設置する大統領令は大統領の判断待ち",
+    "dataSource": "通信デジタル省、Katadata引用、2026年11月5日",
+    "seoTitle": "インドネシアの個人データ保護機関、大統領の判断待ち",
+    "seoDescription": "インドネシアの個人データ保護（PDP）監督機関を設置する大統領令案が大統領に提出された。移行期に企業が備えるべき記録、越境移転、報告の対応を解説。",
+    "audience": [
+      "法務・コンプライアンス",
+      "データ保護責任者",
+      "CIO・CISO",
+      "コンプライアンス技術ベンダー"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/perpres-lembaga-pdp-menunggu-keputusan-presiden-kesiapan-perusahaan-ja.png"
+  }
 }

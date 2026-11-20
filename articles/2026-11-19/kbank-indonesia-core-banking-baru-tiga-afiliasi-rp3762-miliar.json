@@ -102,5 +102,44 @@
     "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kbank-indonesia-core-banking-baru-tiga-afiliasi-rp3762-miliar-en.png"
   },
   "language": "id",
-  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kbank-indonesia-core-banking-baru-tiga-afiliasi-rp3762-miliar.png"
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kbank-indonesia-core-banking-baru-tiga-afiliasi-rp3762-miliar.png",
+  "ja": {
+    "title": "KBankインドネシア、新勘定系システムの構築をグループ3社に委託　契約総額は約Rp376億",
+    "dek": "PT Bank Kasikorn Indonesia Tbk（BMAS）は、新しい勘定系システムを構築するための関連当事者との取引3件を開示した。契約総額は約Rp376億2000万で、インフラと導入の契約は2036年まで続く。",
+    "summaryHtml": "<ul><li>KontanとEmitennews（2026年11月16日）によると、BMASは新しい勘定系システム（CBS）に関する関連当事者との取引3件を開示した。</li><li>Kasikorn Soft（KSoft）は、2027年末までのアプリケーション開発、統合、テスト、稼働開始の支援を担い、契約額は1278万4000バーツ。</li><li>Kasikorn Infra（KInfra）は、2036年末までのプロジェクト全環境のインフラ設計と準備を担い、契約額は1260万バーツ。KBTG Vietnamは、データ移行、切り替え、稼働直後の集中支援（ハイパーケア）を含む一貫した導入を2036年末まで担い、契約額は131万ドル。</li><li>Emitennewsは、2026年11月16日の1バーツ＝約Rp539.18、1ドル＝Rp1万8269で換算し、総額を約Rp376億2000万と算出した。最終的な金額は支払い時の為替レートで変わり得る。</li><li>経営陣は、取引はOJK規則2020年第42号に照らして利益相反を含まないと表明している。</li></ul>",
+    "analysisHtml": "<h3>勘定系プロジェクトをグループ内から調達</h3><p>3社とも関連会社であるため、この技術上の判断はガバナンス上の判断でもある。関連当事者取引の規則が適用され、開示に利益相反がないとの表明が入っているのはそのためだ。地域のグループに属する中小規模の銀行にとって、グループの技術チームが使うプラットフォームをすでに熟知しているこのモデルは、よくある選択肢だ。ただし、本紙が確認した報道は、なぜこれらの事業者が選ばれたのか、第三者との価格比較が行われたのかを説明していない。</p><h3>初期費用は小さく、拘束期間は長い</h3><p>Rp376億2000万は、銀行の基幹システムのプロジェクトとしては控えめな額だ。より重要なのは期間である。KInfraとKBTG Vietnamの契約は2036年末まで続き、アプリケーション開発は2027年末に終わる。報道はライセンス、ハードウェア、社内コストの内訳を示していないため、システムの総費用はこの3件の契約より大きい可能性がある。公表されたデータからプロジェクト全体の予算は推測できない。</p><h3>情報源間の違い</h3><p>KontanはKBTG Vietnamの契約額を131万ドルとし、Emitennewsは131万210ドルとしている。両者は整合的だ。KInfraの業務範囲の説明はわずかに異なり、Kontanはプロジェクト環境の設計、準備、運用の準備としている一方、Emitennewsは設計、初期設定、保守としている。公式の詳細はインドネシア証券取引所に提出された開示書類で確認してほしい。</p><h3>報道が語っていないこと</h3><p>新しいCBSがいつ顧客向けに稼働するのか、どの勘定系ソフトウェアのベンダーを使うのか、データ移行のリスクについての情報はない。切り替えとハイパーケアは、どの銀行にとっても通常、最も脆弱な段階だ。これは一般的な見方であり、今回のニュースから分かったことではない。</p>",
+    "actionHtml": "<h3>銀行のCIO・CTOへ</h3><ol><li>勘定系プロジェクトにグループの関連会社が関わる場合は、利益相反がないことを示しやすいよう、最初から価格のベンチマークと明確な役割分担を用意する。</li><li>構築の契約（稼働まで）と長期の運用契約を分け、2036年まで続く契約には解約条項とデータの所有権の条件を定める。</li><li>データ移行、切り替え、ハイパーケアを、測定可能な成功基準を持つ独立した作業として計画する。</li></ol><h3>CFO・監査委員会へ</h3><p>関連当事者取引を定期的に監視する。最終的な金額が現在のルピア換算と異なり得るとの注記が示すように、外貨建ての契約額は為替リスクを生む。</p><h3>銀行向けソフトウェアのベンダーへ</h3><p>地域のグループに属する銀行では、技術上の判断がグループの構造に左右されることが多い。入札の前に関連会社の関係を調べるべきだ。</p>",
+    "faqHtml": "<h3>勘定系システム（コアバンキング）とは何か</h3><p>顧客の口座、預金、融資、取引を記録する中枢のシステムである。その入れ替えは、銀行が取り組む技術プロジェクトの中でも最もリスクが高いものの1つだ。</p><h3>KBankインドネシアのプロジェクトに関わる関連会社は</h3><p>KontanとEmitennewsが2026年11月16日に報じたBMASの開示によると、Kasikorn Soft Company Limited、Kasikorn Infra Company Limited、KBTG Vietnam Company Limitedの3社である。</p><h3>契約総額は</h3><p>Emitennewsは、1バーツ＝Rp539.18、1ドル＝Rp1万8269で換算し、約Rp376億2000万と算出している。</p>",
+    "dataFigure": "Rp376億",
+    "dataLabel": "KBankインドネシアの新勘定系に関する関連会社3社との契約総額（ルピア換算）",
+    "dataSource": "Emitennews、2026年11月16日",
+    "seoTitle": "KBankインドネシア、新勘定系をグループ3社に委託",
+    "seoDescription": "KBankインドネシア（BMAS）が新しい勘定系システムの構築をグループ3社に委託、契約総額は約Rp376億。銀行のCIO・CFOが押さえるべき点を解説。",
+    "audience": [
+      "CIO",
+      "CTO",
+      "CFO",
+      "銀行"
+    ],
+    "chart": {
+      "bars": [
+        {
+          "label": "KSoft",
+          "value": 6.89,
+          "display": "Rp68.9億"
+        },
+        {
+          "label": "KInfra",
+          "value": 6.79,
+          "display": "Rp67.9億"
+        },
+        {
+          "label": "KBTG-VN",
+          "value": 23.94,
+          "display": "Rp239億"
+        }
+      ]
+    },
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kbank-indonesia-core-banking-baru-tiga-afiliasi-rp3762-miliar-ja.png"
+  }
 }

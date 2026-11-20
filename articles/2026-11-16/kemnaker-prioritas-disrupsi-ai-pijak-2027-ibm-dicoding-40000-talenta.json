@@ -101,5 +101,44 @@
     ],
     "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kemnaker-prioritas-disrupsi-ai-pijak-2027-ibm-dicoding-40000-talenta-en.png"
   },
-  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kemnaker-prioritas-disrupsi-ai-pijak-2027-ibm-dicoding-40000-talenta.png"
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kemnaker-prioritas-disrupsi-ai-pijak-2027-ibm-dicoding-40000-talenta.png",
+  "ja": {
+    "title": "インドネシア労働省がAIの影響に3つの重点策、IBMとDicodingは4万人の研修を目標",
+    "dek": "Yassierli労働相はAIが労働に与える影響に対処する3つの重点策を示し、IBMとDicodingは4万人の参加を目標にAI研修プログラム「Pijak 2027」を始めた。昨年のプログラムのデータからは、本当の課題が研修の機会ではなく、何人が本格的な研修まで進むかにあることが見えてくる。",
+    "summaryHtml": "<ul><li>Yassierli労働相は2026年11月13日（金）、ジャカルタで、AIによる変化に対処する3つの重点プログラムとして、労働者の能力向上、生産性の向上、労働者の保護を示した。企業に職業訓練のカリキュラム設計への協力も求めた。（Disway）</li><li>生産性のプログラムはアジア生産性機構（APO）と組んで実施し、企業の業務プロセス改善の支援も含む。労働省は障害者の研修機会も広げている。（Disway）</li><li>Dicoding IndonesiaとIBMは、IBM SkillsBuildを通じて2026年11月12日、ジャカルタでAI研修の奨学金プログラム「Pijak 2027」を始めた。参加目標は4万人で、職業高校の生徒、職業専門学校の学生、18〜34歳が対象だ。（Tribunnews）</li><li>成績上位の800人は798時間の集中研修を受ける。2026年版では3万9000人超が登録し、2万600人超が実際に学習し、645人が集中研修に選ばれた。（Tribunnews）</li><li>IBMインドネシアのCTO、Wisu Suntoyo氏は、AIを効果的かつ責任をもって使う能力の必要性を強調した。DicodingのCEO、Narenda Wicaksono氏は、AIの能力はいまやテクノロジー職以外の専門職にも必要だと述べた。（Tribunnews）</li></ul>",
+    "analysisHtml": "<h3>研修の漏斗は急激に細くなる</h3><p>Pijak 2026の数字は、大規模なデジタル研修によくあるパターンを示している。3万9000人超の登録者のうち、実際に学んだのは約半数で、集中研修に進んだのは645人だけだった。2027年の目標も、4万人の参加者に対し集中研修の枠は800と、似た構造だ。したがってこのプログラムは、すぐ働けるAI人材を数万人生み出すものではなく、大規模なAIリテラシー教育と狭い人材育成コースの組み合わせと読むほうがよい。こうしたプログラムの修了生をそのまま採用したいと考える企業は、期待値を調整すべきだ。</p><h3>政府は企業にカリキュラム設計への協力を求めている</h3><p>人事責任者にとって労働省の最も重要なメッセージは、企業にカリキュラム設計と現場での実習への参加を求めたことだ。AIスキルのギャップは、政府や研修事業者だけに任せられない。積極的に関わる企業は自社のニーズに合った人材の供給を形作れるが、受け身の企業は同じ人材をより高いコストで奪い合うことになるだろう。</p><h3>説明されていないこと</h3><p>いずれの報道にも成果のデータがない。修了生のうち何人が就職したのか、どの職種なのか、何社が採用したのかは分からない。労働省も、3つの重点策の予算、数値目標、スケジュールを詳しく示していない。就職率のような成功の指標がなければ、これらのプログラムが実際に変化のリスクを減らしているのか、講座への機会を広げているだけなのかを判断するのは難しい。</p><h3>採用からリスキリングへの転換</h3><p>テクノロジー職以外の専門職にもAIの能力が必要だというDicodingの指摘は、企業が注目すべき変化と一致する。最大のニーズは、AIエンジニアを増やすことではなく、財務、マーケティング、顧客サービス、業務部門の従業員が日常業務でAIを安全に使えるようリスキリングすることになりそうだ。HRテックの提供企業にとっては、業績データと連動した社内学習基盤の需要が生まれる。</p>",
+    "actionHtml": "<h3>人事責任者・CPO（最高人事責任者）へ</h3><ol><li>AIの影響を最も受ける職種を洗い出し、全員に同じAI講座ではなく、職種ごとのリスキリングの道筋を作る。</li><li>研修の成果は、講座の修了者数だけでなく、生産性や仕事の質の変化で測る。</li><li>労働省の呼びかけに沿い、職業学校、ポリテクニック、政府の研修プログラムとのカリキュラム連携を探る。</li><li>研修の後に安全な実践が続くよう、社内のAI利用ルールを定める。</li></ol><h3>CIOへ</h3><p>研修を受けた従業員が管理外のツールに流れないよう、会社が承認したAI環境を用意する。</p><h3>HRテック・研修事業者へ</h3><p>業績データと連動した学習成果の測定を提供する。大規模研修で最も大きく欠けているのがこの部分だからだ。</p>",
+    "faqHtml": "<h3>AIの影響に対する労働省の3つの重点策とは</h3><p>労働者の能力向上、生産性の向上、労働者の保護である。Yassierli労働相が2026年11月13日に示した。</p><h3>AI奨学金プログラム「Pijak 2027」には誰が参加できるか</h3><p>職業高校の生徒、職業専門学校の学生、18〜34歳の人で、新卒者、求職者、若手社会人、専門職、転職希望者を含む。</p>",
+    "dataFigure": "645人",
+    "dataLabel": "Pijak 2026で集中研修に進んだ参加者（登録者3万9000人超のうち）",
+    "dataSource": "Tribunnews、2026年11月13日",
+    "seoTitle": "インドネシア労働省のAI対策とIBM・Dicoding研修",
+    "seoDescription": "インドネシア労働省がAIの影響に3つの重点策を示し、IBMとDicodingは4万人のAI研修を開始。人事責任者が押さえるべきリスキリングの要点を解説。",
+    "audience": [
+      "人事責任者",
+      "CPO",
+      "CIO",
+      "HRテック事業者"
+    ],
+    "chart": {
+      "bars": [
+        {
+          "label": "登録",
+          "value": 39000,
+          "display": "3.9万+"
+        },
+        {
+          "label": "学習",
+          "value": 20600,
+          "display": "2.06万+"
+        },
+        {
+          "label": "集中研修",
+          "value": 645,
+          "display": "645"
+        }
+      ]
+    },
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kemnaker-prioritas-disrupsi-ai-pijak-2027-ibm-dicoding-40000-talenta-ja.png"
+  }
 }

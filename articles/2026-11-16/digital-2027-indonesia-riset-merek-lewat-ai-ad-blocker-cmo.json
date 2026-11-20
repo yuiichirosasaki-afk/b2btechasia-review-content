@@ -111,5 +111,49 @@
     ],
     "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/digital-2027-indonesia-riset-merek-lewat-ai-ad-blocker-cmo-en.png"
   },
-  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/digital-2027-indonesia-riset-merek-lewat-ai-ad-blocker-cmo.png"
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/digital-2027-indonesia-riset-merek-lewat-ai-ad-blocker-cmo.png",
+  "ja": {
+    "title": "インドネシアのネット利用者の28.2%がAIでブランドを調査、39.4%が広告ブロック　CMOに何が変わるか",
+    "dek": "We Are SocialとMeltwaterの報告書『Digital 2027: Indonesia』は、AIがブランド調査の入り口になる一方、広告はますますブロックされ、自分に関係があると感じられにくくなっていることを示した。企業のマーケティング予算と戦略への意味を解説する。",
+    "summaryHtml": "<ul><li>報告書『Digital 2027: Indonesia』は、We Are SocialがMeltwaterと共同で2026年11月5日に公表した。インドネシアのインターネット利用者は2億3100万人で、人口の80.2%に当たる。（Marketing.co.id）</li><li>インターネット利用者の28.2%が、ブランド調査の主な情報源としてAIを使っている。ブランド調査で最も使われるのはSNSで、60%が利用する。利用者の3分の2超が、購入前にオンラインでブランドや製品を調べている。（Tek.id、Marketing.co.id）</li><li>インターネット利用者の39.4%が広告ブロッカーを使っており、報告書の対象国で最も高い。目にする広告に自分が反映されていると感じる人は13.2%にとどまる。（Marketing.co.id）</li><li>16歳以上のインターネット利用者の94.9%が過去1カ月にAIツールを使ったが、使うことに安心感を持っているのは28.3%だけだ。WhatsAppは利用者の92.7%が使い、1日平均の利用時間は1時間55分である。（Tek.id）</li><li>We Are Social IndonesiaのYudhi Hastiardi氏は、ブランド間の競争が信頼と推薦をめぐる争いに移りつつあると述べた。（Marketing.co.id）</li></ul>",
+    "analysisHtml": "<h3>AIが新たな門番になる</h3><p>ブランドは長年、検索結果とSNSのフィードで競ってきた。インターネット利用者の4分の1超がAIをブランド調査の主な情報源とするなら、同じやり方では買えない第3のチャネルが生まれる。AIアシスタントの回答は、ウェブ上の情報、レビュー、第三者の報道によって形作られる。このため、製品仕様、価格、顧客レビューといった明確で一貫し、引用しやすいコンテンツが、AIの回答にブランドが現れるかどうかを左右する度合いは高まるとみられる。</p><h3>有料広告は2つの壁に同時に直面する</h3><p>広告ブロッカーの利用率39.4%と、広告に自分が反映されていると感じる人が13.2%しかいないという組み合わせは、同じ成果を得るための有料リーチが高くつくようになっていることを示す。デジタル広告が効かないという意味ではないが、クリエイター、コミュニティ、レビューへの予算配分は見直す必要がありそうだ。60%がSNSでブランドを調べるという結果も、ブランド自身のメッセージより他者の推薦の役割を裏付けている。</p><h3>AIの信頼をめぐるパラドックス</h3><p>ほぼすべての利用者がすでにAIを使っているが、安心して使えると感じているのは3分の1未満だ。マーケターにとっては警告である。透明性を欠いたままAIをコンテンツ、チャットボット、パーソナライズに使えば、信頼を損ないかねない。顧客との接点でAIを使う場合は、明確な開示と人間につながる経路を用意すべきだ。</p><h3>報告書が測っていないこと</h3><p>報告書が測っているのはインターネット利用者の行動と認識であり、販売への転換ではない。AIを使った調査がどれだけ購入につながるのか、どの製品カテゴリーが最も影響を受けるのかは示されていない。「主な情報源」の定義も慎重に読む必要がある。企業はこれらの数字を方向性として使い、自社の販売データやアトリビューションのデータで検証すべきだ。</p>",
+    "actionHtml": "<h3>CMO・デジタルマーケティング責任者へ</h3><ol><li>主要なAIアシスタントが自社ブランドや製品カテゴリーについての質問にどう答えるかを試し、誤っている、あるいは欠けている公開情報を直す。</li><li>自社のアトリビューションのデータに基づき、有料広告、クリエイター、顧客レビュー施策の予算配分を見直す。</li><li>広告データに表れない広告ブロッカー利用者を考慮して、キャンペーンの成果を測る。</li></ol><h3>CX責任者へ</h3><ol><li>到達率と利用時間を踏まえ、WhatsAppをサービスと販売の会話チャネルとして優先する。</li><li>AIチャットボットであることを明示し、人間の担当者に素早くつながる経路を用意する。</li></ol><h3>マーテックベンダーへ</h3><p>AIの回答におけるブランドの露出の監視、レビュー管理、広告のクッキーに依存しないクロスチャネルのアトリビューションの需要が伸びるとみられる。</p>",
+    "faqHtml": "<h3>インドネシアのネット利用者のうち、AIでブランドを調べる人はどれくらいか</h3><p>We Are SocialとMeltwaterの『Digital 2027: Indonesia』によると、インターネット利用者の28.2%が、ブランド調査の主な情報源としてAIを使っている。</p><h3>インドネシアで広告ブロッカーを使う人はどれくらいか</h3><p>39.4%で、報告書が比較した国の中で最も高い。</p><h3>『Digital 2027』によると、インドネシアのインターネット利用者は何人か</h3><p>2億3100万人で、人口の80.2%に当たる。</p>",
+    "dataFigure": "28.2%",
+    "dataLabel": "ブランド調査の主な情報源としてAIを使うインドネシアのネット利用者の割合",
+    "dataSource": "Digital 2027: Indonesia、We Are Social・Meltwater、2026年11月",
+    "seoTitle": "インドネシア、ネット利用者の28.2%がAIでブランド調査",
+    "seoDescription": "Digital 2027によると、インドネシアのネット利用者の28.2%がAIでブランドを調べ、39.4%が広告をブロック。CMOとCX責任者が見直すべき点を解説。",
+    "audience": [
+      "CMO",
+      "デジタルマーケティング責任者",
+      "CX責任者",
+      "マーテックベンダー"
+    ],
+    "chart": {
+      "bars": [
+        {
+          "label": "SNSで調査",
+          "value": 60,
+          "display": "60%"
+        },
+        {
+          "label": "広告ブロック",
+          "value": 39.4,
+          "display": "39.4%"
+        },
+        {
+          "label": "広告に共感",
+          "value": 13.2,
+          "display": "13.2%"
+        },
+        {
+          "label": "AIで調査",
+          "value": 28.2,
+          "display": "28.2%"
+        }
+      ]
+    },
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/digital-2027-indonesia-riset-merek-lewat-ai-ad-blocker-cmo-ja.png"
+  }
 }

@@ -102,5 +102,44 @@
     "faqHtml": "<h3>Can the OJK anti-scam app be downloaded yet?</h3><p>Not yet. The 16 November 2026 report says the app is still in a sandbox and no launch date has been announced.</p><h3>What will the app be able to check?</h3><p>Whether a phone number is legitimate, whether a link is genuine, whether a video or audio is real or an AI deepfake, and whether the destination account is safe.</p>",
     "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/ojk-aplikasi-anti-scam-iasc-rp91-triliun-kerugian-dana-kembali-en.png"
   },
-  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/ojk-aplikasi-anti-scam-iasc-rp91-triliun-kerugian-dana-kembali.png"
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/ojk-aplikasi-anti-scam-iasc-rp91-triliun-kerugian-dana-kembali.png",
+  "ja": {
+    "title": "インドネシア金融庁が詐欺対策アプリを準備　被害報告Rp9兆1000億、返還はRp2089億のみ",
+    "dek": "インドネシア金融庁（OJK）は、まだサンドボックス段階にある統合型の詐欺対策アプリを準備している。インドネシア詐欺対策センター（IASC）のデータでは、報告された被害額はRp9兆1000億を超える一方、被害者に返還された資金はRp2089億にとどまる。",
+    "summaryHtml": "<ul><li>Kabarbisnis（2026年11月16日）によると、OJKは統合型の詐欺対策アプリを準備している。事業者行動の監督・教育・消費者保護を担うOJKのチーフエグゼクティブ、Dicky Kartikoyono氏が、ジャカルタで開かれたGEBER PK 2027で明らかにした。</li><li>アプリは4つの問いに答えるよう設計されている。電話番号は正規のものか、リンクは本物か、動画や音声は本物かAIによるディープフェイクか、振込先の口座は安全か、犯罪に使われたと報告されていないか。まだサンドボックス段階で、ADB、世界銀行、ゲイツ財団の資金支援を受けている。</li><li>第1段階ではブラックリストとホワイトリストで安全性を判定し、第2段階で違法金融対策タスクフォース（Satgas PASTI）、省庁、通信事業者、金融業界団体とデータを連携する。その後、詐欺のネットワークを分析するAIを加える。</li><li>2024年11月22日から稼働するIASCのデータ（2026年10月28日時点）：報告73万7686件、報告された口座147万1112件、うち凍結74万3589件、凍結した被害者の資金Rp9675億、返還Rp2089億、報告された被害総額はRp9兆1000億超、1日あたり約1000件の報告。</li><li>Katadata（2026年10月3日）によると、Dicky氏はこの構想をQRISのようなものと説明し、資金は銀行間を移動できるため、詐欺の後に対処できる「黄金の時間」は4分未満だと述べた。</li></ul>",
+    "analysisHtml": "<h3>最大の差：凍結した資金と失われた資金</h3><p>OJKの数字を使うと、凍結された被害者の資金（Rp9675億）は報告された被害額（Rp9兆1000億超）の最大でも約10.6%、すでに返還された資金（Rp2089億）は凍結額の約21.6%にとどまる（本紙試算）。期間が累計で被害額が「超」と示されているため大まかな比較だが、方向ははっきりしている。事後の回収で救えるのはごく一部だ。OJKが取引前の予防に重点を移している理由はそこにある。</p><h3>なぜ4分が重要なのか</h3><p>Dicky氏によると、対処できる黄金の時間が4分未満なのは、資金が複数の銀行を経由し、暗号資産や海外にまで移り得るからだ。送金前に番号、リンク、口座を確認できるアプリは、この速度の論理を上流に引き寄せる。10月に説明された範囲は企業と口座の正当性の確認だけだったが、11月にはディープフェイクの確認が加わり、範囲が広がっていることが分かる。</p><h3>価値はデータの質で決まる</h3><p>OJKは業界などにデータの提供を求め、8つの省庁・機関を1つの基盤にまとめたマレーシアの例を挙げている。報道が答えていない問いもある。ブラックリストとホワイトリストを誰が更新するのか、誤った判定をどう扱うのか、アプリはいつ公開されるのか。いずれの報道も公開日を示していない。ブラックリストは、詐欺師が使う新しい口座が素早く登録されて初めて効果を持つ点にも注意が必要だ。</p><h3>企業への影響</h3><p>銀行、フィンテック、EC企業、通信事業者が、データの主な提供者であり利用者になるとみられる。それ以外の企業にとっても、詐欺師がよくかたる社名やブランドは顧客対応の負担になり得る。公式の照会システムとの連携はその負担を減らし得るが、技術的な詳細は発表されていない。</p>",
+    "actionHtml": "<h3>銀行・フィンテック・EC企業のCISO、リスク・不正対策責任者へ</h3><ol><li>提供できるデータ（過去に報告された番号、リンク、口座）を洗い出し、個人データ保護の規則に沿った共有手順を定める。</li><li>4分という目安を踏まえ、不審な取引を数時間ではなく数分で凍結またはフラグ付けできるかを試す。</li><li>サンドボックスの動きを追い、OJKが第2段階を始めたときに備えてAPI連携の準備を進める。</li></ol><h3>顧客サービス・広報の責任者へ</h3><p>本物の連絡と偽物を顧客が見分けられるよう、「振り込む前に確認を」というメッセージと公式窓口の一覧を準備する。</p><h3>セキュリティ・不正対策のベンダーへ</h3><p>最も開かれた機会は、ディープフェイク検知と口座のネットワーク分析にありそうだ。製品を設計する前に、公式の仕様を待つべきだ。</p>",
+    "faqHtml": "<h3>OJKの詐欺対策アプリはもうダウンロードできるか</h3><p>まだできない。2026年11月16日の報道によると、アプリはまだサンドボックス段階で、公開日は発表されていない。</p><h3>アプリでは何を確認できるのか</h3><p>電話番号が正規のものか、リンクが本物か、動画や音声が本物かAIによるディープフェイクか、振込先の口座が安全かを確認できる予定だ。</p>",
+    "dataFigure": "Rp9.1兆+",
+    "dataLabel": "2024年11月22日以降にIASCに報告された詐欺の被害総額",
+    "dataSource": "OJK/IASC、2026年10月28日時点のデータ、Kabarbisnis経由（2026年11月16日）",
+    "seoTitle": "インドネシア金融庁が詐欺対策アプリを準備",
+    "seoDescription": "インドネシア金融庁（OJK）が詐欺対策アプリを準備。被害報告Rp9兆1000億に対し返還はRp2089億のみ。銀行やEC企業が備えるべき点を解説。",
+    "audience": [
+      "CISO",
+      "リスク・不正対策責任者",
+      "銀行・フィンテック",
+      "セキュリティベンダー"
+    ],
+    "chart": {
+      "bars": [
+        {
+          "label": "被害額",
+          "value": 9100,
+          "display": "9.1兆+"
+        },
+        {
+          "label": "凍結",
+          "value": 967.5,
+          "display": "9675億"
+        },
+        {
+          "label": "返還",
+          "value": 208.9,
+          "display": "2089億"
+        }
+      ]
+    },
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/ojk-aplikasi-anti-scam-iasc-rp91-triliun-kerugian-dana-kembali-ja.png"
+  }
 }

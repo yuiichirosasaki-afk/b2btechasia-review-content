@@ -117,6 +117,32 @@ def check(path):
             errs.append("en.chart must have the same bars as chart")
         if "b2b tech asia" in text(" ".join(en.get(k, "") for k in ("summaryHtml", "analysisHtml", "actionHtml", "faqHtml"))).lower():
             errs.append("do not mention B2B Tech Asia in en body")
+    ja = a.get("ja")
+    if not isinstance(ja, dict):
+        errs.append("missing ja (Japanese version)")
+    else:
+        for k in ("title", "dek", "summaryHtml", "analysisHtml", "actionHtml", "dataFigure", "dataLabel", "seoTitle", "seoDescription"):
+            if not ja.get(k):
+                errs.append(f"ja missing {k}")
+        if not re.search(r"[\u3040-\u30ff\u4e00-\u9fff]", ja.get("title", "")):
+            errs.append("ja.title must be Japanese")
+        if not (15 <= len(ja.get("title", "")) <= 80):
+            errs.append(f"ja.title length {len(ja.get('title', ''))} (15-80)")
+        if len(ja.get("seoTitle", "")) > 40:
+            errs.append(f"ja.seoTitle {len(ja['seoTitle'])} > 40")
+        if len(ja.get("seoDescription", "")) > 120:
+            errs.append(f"ja.seoDescription {len(ja['seoDescription'])} > 120")
+        if a.get("chart") and ja.get("chart") and len(ja["chart"].get("bars", [])) != len(a["chart"].get("bars", [])):
+            errs.append("ja.chart must have the same bars as chart")
+        jbody = " ".join(ja.get(k, "") for k in ("summaryHtml", "analysisHtml", "actionHtml", "faqHtml"))
+        for tag in re.findall(r"<\s*/?\s*([a-zA-Z0-9]+)", jbody):
+            if tag.lower() not in ALLOWED_TAGS:
+                errs.append(f"ja: tag <{tag}> not allowed")
+                break
+        if len(ja.get("analysisHtml", "").lower().split("<h3")) != len(a["analysisHtml"].lower().split("<h3")):
+            errs.append("ja.analysisHtml must have the same <h3> sections as analysisHtml")
+        if "b2b tech asia" in text(jbody).lower():
+            errs.append("do not mention B2B Tech Asia in ja body")
     return errs
 
 

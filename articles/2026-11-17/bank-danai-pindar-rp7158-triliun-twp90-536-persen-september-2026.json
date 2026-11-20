@@ -102,5 +102,44 @@
     "faqHtml": "<h3>What is the safe limit for P2P lending TWP90 according to OJK?</h3><p>According to Kontan, the safe threshold used is 5%. In September 2026 the industry figure reached 5.36%, up from 4.73% in August.</p><h3>What share of online lending funding comes from banks?</h3><p>As of September 2026, bank lenders contributed Rp71.58 trillion, or 67.22% of total industry funding, according to OJK data cited by Kontan.</p>",
     "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bank-danai-pindar-rp7158-triliun-twp90-536-persen-september-2026-en.png"
   },
-  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bank-danai-pindar-rp7158-triliun-twp90-536-persen-september-2026.png"
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bank-danai-pindar-rp7158-triliun-twp90-536-persen-september-2026.png",
+  "ja": {
+    "title": "P2P融資の資金67.22%（Rp71兆5800億）を銀行が供給、延滞率TWP90は5.36%で安全ライン5%超え",
+    "dek": "インドネシア金融庁（OJK）の2026年9月時点のデータで、P2P融資（オンライン貸付）の資金の67.22%、約Rp71兆5800億を銀行が供給していることが分かった。同時に、業界全体の延滞債権の指標TWP90は5.36%に上昇し、OJKの安全ラインである5%を上回った。",
+    "summaryHtml": "<ul><li>Kontan（2026年11月16日）によると、2026年9月時点でP2P融資に対する銀行の貸し手の資金はRp71兆5800億に達し、業界の資金総額の67.22%を占めた。OJKによると、銀行の資金は通常、事業者との提携スキームを通じて供給される。</li><li>Kontan（2026年11月5日）は、業界のTWP90が8月の4.73%から9月に5.36%へ上昇し、OJKの安全ラインである5%を上回ったと報じた。融資残高はRp106兆4800億で、前年比17.02%増えた。</li><li>金融機関の監督を担うOJKのAgusman氏は、適切なリスク管理を確保するため銀行のエクスポージャーを監視していると述べた。ガバナンス、リスク管理、消費者保護を重視しつつ、銀行が引き続き主要な資金源であることを期待するとした。</li><li>OJKは、5.75%で据え置かれている政策金利（BI Rate）が銀行の資金調達コストに影響し得るとし、銀行からP2P融資への資金供給への影響を注視しているとした。</li><li>CeliosのNailul Huda氏は、家計の返済能力が低下し、プラットフォームの拡大が与信審査の質を上回っていると指摘する。同氏によれば、TWP90は2026年初めから上昇しているが、融資実行額の伸びはなお20%を超えている。</li></ul>",
+    "analysisHtml": "<h3>P2P融資のリスクは、いまや銀行のリスクでもある</h3><p>資金の3分の2を銀行が出している以上、P2P融資の信用の質は、もはやプラットフォームや個人の貸し手だけの問題ではない。ただし、本紙が確認した報道は、銀行と事業者の提携スキームで信用損失を誰が負担するのか、銀行なのかプラットフォームなのかを説明していない。それがなければ、銀行の実際のエクスポージャーを判断するのは難しい。OJKの次の報告で注目すべき重要な情報だ。</p><h3>5.36%は業界平均</h3><p>業界全体のTWP90は、プラットフォーム間の差を覆い隠す。報道は9月に5%を超えたプラットフォームの数を示していないため、特定のプラットフォームについて結論は出せない。意思決定者にとって重要なのは傾向だ。わずか1カ月で4.73%から5.36%へ、規制当局自らが定めた水準を超えた。</p><h3>相反する2つのシグナル</h3><p>融資残高は前年比17.02%増えたが、その質は悪化した。Celiosのアナリストはこれを、購買力の弱さと、拡大のペースに遅れる与信審査に結び付け、購買力の圧迫が続けばTWP90の引き下げは難しくなりかねないと警告する。これは1人のアナリストの見方であり、OJKの数字ではない。また、政策金利が5.75%で据え置かれていることは、銀行の資金調達コストが下がっていないことを意味する。それが銀行のP2P融資への資金供給の意欲を変えるかどうかは、注視されている段階で、まだ裏付けられていない。</p><h3>報道が語っていないこと</h3><p>銀行側の不良債権比率、資金が少数の銀行にどれだけ集中しているか、TWP90が上がり続けた場合にOJKが何をするかについてのデータはない。執筆時点で、OJKは監視するとしか述べていない。</p>",
+    "actionHtml": "<h3>資金を供給する銀行のCFO・リスク管理責任者へ</h3><ol><li>事業者との提携スキームで、信用損失を誰が負担するかを明確にし、プラットフォームごとのエクスポージャー上限を設ける。</li><li>業界平均だけでなくプラットフォームごとの信用の質のデータを求め、あるプラットフォームのTWP90が5%を超えた場合の見直しの基準を定める。</li><li>購買力の圧迫が続き、資金調達コストが高止まりするシナリオでストレステストを行う。</li></ol><h3>オンライン融資プラットフォームと提携する企業のCFOへ</h3><p>消費者、取引先、従業員向けの融資にP2P融資を使っている場合は、プラットフォームが審査を厳しくしたときに備え、サービス継続とデータ保護の条項を見直す。</p><h3>P2P事業者・与信スコアリングのベンダーへ</h3><p>与信審査の改善が中心的な課題だ。銀行の資金供給への監視が強まるなか、代替データと延滞の早期監視が差別化の要素になるとみられる。</p>",
+    "faqHtml": "<h3>OJKが定めるP2P融資のTWP90の安全ラインは</h3><p>Kontanによると、使われている安全ラインは5%である。2026年9月の業界の数字は5.36%で、8月の4.73%から上昇した。</p><h3>オンライン融資の資金のうち、銀行が出している割合は</h3><p>Kontanが引用したOJKのデータによると、2026年9月時点で銀行の貸し手はRp71兆5800億を供給し、業界の資金総額の67.22%を占めた。</p>",
+    "dataFigure": "67.22%",
+    "dataLabel": "P2P融資の資金に占める銀行の貸し手の比率（2026年9月）",
+    "dataSource": "OJK、Kontan経由、2026年11月16日",
+    "seoTitle": "インドネシアのP2P融資、銀行資金67%・延滞率5.36%",
+    "seoDescription": "インドネシアのP2P融資の資金の67.22%を銀行が供給する一方、延滞率TWP90は5.36%と安全ライン5%を超過。銀行と提携企業が確認すべき点を解説。",
+    "audience": [
+      "CFO",
+      "リスク管理責任者",
+      "銀行",
+      "フィンテック事業者"
+    ],
+    "chart": {
+      "bars": [
+        {
+          "label": "2026年8月",
+          "value": 4.73,
+          "display": "4.73%"
+        },
+        {
+          "label": "安全ライン",
+          "value": 5,
+          "display": "5%"
+        },
+        {
+          "label": "2026年9月",
+          "value": 5.36,
+          "display": "5.36%"
+        }
+      ]
+    },
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bank-danai-pindar-rp7158-triliun-twp90-536-persen-september-2026-ja.png"
+  }
 }

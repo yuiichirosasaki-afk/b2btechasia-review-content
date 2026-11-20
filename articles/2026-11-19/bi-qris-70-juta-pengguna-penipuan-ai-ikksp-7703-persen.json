@@ -91,5 +91,39 @@
     "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bi-qris-70-juta-pengguna-penipuan-ai-ikksp-7703-persen-en.png"
   },
   "language": "id",
-  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bi-qris-70-juta-pengguna-penipuan-ai-ikksp-7703-persen.png"
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bi-qris-70-juta-pengguna-penipuan-ai-ikksp-7703-persen.png",
+  "ja": {
+    "title": "QRIS利用者が7059万人に、インドネシア銀行はAIを使った詐欺を警告し事業者に保護強化を要請",
+    "dek": "インドネシア銀行（BI）によると、QR決済の統一規格QRISの利用者は7059万人、累計取引は200億件を超えた。BIは組織的にAIを使う詐欺をリスクとみて、決済事業者に消費者保護を事業戦略の一部にするよう求めた。",
+    "summaryHtml": "<ul><li>KontanとRepublika（2026年11月16日）は、ジャカルタで開かれたGEBER PK 2027でのBIのFilianingsih Hendarta副総裁の発言を報じた。</li><li>Kontanによると、QRISの利用者は7059万人（前年比8.17%増）、加盟店は4939万（同36.04%増）、累計取引は200億件を超え、伸び率は149.1%だった。Republikaは数字を丸めて、2026年第3四半期時点で利用者7000万人超、加盟店4900万、取引200億件超と伝えた。</li><li>BIが3年ごとに行う全国調査で、2026年の決済システム消費者エンパワーメント指数（IKKSP）は77.03%と、2023年の64.67%から12.36ポイント上昇したが、なお「クリティカル（危機的）」の区分にあり、「自立」の区分には届いていないとKontanは報じた。</li><li>BIは国境を越えたサイバー犯罪と、組織的にAIを使う詐欺を挙げ、事業者による消費者教育、早期警戒の仕組み、予防策の強化を求めた。</li><li>BIは事業者に対し、消費者保護を事業戦略とリスク管理の一部として扱い、取引の安全、サービスの透明性、苦情対応の迅速化に取り組むよう求めた。</li></ul>",
+    "analysisHtml": "<h3>加盟店の伸びが利用者の伸びを大きく上回る</h3><p>Kontanの数字では、加盟店が36.04%増えたのに対し、利用者は8.17%増だった。この傾向は、現在の拡大が新しい利用者よりも、QRISを導入する店舗の数という受け入れ側に牽引されていることを示唆する。これは2つの数字からの本紙の解釈であり、BIが明言しているわけではない。アクワイアラーや決済サービスを提供する企業にとって、加盟店の増加は攻撃対象の拡大も意味する。</p><h3>成長の条件としての信頼</h3><p>Republikaによると、BIは『Journal of Financial Services Marketing』に掲載された、インドネシアの小規模事業者1133人を対象とする研究を引用し、リスクの認識がデジタル決済の利用意向を下げると指摘した。Republikaの報道で、Filianingsih副総裁は、信頼を失った回答者は現金に戻る傾向があると述べた。意味するところは明らかだ。対応を誤った詐欺の波が1度あれば、直接の損失を超えて普及に影響しかねない。</p><h3>指数は上昇、だがなお「クリティカル」</h3><p>IKKSPは64.67%から77.03%に上がったが、BIはなおクリティカルの区分に分類している。77%がなぜ自立の区分に届かないのかの説明は情報源に見当たらず、区分の基準は説明できない。2023年と2026年の比較も調査に基づくもので、詐欺のインシデントのデータではない。</p><h3>報道が語っていないこと</h3><p>QRISでの詐欺の件数、被害額、事業者への新たな制裁についてのデータはない。BIは強化の必要性を挙げているが、情報源には拘束力のある新しい規則は含まれていない。政策の方向とタイミングを注視する必要がある。</p>",
+    "actionHtml": "<h3>CFO・財務責任者へ</h3><ol><li>自社がQRISで支払いを受けている場合、BIが利用者に勧めているように、確定前に加盟店名と金額を確認する手順を定め、レジ担当と経理担当を教育する。</li><li>QRISの取引を毎日照合し、身に覚えのない入金のエスカレーションの経路を決める。</li></ol><h3>決済事業者・銀行のCIO・CISOへ</h3><ol><li>不正検知の管理、早期警戒の仕組み、苦情対応の時間を、BIが求める3点（取引の安全、サービスの透明性、苦情対応の速さ）に照らして点検する。</li><li>ソーシャルエンジニアリングを含め、AIを使った詐欺のシナリオをレジリエンスのテストに入れる。</li></ol><h3>フィンテック・セキュリティのベンダーへ</h3><p>消費者保護を事業戦略にせよというBIの要請は、監視ツール、利用者教育、苦情管理の需要を生む。機能だけでなく、測定できる成果を示すべきだ。</p>",
+    "faqHtml": "<h3>QRISの利用者は何人か</h3><p>BIを引用したKontanによると7059万人、Republikaによると2026年第3四半期時点で7000万人超である。</p><h3>BIは決済事業者に何を求めているか</h3><p>消費者保護を事業戦略とリスク管理の一部にすること、つまり取引の安全、サービスの透明性、苦情対応の迅速化である。</p><h3>利用者はQRISの詐欺をどう避ければよいか</h3><p>BIは、確定前に加盟店名と金額を確認し、PIN、パスワード、ワンタイムパスワード（OTP）を他人に教えないよう勧めている。</p>",
+    "dataFigure": "7059万人",
+    "dataLabel": "QRISの利用者（加盟店は4939万、累計取引は200億件超）",
+    "dataSource": "インドネシア銀行、Kontan経由、2026年11月16日",
+    "seoTitle": "QRIS利用者7059万人、BIがAI詐欺に警鐘",
+    "seoDescription": "インドネシアのQR決済QRISの利用者が7059万人に。インドネシア銀行はAIを使った詐欺を警告し、事業者に消費者保護の強化を要請。企業の対応を解説。",
+    "audience": [
+      "CFO",
+      "CIO",
+      "CISO",
+      "決済事業者"
+    ],
+    "chart": {
+      "bars": [
+        {
+          "label": "IKKSP 2023",
+          "value": 64.67,
+          "display": "64.67%"
+        },
+        {
+          "label": "IKKSP 2026",
+          "value": 77.03,
+          "display": "77.03%"
+        }
+      ]
+    },
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bi-qris-70-juta-pengguna-penipuan-ai-ikksp-7703-persen-ja.png"
+  }
 }

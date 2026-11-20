@@ -16,7 +16,8 @@
     "seoDescription",
     "publishAt",
     "language",
-    "en"
+    "en",
+    "ja"
   ],
   "properties": {
     "slug": {
@@ -179,6 +180,68 @@
     "en": {
       "type": "object",
       "description": "English version of the same article (same facts and sources).",
+      "required": [
+        "title",
+        "dek",
+        "summaryHtml",
+        "analysisHtml",
+        "actionHtml",
+        "dataFigure",
+        "dataLabel",
+        "seoTitle",
+        "seoDescription"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "dek": {
+          "type": "string"
+        },
+        "summaryHtml": {
+          "type": "string"
+        },
+        "analysisHtml": {
+          "type": "string"
+        },
+        "actionHtml": {
+          "type": "string"
+        },
+        "faqHtml": {
+          "type": "string"
+        },
+        "dataFigure": {
+          "type": "string"
+        },
+        "dataLabel": {
+          "type": "string"
+        },
+        "dataSource": {
+          "type": "string"
+        },
+        "seoTitle": {
+          "type": "string"
+        },
+        "seoDescription": {
+          "type": "string"
+        },
+        "heroImage": {
+          "type": "string"
+        },
+        "chart": {
+          "type": "object"
+        },
+        "audience": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ja": {
+      "type": "object",
+      "description": "Japanese version of the same article (same facts, numbers and sources), for Japanese business readers.",
       "required": [
         "title",
         "dek",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T02:56:07+07:00",
+  "generatedAt": "2026-11-20T12:38:50+07:00",
   "site": "B2B Tech Asia Review",
   "articles": [
     {
@@ -73,7 +73,27 @@
         ],
         "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/meta-business-agent-whatsapp-agen-ai-layanan-pelanggan-bisnis-en.png"
       },
-      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/meta-business-agent-whatsapp-agen-ai-layanan-pelanggan-bisnis.png"
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/meta-business-agent-whatsapp-agen-ai-layanan-pelanggan-bisnis.png",
+      "ja": {
+        "title": "WhatsAppの「Meta Business Agent」、24時間対応のAI顧客対応エージェントと企業が準備すべきこと",
+        "dek": "WhatsAppは、顧客とのチャットに24時間応答するAIエージェント「Meta Business Agent」を、2026年11月26日にジャカルタで開く公開イベントで改めて売り込む。WhatsAppで顧客対応をする企業にとって、問いはAIエージェントが使えるかどうかではなく、正確性、人への引き継ぎ、データ保護をどう管理するかに移っている。",
+        "summaryHtml": "<ul><li>Meta Business Agent（MBA）は、企業に代わって顧客の質問に24時間365日応答するWhatsApp上のAIエージェントだ。2026年8月の第4回WhatsApp Business Summit Indonesiaで、インドネシアでの提供が発表された。（Ekbispar、2026年8月12日；Medcom、2026年11月19日）</li><li>小規模事業者向けには、MBAはWhatsApp Businessアプリに組み込まれている。エージェントは事業固有の質問を学習させることができ、カタログから商品を勧め、予約を入れ、見込み客を特定し、販売の成立を手伝い、必要に応じて会話を担当者に引き継ぐ。</li><li>大企業向けには、Meta Business Agent PlatformがWhatsApp Business Platformと連動し、既存のシステムと統合できる。例としてShopify、Zendesk、Shopeeが挙げられている。Paragon Corpはブランド「DermaScalp Expert」で利用している。</li><li>WhatsAppは2026年11月26日、ジャカルタのパサラヤ・ブロックMで、5つの小規模事業者が参加する「Pop-up AI Market」と、招待した中小企業向けのMBAワークショップを開く。（Suara.com、2026年11月18日；Medcom）</li><li>Metaインドネシアのカントリー・マネージング・ディレクター、Pieter Lydian氏は、小規模事業者の経営者がいつでも顧客対応にあたれるとは限らないと述べた。</li></ul>",
+        "analysisHtml": "<h3>メニュー型のチャットボットから、販売を成立させるエージェントへ</h3><p>多くのインドネシア企業は、すでにソリューション事業者を通じてメニュー型のWhatsAppチャットボットを使っている。MBAのようなAIエージェントの違いは、自由な形式の質問を理解し、カタログから商品を引き出し、取引まで会話を進められる点だ。CXチームにとって、WhatsAppはサービスのコストセンターから販売チャネルに変わる。成功の指標も変える必要がある。応答時間だけでなく、回答の正確さ、コンバージョン率、人が引き継がなければならない会話の数だ。</p><h3>慎重に読むべき数字</h3><p>8月の発表で、Metaはインドネシア人の10人に7人超が毎日企業にメッセージを送り、83%がAIエージェントは用事を早く済ませる助けになると感じていると述べたが、本紙が確認した報道は調査の出典、標本数、方法を示していない。美容ブランドQueensiが対応した会話が250%増えたといった成果は、発表資料に載った利用企業の主張であり、独立した監査ではない。別の例では、コンバージョンの上昇幅が同じ記事の中で2つの異なる数字（65.4%と65%）で示されている。こうした数字は目安としては役立つが、自社での試行の代わりにはならない。</p><h3>まだ答えられていない問い</h3><p>本紙が確認した報道は、費用、対応言語、会話の中で支払いを処理できるか、顧客の会話データがどう使われるかを示していない。インドネシアの個人データ保護法の対象となる企業にとって最も重要なのは最後の問いだ。第三者のAIエージェントがブランドに代わって応答するとき、誰がデータ管理者になるのか、顧客にAIと話していることをどう伝えるのか。エージェントが価格や条件について誤った情報を伝えた場合に、誰が結果を負うのかも確認すべきだ。</p><h3>ソリューション事業者とコンタクトセンターへの影響</h3><p>WhatsApp Businessアプリにエージェントが組み込まれたことで、小規模事業者は基本的な用途には第三者のチャットボットを必要としなくなるかもしれない。オムニチャネル基盤の事業者やコンタクトセンターの受託企業は、CRMや受注システムとの連携、ガバナンス、AIから引き継がれる複雑な案件の処理といった、より難しい層で競うことになりそうだ。大企業にとっては、Zendeskなどのシステムと統合できる選択肢があることから、AIエージェントはCXの仕組み全体を置き換えるのではなく、その構成要素の1つになるとみられる。</p>",
+        "actionHtml": "<h3>CX・顧客サービスの責任者へ</h3><ol><li>注文状況や営業時間のように、件数が多くリスクの低い質問の分野を1つ選び、AIエージェントの最初の試行対象にする。</li><li>苦情、解約、請求に関する質問など、人への引き継ぎのルールを明確にし、引き継がれた会話の割合を測る。</li><li>価格や条件が正しく保たれるよう、エージェントの回答を最新のカタログや規定と定期的に照合する。</li></ol><h3>CMO・営業責任者へ</h3><p>AIとの会話からのコンバージョンを他のチャネルと分けて測り、利用を広げる前に人の担当者と比べる。</p><h3>データ保護責任者（DPO）・法務・CIOへ</h3><ol><li>顧客にAIとやり取りしていることが伝わり、データの処理に個人データ保護法上の法的根拠があることを確認する。</li><li>エージェントをCRMや受注システムにつなぐ前に、会話データの保管、利用、保存期間について書面で明確にする。</li></ol>",
+        "faqHtml": "<h3>WhatsAppのMeta Business Agentとは何か</h3><p>Metaが提供するAIエージェントで、WhatsAppで企業に代わって顧客の質問に24時間応答する。カタログの商品の推薦、予約の受け付け、必要に応じた担当者への会話の引き継ぎも行う。</p><h3>大企業もMeta Business Agentを使えるのか</h3><p>使える。小規模事業者向けのWhatsApp Businessアプリの機能に加え、MetaはWhatsApp Business Platformと連動し、ShopifyやZendeskなどのシステムと統合できるMeta Business Agent Platformを提供している。</p><h3>Meta Business Agentの費用は</h3><p>本紙が確認した報道は費用を示していない。Metaまたはその公式パートナーに直接確認すべきだ。</p>",
+        "dataFigure": "100万社+",
+        "dataLabel": "Metaによると、Meta Business Agentを使ったことのある世界の企業の数",
+        "dataSource": "Sandhya Devanathan氏（Meta）、Ekbispar経由、2026年8月12日",
+        "seoTitle": "WhatsAppのAI顧客対応エージェント、企業の準備",
+        "seoDescription": "WhatsAppの「Meta Business Agent」は24時間顧客に応答するAIエージェント。インドネシアの企業が導入前に確認すべき正確性、引き継ぎ、データ保護の要点を解説。",
+        "audience": [
+          "CX責任者",
+          "CMO",
+          "営業責任者",
+          "DPO"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/meta-business-agent-whatsapp-agen-ai-layanan-pelanggan-bisnis-ja.png"
+      }
     },
     {
       "slug": "aturan-as-izin-chip-ai-indonesia-pusat-data-verifikasi-penyewa",
@@ -147,7 +167,27 @@
         ],
         "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/aturan-as-izin-chip-ai-indonesia-pusat-data-verifikasi-penyewa-en.png"
       },
-      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/aturan-as-izin-chip-ai-indonesia-pusat-data-verifikasi-penyewa.png"
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/aturan-as-izin-chip-ai-indonesia-pusat-data-verifikasi-penyewa.png",
+      "ja": {
+        "title": "米国、インドネシアなど5カ国へのAI半導体輸出を許可制に　データセンターは90日以内に顧客確認を",
+        "dek": "米商務省が2026年11月16日に公表した暫定規則は、インドネシア、マレーシア、シンガポール、タイ、ブラジルへの先端AI半導体の出荷に許可を義務付けた。中国に本社を置く企業に大きな計算能力を提供するデータセンターも、所在地を問わず許可が必要となり、インドネシアの事業者と利用企業にとって顧客確認がコンプライアンスの課題になる。",
+        "summaryHtml": "<ul><li>米商務省産業安全保障局（BIS）は2026年11月16日、『Addressing Remote Access to Advanced Semiconductors』と題する暫定最終規則を公表した。Gibson Dunnによると、2026年11月19日予定の官報（Federal Register）掲載で発効し、意見公募は掲載から60日間だ。</li><li>先端コンピューティング半導体とシステム（ECCN 3A090・4A090）のインドネシア、マレーシア、シンガポール、タイ、ブラジルへの輸出、再輸出、国内移転には許可が必要になった。米国に本社または最終親会社を置く受領者は、月次報告を条件に除外される。（Gibson Dunn、Nixon Peabody）</li><li>中国、マカオ、または国グループD:5に本社を置く企業に、合計で1200万TPPを超える計算能力を提供するデータセンターは、所在地を問わず許可を取得しなければならない。Gibson Dunnによると、ある半導体メーカーの最先端GPU約200基に相当する。既存の取り決めは、発効日から90日以内に許可を取得する必要がある。</li><li>輸出者はデータセンターから、顧客に中国の者が所有・支配する企業がいるかを含む顧客確認（KYC）の情報を集めることが求められ、提供を拒まれた場合は警戒すべき兆候（レッドフラッグ）として扱われる。規則はAI拡散規則（AI Diffusion Rule）も撤廃する。</li><li>TNGlobal（2026年11月18日）が引用したMaybank Investment Bankは、規則を「想定より厳しい」と評し、インドネシアが執行、テナントの確認、リモートアクセスの監視を強化するとみている。Indosatについては影響を受ける売上は10%未満と見込み、同社のZankoreプロジェクトは2029年までに1GW、第1期の200MWは2027年上期を目指すとした。</li></ul>",
+        "analysisHtml": "<h3>インドネシアが許可対象国のリストに入った</h3><p>規則はインドネシアを、許可が必要な仕向け地のリストに加えた。今後、対象となる半導体のインドネシアへの出荷はすべて、買い手に米国の親会社がない限り米国の許可が必要になる。影響はデータセンター事業者にとどまらない。自前のGPUクラスターを作る銀行、通信会社、企業も、許可の手続き、待ち時間、エンドユーザーは誰かというサプライヤーからの質問に直面する。Gibson Dunnは、BISがインドネシアを含めた理由として特定の取引を挙げていないこと、許可申請は仕向け国での執行状況も考慮して個別に審査されることを指摘している。</p><h3>コンプライアンスが上流へ：データセンターはテナントを知る必要</h3><p>最も影響が大きいのは、リモートアクセスの規制だ。1200万TPPの基準は、半導体が物理的にどこにあるかではなく、中国に本社を置く企業に提供する能力で測られる。バタムやジャカルタで計算能力を貸し出す事業者は、第三者のためにモデルを学習させる顧客も含め、顧客の所有構造を知る必要がある。事業者にとっては、賃貸契約への新たな条項、顧客による所有情報の開示義務、利用状況の監視システムが必要になるとみられる。Maybankが見込むように、こうしたコンプライアンスのコストは、中国と関わる投資の一部を鈍らせかねない。</p><h3>最も影響を受けるのは誰か</h3><p>Maybankは、通信事業者よりも、AIインフラやデータセンターの専業企業への影響が大きいとみている。米国に親会社を持つ顧客は除外されるため、米国のハイパースケーラーの需要はほぼ影響を受けないと予想される。米国に親会社を持つ買い手は出荷ごとの許可なしに半導体を入手できる一方、地場の買い手は許可の手続きを経なければならない。この扱いの違いが、インドネシア企業を自前のクラスター構築ではなく、米国に親会社を持つクラウド事業者からのAI能力の賃借へと向かわせるかは注目に値する。</p><h3>まだはっきりしないこと</h3><p>本紙が確認した報道は、BISがインドネシア向けの許可の審査にどれだけ時間をかけるかを示していない。Gibson Dunnは、条文が既存の取り決めに90日以内の許可の「申請」ではなく「取得」を求めている点を指摘しており、BISが明確化や延長をする可能性もある。インドネシア政府の公式な反応も報道には含まれていない。Maybankが見込む執行強化はアナリストの予想にとどまる。</p>",
+        "actionHtml": "<h3>CIO・CTO・インフラ責任者へ</h3><ol><li>今後12カ月に予定するGPUサーバーの購入を洗い出し、機器がECCN 3A090または4A090に該当するか、許可にどれだけかかる見込みかをサプライヤーに確認する。</li><li>米国の輸出許可の待ち時間をAIプロジェクトの日程に織り込み、除外対象のクラウド事業者から能力を借りる代替案を用意する。</li><li>サプライヤーやデータセンター事業者が求めてくる可能性が高いため、自社の所有構造に関する書類を準備する。</li></ol><h3>コンプライアンス・法務の責任者へ</h3><ol><li>顧客の親会社や、顧客のそのまた顧客の確認を含め、計算能力サービスの顧客確認の手順を定める。</li><li>能力の賃貸契約とサプライヤーとの契約を見直し、所有に関する表明、監査権、輸出管理違反時の解約権を加える。</li></ol><h3>データセンター事業者・クラウド事業者へ</h3><p>関連施設も含め、中国に本社を置く顧客に提供している能力の合計を算出し、1200万TPPの基準に近づいているなら、90日の期限より前に許可の手続きを始める。</p>",
+        "faqHtml": "<h3>インドネシア企業はまだ米国からAI半導体を買えるのか</h3><p>買える。ただし、対象となる半導体のインドネシアへの出荷には、個別に審査される米国の許可が必要になった。受領者が米国に本社または最終親会社を置き、輸出者が月次報告を出す場合は除外される。</p><h3>1200万TPPの基準とは何か</h3><p>データセンターが、中国、マカオ、または国グループD:5に本社を置く企業に提供する計算能力の合計である。これを超えるとデータセンターに許可が必要になる。Gibson Dunnは最先端GPU約200基に相当するとしている。</p><h3>米国のAI半導体規則はいつ発効するのか</h3><p>2026年11月16日に公表され、2026年11月19日予定の官報掲載で発効する。既存の取り決めには、許可の取得まで90日が与えられる。</p>",
+        "dataFigure": "90日",
+        "dataLabel": "中国に本社を置く企業にすでにサービスを提供しているデータセンターが米国の許可を取得する期限",
+        "dataSource": "Gibson Dunn、Nixon Peabody、2026年11月",
+        "seoTitle": "米国、インドネシアへのAI半導体輸出を許可制に",
+        "seoDescription": "米商務省がインドネシアなど5カ国へのAI半導体輸出を許可制に。中国系企業に計算能力を提供するデータセンターは90日以内に許可が必要。企業の対応を解説。",
+        "audience": [
+          "CTO",
+          "インフラ責任者",
+          "コンプライアンス責任者",
+          "データセンター事業者"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/aturan-as-izin-chip-ai-indonesia-pusat-data-verifikasi-penyewa-ja.png"
+      }
     },
     {
       "slug": "klasifikasi-pusat-data-it-load-3-mw-rancangan-perpres-kek",
@@ -215,7 +255,27 @@
         ],
         "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/klasifikasi-pusat-data-it-load-3-mw-rancangan-perpres-kek-en.png"
       },
-      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/klasifikasi-pusat-data-it-load-3-mw-rancangan-perpres-kek.png"
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/klasifikasi-pusat-data-it-load-3-mw-rancangan-perpres-kek.png",
+      "ja": {
+        "title": "データセンターを3区分する大統領令案、3MW以上は経済特区へ誘導　業界団体IDPROは見直しを要求",
+        "dek": "海底ケーブルとデータセンターに関する大統領令案は、データセンターをIT負荷で区分し、立地と効率の上限を定める。大統領令の公布後に建設されるクラスA（3MW以上）の施設は経済特区か工業団地に置かなければならず、事業者団体は基準の見直しを求めている。",
+        "summaryHtml": "<ul><li>通信デジタル省（Komdigi）のデジタルインフラ総局（DJID）は、海底ケーブル通信システム（SKKL）とデータセンターに関する大統領令案を準備している。データセンターはIT負荷で3つに区分され、クラスAは3MW以上、クラスBは50kW以上3MW未満、クラスCは50kW未満だ。（Harian Jogja/Bisnis、Editor Indonesia、2026年11月18日）</li><li>大統領令の公布後に建設されるクラスAの施設は、経済特区（KEK）または工業団地に立地しなければならず、住宅地や商業地には置けない。クラスBは住宅地での立地が禁じられ、クラスCは住宅地にも置ける。</li><li>案は区分と立地ごとにPUE（電力使用効率）と水使用強度の上限を定める。たとえば経済特区のクラスAはPUE 1.3、1kWhあたり2リットル、住宅地のクラスCはPUE 1.2、1kWhあたり2.5リットルだ。炭素効率はCUEで測る。</li><li>インドネシア・データセンター事業者協会（IDPRO）のHendra Suryakusuma会長は、容量の把握のための区分は支持するものの、3MWという基準の技術的な根拠は見直しが必要だとし、容量が設計値、設置値、実際の稼働負荷のどれを指すのかを明確にするよう政府に求めた。</li><li>IDPROはまた、経済特区や工業団地を唯一の許可地ではなく、優遇措置のある優先立地とすることや、すでに進行中・計画中の投資への確実性も求めている。</li></ul>",
+        "analysisHtml": "<h3>3MWの基準が、誰が特区に移るべきかを決める</h3><p>案の核心は区分の名称ではなく、立地への影響にある。新しい施設がクラスAに入れば、立地の選択肢は経済特区か工業団地に絞られる。3MWは商業用のマルチテナント型データセンターとしては比較的低い基準であるため、現在計画中のコロケーションやAI対応のプロジェクトの多くはクラスAに入るとみられる。IDPROの異議が最も重みを持つのはここだ。容量の明確な定義がなければ、実際の負荷ではクラスBでも、設計容量ではクラスAになる施設が出てくる。その違いが、都市部の用地を引き続き使えるかどうかを決める。</p><h3>効率の上限は想定とは逆の順序</h3><p>案の効率の上限は、密集地の小規模施設に最も厳しい。住宅地のクラスCはPUE 1.2が上限で、経済特区のクラスAの1.3より厳しい。住宅地のデータセンターは電力と水を住民と直接取り合うため、その論理は理解できる。ただし、小規模なサーバールームは大型施設のような冷却の規模を持たないため、通常、これほど低いPUEを達成するのは難しい点に注意が必要だ。上限がこのまま残れば、影響は大手事業者だけでなく、企業のサーバールーム、支店、エッジ拠点にも及びかねない。IDPRO自身も、PUEやWUEは気候、冷却方式、稼働率、負荷に左右されるため、目標は段階的にすべきだとしている。</p><h3>誰が得をし、誰がコストを負うか</h3><p>電力と水の供給をすでに整えている経済特区や工業団地の運営者は、クラスAの需要が誘導されてくるため最も恩恵を受ける。特区の外に土地を買った開発事業者や、自前の中規模データセンターを計画する企業は不確実性に直面する。案は立地規則が大統領令の公布後に建設されるクラスAの施設に適用されるとしているが、建設中や許認可の手続き中の施設がどうなるのかは報道に説明がない。</p><h3>案がまだ答えていないこと</h3><p>本紙が確認した報道は、案の番号、スケジュール、移行期間、罰則、PUEと水使用強度を誰が監査するのかを示していない。条文にも不明瞭な点がある。立地規則はクラスAの工業団地での立地を認めているが、効率の表には経済特区のクラスAの値しか載っていない。これらの点が次の意見公募の焦点になりそうだ。</p>",
+        "actionHtml": "<h3>CIO・インフラ責任者へ</h3><ol><li>支店のサーバールームも含め、自社のすべての施設を設計値、設置値、実際のIT負荷で洗い出し、それぞれの定義でどの区分が適用され得るかを確認する。</li><li>住宅地のクラスCの上限（PUE 1.2）は小規模なサーバールームには達成が難しい可能性があるため、文書化した方法で現在のPUEと水使用量を測る。</li><li>3MWを超える新しい施設を計画しているなら、本社への遅延やネットワークのコストも含め、経済特区や工業団地の選択肢を今から事業性調査に入れる。</li></ol><h3>CFOへ</h3><p>自社のデータセンター計画がクラスAに入った場合に備え、移転やコロケーションのコストのシナリオを作り、最終規則が出るまで特区外の土地の取得は見合わせる。</p><h3>データセンター事業者・工業団地の運営者へ</h3><p>案の意見公募の場で、容量の定義と現実的な効率目標に関する技術データを提出する。工業団地の運営者は、クラスAの需要を受け入れるための電力、水、通信のパッケージを準備できる。</p>",
+        "faqHtml": "<h3>大統領令案ではデータセンターはどう区分されるのか</h3><p>IT負荷3MW以上のクラスA、50kW以上3MW未満のクラスB、50kW未満のクラスCの3つである。</p><h3>データセンターは都市部に建てられるのか</h3><p>案では、新しいクラスAの施設は住宅地や商業地に置けず、経済特区か工業団地に立地しなければならない。クラスBは住宅地以外の建物に、クラスCは住宅地にも置ける。</p><h3>データセンターの区分はいつから適用されるのか</h3><p>日付は決まっていない。規則はまだ大統領令案の段階で、報道には公布日も移行期間も示されていない。</p>",
+        "dataFigure": "3MW",
+        "dataLabel": "経済特区か工業団地への立地が求められるクラスAデータセンターのIT負荷の基準",
+        "dataSource": "SKKL・データセンターに関する大統領令案、Harian Jogja/Bisnis経由、2026年11月18日",
+        "seoTitle": "インドネシアのデータセンター3区分案、3MW以上は特区へ",
+        "seoDescription": "インドネシアの大統領令案がデータセンターをIT負荷で3区分し、3MW以上は経済特区か工業団地に誘導。立地と効率の規制が企業に与える影響を解説。",
+        "audience": [
+          "CIO",
+          "インフラ責任者",
+          "CFO",
+          "データセンター事業者"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/klasifikasi-pusat-data-it-load-3-mw-rancangan-perpres-kek-ja.png"
+      }
     },
     {
       "slug": "bi-qris-70-juta-pengguna-penipuan-ai-ikksp-7703-persen",
@@ -310,7 +370,41 @@
         "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bi-qris-70-juta-pengguna-penipuan-ai-ikksp-7703-persen-en.png"
       },
       "language": "id",
-      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bi-qris-70-juta-pengguna-penipuan-ai-ikksp-7703-persen.png"
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bi-qris-70-juta-pengguna-penipuan-ai-ikksp-7703-persen.png",
+      "ja": {
+        "title": "QRIS利用者が7059万人に、インドネシア銀行はAIを使った詐欺を警告し事業者に保護強化を要請",
+        "dek": "インドネシア銀行（BI）によると、QR決済の統一規格QRISの利用者は7059万人、累計取引は200億件を超えた。BIは組織的にAIを使う詐欺をリスクとみて、決済事業者に消費者保護を事業戦略の一部にするよう求めた。",
+        "summaryHtml": "<ul><li>KontanとRepublika（2026年11月16日）は、ジャカルタで開かれたGEBER PK 2027でのBIのFilianingsih Hendarta副総裁の発言を報じた。</li><li>Kontanによると、QRISの利用者は7059万人（前年比8.17%増）、加盟店は4939万（同36.04%増）、累計取引は200億件を超え、伸び率は149.1%だった。Republikaは数字を丸めて、2026年第3四半期時点で利用者7000万人超、加盟店4900万、取引200億件超と伝えた。</li><li>BIが3年ごとに行う全国調査で、2026年の決済システム消費者エンパワーメント指数（IKKSP）は77.03%と、2023年の64.67%から12.36ポイント上昇したが、なお「クリティカル（危機的）」の区分にあり、「自立」の区分には届いていないとKontanは報じた。</li><li>BIは国境を越えたサイバー犯罪と、組織的にAIを使う詐欺を挙げ、事業者による消費者教育、早期警戒の仕組み、予防策の強化を求めた。</li><li>BIは事業者に対し、消費者保護を事業戦略とリスク管理の一部として扱い、取引の安全、サービスの透明性、苦情対応の迅速化に取り組むよう求めた。</li></ul>",
+        "analysisHtml": "<h3>加盟店の伸びが利用者の伸びを大きく上回る</h3><p>Kontanの数字では、加盟店が36.04%増えたのに対し、利用者は8.17%増だった。この傾向は、現在の拡大が新しい利用者よりも、QRISを導入する店舗の数という受け入れ側に牽引されていることを示唆する。これは2つの数字からの本紙の解釈であり、BIが明言しているわけではない。アクワイアラーや決済サービスを提供する企業にとって、加盟店の増加は攻撃対象の拡大も意味する。</p><h3>成長の条件としての信頼</h3><p>Republikaによると、BIは『Journal of Financial Services Marketing』に掲載された、インドネシアの小規模事業者1133人を対象とする研究を引用し、リスクの認識がデジタル決済の利用意向を下げると指摘した。Republikaの報道で、Filianingsih副総裁は、信頼を失った回答者は現金に戻る傾向があると述べた。意味するところは明らかだ。対応を誤った詐欺の波が1度あれば、直接の損失を超えて普及に影響しかねない。</p><h3>指数は上昇、だがなお「クリティカル」</h3><p>IKKSPは64.67%から77.03%に上がったが、BIはなおクリティカルの区分に分類している。77%がなぜ自立の区分に届かないのかの説明は情報源に見当たらず、区分の基準は説明できない。2023年と2026年の比較も調査に基づくもので、詐欺のインシデントのデータではない。</p><h3>報道が語っていないこと</h3><p>QRISでの詐欺の件数、被害額、事業者への新たな制裁についてのデータはない。BIは強化の必要性を挙げているが、情報源には拘束力のある新しい規則は含まれていない。政策の方向とタイミングを注視する必要がある。</p>",
+        "actionHtml": "<h3>CFO・財務責任者へ</h3><ol><li>自社がQRISで支払いを受けている場合、BIが利用者に勧めているように、確定前に加盟店名と金額を確認する手順を定め、レジ担当と経理担当を教育する。</li><li>QRISの取引を毎日照合し、身に覚えのない入金のエスカレーションの経路を決める。</li></ol><h3>決済事業者・銀行のCIO・CISOへ</h3><ol><li>不正検知の管理、早期警戒の仕組み、苦情対応の時間を、BIが求める3点（取引の安全、サービスの透明性、苦情対応の速さ）に照らして点検する。</li><li>ソーシャルエンジニアリングを含め、AIを使った詐欺のシナリオをレジリエンスのテストに入れる。</li></ol><h3>フィンテック・セキュリティのベンダーへ</h3><p>消費者保護を事業戦略にせよというBIの要請は、監視ツール、利用者教育、苦情管理の需要を生む。機能だけでなく、測定できる成果を示すべきだ。</p>",
+        "faqHtml": "<h3>QRISの利用者は何人か</h3><p>BIを引用したKontanによると7059万人、Republikaによると2026年第3四半期時点で7000万人超である。</p><h3>BIは決済事業者に何を求めているか</h3><p>消費者保護を事業戦略とリスク管理の一部にすること、つまり取引の安全、サービスの透明性、苦情対応の迅速化である。</p><h3>利用者はQRISの詐欺をどう避ければよいか</h3><p>BIは、確定前に加盟店名と金額を確認し、PIN、パスワード、ワンタイムパスワード（OTP）を他人に教えないよう勧めている。</p>",
+        "dataFigure": "7059万人",
+        "dataLabel": "QRISの利用者（加盟店は4939万、累計取引は200億件超）",
+        "dataSource": "インドネシア銀行、Kontan経由、2026年11月16日",
+        "seoTitle": "QRIS利用者7059万人、BIがAI詐欺に警鐘",
+        "seoDescription": "インドネシアのQR決済QRISの利用者が7059万人に。インドネシア銀行はAIを使った詐欺を警告し、事業者に消費者保護の強化を要請。企業の対応を解説。",
+        "audience": [
+          "CFO",
+          "CIO",
+          "CISO",
+          "決済事業者"
+        ],
+        "chart": {
+          "bars": [
+            {
+              "label": "IKKSP 2023",
+              "value": 64.67,
+              "display": "64.67%"
+            },
+            {
+              "label": "IKKSP 2026",
+              "value": 77.03,
+              "display": "77.03%"
+            }
+          ]
+        },
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bi-qris-70-juta-pengguna-penipuan-ai-ikksp-7703-persen-ja.png"
+      }
     },
     {
       "slug": "economy-sea-2026-ecommerce-indonesia-us85-miliar-belanja-ai",
@@ -416,7 +510,46 @@
         "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/economy-sea-2026-ecommerce-indonesia-us85-miliar-belanja-ai-en.png"
       },
       "language": "id",
-      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/economy-sea-2026-ecommerce-indonesia-us85-miliar-belanja-ai.png"
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/economy-sea-2026-ecommerce-indonesia-us85-miliar-belanja-ai.png",
+      "ja": {
+        "title": "インドネシアのEC、2026年は850億ドルの見通し　買い物の37%がAIから始まる",
+        "dek": "Google、Temasek、Bain & Companyの報告書『e-Conomy SEA 2026』は、インドネシアの電子商取引の流通額が16%増の850億ドルになると推計した。AIが買い物の入り口に入り込みつつある一方、AIエージェントによる決済はまだ初期段階にあることも示している。",
+        "summaryHtml": "<ul><li>Katadata（2026年11月11日）は『e-Conomy SEA 2026』を引用し、2026年のインドネシアのEC流通額が730億ドルから16%増の850億ドル（1ドル＝Rp1万8130換算でRp1541兆）になるとの推計を伝えた。2024年は620億ドルだった。</li><li>報告書は2030年に1750億ドル、2035年に3620億ドルと予測する。</li><li>インドネシアの消費者の買い物の37%がAIの手助けから始まり、調査対象のAI利用者の84%が、AIエージェントに最安値を探させて購入まで任せてもよいと答えた。東南アジア6カ国の平均は75%だった。</li><li>消費者の90%超は、AIの推薦の後もさらに調べたりレビューを読んだりしており、AIエージェントによる決済（エージェンティック・チェックアウト）はまだ開発段階とされる。</li><li>LazadaとShopeeはAIの成果を報告している。Lazadaのアシスタント「Lazzie」は6.6セールの期間に1日のアクティブ利用者が約300万人に達し、Shopeeのチャットボットは消費者の質問の約80%に対応し、問い合わせ1件あたりのコストは前年比30%下がった。</li></ul>",
+        "analysisHtml": "<h3>16%の成長とAIの役割</h3><p>850億ドルという推計は、インドネシアのECを2桁成長の軌道に置くが、本紙が確認した報告書は、増加のうちどれだけがAIによるものかを説明していない。AIのデータと流通額のデータは別々の調査結果であり、因果関係は示されていない。両者を結び付ける唯一の数字は、AIが案内した注文は平均注文額が約75%高いというLazadaの主張だが、これは企業の主張であって独立した調査結果ではない。</p><h3>意向は高いが、習慣はまだ変わっていない</h3><p>意向と行動の間には差がある。AI利用者の84%が購入をAIエージェントに任せてもよいと答えたが、インドネシアの利用者のAIセッションは週平均1.76回と6カ国で最も少なく、90%超はAIの推薦の後もレビューを確認している。AIをアシスタントとして信頼していること（93%）は、消費者が最終判断を委ねることを自動的には意味しない。企業にとって、AIの推薦は入り口であり、決め手はなおレビューと店舗の評判にあるようだ。</p><h3>勝者と押される側</h3><p>商品名、属性、写真、レビューといったデータが整っている販売者ほど、AIアシスタントに見つけられやすいとみられる。Lazadaは販売者の95%超がAIによる出品機能「Smart Listing」を使っているとしており、この基本機能は差別化の要素ではなく標準になりつつある。ゾロ目の日のセールに頼る小規模の販売者は、別の競争にも直面する。JawaPos（2026年11月10日）は、商業省によると2025年の全国オンラインショッピングデー（Harbolnas）の取引額はRp36兆4000億で、消費者の54%がクリエイターのアフィリエイトリンクから購入したと伝えている。この数字は期間と定義が異なるため、2026年の年間推計とは直接比べられない。</p><h3>報道が語っていないこと</h3><p>報告書はプラットフォーム別の流通額推計の方法を説明しておらず、LazadaとShopeeの成果の数字は各社自身が示したものだ。2030年と2035年の数字は予測であり、実現は購買力とプラットフォーム規制に大きく左右されるとみられる。</p>",
+        "actionHtml": "<h3>CMO・EC責任者へ</h3><ol><li>商品カタログを点検する。商品名、属性、説明が完全で一貫していれば、AIのショッピングアシスタントに見つけられやすくなる。</li><li>検索やSNSだけでなく、AIアプリから始まる購買経路も含め、チャネル別の流入元とコンバージョンを測る。</li><li>購入者の大半はAIの推薦の後もレビューを確認するため、レビューと店舗の評判を積極的に管理する。</li></ol><h3>CIO・業務責任者へ</h3><ol><li>エージェントによる決済が使えるようになったときに備え、商品、在庫、価格のデータをAPIで取得できるようにする。</li><li>Shopeeが報告しているように、問い合わせ1件あたりのコストと顧客満足度の指標でAIによる顧客サービスを見直す。</li></ol><h3>EC・マーテックのベンダーへ</h3><p>提案は、整った商品データとマーケットプレイス横断の連携に絞るべきだ。技術と消費者の信頼が整う前に、自律的な決済を約束すべきではない。</p>",
+        "faqHtml": "<h3>e-Conomy SEAによると、2026年のインドネシアのEC規模は</h3><p>Katadataが引用した報告書によると、730億ドルから16%増の850億ドル（Rp1541兆）と推計されている。</p><h3>インドネシアの消費者のうち、AIから買い物を始める割合は</h3><p>報告書は、インドネシアの消費者の買い物の37%がAIの手助けから始まると記録している。</p><h3>AIエージェントはすでに支払いまでできるのか</h3><p>報告書は、エージェンティック・チェックアウト（AIエージェントによる決済）はまだ開発段階だとしている。</p>",
+        "dataFigure": "850億ドル",
+        "dataLabel": "2026年のインドネシアのEC流通額の推計（16%増）",
+        "dataSource": "e-Conomy SEA 2026（Google、Temasek、Bain）、Katadata経由、2026年11月11日",
+        "seoTitle": "インドネシアのEC、2026年は850億ドルの見通し",
+        "seoDescription": "e-Conomy SEA 2026によると、インドネシアのEC流通額は16%増の850億ドル。買い物の37%がAIから始まる時代に、CMOとEC責任者が備えるべき点を解説。",
+        "audience": [
+          "CMO",
+          "EC責任者",
+          "CIO",
+          "マーテックベンダー"
+        ],
+        "chart": {
+          "bars": [
+            {
+              "label": "2024年",
+              "value": 62,
+              "display": "620億ドル"
+            },
+            {
+              "label": "2025年",
+              "value": 73,
+              "display": "730億ドル"
+            },
+            {
+              "label": "2026年(推計)",
+              "value": 85,
+              "display": "850億ドル"
+            }
+          ]
+        },
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/economy-sea-2026-ecommerce-indonesia-us85-miliar-belanja-ai-ja.png"
+      }
     },
     {
       "slug": "kbank-indonesia-core-banking-baru-tiga-afiliasi-rp3762-miliar",
@@ -522,7 +655,46 @@
         "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kbank-indonesia-core-banking-baru-tiga-afiliasi-rp3762-miliar-en.png"
       },
       "language": "id",
-      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kbank-indonesia-core-banking-baru-tiga-afiliasi-rp3762-miliar.png"
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kbank-indonesia-core-banking-baru-tiga-afiliasi-rp3762-miliar.png",
+      "ja": {
+        "title": "KBankインドネシア、新勘定系システムの構築をグループ3社に委託　契約総額は約Rp376億",
+        "dek": "PT Bank Kasikorn Indonesia Tbk（BMAS）は、新しい勘定系システムを構築するための関連当事者との取引3件を開示した。契約総額は約Rp376億2000万で、インフラと導入の契約は2036年まで続く。",
+        "summaryHtml": "<ul><li>KontanとEmitennews（2026年11月16日）によると、BMASは新しい勘定系システム（CBS）に関する関連当事者との取引3件を開示した。</li><li>Kasikorn Soft（KSoft）は、2027年末までのアプリケーション開発、統合、テスト、稼働開始の支援を担い、契約額は1278万4000バーツ。</li><li>Kasikorn Infra（KInfra）は、2036年末までのプロジェクト全環境のインフラ設計と準備を担い、契約額は1260万バーツ。KBTG Vietnamは、データ移行、切り替え、稼働直後の集中支援（ハイパーケア）を含む一貫した導入を2036年末まで担い、契約額は131万ドル。</li><li>Emitennewsは、2026年11月16日の1バーツ＝約Rp539.18、1ドル＝Rp1万8269で換算し、総額を約Rp376億2000万と算出した。最終的な金額は支払い時の為替レートで変わり得る。</li><li>経営陣は、取引はOJK規則2020年第42号に照らして利益相反を含まないと表明している。</li></ul>",
+        "analysisHtml": "<h3>勘定系プロジェクトをグループ内から調達</h3><p>3社とも関連会社であるため、この技術上の判断はガバナンス上の判断でもある。関連当事者取引の規則が適用され、開示に利益相反がないとの表明が入っているのはそのためだ。地域のグループに属する中小規模の銀行にとって、グループの技術チームが使うプラットフォームをすでに熟知しているこのモデルは、よくある選択肢だ。ただし、本紙が確認した報道は、なぜこれらの事業者が選ばれたのか、第三者との価格比較が行われたのかを説明していない。</p><h3>初期費用は小さく、拘束期間は長い</h3><p>Rp376億2000万は、銀行の基幹システムのプロジェクトとしては控えめな額だ。より重要なのは期間である。KInfraとKBTG Vietnamの契約は2036年末まで続き、アプリケーション開発は2027年末に終わる。報道はライセンス、ハードウェア、社内コストの内訳を示していないため、システムの総費用はこの3件の契約より大きい可能性がある。公表されたデータからプロジェクト全体の予算は推測できない。</p><h3>情報源間の違い</h3><p>KontanはKBTG Vietnamの契約額を131万ドルとし、Emitennewsは131万210ドルとしている。両者は整合的だ。KInfraの業務範囲の説明はわずかに異なり、Kontanはプロジェクト環境の設計、準備、運用の準備としている一方、Emitennewsは設計、初期設定、保守としている。公式の詳細はインドネシア証券取引所に提出された開示書類で確認してほしい。</p><h3>報道が語っていないこと</h3><p>新しいCBSがいつ顧客向けに稼働するのか、どの勘定系ソフトウェアのベンダーを使うのか、データ移行のリスクについての情報はない。切り替えとハイパーケアは、どの銀行にとっても通常、最も脆弱な段階だ。これは一般的な見方であり、今回のニュースから分かったことではない。</p>",
+        "actionHtml": "<h3>銀行のCIO・CTOへ</h3><ol><li>勘定系プロジェクトにグループの関連会社が関わる場合は、利益相反がないことを示しやすいよう、最初から価格のベンチマークと明確な役割分担を用意する。</li><li>構築の契約（稼働まで）と長期の運用契約を分け、2036年まで続く契約には解約条項とデータの所有権の条件を定める。</li><li>データ移行、切り替え、ハイパーケアを、測定可能な成功基準を持つ独立した作業として計画する。</li></ol><h3>CFO・監査委員会へ</h3><p>関連当事者取引を定期的に監視する。最終的な金額が現在のルピア換算と異なり得るとの注記が示すように、外貨建ての契約額は為替リスクを生む。</p><h3>銀行向けソフトウェアのベンダーへ</h3><p>地域のグループに属する銀行では、技術上の判断がグループの構造に左右されることが多い。入札の前に関連会社の関係を調べるべきだ。</p>",
+        "faqHtml": "<h3>勘定系システム（コアバンキング）とは何か</h3><p>顧客の口座、預金、融資、取引を記録する中枢のシステムである。その入れ替えは、銀行が取り組む技術プロジェクトの中でも最もリスクが高いものの1つだ。</p><h3>KBankインドネシアのプロジェクトに関わる関連会社は</h3><p>KontanとEmitennewsが2026年11月16日に報じたBMASの開示によると、Kasikorn Soft Company Limited、Kasikorn Infra Company Limited、KBTG Vietnam Company Limitedの3社である。</p><h3>契約総額は</h3><p>Emitennewsは、1バーツ＝Rp539.18、1ドル＝Rp1万8269で換算し、約Rp376億2000万と算出している。</p>",
+        "dataFigure": "Rp376億",
+        "dataLabel": "KBankインドネシアの新勘定系に関する関連会社3社との契約総額（ルピア換算）",
+        "dataSource": "Emitennews、2026年11月16日",
+        "seoTitle": "KBankインドネシア、新勘定系をグループ3社に委託",
+        "seoDescription": "KBankインドネシア（BMAS）が新しい勘定系システムの構築をグループ3社に委託、契約総額は約Rp376億。銀行のCIO・CFOが押さえるべき点を解説。",
+        "audience": [
+          "CIO",
+          "CTO",
+          "CFO",
+          "銀行"
+        ],
+        "chart": {
+          "bars": [
+            {
+              "label": "KSoft",
+              "value": 6.89,
+              "display": "Rp68.9億"
+            },
+            {
+              "label": "KInfra",
+              "value": 6.79,
+              "display": "Rp67.9億"
+            },
+            {
+              "label": "KBTG-VN",
+              "value": 23.94,
+              "display": "Rp239億"
+            }
+          ]
+        },
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kbank-indonesia-core-banking-baru-tiga-afiliasi-rp3762-miliar-ja.png"
+      }
     },
     {
       "slug": "perpres-lembaga-pdp-menunggu-keputusan-presiden-kesiapan-perusahaan",
@@ -596,7 +768,27 @@
         ],
         "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/perpres-lembaga-pdp-menunggu-keputusan-presiden-kesiapan-perusahaan-en.png"
       },
-      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/perpres-lembaga-pdp-menunggu-keputusan-presiden-kesiapan-perusahaan.png"
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/perpres-lembaga-pdp-menunggu-keputusan-presiden-kesiapan-perusahaan.png",
+      "ja": {
+        "title": "個人データ保護の監督機関、大統領の判断待ち　法律制定から4年、企業が備えるべきこと",
+        "dek": "通信デジタル省（Komdigi）は、インドネシアの個人データ保護（PDP）監督機関を設置する大統領令案が最終段階に入り、大統領に提出されたと明らかにした。機関ができるまで監督はKomdigiが担うため、企業は「審判」が交代する移行期を迎える。",
+        "summaryHtml": "<ul><li>Komdigiは2026年11月4日、PDP機関を設置する大統領令案が最終段階に入り、国家官房を通じて大統領に提出されたと発表した。デジタル空間戦略・監督政策局長のMuchtarul Huda氏が述べた。（Katadata、Telset）</li><li>Komdigiは移行期に対応する特別タスクフォースを設け、機関が正式に設置されるまでPDPの機能を担う。政府は2026年中の完了を目指している。（Katadata、Telset）</li><li>機関はPDPに関する2022年法律第27号で定められている。任務には、政策の立案、苦情の受け付け、監督、検査、行政処分の執行、裁判外の紛争解決の支援、越境データ移転の要件充足の評価が含まれる。（Katadata）</li><li>起草は2022年末に始まり、大統領による発議の許可は2025年3月4日に出て、調整は2025年10月から2026年2月まで行われた。（Telset）</li></ul>",
+        "analysisHtml": "<h3>ルールは適用されているが、審判はまだいない</h3><p>IDXChannelによると、PDP法の移行期間は2024年10月に終わり、同法は年間売上高の最大2%の行政制裁金と、72時間以内のインシデント報告義務を定めている。企業の義務はすでに動いているのに、法律が想定する独立機関はまだできていない。その空白の間はKomdigiが機能を担い、移行期のタスクフォースがインシデント対応を途切れさせないことになっている。企業から見た最大の不確実性は、義務の中身ではなく、誰が、どのような手続きで、いつ評価するのかにある。</p><h3>まだはっきりしないこと：報告ラインと権限</h3><p>機関の位置付けについて、情報源の説明は異なる。Telsetは、機関は独立しており、省ではなく大統領に直接報告するとしている。Katadataは、Komdigiのネザル・パトリア副大臣が7月21日、機関は独立して業務を行うが、報告はKomdigiを通じて大統領に上げると述べたと伝えている。この違いは独立性の受け止め方に関わり、大統領令の条文が公表されて初めて決着する。本紙が確認した報道は、制裁の細則、予算、人員についても伝えていない。</p><h3>大統領令の後：段階は1つではなく2つ</h3><p>Telsetは、制定後の作業は2段階で進むと説明する。まず機関の正式な設置、次に人員の配置、事務所の所在地、予算といった運営の準備だ。これは、大統領令が出た翌日から本格的な執行が感じられるわけではないことを意味するとみられる。それでも、法律上の義務はすでに適用されているため、企業はこの空白を猶予とみなすべきではない。執筆時点までの本紙の調べでは、大統領令が制定されたとの発表は見つかっていない。状況は公式の情報源で改めて確認する必要がある。</p><h3>ビジネスに関わる新しい役割</h3><p>機関の任務には、越境の個人データ移転が要件を満たしているかの評価と、外国のPDP当局との協力が含まれる。海外のクラウド、CRM、分析サービスを使う企業にとっては、データ移転の法的根拠の文書化が検査の対象になる可能性が高いことを示唆している。</p>",
+        "actionHtml": "<h3>法務・コンプライアンス部門、データ保護責任者へ</h3><ol><li>新しい機関が証拠を求めてきても対応できるよう、個人データの処理記録と、それぞれの処理の法的根拠を更新する。</li><li>すべての越境データ移転を、委託先と所在地とともに文書化する。</li><li>移行期に誰が、誰に報告する権限を持つかを含め、72時間以内のインシデント報告の手順を試す。</li></ol><h3>CIO・CISOへ</h3><ol><li>個人データを持つシステム（クラウド、CRM、分析、委託先）を洗い出し、アクセス記録を監査できるようにする。</li><li>第三者の委託先との契約を見直し、PDP上の義務とインシデント通知の義務を明記する。</li></ol><h3>コンプライアンス技術のベンダーへ</h3><p>データマッピング、越境移転の記録、インシデント管理の需要が高まるとみられる。新しい機関への準拠をうたうのは、大統領令の条文を待ってからにすべきだ。</p>",
+        "faqHtml": "<h3>インドネシアのPDP監督機関の状況は</h3><p>2026年11月4日のKomdigiの発表時点で、機関を設置する大統領令案は最終段階にあり、大統領に提出されている。機関ができるまではKomdigiがPDPの機能を担う。</p><h3>PDP機関の任務は何か</h3><p>Katadataによると、政策の立案、苦情の受け付け、監督と検査、行政処分の執行、裁判外の紛争解決の支援、越境データ移転の要件の評価が含まれる。</p><h3>企業は機関ができるまでPDP法の遵守を待ってよいか</h3><p>待つ根拠はない。IDXChannelによると、PDP法の移行期間は2024年10月に終わっている。個別の事案については法律の専門家に相談してほしい。</p>",
+        "dataFigure": "法27/2022",
+        "dataLabel": "PDP機関の法的根拠。機関を設置する大統領令は大統領の判断待ち",
+        "dataSource": "通信デジタル省、Katadata引用、2026年11月5日",
+        "seoTitle": "インドネシアの個人データ保護機関、大統領の判断待ち",
+        "seoDescription": "インドネシアの個人データ保護（PDP）監督機関を設置する大統領令案が大統領に提出された。移行期に企業が備えるべき記録、越境移転、報告の対応を解説。",
+        "audience": [
+          "法務・コンプライアンス",
+          "データ保護責任者",
+          "CIO・CISO",
+          "コンプライアンス技術ベンダー"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/perpres-lembaga-pdp-menunggu-keputusan-presiden-kesiapan-perusahaan-ja.png"
+      }
     },
     {
       "slug": "kai-logistik-kargo-halal-kereta-164-ribu-ton-perpres-logistik",
@@ -708,7 +900,46 @@
         ],
         "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kai-logistik-kargo-halal-kereta-164-ribu-ton-perpres-logistik-en.png"
       },
-      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kai-logistik-kargo-halal-kereta-164-ribu-ton-perpres-logistik.png"
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kai-logistik-kargo-halal-kereta-164-ribu-ton-perpres-logistik.png",
+      "ja": {
+        "title": "KAI Logistik、ハラール貨物の鉄道輸送が16万4142トン　四半期ごとに増加、物流大統領令の試金石に",
+        "dek": "KAI Logistikによる鉄道でのハラール対応コンテナ輸送は、2026年10月までに16万4142トンに達し、主な利用者は製造業と日用消費財（FMCG）企業だった。政府が大統領令2026年第41号で物流コストの削減を目指すなか、この数字はトラックから鉄道への転換がどこまで進んだか、そしてまだ何が分からないかを示している。",
+        "summaryHtml": "<ul><li>KAI Logistikによると、鉄道によるハラール対応コンテナの輸送量は2026年1〜10月に16万4142トンに達した。事業開発担当取締役のAniek Dwi Deviyanti氏が明らかにした。（JPNN、2026年11月17日）</li><li>四半期別の輸送量は、第1四半期3万7710トン、第2四半期4万9842トン、第3四半期5万9418トン（最多）。第4四半期の最初の月である10月は954TEU、1万7172トンだった。（JPNN）</li><li>利用者は主に製造業とFMCG企業で、KAI Logistikは好調な傾向が年末まで続くとみている。（JPNN）</li><li>2026年7月16日に制定された国家物流強化に関する大統領令2026年第41号は、物流コストを国内総生産（GDP）比約14.29%から12.5%へ、最終的には8%へ引き下げることを目標とし、道路、鉄道、海上輸送の統合を優先する。（CNN Indonesia、Fortune Indonesia）</li></ul>",
+        "analysisHtml": "<h3>成長は明らかだが、10月は詳しく見る価値がある</h3><p>第1四半期から第3四半期にかけて、輸送量は3万7710トンから5万9418トンへ約58%増えた。第3四半期は第2四半期を約19%上回った。ただし10月は1万7172トンで、第3四半期の月平均約1万9800トン（5万9418を3で割った値）を下回った。1カ月だけで減速とは言えない。季節性、コンテナの運行計画、車両の容量が理由かもしれない。情報源は説明していないため、傾向を判断する前に11月と12月のデータを待つべきだ。</p><h3>ハラール貨物が興味深い物差しである理由</h3><p>Aniek氏は、ハラール物流は認証だけでなく、保管、荷扱い、配送を通じて製品の完全性を保つことだと強調した。企業の買い手にとっては、輸送の連鎖全体で監査可能な追跡と記録が必要になることを意味する。JPNNはKAI Logistikがどのデジタルシステムを使っているかを伝えておらず、追跡がどこまで自動化されているかは判断できない。物流事業者に確認する価値のある点だ。</p><h3>大統領令第41号との関係：方向は一致するが、因果は未証明</h3><p>大統領令第41号は、輸送手段の統合とデジタル化を中核戦略とし、国家物流エコシステム（NLE）の基盤をエンドツーエンドのデジタル化に広げることや、バタン統合工業団地を含むドライポートの建設を掲げる。政府はNLEで物流コストを最大17%、サービス時間を73%削減したと主張するが、これは政府の主張であり、本紙が確認した報道で独立した検証はなされていない。KAI Logistikの輸送量の増加は政策の方向と整合的だが、増加が大統領令によるものだとする情報源はなく、因果関係は確認できない。また、GDP比14.29%という数字の基準も情報源によって異なる。CNN Indonesiaは2022年のデータに結び付け、Fortune Indonesiaは現在の水準として示している。</p><h3>誰が得をし、次に何が来るか</h3><p>量が多く日程が予測しやすい製造業やFMCGの荷主が、鉄道の恩恵を最も受けやすい。トラックに全面的に頼る運送会社は、複合一貫輸送の中での役割を見つける必要に迫られる。政府自身も、老朽化したトラックの更新のため、労働集約型産業向け融資（KIPK）での資金を用意している。最も重要になりそうなのはデータの準備だ。輸送手段の間を移動するコンテナは、その状況が荷主にリアルタイムで見えて初めてコスト削減につながる。</p>",
+        "actionHtml": "<h3>物流・サプライチェーン責任者へ</h3><ol><li>いまもトラックに全面的に頼っている高コストの路線を再計算し、鉄道や複合一貫輸送の選択肢の実現性を試す。</li><li>特にハラール保証が必要な製品について、コンテナの追跡方法と荷扱いの記録の保管方法を事業者に説明させる。</li><li>1カ月のデータで結論を出さず、契約を変える前に11〜12月の輸送量を比べる。</li></ol><h3>CIO・業務担当取締役へ</h3><ol><li>輸送管理・倉庫管理のシステムが、複数の輸送手段と事業者から状況データを受け取れることを確認する。</li><li>通関や許認可のデータ連携を二重に作らないよう、大統領令第41号の施行規則とNLEの動向を追う。</li></ol><h3>物流テクノロジーのベンダーへ</h3><p>機会は、輸送手段をまたぐ可視化、コンテナの追跡、監査可能なハラール対応の記録にある。一般的な主張ではなく、実際の路線での成果を示すべきだ。</p>",
+        "faqHtml": "<h3>KAI Logistikは2026年にハラール対応コンテナをどれだけ鉄道で運んだか</h3><p>JPNNが引用したKAI Logistikによると、2026年10月までに16万4142トンで、第1四半期3万7710トン、第2四半期4万9842トン、第3四半期5万9418トン、10月1万7172トンだった。</p><h3>大統領令第41号は物流コストについて何を目標にしているか</h3><p>政府は物流コストをGDP比約14.29%から12.5%へ、最終的に8%へ引き下げることを目指している。本紙が確認した報道では明確な期限は示されていない。戦略はインフラ、統合とデジタル化、労働者と物流事業者の競争力を対象とする。</p><h3>輸送量の増加は大統領令第41号の効果か</h3><p>そう述べている情報源はない。大統領令の制定は2026年7月で、輸送量の増加は第1四半期から見えていたため、関係は確認できない。</p>",
+        "dataFigure": "16.4万t",
+        "dataLabel": "KAI Logistikが鉄道で輸送したハラール対応コンテナ貨物（2026年1〜10月）",
+        "dataSource": "KAI Logistik、JPNN引用、2026年11月17日",
+        "seoTitle": "KAI Logistik、ハラール貨物の鉄道輸送16万トン超",
+        "seoDescription": "KAI Logistikの鉄道によるハラール対応コンテナ輸送は2026年1〜10月に16万4142トン。物流大統領令第41号との関係と荷主の対応を解説。",
+        "audience": [
+          "物流責任者",
+          "業務担当取締役",
+          "CIO",
+          "物流テクノロジーベンダー"
+        ],
+        "chart": {
+          "bars": [
+            {
+              "label": "第1四半期",
+              "value": 37710,
+              "display": "3.77万"
+            },
+            {
+              "label": "第2四半期",
+              "value": 49842,
+              "display": "4.98万"
+            },
+            {
+              "label": "第3四半期",
+              "value": 59418,
+              "display": "5.94万"
+            }
+          ]
+        },
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kai-logistik-kargo-halal-kereta-164-ribu-ton-perpres-logistik-ja.png"
+      }
     },
     {
       "slug": "bank-danai-pindar-rp7158-triliun-twp90-536-persen-september-2026",
@@ -814,7 +1045,46 @@
         "faqHtml": "<h3>What is the safe limit for P2P lending TWP90 according to OJK?</h3><p>According to Kontan, the safe threshold used is 5%. In September 2026 the industry figure reached 5.36%, up from 4.73% in August.</p><h3>What share of online lending funding comes from banks?</h3><p>As of September 2026, bank lenders contributed Rp71.58 trillion, or 67.22% of total industry funding, according to OJK data cited by Kontan.</p>",
         "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bank-danai-pindar-rp7158-triliun-twp90-536-persen-september-2026-en.png"
       },
-      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bank-danai-pindar-rp7158-triliun-twp90-536-persen-september-2026.png"
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bank-danai-pindar-rp7158-triliun-twp90-536-persen-september-2026.png",
+      "ja": {
+        "title": "P2P融資の資金67.22%（Rp71兆5800億）を銀行が供給、延滞率TWP90は5.36%で安全ライン5%超え",
+        "dek": "インドネシア金融庁（OJK）の2026年9月時点のデータで、P2P融資（オンライン貸付）の資金の67.22%、約Rp71兆5800億を銀行が供給していることが分かった。同時に、業界全体の延滞債権の指標TWP90は5.36%に上昇し、OJKの安全ラインである5%を上回った。",
+        "summaryHtml": "<ul><li>Kontan（2026年11月16日）によると、2026年9月時点でP2P融資に対する銀行の貸し手の資金はRp71兆5800億に達し、業界の資金総額の67.22%を占めた。OJKによると、銀行の資金は通常、事業者との提携スキームを通じて供給される。</li><li>Kontan（2026年11月5日）は、業界のTWP90が8月の4.73%から9月に5.36%へ上昇し、OJKの安全ラインである5%を上回ったと報じた。融資残高はRp106兆4800億で、前年比17.02%増えた。</li><li>金融機関の監督を担うOJKのAgusman氏は、適切なリスク管理を確保するため銀行のエクスポージャーを監視していると述べた。ガバナンス、リスク管理、消費者保護を重視しつつ、銀行が引き続き主要な資金源であることを期待するとした。</li><li>OJKは、5.75%で据え置かれている政策金利（BI Rate）が銀行の資金調達コストに影響し得るとし、銀行からP2P融資への資金供給への影響を注視しているとした。</li><li>CeliosのNailul Huda氏は、家計の返済能力が低下し、プラットフォームの拡大が与信審査の質を上回っていると指摘する。同氏によれば、TWP90は2026年初めから上昇しているが、融資実行額の伸びはなお20%を超えている。</li></ul>",
+        "analysisHtml": "<h3>P2P融資のリスクは、いまや銀行のリスクでもある</h3><p>資金の3分の2を銀行が出している以上、P2P融資の信用の質は、もはやプラットフォームや個人の貸し手だけの問題ではない。ただし、本紙が確認した報道は、銀行と事業者の提携スキームで信用損失を誰が負担するのか、銀行なのかプラットフォームなのかを説明していない。それがなければ、銀行の実際のエクスポージャーを判断するのは難しい。OJKの次の報告で注目すべき重要な情報だ。</p><h3>5.36%は業界平均</h3><p>業界全体のTWP90は、プラットフォーム間の差を覆い隠す。報道は9月に5%を超えたプラットフォームの数を示していないため、特定のプラットフォームについて結論は出せない。意思決定者にとって重要なのは傾向だ。わずか1カ月で4.73%から5.36%へ、規制当局自らが定めた水準を超えた。</p><h3>相反する2つのシグナル</h3><p>融資残高は前年比17.02%増えたが、その質は悪化した。Celiosのアナリストはこれを、購買力の弱さと、拡大のペースに遅れる与信審査に結び付け、購買力の圧迫が続けばTWP90の引き下げは難しくなりかねないと警告する。これは1人のアナリストの見方であり、OJKの数字ではない。また、政策金利が5.75%で据え置かれていることは、銀行の資金調達コストが下がっていないことを意味する。それが銀行のP2P融資への資金供給の意欲を変えるかどうかは、注視されている段階で、まだ裏付けられていない。</p><h3>報道が語っていないこと</h3><p>銀行側の不良債権比率、資金が少数の銀行にどれだけ集中しているか、TWP90が上がり続けた場合にOJKが何をするかについてのデータはない。執筆時点で、OJKは監視するとしか述べていない。</p>",
+        "actionHtml": "<h3>資金を供給する銀行のCFO・リスク管理責任者へ</h3><ol><li>事業者との提携スキームで、信用損失を誰が負担するかを明確にし、プラットフォームごとのエクスポージャー上限を設ける。</li><li>業界平均だけでなくプラットフォームごとの信用の質のデータを求め、あるプラットフォームのTWP90が5%を超えた場合の見直しの基準を定める。</li><li>購買力の圧迫が続き、資金調達コストが高止まりするシナリオでストレステストを行う。</li></ol><h3>オンライン融資プラットフォームと提携する企業のCFOへ</h3><p>消費者、取引先、従業員向けの融資にP2P融資を使っている場合は、プラットフォームが審査を厳しくしたときに備え、サービス継続とデータ保護の条項を見直す。</p><h3>P2P事業者・与信スコアリングのベンダーへ</h3><p>与信審査の改善が中心的な課題だ。銀行の資金供給への監視が強まるなか、代替データと延滞の早期監視が差別化の要素になるとみられる。</p>",
+        "faqHtml": "<h3>OJKが定めるP2P融資のTWP90の安全ラインは</h3><p>Kontanによると、使われている安全ラインは5%である。2026年9月の業界の数字は5.36%で、8月の4.73%から上昇した。</p><h3>オンライン融資の資金のうち、銀行が出している割合は</h3><p>Kontanが引用したOJKのデータによると、2026年9月時点で銀行の貸し手はRp71兆5800億を供給し、業界の資金総額の67.22%を占めた。</p>",
+        "dataFigure": "67.22%",
+        "dataLabel": "P2P融資の資金に占める銀行の貸し手の比率（2026年9月）",
+        "dataSource": "OJK、Kontan経由、2026年11月16日",
+        "seoTitle": "インドネシアのP2P融資、銀行資金67%・延滞率5.36%",
+        "seoDescription": "インドネシアのP2P融資の資金の67.22%を銀行が供給する一方、延滞率TWP90は5.36%と安全ライン5%を超過。銀行と提携企業が確認すべき点を解説。",
+        "audience": [
+          "CFO",
+          "リスク管理責任者",
+          "銀行",
+          "フィンテック事業者"
+        ],
+        "chart": {
+          "bars": [
+            {
+              "label": "2026年8月",
+              "value": 4.73,
+              "display": "4.73%"
+            },
+            {
+              "label": "安全ライン",
+              "value": 5,
+              "display": "5%"
+            },
+            {
+              "label": "2026年9月",
+              "value": 5.36,
+              "display": "5.36%"
+            }
+          ]
+        },
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bank-danai-pindar-rp7158-triliun-twp90-536-persen-september-2026-ja.png"
+      }
     },
     {
       "slug": "ojk-aplikasi-anti-scam-iasc-rp91-triliun-kerugian-dana-kembali",
@@ -920,7 +1190,46 @@
         "faqHtml": "<h3>Can the OJK anti-scam app be downloaded yet?</h3><p>Not yet. The 16 November 2026 report says the app is still in a sandbox and no launch date has been announced.</p><h3>What will the app be able to check?</h3><p>Whether a phone number is legitimate, whether a link is genuine, whether a video or audio is real or an AI deepfake, and whether the destination account is safe.</p>",
         "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/ojk-aplikasi-anti-scam-iasc-rp91-triliun-kerugian-dana-kembali-en.png"
       },
-      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/ojk-aplikasi-anti-scam-iasc-rp91-triliun-kerugian-dana-kembali.png"
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/ojk-aplikasi-anti-scam-iasc-rp91-triliun-kerugian-dana-kembali.png",
+      "ja": {
+        "title": "インドネシア金融庁が詐欺対策アプリを準備　被害報告Rp9兆1000億、返還はRp2089億のみ",
+        "dek": "インドネシア金融庁（OJK）は、まだサンドボックス段階にある統合型の詐欺対策アプリを準備している。インドネシア詐欺対策センター（IASC）のデータでは、報告された被害額はRp9兆1000億を超える一方、被害者に返還された資金はRp2089億にとどまる。",
+        "summaryHtml": "<ul><li>Kabarbisnis（2026年11月16日）によると、OJKは統合型の詐欺対策アプリを準備している。事業者行動の監督・教育・消費者保護を担うOJKのチーフエグゼクティブ、Dicky Kartikoyono氏が、ジャカルタで開かれたGEBER PK 2027で明らかにした。</li><li>アプリは4つの問いに答えるよう設計されている。電話番号は正規のものか、リンクは本物か、動画や音声は本物かAIによるディープフェイクか、振込先の口座は安全か、犯罪に使われたと報告されていないか。まだサンドボックス段階で、ADB、世界銀行、ゲイツ財団の資金支援を受けている。</li><li>第1段階ではブラックリストとホワイトリストで安全性を判定し、第2段階で違法金融対策タスクフォース（Satgas PASTI）、省庁、通信事業者、金融業界団体とデータを連携する。その後、詐欺のネットワークを分析するAIを加える。</li><li>2024年11月22日から稼働するIASCのデータ（2026年10月28日時点）：報告73万7686件、報告された口座147万1112件、うち凍結74万3589件、凍結した被害者の資金Rp9675億、返還Rp2089億、報告された被害総額はRp9兆1000億超、1日あたり約1000件の報告。</li><li>Katadata（2026年10月3日）によると、Dicky氏はこの構想をQRISのようなものと説明し、資金は銀行間を移動できるため、詐欺の後に対処できる「黄金の時間」は4分未満だと述べた。</li></ul>",
+        "analysisHtml": "<h3>最大の差：凍結した資金と失われた資金</h3><p>OJKの数字を使うと、凍結された被害者の資金（Rp9675億）は報告された被害額（Rp9兆1000億超）の最大でも約10.6%、すでに返還された資金（Rp2089億）は凍結額の約21.6%にとどまる（本紙試算）。期間が累計で被害額が「超」と示されているため大まかな比較だが、方向ははっきりしている。事後の回収で救えるのはごく一部だ。OJKが取引前の予防に重点を移している理由はそこにある。</p><h3>なぜ4分が重要なのか</h3><p>Dicky氏によると、対処できる黄金の時間が4分未満なのは、資金が複数の銀行を経由し、暗号資産や海外にまで移り得るからだ。送金前に番号、リンク、口座を確認できるアプリは、この速度の論理を上流に引き寄せる。10月に説明された範囲は企業と口座の正当性の確認だけだったが、11月にはディープフェイクの確認が加わり、範囲が広がっていることが分かる。</p><h3>価値はデータの質で決まる</h3><p>OJKは業界などにデータの提供を求め、8つの省庁・機関を1つの基盤にまとめたマレーシアの例を挙げている。報道が答えていない問いもある。ブラックリストとホワイトリストを誰が更新するのか、誤った判定をどう扱うのか、アプリはいつ公開されるのか。いずれの報道も公開日を示していない。ブラックリストは、詐欺師が使う新しい口座が素早く登録されて初めて効果を持つ点にも注意が必要だ。</p><h3>企業への影響</h3><p>銀行、フィンテック、EC企業、通信事業者が、データの主な提供者であり利用者になるとみられる。それ以外の企業にとっても、詐欺師がよくかたる社名やブランドは顧客対応の負担になり得る。公式の照会システムとの連携はその負担を減らし得るが、技術的な詳細は発表されていない。</p>",
+        "actionHtml": "<h3>銀行・フィンテック・EC企業のCISO、リスク・不正対策責任者へ</h3><ol><li>提供できるデータ（過去に報告された番号、リンク、口座）を洗い出し、個人データ保護の規則に沿った共有手順を定める。</li><li>4分という目安を踏まえ、不審な取引を数時間ではなく数分で凍結またはフラグ付けできるかを試す。</li><li>サンドボックスの動きを追い、OJKが第2段階を始めたときに備えてAPI連携の準備を進める。</li></ol><h3>顧客サービス・広報の責任者へ</h3><p>本物の連絡と偽物を顧客が見分けられるよう、「振り込む前に確認を」というメッセージと公式窓口の一覧を準備する。</p><h3>セキュリティ・不正対策のベンダーへ</h3><p>最も開かれた機会は、ディープフェイク検知と口座のネットワーク分析にありそうだ。製品を設計する前に、公式の仕様を待つべきだ。</p>",
+        "faqHtml": "<h3>OJKの詐欺対策アプリはもうダウンロードできるか</h3><p>まだできない。2026年11月16日の報道によると、アプリはまだサンドボックス段階で、公開日は発表されていない。</p><h3>アプリでは何を確認できるのか</h3><p>電話番号が正規のものか、リンクが本物か、動画や音声が本物かAIによるディープフェイクか、振込先の口座が安全かを確認できる予定だ。</p>",
+        "dataFigure": "Rp9.1兆+",
+        "dataLabel": "2024年11月22日以降にIASCに報告された詐欺の被害総額",
+        "dataSource": "OJK/IASC、2026年10月28日時点のデータ、Kabarbisnis経由（2026年11月16日）",
+        "seoTitle": "インドネシア金融庁が詐欺対策アプリを準備",
+        "seoDescription": "インドネシア金融庁（OJK）が詐欺対策アプリを準備。被害報告Rp9兆1000億に対し返還はRp2089億のみ。銀行やEC企業が備えるべき点を解説。",
+        "audience": [
+          "CISO",
+          "リスク・不正対策責任者",
+          "銀行・フィンテック",
+          "セキュリティベンダー"
+        ],
+        "chart": {
+          "bars": [
+            {
+              "label": "被害額",
+              "value": 9100,
+              "display": "9.1兆+"
+            },
+            {
+              "label": "凍結",
+              "value": 967.5,
+              "display": "9675億"
+            },
+            {
+              "label": "返還",
+              "value": 208.9,
+              "display": "2089億"
+            }
+          ]
+        },
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/ojk-aplikasi-anti-scam-iasc-rp91-triliun-kerugian-dana-kembali-ja.png"
+      }
     },
     {
       "slug": "pgeo-lintasarta-mou-panas-bumi-ai-berdaulat-pusat-data",
@@ -987,7 +1296,26 @@
         "faqHtml": "<h3>Does the PGEO&ndash;Lintasarta MoU mean a geothermal-powered data center has been built?</h3><p>No. Katadata only reports a memorandum of understanding to develop and use AI technology. No capacity, investment or timeline has been announced.</p><h3>Why do AI data centers need stable electricity?</h3><p>According to PGE's President Director, data centers and AI factories need reliable, 24-hour, clean power, so he says intermittent sources struggle to meet that need.</p>",
         "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pgeo-lintasarta-mou-panas-bumi-ai-berdaulat-pusat-data-en.png"
       },
-      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pgeo-lintasarta-mou-panas-bumi-ai-berdaulat-pusat-data.png"
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pgeo-lintasarta-mou-panas-bumi-ai-berdaulat-pusat-data.png",
+      "ja": {
+        "title": "PGEOとLintasartaがソブリンAIで提携　地熱がデータセンターのサプライチェーンに",
+        "dek": "Pertamina Geothermal Energyは、Indosat子会社のLintasartaと、安全で持続可能なAI技術の開発に関する覚書を結んだ。容量や投資額は示されていないが、電力供給がデータセンター選びの変数になりつつあることを示す動きだ。",
+        "summaryHtml": "<ul><li>Katadata（2026年11月16日）によると、PT Pertamina Geothermal Energy Tbk（PGEO）は、PT Indosat Tbk（ISAT）の子会社PT Aplikanusa Lintasartaと、「ソブリン・デジタル化支援」をテーマとする覚書を結んだ。</li><li>両社は、安全で革新的かつ持続可能なAI技術の開発と活用を計画している。PGEOはクリーンな地熱エネルギーを、Lintasartaは技術とデジタル事業を持ち寄る。</li><li>PGEOは、インドネシア・データセンター事業者協会（IDPRO）やインドネシア大学工学部とも、データセンター向け地熱電力の技術的・商業的な基盤づくりで協力を探っている。</li><li>報道には、容量、投資額、スケジュール、AIの売上目標は示されていない。</li><li>IDX Channelは2026年9月8日、PGEが地熱はデータセンターにベースロード電力を供給する準備ができているとし、西ジャワ州カモジャンでのグリーンデータセンターの試行を検討していると報じた。通信デジタル省とインドネシア・インターネット・サービス・プロバイダー協会（APJII）を引用し、インドネシアのデータセンター施設は185、インターネット利用者は2億3526万人とした。</li></ul>",
+        "analysisHtml": "<h3>発表されたのはプロジェクトではなく意向</h3><p>覚書は供給契約ではない。Katadataの報道には、立地、メガワット単位の容量、価格、顧客のいずれも示されていない。カモジャンでの試行も、9月の報道では検討段階だった。容量を計画する読者は、これを利用可能な容量ではなく、方向性の合図として扱うべきだ。</p><h3>なぜ電力がデータセンターの判断に入ってくるのか</h3><p>PGEのAhmad Yani社長は、データセンターやAIファクトリーには安定的で24時間使え、クリーンな電力が必要で、出力が変動する再生可能エネルギーではそれが難しいと主張する。利害関係者の見方ではあるが、その論理は買い手にとって重要だ。AIの処理は止まらずに動き続けるため、電力の信頼性と出自は、サービスのリスク、場合によっては長期的なコストにますます影響する。</p><p>PGE自身は、政策面の4つの前提条件を挙げている。競争力があり予測可能な電力料金、税制優遇とグリーンファイナンス、地熱の作業区域と国家電力供給計画（RUPTL）・送電網との整合、国家データセンター構想との整合だ。このモデルは保証されていない規制上の判断に左右されるため、注視が必要だ。</p><h3>誰が得をし、何が説明されていないのか</h3><p>LintasartaとIndosatにとって、この提携は、すでに構築している通信、クラウド、AIインフラ、AIアプリケーションの事業に、エネルギーのパートナーを加えるものだ。両社はGoToとも「GPU Merdeka」や「Sahabat-AI」のプロジェクトを進めている。Mirae Asset SekuritasのアナリストNafan Aji Gusta氏は、ISATにとってAIの収益化は大規模言語モデルの直接販売である必要はなく、GPU as a Service、クラウド、ストレージ、サイバーセキュリティ、企業向けAIソリューション、通信といった機会を通じても可能だとみる。一方、覚書の名称にある「ソブリン」という言葉は、本紙が確認した報道では定義されていない。データの所在地、所有、運用の管理のどれを意味するのかははっきりしない。</p><h3>報道が語っていないこと</h3><p>最初の容量がいつ稼働するのか、電力やサービスの料金はいくらか、最初の顧客は誰か、特定の地域にしかない地熱の拠点にデータセンターをどう接続するのかについての情報はない。これらの答えがない以上、買い手への影響が表れるのは、覚書が契約になってからだ。</p>",
+        "actionHtml": "<h3>CIO・インフラ責任者へ</h3><ol><li>特に常時稼働するAIの処理について、データセンターやクラウド事業者の選定基準に、電力源と供給の信頼性に関する質問を加える。</li><li>容量、スケジュール、価格について書面での約束を事業者に求める。覚書を利用可能なサービスと同一視しない。</li><li>事業者の主張を評価する前に、データ主権が自社にとって何を意味するか（所在地、暗号鍵の管理、管轄）を社内で定義する。</li></ol><h3>データセンター事業者・インフラベンダーへ</h3><p>エネルギー源、効率、供給計画について検証可能なデータを準備しておく。企業の買い手は、それをより頻繁に求めるようになるとみられる。</p>",
+        "faqHtml": "<h3>PGEOとLintasartaの覚書は、地熱で動くデータセンターが建設されたことを意味するのか</h3><p>意味しない。Katadataが報じたのは、AI技術の開発と活用に関する覚書だけである。容量、投資額、スケジュールは発表されていない。</p><h3>AIデータセンターにはなぜ安定した電力が必要なのか</h3><p>PGEの社長によれば、データセンターやAIファクトリーには信頼性が高く24時間使えるクリーンな電力が必要で、出力が変動する電源ではそれを満たすのが難しいという。</p>",
+        "dataFigure": "185",
+        "dataLabel": "インドネシアのデータセンター施設数（地熱による電力供給の構想が浮上）",
+        "dataSource": "IDX Channel、2026年9月8日（通信デジタル省・APJIIを引用）",
+        "seoTitle": "PGEOとLintasartaがソブリンAIで提携、地熱電力",
+        "seoDescription": "Pertamina Geothermal EnergyとIndosat子会社LintasartaがAIで覚書。地熱電力がデータセンター選びに与える影響と、CIOが確認すべき点を解説。",
+        "audience": [
+          "CIO",
+          "インフラ責任者",
+          "データセンターベンダー"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pgeo-lintasarta-mou-panas-bumi-ai-berdaulat-pusat-data-ja.png"
+      }
     },
     {
       "slug": "digital-2027-indonesia-riset-merek-lewat-ai-ad-blocker-cmo",
@@ -1102,7 +1430,51 @@
         ],
         "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/digital-2027-indonesia-riset-merek-lewat-ai-ad-blocker-cmo-en.png"
       },
-      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/digital-2027-indonesia-riset-merek-lewat-ai-ad-blocker-cmo.png"
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/digital-2027-indonesia-riset-merek-lewat-ai-ad-blocker-cmo.png",
+      "ja": {
+        "title": "インドネシアのネット利用者の28.2%がAIでブランドを調査、39.4%が広告ブロック　CMOに何が変わるか",
+        "dek": "We Are SocialとMeltwaterの報告書『Digital 2027: Indonesia』は、AIがブランド調査の入り口になる一方、広告はますますブロックされ、自分に関係があると感じられにくくなっていることを示した。企業のマーケティング予算と戦略への意味を解説する。",
+        "summaryHtml": "<ul><li>報告書『Digital 2027: Indonesia』は、We Are SocialがMeltwaterと共同で2026年11月5日に公表した。インドネシアのインターネット利用者は2億3100万人で、人口の80.2%に当たる。（Marketing.co.id）</li><li>インターネット利用者の28.2%が、ブランド調査の主な情報源としてAIを使っている。ブランド調査で最も使われるのはSNSで、60%が利用する。利用者の3分の2超が、購入前にオンラインでブランドや製品を調べている。（Tek.id、Marketing.co.id）</li><li>インターネット利用者の39.4%が広告ブロッカーを使っており、報告書の対象国で最も高い。目にする広告に自分が反映されていると感じる人は13.2%にとどまる。（Marketing.co.id）</li><li>16歳以上のインターネット利用者の94.9%が過去1カ月にAIツールを使ったが、使うことに安心感を持っているのは28.3%だけだ。WhatsAppは利用者の92.7%が使い、1日平均の利用時間は1時間55分である。（Tek.id）</li><li>We Are Social IndonesiaのYudhi Hastiardi氏は、ブランド間の競争が信頼と推薦をめぐる争いに移りつつあると述べた。（Marketing.co.id）</li></ul>",
+        "analysisHtml": "<h3>AIが新たな門番になる</h3><p>ブランドは長年、検索結果とSNSのフィードで競ってきた。インターネット利用者の4分の1超がAIをブランド調査の主な情報源とするなら、同じやり方では買えない第3のチャネルが生まれる。AIアシスタントの回答は、ウェブ上の情報、レビュー、第三者の報道によって形作られる。このため、製品仕様、価格、顧客レビューといった明確で一貫し、引用しやすいコンテンツが、AIの回答にブランドが現れるかどうかを左右する度合いは高まるとみられる。</p><h3>有料広告は2つの壁に同時に直面する</h3><p>広告ブロッカーの利用率39.4%と、広告に自分が反映されていると感じる人が13.2%しかいないという組み合わせは、同じ成果を得るための有料リーチが高くつくようになっていることを示す。デジタル広告が効かないという意味ではないが、クリエイター、コミュニティ、レビューへの予算配分は見直す必要がありそうだ。60%がSNSでブランドを調べるという結果も、ブランド自身のメッセージより他者の推薦の役割を裏付けている。</p><h3>AIの信頼をめぐるパラドックス</h3><p>ほぼすべての利用者がすでにAIを使っているが、安心して使えると感じているのは3分の1未満だ。マーケターにとっては警告である。透明性を欠いたままAIをコンテンツ、チャットボット、パーソナライズに使えば、信頼を損ないかねない。顧客との接点でAIを使う場合は、明確な開示と人間につながる経路を用意すべきだ。</p><h3>報告書が測っていないこと</h3><p>報告書が測っているのはインターネット利用者の行動と認識であり、販売への転換ではない。AIを使った調査がどれだけ購入につながるのか、どの製品カテゴリーが最も影響を受けるのかは示されていない。「主な情報源」の定義も慎重に読む必要がある。企業はこれらの数字を方向性として使い、自社の販売データやアトリビューションのデータで検証すべきだ。</p>",
+        "actionHtml": "<h3>CMO・デジタルマーケティング責任者へ</h3><ol><li>主要なAIアシスタントが自社ブランドや製品カテゴリーについての質問にどう答えるかを試し、誤っている、あるいは欠けている公開情報を直す。</li><li>自社のアトリビューションのデータに基づき、有料広告、クリエイター、顧客レビュー施策の予算配分を見直す。</li><li>広告データに表れない広告ブロッカー利用者を考慮して、キャンペーンの成果を測る。</li></ol><h3>CX責任者へ</h3><ol><li>到達率と利用時間を踏まえ、WhatsAppをサービスと販売の会話チャネルとして優先する。</li><li>AIチャットボットであることを明示し、人間の担当者に素早くつながる経路を用意する。</li></ol><h3>マーテックベンダーへ</h3><p>AIの回答におけるブランドの露出の監視、レビュー管理、広告のクッキーに依存しないクロスチャネルのアトリビューションの需要が伸びるとみられる。</p>",
+        "faqHtml": "<h3>インドネシアのネット利用者のうち、AIでブランドを調べる人はどれくらいか</h3><p>We Are SocialとMeltwaterの『Digital 2027: Indonesia』によると、インターネット利用者の28.2%が、ブランド調査の主な情報源としてAIを使っている。</p><h3>インドネシアで広告ブロッカーを使う人はどれくらいか</h3><p>39.4%で、報告書が比較した国の中で最も高い。</p><h3>『Digital 2027』によると、インドネシアのインターネット利用者は何人か</h3><p>2億3100万人で、人口の80.2%に当たる。</p>",
+        "dataFigure": "28.2%",
+        "dataLabel": "ブランド調査の主な情報源としてAIを使うインドネシアのネット利用者の割合",
+        "dataSource": "Digital 2027: Indonesia、We Are Social・Meltwater、2026年11月",
+        "seoTitle": "インドネシア、ネット利用者の28.2%がAIでブランド調査",
+        "seoDescription": "Digital 2027によると、インドネシアのネット利用者の28.2%がAIでブランドを調べ、39.4%が広告をブロック。CMOとCX責任者が見直すべき点を解説。",
+        "audience": [
+          "CMO",
+          "デジタルマーケティング責任者",
+          "CX責任者",
+          "マーテックベンダー"
+        ],
+        "chart": {
+          "bars": [
+            {
+              "label": "SNSで調査",
+              "value": 60,
+              "display": "60%"
+            },
+            {
+              "label": "広告ブロック",
+              "value": 39.4,
+              "display": "39.4%"
+            },
+            {
+              "label": "広告に共感",
+              "value": 13.2,
+              "display": "13.2%"
+            },
+            {
+              "label": "AIで調査",
+              "value": 28.2,
+              "display": "28.2%"
+            }
+          ]
+        },
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/digital-2027-indonesia-riset-merek-lewat-ai-ad-blocker-cmo-ja.png"
+      }
     },
     {
       "slug": "kemnaker-prioritas-disrupsi-ai-pijak-2027-ibm-dicoding-40000-talenta",
@@ -1207,7 +1579,46 @@
         ],
         "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kemnaker-prioritas-disrupsi-ai-pijak-2027-ibm-dicoding-40000-talenta-en.png"
       },
-      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kemnaker-prioritas-disrupsi-ai-pijak-2027-ibm-dicoding-40000-talenta.png"
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kemnaker-prioritas-disrupsi-ai-pijak-2027-ibm-dicoding-40000-talenta.png",
+      "ja": {
+        "title": "インドネシア労働省がAIの影響に3つの重点策、IBMとDicodingは4万人の研修を目標",
+        "dek": "Yassierli労働相はAIが労働に与える影響に対処する3つの重点策を示し、IBMとDicodingは4万人の参加を目標にAI研修プログラム「Pijak 2027」を始めた。昨年のプログラムのデータからは、本当の課題が研修の機会ではなく、何人が本格的な研修まで進むかにあることが見えてくる。",
+        "summaryHtml": "<ul><li>Yassierli労働相は2026年11月13日（金）、ジャカルタで、AIによる変化に対処する3つの重点プログラムとして、労働者の能力向上、生産性の向上、労働者の保護を示した。企業に職業訓練のカリキュラム設計への協力も求めた。（Disway）</li><li>生産性のプログラムはアジア生産性機構（APO）と組んで実施し、企業の業務プロセス改善の支援も含む。労働省は障害者の研修機会も広げている。（Disway）</li><li>Dicoding IndonesiaとIBMは、IBM SkillsBuildを通じて2026年11月12日、ジャカルタでAI研修の奨学金プログラム「Pijak 2027」を始めた。参加目標は4万人で、職業高校の生徒、職業専門学校の学生、18〜34歳が対象だ。（Tribunnews）</li><li>成績上位の800人は798時間の集中研修を受ける。2026年版では3万9000人超が登録し、2万600人超が実際に学習し、645人が集中研修に選ばれた。（Tribunnews）</li><li>IBMインドネシアのCTO、Wisu Suntoyo氏は、AIを効果的かつ責任をもって使う能力の必要性を強調した。DicodingのCEO、Narenda Wicaksono氏は、AIの能力はいまやテクノロジー職以外の専門職にも必要だと述べた。（Tribunnews）</li></ul>",
+        "analysisHtml": "<h3>研修の漏斗は急激に細くなる</h3><p>Pijak 2026の数字は、大規模なデジタル研修によくあるパターンを示している。3万9000人超の登録者のうち、実際に学んだのは約半数で、集中研修に進んだのは645人だけだった。2027年の目標も、4万人の参加者に対し集中研修の枠は800と、似た構造だ。したがってこのプログラムは、すぐ働けるAI人材を数万人生み出すものではなく、大規模なAIリテラシー教育と狭い人材育成コースの組み合わせと読むほうがよい。こうしたプログラムの修了生をそのまま採用したいと考える企業は、期待値を調整すべきだ。</p><h3>政府は企業にカリキュラム設計への協力を求めている</h3><p>人事責任者にとって労働省の最も重要なメッセージは、企業にカリキュラム設計と現場での実習への参加を求めたことだ。AIスキルのギャップは、政府や研修事業者だけに任せられない。積極的に関わる企業は自社のニーズに合った人材の供給を形作れるが、受け身の企業は同じ人材をより高いコストで奪い合うことになるだろう。</p><h3>説明されていないこと</h3><p>いずれの報道にも成果のデータがない。修了生のうち何人が就職したのか、どの職種なのか、何社が採用したのかは分からない。労働省も、3つの重点策の予算、数値目標、スケジュールを詳しく示していない。就職率のような成功の指標がなければ、これらのプログラムが実際に変化のリスクを減らしているのか、講座への機会を広げているだけなのかを判断するのは難しい。</p><h3>採用からリスキリングへの転換</h3><p>テクノロジー職以外の専門職にもAIの能力が必要だというDicodingの指摘は、企業が注目すべき変化と一致する。最大のニーズは、AIエンジニアを増やすことではなく、財務、マーケティング、顧客サービス、業務部門の従業員が日常業務でAIを安全に使えるようリスキリングすることになりそうだ。HRテックの提供企業にとっては、業績データと連動した社内学習基盤の需要が生まれる。</p>",
+        "actionHtml": "<h3>人事責任者・CPO（最高人事責任者）へ</h3><ol><li>AIの影響を最も受ける職種を洗い出し、全員に同じAI講座ではなく、職種ごとのリスキリングの道筋を作る。</li><li>研修の成果は、講座の修了者数だけでなく、生産性や仕事の質の変化で測る。</li><li>労働省の呼びかけに沿い、職業学校、ポリテクニック、政府の研修プログラムとのカリキュラム連携を探る。</li><li>研修の後に安全な実践が続くよう、社内のAI利用ルールを定める。</li></ol><h3>CIOへ</h3><p>研修を受けた従業員が管理外のツールに流れないよう、会社が承認したAI環境を用意する。</p><h3>HRテック・研修事業者へ</h3><p>業績データと連動した学習成果の測定を提供する。大規模研修で最も大きく欠けているのがこの部分だからだ。</p>",
+        "faqHtml": "<h3>AIの影響に対する労働省の3つの重点策とは</h3><p>労働者の能力向上、生産性の向上、労働者の保護である。Yassierli労働相が2026年11月13日に示した。</p><h3>AI奨学金プログラム「Pijak 2027」には誰が参加できるか</h3><p>職業高校の生徒、職業専門学校の学生、18〜34歳の人で、新卒者、求職者、若手社会人、専門職、転職希望者を含む。</p>",
+        "dataFigure": "645人",
+        "dataLabel": "Pijak 2026で集中研修に進んだ参加者（登録者3万9000人超のうち）",
+        "dataSource": "Tribunnews、2026年11月13日",
+        "seoTitle": "インドネシア労働省のAI対策とIBM・Dicoding研修",
+        "seoDescription": "インドネシア労働省がAIの影響に3つの重点策を示し、IBMとDicodingは4万人のAI研修を開始。人事責任者が押さえるべきリスキリングの要点を解説。",
+        "audience": [
+          "人事責任者",
+          "CPO",
+          "CIO",
+          "HRテック事業者"
+        ],
+        "chart": {
+          "bars": [
+            {
+              "label": "登録",
+              "value": 39000,
+              "display": "3.9万+"
+            },
+            {
+              "label": "学習",
+              "value": 20600,
+              "display": "2.06万+"
+            },
+            {
+              "label": "集中研修",
+              "value": 645,
+              "display": "645"
+            }
+          ]
+        },
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kemnaker-prioritas-disrupsi-ai-pijak-2027-ibm-dicoding-40000-talenta-ja.png"
+      }
     },
     {
       "slug": "empat-bank-sentral-asean-mou-transaksi-mata-uang-lokal-lct",
@@ -1308,7 +1719,41 @@
         ],
         "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/empat-bank-sentral-asean-mou-transaksi-mata-uang-lokal-lct-en.png"
       },
-      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/empat-bank-sentral-asean-mou-transaksi-mata-uang-lokal-lct.png"
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/empat-bank-sentral-asean-mou-transaksi-mata-uang-lokal-lct.png",
+      "ja": {
+        "title": "インドネシア・マレーシア・タイ・フィリピンの中銀が現地通貨決済で覚書　ルピアとペソの直接決済へ",
+        "dek": "インドネシア銀行、マレーシア中央銀行、タイ中央銀行、フィリピン中央銀行は2026年11月13日、現地通貨決済（LCT）に関する新たな覚書に署名した。フィリピン、マレーシア、タイと取引する企業のCFOにとって、米ドルを介した二重の両替なしに決済する選択肢が開ける。",
+        "summaryHtml": "<ul><li>2026年11月13日、インドネシア銀行（BI）のDestry Damayanti総裁、マレーシア中央銀行（BNM）のAbdul Rasheed Ghaffour総裁、タイ中央銀行（BOT）のVitai Ratanakorn総裁、フィリピン中央銀行（BSP）のEli M. Remolona Jr.総裁が、現地通貨決済の枠組みでの協力に関する覚書に署名した。（Bank Indonesia）</li><li>覚書は、貿易や投資を含む2国間の越境取引で現地通貨の利用を促すための、4中銀の枠組みを定める。BI、BNM、BOTが2023年8月に結んだ合意に代わるものだ。（Bank Indonesia、Bernama）</li><li>目的として、越境決済の効率化、複数回の通貨両替に伴うコストの削減、企業の為替リスク管理の柔軟性向上が挙げられた。（Bank Indonesia、Bernama）</li><li>同じ日、BIとBSPは、決済システム、デジタル金融イノベーション、サイバーセキュリティ、イスラム金融、マネーロンダリング対策を含む、より幅広い2国間の覚書にも署名した。Remolona総裁は、不確実性が高まるなかでこの協力は極めて重要だと述べた。（CNBC Indonesia）</li><li>公式発表には、LCTの取引量のデータや実施スケジュールは含まれていない。（Bank Indonesia）</li></ul>",
+        "analysisHtml": "<h3>3カ国から4カ国へ：フィリピンが最新の回廊</h3><p>インドネシア、マレーシア、タイのLCTの枠組みは、2023年の合意以来動いている。今回の覚書で新しいのは、フィリピンが加わり、協力が1つの4者の枠組みにまとめられたことだ。インドネシア企業にとって注目すべきはルピアとペソの回廊である。フィリピンの取引先との取引は、これまでこのLCTの枠組みの対象外だったからだ。同時に署名された、決済システムやサイバーセキュリティを含むBIとBSPの2国間協力は、両国間の決済連携が次の段階になる可能性が高いことを示唆している。</p><h3>実際の恩恵は銀行と流動性次第</h3><p>中央銀行の覚書は枠組みにすぎない。企業が恩恵を受けるのは、市中銀行がルピアとペソの競争力ある直接の相場、十分な流動性、ヘッジ商品を提供したときだ。公式発表には取引量、実施銀行、スケジュールへの言及がないため、フィリピンの回廊で枠組みがどれだけ早く銀行の商品になるかを見守る価値がある。普及は段階的になる可能性が高い。</p><h3>より大きな課題の一部</h3><p>署名は、ASEANがデジタル経済協定DEFAに署名する前日に行われた。DEFAも越境決済システムを対象にしている。両者が目指すのは、米ドルへの依存を減らし、ASEAN域内の取引を安くするという同じ目標だ。企業の財務部門にとっては、地域の多通貨の資金管理が、大企業だけの関心事ではなく必要事項になることを意味する。</p><h3>最も恩恵を受けるのは誰か</h3><p>マレーシア、タイ、フィリピンと定期的に取引する中堅の輸出入企業が最も恩恵を受ける。複数回の両替のコストが利益率に重くのしかかっているからだ。越境決済の事業者や財務管理ソフトウェアにも余地が広がる。一方、契約をすべて米ドル建てにしている企業は、その構造がなお最も効率的かを見直すべきだ。</p>",
+        "actionHtml": "<h3>CFO・財務担当者へ</h3><ol><li>使っている通貨と現在の両替コストを含め、マレーシア、タイ、フィリピンの取引先との取引を洗い出す。</li><li>取引銀行に、リンギ、バーツ、ペソでの直接決済を、相場やヘッジ商品とともに提供しているか確認する。</li><li>コストが下がるなら、新しい契約に現地通貨建ての条項を入れることを検討する。</li><li>ERPと会計システムが、地域の多通貨取引を記帳し照合できることを確認する。</li></ol><h3>フィンテック・決済事業者へ</h3><p>ルピアとペソの回廊向けの決済・資金管理の商品を準備し、BIとBSPの決済システム協力の動きを追う。</p>",
+        "faqHtml": "<h3>現地通貨決済（LCT）とは何か</h3><p>LCTは、越境取引を米ドルを介さず、ルピアとペソのように2国の通貨で直接決済するよう促す枠組みである。</p><h3>4中銀の覚書とBI・BSPの覚書はどう違うのか</h3><p>4者の覚書は、インドネシア、マレーシア、タイ、フィリピンのLCTの枠組みだけを対象とする。BI・BSPの覚書は2国間でより幅広く、決済システム、サイバーセキュリティ、イスラム金融などを含む。</p>",
+        "dataFigure": "4中銀",
+        "dataLabel": "フィリピンの参加後、新たな現地通貨決済（LCT）の枠組みに加わるASEANの中央銀行",
+        "dataSource": "インドネシア銀行、2026年11月13日",
+        "seoTitle": "ASEAN4中銀が現地通貨決済で覚書、ペソも対象に",
+        "seoDescription": "インドネシア、マレーシア、タイ、フィリピンの中銀が現地通貨決済（LCT）の覚書に署名。ルピアとペソの直接決済が企業の財務に与える影響を解説。",
+        "audience": [
+          "CFO",
+          "財務担当者",
+          "輸出入企業",
+          "決済フィンテック"
+        ],
+        "chart": {
+          "bars": [
+            {
+              "label": "2023年覚書",
+              "value": 3,
+              "display": "3"
+            },
+            {
+              "label": "2026年覚書",
+              "value": 4,
+              "display": "4"
+            }
+          ]
+        },
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/empat-bank-sentral-asean-mou-transaksi-mata-uang-lokal-lct-ja.png"
+      }
     },
     {
       "slug": "gangguan-microsoft-365-november-2026-pelajaran-ketergantungan-saas",
@@ -1381,7 +1826,27 @@
         ],
         "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/gangguan-microsoft-365-november-2026-pelajaran-ketergantungan-saas-en.png"
       },
-      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/gangguan-microsoft-365-november-2026-pelajaran-ketergantungan-saas.png"
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/gangguan-microsoft-365-november-2026-pelajaran-ketergantungan-saas.png",
+      "ja": {
+        "title": "Microsoft 365の世界的障害で8サービス停止、BSSNは便乗攻撃を警告　SaaS依存の教訓",
+        "dek": "2026年11月13日未明（ジャカルタ時間）からのMicrosoft 365の世界的な障害で、インドネシアの政府機関や企業のメール、コラボレーション、さらにセキュリティ管理画面までが影響を受けた。Microsoftは攻撃の証拠はないとしたが、国家サイバー暗号庁（BSSN）は、障害中の混乱がフィッシングの隙になると警告した。",
+        "summaryHtml": "<ul><li>障害は米国時間の2026年11月12日（木）、ジャカルタ時間では13日（金）午前1時ごろから始まり、金曜日まで続いた。Microsoftはインシデント番号MO1550821とEX1550543で記録した。（SecurityWeek、CNBC Indonesia）</li><li>影響を受けたのは、Exchange Online、Microsoft Teams、SharePoint Online、OneDrive、Microsoft 365 Copilot、Microsoft Defender XDR、Intune、Microsoft 365ポータルだ。インドネシアでは、政府機関や民間企業のメール、共同作業の環境、サーバーの同期が影響を受けた。（CNBC Indonesia、tvOnenews）</li><li>Microsoftによると、通信量は増えていないのに多数のサーバーが利用できなくなった。安全な接続を確立する処理が過負荷になり、サーバーが自動のヘルスチェックに失敗したという。Microsoftは直近のネットワーク設定の変更を元に戻し始め、悪意ある活動の証拠はないと説明した。復旧後に事後報告書を出すとしている。（SecurityWeek）</li><li>BSSNはセキュリティ勧告を出し、偽のフィッシングメール、ログイン画面を模した偽サイト、MFA疲労攻撃、ビッシングやスミッシング、ビジネスメール詐欺、復旧ツールを装ったマルウェアに注意を呼びかけた。（CNBC Indonesia）</li><li>BSSNは、フィッシングに強いMFA（FIDO2またはパスキー）、SPF・DKIM・DMARC、類似ドメインのブロック、Microsoft以外の予備の連絡手段、ログイン記録の監視、状況確認は公式のstatus.cloud.microsoftのみで行うことを推奨した。（tvOnenews、CNBC Indonesia）</li></ul>",
+        "analysisHtml": "<h3>1つの基盤で、2つの重要機能が同時に停止</h3><p>影響を受けたサービスの一覧で目を引くのは、メールやTeamsだけでなく、セキュリティと端末管理のツールであるDefender XDRとIntuneが含まれていることだ。多くのインドネシア企業は、安く管理しやすいことから、業務ツール、コラボレーション、セキュリティを1つの契約にまとめている。今回の障害はその裏面を示した。基盤が止まると、IT部門は仕事の道具とセキュリティの可視性の一部を同時に失う。攻撃者が混乱に付け込みやすい、まさにそのときにである。</p><h3>攻撃ではないが、攻撃の隙は生まれる</h3><p>Microsoftは悪意ある活動の証拠はないとした。だがBSSNの勧告は、焦点を次のリスクに移している。サービスの復旧を待つ従業員は、偽の「アカウント復旧」メールを信じたり、覚えのないMFAの要求を承認したりしやすい。このパターンは、ありふれた技術的な故障をセキュリティ事故に変えかねない。プッシュ通知やSMSによるMFAをまだ使っている組織では特にそうだ。</p><h3>まだ分かっていないこと</h3><p>最新の報道の時点で、根本原因は確定しておらず、障害の総時間も示されず、インドネシアで影響を受けた組織の数のデータもない。Microsoftの事後報告書は注意深く読む価値がある。ネットワーク設定の変更が本当に引き金だったのか、再発防止のために何が変わるのか。企業は、契約上サービスレベルのクレジットを受け取れるか、どう請求するかも確認すべきだ。</p><h3>ソフトウェア購入の判断への影響</h3><p>今回の障害で企業がSaaSを捨てることは考えにくいが、調達で問われる質問は変わりそうだ。主要な提供事業者が数時間止まった場合の事業継続計画は何か、どの連絡手段が生き残るのか、中核のセキュリティツールを、それが守るシステムと同じ基盤に置くべきか。地場や地域の提供事業者にとっては、緊急時の連絡、バックアップ、独立した監視を、置き換えではなく補完として提案する余地が生まれる。</p>",
+        "actionHtml": "<h3>CIOへ</h3><ol><li>メール、Teams、ファイル保管が同時に止まった場合に止まる業務プロセスを洗い出し、復旧の優先順位を決める。</li><li>主要な基盤とは別の緊急連絡手段を用意し、少なくとも四半期に1度テストする。</li><li>提供事業者に事後報告書を求め、契約のサービスレベル条項を見直す。</li></ol><h3>CISOへ</h3><ol><li>主要なサービスに障害が起きたときは、インシデントを待たずに従業員へフィッシングの注意喚起を送る。</li><li>管理者と高リスクの利用者には、フィッシングに強いMFA（FIDO2またはパスキー）を優先して導入する。</li><li>SPF、DKIM、DMARCが強制されていることを確認し、障害中と障害後の不審なログインを監視する。</li></ol><h3>ベンダーへ</h3><p>基盤の移行だけでなく、具体的な事業継続のシナリオとともに、SaaSのデータバックアップ、緊急連絡、独立したセキュリティ監視を提案する。</p>",
+        "faqHtml": "<h3>2026年11月12〜13日のMicrosoft 365の障害の原因は何か</h3><p>Microsoftは、多数のサーバーが利用できなくなり、安全な接続を確立する処理が過負荷になったと説明し、直近のネットワーク設定の変更を元に戻し始めた。公式の根本原因は事後報告書で示される。</p><h3>Microsoft 365の障害はサイバー攻撃だったのか</h3><p>Microsoftは悪意ある活動の証拠は見つかっていないとした。BSSNはそれでも、障害に便乗したフィッシングなどの攻撃の可能性を警告した。</p><h3>Microsoft 365が止まったとき、従業員は何をすべきか</h3><p>状況の確認はstatus.cloud.microsoftか社内IT部門の告知だけで行い、Microsoftを名乗るメールのリンクや添付ファイルを開かず、覚えのないMFAの要求は拒否する。</p>",
+        "dataFigure": "8",
+        "dataLabel": "影響を受けたMicrosoft 365のサービス（Exchange OnlineからDefender XDR、Intuneまで）",
+        "dataSource": "CNBC Indonesia、2026年11月13日",
+        "seoTitle": "Microsoft 365の世界的障害、SaaS依存の教訓",
+        "seoDescription": "2026年11月のMicrosoft 365の世界的障害でメールやDefender XDRなど8サービスが停止。BSSNが警告する便乗フィッシングと、CIO・CISOの対策を解説。",
+        "audience": [
+          "CIO",
+          "CISO",
+          "IT運用",
+          "SaaS・セキュリティベンダー"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/gangguan-microsoft-365-november-2026-pelajaran-ketergantungan-saas-ja.png"
+      }
     },
     {
       "slug": "asean-defa-ditandatangani-dampak-ecommerce-perusahaan-indonesia",
@@ -1482,7 +1947,41 @@
         ],
         "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/asean-defa-ditandatangani-dampak-ecommerce-perusahaan-indonesia-en.png"
       },
-      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/asean-defa-ditandatangani-dampak-ecommerce-perusahaan-indonesia.png"
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/asean-defa-ditandatangani-dampak-ecommerce-perusahaan-indonesia.png",
+      "ja": {
+        "title": "ASEAN、マニラでDEFAに署名　データ・決済・AIの越境ルールが11カ国を拘束へ",
+        "dek": "ASEAN加盟国は2026年11月14日、マニラでデジタル経済枠組み協定（DEFA）に署名した。域内で初めての、単独で法的拘束力を持つデジタル経済協定だ。国境を越えて販売や決済を行うインドネシア企業にとって、ルールの対象は電子商取引だけでなく、データ、決済、デジタルID、AIへと広がる。",
+        "summaryHtml": "<ul><li>ASEAN加盟国は2026年11月14日（土）、マニラでのASEAN経済共同体理事会（AECC）の会合で、DEFAに正式に署名した。協定はインドネシアが2023年のASEAN議長国のときに提唱したものだ。（ANTARA）</li><li>DEFAはASEAN初の、単独で法的拘束力を持つデジタル経済協定とされる。デジタル貿易、越境データ流通、電子決済、サイバーセキュリティ、人工知能を対象とし、優先プロジェクトにはデジタル決済システム、企業のデジタルID、電子貿易書類が含まれ得る。（The Star）</li><li>DEFAは、インドネシアが2021年法律第4号で批准した2019年のASEAN電子商取引協定に代わる。インドネシアは省庁間委員会を通じてDEFAを批准する。（ANTARA）</li><li>発効時期は報道によって異なる。ANTARAは最後の加盟国の署名から180日後とし、The Starは日本の経済産業省の説明として署名から180日後としている。ASEANは2027年初めに最初のプロジェクトを始める目標だ。（ANTARA、The Star）</li><li>BCGの試算によると、DEFAが完全に実施されれば、ASEANのデジタル経済の規模は2030年までに約1兆ドルから2兆ドルに拡大し得る。プラボウォ・スビアント大統領は2026年11月15日の第49回ASEAN首脳会議でこの数字に言及した。アイルランガ・ハルタルト経済担当調整相は、署名を戦略的な一歩と評価した。（ANTARA）</li></ul>",
+        "analysisHtml": "<h3>ネット通販のルールから、デジタル基盤のルールへ</h3><p>2019年のASEAN電子商取引協定は、主にオンラインでの売買を対象としていた。DEFAはさらに踏み込み、データ流通、決済、企業のデジタルID、サイバーセキュリティ、AIを1つの拘束力ある枠組みに収める。企業にとっては、顧客データの保管場所、越境の決済にどの決済ゲートウェイを使うか、取引先をどう確認するかといった技術上の判断が、国内のルールだけでなく地域の約束事に照らして評価されるようになる。</p><h3>報道が語っていないこと：具体的な義務と開始時期</h3><p>現時点の報道は、データの国内保管の例外や越境データ流通をどこまで開くかといった具体的な義務を、まだ詳しく伝えていない。2つの報道は発効日の説明も異なる。インドネシアには省庁間委員会を通じた批准というもう1つの手続きもある。このため、インドネシア企業への実務上の影響は2027年後半から段階的に表れ、施行規則次第になる可能性が高い。見出しだけを根拠にデータのアーキテクチャを変えるべきではない。</p><h3>2兆ドルという数字は慎重に読む必要がある</h3><p>2兆ドルは完全実施を前提にしたBCGの試算であり、基本シナリオの予測ではない。算出方法が違うため、Google、Temasek、Bainの報告書でよく引用される流通取引総額（GMV）とも直接比べられない。ビジネスにとってより重要なのは、DEFAの柔軟な仕組みだ。準備の整った国が個別の取り組みで先行できる。このため越境の円滑化は均一には進まず、一部の回廊が他より早く開く可能性が高い。</p><h3>誰が得をし、誰が押されるか</h3><p>すでに他のASEAN諸国に販売している、あるいは販売したい販売事業者やブランド、越境決済の事業者、電子貿易書類の事業者は、優先プロジェクトが進めば最も恩恵を受ける。一方で、ルールの統一が進めば、e-Conomy SEA 2025で域内最大のデジタル経済とされるインドネシアに、近隣国の事業者が参入しやすくもなる。ルールの違いに守られてきた地場の事業者は注意深く見ておくべきだ。</p>",
+        "actionHtml": "<h3>EC責任者・CMOへ</h3><ol><li>2027〜2028年のオンライン展開で現実的なASEAN市場を洗い出し、どの回廊でDEFAのプロジェクトが先に動くかを追う。</li><li>域内の決済枠組みが整う前に、チェックアウトでの越境決済の選択肢を用意し、コストを試算する。</li></ol><h3>CIO・法務・コンプライアンス部門へ</h3><ol><li>海外に流れている顧客データ（クラウド、CRM、分析）と、その現在の法的根拠を棚卸しする。</li><li>インドネシアの批准手続きと施行規則を追い、業界団体を通じて意見を出す。</li><li>企業のデジタルIDの仕組みが採用された場合に対応できる、取引先の確認手順を準備する。</li></ol><h3>テクノロジー提供企業へ</h3><p>機会は、越境決済、電子貿易書類、企業の本人確認、複数国のデータコンプライアンスのツールにある。先行して参加する国に合わせて調整できる製品を作るべきだ。</p>",
+        "faqHtml": "<h3>ASEANのDEFAとは何か</h3><p>デジタル経済枠組み協定（DEFA）は、デジタル貿易、越境データ流通、電子決済、サイバーセキュリティ、AIを対象とする、法的拘束力を持つASEANのデジタル経済協定である。2026年11月14日にマニラで署名された。</p><h3>DEFAはいつ発効するのか</h3><p>報道によって異なる。日本の経済産業省の説明では署名から180日後、ANTARAによれば最後の加盟国の署名から180日後だ。インドネシアは別途批准が必要である。</p><h3>DEFAはASEAN電子商取引協定に代わるのか</h3><p>代わる。DEFAは、インドネシアが2021年法律第4号で批准した2019年のASEAN電子商取引協定を置き換える。</p>",
+        "dataFigure": "2兆ドル",
+        "dataLabel": "DEFAが完全に実施された場合の2030年のASEANデジタル経済の潜在規模",
+        "dataSource": "BCG試算、ANTARA報道、2026年11月13日",
+        "seoTitle": "ASEANがDEFAに署名、インドネシア企業への影響",
+        "seoDescription": "ASEANがマニラでデジタル経済枠組み協定（DEFA）に署名。データ、決済、AIの越境ルールがインドネシア企業のEC・決済・データ管理に与える影響を解説。",
+        "audience": [
+          "EC責任者",
+          "CMO",
+          "CIO・法務",
+          "決済事業者"
+        ],
+        "chart": {
+          "bars": [
+            {
+              "label": "現在",
+              "value": 1,
+              "display": "1兆ドル"
+            },
+            {
+              "label": "2030年(DEFA)",
+              "value": 2,
+              "display": "2兆ドル"
+            }
+          ]
+        },
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/asean-defa-ditandatangani-dampak-ecommerce-perusahaan-indonesia-ja.png"
+      }
     },
     {
       "slug": "pendanaan-startup-teknologi-indonesia-9m-2026-tracxn",
@@ -1581,6 +2080,39 @@
           "B2B founders",
           "Investors"
         ]
+      },
+      "ja": {
+        "title": "インドネシアのテック資金調達は111%増、だが1件の案件が全体の74%を占める",
+        "dek": "Tracxnの報告書によると、2026年1〜9月のインドネシアのテック企業の資金調達額は3億6500万ドルだった。増加分のほぼすべてはAjaibのシリーズCによるものだ。その陰で、案件数、投資家数、アーリーステージの調達額は大きく縮んだ。",
+        "summaryHtml": "<ul><li>Tracxnの報告書『Indonesia Tech – 9M 2026』によると、インドネシアのテック企業の資金調達総額は3億6500万ドルで、2025年同期の1億7300万ドルから111%増えた。案件数は56%減の14件だった。（Katadata）</li><li>Ajaibは2026年8月、シリーズC（SBIグループが参加）で2億7000万ドルを調達した。9カ月間の調達額の約74%に相当する。Waresixは2700万ドル（シリーズB）、Green Rebelは1300万ドル（シリーズA）を調達した。（Katadata）</li><li>レイターステージの調達額は2億8000万ドルで全体の77%。アーリーステージは16%減の8300万ドル、シードは92%減の200万ドルで、案件はわずか4件だった。（Katadata）</li><li>活動した投資家は27社に減り、うち海外が20社、国内が7社だった。テック企業のIPOはなく、買収はBybitによるNOBIの1件のみだった。（Katadata）</li><li>東南アジア全体では、テック分野の資金調達額は176%増の135億ドル、案件数は28%減の189件だった。増加はやはり少数の大型案件に集中している。（TechNode Global）</li></ul>",
+        "analysisHtml": "<h3>Ajaibを除けば、調達額はむしろ減った</h3><p>Ajaibの案件を除くと、2026年1〜9月のインドネシアのテック資金調達額は約9500万ドルにとどまり、前年の1億7300万ドルより約45%少ない（本紙試算）。「111%増」という見出しは、市場の幅広い回復ではなく、1件の大型案件を表している。</p><h3>シードはほぼ消え、B2Bスタートアップの層が薄くなる</h3><p>シード案件は23件から4件に減った。今年ベンチャー資金を得て生まれた新しいソフトウェア企業は大幅に少ない。買い手にとっては、選べる新しい地場ベンダーが減ることになる。既存ベンダーにとっては新規参入との競争が和らぐ一方、事業拡大のための資金調達も難しくなる。</p><h3>海外資本が主導</h3><p>投資家27社のうち20社が海外勢であり、資金の流れは地域や世界の投資家の意欲に大きく左右される。金額は増えても件数は減るという東南アジア全体の同じ傾向は、投資家が最も強いとみる少数の企業を選別していることを示している。</p>",
+        "actionHtml": "<h3>スタートアップから製品を購入する企業へ</h3><ol><li>資金の残存期間（ランウェイ）や調達元など、ベンダーの財務健全性の確認を調達手続きに加える。</li><li>ベンダーが事業を終えた場合に備え、データの持ち出し権とサービス継続計画を契約に盛り込む。</li><li>健全なベンダーとは、価格交渉の材料として長期契約も検討する。</li></ol><h3>スタートアップ・B2Bソリューション提供企業へ</h3><p>アーリーステージの資金が細るなか、大企業との契約による売上が最も現実的な成長の源泉だ。法人顧客との導入事例やコンプライアンスの実績は、投資家と買い手の双方にとって説得力を増す。</p>",
+        "faqHtml": "<h3>案件数が減ったのに、なぜ調達額は増えたのか</h3><p>Ajaibの2億7000万ドルのシリーズCという1件の大型案件が、2026年1〜9月の調達総額の約74%を占めたためである。</p>",
+        "dataFigure": "74%",
+        "dataLabel": "2026年1〜9月のインドネシアのテック資金調達総額に占めるAjaibの比率",
+        "dataSource": "Tracxn『Indonesia Tech – 9M 2026』、Katadata経由",
+        "seoTitle": "インドネシアのテック資金調達、111%増の実像",
+        "seoDescription": "2026年1〜9月のインドネシアのテック資金調達は3億6500万ドルと111%増。だがAjaib1件が74%を占め、シードは92%減。調達側・買い手への影響を解説。",
+        "audience": [
+          "調達部門",
+          "B2B企業の創業者",
+          "投資家"
+        ],
+        "chart": {
+          "bars": [
+            {
+              "label": "2025年1-9月",
+              "value": 173,
+              "display": "1.73億ドル"
+            },
+            {
+              "label": "2026年1-9月",
+              "value": 365,
+              "display": "3.65億ドル"
+            }
+          ]
+        },
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pendanaan-startup-teknologi-indonesia-9m-2026-tracxn-ja.png"
       }
     },
     {
@@ -1663,6 +2195,25 @@
           "Legal and compliance",
           "CIO / CDO"
         ]
+      },
+      "ja": {
+        "title": "インドネシアのAI規制、大統領の署名待ち　企業が今から備えるべき5つのこと",
+        "dek": "AIに関する2本の大統領令案、「2026〜2029年国家AIロードマップ」と「AI倫理」は、省庁間の調整を終えた。個人データや公共サービス、影響の大きい判断にAIを使う企業は、技術的な細則が出る前に準備を始めるべきだ。",
+        "summaryHtml": "<ul><li>通信デジタル省（Komdigi）と各省庁は2026年5月5日、人工知能倫理に関する大統領令案と、2026〜2029年国家AIロードマップに関する大統領令案の協議を終えた。（JDIH Komdigi）</li><li>Komdigiのデジタルエコシステム総局長、Edwin Hidayat Abdullah氏は2026年9月3日、両規則が大統領の署名待ちだと述べた。2026年11月15日時点で、本紙はいずれかが署名されたとの報道を確認していない。（Selular.ID）</li><li>Meutya Hafid大臣は、Komdigiが包括的な規則を準備し、技術的な細則は各セクターが作ると述べた。ロードマップは保健、教育、経済・金融など10の優先分野を対象とする。（detikInet）</li><li>AI倫理の大統領令案は、AIのリスクを低リスク、高リスク、許容できないリスクの3区分に分ける。高リスクのシステムには設計段階からのリスク評価が求められ、AI生成コンテンツには表示（ラベル）を義務付ける予定だ。（Katadata）</li><li>Komdigiは、リスクの水準にかかわらず、あらゆる種類のAIの運用インシデントの報告を求める規定を残した。（Bisnis.com）</li></ul>",
+        "analysisHtml": "<h3>最も影響を受けるのは誰か</h3><p>報じられた草案によると、高リスクのシステムとは、特定の個人データを使うAIや、人権、安全、不可欠な公共サービスに大きな影響を与えるAIを指す。この区分には、信用スコアリング、採用、医療サービス、本人確認が含まれる可能性が高い。金融サービス、医療、通信の企業がまず注意を払うべきだ。</p><h3>見落としやすいインシデント報告義務</h3><p>多くの企業はサイバーセキュリティ事故の手順を持っているが、チャットボットが誤情報を伝えた、モデルが不当に顧客を拒否したといったAIのインシデントの手順は持っていない。あらゆるAIの運用インシデントを報告しなければならないのであれば、企業は何をインシデントとみなすか、誰が報告の責任を負うかを定める必要がある。</p><h3>詳細はセクター別の規則で決まる</h3><p>大統領令はあくまで包括的な枠組みだ。技術的な詳細や罰則は、金融サービスにおけるインドネシア金融庁（OJK）のようなセクターの規制当局や、コンテンツ表示に関するKomdigiの省令から示される。セクターの規則を待ってから動く企業には、準備の時間がほとんど残らない。</p>",
+        "actionHtml": "<h3>企業が備えるべき5つのこと</h3><ol><li><strong>AIシステムの棚卸し</strong>：それぞれを低リスク、高リスク、許容できないリスクに分類する。</li><li><strong>設計段階からのリスク評価</strong>：個人データを使うシステムや、人に関する重要な判断に影響するシステムが対象。</li><li><strong>表示と透明性</strong>：利用者がAIとやり取りしていることを伝え、AI生成コンテンツを明示する方法を準備する。</li><li><strong>AIインシデントの手順</strong>：インシデントの定義、エスカレーションの経路、報告の責任者を決める。</li><li><strong>セクター規制の監視</strong>：Komdigiと所管の規制当局が出す施行規則を追う責任者を1人決める。</li></ol><h3>ソリューション提供企業へ</h3><p>監査ログ、モデルの判断の説明、自動ラベル付けといったコンプライアンス機能は、規則の施行後、企業の調達における必須要件になる。</p>",
+        "faqHtml": "<h3>インドネシアのAI規制はすでに施行されているか</h3><p>2026年11月15日時点で、本紙はいずれかの規則が署名されたとの報道を確認していない。Komdigiは、両規則とも大統領の署名待ちだとしている。</p><h3>罰則はあるのか</h3><p>AIコンテンツの表示義務に違反した場合の罰則は、別の省令で定める予定だ。詳細は公表されていない。</p>",
+        "dataFigure": "3区分",
+        "dataLabel": "AI倫理の大統領令案が定めるAIのリスク区分：低リスク、高リスク、許容できないリスク",
+        "dataSource": "AI倫理に関する大統領令案、Katadata報道、2026年8月",
+        "seoTitle": "インドネシアのAI規制、企業が備える5つのこと",
+        "seoDescription": "インドネシアのAI倫理と国家AIロードマップの大統領令案は署名待ち。リスク3区分やインシデント報告義務など、企業が今から準備すべき5つのことを解説。",
+        "audience": [
+          "取締役会",
+          "法務・コンプライアンス",
+          "CIO・CDO"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/perpres-ai-etika-peta-jalan-yang-perlu-disiapkan-perusahaan-ja.png"
       }
     },
     {
@@ -1763,6 +2314,39 @@
           "CRO / Risk management",
           "AI and security vendors"
         ]
+      },
+      "ja": {
+        "title": "AIを試した銀行は88%、正式なガバナンスはわずか4%　インドネシア銀行が警鐘",
+        "dek": "IBMとインドネシア銀行協会（Perbanas）の調査で、インドネシアのほぼすべての銀行がAIを試している一方、企業統治に正式に組み込んだ銀行は4%にとどまることが分かった。インドネシア銀行は、AIエージェントが一斉に同じ動きをするなど、従来のリスク管理の手引きにはないリスクに注意を促している。",
+        "summaryHtml": "<ul><li>IBMとPerbanasの調査によると、インドネシアの銀行の88%がAI技術を試しており、12%はまだ着手していない。AIを企業統治に正式に組み込んだ銀行は4%にすぎない。（Indonesia Business Post）</li><li>調査結果は、IBM、Perbanas、Kiantara & Associatesが2026年10月27日に公表したホワイトペーパー『Digital Sovereign AI and the Future of Trusted Banking』とともに発表された。（Indonesia Business Post）</li><li>IBMコンサルティング・インドネシアのマネージングパートナー、Juvanus Tjandra氏は、業界のAI導入はまだ断片的で、中央集約型のアーキテクチャを持たない銀行が多いと述べた。用途はチャットボットなど顧客対応に集中している。（Indonesia Business Post）</li><li>インドネシア銀行のRicky Satria氏は、合成音声や合成顔を使った詐欺や、数週間ではなく数時間で展開する攻撃に警鐘を鳴らした。（Katadata）</li><li>インドネシア銀行はハーディング（群集行動）リスクも指摘した。同じモデルとクラウド事業者を使う多数のAIエージェントが、同時に似た判断を示しかねないというもので、銀行に対し、使用するAIを完全に管理下に置くよう求めた。（Katadata）</li></ul>",
+        "analysisHtml": "<h3>AIは表玄関から入り、ガバナンスが後から追いかけている</h3><p>88%と4%の差は、よくあるパターンを示している。成果がすぐ見えるため、AIはまずチャットボットや顧客対応で使われる。ガバナンスが検討されるのは、利用が広がった後だ。銀行業ではこの順序は危うい。顧客データや与信判断に関わるAIモデルは、厳しい監督の対象だからである。</p><h3>ハーディングは従来のリスク管理の手引きにない新しいリスク</h3><p>従来のリスク管理は、1つの銀行の1つのモデルを評価する。ハーディングリスクは、多くの銀行が同じモデルとデータソースを使うことから生じる。モデルが誤れば、その誤りは一斉にあらゆる場所で起きる。このため、提供事業者の分散や、AIエージェントを素早く停止できる仕組みが、今後監督の対象になる可能性が高い。</p><h3>ソブリンAIが銀行のIT調達を変える</h3><p>インドネシア銀行が銀行にAIの完全な管理を求めていることは、自前または国内のインフラで動かせるモデルが好まれる方向を示している。たとえばBNIは、Clouderaと組んでオープンソースモデルをベースにしたオンプレミスの生成AIをすでに開発した。海外からのサービス提供しかできないベンダーは、調達の場でより多くの質問を受けることになるだろう。</p>",
+        "actionHtml": "<h3>銀行・金融機関へ</h3><ol><li>事業部門が個別に購入したものも含め、使用中のAIシステムをすべて洗い出す。</li><li>AIモデルをモデルリスク管理の枠組みに組み込み、責任者、テスト、監視を定める。</li><li>AIエージェントが顧客データや取引にアクセスできる範囲を限定し、停止のためのキルスイッチを用意する。</li><li>単一のモデルやクラウド事業者への依存度を見直す。</li></ol><h3>ソリューション提供企業へ</h3><p>最も需要が大きいのは、AIガバナンスのツール、モデル監視、顧客の本人確認におけるディープフェイク検知、そしてデータ主権の要件を満たす国内インフラ上でのAI運用である。</p>",
+        "faqHtml": "<h3>AIのハーディングリスクとは何か</h3><p>同じモデルとデータを使う多数のAIシステムが、同時に似た判断を下すリスクである。市場にストレスがかかった局面では、ショックを増幅しかねない。</p>",
+        "dataFigure": "4%",
+        "dataLabel": "AIを企業統治に正式に組み込んだインドネシアの銀行の割合",
+        "dataSource": "IBM・Perbanas調査、2026年10月",
+        "seoTitle": "インドネシアの銀行、AIガバナンス整備は4%",
+        "seoDescription": "インドネシアの銀行の88%がAIを試す一方、正式なガバナンスは4%。インドネシア銀行が警告するハーディングリスクと、銀行・ベンダーが取るべき対応を解説。",
+        "audience": [
+          "銀行経営陣",
+          "CRO・リスク管理",
+          "AI・セキュリティベンダー"
+        ],
+        "chart": {
+          "bars": [
+            {
+              "label": "AI導入",
+              "value": 88,
+              "display": "88%"
+            },
+            {
+              "label": "ガバナンス",
+              "value": 4,
+              "display": "4%"
+            }
+          ]
+        },
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/bank-indonesia-adopsi-ai-tata-kelola-4-persen-ja.png"
       }
     },
     {
@@ -1827,6 +2411,25 @@
           "CFO",
           "AI vendors"
         ]
+      },
+      "ja": {
+        "title": "トークン費用が膨張、89%の企業がAI活用を見直し　インドネシア企業への示唆",
+        "dek": "Clouderaが1500人のIT責任者を対象に行った調査で、トークン消費の増加を受けて89%の企業がAIのユースケースを制限または再設計していることが分かった。インドネシアではAI投資が増え続けている。問いは「AIを使うか」から「成果1件あたりいくらかかるか」に移りつつある。",
+        "summaryHtml": "<ul><li>Clouderaの報告書『The State of Enterprise AI 2026: The New Rules of Scale』は、複数国の1500人のIT責任者を対象にしたもので、調査は2026年9月にWakefield Researchが実施した。（IndoTelko）</li><li>世界全体では、回答者の89%がトークン消費の増加を受けてAIのユースケースを制限または再設計し、45%がコストの上昇や変動を理由にAIの処理基盤を移した。（IndoTelko）</li><li>インドネシアでは、88%の企業が前年よりAI投資を増やし、70%が年50万ドル以上を充てている。最大の障害はガバナンスとコンプライアンス（65%）、人材不足（55%）、データ統合（45%）だ。（IndoTelko）</li><li>インドネシアの組織の88%では、データの所在地と管轄がAI処理の配置先に影響している。（IndoTelko）</li><li>PwCインドネシアの2026年CEO調査では、AIで増収を実感するCEOは22%、コスト削減を実感するCEOは28%だが、両方を実感しているのは10%にとどまる。（Fortune IDN）</li></ul>",
+        "analysisHtml": "<h3>推論コストは新しい営業費用</h3><p>ソフトウェアのライセンスは通常、利用者1人あたりの固定費だ。AIモデルの費用は違う。質問1つ、読み込む文書1件、AIエージェントが進める処理の一歩ごとにトークンを消費する。社内で利用が広がれば、請求額も比例して膨らむ。多数の処理を自動で進めるAIエージェントは、利用者が気づかないうちに消費量を何倍にもしかねない。</p><h3>投資は増えているが、成果はまだら</h3><p>インドネシア企業の88%がAI投資を増やしているのは前向きに見える。だがPwCのデータでは、増収とコスト削減を同時に実感しているCEOは10%しかいない。この差は、多くのAIプロジェクトが、解決したサービスチケット1件あたりのコストといった明確な単位経済性でまだ測られていないことを示唆する。</p><h3>データ主権もコストを左右する</h3><p>インドネシアの組織の88%にとって、データの所在地はAIをどこで動かすかに影響する。国内や自社インフラで動かさなければならないモデルは、パブリッククラウドのサービスとはコスト構造が異なる。このアーキテクチャの判断は、IT部門だけでなく財務部門と一緒に下すのが望ましい。</p>",
+        "actionHtml": "<h3>CIO・CDO・CFOへ</h3><ol><li>総予算だけでなく、AIのユースケースごとに成果1件あたりのコスト指標を設ける。</li><li>単純な作業には小型モデルを使い、大型モデルは本当に必要な場面に限る。</li><li>規模を拡大する前に、アプリケーション別・チーム別のトークン消費を監視する。</li><li>ガバナンスは最初から組み込む。世界の回答者の49%が、やり直せるならそうすると答えている。</li></ol><h3>AIソリューション提供企業へ</h3><p>企業の買い手は、予測可能なコストをますます求めるようになる。明快な料金体系、国内インフラでの導入オプション、利用状況のダッシュボードが、調達の場で差を生む。</p>",
+        "faqHtml": "<h3>AIのトークンとは何か</h3><p>AIモデルが処理するテキストの単位である。言語モデルのサービスは通常、入出力のトークン数に応じて課金される。</p>",
+        "dataFigure": "89%",
+        "dataLabel": "トークン消費の増加を受けてAIのユースケースを制限・再設計した企業の割合",
+        "dataSource": "Cloudera『The State of Enterprise AI 2026』（IT責任者1500人の調査）",
+        "seoTitle": "AIのトークン費用増、89%の企業が活用を見直し",
+        "seoDescription": "Cloudera調査で89%の企業がトークン費用増を受けAI活用を見直し。AI投資が増えるインドネシア企業が成果あたりのコストをどう管理すべきかを解説。",
+        "audience": [
+          "CIO・CDO",
+          "CFO",
+          "AIベンダー"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/biaya-token-ai-perusahaan-indonesia-cloudera-2026-ja.png"
       }
     },
     {
@@ -1903,6 +2506,25 @@
           "Head of infrastructure",
           "Cloud and colocation providers"
         ]
+      },
+      "ja": {
+        "title": "Equinix、ジャカルタJK1に1125ラック増設　AI対応データセンターの争奪が始まる",
+        "dek": "Equinixはジャカルタでデータセンター「JK1」の第2期を開設し、液冷対応のラック（キャビネット）を約1125基増やした。同社はデータホールの大半が6カ月以内に埋まるとみている。AIの処理基盤を計画する企業にとって、早めに容量を確保すべきだという合図だ。",
+        "summaryHtml": "<ul><li>Equinixは2026年11月10日、ジャカルタでJK1第2期を開設した。増設は約1125キャビネットで、JK1全体では約1660キャビネットになる。今期の設備投資は約3900万ドルと見積もられ、Equinixのインドネシアへの投資コミットメントは総額9400万ドルに達する。（Bisnis.com）</li><li>JK1第2期には液冷を備えたAI対応の容量が含まれ、2026年第4四半期の稼働を目指す。（Bisnis.com）</li><li>Equinixインドネシアのマネージングディレクター、Haris Izmee氏は、データホールの大半が6カ月以内に埋まると見込む。需要はAI、石油・ガス、鉱業、銀行から来ている。（Fortune IDN）</li><li>Haris氏によると、AIが、相互接続されクラウドに近いAI対応インフラの需要を押し上げている。JK1はAWS、Microsoft Azure、Google Cloud、Alibaba Cloudにつながっている。（Katadata）</li><li>通信デジタル省（Komdigi）は、インドネシアの現在のデータセンター容量を約600MWとしている。Nezar Patria副大臣は、約3GWに達したとするマレーシアと比較した。（Katadata、Fortune IDN）</li></ul>",
+        "analysisHtml": "<h3>重要なのはラック数ではなく液冷</h3><p>AI向けのGPUサーバーは、通常のサーバーよりラックあたりの発熱がはるかに大きい。従来の空冷では処理しきれない。JK1第2期の「AI対応」という表示は、したがって1125キャビネットという数字以上の意味を持つ。ジャカルタのすべての施設が高出力のAIラックを収容できるわけではない。</p><h3>容量は企業のIT計画より早く尽きるかもしれない</h3><p>データホールが6カ月以内に埋まるという見通しは、建物の開設前から需要があったことを示している。需要はAI企業だけでなく、鉱業や銀行といった伝統的な業種からも来ている。来年のAI処理基盤の計画をこれから始める企業は、戦略的な立地のAI対応容量がすでに予約で埋まっていることに気づくかもしれない。</p><h3>600MW対3GW：インドネシアはなおマレーシアを追う立場</h3><p>マレーシアとの容量差は、地域向けの処理の一部がジョホールから提供されている理由を説明する。一方で、データ主権や所在地に関する規制により、多くのインドネシア企業は機微な処理を国内で動かす必要がある。これらの要因が重なり、国内のAI対応容量は今後2〜3年、希少な資産になる。</p>",
+        "actionHtml": "<h3>CIO・インフラ責任者へ</h3><ol><li>個人データや業種規制の理由でインドネシア国内にとどめる必要があるAI処理を洗い出す。</li><li>今後12〜24カ月の高出力ラックの必要量を見積もり、早めに容量予約を協議する。</li><li>遅延とデータ転送コストを減らすため、すでに使っているクラウド事業者との直接接続を設計する。</li><li>ESG報告のため、閉ループ冷却やエネルギー源など、持続可能性の主張の裏付けを求める。</li></ol><h3>ソリューション提供企業へ</h3><p>最大の機会は、企業が自前で構築しなくて済むサービスにある。GPU as a Service、コロケーションへの処理基盤の移行、ハイブリッドクラウドのネットワーク管理、液冷システムの技術支援だ。</p>",
+        "faqHtml": "<h3>JK1第2期はいつ稼働するのか</h3><p>Equinixは2026年第4四半期の稼働を目指している。</p><h3>Equinixのインドネシアへの投資額は</h3><p>今回の増設で、Equinixのインドネシアへの投資コミットメントは総額9400万ドルに達する。</p>",
+        "dataFigure": "1125基",
+        "dataLabel": "Equinix JK1第2期で増える液冷対応キャビネット",
+        "dataSource": "Equinix、JK1第2期開設、2026年11月10日",
+        "seoTitle": "Equinix、ジャカルタJK1に1125ラック増設",
+        "seoDescription": "EquinixがジャカルタのJK1第2期で液冷対応の約1125キャビネットを増設。AI対応データセンター容量が逼迫する中、企業が取るべき準備を解説。",
+        "audience": [
+          "CIO",
+          "インフラ責任者",
+          "クラウド・コロケーション事業者"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/equinix-jk1-phase-2-kapasitas-data-center-jakarta-ja.png"
       }
     },
     {
@@ -2049,6 +2671,50 @@
           "Banking",
           "Security vendors"
         ]
+      },
+      "ja": {
+        "title": "インドネシアへのサイバー攻撃、24時間で220万件　数字が示すものと示さないもの",
+        "dek": "FortiGuard Labsのダッシュボードに表示されたインドネシアへの攻撃の試みは、3日間で約35万件から220万件に急増した。数字自体は実在するが、侵害されたシステムの数ではない。企業にとっての最大のリスクは別のところにある。",
+        "summaryHtml": "<ul><li>FortiGuard Labsのダッシュボードによると、攻撃の試みは11月7日までの24時間で約35万600件、8日に約65万7000件、9日に約160万件、10日午前7時30分（ジャカルタ時間）までの24時間で約220万件に達した。うち約100万件は金融セクターが標的だった。（Bisnis.com、Gebrak.id、Fortune IDN、Katadata）</li><li>VaksincomのAlfons Tanujaya氏は、この数字はFortinetのセンサーが検知・遮断した攻撃の試みの件数であり、侵害されたシステムの数ではないと説明した。（Bisnis.com）</li><li>国家サイバー暗号庁（BSSN）は11月8日にセキュリティ勧告を出した。出回っている脅迫は、海外デジタル取引への課税政策（SPP-TDLN）への反対と結び付けられているが、真偽は確認されていない。（Katadata）</li><li>通信デジタル省（Komdigi）は11月9日、国家データセンターと政府クラウドの利用者、政府ドメインの管理者、公的部門の電子システム運営者に3通の注意喚起を送った。Aries Kusdaryono氏は、攻撃の潜在的なリスクを軽視すべきではないと強調した。（Katadata）</li><li>インドネシア金融庁（OJK）とインドネシア銀行（BI）はサイバーインシデント対応チーム（TTIS）を始動させ、銀行に異常な取引を保留して確認するよう求めた。（The Star／The Jakarta Post）</li></ul>",
+        "analysisHtml": "<h3>1. ダッシュボードの数字は1社のテレメトリーであり、被害件数ではない</h3><p>FortiGuardのダッシュボードが数えているのは、Fortinetのセンサーが観測した不審な通信だ。数字の大きさは、設置された機器の台数やログの数え方に左右される。被害者のリストというより、インドネシアのインターネットの「体温」として読むほうが適切だ。3日で6倍という急増は、通常、自動化されたスキャンが急激に増えていることを意味する。</p><h3>2. 攻撃の半分は2021年の古い脆弱性を突いたもの</h3><p>11月9日には、Apache Log4jの脆弱性を狙った攻撃が約77万4000件記録され、全体の53%を占めた。Log4jは2021年末に公表された脆弱性である。この通信の大半は、特定の銀行を狙った高度な攻撃ではなく、パッチ未適用のサーバーを探す大量のスキャンだ。</p><h3>3. 本当の問題：検出された.co.idサーバーの96.7%が古いPHPで稼働</h3><p>Vaksincomが2026年10月23日時点で行ったスキャンでは、PHPのバージョンを読み取れた.co.idサーバーが4650台あった。このうち4495台（96.7%）が、セキュリティ更新の提供が終わったバージョンで動いていた。重大な脆弱性PHP2Shellに対処済みのサーバーは、検出されたPHPサーバーのわずか0.2%だった。企業のウェブサイト、顧客ポータル、インターネットにつながったレガシーシステムが、最も侵入口になりやすい。</p><h3>4. ハクティビストの狙いは金銭ではなく世間の注目</h3><p>ハクティビストは通常、目立つ標的に対してDDoS攻撃やウェブサイトの改ざんを仕掛ける。勘定系システムがこうした攻撃の被害を受けることはまれだ。それでも、公開されているアプリケーションやウェブサイトは停止し得るし、それだけで評判は傷つく。</p><h3>5. 第2波：混乱に便乗した詐欺</h3><p>サイバー攻撃の大きなニュースの後には、銀行の通知を装ったフィッシングが続くのが通例だ。インドネシア銀行は以前、2026年のインドネシアにおけるサイバー攻撃による損失を約62億ドルと見込んでいた。</p>",
+        "actionHtml": "<h3>CIO・CISOへ</h3><ol><li>忘れられたサブドメインも含め、インターネットに公開しているすべてのシステムを洗い出す。</li><li>古いPHP、Java（Log4j）、CMSを、顧客データを持つシステムから優先して更新する。</li><li>公開ウェブサイトとAPIにDDoS対策とWAFを導入する。</li><li>すべての管理者アカウントで多要素認証（MFA）を必須にする。</li><li>バックアップがあることだけでなく、実際に復元できるかを試す。</li><li>詐欺師が情報の空白を埋められないよう、顧客向けの公式メッセージを準備しておく。</li></ol><p>OJKは銀行に対し、定期的な侵入テスト、攻撃シミュレーション、技術監査をすでに義務付けている。サイバーセキュリティ・レジリエンス法案も2026年の優先国家立法計画に入っている。サイバーセキュリティは、いまや取締役会レベルの課題だ。</p><h3>セキュリティ製品・サービスのベンダーへ</h3><p>最も切迫した需要は4つの分野にある。ウェブアプリケーションの刷新とパッチ管理、DDoS対策とWAF、SOCとMDR（マネージド検知・対応）、そして詐欺・フィッシング対策の教育だ。220万件という数字で買い手を脅すのではなく、公開システムの簡易診断を提案するほうが効果的である。</p>",
+        "faqHtml": "<h3>220万件の攻撃とは、220万のシステムがハッキングされたということか</h3><p>違う。この数字は、FortiGuard Labsのセンサーが24時間に検知・遮断した攻撃の試みの件数である。</p><h3>銀行の預金は安全か</h3><p>OJKとインドネシア銀行はインシデント対応チームを始動させた。利用者には、銀行の公式チャネルを通じて通常どおり取引を続けるよう呼びかけている。</p><h3>企業はまず何をすべきか</h3><p>インターネットに公開しているすべてのシステム、特に古いPHP、Java、CMSで動くシステムを点検し、更新することだ。</p>",
+        "dataFigure": "220万件",
+        "dataLabel": "24時間にインドネシアに向けられたサイバー攻撃の試み",
+        "dataSource": "FortiGuard Labsダッシュボード、2026年11月10日時点の24時間集計",
+        "seoTitle": "インドネシアへのサイバー攻撃220万件の実像",
+        "seoDescription": "FortiGuardが示したインドネシアへの攻撃220万件は被害件数ではない。古いPHPやLog4jなど企業が本当に備えるべきリスクと、CIO・CISOが取るべき対策を解説。",
+        "audience": [
+          "CIO・CISO",
+          "取締役会",
+          "銀行",
+          "セキュリティベンダー"
+        ],
+        "chart": {
+          "bars": [
+            {
+              "label": "11/7",
+              "value": 350600,
+              "display": "35万"
+            },
+            {
+              "label": "11/8",
+              "value": 657000,
+              "display": "66万"
+            },
+            {
+              "label": "11/9",
+              "value": 1600000,
+              "display": "160万"
+            },
+            {
+              "label": "11/10",
+              "value": 2200000,
+              "display": "220万"
+            }
+          ]
+        },
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/serangan-siber-2-2-juta-indonesia-analisis-ja.png"
       }
     }
   ]

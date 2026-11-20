@@ -2,7 +2,8 @@
 """Render the hero data graphic (1600x900 PNG) for each article.
 
 Usage: python3 scripts/make_images.py articles/2026-11-16 [more dirs/files]
-For every article JSON it writes images/<slug>.png and sets "heroImage" in the JSON.
+For every article JSON it writes images/<slug>.png and sets "heroImage" in the JSON,
+plus images/<slug>-en.png and images/<slug>-ja.png for the English and Japanese versions.
 
 Design (matches the B2B Tech Asia Review design mockup): navy card, category label,
 big serif number (dataFigure), label (dataLabel), source line (dataSource) and,
@@ -29,11 +30,20 @@ def font(name, size):
     return ImageFont.truetype(str(FONTS / name), size)
 
 
-def wrap(draw, text, fnt, max_w):
-    words, lines, cur = text.split(), [], ''
+def wrap(draw, text, fnt, max_w, cjk=False):
+    # Japanese has no spaces: wrap by character (keeping ASCII runs together).
+    if cjk:
+        import re as _re
+        words, sep = _re.findall(r'[A-Za-z0-9.,%$+\-/]+|\s+|.', text), ''
+    else:
+        words, sep = text.split(), ' '
+    lines, cur = [], ''
     for w in words:
-        t = (cur + ' ' + w).strip()
-        if draw.textlength(t, font=fnt) <= max_w:
+        if cjk and w.isspace() and not cur:
+            continue
+        t = (cur + sep + w).strip() if not cjk else cur + w
+        # Japanese line-break rule: these never start a line, so they stay on the current one.
+        if draw.textlength(t, font=fnt) <= max_w or (cjk and cur and w in 'ー、。，．・）」』％:：'):
             cur = t
         else:
             if cur:
@@ -44,7 +54,12 @@ def wrap(draw, text, fnt, max_w):
     return lines
 
 
-def render(a, out, source_word='Sumber'):
+def render(a, out, source_word='Sumber', lang='id'):
+    ja = lang == 'ja'
+    REG = 'NotoSansJP-Regular.otf' if ja else 'IBMPlexSans-Regular.ttf'
+    BOLD = 'NotoSansJP-Bold.otf' if ja else 'IBMPlexSans-Bold.ttf'
+    SEMI = 'NotoSansJP-Bold.otf' if ja else 'IBMPlexSans-SemiBold.ttf'
+    BIG = 'NotoSansJP-Bold.otf' if ja else 'SourceSerif4-Bold.ttf'
     img = Image.new('RGB', (W, H), NAVY)
     d = ImageDraw.Draw(img)
     pad = 96
@@ -53,18 +68,18 @@ def render(a, out, source_word='Sumber'):
 
     # category label
     cat = f"{a['category'].upper()}  ·  DATA"
-    d.text((pad, pad), cat, font=font('IBMPlexSans-Bold.ttf', 30), fill=PALE, spacing=4)
+    d.text((pad, pad), cat, font=font(BOLD, 30), fill=PALE, spacing=4)
 
     # big number: shrink to fit
     fig = a.get('dataFigure') or ''
     size = 230
-    while size > 90 and d.textlength(fig, font=font('SourceSerif4-Bold.ttf', size)) > left_w:
+    while size > 90 and d.textlength(fig, font=font(BIG, size)) > left_w:
         size -= 6
-    f_big = font('SourceSerif4-Bold.ttf', size)
-    label_f = font('IBMPlexSans-Regular.ttf', 36)
-    label_lines = wrap(d, a.get('dataLabel') or '', label_f, min(left_w, 720))[:4]
-    src_f = font('IBMPlexSans-Regular.ttf', 24)
-    src_lines = wrap(d, source_word + ': ' + (a.get('dataSource') or ''), src_f, left_w)[:2]
+    f_big = font(BIG, size)
+    label_f = font(REG, 36)
+    label_lines = wrap(d, a.get('dataLabel') or '', label_f, min(left_w, 720), ja)[:4]
+    src_f = font(REG, 24)
+    src_lines = wrap(d, source_word + (u'\uff1a' if ja else ': ') + (a.get('dataSource') or ''), src_f, left_w, ja)[:2]
 
     src_h = len(src_lines) * 34
     label_h = len(label_lines) * 50
@@ -99,8 +114,8 @@ def render(a, out, source_word='Sumber'):
         gap = 28
         bw = (area_x1 - area_x0 - gap * (n - 1)) / n
         vmax = max(b['value'] for b in bars) or 1
-        vf = font('IBMPlexSans-SemiBold.ttf', 30)
-        lf = font('IBMPlexSans-Regular.ttf', 26)
+        vf = font(SEMI, 30)
+        lf = font(REG, 26)
         for i, b in enumerate(bars):
             x0 = area_x0 + i * (bw + gap)
             h = max(6, (area_bottom - area_top - 50) * b['value'] / vmax)
@@ -138,6 +153,13 @@ def main():
             out_en = ROOT / 'images' / f"{a['slug']}-en.png"
             render(en_view, out_en, source_word='Source')
             en['heroImage'] = RAW + out_en.name
+        ja = a.get('ja')
+        if ja and ja.get('dataFigure'):
+            ja_view = dict(a, dataFigure=ja['dataFigure'], dataLabel=ja.get('dataLabel', ''),
+                           dataSource=ja.get('dataSource', a.get('dataSource', '')), chart=ja.get('chart', a.get('chart')))
+            out_ja = ROOT / 'images' / f"{a['slug']}-ja.png"
+            render(ja_view, out_ja, source_word='出典', lang='ja')
+            ja['heroImage'] = RAW + out_ja.name
         f.write_text(json.dumps(a, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
         print(f'{f}: {out.relative_to(ROOT)}')
 

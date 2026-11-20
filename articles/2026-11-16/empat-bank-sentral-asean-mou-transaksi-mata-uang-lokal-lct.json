@@ -97,5 +97,39 @@
     ],
     "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/empat-bank-sentral-asean-mou-transaksi-mata-uang-lokal-lct-en.png"
   },
-  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/empat-bank-sentral-asean-mou-transaksi-mata-uang-lokal-lct.png"
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/empat-bank-sentral-asean-mou-transaksi-mata-uang-lokal-lct.png",
+  "ja": {
+    "title": "インドネシア・マレーシア・タイ・フィリピンの中銀が現地通貨決済で覚書　ルピアとペソの直接決済へ",
+    "dek": "インドネシア銀行、マレーシア中央銀行、タイ中央銀行、フィリピン中央銀行は2026年11月13日、現地通貨決済（LCT）に関する新たな覚書に署名した。フィリピン、マレーシア、タイと取引する企業のCFOにとって、米ドルを介した二重の両替なしに決済する選択肢が開ける。",
+    "summaryHtml": "<ul><li>2026年11月13日、インドネシア銀行（BI）のDestry Damayanti総裁、マレーシア中央銀行（BNM）のAbdul Rasheed Ghaffour総裁、タイ中央銀行（BOT）のVitai Ratanakorn総裁、フィリピン中央銀行（BSP）のEli M. Remolona Jr.総裁が、現地通貨決済の枠組みでの協力に関する覚書に署名した。（Bank Indonesia）</li><li>覚書は、貿易や投資を含む2国間の越境取引で現地通貨の利用を促すための、4中銀の枠組みを定める。BI、BNM、BOTが2023年8月に結んだ合意に代わるものだ。（Bank Indonesia、Bernama）</li><li>目的として、越境決済の効率化、複数回の通貨両替に伴うコストの削減、企業の為替リスク管理の柔軟性向上が挙げられた。（Bank Indonesia、Bernama）</li><li>同じ日、BIとBSPは、決済システム、デジタル金融イノベーション、サイバーセキュリティ、イスラム金融、マネーロンダリング対策を含む、より幅広い2国間の覚書にも署名した。Remolona総裁は、不確実性が高まるなかでこの協力は極めて重要だと述べた。（CNBC Indonesia）</li><li>公式発表には、LCTの取引量のデータや実施スケジュールは含まれていない。（Bank Indonesia）</li></ul>",
+    "analysisHtml": "<h3>3カ国から4カ国へ：フィリピンが最新の回廊</h3><p>インドネシア、マレーシア、タイのLCTの枠組みは、2023年の合意以来動いている。今回の覚書で新しいのは、フィリピンが加わり、協力が1つの4者の枠組みにまとめられたことだ。インドネシア企業にとって注目すべきはルピアとペソの回廊である。フィリピンの取引先との取引は、これまでこのLCTの枠組みの対象外だったからだ。同時に署名された、決済システムやサイバーセキュリティを含むBIとBSPの2国間協力は、両国間の決済連携が次の段階になる可能性が高いことを示唆している。</p><h3>実際の恩恵は銀行と流動性次第</h3><p>中央銀行の覚書は枠組みにすぎない。企業が恩恵を受けるのは、市中銀行がルピアとペソの競争力ある直接の相場、十分な流動性、ヘッジ商品を提供したときだ。公式発表には取引量、実施銀行、スケジュールへの言及がないため、フィリピンの回廊で枠組みがどれだけ早く銀行の商品になるかを見守る価値がある。普及は段階的になる可能性が高い。</p><h3>より大きな課題の一部</h3><p>署名は、ASEANがデジタル経済協定DEFAに署名する前日に行われた。DEFAも越境決済システムを対象にしている。両者が目指すのは、米ドルへの依存を減らし、ASEAN域内の取引を安くするという同じ目標だ。企業の財務部門にとっては、地域の多通貨の資金管理が、大企業だけの関心事ではなく必要事項になることを意味する。</p><h3>最も恩恵を受けるのは誰か</h3><p>マレーシア、タイ、フィリピンと定期的に取引する中堅の輸出入企業が最も恩恵を受ける。複数回の両替のコストが利益率に重くのしかかっているからだ。越境決済の事業者や財務管理ソフトウェアにも余地が広がる。一方、契約をすべて米ドル建てにしている企業は、その構造がなお最も効率的かを見直すべきだ。</p>",
+    "actionHtml": "<h3>CFO・財務担当者へ</h3><ol><li>使っている通貨と現在の両替コストを含め、マレーシア、タイ、フィリピンの取引先との取引を洗い出す。</li><li>取引銀行に、リンギ、バーツ、ペソでの直接決済を、相場やヘッジ商品とともに提供しているか確認する。</li><li>コストが下がるなら、新しい契約に現地通貨建ての条項を入れることを検討する。</li><li>ERPと会計システムが、地域の多通貨取引を記帳し照合できることを確認する。</li></ol><h3>フィンテック・決済事業者へ</h3><p>ルピアとペソの回廊向けの決済・資金管理の商品を準備し、BIとBSPの決済システム協力の動きを追う。</p>",
+    "faqHtml": "<h3>現地通貨決済（LCT）とは何か</h3><p>LCTは、越境取引を米ドルを介さず、ルピアとペソのように2国の通貨で直接決済するよう促す枠組みである。</p><h3>4中銀の覚書とBI・BSPの覚書はどう違うのか</h3><p>4者の覚書は、インドネシア、マレーシア、タイ、フィリピンのLCTの枠組みだけを対象とする。BI・BSPの覚書は2国間でより幅広く、決済システム、サイバーセキュリティ、イスラム金融などを含む。</p>",
+    "dataFigure": "4中銀",
+    "dataLabel": "フィリピンの参加後、新たな現地通貨決済（LCT）の枠組みに加わるASEANの中央銀行",
+    "dataSource": "インドネシア銀行、2026年11月13日",
+    "seoTitle": "ASEAN4中銀が現地通貨決済で覚書、ペソも対象に",
+    "seoDescription": "インドネシア、マレーシア、タイ、フィリピンの中銀が現地通貨決済（LCT）の覚書に署名。ルピアとペソの直接決済が企業の財務に与える影響を解説。",
+    "audience": [
+      "CFO",
+      "財務担当者",
+      "輸出入企業",
+      "決済フィンテック"
+    ],
+    "chart": {
+      "bars": [
+        {
+          "label": "2023年覚書",
+          "value": 3,
+          "display": "3"
+        },
+        {
+          "label": "2026年覚書",
+          "value": 4,
+          "display": "4"
+        }
+      ]
+    },
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/empat-bank-sentral-asean-mou-transaksi-mata-uang-lokal-lct-ja.png"
+  }
 }

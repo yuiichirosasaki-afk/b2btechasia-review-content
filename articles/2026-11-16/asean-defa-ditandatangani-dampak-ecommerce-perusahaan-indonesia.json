@@ -97,5 +97,39 @@
     ],
     "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/asean-defa-ditandatangani-dampak-ecommerce-perusahaan-indonesia-en.png"
   },
-  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/asean-defa-ditandatangani-dampak-ecommerce-perusahaan-indonesia.png"
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/asean-defa-ditandatangani-dampak-ecommerce-perusahaan-indonesia.png",
+  "ja": {
+    "title": "ASEAN、マニラでDEFAに署名　データ・決済・AIの越境ルールが11カ国を拘束へ",
+    "dek": "ASEAN加盟国は2026年11月14日、マニラでデジタル経済枠組み協定（DEFA）に署名した。域内で初めての、単独で法的拘束力を持つデジタル経済協定だ。国境を越えて販売や決済を行うインドネシア企業にとって、ルールの対象は電子商取引だけでなく、データ、決済、デジタルID、AIへと広がる。",
+    "summaryHtml": "<ul><li>ASEAN加盟国は2026年11月14日（土）、マニラでのASEAN経済共同体理事会（AECC）の会合で、DEFAに正式に署名した。協定はインドネシアが2023年のASEAN議長国のときに提唱したものだ。（ANTARA）</li><li>DEFAはASEAN初の、単独で法的拘束力を持つデジタル経済協定とされる。デジタル貿易、越境データ流通、電子決済、サイバーセキュリティ、人工知能を対象とし、優先プロジェクトにはデジタル決済システム、企業のデジタルID、電子貿易書類が含まれ得る。（The Star）</li><li>DEFAは、インドネシアが2021年法律第4号で批准した2019年のASEAN電子商取引協定に代わる。インドネシアは省庁間委員会を通じてDEFAを批准する。（ANTARA）</li><li>発効時期は報道によって異なる。ANTARAは最後の加盟国の署名から180日後とし、The Starは日本の経済産業省の説明として署名から180日後としている。ASEANは2027年初めに最初のプロジェクトを始める目標だ。（ANTARA、The Star）</li><li>BCGの試算によると、DEFAが完全に実施されれば、ASEANのデジタル経済の規模は2030年までに約1兆ドルから2兆ドルに拡大し得る。プラボウォ・スビアント大統領は2026年11月15日の第49回ASEAN首脳会議でこの数字に言及した。アイルランガ・ハルタルト経済担当調整相は、署名を戦略的な一歩と評価した。（ANTARA）</li></ul>",
+    "analysisHtml": "<h3>ネット通販のルールから、デジタル基盤のルールへ</h3><p>2019年のASEAN電子商取引協定は、主にオンラインでの売買を対象としていた。DEFAはさらに踏み込み、データ流通、決済、企業のデジタルID、サイバーセキュリティ、AIを1つの拘束力ある枠組みに収める。企業にとっては、顧客データの保管場所、越境の決済にどの決済ゲートウェイを使うか、取引先をどう確認するかといった技術上の判断が、国内のルールだけでなく地域の約束事に照らして評価されるようになる。</p><h3>報道が語っていないこと：具体的な義務と開始時期</h3><p>現時点の報道は、データの国内保管の例外や越境データ流通をどこまで開くかといった具体的な義務を、まだ詳しく伝えていない。2つの報道は発効日の説明も異なる。インドネシアには省庁間委員会を通じた批准というもう1つの手続きもある。このため、インドネシア企業への実務上の影響は2027年後半から段階的に表れ、施行規則次第になる可能性が高い。見出しだけを根拠にデータのアーキテクチャを変えるべきではない。</p><h3>2兆ドルという数字は慎重に読む必要がある</h3><p>2兆ドルは完全実施を前提にしたBCGの試算であり、基本シナリオの予測ではない。算出方法が違うため、Google、Temasek、Bainの報告書でよく引用される流通取引総額（GMV）とも直接比べられない。ビジネスにとってより重要なのは、DEFAの柔軟な仕組みだ。準備の整った国が個別の取り組みで先行できる。このため越境の円滑化は均一には進まず、一部の回廊が他より早く開く可能性が高い。</p><h3>誰が得をし、誰が押されるか</h3><p>すでに他のASEAN諸国に販売している、あるいは販売したい販売事業者やブランド、越境決済の事業者、電子貿易書類の事業者は、優先プロジェクトが進めば最も恩恵を受ける。一方で、ルールの統一が進めば、e-Conomy SEA 2025で域内最大のデジタル経済とされるインドネシアに、近隣国の事業者が参入しやすくもなる。ルールの違いに守られてきた地場の事業者は注意深く見ておくべきだ。</p>",
+    "actionHtml": "<h3>EC責任者・CMOへ</h3><ol><li>2027〜2028年のオンライン展開で現実的なASEAN市場を洗い出し、どの回廊でDEFAのプロジェクトが先に動くかを追う。</li><li>域内の決済枠組みが整う前に、チェックアウトでの越境決済の選択肢を用意し、コストを試算する。</li></ol><h3>CIO・法務・コンプライアンス部門へ</h3><ol><li>海外に流れている顧客データ（クラウド、CRM、分析）と、その現在の法的根拠を棚卸しする。</li><li>インドネシアの批准手続きと施行規則を追い、業界団体を通じて意見を出す。</li><li>企業のデジタルIDの仕組みが採用された場合に対応できる、取引先の確認手順を準備する。</li></ol><h3>テクノロジー提供企業へ</h3><p>機会は、越境決済、電子貿易書類、企業の本人確認、複数国のデータコンプライアンスのツールにある。先行して参加する国に合わせて調整できる製品を作るべきだ。</p>",
+    "faqHtml": "<h3>ASEANのDEFAとは何か</h3><p>デジタル経済枠組み協定（DEFA）は、デジタル貿易、越境データ流通、電子決済、サイバーセキュリティ、AIを対象とする、法的拘束力を持つASEANのデジタル経済協定である。2026年11月14日にマニラで署名された。</p><h3>DEFAはいつ発効するのか</h3><p>報道によって異なる。日本の経済産業省の説明では署名から180日後、ANTARAによれば最後の加盟国の署名から180日後だ。インドネシアは別途批准が必要である。</p><h3>DEFAはASEAN電子商取引協定に代わるのか</h3><p>代わる。DEFAは、インドネシアが2021年法律第4号で批准した2019年のASEAN電子商取引協定を置き換える。</p>",
+    "dataFigure": "2兆ドル",
+    "dataLabel": "DEFAが完全に実施された場合の2030年のASEANデジタル経済の潜在規模",
+    "dataSource": "BCG試算、ANTARA報道、2026年11月13日",
+    "seoTitle": "ASEANがDEFAに署名、インドネシア企業への影響",
+    "seoDescription": "ASEANがマニラでデジタル経済枠組み協定（DEFA）に署名。データ、決済、AIの越境ルールがインドネシア企業のEC・決済・データ管理に与える影響を解説。",
+    "audience": [
+      "EC責任者",
+      "CMO",
+      "CIO・法務",
+      "決済事業者"
+    ],
+    "chart": {
+      "bars": [
+        {
+          "label": "現在",
+          "value": 1,
+          "display": "1兆ドル"
+        },
+        {
+          "label": "2030年(DEFA)",
+          "value": 2,
+          "display": "2兆ドル"
+        }
+      ]
+    },
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/asean-defa-ditandatangani-dampak-ecommerce-perusahaan-indonesia-ja.png"
+  }
 }
