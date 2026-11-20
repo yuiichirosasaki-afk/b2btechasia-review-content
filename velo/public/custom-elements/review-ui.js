@@ -6,7 +6,8 @@
 //   top    — top bar (with ID|EN switch) + compact masthead + category nav + Expo leaderboard (article and Siaran Pers pages)
 //   side   — article sidebar (Ditulis untuk, Berita Terkait, Expo card)
 //   bottom — related articles + vendor banner + Expo band + footer
-// Language: d.lang = 'id' | 'en'; d.path = language-neutral path for the ID|EN switch.
+// Language: d.lang = 'id' | 'en' | 'ja'; d.path = language-neutral path for the ID|EN|JP switch.
+// Japanese pages live at /jp/review…; d.siteBase is the prefix for Expo and press-release links (the Expo site has no /jp).
 // Banners: leader() visitor leaderboard, vendorWide() exhibitor banner, rect() side banner, expoBand().
 
 const NAVY = '#0B2A4A';
@@ -16,19 +17,19 @@ const MUTED = '#4A5361';
 const SUB = '#5F6B7A';
 const LINE = '#D9DDE3';
 const PANEL = '#F4F5F7';
-const SERIF = "'Source Serif 4', Georgia, serif";
-const SANS = "'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif";
+const SERIF = "'Source Serif 4', 'Noto Serif JP', Georgia, serif";
+const SANS = "'IBM Plex Sans', 'Noto Sans JP', system-ui, -apple-system, 'Segoe UI', sans-serif";
 
 // Categories = VRI B2B Tech Asia 2027 zones (3 hubs x 4 zones). Keep in sync with taxonomy.json.
 const HUBS = [
   { n: 'AI & Automation Hub', s: 'ai-automation-hub', no: 1, color: '#8E3B3F', tint: '#F7EFEF', ink: '#5A2427',
-    id: 'Keputusan teknis dan infrastruktur', en: 'Technical & infrastructure decisions', who: 'CTO, IT Director, Infrastructure Lead',
+    id: 'Keputusan teknis dan infrastruktur', en: 'Technical & infrastructure decisions', ja: '技術とインフラの意思決定', who: 'CTO, IT Director, Infrastructure Lead',
     zones: [['AI & Automation', 'ai-automation', 'AI'], ['Cloud & IT Infrastructure', 'cloud-it-infrastructure', 'Cloud'], ['Cybersecurity & Data Protection', 'cybersecurity-data-protection', 'Cybersecurity'], ['Enterprise Software & ERP', 'enterprise-software-erp', 'ERP']] },
   { n: 'Growth & Revenue Hub', s: 'growth-revenue-hub', no: 2, color: '#2C4A68', tint: '#EEF2F7', ink: '#1E3550',
-    id: 'Akuisisi dan retensi pelanggan', en: 'Customer acquisition & retention', who: 'CMO, Head of Sales, Growth Lead',
+    id: 'Akuisisi dan retensi pelanggan', en: 'Customer acquisition & retention', ja: '顧客の獲得と維持', who: 'CMO, Head of Sales, Growth Lead',
     zones: [['Marketing Technology', 'marketing-technology', 'MarTech'], ['Sales & CRM', 'sales-crm', 'Sales & CRM'], ['Customer Engagement & CX', 'customer-engagement-cx', 'CX'], ['E-Commerce & Retail Tech', 'ecommerce-retail-tech', 'E-Commerce']] },
   { n: 'Back Office & Operations Hub', s: 'back-office-operations-hub', no: 3, color: '#3E5A44', tint: '#EEF3EF', ink: '#2C4231',
-    id: 'Fungsi yang menjaga bisnis tetap berjalan', en: 'Functions that keep business running', who: 'CFO, HR Director, Operations Head',
+    id: 'Fungsi yang menjaga bisnis tetap berjalan', en: 'Functions that keep business running', ja: '事業を支えるバックオフィス機能', who: 'CFO, HR Director, Operations Head',
     zones: [['FinTech & Financial Operations', 'fintech-financial-operations', 'FinTech'], ['HR Tech & Workforce Management', 'hr-tech-workforce', 'HR Tech'], ['Legal, Compliance & Governance Tech', 'legal-compliance-governance', 'Legal & Compliance'], ['Logistics & Supply Chain Tech', 'logistics-supply-chain', 'Logistics']] },
 ];
 const LEGACY = { Cybersecurity: 'Cybersecurity & Data Protection', 'AI & Data': 'AI & Automation', 'Cloud & Data Center': 'Cloud & IT Infrastructure', Regulasi: 'Legal, Compliance & Governance Tech' };
@@ -43,8 +44,10 @@ const EN_MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July
 const EN_MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const EN_DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 const EN_TYPE = { analisis: 'Analysis', berita: 'News', penjelasan: 'Explainer' };
+const JA_TYPE = { analisis: '分析', berita: 'ニュース', penjelasan: '解説' };
+const JA_DAYS = ['日', '月', '火', '水', '木', '金', '土'];
 
-// UI text. Page code sets d.lang = 'id' | 'en'.
+// UI text. Page code sets d.lang = 'id' | 'en' | 'ja'.
 const TEXT = {
   id: {
     latest: 'Terbaru', pr: 'Siaran Pers', tagline: 'Berita dan analisis teknologi B2B untuk pengambil keputusan',
@@ -76,6 +79,21 @@ const TEXT = {
     about: 'Published by VRI B2B Tech Asia. Every quotation credits its original source; copyright in quoted material remains with each publisher. Analysis is written by the VRI B2B Tech Asia Review editors.',
     topics: 'Topics', allZones: 'All zones', allIn: (h) => 'All of ' + h, expo: 'Expo', exhibitor: 'Exhibitors', navLabel: 'Categories', langLabel: 'Language',
   },
+  ja: {
+    latest: '最新', pr: 'プレスリリース', tagline: 'インドネシアのB2Bテクノロジーを意思決定者のために読み解く',
+    behind: 'ニュースの背景', behindSub: 'ニュースの要点と、ビジネスへの意味を読み解く編集部の分析',
+    prSub: '企業がVRITIMESを通じて配信（インドネシア語）。編集部の記事ではありません', prAll: 'プレスリリース一覧 →', via: 'VRITIMES経由',
+    byline: 'VRI B2B Tech Asia Review 編集部', minRead: '分で読めます', forWho: '対象', writtenFor: 'こんな方に', related: '関連記事',
+    empty: 'このセクションにはまだ記事がありません。', expoLink: 'VRI B2B Tech Asia 2027 →', register: '来場登録',
+    exhibitors: '出展企業を見る', proposal: '出展資料を請求', expoDates: '2027年7月14〜15日', ad: '広告', cta: 'イベント詳細を見る', dateLabel: '日程', venueLabel: '会場', expoTagline: '東南アジア最大のB2Bソフトウェア展示会',
+    expoKicker: '展示会・ジャカルタ', expoDesc: 'ここで読んだSaaS、AI、サイバーセキュリティの提供企業に、会場で直接会えます。',
+    expoShort: 'インドネシアの企業向けSaaS・AI・サイバーセキュリティ展示会。',
+    sideTitle: (c) => `VRI B2B Tech Asia 2027で${c}の提供企業に会う`,
+    vendorTitle: 'テクノロジーベンダーの方へ', vendorHead: 'VRI B2B Tech Asia 2027に出展する',
+    vendorDesc: '3つのハブと12のゾーン。購買委員会の意思決定の流れに沿って構成しています。',
+    about: '発行：VRI B2B Tech Asia。引用にはすべて出典を明記しています。引用部分の著作権は各媒体に帰属します。分析はVRI B2B Tech Asia Review編集部によるものです。',
+    topics: 'トピック', allZones: 'すべてのゾーン', allIn: (h) => h + 'のすべて', expo: 'Expo', exhibitor: '出展企業', navLabel: 'カテゴリー', langLabel: '言語',
+  },
 };
 const VENUE = 'The Ritz-Carlton Jakarta, Pacific Place';
 // Expo brand (from b2btechasia.com): Montserrat, navy #121A3A / #1F2853, indigo #4E54C8. Images are the Expo site's own.
@@ -95,12 +113,13 @@ function esc(s) {
 function wib(d) { return new Date(new Date(d).getTime() + 7 * 3600 * 1000); }
 let LANG = 'id';
 const en = () => LANG === 'en';
-function longDate(d) { const x = wib(d); return `${(en() ? EN_DAYS : DAYS)[x.getUTCDay()]}, ${x.getUTCDate()} ${(en() ? EN_MONTHS : MONTHS)[x.getUTCMonth()]} ${x.getUTCFullYear()}`; }
-function date(d) { if (!d) return ''; const x = wib(d); return `${x.getUTCDate()} ${(en() ? EN_MONTHS : MONTHS)[x.getUTCMonth()]} ${x.getUTCFullYear()}`; }
-function shortDate(d) { const x = wib(d); return `${x.getUTCDate()} ${(en() ? EN_MON : MON)[x.getUTCMonth()]}`; }
+const ja = () => LANG === 'ja';
+function longDate(d) { const x = wib(d); if (ja()) return `${x.getUTCFullYear()}年${x.getUTCMonth() + 1}月${x.getUTCDate()}日（${JA_DAYS[x.getUTCDay()]}）`; return `${(en() ? EN_DAYS : DAYS)[x.getUTCDay()]}, ${x.getUTCDate()} ${(en() ? EN_MONTHS : MONTHS)[x.getUTCMonth()]} ${x.getUTCFullYear()}`; }
+function date(d) { if (!d) return ''; const x = wib(d); if (ja()) return `${x.getUTCFullYear()}年${x.getUTCMonth() + 1}月${x.getUTCDate()}日`; return `${x.getUTCDate()} ${(en() ? EN_MONTHS : MONTHS)[x.getUTCMonth()]} ${x.getUTCFullYear()}`; }
+function shortDate(d) { const x = wib(d); if (ja()) return `${x.getUTCMonth() + 1}月${x.getUTCDate()}日`; return `${x.getUTCDate()} ${(en() ? EN_MON : MON)[x.getUTCMonth()]}`; }
 function catSlug(name) { const z = zoneOf(name); return z ? z.s : ''; }
 function catName(name) { const z = zoneOf(name); return z ? z.n : (name || ''); }
-function typeName(t) { return (en() ? EN_TYPE : TYPE_LABEL)[t] || (en() ? 'Analysis' : 'Analisis'); }
+function typeName(t) { if (ja()) return JA_TYPE[t] || '分析'; return (en() ? EN_TYPE : TYPE_LABEL)[t] || (en() ? 'Analysis' : 'Analisis'); }
 function T() { return TEXT[LANG] || TEXT.id; }
 
 const CSS = `
@@ -187,6 +206,12 @@ function ensureAssets() {
   l.rel = 'stylesheet';
   l.href = 'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap';
   document.head.appendChild(l);
+  if (document.documentElement.lang === 'ja' || /^\/jp(\/|$)/.test(location.pathname)) {
+    const j = document.createElement('link');
+    j.rel = 'stylesheet';
+    j.href = 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@600;700&display=swap';
+    document.head.appendChild(j);
+  }
   const s = document.createElement('style');
   s.id = 'rv-css';
   s.textContent = CSS;
@@ -204,11 +229,13 @@ class ReviewUi extends HTMLElement {
 
   render() {
     const d = this.d;
-    LANG = d.lang === 'en' ? 'en' : 'id';
+    LANG = d.lang === 'en' || d.lang === 'ja' ? d.lang : 'id';
     this.setAttribute('lang', LANG);
     const part = this.getAttribute('part') || 'front';
     const base = d.base || '';
     const L = (path) => base + path;
+    const siteBase = d.siteBase != null ? d.siteBase : base;
+    L.site = (path) => siteBase + path; // Expo pages and press releases (no Japanese version)
     this.classList.toggle('rv-narrow', !!d.narrow);
     let html = '';
     if (part === 'front') html = d.view === 'list' ? this.list(d, L) : this.front(d, L);
@@ -223,15 +250,17 @@ class ReviewUi extends HTMLElement {
   langSwitch(d) {
     const path = d.path || '/review';
     const on = (l) => (LANG === l ? ' class="on" aria-current="true"' : '');
+    // Press releases have no Japanese page: JP goes to the Japanese Review front page.
+    const jaPath = path.indexOf('/siaran-pers') === 0 ? '/jp/review' : '/jp' + path;
     return `<span class="rv-lang" aria-label="${T().langLabel}" style="display:inline-flex;gap:6px;align-items:center;font-weight:600">
-<a href="${esc('/id' + path)}" hreflang="id"${on('id')}>ID</a><span style="color:#B7BEC8">|</span><a href="${esc(path)}" hreflang="en"${on('en')}>EN</a></span>`;
+<a href="${esc('/id' + path)}" hreflang="id"${on('id')}>ID</a><span style="color:#B7BEC8">|</span><a href="${esc(path)}" hreflang="en"${on('en')}>EN</a><span style="color:#B7BEC8">|</span><a href="${esc(jaPath)}" hreflang="ja"${on('ja')}>JP</a></span>`;
   }
 
   topbar(d, L) {
     return `<div class="rv-topbar"><div class="rv-wrap">
 <span>${esc(longDate(d.now || Date.now()))} · Jakarta</span>
 <span style="display:inline-flex;gap:20px;align-items:center;flex-wrap:wrap">
-<a href="${L('/')}" style="color:${NAVY};font-weight:600">${T().expoLink}</a>
+<a href="${L.site('/')}" style="color:${NAVY};font-weight:600">${T().expoLink}</a>
 ${this.langSwitch(d)}
 </span>
 </div></div>`;
@@ -312,7 +341,7 @@ ${this.subNav(d, L)}
   leader(d, L, top, inGrid) {
     const t = T();
     return `<div ${inGrid ? 'style="grid-column:1/-1"' : `class="rv-wrap" style="margin-top:${top == null ? 24 : top}px"`}><span class="rv-adlabel">${t.ad}</span>
-<a class="tk" href="${L('/')}" aria-label="VRI B2B Tech Asia 2027 — ${esc(t.cta)}">
+<a class="tk" href="${L.site('/')}" aria-label="VRI B2B Tech Asia 2027 — ${esc(t.cta)}">
 <span class="tk-stub" style="background-image:url('${bnMonas(760, 380)}')"><span class="tk-tag">Jakarta · 2027</span></span>
 <span class="tk-body">
 <span class="bn-col" style="gap:6px">
@@ -328,7 +357,7 @@ ${this.ticketRows()}
   vendorWide(d, L) {
     const t = T();
     return `<div style="grid-column:1/-1"><span class="rv-adlabel">${t.ad}</span>
-<a class="bn bn-vendor" href="${L('/request-proposal-form')}" style="background-image:linear-gradient(90deg,rgba(78,84,200,.96) 0%,rgba(31,40,83,.92) 55%,rgba(18,26,58,.45) 100%),url('${bnImg(BN_HALL, 1400, 420)}')">
+<a class="bn bn-vendor" href="${L.site('/request-proposal-form')}" style="background-image:linear-gradient(90deg,rgba(78,84,200,.96) 0%,rgba(31,40,83,.92) 55%,rgba(18,26,58,.45) 100%),url('${bnImg(BN_HALL, 1400, 420)}')">
 <span class="bn-col">
 <span class="bn-date">${t.vendorTitle} · ${t.expoDates}</span>
 <span class="bn-title" style="font-size:26px">${t.vendorHead}</span>
@@ -344,7 +373,7 @@ ${this.ticketRows()}
     const t = T();
     if (vendor) {
       return `<div style="margin-top:24px"><span class="rv-adlabel">${t.ad}</span>
-<a class="bn bn-rect" href="${L('/request-proposal-form')}" style="background:${BN_NAVY2}">
+<a class="bn bn-rect" href="${L.site('/request-proposal-form')}" style="background:${BN_NAVY2}">
 <span class="bn-photo" style="background-image:linear-gradient(180deg,rgba(18,26,58,0) 40%,rgba(31,40,83,.9) 100%),url('${bnImg(BN_HALL, 640, 360)}')"><span class="bn-pill">${t.vendorTitle}</span></span>
 <span class="bn-body">
 <span class="bn-title" style="font-size:20px">${t.vendorHead}</span>
@@ -353,7 +382,7 @@ ${this.ticketRows()}
 </span></a></div>`;
     }
     return `<div style="margin-top:24px"><span class="rv-adlabel">${t.ad}</span>
-<a class="tk tk-vert" href="${L('/')}">
+<a class="tk tk-vert" href="${L.site('/')}">
 <span class="tk-stub" style="background-image:url('${bnMonas(640, 360)}')"><span class="tk-tag">Jakarta · 2027</span></span>
 <span class="tk-body">
 <span class="tk-label">${t.expoTagline}</span>
@@ -454,7 +483,7 @@ ${pr.slice(0, 4).map((r) => this.prCard(r, L, true)).join('')}
 ${this.hubBadge(h)}
 <h2 class="rv-serif" style="margin:0;font-size:22px;font-weight:700"><a href="${L('/review?kategori=' + h.s)}" style="color:${NAVY}">${esc(h.n)}</a></h2>
 </div>
-<span style="font-size:14px;color:${MUTED};margin:6px 0 10px">${esc(en() ? h.en : h.id)} · ${t.forWho}: ${esc(h.who)}</span>
+<span style="font-size:14px;color:${MUTED};margin:6px 0 10px">${esc(ja() ? h.ja : (en() ? h.en : h.id))} · ${t.forWho}: ${esc(h.who)}</span>
 <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px">${h.zones.map(([n, s]) => `<a href="${L('/review?kategori=' + s)}" style="font-size:12px;font-weight:600;border:1px solid #C4CAD3;padding:4px 8px;color:${INK}">${esc(n)}</a>`).join('')}</div>
 ${items.length ? `<a href="${L('/review/' + items[0].slug)}">${this.heroImage(items[0], L)}</a>
 ${items.slice(0, 3).map((it) => `<a href="${L('/review/' + it.slug)}" style="display:flex;flex-direction:column;gap:6px;padding:14px 0;border-bottom:1px solid ${LINE}">
@@ -478,7 +507,7 @@ ${items.slice(0, 3).map((it) => `<a href="${L('/review/' + it.slug)}" style="dis
 
   prCard(r, L, label) {
     const t = T();
-    return `<a href="${L('/siaran-pers/' + r.slug)}" style="display:flex;flex-direction:column;gap:10px">
+    return `<a href="${L.site('/siaran-pers/' + r.slug)}" style="display:flex;flex-direction:column;gap:10px">
 ${r.imageUrl ? `<img class="rv-img" src="${esc(r.imageUrl)}" alt="" loading="lazy" style="background:${PANEL}">` : `<div class="rv-ph">${t.pr}</div>`}
 ${label ? `<span class="rv-kicker" style="font-size:11px;display:flex;gap:8px;align-items:center"><span style="color:${MUTED};border:1px solid #9AA3AF;padding:2px 6px">${t.pr}</span></span>` : ''}
 <span class="rv-serif" style="font-size:18px;line-height:1.35;font-weight:600">${esc(r.title)}</span>
@@ -555,7 +584,7 @@ ${rel.map((r) => `<a href="${L('/review/' + r.slug)}" class="rv-serif" style="di
 <span class="rv-kicker" style="font-size:11px;color:#C9D6E8">${t.expoDates} · Jakarta</span>
 <h2 class="rv-serif" style="margin:8px 0;font-size:22px;line-height:1.3;color:#fff">${esc(t.sideTitle(catName(a.category || 'teknologi')))}</h2>
 <p style="margin:0 0 16px;font-size:14px;line-height:1.5;color:#E3EAF3">${t.expoShort} ${VENUE}.</p>
-<a href="${L('/')}" class="rv-btn" style="background:#fff;color:${NAVY}">${t.register}</a>
+<a href="${L.site('/')}" class="rv-btn" style="background:#fff;color:${NAVY}">${t.register}</a>
 </section>`);
     return out.join('');
   }
@@ -565,7 +594,7 @@ ${rel.map((r) => `<a href="${L('/review/' + r.slug)}" class="rv-serif" style="di
     const t = T();
     return `<div class="rv-wrap" style="margin-top:${standalone ? 32 : 64}px">
 <section class="tk tk-band" aria-label="VRI B2B Tech Asia 2027">
-<a class="tk-stub" href="${L('/')}" style="background-image:url('${bnMonas(900, 600)}')"><span class="tk-tag">Jakarta · 2027</span></a>
+<a class="tk-stub" href="${L.site('/')}" style="background-image:url('${bnMonas(900, 600)}')"><span class="tk-tag">Jakarta · 2027</span></a>
 <span class="tk-body">
 <span class="bn-col" style="gap:10px;flex:1 1 380px">
 ${this.logoChip()}
@@ -575,8 +604,8 @@ ${this.ticketRows()}
 <span style="font-size:15px;line-height:1.55;color:#4A5361;max-width:520px">${t.expoDesc}</span>
 </span>
 <span style="display:flex;flex-direction:column;gap:10px">
-<a href="${L('/')}" class="tk-cta">${t.cta} →</a>
-<a href="${L(d.exhibitorPath || '/copy-of-agenda-2027')}" class="tk-cta tk-cta-ghost">${t.exhibitors}</a>
+<a href="${L.site('/')}" class="tk-cta">${t.cta} →</a>
+<a href="${L.site(d.exhibitorPath || '/copy-of-agenda-2027')}" class="tk-cta tk-cta-ghost">${t.exhibitors}</a>
 </span>
 </span></section></div>`;
   }
@@ -593,7 +622,7 @@ ${this.ticketRows()}
 <div style="display:flex;flex-wrap:wrap;gap:40px">
 ${HUBS.map((h) => `<div style="display:flex;flex-direction:column;gap:10px;max-width:220px"><a href="${L('/review?kategori=' + h.s)}" style="color:${INK}"><strong>${esc(h.n)}</strong></a>${h.zones.map(([n, s]) => `<a href="${L('/review?kategori=' + s)}" style="color:${MUTED}">${esc(n)}</a>`).join('')}</div>`).join('')}
 <div style="display:flex;flex-direction:column;gap:10px"><strong style="color:${INK}">${t.pr}</strong><a href="${L('/review?kategori=siaran-pers')}" style="color:${MUTED}">${t.prAll.replace(' →', '')}</a></div>
-<div style="display:flex;flex-direction:column;gap:10px"><strong style="color:${INK}">${t.expo}</strong><a href="${L('/')}" style="color:${MUTED}">VRI B2B Tech Asia</a><a href="${L('/register-now-2')}" style="color:${MUTED}">${t.register}</a><a href="${L(d.exhibitorPath || '/copy-of-agenda-2027')}" style="color:${MUTED}">${t.exhibitor}</a><a href="${L('/request-proposal-form')}" style="color:${MUTED}">${t.proposal}</a></div>
+<div style="display:flex;flex-direction:column;gap:10px"><strong style="color:${INK}">${t.expo}</strong><a href="${L.site('/')}" style="color:${MUTED}">VRI B2B Tech Asia</a><a href="${L.site('/register-now-2')}" style="color:${MUTED}">${t.register}</a><a href="${L.site(d.exhibitorPath || '/copy-of-agenda-2027')}" style="color:${MUTED}">${t.exhibitor}</a><a href="${L.site('/request-proposal-form')}" style="color:${MUTED}">${t.proposal}</a></div>
 </div></div></footer>`;
   }
 }

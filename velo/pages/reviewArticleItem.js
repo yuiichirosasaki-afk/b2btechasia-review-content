@@ -1,4 +1,5 @@
 // Page code: Review Articles (Item) — URL /review/{slug}
+// The same code runs on the Japanese item page /jp/review/{slug} (a second dynamic item page on ReviewArticles).
 // Layout (top to bottom): #customElement1 (<review-ui part="top">), #text747 (headline block, server-rendered),
 // #image262 (hero data graphic), #text748 (article body, server-rendered),
 // #customElement2 (<review-ui part="bottom">: related articles, Expo band, footer). Article text stays in Wix text elements so it is indexable.
@@ -6,6 +7,7 @@
 import wixData from 'wix-data';
 import wixSeoFrontend from 'wix-seo-frontend';
 import wixWindowFrontend from 'wix-window-frontend';
+import wixLocationFrontend from 'wix-location-frontend';
 
 const NAVY = '#0B2A4A';
 const RED = '#B42318';
@@ -18,6 +20,7 @@ const MONTHS = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 
 const TYPE_LABEL = { analisis: 'Analisis', berita: 'Berita', penjelasan: 'Penjelasan' };
 const EN_MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const EN_TYPE = { analisis: 'Analysis', berita: 'News', penjelasan: 'Explainer' };
+const JA_TYPE = { analisis: '分析', berita: 'ニュース', penjelasan: '解説' };
 const TXT = {
   id: {
     news: 'Berita', byline: 'Redaksi VRI B2B Tech Asia Review', minRead: 'menit baca', graphic: 'Grafis: VRI B2B Tech Asia Review. Data:',
@@ -33,7 +36,26 @@ const TXT = {
     rights: 'Quotations are used sparingly and credited to their source. Copyright in quoted material remains with each publisher. Analysis reflects the view of the VRI B2B Tech Asia Review editors.',
     moreIn: (c) => 'More in ' + c, related: 'Related', author: 'VRI B2B Tech Asia Review editors',
   },
+  ja: {
+    news: 'ニュース', byline: 'VRI B2B Tech Asia Review 編集部', minRead: '分で読めます', graphic: '図表：VRI B2B Tech Asia Review　データ：',
+    summary: 'ニュースの要点', summaryNote: '報道をもとに編集部が要約。直接の引用は明示し、出典を記載しています。',
+    behind: 'ニュースの背景', explainer: '解説', action: 'あなたにとっての意味', faq: 'よくある質問', sources: '出典',
+    rights: '引用は必要な範囲にとどめ、出典を明記しています。引用部分の著作権は各媒体に帰属します。分析はVRI B2B Tech Asia Review編集部の見解です。',
+    moreIn: (c) => c + 'の記事', related: '関連記事', author: 'VRI B2B Tech Asia Review 編集部',
+  },
 };
+const SITE = 'https://www.b2btechasia.com';
+// Language of this page: /jp/review/… is Japanese; otherwise Wix Multilingual decides (en = /, id = /id).
+function pageLang() {
+  if (/\/jp\/review(\/|\?|#|$)/.test(wixLocationFrontend.url || '')) return 'ja';
+  return (wixWindowFrontend.multilingual && wixWindowFrontend.multilingual.currentLanguage) || 'id';
+}
+function langLinks(path, lang) {
+  const href = { id: SITE + '/id' + path, en: SITE + path, ja: SITE + '/jp' + path };
+  return [{ rel: 'canonical', href: href[lang] }]
+    .concat(['id', 'en', 'ja'].map((l) => ({ rel: 'alternate', hreflang: l, href: href[l] })))
+    .concat([{ rel: 'alternate', hreflang: 'x-default', href: href.en }]);
+}
 // Categories = VRI B2B Tech Asia 2027 zones. Keep in sync with taxonomy.json.
 const HUBS = [
   ['AI & Automation Hub', 'ai-automation-hub', [['AI & Automation', 'ai-automation'], ['Cloud & IT Infrastructure', 'cloud-it-infrastructure'], ['Cybersecurity & Data Protection', 'cybersecurity-data-protection'], ['Enterprise Software & ERP', 'enterprise-software-erp']]],
@@ -52,20 +74,27 @@ function esc(s) {
   return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 function wib(d) { return new Date(new Date(d).getTime() + 7 * 3600 * 1000); }
-function dateTime(d, isEn) {
+function dateTime(d, isEn, isJa) {
   const x = wib(d);
   const hh = String(x.getUTCHours()).padStart(2, '0');
   const mm = String(x.getUTCMinutes()).padStart(2, '0');
+  if (isJa) return `${x.getUTCFullYear()}年${x.getUTCMonth() + 1}月${x.getUTCDate()}日 ${hh}:${mm}（ジャカルタ時間）`;
   return isEn
     ? `${x.getUTCDate()} ${EN_MONTHS[x.getUTCMonth()]} ${x.getUTCFullYear()}, ${hh}:${mm} WIB`
     : `${x.getUTCDate()} ${MONTHS[x.getUTCMonth()]} ${x.getUTCFullYear()}, ${hh}.${mm} WIB`;
 }
-// English fields come from enJson (the `en` object in the feed); Indonesian is the fallback.
-function localize(a, isEn) {
-  if (!isEn || !a.enJson) return a;
-  try { return Object.assign({}, a, JSON.parse(a.enJson)); } catch (e) { return a; }
+// English fields come from enJson, Japanese from jaJson; Indonesian is the fallback.
+function localize(a, lang) {
+  const j = lang === 'en' ? a.enJson : (lang === 'ja' ? a.jaJson : '');
+  if (!j) return a;
+  try { return Object.assign({}, a, JSON.parse(j)); } catch (e) { return a; }
 }
-function words(h) { return String(h || '').replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length; }
+// Japanese has no spaces: count about 500 characters as one minute.
+function words(h) {
+  const t = String(h || '').replace(/<[^>]+>/g, ' ');
+  const cjk = (t.match(/[\u3040-\u30ff\u4e00-\u9fff]/g) || []).length;
+  return t.split(/\s+/).filter(Boolean).length + Math.round(cjk / 2.5);
+}
 
 function kicker(text, color) {
   return `<h2 style="font-size:13px; letter-spacing:0.1em; line-height:1.4"><span style="${SANS}; color:${color || NAVY}"><strong>${text}</strong></span></h2>`;
@@ -96,15 +125,16 @@ $w.onReady(async function () {
   const raw = $w('#dynamicDataset').getCurrentItem();
   if (!raw) return;
 
-  const lang = (wixWindowFrontend.multilingual && wixWindowFrontend.multilingual.currentLanguage) || 'id';
-  const base = lang && lang !== 'en' ? '/' + lang : '';
+  const lang = pageLang();
+  const isJa = lang === 'ja';
   const isEn = lang === 'en';
-  const t = TXT[isEn ? 'en' : 'id'];
-  const item = localize(raw, isEn);
+  const base = isJa ? '/jp' : (lang && lang !== 'en' ? '/' + lang : '');
+  const t = TXT[isJa ? 'ja' : (isEn ? 'en' : 'id')];
+  const item = localize(raw, lang);
   const zi = zoneInfo(item.category);
   const catSlug = zi.zoneSlug;
   const catLabel = zi.zone;
-  const type = (isEn ? EN_TYPE : TYPE_LABEL)[item.articleType] || (isEn ? 'Analysis' : 'Analisis');
+  const type = (isJa ? JA_TYPE : (isEn ? EN_TYPE : TYPE_LABEL))[item.articleType] || (isJa ? '分析' : (isEn ? 'Analysis' : 'Analisis'));
   const readMin = Math.max(2, Math.round((words(item.summaryHtml) + words(item.analysisHtml) + words(item.actionHtml) + words(item.faqHtml)) / 200));
 
   const related = await wixData.query('ReviewArticles')
@@ -117,7 +147,7 @@ $w.onReady(async function () {
   const latest = related.length ? related : (sameHub.length ? sameHub : await wixData.query('ReviewArticles')
     .ne('slug', item.slug).le('publishAt', new Date()).descending('publishAt').limit(3).find().then((r) => r.items).catch(() => []));
 
-  const chrome = { base, lang: isEn ? 'en' : 'id', path: '/review/' + item.slug, narrow: true, now: new Date().toISOString(), active: catSlug };
+  const chrome = { base, siteBase: isJa ? '' : base, lang: isJa ? 'ja' : (isEn ? 'en' : 'id'), path: '/review/' + item.slug, narrow: true, now: new Date().toISOString(), active: catSlug };
   const top = $w('#customElement1');
   const bottom = $w('#customElement2');
   top.setAttribute('part', 'top');
@@ -126,19 +156,19 @@ $w.onReady(async function () {
   bottom.setAttribute('data', JSON.stringify(Object.assign({}, chrome, {
     article: { category: item.category, audience: item.audience || [] },
     relatedTitle: related.length ? t.moreIn(catLabel) : (sameHub.length ? t.moreIn(zi.hub) : t.related),
-    related: latest.map((r) => localize(r, isEn)).map((r) => ({ slug: r.slug, title: r.title, category: r.category, heroImage: r.heroImage || '' })),
+    related: latest.map((r) => localize(r, lang)).map((r) => ({ slug: r.slug, title: r.title, category: r.category, heroImage: r.heroImage || '' })),
   })));
 
   // Headline block
   const head = [];
-  head.push(`<p style="font-size:13px"><span style="${SANS}; color:${SUB}"><a href="/review"><span style="color:${SUB}">${t.news}</span></a>${zi.hubSlug ? ` &nbsp;›&nbsp; <a href="/review?kategori=${zi.hubSlug}"><span style="color:${SUB}">${esc(zi.hub)}</span></a>` : ''} &nbsp;›&nbsp; <a href="/review?kategori=${catSlug}"><span style="color:${SUB}">${esc(catLabel)}</span></a> &nbsp;›&nbsp; ${type}</span></p>`);
+  head.push(`<p style="font-size:13px"><span style="${SANS}; color:${SUB}"><a href="${base}/review"><span style="color:${SUB}">${t.news}</span></a>${zi.hubSlug ? ` &nbsp;›&nbsp; <a href="${base}/review?kategori=${zi.hubSlug}"><span style="color:${SUB}">${esc(zi.hub)}</span></a>` : ''} &nbsp;›&nbsp; <a href="${base}/review?kategori=${catSlug}"><span style="color:${SUB}">${esc(catLabel)}</span></a> &nbsp;›&nbsp; ${type}</span></p>`);
   head.push(gap(8));
   head.push(`<p style="font-size:12px; letter-spacing:0.1em"><span style="${SANS}; color:${RED}"><strong>${type.toUpperCase()}</strong></span><span style="${SANS}; color:${NAVY}"><strong> &nbsp;·&nbsp; ${esc(catLabel).toUpperCase()}</strong></span></p>`);
   head.push(`<h1 style="font-size:46px; line-height:1.12"><span style="${SERIF}; color:${INK}"><strong>${esc(item.title)}</strong></span></h1>`);
   head.push(gap(6));
   head.push(`<p style="font-size:21px; line-height:1.5"><span style="${SERIF}; color:#333B47">${esc(item.dek)}</span></p>`);
   head.push(gap(6));
-  head.push(`<p style="font-size:14px; line-height:1.6"><span style="${SANS}; color:${INK}"><strong>${t.byline}</strong></span><span style="${SANS}; color:#4A5361"> &nbsp;·&nbsp; ${dateTime(item.publishAt, isEn)} &nbsp;·&nbsp; ${readMin} ${t.minRead}</span></p>`);
+  head.push(`<p style="font-size:14px; line-height:1.6"><span style="${SANS}; color:${INK}"><strong>${t.byline}</strong></span><span style="${SANS}; color:#4A5361"> &nbsp;·&nbsp; ${dateTime(item.publishAt, isEn, isJa)} &nbsp;·&nbsp; ${readMin} ${t.minRead}</span></p>`);
   $w('#text747').html = head.join('');
 
   // Hero data graphic
@@ -152,7 +182,7 @@ $w.onReady(async function () {
   // Body
   const b = [];
   if (item.dataSource) {
-    b.push(`<p style="font-size:13px; line-height:1.5"><span style="${SANS}; color:${SUB}">${t.graphic} ${esc(item.dataSource)}.</span></p>`);
+    b.push(`<p style="font-size:13px; line-height:1.5"><span style="${SANS}; color:${SUB}">${t.graphic}${isJa ? '' : ' '}${esc(item.dataSource)}${isJa ? '' : '.'}</span></p>`);
     b.push(gap(18));
   }
   b.push(kicker(t.summary));
@@ -182,7 +212,9 @@ $w.onReady(async function () {
     { property: 'og:title', content: item.seoTitle || item.title },
     { property: 'og:description', content: description },
     { property: 'og:type', content: 'article' },
-  ].concat(item.heroImage ? [{ property: 'og:image', content: item.heroImage }] : []));
+  ].concat(item.heroImage ? [{ property: 'og:image', content: item.heroImage }] : [])
+    .concat(isJa ? [{ property: 'og:locale', content: 'ja_JP' }] : []));
+  try { await wixSeoFrontend.setLinks(langLinks('/review/' + item.slug, lang)); } catch (e) { /* keep Wix defaults */ }
   await wixSeoFrontend.setStructuredData([{
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
@@ -191,7 +223,7 @@ $w.onReady(async function () {
     image: item.heroImage ? [item.heroImage] : undefined,
     datePublished: new Date(item.publishAt).toISOString(),
     dateModified: new Date(item._updatedDate || item.publishAt).toISOString(),
-    inLanguage: isEn ? 'en' : 'id',
+    inLanguage: lang === 'ja' ? 'ja' : (isEn ? 'en' : 'id'),
     articleSection: catLabel,
     author: { '@type': 'Organization', name: t.author },
     publisher: { '@type': 'Organization', name: 'VRI B2B Tech Asia Review' },
