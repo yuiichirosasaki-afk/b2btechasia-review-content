@@ -124,6 +124,8 @@ function T() { return TEXT[LANG] || TEXT.id; }
 
 const CSS = `
 [data-testid="colorUnderlay"]{background-color:#FFFFFF!important}
+review-ui{min-height:0!important;height:auto!important}
+[id^="comp-"]:has(> review-ui){height:auto!important;min-height:0!important}
 review-ui{display:block;width:100%;font-family:${SANS};color:${INK};-webkit-font-smoothing:antialiased}
 review-ui *{box-sizing:border-box}
 review-ui a{color:${INK};text-decoration:none}
