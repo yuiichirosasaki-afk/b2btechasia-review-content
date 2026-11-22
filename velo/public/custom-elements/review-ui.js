@@ -197,12 +197,43 @@ review-ui .tk-band .tk-body{padding:32px 36px}
 @media (max-width:760px){review-ui .bn-title{font-size:22px!important}review-ui .bn-band{padding:28px 22px}review-ui .bn-leader,review-ui .bn-vendor{padding:20px}}
 @media (max-width:760px){
  review-ui .rv-lead-title{font-size:32px!important}
- review-ui .rv-masthead-logo{font-size:28px!important}
+ review-ui .rv-wrap{padding:0 16px}
+ review-ui .rv-logo{white-space:nowrap}
+ review-ui .rv-masthead-logo{font-size:21px!important}
+ review-ui .rv-compact-logo{font-size:20px!important}
+ review-ui .rv-topbar .rv-wrap{flex-wrap:nowrap;gap:8px;font-size:12px;padding-top:6px;padding-bottom:6px}
+ review-ui .rv-topbar .rv-wrap>span:first-child{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+ review-ui .rv-topbar-expo{display:none!important}
+ review-ui .rv-nav{flex-wrap:nowrap!important;overflow-x:auto;white-space:nowrap;gap:0 18px!important;font-size:14px!important;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+ review-ui .rv-nav::-webkit-scrollbar{display:none}
+ review-ui .rv-nav a{flex:0 0 auto}
+ review-ui .rv-zrow{gap:8px 18px;padding:9px 12px;font-size:13px}
+ review-ui .rv-compact-nav{width:100%}
 }
 `;
 
+// Wix's mobile Quick Action Bar ("Free Ticket" / "Chat") is site-wide; Review pages don't need it.
+// It has no stable id, so find the fixed bar that holds the "Free Ticket" action and hide it on pages with <review-ui>.
+function hideQuickActionBar() {
+  const hide = () => {
+    const w = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, { acceptNode: (n) => (/Free Ticket/i.test(n.nodeValue) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_SKIP) });
+    let n;
+    while ((n = w.nextNode())) {
+      if (n.parentElement && n.parentElement.closest('review-ui')) continue;
+      let el = n.parentElement;
+      while (el && el !== document.body && getComputedStyle(el).position !== 'fixed') el = el.parentElement;
+      if (el && el !== document.body && !el.dataset.rvHidden) { el.style.setProperty('display', 'none', 'important'); el.dataset.rvHidden = '1'; }
+    }
+  };
+  hide();
+  const mo = new MutationObserver(hide);
+  mo.observe(document.body, { childList: true, subtree: true });
+  setTimeout(() => mo.disconnect(), 20000);
+}
+
 function ensureAssets() {
   if (document.getElementById('rv-fonts')) return;
+  try { hideQuickActionBar(); } catch (e) { /* never break the page for this */ }
   const l = document.createElement('link');
   l.id = 'rv-fonts';
   l.rel = 'stylesheet';
@@ -262,7 +293,7 @@ class ReviewUi extends HTMLElement {
     return `<div class="rv-topbar"><div class="rv-wrap">
 <span>${esc(longDate(d.now || Date.now()))} · Jakarta</span>
 <span style="display:inline-flex;gap:20px;align-items:center;flex-wrap:wrap">
-<a href="${L.site('/')}" style="color:${NAVY};font-weight:600">${T().expoLink}</a>
+<a href="${L.site('/')}" class="rv-topbar-expo" style="color:${NAVY};font-weight:600">${T().expoLink}</a>
 ${this.langSwitch(d)}
 </span>
 </div></div>`;
@@ -318,8 +349,8 @@ ${this.subNav(d, L)}
   compactHeader(d, L) {
     return `<header class="rv-wrap" style="padding-top:20px">
 <div style="display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;align-items:center">
-<a href="${L('/review')}" class="rv-logo" style="font-size:30px;padding:6px 0">VRI B2B Tech Asia <span>Review</span></a>
-<nav aria-label="${T().navLabel}"><div class="rv-nav" style="font-size:14px;gap:0 22px">${this.navLinks(d, L, d.active)}</div></nav>
+<a href="${L('/review')}" class="rv-logo rv-compact-logo" style="font-size:30px;padding:6px 0">VRI B2B Tech Asia <span>Review</span></a>
+<nav aria-label="${T().navLabel}" class="rv-compact-nav"><div class="rv-nav" style="font-size:14px;gap:0 22px">${this.navLinks(d, L, d.active)}</div></nav>
 </div>
 <div style="border-top:3px solid ${NAVY};margin-top:6px"></div>
 ${this.subNav(d, L)}
