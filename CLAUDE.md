@@ -8,7 +8,7 @@ There is no human review. Nobody approves articles and nobody is notified. Quali
 
 ## The daily run (weekdays, ~03:00 WIB)
 
-The exhibition database (`exhibitions/`, `exhibitions.json`) is maintained by a separate weekly run (`EXHIBITIONS.md`). The daily run does not touch those files and does not write exhibition listings or calendars as articles. A news story about one event (e.g. a government announcement made at a summit) is still a normal article.
+The exhibition database (`exhibitions/`, `exhibitions.json`) is maintained by a separate monthly run (`EXHIBITIONS.md`). The daily run does not touch those files and does not write exhibition listings or calendars as articles. A news story about one event (e.g. a government announcement made at a summit) is still a normal article.
 
 
 1. `python3 scripts/recent_slugs.py` — lists articles from the last 30 days, so you do not repeat a story, and the zone coverage of the last 7 days.

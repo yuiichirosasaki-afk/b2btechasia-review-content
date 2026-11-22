@@ -1,6 +1,6 @@
-# VRI B2B Tech Asia Review — exhibition database (weekly run)
+# VRI B2B Tech Asia Review — exhibition database (monthly run)
 
-This file is the instruction for the **weekly exhibition run**. The daily article run (CLAUDE.md) does not touch `exhibitions/` or `exhibitions.json`.
+This file is the instruction for the **monthly exhibition run**. The daily article run (CLAUDE.md) does not touch `exhibitions/` or `exhibitions.json`.
 
 ## What this is
 
@@ -18,15 +18,15 @@ There is no human review. Nobody approves entries and nobody is notified. A wron
 - Out of scope: consumer shows (gadgets, games, retail sales), pure manufacturing/machinery, construction, defence, physical security equipment, academic conferences, webinars, meetups, events of under ~300 attendees.
 - VRI B2B Tech Asia itself is included (`isOwnEvent: true`), using the facts on https://www.b2btechasia.com.
 
-## The weekly run (Saturday)
+## The monthly run (1st of the month)
 
 1. `git pull origin main`, then `python3 scripts/validate_exhibitions.py` to see the current state.
-2. **Re-verify** (at most 10 entries per run, most urgent first):
-   - entries whose event starts within the next 60 days,
+2. **Re-verify** every entry that is not past (the run is monthly, so each entry is checked once a month; at most 40 per run, most urgent first):
+   - entries whose event starts within the next 90 days,
    - entries with `dateStatus: "tba"` (the organiser may have announced dates),
-   - entries whose `verifiedAt` is more than 28 days old.
+   - then the rest, oldest `verifiedAt` first.
    Open the `officialUrl` (and the organiser's press release if needed). Update dates, venue and figures if they changed, set `verifiedAt` to today (WIB). If the event was cancelled or postponed without new dates, set `dateStatus: "cancelled"` or `"tba"` and say so in all three summaries.
-3. **Add new entries** (at most 5 per run). Start with the leads in `exhibitions/candidates.tsv` (rows with `status` = `todo`); when they are done, search for more (Indonesian, English and Japanese queries: "pameran teknologi 2027", "summit Jakarta 2027 cybersecurity", "konferensi fintech Indonesia 2027", "Jakarta tech conference 2027", 「ジャカルタ 展示会 IT 2027」, organiser and venue calendars of JIExpo, JICC, ICE BSD, NICE). After working a lead, set its `status` to `done` or `out-of-scope` (with a short reason in `note`).
+3. **Add new entries** (at most 10 per run). Start with the leads in `exhibitions/candidates.tsv` (rows with `status` = `todo`); when they are done, search for more (Indonesian, English and Japanese queries: "pameran teknologi 2027", "summit Jakarta 2027 cybersecurity", "konferensi fintech Indonesia 2027", "Jakarta tech conference 2027", 「ジャカルタ 展示会 IT 2027」, organiser and venue calendars of JIExpo, JICC, ICE BSD, NICE). After working a lead, set its `status` to `done` or `out-of-scope` (with a short reason in `note`).
 4. Save each entry as `exhibitions/<slug>.json` following `schema/exhibition.schema.json` (format below).
 5. `python3 scripts/validate_exhibitions.py` — every file must print `OK`. Fix and re-run; delete an entry you cannot fix.
 6. `python3 scripts/build_exhibitions_feed.py` — rebuilds `exhibitions.json`.
@@ -74,4 +74,4 @@ One file per **edition** (year). When the next year's edition is announced, crea
 
 ## Cost
 
-About 2–4 page fetches per entry. At most 10 re-checks and 5 new entries per run. One run per week.
+About 2–4 page fetches per entry. At most 40 re-checks and 10 new entries per run. One run per month.

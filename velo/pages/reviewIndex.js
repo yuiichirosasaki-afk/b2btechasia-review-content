@@ -57,7 +57,7 @@ function slim(raw, lang) {
 // Dates are stored as 00:00 WIB; the calendar works with plain Jakarta days ('YYYY-MM-DD').
 function day(d) { return d ? new Date(new Date(d).getTime() + 7 * 3600 * 1000).toISOString().slice(0, 10) : ''; }
 function parse(j) { try { return j ? JSON.parse(j) : null; } catch (e) { return null; } }
-// Worked out on every page view (the feed's own `status` is only refreshed by the weekly run).
+// Worked out on every page view (the feed's own `status` is only refreshed by the monthly run).
 function expoStatus(e, today) {
   if (e.dateStatus === 'cancelled') return 'cancelled';
   const s = day(e.startDate);
@@ -129,9 +129,9 @@ $w.onReady(async function () {
       expos, verified: expos.map((e) => e.verified).sort().pop() || '',
     });
     title = `${heading} | VRI B2B Tech Asia Review`;
-    desc = X('Jadwal, lokasi, dan penyelenggara pameran serta konferensi teknologi B2B di Indonesia. Tanggal dari pengumuman resmi penyelenggara, diperiksa ulang setiap minggu.',
-      'Dates, venues and organisers of B2B technology exhibitions and conferences in Indonesia. Dates come from organisers’ official announcements and are re-checked weekly.',
-      'インドネシアのB2Bテクノロジー展示会・カンファレンスの日程、会場、主催者の一覧。日程は主催者の公式発表にもとづき、毎週確認している。');
+    desc = X('Jadwal, lokasi, dan penyelenggara pameran serta konferensi teknologi B2B di Indonesia. Tanggal dari pengumuman resmi penyelenggara, diperiksa ulang setiap bulan.',
+      'Dates, venues and organisers of B2B technology exhibitions and conferences in Indonesia. Dates come from organisers’ official announcements and are re-checked monthly.',
+      'インドネシアのB2Bテクノロジー展示会・カンファレンスの日程、会場、主催者の一覧。日程は主催者の公式発表にもとづき、毎月確認している。');
     const langPrefix = isJa ? '/jp' : (isEn ? '' : '/id');
     structured = {
       '@context': 'https://schema.org', '@type': 'ItemList', name: heading,
