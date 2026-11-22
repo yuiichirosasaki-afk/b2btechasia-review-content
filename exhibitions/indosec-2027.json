@@ -1,0 +1,53 @@
+{
+ "slug": "indosec-2027",
+ "seriesId": "indosec",
+ "name": "IndoSec 2027",
+ "isOwnEvent": false,
+ "country": "Indonesia",
+ "city": "Jakarta",
+ "venue": null,
+ "organizer": "Tradepass",
+ "startDate": "2027-09-21",
+ "endDate": "2027-09-22",
+ "dateStatus": "confirmed",
+ "zones": [
+  "Cybersecurity & Data Protection"
+ ],
+ "relevance": "A",
+ "exhibitors": null,
+ "visitors": null,
+ "admission": "unknown",
+ "lastEdition": {
+  "startDate": "2026-09-15",
+  "endDate": "2026-09-16",
+  "venue": "The Ritz-Carlton Jakarta, Pacific Place"
+ },
+ "officialUrl": "https://indosecsummit.com/",
+ "sources": [
+  {
+   "name": "IndoSec",
+   "title": "IndoSec: tanggal edisi 2027 dan keterangan edisi 2026",
+   "url": "https://indosecsummit.com/",
+   "date": "2026-11-22"
+  }
+ ],
+ "verifiedAt": "2026-11-22",
+ "id": {
+  "summaryHtml": "<p>IndoSec adalah konferensi dan pameran keamanan siber yang diselenggarakan Tradepass di Indonesia sejak 2018. Situs resmi acara mencantumkan tanggal 21–22 September 2027 untuk edisi berikutnya, sedangkan tempat acara masih berstatus akan diumumkan.</p><p>Edisi 2026, yang merupakan edisi kesembilan, berlangsung pada 15–16 September 2026 di The Ritz-Carlton Jakarta, Pacific Place. Pembicaranya antara lain berasal dari Badan Siber dan Sandi Negara (BSSN), Kementerian Komunikasi dan Digital, serta pimpinan keamanan informasi di perbankan, telekomunikasi, dan perusahaan teknologi.</p><p>Selain sesi konferensi, IndoSec memiliki area sponsor bagi penyedia solusi keamanan siber dan program penghargaan. Peserta dan calon sponsor mendaftar melalui formulir di situs resmi.</p>",
+  "faqHtml": "<h3>Kapan IndoSec 2027 diadakan?</h3><p>Situs resmi IndoSec mencantumkan tanggal 21–22 September 2027.</p><h3>Di mana IndoSec 2027 diadakan?</h3><p>Tempat acara edisi 2027 belum diumumkan. Edisi 2026 berlangsung di The Ritz-Carlton Jakarta, Pacific Place.</p><h3>Bagaimana cara mengikuti IndoSec 2027?</h3><p>Calon peserta mengisi formulir delegate enquiry di situs resmi, dan penyedia solusi mengisi formulir sponsor enquiry. Keterangan biaya tidak dicantumkan di halaman tersebut.</p>",
+  "seoTitle": "IndoSec 2027: Tanggal, Lokasi, dan Cara Ikut",
+  "seoDescription": "IndoSec 2027, konferensi keamanan siber dari Tradepass, dijadwalkan 21–22 September 2027. Tempat acara belum diumumkan; edisi 2026 digelar di Jakarta."
+ },
+ "en": {
+  "summaryHtml": "<p>IndoSec is a cybersecurity conference and exhibition that Tradepass has organised in Indonesia since 2018. The official event site lists 21–22 September 2027 for the next edition, while the venue is still marked as to be announced.</p><p>The 2026 edition, the ninth, took place on 15–16 September 2026 at The Ritz-Carlton Jakarta, Pacific Place. Its speakers included officials from the National Cyber and Crypto Agency (BSSN) and the Ministry of Communications and Digital Affairs, as well as information security heads from banks, telecom operators and technology companies.</p><p>Besides the conference sessions, IndoSec has a sponsor area for cybersecurity solution providers and an awards programme. Delegates and prospective sponsors apply through forms on the official site.</p>",
+  "faqHtml": "<h3>When is IndoSec 2027?</h3><p>The official IndoSec site lists 21–22 September 2027.</p><h3>Where is IndoSec 2027?</h3><p>The venue for the 2027 edition has not been announced. The 2026 edition was held at The Ritz-Carlton Jakarta, Pacific Place.</p><h3>How do I attend IndoSec 2027?</h3><p>Prospective delegates fill in the delegate enquiry form on the official site, and solution providers use the sponsor enquiry form. The page does not state any fees.</p>",
+  "seoTitle": "IndoSec 2027: Dates, Venue and How to Attend",
+  "seoDescription": "IndoSec 2027, the cybersecurity conference by Tradepass, is scheduled for 21–22 September 2027. Venue to be announced; the 2026 edition was in Jakarta."
+ },
+ "ja": {
+  "summaryHtml": "<p>IndoSecは、Tradepassが2018年からインドネシアで開いているサイバーセキュリティのカンファレンス兼展示会だ。公式サイトは次回の日程を2027年9月21〜22日としている。会場は「後日発表」の扱いである。</p><p>9回目となった2026年は、9月15〜16日にThe Ritz-Carlton Jakarta, Pacific Placeで開かれた。国家サイバー暗号庁（BSSN）や通信デジタル省の担当者のほか、銀行、通信、テクノロジー企業の情報セキュリティ責任者が登壇した。</p><p>カンファレンスのほか、サイバーセキュリティ製品の提供企業が出展するスポンサーエリアと表彰プログラムがある。参加希望者とスポンサー希望の企業は、公式サイトのフォームから申し込む。</p>",
+  "faqHtml": "<h3>IndoSec 2027の日程は？</h3><p>公式サイトは2027年9月21〜22日としている。</p><h3>IndoSec 2027の会場は？</h3><p>2027年の会場はまだ発表されていない。2026年はThe Ritz-Carlton Jakarta, Pacific Placeで開かれた。</p><h3>IndoSec 2027に参加するにはどうすればよいか。</h3><p>参加希望者は公式サイトのdelegate enquiryフォーム、製品の提供企業はsponsor enquiryフォームから申し込む。料金は同ページに記載されていない。</p>",
+  "seoTitle": "IndoSec 2027 日程・会場・概要",
+  "seoDescription": "Tradepass主催のサイバーセキュリティ会議IndoSec 2027は2027年9月21〜22日の予定。会場は未発表で、2026年はジャカルタで開かれた。"
+ }
+}

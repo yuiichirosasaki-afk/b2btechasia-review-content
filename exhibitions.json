@@ -1,4 +1,223 @@
 {
- "generatedAt": "2026-11-22T09:41:43+07:00",
- "exhibitions": []
+ "generatedAt": "2026-11-22T19:40:21+07:00",
+ "exhibitions": [
+  {
+   "slug": "world-ai-show-indonesia-2027",
+   "seriesId": "world-ai-show-indonesia",
+   "name": "World AI Show Indonesia 2027",
+   "isOwnEvent": false,
+   "country": "Indonesia",
+   "city": "Jakarta",
+   "venue": null,
+   "organizer": "Trescon Global",
+   "startDate": "2027-06-15",
+   "endDate": "2027-06-16",
+   "dateStatus": "confirmed",
+   "zones": [
+    "AI & Automation"
+   ],
+   "relevance": "A",
+   "exhibitors": null,
+   "visitors": null,
+   "admission": "unknown",
+   "lastEdition": null,
+   "officialUrl": "https://worldaishow.com/indonesia/",
+   "sources": [
+    {
+     "name": "World AI Show",
+     "title": "World AI Show Indonesia 2027",
+     "url": "https://worldaishow.com/indonesia/",
+     "date": "2026-11-22"
+    }
+   ],
+   "verifiedAt": "2026-11-22",
+   "id": {
+    "summaryHtml": "<p>World AI Show Indonesia 2027 adalah konferensi dan pameran kecerdasan buatan yang diselenggarakan oleh Trescon Global. Situs resmi acara mencantumkan tanggal 15–16 Juni 2027 di Jakarta; nama tempat acara belum diumumkan. Acara ini hanya berlangsung secara tatap muka.</p><p>Program disusun dalam enam pilar: strategi dan ROI, AI untuk perusahaan, data dan LLMOps, kepercayaan, risiko dan hukum, industri dan BUMN, serta tenaga kerja dan perubahan. Formatnya mencakup sesi pembicara, studi penggunaan teknologi, pameran AI, diskusi panel, dan jejaring bisnis.</p><p>Menurut penyelenggara, acara ini mengumpulkan lebih dari 1.000 pengambil keputusan perusahaan, pemimpin BUMN, pembuat kebijakan, dan pelaku teknologi. Peserta berasal dari sektor perbankan dan jasa keuangan, manufaktur, ritel dan e-commerce, energi, kesehatan, pemerintahan, dan pendidikan.</p>",
+    "faqHtml": "<h3>Kapan dan di mana World AI Show Indonesia 2027 diadakan?</h3><p>Menurut situs resminya, acara berlangsung pada 15–16 Juni 2027 di Jakarta. Nama tempat acara belum dicantumkan.</p><h3>Siapa penyelenggara World AI Show Indonesia?</h3><p>Acara ini diselenggarakan oleh Trescon Global.</p><h3>Bagaimana cara mengikuti World AI Show Indonesia 2027?</h3><p>Situs resmi menyediakan formulir permintaan pass untuk peserta dan formulir sponsor. Keterangan biaya tidak dicantumkan di halaman tersebut.</p>",
+    "seoTitle": "World AI Show Indonesia 2027: Tanggal dan Lokasi",
+    "seoDescription": "World AI Show Indonesia 2027 berlangsung 15–16 Juni 2027 di Jakarta, diselenggarakan Trescon Global. Jadwal, topik, dan siapa saja pesertanya."
+   },
+   "en": {
+    "summaryHtml": "<p>World AI Show Indonesia 2027 is an artificial intelligence conference and exhibition organised by Trescon Global. The official event site lists 15–16 June 2027 in Jakarta; the venue has not been named yet. The event is held in person only.</p><p>The programme is built on six pillars: strategy and ROI, enterprise AI, data and LLMOps, trust, risk and law, industry and state-owned enterprises (BUMN), and workforce and change. Formats include speaker sessions, technology use cases, an AI exhibition, panel discussions and business networking.</p><p>According to the organiser, the event brings together more than 1,000 enterprise decision-makers, BUMN leaders, policymakers and technology practitioners. Attendees come from banking and financial services, manufacturing, retail and e-commerce, energy, healthcare, government and education.</p>",
+    "faqHtml": "<h3>When and where is World AI Show Indonesia 2027?</h3><p>According to the official site, the event takes place on 15–16 June 2027 in Jakarta. The venue has not been named yet.</p><h3>Who organises World AI Show Indonesia?</h3><p>The event is organised by Trescon Global.</p><h3>How do I attend World AI Show Indonesia 2027?</h3><p>The official site offers a pass enquiry form for attendees and a sponsorship enquiry form. The page does not state any fees.</p>",
+    "seoTitle": "World AI Show Indonesia 2027: Dates and Location",
+    "seoDescription": "World AI Show Indonesia 2027 takes place on 15–16 June 2027 in Jakarta, organised by Trescon Global. Dates, topics and who attends."
+   },
+   "ja": {
+    "summaryHtml": "<p>World AI Show Indonesia 2027は、Trescon Globalが主催するAIのカンファレンス兼展示会だ。公式サイトは日程を2027年6月15〜16日、開催地をジャカルタとしている。会場名はまだ発表されていない。開催は対面のみである。</p><p>プログラムは、戦略とROI、企業向けAI、データとLLMOps、信頼・リスク・法務、産業と国営企業（BUMN）、人材と変革の6本の柱で構成する。講演、技術の活用事例、AIの展示、パネル討論、ビジネス交流がある。</p><p>主催者によると、企業の意思決定者、BUMNの幹部、政策担当者、技術の実務家など1,000人超が集まる。参加者の業種は金融、製造、小売・EC、エネルギー、ヘルスケア、政府、教育などだ。</p>",
+    "faqHtml": "<h3>World AI Show Indonesia 2027の日程と会場は？</h3><p>公式サイトによると、2027年6月15〜16日にジャカルタで開かれる。会場名はまだ掲載されていない。</p><h3>World AI Show Indonesiaの主催者は？</h3><p>Trescon Globalが主催している。</p><h3>World AI Show Indonesia 2027に参加するにはどうすればよいか。</h3><p>公式サイトに参加パスの問い合わせフォームとスポンサーの問い合わせフォームがある。料金は同ページに記載されていない。</p>",
+    "seoTitle": "World AI Show Indonesia 2027 日程・概要",
+    "seoDescription": "World AI Show Indonesia 2027は2027年6月15〜16日にジャカルタで開催。主催はTrescon Global。日程、テーマ、参加者層をまとめた。"
+   },
+   "status": "upcoming"
+  },
+  {
+   "slug": "vri-b2b-tech-asia-2027",
+   "seriesId": "vri-b2b-tech-asia",
+   "name": "VRI B2B Tech Asia 2027",
+   "isOwnEvent": true,
+   "country": "Indonesia",
+   "city": "Jakarta",
+   "venue": "The Ritz-Carlton Jakarta, Pacific Place",
+   "organizer": "VRIGroup",
+   "startDate": "2027-07-14",
+   "endDate": "2027-07-15",
+   "dateStatus": "confirmed",
+   "zones": [
+    "AI & Automation",
+    "Enterprise Software & ERP",
+    "Marketing Technology",
+    "FinTech & Financial Operations"
+   ],
+   "relevance": "A",
+   "exhibitors": null,
+   "visitors": null,
+   "admission": "unknown",
+   "lastEdition": null,
+   "officialUrl": "https://www.b2btechasia.com/",
+   "sources": [
+    {
+     "name": "VRI B2B Tech Asia",
+     "title": "B2B Tech Asia Expo 2027 | Jakarta, 14–15 July",
+     "url": "https://www.b2btechasia.com/",
+     "date": "2026-11-22"
+    }
+   ],
+   "verifiedAt": "2026-11-22",
+   "id": {
+    "summaryHtml": "<p>VRI B2B Tech Asia 2027 adalah pameran teknologi B2B yang khusus menampilkan perangkat lunak. Acara ini berlangsung pada 14–15 Juli 2027 di The Ritz-Carlton Jakarta, Pacific Place, dan diselenggarakan oleh VRIGroup, perusahaan media dan penyelenggara acara B2B.</p><p>Di lantai pameran, pengunjung bertemu penyedia software B2B dan AI untuk fungsi TI, keuangan, SDM, pemasaran, dan penjualan. Menurut situs resminya, acara ini ditujukan bagi pemimpin bisnis, profesional teknologi, dan pengambil keputusan di perusahaan.</p><p>Selain pameran, penyelenggara mengadakan Premium Networking Dinner khusus undangan yang mempertemukan 200 exhibitor dan sponsor dengan 200 VIP dari perusahaan. Daftar exhibitor edisi 2027 belum diumumkan.</p>",
+    "faqHtml": "<h3>Kapan dan di mana VRI B2B Tech Asia 2027 diadakan?</h3><p>Pameran berlangsung pada 14–15 Juli 2027 di The Ritz-Carlton Jakarta, Pacific Place, Jakarta.</p><h3>Bagaimana cara mendaftar sebagai pengunjung?</h3><p>Pendaftaran dilakukan melalui situs resmi. Tiket standar diperoleh dengan mengajukan permintaan undangan, dan tersedia pula tiket VIP berbayar.</p><h3>Bagaimana cara menjadi exhibitor?</h3><p>Calon exhibitor dapat meminta proposal melalui formulir di situs resmi. Paket yang ditawarkan terdiri atas Premium, Standard+, dan Standard.</p>",
+    "seoTitle": "VRI B2B Tech Asia 2027: Tanggal, Lokasi, dan Pendaftaran",
+    "seoDescription": "VRI B2B Tech Asia 2027, pameran khusus software B2B, berlangsung 14–15 Juli 2027 di The Ritz-Carlton Jakarta, Pacific Place. Jadwal, lokasi, cara daftar."
+   },
+   "en": {
+    "summaryHtml": "<p>VRI B2B Tech Asia 2027 is a B2B technology exhibition that shows software only. It takes place on 14–15 July 2027 at The Ritz-Carlton Jakarta, Pacific Place, and is organised by VRIGroup, a B2B media company and event organiser.</p><p>On the show floor, visitors meet providers of B2B software and AI for IT, finance, HR, marketing and sales. According to the official site, the event is aimed at business leaders, technology professionals and decision-makers in companies.</p><p>Alongside the exhibition, the organiser holds an invitation-only Premium Networking Dinner that brings together 200 exhibitors and sponsors and 200 enterprise VIPs. The exhibitor line-up for 2027 has not been announced yet.</p>",
+    "faqHtml": "<h3>When and where is VRI B2B Tech Asia 2027?</h3><p>The exhibition runs on 14–15 July 2027 at The Ritz-Carlton Jakarta, Pacific Place, in Jakarta.</p><h3>How do I register as a visitor?</h3><p>Registration is through the official site. A standard ticket is obtained by requesting an invitation, and a paid VIP ticket is also available.</p><h3>How do I become an exhibitor?</h3><p>Prospective exhibitors can request a proposal through the form on the official site. The packages offered are Premium, Standard+ and Standard.</p>",
+    "seoTitle": "VRI B2B Tech Asia 2027: Dates, Venue and Registration",
+    "seoDescription": "VRI B2B Tech Asia 2027, a B2B software-only exhibition, runs 14–15 July 2027 at The Ritz-Carlton Jakarta, Pacific Place. Dates, venue and how to register."
+   },
+   "ja": {
+    "summaryHtml": "<p>VRI B2B Tech Asia 2027は、ソフトウェアに特化したB2Bテクノロジーの展示会だ。2027年7月14〜15日にThe Ritz-Carlton Jakarta, Pacific Placeで開かれる。主催はB2Bメディアとイベント運営を手がけるVRIGroup。</p><p>会場には、IT、財務、人事、マーケティング、営業の各部門に向けたB2BソフトウェアとAIの提供企業が出展する。公式サイトによると、企業の経営層、技術の専門職、意思決定者を来場者として想定している。</p><p>展示会とあわせて、招待制のPremium Networking Dinnerを開く。出展企業・スポンサー200人と企業のVIP200人が参加する。2027年の出展企業の一覧はまだ発表されていない。</p>",
+    "faqHtml": "<h3>VRI B2B Tech Asia 2027の日程と会場は？</h3><p>2027年7月14〜15日、ジャカルタのThe Ritz-Carlton Jakarta, Pacific Placeで開かれる。</p><h3>来場するにはどうすればよいか。</h3><p>公式サイトから申し込む。スタンダードチケットは招待を申請して入手する形で、有料のVIPチケットもある。</p><h3>出展するにはどうすればよいか。</h3><p>公式サイトのフォームから出展資料を請求できる。出展プランはPremium、Standard+、Standardの3種類だ。</p>",
+    "seoTitle": "VRI B2B Tech Asia 2027 日程・会場・概要",
+    "seoDescription": "ソフトウェア特化のB2B展示会VRI B2B Tech Asia 2027は、2027年7月14〜15日にジャカルタのThe Ritz-Carlton Jakarta, Pacific Placeで開催。日程、会場、来場と出展の方法。"
+   },
+   "status": "upcoming"
+  },
+  {
+   "slug": "digital-transformation-indonesia-dti-cx-2027",
+   "seriesId": "digital-transformation-indonesia-dti-cx",
+   "name": "Digital Transformation Indonesia Conference & Expo (DTI-CX) 2027",
+   "isOwnEvent": false,
+   "country": "Indonesia",
+   "city": "Jakarta",
+   "venue": "JICC Senayan",
+   "organizer": "Adhouse Clarion Events",
+   "startDate": "2027-08-04",
+   "endDate": "2027-08-05",
+   "dateStatus": "confirmed",
+   "zones": [
+    "AI & Automation",
+    "Cloud & IT Infrastructure",
+    "Cybersecurity & Data Protection",
+    "Enterprise Software & ERP"
+   ],
+   "relevance": "A",
+   "exhibitors": {
+    "value": 93,
+    "edition": "2026",
+    "sourceUrl": "https://digitaltransformation.co.id/dti-cx/"
+   },
+   "visitors": {
+    "value": 8659,
+    "edition": "2026",
+    "sourceUrl": "https://digitaltransformation.co.id/dti-cx/"
+   },
+   "admission": "unknown",
+   "lastEdition": null,
+   "officialUrl": "https://digitaltransformation.co.id/dti-cx/",
+   "sources": [
+    {
+     "name": "DTI-CX",
+     "title": "Digital Transformation Indonesia Conference & Expo (DTI-CX): tanggal dan lokasi 2027, angka edisi 2026",
+     "url": "https://digitaltransformation.co.id/dti-cx/",
+     "date": "2026-11-22"
+    }
+   ],
+   "verifiedAt": "2026-11-22",
+   "id": {
+    "summaryHtml": "<p>Digital Transformation Indonesia Conference & Expo (DTI-CX) adalah pameran dan konferensi yang mempertemukan penyedia teknologi dengan pemimpin industri, lembaga pemerintah, dan pengambil keputusan bisnis. Edisi 2027 dijadwalkan pada 4–5 Agustus 2027 di JICC Senayan, Jakarta, dan diselenggarakan oleh Adhouse Clarion Events.</p><p>Topik yang diangkat meliputi solusi perusahaan, AI, teknologi cloud, dan keamanan siber. Penyelenggara menyasar 16 sektor industri, antara lain keuangan, telekomunikasi, infrastruktur, manufaktur, kesehatan, dan pemerintahan. Di luar konferensi, tersedia program business matching, workshop teknologi, dan demo teknis.</p><p>Menurut penyelenggara, DTI-CX 2026 dihadiri 8.659 orang dan diikuti 93 perusahaan exhibitor, dengan 260 pembicara dan 653 pertemuan bisnis. Seluruh rangkaian DTI 2026 mencatat 16.177 peserta.</p>",
+    "faqHtml": "<h3>Kapan dan di mana DTI-CX 2027 diadakan?</h3><p>Menurut situs resmi penyelenggara, DTI-CX 2027 berlangsung pada 4–5 Agustus 2027 di JICC Senayan, Jakarta.</p><h3>Siapa penyelenggara DTI-CX?</h3><p>DTI-CX diselenggarakan oleh Adhouse Clarion Events.</p><h3>Bagaimana cara mendaftar sebagai pengunjung DTI-CX 2027?</h3><p>Pendaftaran kunjungan dibuka melalui situs resmi DTI-CX. Situs tersebut belum mencantumkan keterangan biaya masuk, sehingga sebaiknya dipastikan langsung ke penyelenggara.</p>",
+    "seoTitle": "DTI-CX 2027: Tanggal, Lokasi, dan Penyelenggara",
+    "seoDescription": "DTI-CX 2027 berlangsung 4–5 Agustus 2027 di JICC Senayan, Jakarta. Jadwal, lokasi, topik, dan angka edisi 2026 dari penyelenggara Adhouse Clarion Events."
+   },
+   "en": {
+    "summaryHtml": "<p>Digital Transformation Indonesia Conference & Expo (DTI-CX) is an exhibition and conference that connects technology providers with industry leaders, government institutions and business decision-makers. The 2027 edition is scheduled for 4–5 August 2027 at JICC Senayan, Jakarta, and is organised by Adhouse Clarion Events.</p><p>Topics include enterprise solutions, AI, cloud technology and cybersecurity. The organiser targets 16 industry sectors, among them finance, telecommunications, infrastructure, manufacturing, healthcare and government. Beyond the conference, there is a business matching programme, technology workshops and technical demos.</p><p>According to the organiser, DTI-CX 2026 drew 8,659 attendees and 93 exhibiting companies, with 260 speakers and 653 business meetings. The DTI 2026 series as a whole recorded 16,177 attendees.</p>",
+    "faqHtml": "<h3>When and where is DTI-CX 2027?</h3><p>According to the organiser’s official site, DTI-CX 2027 takes place on 4–5 August 2027 at JICC Senayan, Jakarta.</p><h3>Who organises DTI-CX?</h3><p>DTI-CX is organised by Adhouse Clarion Events.</p><h3>How do I register to visit DTI-CX 2027?</h3><p>Visitor registration is through the official DTI-CX site. The site does not yet state an admission fee, so it is best to confirm with the organiser.</p>",
+    "seoTitle": "DTI-CX 2027: Dates, Venue and Organiser",
+    "seoDescription": "DTI-CX 2027 takes place on 4–5 August 2027 at JICC Senayan, Jakarta. Dates, venue, topics and the organiser’s figures for the 2026 edition."
+   },
+   "ja": {
+    "summaryHtml": "<p>Digital Transformation Indonesia Conference & Expo（DTI-CX）は、テクノロジーの提供企業と産業界のリーダー、政府機関、企業の意思決定者を結ぶ展示会兼カンファレンスだ。2027年は8月4〜5日にジャカルタのJICC Senayanで開かれる。主催はAdhouse Clarion Events。</p><p>企業向けソリューション、AI、クラウド、サイバーセキュリティを扱う。主催者は金融、通信、インフラ、製造、ヘルスケア、政府など16の産業分野を対象に挙げる。カンファレンスのほか、ビジネスマッチング、技術ワークショップ、技術デモがある。</p><p>主催者によると、2026年のDTI-CXは来場者が8,659人、出展企業が93社で、登壇者は260人、商談は653件だった。DTI 2026のシリーズ全体の参加者は1万6,177人としている。</p>",
+    "faqHtml": "<h3>DTI-CX 2027の日程と会場は？</h3><p>主催者の公式サイトによると、2027年8月4〜5日にジャカルタのJICC Senayanで開かれる。</p><h3>DTI-CXの主催者は？</h3><p>Adhouse Clarion Eventsが主催している。</p><h3>DTI-CX 2027に来場するにはどうすればよいか。</h3><p>公式サイトで来場登録を受け付けている。入場料についての記載はまだないため、主催者に確認するのがよい。</p>",
+    "seoTitle": "DTI-CX 2027 日程・会場・概要",
+    "seoDescription": "DTI-CX 2027は2027年8月4〜5日、ジャカルタのJICC Senayanで開催。日程、会場、テーマと、主催者Adhouse Clarion Eventsが発表した2026年の実績をまとめた。"
+   },
+   "status": "upcoming"
+  },
+  {
+   "slug": "indosec-2027",
+   "seriesId": "indosec",
+   "name": "IndoSec 2027",
+   "isOwnEvent": false,
+   "country": "Indonesia",
+   "city": "Jakarta",
+   "venue": null,
+   "organizer": "Tradepass",
+   "startDate": "2027-09-21",
+   "endDate": "2027-09-22",
+   "dateStatus": "confirmed",
+   "zones": [
+    "Cybersecurity & Data Protection"
+   ],
+   "relevance": "A",
+   "exhibitors": null,
+   "visitors": null,
+   "admission": "unknown",
+   "lastEdition": {
+    "startDate": "2026-09-15",
+    "endDate": "2026-09-16",
+    "venue": "The Ritz-Carlton Jakarta, Pacific Place"
+   },
+   "officialUrl": "https://indosecsummit.com/",
+   "sources": [
+    {
+     "name": "IndoSec",
+     "title": "IndoSec: tanggal edisi 2027 dan keterangan edisi 2026",
+     "url": "https://indosecsummit.com/",
+     "date": "2026-11-22"
+    }
+   ],
+   "verifiedAt": "2026-11-22",
+   "id": {
+    "summaryHtml": "<p>IndoSec adalah konferensi dan pameran keamanan siber yang diselenggarakan Tradepass di Indonesia sejak 2018. Situs resmi acara mencantumkan tanggal 21–22 September 2027 untuk edisi berikutnya, sedangkan tempat acara masih berstatus akan diumumkan.</p><p>Edisi 2026, yang merupakan edisi kesembilan, berlangsung pada 15–16 September 2026 di The Ritz-Carlton Jakarta, Pacific Place. Pembicaranya antara lain berasal dari Badan Siber dan Sandi Negara (BSSN), Kementerian Komunikasi dan Digital, serta pimpinan keamanan informasi di perbankan, telekomunikasi, dan perusahaan teknologi.</p><p>Selain sesi konferensi, IndoSec memiliki area sponsor bagi penyedia solusi keamanan siber dan program penghargaan. Peserta dan calon sponsor mendaftar melalui formulir di situs resmi.</p>",
+    "faqHtml": "<h3>Kapan IndoSec 2027 diadakan?</h3><p>Situs resmi IndoSec mencantumkan tanggal 21–22 September 2027.</p><h3>Di mana IndoSec 2027 diadakan?</h3><p>Tempat acara edisi 2027 belum diumumkan. Edisi 2026 berlangsung di The Ritz-Carlton Jakarta, Pacific Place.</p><h3>Bagaimana cara mengikuti IndoSec 2027?</h3><p>Calon peserta mengisi formulir delegate enquiry di situs resmi, dan penyedia solusi mengisi formulir sponsor enquiry. Keterangan biaya tidak dicantumkan di halaman tersebut.</p>",
+    "seoTitle": "IndoSec 2027: Tanggal, Lokasi, dan Cara Ikut",
+    "seoDescription": "IndoSec 2027, konferensi keamanan siber dari Tradepass, dijadwalkan 21–22 September 2027. Tempat acara belum diumumkan; edisi 2026 digelar di Jakarta."
+   },
+   "en": {
+    "summaryHtml": "<p>IndoSec is a cybersecurity conference and exhibition that Tradepass has organised in Indonesia since 2018. The official event site lists 21–22 September 2027 for the next edition, while the venue is still marked as to be announced.</p><p>The 2026 edition, the ninth, took place on 15–16 September 2026 at The Ritz-Carlton Jakarta, Pacific Place. Its speakers included officials from the National Cyber and Crypto Agency (BSSN) and the Ministry of Communications and Digital Affairs, as well as information security heads from banks, telecom operators and technology companies.</p><p>Besides the conference sessions, IndoSec has a sponsor area for cybersecurity solution providers and an awards programme. Delegates and prospective sponsors apply through forms on the official site.</p>",
+    "faqHtml": "<h3>When is IndoSec 2027?</h3><p>The official IndoSec site lists 21–22 September 2027.</p><h3>Where is IndoSec 2027?</h3><p>The venue for the 2027 edition has not been announced. The 2026 edition was held at The Ritz-Carlton Jakarta, Pacific Place.</p><h3>How do I attend IndoSec 2027?</h3><p>Prospective delegates fill in the delegate enquiry form on the official site, and solution providers use the sponsor enquiry form. The page does not state any fees.</p>",
+    "seoTitle": "IndoSec 2027: Dates, Venue and How to Attend",
+    "seoDescription": "IndoSec 2027, the cybersecurity conference by Tradepass, is scheduled for 21–22 September 2027. Venue to be announced; the 2026 edition was in Jakarta."
+   },
+   "ja": {
+    "summaryHtml": "<p>IndoSecは、Tradepassが2018年からインドネシアで開いているサイバーセキュリティのカンファレンス兼展示会だ。公式サイトは次回の日程を2027年9月21〜22日としている。会場は「後日発表」の扱いである。</p><p>9回目となった2026年は、9月15〜16日にThe Ritz-Carlton Jakarta, Pacific Placeで開かれた。国家サイバー暗号庁（BSSN）や通信デジタル省の担当者のほか、銀行、通信、テクノロジー企業の情報セキュリティ責任者が登壇した。</p><p>カンファレンスのほか、サイバーセキュリティ製品の提供企業が出展するスポンサーエリアと表彰プログラムがある。参加希望者とスポンサー希望の企業は、公式サイトのフォームから申し込む。</p>",
+    "faqHtml": "<h3>IndoSec 2027の日程は？</h3><p>公式サイトは2027年9月21〜22日としている。</p><h3>IndoSec 2027の会場は？</h3><p>2027年の会場はまだ発表されていない。2026年はThe Ritz-Carlton Jakarta, Pacific Placeで開かれた。</p><h3>IndoSec 2027に参加するにはどうすればよいか。</h3><p>参加希望者は公式サイトのdelegate enquiryフォーム、製品の提供企業はsponsor enquiryフォームから申し込む。料金は同ページに記載されていない。</p>",
+    "seoTitle": "IndoSec 2027 日程・会場・概要",
+    "seoDescription": "Tradepass主催のサイバーセキュリティ会議IndoSec 2027は2027年9月21〜22日の予定。会場は未発表で、2026年はジャカルタで開かれた。"
+   },
+   "status": "upcoming"
+  }
+ ]
 }

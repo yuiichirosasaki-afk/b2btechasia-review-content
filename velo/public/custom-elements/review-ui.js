@@ -6,6 +6,8 @@
 //   top    — top bar (with ID|EN switch) + compact masthead + category nav + Expo leaderboard (article and Siaran Pers pages)
 //   side   — article sidebar (Ditulis untuk, Berita Terkait, Expo card)
 //   bottom — related articles + vendor banner + Expo band + footer
+//   expoBottom — bottom of an exhibition page (official site, other exhibitions, Expo band, footer)
+// The exhibition calendar list is part="front" with d.view = 'expo' (d.expos = entries of ReviewExhibitions).
 // Language: d.lang = 'id' | 'en' | 'ja'; d.path = language-neutral path for the ID|EN|JP switch.
 // Japanese pages live at /jp/review…; d.siteBase is the prefix for Expo and press-release links (the Expo site has no /jp).
 // Banners: leader() visitor leaderboard, vendorWide() exhibitor banner, rect() side banner, expoBand().
@@ -122,6 +124,120 @@ function catName(name) { const z = zoneOf(name); return z ? z.n : (name || ''); 
 function typeName(t) { if (ja()) return JA_TYPE[t] || '分析'; return (en() ? EN_TYPE : TYPE_LABEL)[t] || (en() ? 'Analysis' : 'Analisis'); }
 function T() { return TEXT[LANG] || TEXT.id; }
 
+// ---------- Exhibition calendar (/review/expo, EXHIBITIONS.md) ----------
+// Text for the calendar list (part="front", d.view = 'expo') and the bottom of an exhibition page (part="expoBottom").
+const EXPO_PATH = '/review/expo';
+const CONTACT = 'marketing@vritimes.com';
+const XT = {
+  id: {
+    nav: 'Kalender Pameran', all: 'Semua', hub: 'Hub', search: 'Cari', searchPh: 'Nama pameran, penyelenggara, atau lokasi', city: 'Kota', allCities: 'Semua kota',
+    dateStatus: 'Status tanggal', confirmed: 'Resmi', tba: 'Belum diumumkan', cancelled: 'Dibatalkan', ongoing: 'Sedang berlangsung',
+    count: (n) => `${n} pameran`, dated: (n) => `${n} sudah memiliki tanggal`, checked: 'Terakhir diperiksa', listLabel: 'Daftar pameran',
+    tbaGroup: 'Tanggal belum diumumkan', pastGroup: 'Sudah berlangsung', cancelledGroup: 'Dibatalkan',
+    last: 'Edisi sebelumnya', detail: 'Lihat detail →', organizer: 'Penyelenggara', own: 'Diselenggarakan oleh penerbit situs ini',
+    ownDesc: 'Pameran khusus software B2B. Lantai pameran ditata dalam 3 hub dan 12 zona menurut fungsi pembeli, sehingga pengunjung langsung menuju solusi untuk departemennya.',
+    exhibit: 'Jadi Exhibitor', none: 'Tidak ada pameran yang cocok dengan filter ini.', empty: 'Belum ada pameran yang tercantum.',
+    howTitle: 'Cara kami menyusun kalender ini',
+    how: 'Redaksi mengumpulkan jadwal dari situs resmi penyelenggara, siaran pers penyelenggara, dan kalender resmi tempat acara, lalu memeriksanya ulang setiap minggu. Tanggal yang belum diumumkan penyelenggara tidak kami tampilkan. Sebelum memesan perjalanan atau stan, pastikan kembali ke penyelenggara.',
+    legendTitle: 'Keterangan status tanggal',
+    legendConfirmed: 'Tanggal diumumkan penyelenggara di situs atau siaran pers resminya.',
+    legendTba: 'Tanggal edisi berikutnya belum diumumkan. Kami tampilkan edisi sebelumnya sebagai acuan.',
+    fixTitle: 'Koreksi dan penambahan', fix: 'Ada jadwal yang berubah, atau pameran yang belum tercantum? Kirimkan ke redaksi.',
+    official: 'Kunjungi situs resmi', addCal: 'Tambahkan ke kalender', report: 'Laporkan koreksi', reportSubject: 'Koreksi kalender pameran',
+    sameZone: 'Pameran lain di zona yang sama', others: 'Pameran lain', allCal: 'Lihat seluruh kalender →',
+    days: ['Min', 'Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab'],
+  },
+  en: {
+    nav: 'Exhibition Calendar', all: 'All', hub: 'Hub', search: 'Search', searchPh: 'Event, organiser or venue', city: 'City', allCities: 'All cities',
+    dateStatus: 'Date status', confirmed: 'Official', tba: 'Not announced', cancelled: 'Cancelled', ongoing: 'Now on',
+    count: (n) => `${n} ${n === 1 ? 'event' : 'events'}`, dated: (n) => `${n} with dates`, checked: 'Last checked', listLabel: 'Exhibitions',
+    tbaGroup: 'Dates not yet announced', pastGroup: 'Past events', cancelledGroup: 'Cancelled',
+    last: 'Previous edition', detail: 'Details →', organizer: 'Organiser', own: 'Organised by the publisher of this site',
+    ownDesc: 'A B2B software-only exhibition. The floor is arranged in 3 hubs and 12 zones by buyer function, so visitors go straight to the solutions for their department.',
+    exhibit: 'Become an Exhibitor', none: 'No events match these filters.', empty: 'No events listed yet.',
+    howTitle: 'How we compile this calendar',
+    how: 'Our editors collect dates from organisers’ official websites, their press releases and venues’ official calendars, and re-check them every week. Dates the organiser has not announced are not shown. Before booking travel or a booth, confirm with the organiser.',
+    legendTitle: 'About the date status',
+    legendConfirmed: 'Dates announced by the organiser on its website or in an official press release.',
+    legendTba: 'Dates of the next edition have not been announced. The previous edition is shown for reference.',
+    fixTitle: 'Corrections and additions', fix: 'Has a date changed, or is an event missing? Tell our editors.',
+    official: 'Visit the official site', addCal: 'Add to calendar', report: 'Report a correction', reportSubject: 'Exhibition calendar correction',
+    sameZone: 'Other events in the same zone', others: 'Other events', allCal: 'See the full calendar →',
+    days: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+  },
+  ja: {
+    nav: '展示会カレンダー', all: 'すべて', hub: 'Hub', search: '検索', searchPh: '展示会名、主催者、会場', city: '都市', allCities: 'すべての都市',
+    dateStatus: '日程の状態', confirmed: '公式発表', tba: '未発表', cancelled: '中止', ongoing: '開催中',
+    count: (n) => `${n}件`, dated: (n) => `日程あり ${n}件`, checked: '最終確認', listLabel: '展示会の一覧',
+    tbaGroup: '日程未発表', pastGroup: '開催済み', cancelledGroup: '中止',
+    last: '前回', detail: '詳細を見る →', organizer: '主催', own: '当サイトの発行元が主催',
+    ownDesc: 'B2Bソフトウェア専門の展示会。会場は買い手の部門に合わせて3つのハブと12のゾーンに分かれており、来場者は自部門向けのソリューションをまっすぐ見て回れる。',
+    exhibit: '出展する', none: '条件に合う展示会はありません。', empty: '掲載中の展示会はまだありません。',
+    howTitle: 'このカレンダーの作り方',
+    how: '編集部が主催者の公式サイト、主催者のプレスリリース、会場の公式の催事予定から日程を集め、毎週確認し直しています。主催者が発表していない日程は掲載しません。出張や出展を手配する前に、主催者に最新の情報をご確認ください。',
+    legendTitle: '日程の状態について',
+    legendConfirmed: '主催者が公式サイトまたはプレスリリースで発表した日程です。',
+    legendTba: '次回の日程は発表されていません。参考として前回の開催実績を表示しています。',
+    fixTitle: '訂正・追加のご連絡', fix: '日程の変更や、掲載されていない展示会があればお知らせください。',
+    official: '公式サイトを見る', addCal: 'カレンダーに追加', report: '訂正を連絡する', reportSubject: '展示会カレンダーの訂正',
+    sameZone: '同じゾーンの展示会', others: 'ほかの展示会', allCal: 'カレンダー全体を見る →',
+    days: JA_DAYS,
+  },
+};
+function X() { return XT[LANG] || XT.id; }
+// Exhibition dates are plain 'YYYY-MM-DD' strings (Jakarta calendar days), never shifted by time zone.
+function ymd(s) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s || '');
+  return m ? { y: +m[1], m: +m[2] - 1, d: +m[3], dow: new Date(Date.UTC(+m[1], +m[2] - 1, +m[3])).getUTCDay() } : null;
+}
+function monthTitle(y, m) { return ja() ? `${y}年${m + 1}月` : `${(en() ? EN_MONTHS : MONTHS)[m]} ${y}`; }
+// "4–5 Agustus 2027" / "4–5 August 2027" / "2027年8月4〜5日"
+function dateRange(s, e) {
+  const a = ymd(s); const b = ymd(e) || a;
+  if (!a) return '';
+  if (ja()) {
+    if (a.y === b.y && a.m === b.m) return `${a.y}年${a.m + 1}月${a.d}${a.d === b.d ? '' : '〜' + b.d}日`;
+    return `${a.y}年${a.m + 1}月${a.d}日〜${a.y === b.y ? '' : b.y + '年'}${b.m + 1}月${b.d}日`;
+  }
+  const M = en() ? EN_MONTHS : MONTHS;
+  if (a.y === b.y && a.m === b.m) return `${a.d}${a.d === b.d ? '' : '–' + b.d} ${M[a.m]} ${a.y}`;
+  if (a.y === b.y) return `${a.d} ${M[a.m]} – ${b.d} ${M[b.m]} ${a.y}`;
+  return `${a.d} ${M[a.m]} ${a.y} – ${b.d} ${M[b.m]} ${b.y}`;
+}
+// Date column of the list: "4–5" (the month is the group heading); across months "29/10–1/11".
+function dayRange(s, e) {
+  const a = ymd(s); const b = ymd(e) || a;
+  if (!a) return '';
+  if (a.m === b.m) return a.d === b.d ? String(a.d) : `${a.d}–${b.d}`;
+  return `${a.d}/${a.m + 1}–${b.d}/${b.m + 1}`;
+}
+function dowRange(s, e) {
+  const a = ymd(s); const b = ymd(e) || a;
+  if (!a) return '';
+  const D = X().days;
+  if (s === e || !e) return D[a.dow];
+  return D[a.dow] + (ja() ? '〜' : '–') + D[b.dow];
+}
+function hubsOfZones(zones) {
+  const out = [];
+  (zones || []).forEach((n) => { const z = zoneOf(n); if (z && out.indexOf(z.hub) < 0) out.push(z.hub); });
+  return out;
+}
+function statusBadge(kind, onDark) {
+  const x = X();
+  const base = 'display:inline-flex;align-items:center;height:26px;padding:0 10px;font-size:12px;font-weight:700;letter-spacing:.4px;white-space:nowrap;';
+  if (kind === 'confirmed') return `<span style="${base}background:${onDark ? '#fff' : NAVY};color:${onDark ? NAVY : '#fff'}">${x.confirmed}</span>`;
+  if (kind === 'ongoing') return `<span style="${base}background:${RED};color:#fff">${x.ongoing}</span>`;
+  if (kind === 'cancelled') return `<span style="${base}background:#fff;color:${RED};border:1px solid ${RED}">${x.cancelled}</span>`;
+  return `<span style="${base}background:#E6E9ED;color:${MUTED}">${x.tba}</span>`;
+}
+// One line for an entry without dates: "Edisi sebelumnya: 15–16 September 2026, venue".
+function lastLine(e) {
+  const l = e.last;
+  if (!l || !l.startDate) return '';
+  return `${X().last}${ja() ? '：' : ': '}${dateRange(l.startDate, l.endDate)}${l.venue ? (ja() ? '、' : ', ') + l.venue : ''}`;
+}
+
 const CSS = `
 [data-testid="colorUnderlay"]{background-color:#FFFFFF!important}
 review-ui{min-height:0!important;height:auto!important}
@@ -154,6 +270,12 @@ review-ui .rv-btn{display:inline-flex;align-items:center;min-height:48px;padding
 review-ui .rv-lang a{padding:2px 4px;color:${MUTED}}
 review-ui .rv-lang a.on{color:${NAVY};font-weight:700;border-bottom:2px solid ${RED}}
 review-ui .rv-adlabel{display:block;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#8A94A3;margin-bottom:4px}
+review-ui .xp-hide{display:none!important}
+review-ui .xp-input{font-family:inherit;font-size:15px;padding:0 12px;height:44px;width:100%;border:1px solid #C4CAD3;border-radius:2px;color:${INK};background:#fff}
+review-ui .xp-hubbtn{font-family:inherit;font-size:14px;font-weight:600;min-height:44px;padding:0 16px;border:1px solid #C4CAD3;background:#fff;color:${INK};border-radius:2px;cursor:pointer}
+review-ui .xp-hubbtn[aria-pressed="true"]{border-color:${NAVY};background:${NAVY};color:#fff}
+review-ui .xp-row a:hover{text-decoration:underline;text-underline-offset:4px}
+review-ui .xp-own a:hover{color:#fff}
 review-ui .bn{display:flex;flex-wrap:wrap;align-items:center;gap:16px 28px;color:#fff;font-family:'Montserrat',${SANS};background-color:${BN_NAVY};background-size:cover;background-position:center right;border-radius:10px;overflow:hidden;text-decoration:none}
 review-ui a.bn:hover{color:#fff;filter:brightness(1.06)}
 review-ui .bn-leader{padding:22px 28px;min-height:132px}
@@ -221,6 +343,10 @@ review-ui .tk-band .tk-body{padding:32px 36px}
  review-ui .rv-rel img{flex:0 0 auto!important;width:100%!important}
  review-ui .rv-rel-title{font-size:17px!important}
  review-ui .tk .tk-stub{padding-top:34%!important}
+ review-ui .xp-date{flex:1 1 100%!important;flex-direction:row!important;align-items:baseline;gap:10px!important}
+ review-ui .xp-own{padding:24px 20px!important}
+ review-ui .xp-own .rv-serif{font-size:26px!important}
+ review-ui .xp-filter{padding:16px!important}
 }
 /* Wix's mobile view can keep a wide window and only narrow the page column: same rules by the element's own width. */
 review-ui{container:rv / inline-size}
@@ -252,6 +378,10 @@ review-ui{container:rv / inline-size}
  review-ui .rv-rel img{flex:0 0 auto!important;width:100%!important}
  review-ui .rv-rel-title{font-size:17px!important}
  review-ui .tk .tk-stub{padding-top:34%!important}
+ review-ui .xp-date{flex:1 1 100%!important;flex-direction:row!important;align-items:baseline;gap:10px!important}
+ review-ui .xp-own{padding:24px 20px!important}
+ review-ui .xp-own .rv-serif{font-size:26px!important}
+ review-ui .xp-filter{padding:16px!important}
 }
 `;
 
@@ -314,12 +444,14 @@ class ReviewUi extends HTMLElement {
     L.site = (path) => siteBase + path; // Expo pages and press releases (no Japanese version)
     this.classList.toggle('rv-narrow', !!d.narrow);
     let html = '';
-    if (part === 'front') html = d.view === 'list' ? this.list(d, L) : this.front(d, L);
+    if (part === 'front') html = d.view === 'expo' ? this.expoList(d, L) : (d.view === 'list' ? this.list(d, L) : this.front(d, L));
     else if (part === 'top') html = this.topbar(d, L) + this.compactHeader(d, L) + this.leader(d, L, 16);
     else if (part === 'side') html = this.side(d, L);
     else if (part === 'bottom') html = this.related(d, L) + this.expoBand(d, L, true) + this.footer(d, L);
+    else if (part === 'expoBottom') html = this.expoBottom(d, L) + this.footer(d, L);
     this.innerHTML = html;
     this.bindNav();
+    this.bindExpo();
   }
 
   // Links to the same page in the other language. d.path is language-neutral (e.g. /review/slug).
@@ -342,7 +474,7 @@ ${this.langSwitch(d)}
 </div></div>`;
   }
 
-  // Main menu (design option A): Terbaru, the 3 hubs as tabs, Siaran Pers.
+  // Main menu (design option A): Terbaru, the 3 hubs as tabs, Kalender Pameran, Siaran Pers.
   // The active hub has an underline in its colour; hovering a hub shows its zones in the row below.
   navLinks(d, L, active) {
     const hub = hubOf(active);
@@ -351,7 +483,7 @@ ${this.langSwitch(d)}
       const on = !!hub && hub.s === h.s;
       return `<a href="${L('/review?kategori=' + h.s)}" class="rv-hubtab${on ? ' on' : ''}" data-hub="${h.s}" style="--hub:${h.color};color:${on ? h.color : INK}">${esc(h.n)}</a>`;
     }).join('');
-    return link(T().latest, L('/review'), !active, INK) + hubs + link(T().pr, L('/review?kategori=siaran-pers'), active === 'siaran-pers', MUTED);
+    return link(T().latest, L('/review'), !active, INK) + hubs + link(X().nav, L(EXPO_PATH), active === 'expo', INK) + link(T().pr, L('/review?kategori=siaran-pers'), active === 'siaran-pers', MUTED);
   }
 
   // Second row: the 4 zones of one hub, full names, on the hub's tint. Shows the current hub
@@ -686,6 +818,205 @@ ${this.ticketRows()}
 </span></section></div>`;
   }
 
+  // ---------- Exhibition calendar (/review/expo) ----------
+  expoPlace(e) { return [e.venue, e.city].filter(Boolean).join(ja() ? '、' : ', '); }
+
+  // One exhibition in the list. inMonth: the group heading already names the month.
+  expoRow(e, L, inMonth) {
+    const x = X();
+    const t = T();
+    const href = L(EXPO_PATH + '/' + e.slug);
+    const dated = e.dateStatus === 'confirmed' && !!e.start;
+    const attrs = `class="xp-row${e.own ? ' xp-own' : ''}" data-hubs="${hubsOfZones(e.zones).map((h) => h.s).join(' ')}" data-status="${esc(e.dateStatus)}" data-city="${esc(e.city || '')}" data-q="${esc([e.name, e.organizer, e.venue, e.city].join(' ').toLowerCase())}"`;
+    if (e.own) {
+      return `<article ${attrs} style="margin:16px 0 4px;background:${NAVY};color:#fff;padding:32px 36px;display:flex;flex-wrap:wrap;gap:24px 40px;align-items:flex-end;justify-content:space-between">
+<div style="flex:1 1 380px;min-width:0;display:flex;flex-direction:column;gap:10px">
+<div style="display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center">${statusBadge(dated ? 'confirmed' : 'tba', true)}<span class="rv-kicker" style="color:#C9D6E8">${x.own}</span></div>
+<a href="${href}" class="rv-serif" style="font-size:34px;font-weight:700;line-height:1.15;color:#fff">${esc(e.name)}</a>
+<span style="font-size:17px;font-weight:600;color:#fff">${dated ? `${esc(dateRange(e.start, e.end))}${ja() ? `（${dowRange(e.start, e.end)}）` : ` (${dowRange(e.start, e.end)})`} · ` : ''}${esc(this.expoPlace(e))}</span>
+<span style="font-size:16px;line-height:1.5;color:#E3EAF3">${x.ownDesc}</span>
+<span style="font-size:13px;color:#C9D6E8">${x.organizer}${ja() ? '：' : ': '}${esc(e.organizer)} · <a href="${href}" style="color:#fff;text-decoration:underline;text-underline-offset:3px">${x.detail}</a></span>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:12px">
+<a href="${L.site('/register-now-2')}" style="display:inline-flex;align-items:center;min-height:48px;padding:0 24px;background:#fff;color:${NAVY};font-weight:700;font-size:15px;border-radius:2px">${t.register}</a>
+<a href="${L.site('/request-proposal-form')}" style="display:inline-flex;align-items:center;min-height:48px;padding:0 24px;border:1px solid #fff;color:#fff;font-weight:600;font-size:15px;border-radius:2px">${x.exhibit}</a>
+</div></article>`;
+    }
+    const a = ymd(e.start);
+    const badge = e.status === 'cancelled' ? 'cancelled' : (e.status === 'ongoing' ? 'ongoing' : (dated ? 'confirmed' : 'tba'));
+    const dateCol = dated
+      ? `<span class="rv-serif" style="font-size:28px;font-weight:700;line-height:1.1;color:${NAVY}">${dayRange(e.start, e.end)}</span><span style="font-size:13px;color:${SUB}">${inMonth ? dowRange(e.start, e.end) : monthTitle(a.y, a.m)}</span>`
+      : `<span class="rv-serif" style="font-size:28px;font-weight:700;line-height:1.1;color:#9AA3AF" aria-hidden="true">—</span>`;
+    const last = dated ? '' : lastLine(e);
+    return `<article ${attrs} style="display:flex;flex-wrap:wrap;gap:12px 24px;padding:20px 0;border-bottom:1px solid ${LINE}">
+<div class="xp-date" style="flex:0 0 112px;display:flex;flex-direction:column;gap:2px">${dateCol}</div>
+<div style="flex:1 1 320px;min-width:0;display:flex;flex-direction:column;gap:6px">
+<a href="${href}" class="rv-serif" style="font-size:21px;line-height:1.25;font-weight:700">${esc(e.name)}</a>
+<span style="font-size:14px;line-height:1.45;color:#333B47">${esc(this.expoPlace(e))}</span>
+${last ? `<span style="font-size:14px;line-height:1.45;color:#333B47">${esc(last)}</span>` : ''}
+<span style="font-size:13px;line-height:1.45;color:${SUB}">${esc(e.organizer || '')}</span>
+<div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:4px">${(e.zones || []).map((z) => `<span style="font-size:12px;font-weight:600;color:${NAVY};border:1px solid #C4CAD3;padding:3px 8px">${esc(z)}</span>`).join('')}</div>
+</div>
+<div style="flex:0 0 auto;display:flex;flex-direction:column;gap:10px;align-items:flex-start">${statusBadge(badge)}<a href="${href}" style="font-size:14px;font-weight:600;color:${NAVY}">${x.detail}</a></div>
+</article>`;
+  }
+
+  expoGroup(title, items, L, inMonth) {
+    return `<div class="xp-group" style="margin-top:32px">
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px;border-top:3px solid ${NAVY};padding:12px 0 4px">
+<h2 class="rv-serif" style="margin:0;font-size:26px;font-weight:700;color:${NAVY}">${esc(title)}</h2>
+<span style="font-size:14px;color:${MUTED}">${X().count(items.length)}</span></div>
+${items.map((e) => this.expoRow(e, L, inMonth)).join('')}</div>`;
+  }
+
+  expoList(d, L) {
+    const x = X();
+    const all = d.expos || [];
+    const live = all.filter((e) => e.status === 'upcoming' || e.status === 'ongoing');
+    const tba = all.filter((e) => e.status === 'tba');
+    const past = all.filter((e) => e.status === 'past');
+    const gone = all.filter((e) => e.status === 'cancelled');
+    const months = [];
+    live.forEach((e) => {
+      const a = ymd(e.start);
+      const key = a.y * 12 + a.m;
+      let g = months.find((m) => m.key === key);
+      if (!g) { g = { key, title: monthTitle(a.y, a.m), items: [] }; months.push(g); }
+      g.items.push(e);
+    });
+    months.sort((p, q) => p.key - q.key);
+    const cities = all.map((e) => e.city).filter((c, i, arr) => c && arr.indexOf(c) === i).sort();
+    const label = `font-size:13px;font-weight:600;color:${MUTED}`;
+    const nStatus = (s) => all.filter((e) => e.dateStatus === s).length;
+    const out = [this.topbar(d, L), this.masthead(d, L), this.leader(d, L), `<main class="rv-wrap" style="padding-top:32px">`];
+    out.push(`<div class="rv-kicker" style="font-size:12px;margin-bottom:8px;color:${RED}">${x.nav}</div>
+<h1 class="rv-serif rv-list-title" style="margin:0;font-size:40px;line-height:1.15;font-weight:700;color:${NAVY}">${esc(d.heading || x.nav)}</h1>
+${d.intro ? `<p class="rv-serif" style="margin:12px 0 0;font-size:19px;line-height:1.5;color:#333B47;max-width:820px">${esc(d.intro)}</p>` : ''}
+<div style="display:flex;flex-wrap:wrap;gap:6px 20px;margin-top:14px;font-size:14px;color:${MUTED}"><span><strong style="color:${INK}">${x.count(all.length - gone.length)}</strong></span><span>${x.dated(live.length)}</span>${d.verified ? `<span>${x.checked} ${esc(dateRange(d.verified, d.verified))}</span>` : ''}</div>`);
+    if (!all.length) {
+      out.push(`<p style="margin-top:28px;font-size:17px;color:${MUTED}">${x.empty}</p>`);
+    } else {
+      out.push(`<form class="xp-filter" role="search" style="display:flex;flex-direction:column;gap:14px;margin-top:24px;padding:20px 24px;background:${PANEL};border:1px solid ${LINE}">
+<div style="display:flex;flex-wrap:wrap;gap:16px">
+<div style="flex:2 1 320px;display:flex;flex-direction:column;gap:6px"><label for="xp-q" style="${label}">${x.search}</label><input id="xp-q" class="xp-input xp-q" type="search" placeholder="${esc(x.searchPh)}" autocomplete="off"></div>
+${cities.length > 1 ? `<div style="flex:1 1 200px;display:flex;flex-direction:column;gap:6px"><label for="xp-city" style="${label}">${x.city}</label><select id="xp-city" class="xp-input xp-city"><option value="">${x.allCities}</option>${cities.map((c) => `<option>${esc(c)}</option>`).join('')}</select></div>` : ''}
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center"><span style="${label};flex:0 0 96px">${x.hub}</span>
+<div style="display:flex;flex-wrap:wrap;gap:8px"><button type="button" class="xp-hubbtn" data-hub="" aria-pressed="true">${x.all} (${all.length})</button>${HUBS.map((h) => `<button type="button" class="xp-hubbtn" data-hub="${h.s}" aria-pressed="false">${esc(h.n.replace(' Hub', ''))} (${all.filter((e) => hubsOfZones(e.zones).indexOf(h) >= 0).length})</button>`).join('')}</div></div>
+<div style="display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center"><span style="${label};flex:0 0 96px">${x.dateStatus}</span>
+<div style="display:flex;flex-wrap:wrap;gap:4px 20px">${['confirmed', 'tba'].map((s) => `<label style="display:inline-flex;align-items:center;gap:8px;min-height:44px;font-size:14px;cursor:pointer"><input type="checkbox" class="xp-st" value="${s}" checked style="width:18px;height:18px;accent-color:${NAVY}">${x[s]} (${nStatus(s)})</label>`).join('')}</div></div>
+</form>`);
+      out.push(`<div style="display:flex;flex-wrap:wrap;gap:40px;margin-top:12px">
+<section style="flex:999 1 640px;min-width:0" aria-label="${x.listLabel}">
+${months.map((m) => this.expoGroup(m.title, m.items, L, true)).join('')}
+${tba.length ? this.expoGroup(x.tbaGroup, tba, L, false) : ''}
+${past.length ? this.expoGroup(x.pastGroup, past, L, false) : ''}
+${gone.length ? this.expoGroup(x.cancelledGroup, gone, L, false) : ''}
+<p class="xp-none xp-hide" style="margin:28px 0 0;font-size:17px;color:${MUTED}">${x.none}</p>
+<div style="margin-top:40px;padding:20px 24px;border:1px solid ${LINE};display:flex;flex-direction:column;gap:8px">
+<h2 style="margin:0;font-size:15px;font-weight:700;color:${INK}">${x.howTitle}</h2>
+<p style="margin:0;font-size:14px;line-height:1.6;color:${MUTED}">${x.how}</p></div>
+</section>
+<aside style="flex:1 1 280px;min-width:0;display:flex;flex-direction:column;gap:32px;margin-top:32px">
+<div style="display:flex;flex-direction:column;gap:14px">
+<h2 class="rv-kicker" style="margin:0;font-size:13px;color:${NAVY};padding-bottom:10px;border-bottom:3px solid ${NAVY}">${x.legendTitle}</h2>
+<div style="display:flex;flex-direction:column;gap:6px;align-items:flex-start">${statusBadge('confirmed')}<span style="font-size:14px;line-height:1.5;color:${MUTED}">${x.legendConfirmed}</span></div>
+<div style="display:flex;flex-direction:column;gap:6px;align-items:flex-start">${statusBadge('tba')}<span style="font-size:14px;line-height:1.5;color:${MUTED}">${x.legendTba}</span></div>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px">
+<h2 class="rv-kicker" style="margin:0;font-size:13px;color:${NAVY};padding-bottom:10px;border-bottom:3px solid ${NAVY}">${x.fixTitle}</h2>
+<p style="margin:0;font-size:14px;line-height:1.55;color:${MUTED}">${x.fix}</p>
+<a href="mailto:${CONTACT}?subject=${encodeURIComponent(x.reportSubject)}" style="display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 16px;border:1px solid ${NAVY};color:${NAVY};font-size:14px;font-weight:600;border-radius:2px">${CONTACT}</a>
+</div>
+<div class="rv-hide-mobile">${this.rect(d, L, true)}</div>
+</aside></div>`);
+    }
+    out.push(`</main>`);
+    out.push(this.expoBand(d, L, false));
+    out.push(this.footer(d, L));
+    return out.join('');
+  }
+
+  // Filters of the calendar: search, city, hub, date status. Rows and groups are hidden with .xp-hide.
+  bindExpo() {
+    const form = this.querySelector('.xp-filter');
+    if (!form) return;
+    const rows = [...this.querySelectorAll('.xp-row')];
+    const groups = [...this.querySelectorAll('.xp-group')];
+    const none = this.querySelector('.xp-none');
+    const q = form.querySelector('.xp-q');
+    const city = form.querySelector('.xp-city');
+    const boxes = [...form.querySelectorAll('.xp-st')];
+    const btns = [...form.querySelectorAll('.xp-hubbtn')];
+    let hub = '';
+    const apply = () => {
+      const text = (q.value || '').trim().toLowerCase();
+      const c = city ? city.value : '';
+      const st = boxes.filter((b) => b.checked).map((b) => b.value);
+      let shown = 0;
+      rows.forEach((r) => {
+        const s = r.dataset.status;
+        const ok = (!text || r.dataset.q.indexOf(text) >= 0) && (!hub || (' ' + r.dataset.hubs + ' ').indexOf(' ' + hub + ' ') >= 0)
+          && (!c || r.dataset.city === c) && (st.indexOf(s) >= 0 || (s !== 'confirmed' && s !== 'tba'));
+        r.classList.toggle('xp-hide', !ok);
+        if (ok) shown++;
+      });
+      groups.forEach((g) => g.classList.toggle('xp-hide', !g.querySelector('.xp-row:not(.xp-hide)')));
+      if (none) none.classList.toggle('xp-hide', shown > 0);
+    };
+    form.addEventListener('submit', (ev) => ev.preventDefault());
+    q.addEventListener('input', apply);
+    if (city) city.addEventListener('change', apply);
+    boxes.forEach((b) => b.addEventListener('change', apply));
+    btns.forEach((b) => b.addEventListener('click', () => {
+      hub = b.dataset.hub;
+      btns.forEach((o) => o.setAttribute('aria-pressed', o === b ? 'true' : 'false'));
+      apply();
+    }));
+  }
+
+  // Bottom of an exhibition page: official site / calendar / correction, other exhibitions, then the Expo band
+  // (not on the VRI B2B Tech Asia page itself, which gets its own register / exhibit buttons).
+  expoBottom(d, L) {
+    const x = X();
+    const t = T();
+    const e = d.expo || {};
+    const rel = d.related || [];
+    const btn = 'display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;font-size:15px;border-radius:2px;';
+    const solid = `${btn}background:${NAVY};color:#fff;font-weight:700`;
+    const ghost = `${btn}border:1px solid ${NAVY};color:${NAVY};font-weight:600`;
+    let cal = '';
+    const a = ymd(e.start);
+    const b = ymd(e.end) || a;
+    if (e.dateStatus === 'confirmed' && a) {
+      const n = (y, m, dd) => new Date(Date.UTC(y, m, dd)).toISOString().slice(0, 10).replace(/-/g, '');
+      cal = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(e.name || '')}&dates=${n(a.y, a.m, a.d)}/${n(b.y, b.m, b.d + 1)}&location=${encodeURIComponent(this.expoPlace(e))}&details=${encodeURIComponent(e.officialUrl || '')}`;
+    }
+    const actions = [];
+    if (e.own) {
+      actions.push(`<a href="${L.site('/register-now-2')}" style="${solid}">${t.register}</a>`);
+      actions.push(`<a href="${L.site('/request-proposal-form')}" style="${ghost}">${x.exhibit}</a>`);
+    } else if (e.officialUrl) {
+      actions.push(`<a href="${esc(e.officialUrl)}" target="_blank" rel="noopener nofollow" style="${solid}">${x.official} ↗</a>`);
+    }
+    if (cal) actions.push(`<a href="${esc(cal)}" target="_blank" rel="noopener nofollow" style="${ghost}">${x.addCal}</a>`);
+    actions.push(`<a href="mailto:${CONTACT}?subject=${encodeURIComponent(x.reportSubject + ': ' + (e.name || ''))}" style="${ghost}">${x.report}</a>`);
+    const line = (r) => (r.dateStatus === 'confirmed' && r.start
+      ? `${dateRange(r.start, r.end)} · ${this.expoPlace(r)}`
+      : (lastLine(r) || this.expoPlace(r)));
+    return `<div class="rv-wrap" style="margin-top:24px">
+<div style="display:flex;flex-wrap:wrap;gap:12px">${actions.join('')}</div>
+${rel.length ? `<section style="margin-top:40px;border-top:3px solid ${NAVY};padding-top:16px">
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px"><h2 class="rv-kicker" style="margin:0;font-size:13px;color:${NAVY}">${d.sameZone ? x.sameZone : x.others}</h2>
+<a href="${L(EXPO_PATH)}" style="font-size:14px;font-weight:600;color:${NAVY}">${x.allCal}</a></div>
+${rel.map((r) => `<a href="${L(EXPO_PATH + '/' + r.slug)}" style="display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;padding:14px 0;border-bottom:1px solid ${LINE}">
+${statusBadge(r.status === 'cancelled' ? 'cancelled' : (r.dateStatus === 'confirmed' ? 'confirmed' : 'tba'))}
+<span style="display:flex;flex-direction:column;gap:4px;flex:1 1 300px;min-width:0"><span class="rv-serif rv-rel-title" style="font-size:18px;line-height:1.35;font-weight:600">${esc(r.name)}</span>
+<span style="font-size:14px;color:${MUTED}">${esc(line(r))}</span></span></a>`).join('')}</section>`
+    : `<p style="margin:24px 0 0"><a href="${L(EXPO_PATH)}" style="font-size:14px;font-weight:600;color:${NAVY}">${x.allCal}</a></p>`}
+</div>${e.own ? '' : this.expoBand(d, L, true)}`;
+  }
+
   footer(d, L) {
     const t = T();
     return `<footer style="margin-top:64px;border-top:1px solid ${LINE};background:${PANEL}">
@@ -697,7 +1028,7 @@ ${this.ticketRows()}
 </div>
 <div style="display:flex;flex-wrap:wrap;gap:40px">
 ${HUBS.map((h) => `<div style="display:flex;flex-direction:column;gap:10px;max-width:220px"><a href="${L('/review?kategori=' + h.s)}" style="color:${INK}"><strong>${esc(h.n)}</strong></a>${h.zones.map(([n, s]) => `<a href="${L('/review?kategori=' + s)}" style="color:${MUTED}">${esc(n)}</a>`).join('')}</div>`).join('')}
-<div style="display:flex;flex-direction:column;gap:10px"><strong style="color:${INK}">${t.pr}</strong><a href="${L('/review?kategori=siaran-pers')}" style="color:${MUTED}">${t.prAll.replace(' →', '')}</a></div>
+<div style="display:flex;flex-direction:column;gap:10px"><strong style="color:${INK}">${t.pr}</strong><a href="${L('/review?kategori=siaran-pers')}" style="color:${MUTED}">${t.prAll.replace(' →', '')}</a><a href="${L(EXPO_PATH)}" style="color:${MUTED}">${X().nav}</a></div>
 <div style="display:flex;flex-direction:column;gap:10px"><strong style="color:${INK}">${t.expo}</strong><a href="${L.site('/')}" style="color:${MUTED}">VRI B2B Tech Asia</a><a href="${L.site('/register-now-2')}" style="color:${MUTED}">${t.register}</a><a href="${L.site(d.exhibitorPath || '/copy-of-agenda-2027')}" style="color:${MUTED}">${t.exhibitor}</a><a href="${L.site('/request-proposal-form')}" style="color:${MUTED}">${t.proposal}</a></div>
 </div></div></footer>`;
   }

@@ -1,6 +1,8 @@
 // Page code: Review Articles (List) — URL /review (Indonesian: /id/review)
 // The same code runs on the Japanese list page /jp/review (a second dynamic list page on ReviewArticles).
 // Front page and section pages (?kategori=<slug>) of VRI B2B Tech Asia Review.
+// The same code also runs on the exhibition calendar /review/expo (and /id/review/expo, /jp/review/expo):
+// list pages whose URL ends in /review/expo, or ?kategori=expo, show the ReviewExhibitions collection.
 // The layout is drawn by the <review-ui> custom element (#customElement1,
 // public/custom-elements/wix-default-custom-element.js); this code loads the data.
 import wixData from 'wix-data';
@@ -51,6 +53,33 @@ function slim(raw, lang) {
   };
 }
 
+// ---------- Exhibition calendar (EXHIBITIONS.md) ----------
+// Dates are stored as 00:00 WIB; the calendar works with plain Jakarta days ('YYYY-MM-DD').
+function day(d) { return d ? new Date(new Date(d).getTime() + 7 * 3600 * 1000).toISOString().slice(0, 10) : ''; }
+function parse(j) { try { return j ? JSON.parse(j) : null; } catch (e) { return null; } }
+// Worked out on every page view (the feed's own `status` is only refreshed by the weekly run).
+function expoStatus(e, today) {
+  if (e.dateStatus === 'cancelled') return 'cancelled';
+  const s = day(e.startDate);
+  if (e.dateStatus !== 'confirmed' || !s) return 'tba';
+  return today < s ? 'upcoming' : (today <= (day(e.endDate) || s) ? 'ongoing' : 'past');
+}
+function slimExpo(e, today) {
+  return {
+    slug: e.slug, name: e.title, city: e.city || '', venue: e.venue || '', organizer: e.organizer || '',
+    start: day(e.startDate), end: day(e.endDate), dateStatus: e.dateStatus, status: expoStatus(e, today),
+    zones: e.zones || [], own: !!e.isOwnEvent, last: parse(e.lastEditionJson), relevance: e.relevance || 'B', verified: day(e.verifiedAt),
+  };
+}
+const EXPO_ORDER = { ongoing: 0, upcoming: 0, tba: 1, past: 2, cancelled: 3 };
+function sortExpos(a, b) {
+  if (EXPO_ORDER[a.status] !== EXPO_ORDER[b.status]) return EXPO_ORDER[a.status] - EXPO_ORDER[b.status];
+  if (a.status === 'upcoming' || a.status === 'ongoing') return a.start < b.start ? -1 : (a.start > b.start ? 1 : a.name.localeCompare(b.name));
+  if (a.status === 'past') return a.start < b.start ? 1 : -1;
+  if (a.relevance !== b.relevance) return a.relevance < b.relevance ? -1 : 1;
+  return a.name.localeCompare(b.name);
+}
+
 function slimPr(r) {
   return { slug: r.slug, title: r.title, publishedDate: r.publishedDate, imageUrl: r.imageUrl || '' };
 }
@@ -66,10 +95,11 @@ $w.onReady(async function () {
   const zoneHub = HUBS.find((h) => h.zones.some((z) => z[1] === kategori));
   const zone = zoneHub ? zoneHub.zones.find((z) => z[1] === kategori) : null;
   const isPR = kategori === 'siaran-pers';
+  const isExpo = kategori === 'expo' || /\/review\/expo(\/|\?|#|$)/.test(wixLocationFrontend.url || '');
   const now = new Date();
   const isEn = lang === 'en';
-  const path = '/review' + (kategori ? '?kategori=' + encodeURIComponent(kategori) : '');
-  const data = { base, siteBase: isJa ? '' : base, lang: isJa ? 'ja' : (isEn ? 'en' : 'id'), path, now: now.toISOString(), active: hub || zone ? kategori : (isPR ? 'siaran-pers' : '') };
+  const path = isExpo ? '/review/expo' : '/review' + (kategori ? '?kategori=' + encodeURIComponent(kategori) : '');
+  const data = { base, siteBase: isJa ? '' : base, lang: isJa ? 'ja' : (isEn ? 'en' : 'id'), path, now: now.toISOString(), active: isExpo ? 'expo' : (hub || zone ? kategori : (isPR ? 'siaran-pers' : '')) };
   // Text in the page language: X(id, en, ja).
   const X = (id, en, ja) => (isJa ? ja : (isEn ? en : id));
   const catLabel = hub ? hub.n : (zone ? zone[0] : '');
@@ -79,7 +109,35 @@ $w.onReady(async function () {
     'News and analysis on B2B technology in Indonesia: cybersecurity, AI, cloud, enterprise adoption, regulation and deals.',
     'インドネシアのB2Bテクノロジーのニュースと分析。サイバーセキュリティ、AI、クラウド、企業のIT導入、規制、M&A・資金調達を日本語で解説。');
 
-  if (isPR) {
+  let structured = null;
+  if (isExpo) {
+    const today = day(now);
+    const res = await wixData.query('ReviewExhibitions').limit(500).find().catch(() => ({ items: [] }));
+    const cutoff = day(new Date(now.getTime() - 90 * 86400000));
+    const expos = res.items.map((e) => slimExpo(e, today))
+      // a cancelled event leaves the list 90 days after it was last checked
+      .filter((e) => !(e.status === 'cancelled' && e.verified && e.verified < cutoff))
+      .sort(sortExpos);
+    const years = expos.filter((e) => e.status === 'upcoming' || e.status === 'ongoing').map((e) => e.start.slice(0, 4)).sort();
+    const yr = years.length ? (years[0] === years[years.length - 1] ? years[0] : years[0] + '–' + years[years.length - 1]) : String(now.getUTCFullYear() + (now.getUTCMonth() >= 9 ? 1 : 0));
+    const heading = X(`Kalender Pameran Teknologi B2B Indonesia ${yr}`, `Indonesia B2B Technology Exhibition Calendar ${yr}`, `インドネシアのB2Bテクノロジー展示会カレンダー ${yr}`);
+    Object.assign(data, {
+      view: 'expo', heading,
+      intro: X('Jadwal, lokasi, dan penyelenggara pameran serta konferensi teknologi untuk bisnis di Indonesia, dalam satu halaman. Tanggal hanya kami cantumkan bila sudah diumumkan penyelenggara.',
+        'Dates, venues and organisers of business technology exhibitions and conferences in Indonesia, on one page. Dates are listed only once the organiser has announced them.',
+        'インドネシアで開かれるビジネス向けテクノロジーの展示会とカンファレンスについて、日程、会場、主催者を1ページにまとめました。日程は主催者が発表したものだけを掲載しています。'),
+      expos, verified: expos.map((e) => e.verified).sort().pop() || '',
+    });
+    title = `${heading} | VRI B2B Tech Asia Review`;
+    desc = X('Jadwal, lokasi, dan penyelenggara pameran serta konferensi teknologi B2B di Indonesia. Tanggal dari pengumuman resmi penyelenggara, diperiksa ulang setiap minggu.',
+      'Dates, venues and organisers of B2B technology exhibitions and conferences in Indonesia. Dates come from organisers’ official announcements and are re-checked weekly.',
+      'インドネシアのB2Bテクノロジー展示会・カンファレンスの日程、会場、主催者の一覧。日程は主催者の公式発表にもとづき、毎週確認している。');
+    const langPrefix = isJa ? '/jp' : (isEn ? '' : '/id');
+    structured = {
+      '@context': 'https://schema.org', '@type': 'ItemList', name: heading,
+      itemListElement: expos.filter((e) => e.status !== 'past' && e.status !== 'cancelled').map((e, i) => ({ '@type': 'ListItem', position: i + 1, name: e.name, url: SITE + langPrefix + '/review/expo/' + e.slug })),
+    };
+  } else if (isPR) {
     const pr = await wixData.query('SiaranPers').descending('publishedDate').limit(60).find();
     Object.assign(data, {
       view: 'list', heading: X('Siaran Pers', 'Press Releases', 'プレスリリース'),
@@ -122,4 +180,5 @@ $w.onReady(async function () {
     { property: 'og:type', content: 'website' },
   ].concat(isJa ? [{ property: 'og:locale', content: 'ja_JP' }] : []));
   try { await wixSeoFrontend.setLinks(langLinks(path, lang)); } catch (e) { /* keep Wix defaults */ }
+  if (structured) { try { await wixSeoFrontend.setStructuredData([structured]); } catch (e) { /* optional */ } }
 });
