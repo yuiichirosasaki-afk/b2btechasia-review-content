@@ -209,6 +209,18 @@ review-ui .tk-band .tk-body{padding:32px 36px}
  review-ui .rv-nav a{flex:0 0 auto}
  review-ui .rv-zrow{gap:8px 18px;padding:9px 12px;font-size:13px}
  review-ui .rv-compact-nav{width:100%}
+ review-ui .rv-hide-mobile{display:none!important}
+ review-ui .rv-grid{grid-template-columns:minmax(0,1fr)!important;gap:32px!important}
+ review-ui .rv-lead-title{font-size:26px!important;line-height:1.25!important}
+ review-ui[lang="ja"] .rv-lead-title{font-size:23px!important;letter-spacing:0!important}
+ review-ui .rv-lead-title + p, review-ui h1 + p.rv-serif{font-size:16px!important}
+ review-ui .rv-list-title{font-size:26px!important;gap:10px!important;align-items:flex-start!important;line-height:1.2}
+ review-ui .rv-list-title > span[aria-hidden]{flex:0 0 30px!important;width:30px!important;height:30px!important;font-size:15px!important;margin-top:2px}
+ review-ui .rv-sechead h2{font-size:22px!important}
+ review-ui .rv-rel{flex-direction:column;gap:10px!important}
+ review-ui .rv-rel img{flex:0 0 auto!important;width:100%!important}
+ review-ui .rv-rel-title{font-size:17px!important}
+ review-ui .tk .tk-stub{padding-top:34%!important}
 }
 `;
 
@@ -291,7 +303,7 @@ class ReviewUi extends HTMLElement {
 
   topbar(d, L) {
     return `<div class="rv-topbar"><div class="rv-wrap">
-<span>${esc(longDate(d.now || Date.now()))} · Jakarta</span>
+<span>${esc(longDate(d.now || Date.now()))}<span class="rv-hide-mobile"> · Jakarta</span></span>
 <span style="display:inline-flex;gap:20px;align-items:center;flex-wrap:wrap">
 <a href="${L.site('/')}" class="rv-topbar-expo" style="color:${NAVY};font-weight:600">${T().expoLink}</a>
 ${this.langSwitch(d)}
@@ -457,10 +469,10 @@ ${this.ticketRows()}
 <aside style="flex:1 1 320px;min-width:0;display:flex;flex-direction:column" aria-label="${t.latest}">
 <h2 class="rv-kicker" style="margin:0 0 4px;font-size:13px;color:${NAVY};padding-bottom:10px;border-bottom:3px solid ${NAVY}">${t.latest}</h2>
 ${latest.map((n) => `<a href="${L('/review/' + n.slug)}" style="display:flex;gap:16px;padding:14px 0;border-bottom:1px solid ${LINE}">
-<span style="flex:0 0 52px;font-size:13px;font-weight:600;color:${SUB};padding-top:2px">${esc(shortDate(n.publishAt))}</span>
+<span style="flex:0 0 56px;font-size:13px;font-weight:600;color:${SUB};padding-top:2px;white-space:nowrap">${esc(shortDate(n.publishAt))}</span>
 <span style="display:flex;flex-direction:column;gap:4px"><span class="rv-kicker" style="font-size:11px;color:${RED}">${esc(catName(n.category))}</span>
 <span class="rv-serif" style="font-size:17px;line-height:1.35;font-weight:600">${esc(n.title)}</span></span></a>`).join('')}
-${this.rect(d, L, false)}
+<div class="rv-hide-mobile">${this.rect(d, L, false)}</div>
 </aside>
 </section>`);
     }
@@ -554,7 +566,7 @@ ${label ? `<span class="rv-kicker" style="font-size:11px;display:flex;gap:8px;al
     const out = [this.topbar(d, L), this.masthead(d, L), this.leader(d, L), `<main class="rv-wrap" style="padding-top:32px">`];
     const lh = hubOf(d.active);
     out.push(`${d.kicker ? `<div class="rv-kicker" style="font-size:12px;margin-bottom:8px"><a href="${L('/review?kategori=' + (lh ? lh.s : ''))}" style="color:${RED}">${esc(d.kicker)}</a></div>` : ''}
-<div class="rv-sechead" style="border-top:none;padding-top:0"><h1 class="rv-serif" style="margin:0;font-size:40px;font-weight:700;color:${NAVY};display:flex;gap:14px;align-items:center">${lh && lh.s === d.active ? this.hubBadge(lh, 40) : ''}${esc(d.heading || '')}</h1>
+<div class="rv-sechead" style="border-top:none;padding-top:0"><h1 class="rv-serif rv-list-title" style="margin:0;font-size:40px;font-weight:700;color:${NAVY};display:flex;gap:14px;align-items:center">${lh && lh.s === d.active ? this.hubBadge(lh, 40) : ''}${esc(d.heading || '')}</h1>
 ${d.intro ? `<span style="font-size:14px;color:${MUTED}">${esc(d.intro)}</span>` : ''}</div>`);
     // A banner after every 6 cards; the first one is for visitors, the next for vendors.
     const withAds = (cards) => cards.map((c, i) => c + ((i + 1) % 6 === 0 && i + 1 < cards.length
@@ -588,10 +600,10 @@ ${withAds(pr.map((r) => this.prCard(r, L, false)))}
     const rel = d.related || [];
     return `<div class="rv-wrap" style="margin-top:24px"><div style="display:flex;flex-wrap:wrap;gap:32px 56px;border-top:3px solid ${NAVY};padding-top:16px">
 ${rel.length ? `<section style="flex:2 1 420px"><h2 class="rv-kicker" style="margin:0 0 4px;font-size:13px;color:${NAVY}">${esc(d.relatedTitle || t.related)}</h2>
-${rel.map((r) => `<a href="${L('/review/' + r.slug)}" style="display:flex;gap:16px;align-items:flex-start;padding:14px 0;border-bottom:1px solid ${LINE}">
+${rel.map((r) => `<a href="${L('/review/' + r.slug)}" class="rv-rel" style="display:flex;gap:16px;align-items:flex-start;padding:14px 0;border-bottom:1px solid ${LINE}">
 ${r.heroImage ? `<img src="${esc(r.heroImage)}" alt="" loading="lazy" style="flex:0 0 160px;width:160px;aspect-ratio:16/9;object-fit:cover;background:${NAVY}">` : ''}
 <span style="display:flex;flex-direction:column;gap:4px"><span class="rv-kicker" style="font-size:11px;color:${RED}">${esc(catName(r.category || ''))}</span>
-<span class="rv-serif" style="font-size:18px;line-height:1.35;font-weight:600">${esc(r.title)}</span></span></a>`).join('')}</section>` : ''}
+<span class="rv-serif rv-rel-title" style="font-size:18px;line-height:1.35;font-weight:600">${esc(r.title)}</span></span></a>`).join('')}</section>` : ''}
 <section style="flex:1 1 280px">
 ${(a.audience || []).length ? `<h2 class="rv-kicker" style="margin:0 0 12px;font-size:13px;color:${NAVY}">${t.writtenFor}</h2>
 <div style="display:flex;flex-wrap:wrap;gap:8px">${a.audience.map((x) => `<span style="font-size:13px;font-weight:600;border:1px solid #C4CAD3;padding:6px 10px;color:${INK}">${esc(x)}</span>`).join('')}</div>` : ''}

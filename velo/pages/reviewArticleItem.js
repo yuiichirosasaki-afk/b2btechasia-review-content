@@ -104,7 +104,7 @@ function kicker(text, color) {
 // explicit markers because the site theme hides list bullets.
 function body(html, opts) {
   const o = opts || {};
-  const size = o.size || 19;
+  const size = o.size || S(19, 17, 16);
   const font = o.sans ? SANS : SERIF;
   let s = String(html || '');
   s = s.replace(/<ol>([\s\S]*?)<\/ol>/g, (m, inner) => {
@@ -115,9 +115,15 @@ function body(html, opts) {
     inner.replace(/<li>([\s\S]*?)<\/li>/g, (mm, li) => `<p style="font-size:${size - 2}px; line-height:1.65; margin-left:22px; text-indent:-18px"><span style="${font}; color:${BODY}">•&nbsp;&nbsp;${li}</span></p>`));
   return s
     .replace(/<p>/g, `<p style="font-size:${size}px; line-height:1.7"><span style="${font}; color:${BODY}">`).replace(/<\/p>/g, '</span></p>')
-    .replace(/<h3>/g, `<h3 style="font-size:24px; line-height:1.3"><span style="${SERIF}; color:${INK}"><strong>`).replace(/<\/h3>/g, '</strong></span></h3>')
+    .replace(/<h3>/g, `<h3 style="font-size:${S(24, 20, 19)}px; line-height:1.3"><span style="${SERIF}; color:${INK}"><strong>`).replace(/<\/h3>/g, '</strong></span></h3>')
     .replace(/<a\s[^>]*?href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/g, `<a href="$1" target="_blank" rel="noopener"><span style="color:${NAVY}"><u>$2</u></span></a>`);
 }
+
+// Mobile (Wix mobile site, about 320px wide): smaller type. Set in onReady.
+let MOBILE = false;
+let JA = false;
+// Font size for the current device: S(desktop, mobile, mobileJapanese).
+function S(desk, mob, mobJa) { return MOBILE ? (JA && mobJa ? mobJa : mob) : desk; }
 
 function gap(px) { return `<p style="font-size:${px}px; line-height:1"><span>&nbsp;</span></p>`; }
 
@@ -127,6 +133,8 @@ $w.onReady(async function () {
 
   const lang = pageLang();
   const isJa = lang === 'ja';
+  MOBILE = wixWindowFrontend.formFactor === 'Mobile';
+  JA = isJa;
   const isEn = lang === 'en';
   const base = isJa ? '/jp' : (lang && lang !== 'en' ? '/' + lang : '');
   const t = TXT[isJa ? 'ja' : (isEn ? 'en' : 'id')];
@@ -164,9 +172,9 @@ $w.onReady(async function () {
   head.push(`<p style="font-size:13px"><span style="${SANS}; color:${SUB}"><a href="${base}/review"><span style="color:${SUB}">${t.news}</span></a>${zi.hubSlug ? ` &nbsp;›&nbsp; <a href="${base}/review?kategori=${zi.hubSlug}"><span style="color:${SUB}">${esc(zi.hub)}</span></a>` : ''} &nbsp;›&nbsp; <a href="${base}/review?kategori=${catSlug}"><span style="color:${SUB}">${esc(catLabel)}</span></a> &nbsp;›&nbsp; ${type}</span></p>`);
   head.push(gap(8));
   head.push(`<p style="font-size:12px; letter-spacing:0.1em"><span style="${SANS}; color:${RED}"><strong>${type.toUpperCase()}</strong></span><span style="${SANS}; color:${NAVY}"><strong> &nbsp;·&nbsp; ${esc(catLabel).toUpperCase()}</strong></span></p>`);
-  head.push(`<h1 style="font-size:46px; line-height:1.12"><span style="${SERIF}; color:${INK}"><strong>${esc(item.title)}</strong></span></h1>`);
+  head.push(`<h1 style="font-size:${S(46, 27, 23)}px; line-height:${MOBILE ? 1.3 : 1.12}"><span style="${SERIF}; color:${INK}"><strong>${esc(item.title)}</strong></span></h1>`);
   head.push(gap(6));
-  head.push(`<p style="font-size:21px; line-height:1.5"><span style="${SERIF}; color:#333B47">${esc(item.dek)}</span></p>`);
+  head.push(`<p style="font-size:${S(21, 17, 16)}px; line-height:1.55"><span style="${SERIF}; color:#333B47">${esc(item.dek)}</span></p>`);
   head.push(gap(6));
   head.push(`<p style="font-size:14px; line-height:1.6"><span style="${SANS}; color:${INK}"><strong>${t.byline}</strong></span><span style="${SANS}; color:#4A5361"> &nbsp;·&nbsp; ${dateTime(item.publishAt, isEn, isJa)} &nbsp;·&nbsp; ${readMin} ${t.minRead}</span></p>`);
   $w('#text747').html = head.join('');
@@ -187,7 +195,7 @@ $w.onReady(async function () {
   }
   b.push(kicker(t.summary));
   b.push(`<p style="font-size:13px"><span style="${SANS}; color:${SUB}">${t.summaryNote}</span></p>`);
-  b.push(body(item.summaryHtml, { sans: true, size: 17 }));
+  b.push(body(item.summaryHtml, { sans: true, size: S(17, 15) }));
   b.push(gap(24));
   b.push(kicker(item.articleType === 'penjelasan' ? t.explainer : t.behind, RED));
   b.push(body(item.analysisHtml));
@@ -201,7 +209,7 @@ $w.onReady(async function () {
   }
   b.push(gap(24));
   b.push(kicker(t.sources));
-  b.push(body(item.sourcesHtml, { sans: true, size: 16 }));
+  b.push(body(item.sourcesHtml, { sans: true, size: S(16, 14) }));
   b.push(`<p style="font-size:13px; line-height:1.6"><span style="${SANS}; color:${SUB}">${t.rights}</span></p>`);
   $w('#text748').html = b.join('');
 

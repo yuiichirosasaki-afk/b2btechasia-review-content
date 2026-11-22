@@ -29,6 +29,9 @@ function date(d, isEn) {
 }
 
 // Keep only simple tags, drop attributes (except href), add explicit colours and fonts.
+// Mobile (Wix mobile site): smaller type. Set in onReady.
+let MOBILE = false;
+
 function clean(html) {
   const h = String(html || '')
     .replace(/<(script|style|iframe|figure|table)[\s\S]*?<\/\1>/gi, '')
@@ -41,13 +44,14 @@ function clean(html) {
     .replace(/<li>/gi, '<p>•&nbsp;&nbsp;').replace(/<\/li>/gi, '</p>')
     .replace(/<p>\s*<\/p>/gi, '');
   return h
-    .replace(/<p>/g, `<p style="font-size:19px; line-height:1.7"><span style="${SERIF}; color:${BODY}">`).replace(/<\/p>/g, '</span></p>')
-    .replace(/<h3>/g, `<h3 style="font-size:24px; line-height:1.3"><span style="${SERIF}; color:${INK}"><strong>`).replace(/<\/h3>/g, '</strong></span></h3>');
+    .replace(/<p>/g, `<p style="font-size:${MOBILE ? 17 : 19}px; line-height:1.7"><span style="${SERIF}; color:${BODY}">`).replace(/<\/p>/g, '</span></p>')
+    .replace(/<h3>/g, `<h3 style="font-size:${MOBILE ? 20 : 24}px; line-height:1.3"><span style="${SERIF}; color:${INK}"><strong>`).replace(/<\/h3>/g, '</strong></span></h3>');
 }
 
 $w.onReady(async function () {
   const item = $w('#dynamicDataset').getCurrentItem();
   if (!item) return;
+  MOBILE = wixWindowFrontend.formFactor === 'Mobile';
 
   const lang = (wixWindowFrontend.multilingual && wixWindowFrontend.multilingual.currentLanguage) || 'id';
   const base = lang && lang !== 'en' ? '/' + lang : '';
@@ -69,7 +73,7 @@ $w.onReady(async function () {
   const parts = [];
   parts.push(`<p style="font-size:13px"><span style="${SANS}; color:${SUB}"><a href="/review"><span style="color:${SUB}">${isEn ? 'News' : 'Berita'}</span></a> &nbsp;›&nbsp; <a href="/review?kategori=siaran-pers"><span style="color:${SUB}">${isEn ? 'Press Releases' : 'Siaran Pers'}</span></a></span></p>`);
   parts.push(`<p style="font-size:12px; letter-spacing:0.1em"><span style="${SANS}; color:#4A5361"><strong>${isEn ? 'PRESS RELEASE' : 'SIARAN PERS'}</strong></span><span style="${SANS}; color:${SUB}"> &nbsp;·&nbsp; ${isEn ? 'NOT EDITORIAL CONTENT · IN INDONESIAN' : 'BUKAN KONTEN REDAKSI'}</span></p>`);
-  parts.push(`<h1 style="font-size:40px; line-height:1.15"><span style="${SERIF}; color:${INK}"><strong>${esc(item.title)}</strong></span></h1>`);
+  parts.push(`<h1 style="font-size:${MOBILE ? 25 : 40}px; line-height:${MOBILE ? 1.3 : 1.15}"><span style="${SERIF}; color:${INK}"><strong>${esc(item.title)}</strong></span></h1>`);
   parts.push(`<p style="font-size:14px; line-height:1.6"><span style="${SANS}; color:#4A5361">${esc(date(item.publishedDate, isEn))} &nbsp;·&nbsp; ${isEn ? 'Distributed via VRITIMES' : 'Didistribusikan melalui VRITIMES'}</span></p>`);
   parts.push(`<p style="font-size:12px; line-height:1"><span>&nbsp;</span></p>`);
   parts.push(clean(item.bodyHtml || `<p>${esc(item.excerpt)}</p>`));
