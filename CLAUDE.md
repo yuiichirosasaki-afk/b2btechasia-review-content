@@ -8,6 +8,9 @@ There is no human review. Nobody approves articles and nobody is notified. Quali
 
 ## The daily run (weekdays, ~03:00 WIB)
 
+The exhibition database (`exhibitions/`, `exhibitions.json`) is maintained by a separate weekly run (`EXHIBITIONS.md`). The daily run does not touch those files and does not write exhibition listings or calendars as articles. A news story about one event (e.g. a government announcement made at a summit) is still a normal article.
+
+
 1. `python3 scripts/recent_slugs.py` — lists articles from the last 30 days, so you do not repeat a story, and the zone coverage of the last 7 days.
 2. Research news from the last 72 hours (Indonesia first, then Southeast Asia if it affects Indonesian companies). Categories follow the **VRI B2B Tech Asia 2027 zones** (`taxonomy.json`): 3 hubs × 4 zones. An article's `category` is exactly one zone name.
    - **AI & Automation Hub** (CTO, IT Director, Infrastructure Lead): `AI & Automation` · `Cloud & IT Infrastructure` · `Cybersecurity & Data Protection` · `Enterprise Software & ERP`
@@ -20,7 +23,7 @@ There is no human review. Nobody approves articles and nobody is notified. Quali
 5. `python3 scripts/make_images.py articles/YYYY-MM-DD` — renders the hero data graphic (`images/<slug>.png`) and sets `heroImage`.
 6. `python3 scripts/validate.py articles/YYYY-MM-DD` — must print `OK` for every file. Fix and re-run until it does. Delete any article you cannot fix.
 7. `python3 scripts/build_feed.py` — rebuilds `feed.json` from the last 30 days of `articles/`.
-8. Commit and push to `main` (including `images/`) with message `Articles YYYY-MM-DD (n)`. Done. Do not send any message, Slack post or email.
+8. `git pull --rebase origin main`, then commit and push to `main` (including `images/`) with message `Articles YYYY-MM-DD (n)`. Done. Do not send any message, Slack post or email.
 
 ## Article format
 

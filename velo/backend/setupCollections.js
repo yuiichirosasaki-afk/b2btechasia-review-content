@@ -58,3 +58,42 @@ export async function setupCollections() {
 
   return results;
 }
+
+// Run once from the Velo code panel to create the exhibition database collection (EXHIBITIONS.md).
+export async function setupExhibitionsCollection() {
+  const date = (key, displayName) => ({ key, displayName, type: 'DATETIME' });
+  return createCollection({
+    _id: 'ReviewExhibitions',
+    displayName: 'Review Exhibitions',
+    permissions,
+    fields: [
+      text('title', 'Name'),
+      text('slug', 'Slug'),
+      text('seriesId', 'Series'),
+      { key: 'isOwnEvent', displayName: 'VRI B2B Tech Asia', type: 'BOOLEAN' },
+      text('city', 'City'),
+      text('venue', 'Venue'),
+      text('organizer', 'Organizer'),
+      date('startDate', 'Start date'),
+      date('endDate', 'End date'),
+      text('dateStatus', 'Date status (confirmed/tba/cancelled)'),
+      text('status', 'Status (upcoming/ongoing/past/tba/cancelled)'),
+      { key: 'zones', displayName: 'Zones', type: 'ARRAY_STRING' },
+      text('relevance', 'Relevance (A/B, sort only)'),
+      text('admission', 'Admission'),
+      text('exhibitorsJson', 'Exhibitors (JSON)'),
+      text('visitorsJson', 'Visitors (JSON)'),
+      text('lastEditionJson', 'Last edition (JSON)'),
+      { key: 'officialUrl', displayName: 'Official site', type: 'URL' },
+      rich('sourcesHtml', 'Sumber'),
+      text('sourcesJson', 'Sources (JSON)'),
+      date('verifiedAt', 'Verified at'),
+      rich('summaryHtml', 'Ringkasan (id)'),
+      rich('faqHtml', 'FAQ (id)'),
+      text('seoTitle', 'SEO title (id)'),
+      text('seoDescription', 'SEO description (id)'),
+      text('enJson', 'English (JSON)'),
+      text('jaJson', 'Japanese (JSON)')
+    ]
+  }).then(() => 'ReviewExhibitions created').catch((e) => 'ReviewExhibitions: ' + e.message);
+}

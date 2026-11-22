@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VRI B2B Tech Asia Review — exhibition entry (one edition)",
+  "description": "See EXHIBITIONS.md. scripts/validate_exhibitions.py enforces the rules.",
+  "type": "object",
+  "required": ["slug", "seriesId", "name", "isOwnEvent", "country", "city", "venue", "organizer", "startDate", "endDate", "dateStatus", "zones", "relevance", "exhibitors", "visitors", "admission", "lastEdition", "officialUrl", "sources", "verifiedAt", "id", "en", "ja"],
+  "properties": {
+    "slug": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*-20[0-9]{2}$", "maxLength": 80},
+    "seriesId": {"type": "string"},
+    "name": {"type": "string"},
+    "isOwnEvent": {"type": "boolean"},
+    "country": {"const": "Indonesia"},
+    "city": {"type": "string"},
+    "venue": {"type": ["string", "null"]},
+    "organizer": {"type": "string"},
+    "startDate": {"type": ["string", "null"], "format": "date"},
+    "endDate": {"type": ["string", "null"], "format": "date"},
+    "dateStatus": {"enum": ["confirmed", "tba", "cancelled"]},
+    "zones": {"type": "array", "items": {"type": "string"}, "minItems": 1, "maxItems": 4},
+    "relevance": {"enum": ["A", "B"]},
+    "exhibitors": {"$ref": "#/$defs/figure"},
+    "visitors": {"$ref": "#/$defs/figure"},
+    "admission": {"enum": ["free", "paid", "mixed", "unknown"]},
+    "lastEdition": {
+      "type": ["object", "null"],
+      "properties": {"startDate": {"type": "string"}, "endDate": {"type": "string"}, "venue": {"type": ["string", "null"]}}
+    },
+    "officialUrl": {"type": "string", "format": "uri"},
+    "sources": {
+      "type": "array", "minItems": 1, "maxItems": 5,
+      "items": {"type": "object", "required": ["name", "title", "url"], "properties": {"name": {"type": "string"}, "title": {"type": "string"}, "url": {"type": "string"}, "date": {"type": "string"}}}
+    },
+    "verifiedAt": {"type": "string", "format": "date"},
+    "id": {"$ref": "#/$defs/text"},
+    "en": {"$ref": "#/$defs/text"},
+    "ja": {"$ref": "#/$defs/text"}
+  },
+  "$defs": {
+    "figure": {
+      "type": ["object", "null"],
+      "required": ["value", "edition", "sourceUrl"],
+      "properties": {"value": {"type": "integer"}, "edition": {"type": "string"}, "sourceUrl": {"type": "string"}}
+    },
+    "text": {
+      "type": "object",
+      "required": ["summaryHtml", "faqHtml", "seoTitle", "seoDescription"],
+      "properties": {"summaryHtml": {"type": "string"}, "faqHtml": {"type": "string"}, "seoTitle": {"type": "string"}, "seoDescription": {"type": "string"}}
+    }
+  }
+}
