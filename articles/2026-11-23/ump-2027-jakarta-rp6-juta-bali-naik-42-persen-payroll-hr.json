@@ -1,0 +1,165 @@
+{
+  "slug": "ump-2027-jakarta-rp6-juta-bali-naik-42-persen-payroll-hr",
+  "title": "UMP 2027 Ditetapkan: Jakarta Rp6.136.941, Bali Naik 42,15%, HR Perlu Siapkan Ulang Payroll Multi-Provinsi",
+  "category": "HR Tech & Workforce Management",
+  "articleType": "analisis",
+  "dek": "Batas waktu penetapan upah minimum provinsi (UMP) 2027 jatuh pada 21 November 2026, dan sedikitnya 27 provinsi sudah mengumumkan angkanya menurut rangkuman Kontan. Rentang kenaikan yang sangat lebar, dari 5,61% hingga 42,15%, membuat perusahaan dengan karyawan di banyak provinsi harus memperbarui sistem penggajian sebelum siklus gaji Januari 2027.",
+  "summaryHtml": "<ul><li>Menteri Ketenagakerjaan Yassierli menegaskan, “Tanggal 21 November itu adalah batas penetapan upah minimum provinsi.” Adapun batas upah minimum kabupaten/kota (UMK) adalah 25 November 2026 (Katadata).</li><li>Pemprov DKI Jakarta menetapkan UMP 2027 sebesar Rp6.136.941 per bulan, naik Rp407.065 atau 7,1%. Bali mencatat kenaikan tertinggi, 42,15%, menjadi Rp4.559.287, berlaku 1 Januari 2027 berdasarkan Keputusan Gubernur Nomor 995/03-M/HK/2026 (Katadata, CNBC Indonesia).</li><li>Menurut rangkuman Kontan per 22 November 2026, 27 provinsi telah mengumumkan UMP 2027. Jawa Barat naik 29,44% menjadi Rp3.000.000, Jawa Timur naik 11,57% menjadi Rp2.730.000, dan Jawa Tengah naik 14,10% menjadi Rp2.655.454. Katadata sehari sebelumnya mencatat 12 provinsi.</li><li>Kenaikan terendah dalam daftar Kontan adalah 5,61% (antara lain Sumatera Utara, menjadi Rp3.410.000). Banten naik 8,77% menjadi Rp3.372.828,70 dan Sumatera Selatan naik 6,77% menjadi Rp4.210.059.</li><li>Penetapan mengacu pada PP Nomor 49 Tahun 2025 tentang Pengupahan dan surat edaran Menaker. Gubernur Jawa Tengah Ahmad Luthfi menyebut kenaikan tahun ini tertinggi dalam 10 tahun terakhir (CNBC Indonesia).</li></ul>",
+  "analysisHtml": "<h3>Satu kebijakan, delapan kali lipat selisih kenaikan</h3><p>Angka yang paling penting bagi perusahaan bukan UMP Jakarta, melainkan jarak antara kenaikan terendah dan tertinggi. Sumatera Utara naik 5,61%, sedangkan Bali naik 42,15%, hampir delapan kali lipat. Jawa Barat naik 29,44%. Bagi grup usaha yang mengoperasikan pabrik, gerai, atau pusat layanan di beberapa provinsi, artinya tidak ada lagi satu asumsi kenaikan biaya tenaga kerja yang berlaku nasional. Anggaran 2027 yang disusun dengan asumsi kenaikan seragam sekitar 6–8% kemungkinan perlu dihitung ulang per lokasi.</p><h3>Membaca formula di balik angka</h3><p>Katadata mencontohkan perhitungan Sumatera Utara: inflasi 2,71% ditambah pertumbuhan ekonomi 4,79% yang dikalikan alfa 0,6045 menghasilkan kenaikan 5,61%. Artinya, variabel yang paling menentukan adalah nilai alfa yang dipilih tiap daerah, selain data inflasi dan pertumbuhan setempat. Sumber yang kami baca tidak menjelaskan rinci mengapa Bali dan Jawa Barat naik jauh di atas provinsi lain. Hal ini perlu dicermati: perusahaan sebaiknya membaca keputusan gubernur di provinsi tempat mereka beroperasi, bukan hanya angka ringkasan di media.</p><h3>Angka belum final untuk penggajian</h3><p>UMP hanyalah lantai di tingkat provinsi. Upah minimum kabupaten/kota, yang batasnya 25 November, dapat lebih tinggi dan itulah yang berlaku di banyak lokasi kerja. Bali juga menetapkan upah minimum sektoral dalam keputusan yang sama. Hitungan antarmedia pun belum seragam: Katadata mencatat 12 provinsi pada 21 November, Kontan 27 provinsi sehari kemudian. Karena itu, tabel upah di sistem HR sebaiknya dikunci setelah UMK terbit dan dicocokkan dengan dokumen resmi.</p><h3>Pekerjaan teknis di balik satu angka</h3><p>Perubahan upah minimum menyentuh lebih dari slip gaji. Komponen yang dihitung dari upah, seperti iuran jaminan sosial, lembur, dan tunjangan berbasis persentase, ikut bergeser. Struktur skala upah juga bisa menyempit ketika gaji karyawan baru mendekati gaji karyawan senior. Perusahaan yang masih mengelola upah minimum per lokasi di lembar kerja manual menghadapi risiko salah bayar tertinggi pada Januari 2027, sedangkan yang memakai sistem HRIS dengan tabel upah per wilayah cukup memperbarui parameter dan menjalankan simulasi.</p>",
+  "actionHtml": "<h3>Untuk HR Director dan Payroll Manager</h3><ol><li>Petakan seluruh karyawan per kabupaten/kota, lalu tandai yang gajinya berada di bawah atau tepat di UMP/UMK 2027.</li><li>Perbarui tabel upah minimum di HRIS setelah UMK terbit (batas 25 November), dan simpan nomor keputusan gubernur sebagai dasar audit.</li><li>Jalankan simulasi payroll Januari 2027 untuk melihat dampak ke lembur, iuran jaminan sosial, dan tunjangan berbasis persentase.</li><li>Tinjau struktur dan skala upah agar jarak antara karyawan baru dan senior tetap wajar.</li></ol><h3>Untuk CFO</h3><ol><li>Hitung ulang anggaran biaya tenaga kerja 2027 per provinsi, terutama untuk lokasi di Bali, Jawa Barat, Jawa Tengah, dan Jawa Timur.</li><li>Pisahkan dampak kenaikan upah minimum dari kenaikan gaji berbasis kinerja dalam rencana anggaran agar keputusan bisa dikomunikasikan dengan jelas.</li></ol><h3>Untuk vendor HRIS dan payroll</h3><ol><li>Siapkan pembaruan tabel UMP/UMK 2027 untuk klien sebelum penutupan gaji Januari, lengkap dengan rujukan keputusan daerah.</li></ol>",
+  "faqHtml": "<h3>Berapa UMP Jakarta 2027?</h3><p>UMP DKI Jakarta 2027 ditetapkan Rp6.136.941 per bulan, naik Rp407.065 atau 7,1% dari tahun sebelumnya, dan merupakan UMP tertinggi di Indonesia menurut daftar yang dirangkum Kontan.</p><h3>Provinsi mana dengan kenaikan UMP 2027 tertinggi?</h3><p>Bali, dengan kenaikan 42,15% menjadi Rp4.559.287. Jawa Barat menyusul dengan kenaikan 29,44% menjadi Rp3.000.000, menurut Kontan.</p><h3>Kapan UMK 2027 ditetapkan?</h3><p>Menurut Menaker Yassierli, batas penetapan upah minimum kabupaten/kota adalah 25 November 2026. Perusahaan sebaiknya menunggu UMK sebelum mengunci tabel gaji Januari 2027.</p>",
+  "dataFigure": "42,15%",
+  "dataLabel": "kenaikan UMP Bali 2027, tertinggi di Indonesia",
+  "dataSource": "Katadata, Kontan, CNBC Indonesia, 21–22 November 2026",
+  "chart": {
+    "bars": [
+      {
+        "label": "Sumut",
+        "value": 5.61,
+        "display": "5,61%"
+      },
+      {
+        "label": "Jakarta",
+        "value": 7.1,
+        "display": "7,1%"
+      },
+      {
+        "label": "Jabar",
+        "value": 29.44,
+        "display": "29,44%"
+      },
+      {
+        "label": "Bali",
+        "value": 42.15,
+        "display": "42,15%"
+      }
+    ]
+  },
+  "audience": [
+    "HR Director",
+    "CFO",
+    "Payroll Manager",
+    "Vendor HRIS"
+  ],
+  "tags": [
+    "UMP 2027",
+    "Upah minimum",
+    "Payroll",
+    "Kemnaker",
+    "PP 49/2025",
+    "HRIS"
+  ],
+  "sources": [
+    {
+      "name": "Katadata",
+      "title": "Daftar UMP 2027 di Sejumlah Provinsi: Jakarta Rp 6,13 Juta dan Bali Naik 42%",
+      "url": "https://katadata.co.id/berita/industri/6b011de8b44b6/daftar-ump-2027-di-sejumlah-provinsi-jakarta-rp-6-13-juta-dan-bali-naik-42",
+      "date": "2026-11-21"
+    },
+    {
+      "name": "Kontan",
+      "title": "27 Provinsi Tetapkan UMP 2027, Bali Catat Kenaikan Tertinggi 42,15%",
+      "url": "https://nasional.kontan.co.id/news/27-provinsi-tetapkan-ump-2027-bali-catat-kenaikan-tertinggi-4215",
+      "date": "2026-11-22"
+    },
+    {
+      "name": "CNBC Indonesia",
+      "title": "UMP 2027 Diketok, Jakarta Tembus Rp6 Juta, Bali Naik Tinggi",
+      "url": "https://www.cnbcindonesia.com/news/20261122070026-4-787257/ump-2027-diketok-jakarta-tembus-rp6-juta-bali-naik-tinggi",
+      "date": "2026-11-22"
+    }
+  ],
+  "seoTitle": "UMP 2027: Jakarta Rp6,13 Juta, Bali Naik 42,15%",
+  "seoDescription": "Daftar UMP 2027: Jakarta Rp6.136.941, Bali naik 42,15%, Jabar 29,44%. Dampaknya bagi payroll, HRIS, dan anggaran tenaga kerja perusahaan multi-provinsi.",
+  "publishAt": "2026-11-23T06:00:00+07:00",
+  "language": "id",
+  "en": {
+    "title": "2027 Minimum Wages Set: Jakarta Rp6,136,941, Bali Up 42.15%, HR Must Rework Multi-Province Payroll",
+    "dek": "The deadline for setting 2027 provincial minimum wages (UMP) was 21 November 2026, and at least 27 provinces had announced their figures according to a Kontan tally. With increases ranging from 5.61% to 42.15%, companies employing staff in many provinces need to update payroll systems before the January 2027 pay cycle.",
+    "summaryHtml": "<ul><li>Manpower Minister Yassierli said 21 November 2026 was the deadline for setting the 2027 provincial minimum wage, while the deadline for district/city minimum wages (UMK) is 25 November 2026 (Katadata).</li><li>The Jakarta provincial government set the 2027 UMP at Rp6,136,941 per month, up Rp407,065 or 7.1%. Bali recorded the largest increase, 42.15%, to Rp4,559,287, effective 1 January 2027 under Governor's Decree No. 995/03-M/HK/2026 (Katadata, CNBC Indonesia).</li><li>According to Kontan's tally as of 22 November 2026, 27 provinces had announced their 2027 UMP. West Java rose 29.44% to Rp3,000,000, East Java 11.57% to Rp2,730,000 and Central Java 14.10% to Rp2,655,454. Katadata counted 12 provinces a day earlier.</li><li>The smallest increase in Kontan's list was 5.61% (including North Sumatra, to Rp3,410,000). Banten rose 8.77% to Rp3,372,828.70 and South Sumatra 6.77% to Rp4,210,059.</li><li>The decisions follow Government Regulation (PP) No. 49 of 2025 on Wages and a circular from the Manpower Minister. Central Java Governor Ahmad Luthfi said this year's increase was the highest in 10 years (CNBC Indonesia).</li></ul>",
+    "analysisHtml": "<h3>One policy, an eightfold gap in increases</h3><p>The most important number for companies is not Jakarta's UMP but the gap between the smallest and largest increases. North Sumatra rose 5.61%, while Bali rose 42.15%, almost eight times as much. West Java rose 29.44%. For groups running factories, stores or service centres in several provinces, there is no longer a single national assumption for labour cost growth. 2027 budgets built on a uniform increase of around 6–8% will likely need to be recalculated location by location.</p><h3>Reading the formula behind the numbers</h3><p>Katadata gives North Sumatra as an example: inflation of 2.71% plus economic growth of 4.79% multiplied by an alpha of 0.6045 produces a 5.61% increase. The decisive variable is therefore the alpha value chosen by each region, alongside local inflation and growth data. The sources we read do not explain in detail why Bali and West Java rose far above other provinces. This deserves attention: companies should read the governor's decree in each province where they operate, not only the summary figures in the media.</p><h3>Not yet final for payroll</h3><p>The UMP is only the provincial floor. District/city minimum wages, due by 25 November, can be higher and are what applies at many workplaces. Bali also set sectoral minimum wages in the same decree. Media tallies also differ: Katadata counted 12 provinces on 21 November and Kontan 27 a day later. Wage tables in HR systems should therefore be locked only after the UMK is published and checked against official documents.</p><h3>The technical work behind one number</h3><p>A minimum wage change affects more than the payslip. Wage-based items such as social security contributions, overtime and percentage-based allowances shift as well. Pay scales can also compress as new hires' pay approaches that of senior staff. Companies still managing minimum wages per location in manual spreadsheets face the highest risk of payroll errors in January 2027, while those using an HRIS with regional wage tables only need to update parameters and run simulations.</p>",
+    "actionHtml": "<h3>For HR Directors and Payroll Managers</h3><ol><li>Map all employees by district/city and flag those paid below or exactly at the 2027 UMP/UMK.</li><li>Update minimum wage tables in the HRIS once the UMK is published (deadline 25 November), and keep the governor's decree number as an audit reference.</li><li>Run a January 2027 payroll simulation to see the effect on overtime, social security contributions and percentage-based allowances.</li><li>Review pay structures and scales so the gap between new and senior employees stays reasonable.</li></ol><h3>For CFOs</h3><ol><li>Recalculate the 2027 labour cost budget by province, especially for sites in Bali, West Java, Central Java and East Java.</li><li>Separate the effect of minimum wage increases from performance-based raises in the budget so decisions can be explained clearly.</li></ol><h3>For HRIS and payroll vendors</h3><ol><li>Prepare 2027 UMP/UMK table updates for clients before the January payroll close, with references to the regional decrees.</li></ol>",
+    "faqHtml": "<h3>What is Jakarta's 2027 minimum wage?</h3><p>Jakarta's 2027 UMP is Rp6,136,941 per month, up Rp407,065 or 7.1%, and the highest in Indonesia according to Kontan's list.</p><h3>Which province has the largest 2027 UMP increase?</h3><p>Bali, with a 42.15% increase to Rp4,559,287. West Java follows with 29.44% to Rp3,000,000, according to Kontan.</p><h3>When will 2027 district/city minimum wages be set?</h3><p>According to Manpower Minister Yassierli, the deadline for district/city minimum wages is 25 November 2026. Companies should wait for the UMK before locking January 2027 payroll tables.</p>",
+    "dataFigure": "42.15%",
+    "dataLabel": "Bali's 2027 UMP increase, the highest in Indonesia",
+    "dataSource": "Katadata, Kontan, CNBC Indonesia, 21–22 November 2026",
+    "chart": {
+      "bars": [
+        {
+          "label": "N. Sumatra",
+          "value": 5.61,
+          "display": "5.61%"
+        },
+        {
+          "label": "Jakarta",
+          "value": 7.1,
+          "display": "7.1%"
+        },
+        {
+          "label": "West Java",
+          "value": 29.44,
+          "display": "29.44%"
+        },
+        {
+          "label": "Bali",
+          "value": 42.15,
+          "display": "42.15%"
+        }
+      ]
+    },
+    "seoTitle": "Indonesia 2027 Minimum Wage: Jakarta Rp6.1M, Bali +42.15%",
+    "seoDescription": "Indonesia's 2027 provincial minimum wages: Jakarta Rp6,136,941, Bali up 42.15%, West Java 29.44%. What it means for payroll, HRIS and labour budgets.",
+    "audience": [
+      "HR Director",
+      "CFO",
+      "Payroll Manager",
+      "HRIS vendor"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/ump-2027-jakarta-rp6-juta-bali-naik-42-persen-payroll-hr-en.png"
+  },
+  "ja": {
+    "title": "2027年州最低賃金が確定、ジャカルタ613万ルピア・バリ42.15%増　多州展開企業は給与計算見直しへ",
+    "dek": "2027年の州最低賃金（UMP）の決定期限は2026年11月21日で、Kontanの集計では少なくとも27州が発表を終えた。引き上げ率は5.61%から42.15%まで大きく開いており、多くの州で従業員を抱える企業は2027年1月の給与支払いまでに給与システムを更新する必要がある。",
+    "summaryHtml": "<ul><li>ヤシエルリ労働相は2026年11月21日が州最低賃金の決定期限であると述べた。県・市最低賃金（UMK）の期限は11月25日である（Katadata）。</li><li>ジャカルタ特別州は2027年のUMPを月額613万6941ルピアと決めた。40万7065ルピア、7.1%の引き上げだ。最大の上げ幅はバリ州の42.15%で、455万9287ルピアとなる。州知事決定第995/03-M/HK/2026号に基づき2027年1月1日に施行される（Katadata、CNBC Indonesia）。</li><li>Kontanの11月22日時点の集計では27州が2027年UMPを発表した。西ジャワ州は29.44%増の300万ルピア、東ジャワ州は11.57%増の273万ルピア、中部ジャワ州は14.10%増の265万5454ルピア。Katadataは前日時点で12州としていた。</li><li>Kontanの一覧で最も低い引き上げ率は5.61%（北スマトラ州など、341万ルピア）。バンテン州は8.77%増の337万2828.70ルピア、南スマトラ州は6.77%増の421万59ルピアとなった。</li><li>決定は賃金に関する2025年政令第49号（PP49/2025）と労働相の通達に基づく。中部ジャワ州のアフマド・ルトフィ知事は、今年の引き上げは過去10年で最も高いと述べた（CNBC Indonesia）。</li></ul>",
+    "analysisHtml": "<h3>同じ制度で上げ幅に8倍の差</h3><p>企業にとって最も重要な数字はジャカルタのUMPではなく、最小と最大の引き上げ率の差である。北スマトラ州の5.61%に対し、バリ州は42.15%と8倍近い。西ジャワ州は29.44%上昇した。複数の州で工場や店舗、サービス拠点を運営する企業グループにとって、全国一律の人件費上昇率という前提はもはや成り立たない。6〜8%程度の一律上昇を前提に組んだ2027年予算は、拠点ごとに再計算が必要になる可能性が高い。</p><h3>数字の背後にある算定式</h3><p>Katadataは北スマトラ州を例に挙げている。インフレ率2.71%に、経済成長率4.79%にアルファ値0.6045を掛けたものを加えると5.61%になる。つまり、地域ごとのインフレ率・成長率に加え、各州が選ぶアルファ値が決定的な変数となる。今回確認した報道は、バリ州と西ジャワ州が他州を大きく上回った理由を詳しく説明していない。この点は注視が必要で、企業は報道の要約だけでなく、自社が操業する州の知事決定そのものを確認すべきである。</p><h3>給与計算にはまだ確定していない</h3><p>UMPは州レベルの下限にすぎない。11月25日が期限の県・市最低賃金はUMPより高くなる場合があり、多くの職場で実際に適用されるのはこちらだ。バリ州は同じ決定で部門別最低賃金も定めた。報道の集計も一致していない。Katadataは11月21日時点で12州、Kontanは翌日に27州としている。人事システムの賃金テーブルはUMKの公表を待ち、公式文書と照合したうえで確定させるべきだ。</p><h3>一つの数字の裏にある実務</h3><p>最低賃金の変更は給与明細だけの問題ではない。社会保障の拠出金、残業代、比率で決まる手当など、賃金を基礎に計算する項目も変わる。新入社員の賃金が先輩社員に近づき、賃金体系が圧縮される恐れもある。拠点別の最低賃金をいまだに手作業の表計算で管理する企業は2027年1月に支払い誤りのリスクが最も高い。地域別賃金テーブルを備えたHRISを使う企業は、パラメータを更新してシミュレーションを回せば済む。</p>",
+    "actionHtml": "<h3>人事責任者・給与担当者</h3><ol><li>全従業員を県・市別に整理し、2027年UMP/UMKを下回る、または同額の従業員を洗い出す。</li><li>UMK公表後（期限11月25日）にHRISの最低賃金テーブルを更新し、監査の根拠として州知事決定の番号を保管する。</li><li>2027年1月分の給与シミュレーションを行い、残業代、社会保障拠出金、比率連動の手当への影響を確認する。</li><li>新入社員と先輩社員の差が適正に保たれるよう、賃金体系を見直す。</li></ol><h3>CFO</h3><ol><li>2027年の人件費予算を州別に再計算する。特にバリ、西ジャワ、中部ジャワ、東ジャワの拠点に注意する。</li><li>最低賃金引き上げの影響と業績連動の昇給を予算上で分け、判断を説明しやすくする。</li></ol><h3>HRIS・給与計算ベンダー</h3><ol><li>1月の給与締めまでに、各地域の決定を参照した2027年UMP/UMKテーブルの更新を顧客に提供できるよう準備する。</li></ol>",
+    "faqHtml": "<h3>2027年のジャカルタの最低賃金はいくらか</h3><p>2027年のジャカルタ特別州UMPは月額613万6941ルピアで、40万7065ルピア（7.1%）の引き上げとなる。Kontanの一覧ではインドネシアで最も高い。</p><h3>2027年UMPの引き上げ率が最も高い州はどこか</h3><p>バリ州で、42.15%増の455万9287ルピア。Kontanによると、西ジャワ州が29.44%増の300万ルピアで続く。</p><h3>2027年の県・市最低賃金はいつ決まるか</h3><p>ヤシエルリ労働相によると、県・市最低賃金の決定期限は2026年11月25日である。企業は2027年1月の給与テーブルを確定する前にUMKを待つべきだ。</p>",
+    "dataFigure": "42.15%",
+    "dataLabel": "バリ州の2027年UMP引き上げ率（国内最高）",
+    "dataSource": "Katadata、Kontan、CNBC Indonesia（2026年11月21〜22日）",
+    "chart": {
+      "bars": [
+        {
+          "label": "北スマトラ",
+          "value": 5.61,
+          "display": "5.61%"
+        },
+        {
+          "label": "ジャカルタ",
+          "value": 7.1,
+          "display": "7.1%"
+        },
+        {
+          "label": "西ジャワ",
+          "value": 29.44,
+          "display": "29.44%"
+        },
+        {
+          "label": "バリ",
+          "value": 42.15,
+          "display": "42.15%"
+        }
+      ]
+    },
+    "seoTitle": "インドネシア2027年最低賃金、バリ42%増",
+    "seoDescription": "インドネシアの2027年州最低賃金が確定。ジャカルタは月613万ルピア、バリは42.15%増。多州展開企業の給与計算・HRIS・人件費予算への影響を解説。",
+    "audience": [
+      "人事責任者",
+      "CFO",
+      "給与担当者",
+      "HRISベンダー"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/ump-2027-jakarta-rp6-juta-bali-naik-42-persen-payroll-hr-ja.png"
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/ump-2027-jakarta-rp6-juta-bali-naik-42-persen-payroll-hr.png"
+}
