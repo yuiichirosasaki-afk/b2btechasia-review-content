@@ -222,6 +222,37 @@ review-ui .tk-band .tk-body{padding:32px 36px}
  review-ui .rv-rel-title{font-size:17px!important}
  review-ui .tk .tk-stub{padding-top:34%!important}
 }
+/* Wix's mobile view can keep a wide window and only narrow the page column: same rules by the element's own width. */
+review-ui{container:rv / inline-size}
+@container rv (max-width:760px){review-ui .tk{flex-direction:column}review-ui .tk .tk-stub{flex:0 0 auto;height:0;padding-top:42%;border-radius:10px 10px 0 0}review-ui .tk .tk-body{border-left:none;border-top:2px dashed #E3B98A;border-radius:0 0 10px 10px;padding:18px 20px}review-ui .tk-title{font-size:22px!important}}
+@container rv (max-width:760px){review-ui .bn-title{font-size:22px!important}review-ui .bn-band{padding:28px 22px}review-ui .bn-leader,review-ui .bn-vendor{padding:20px}}
+@container rv (max-width:760px){
+ review-ui .rv-lead-title{font-size:32px!important}
+ review-ui .rv-wrap{padding:0 16px}
+ review-ui .rv-logo{white-space:nowrap}
+ review-ui .rv-masthead-logo{font-size:21px!important}
+ review-ui .rv-compact-logo{font-size:20px!important}
+ review-ui .rv-topbar .rv-wrap{flex-wrap:nowrap;gap:8px;font-size:12px;padding-top:6px;padding-bottom:6px}
+ review-ui .rv-topbar .rv-wrap>span:first-child{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+ review-ui .rv-topbar-expo{display:none!important}
+ review-ui .rv-nav{flex-wrap:nowrap!important;overflow-x:auto;white-space:nowrap;gap:0 18px!important;font-size:14px!important;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+ review-ui .rv-nav::-webkit-scrollbar{display:none}
+ review-ui .rv-nav a{flex:0 0 auto}
+ review-ui .rv-zrow{gap:8px 18px;padding:9px 12px;font-size:13px}
+ review-ui .rv-compact-nav{width:100%}
+ review-ui .rv-hide-mobile{display:none!important}
+ review-ui .rv-grid{grid-template-columns:minmax(0,1fr)!important;gap:32px!important}
+ review-ui .rv-lead-title{font-size:26px!important;line-height:1.25!important}
+ review-ui[lang="ja"] .rv-lead-title{font-size:23px!important;letter-spacing:0!important}
+ review-ui .rv-lead-title + p, review-ui h1 + p.rv-serif{font-size:16px!important}
+ review-ui .rv-list-title{font-size:26px!important;gap:10px!important;align-items:flex-start!important;line-height:1.2}
+ review-ui .rv-list-title > span[aria-hidden]{flex:0 0 30px!important;width:30px!important;height:30px!important;font-size:15px!important;margin-top:2px}
+ review-ui .rv-sechead h2{font-size:22px!important}
+ review-ui .rv-rel{flex-direction:column;gap:10px!important}
+ review-ui .rv-rel img{flex:0 0 auto!important;width:100%!important}
+ review-ui .rv-rel-title{font-size:17px!important}
+ review-ui .tk .tk-stub{padding-top:34%!important}
+}
 `;
 
 // Wix's mobile Quick Action Bar ("Free Ticket" / "Chat") is site-wide; Review pages don't need it.
