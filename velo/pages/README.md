@@ -43,32 +43,19 @@ $w.onReady(async () => {
 
 ## Exhibition database — `/review/expo` and `/review/expo/{slug}` (collection: ReviewExhibitions)
 
-Indonesian B2B tech exhibitions, maintained by the weekly run in `EXHIBITIONS.md`. Not built in Wix yet. To switch it on:
+Indonesian B2B tech exhibitions, maintained by the monthly run in `EXHIBITIONS.md`. Live since 2026-11-22.
 
-1. Run `setupExhibitionsCollection()` (backend/setupCollections.js) once from the Velo code panel.
-2. Add `backend/exhibitionsImport.js` and the `importExhibitions` entry in `backend/jobs.config` (hourly, :50). Run `importExhibitions()` once by hand to fill the collection.
-3. Build the pages like the article pages: a dynamic list page `/review/expo` and an item page `/review/expo/{slug}` (Indonesian and English through Wix Multilingual), plus Japanese copies `/jp/review/expo` and `/jp/review/expo/{slug}` that read `jaJson`; the English pages read `enJson`.
-   - List: `status` upcoming/ongoing first by `startDate`, then `tba`, then `past`; filter by zone; hide `cancelled` older than 90 days. Highlight the `isOwnEvent` entry.
-   - Item: name, dates (or "Tanggal belum diumumkan" + last edition when `dateStatus` is `tba`), city/venue, organiser, zones, admission, organiser figures with their edition year, summary, FAQ, official site (nofollow), sources, "Terakhir diperiksa: verifiedAt", and the VRI B2B Tech Asia box from the article template (not on the `isOwnEvent` page).
-   - SEO: title/description from `seoTitle`/`seoDescription` (or the `en`/`ja` JSON), canonical + hreflang for the three language paths, and `Event` structured data:
+| Wix page | URL | Wix code file | Repo file |
+|---|---|---|---|
+| Review Expo (List) — a copy of Review Articles (List) | `/review/expo`, `/id/review/expo` | `public/pages/nso4f.js` | `velo/pages/reviewIndex.js` |
+| Review Expo JP (List) — a copy of the Japanese list page | `/jp/review/expo` | `public/pages/rrwic.js` | `velo/pages/reviewIndex.js` |
+| Review Exhibitions (Item) — dynamic item page on ReviewExhibitions | `/review/expo/{slug}`, `/id/review/expo/{slug}` | `public/pages/rxfcg.js` | `velo/pages/reviewExpoItem.js` |
+| Review Expo JP (Item) — a copy of the item page | `/jp/review/expo/{slug}` | `public/pages/riqwz.js` | `velo/pages/reviewExpoItem.js` |
 
-```js
-// item page, after loading `item` and `lang`
-const t = lang === 'id' ? item : JSON.parse(item[lang + 'Json'] || '{}');
-const ld = {
-  '@context': 'https://schema.org',
-  '@type': 'Event',
-  name: item.title,
-  eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
-  eventStatus: item.dateStatus === 'cancelled' ? 'https://schema.org/EventCancelled' : 'https://schema.org/EventScheduled',
-  location: { '@type': 'Place', name: item.venue || item.city, address: { '@type': 'PostalAddress', addressLocality: item.city, addressCountry: 'ID' } },
-  organizer: { '@type': 'Organization', name: item.organizer, url: item.officialUrl },
-  description: t.seoDescription
-};
-// Only when the dates are confirmed: Google requires startDate for Event results.
-if (item.dateStatus === 'confirmed') {
-  ld.startDate = item.startDate.toISOString().slice(0, 10);
-  ld.endDate = item.endDate.toISOString().slice(0, 10);
-  await wixSeoFrontend.setStructuredData([ld]);
-}
-```
+- `reviewIndex.js` is the same file on all four list pages (articles and calendar): a URL ending in `/review/expo` (or `?kategori=expo`) shows the calendar.
+- The item pages hold the same five elements as the article page (`#customElement1`, `#text747`, `#image262`, `#text748`, `#customElement2`); the image is collapsed by the page code. All four pages use the layout "No header & footer".
+- Backend: `backend/exhibitionsImport.js` (hourly, :50, in `backend/jobs.config`) upserts `exhibitions.json` into ReviewExhibitions. The collection was created with `setupExhibitionsCollection()`.
+- List: upcoming/ongoing by month, then "dates not announced" (last edition shown), then past; a cancelled event leaves the list 90 days after it was last checked. Filters: search, city (when there is more than one), hub, date status. The `isOwnEvent` entry is the navy block.
+- Item: name, status, dates (or "not yet announced" + previous edition), venue, organiser, zones, admission, official site (nofollow), summary, organiser figures with their edition, FAQ, sources, "last checked"; then official site / add to calendar / report a correction, other exhibitions, and the Expo band (not on the `isOwnEvent` page, which gets register / exhibit buttons instead).
+- SEO: title and description from `seoTitle`/`seoDescription` (or the `en`/`ja` JSON), canonical + hreflang for the three language paths, `ItemList` on the list, and `Event` structured data on item pages only when `dateStatus` is `confirmed`.
+- To change code: edit the repo file, then replace the matching Wix code file in the editor (Dev Mode) and publish.
