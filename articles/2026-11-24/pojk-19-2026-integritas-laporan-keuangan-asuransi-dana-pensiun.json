@@ -1,0 +1,144 @@
+{
+  "slug": "pojk-19-2026-integritas-laporan-keuangan-asuransi-dana-pensiun",
+  "title": "POJK 19/2026: 576 Entitas Asuransi, Penjaminan, dan Dana Pensiun Wajib Perkuat Kontrol Laporan Keuangan",
+  "category": "Legal, Compliance & Governance Tech",
+  "articleType": "analisis",
+  "dek": "OJK menerbitkan POJK 19 Tahun 2026 yang mewajibkan perusahaan asuransi, penjaminan, dana pensiun, dan lembaga khusus menjaga integritas laporan keuangan, termasuk melarang manipulasi oleh direksi hingga pemegang saham. Aturan ini juga mewajibkan sistem informasi pendukung dan unit pencegahan fraud, sehingga menjadi pekerjaan rumah bagi CFO dan tim TI di sektor yang asetnya hampir Rp3.000 triliun.",
+  "summaryHtml": "<ul><li>OJK menerbitkan Peraturan OJK Nomor 19 Tahun 2026 tentang integritas pelaporan keuangan bagi perusahaan perasuransian, lembaga penjamin, dana pensiun, dan lembaga khusus di sektor tersebut (PPDP). Aturan ini ditetapkan pada 2 Oktober 2026 dan disosialisasikan lewat siaran pers OJK pada 23 November 2026 (Padang Media).</li><li>PPDP wajib memiliki proses pelaporan keuangan yang berorientasi integritas. Larangan manipulasi dan intervensi berlaku bagi direksi, dewan komisaris, pemegang saham, pejabat eksekutif, pegawai, dan pihak terafiliasi.</li><li>PPDP juga wajib menetapkan kebijakan dan prosedur pengendalian internal, menyediakan sistem informasi pendukung, menunjuk unit kerja atau pejabat yang menangani pencegahan fraud, dan memastikan penyusun laporan keuangan memiliki kompetensi akuntansi. Pelanggaran dikenai sanksi administratif.</li><li>Masa transisi: kebijakan serta penunjukan unit atau pejabat wajib dipenuhi dalam 6 bulan sejak diundangkan, kewajiban pengendalian internal dan penyampaian dokumen berlaku 9 bulan sejak diundangkan, dan kompetensi akuntansi penyusun laporan paling lambat 31 Desember 2028.</li><li>Menurut Kontan, POJK 19/2026 diumumkan bersama POJK 18/2026 tentang perhitungan solvabilitas yang diselaraskan dengan PSAK 117. Per September 2026, sektor PPDP terdiri atas 576 entitas (543 konvensional, 33 syariah) dengan aset Rp2.989,58 triliun, naik 3,9% secara tahunan.</li></ul>",
+  "analysisHtml": "<h3>Dari soal akuntansi menjadi soal tata kelola dan sistem</h3><p>Larangan manipulasi laporan keuangan sebenarnya bukan hal baru dalam hukum Indonesia. Yang berbeda dari POJK 19/2026 adalah cakupan pihak yang disebut secara eksplisit, mulai dari direksi hingga pemegang saham dan pihak terafiliasi, serta kewajiban yang bersifat operasional: prosedur pengendalian internal tertulis, sistem informasi pendukung, dan pejabat yang bertanggung jawab atas pencegahan fraud. Artinya, regulator tidak lagi cukup melihat hasil akhir laporan keuangan, tetapi juga ingin melihat jejak proses yang menghasilkannya. Pejabat OJK Wahyu Budi Satriyo menyebut, “Melalui POJK 19 Tahun 2026, OJK memperkuat penerapan tata kelola dan pengendalian internal”.</p><h3>Waktunya bertepatan dengan PSAK 117</h3><p>Aturan ini terbit bersama POJK 18/2026 yang menyelaraskan perhitungan solvabilitas dengan PSAK 117, standar akuntansi kontrak asuransi yang menuntut data dan perhitungan jauh lebih rinci. Kombinasi keduanya menambah beban pada sistem keuangan dan aktuaria perusahaan asuransi: angka yang lebih kompleks kini harus dihasilkan melalui proses yang dapat dibuktikan bebas intervensi. Perusahaan yang masih menyusun laporan dengan banyak penyesuaian manual di lembar kerja kemungkinan akan menjadi yang paling sibuk.</p><h3>Siapa yang paling terdampak</h3><p>Di antara 576 entitas PPDP terdapat dana pensiun dan perusahaan berskala kecil yang kemungkinan memiliki tim keuangan dan TI terbatas. Bagi mereka, kewajiban menunjuk pejabat pencegahan fraud dan menyediakan sistem pendukung bisa menjadi biaya tetap yang signifikan. Sebaliknya, vendor perangkat lunak akuntansi, GRC (governance, risk, and compliance), dan audit trail berpotensi melihat permintaan baru dari segmen ini.</p><h3>Yang perlu dicermati</h3><p>Sumber yang kami baca tidak menyebut tanggal pengundangan aturan, padahal tenggat 6 dan 9 bulan dihitung dari tanggal tersebut. Jika diundangkan tak lama setelah ditetapkan pada 2 Oktober 2026, tenggat pertama kemungkinan jatuh sekitar April 2027. Rincian standar minimum sistem informasi yang dianggap memadai juga belum dijelaskan dalam pemberitaan, sehingga perusahaan perlu memeriksa naskah POJK secara langsung.</p>",
+  "actionHtml": "<h3>Untuk CFO dan Direktur Keuangan</h3><ol><li>Petakan seluruh alur penyusunan laporan keuangan, termasuk titik penyesuaian manual, dan identifikasi siapa yang dapat mengubah angka.</li><li>Siapkan usulan penunjukan unit atau pejabat pencegahan fraud agar dapat diputuskan direksi sebelum tenggat enam bulan.</li><li>Inventarisasi kompetensi akuntansi tim penyusun laporan dan susun rencana sertifikasi menuju tenggat 31 Desember 2028.</li></ol><h3>Untuk CIO dan tim TI</h3><ol><li>Pastikan sistem akuntansi dan aktuaria memiliki jejak audit, pembagian hak akses, dan pencatatan perubahan data yang dapat diperiksa.</li><li>Kurangi ketergantungan pada lembar kerja untuk konsolidasi dan jurnal penyesuaian.</li></ol><h3>Untuk vendor GRC dan perangkat lunak keuangan</h3><ol><li>Siapkan paket yang sesuai skala dana pensiun dan perusahaan asuransi kecil, yang membutuhkan kepatuhan tanpa biaya implementasi besar.</li></ol>",
+  "faqHtml": "<h3>Apa isi POJK 19 Tahun 2026?</h3><p>POJK 19/2026 mengatur integritas pelaporan keuangan perusahaan perasuransian, penjaminan, dana pensiun, dan lembaga khusus. Isinya antara lain larangan manipulasi dan intervensi laporan keuangan, kewajiban pengendalian internal, sistem informasi pendukung, unit pencegahan fraud, dan kompetensi akuntansi penyusun laporan.</p><h3>Kapan POJK 19/2026 harus dipenuhi?</h3><p>Kebijakan dan penunjukan unit atau pejabat wajib dipenuhi dalam 6 bulan sejak diundangkan, pengendalian internal dan penyampaian dokumen 9 bulan sejak diundangkan, dan kompetensi akuntansi penyusun laporan paling lambat 31 Desember 2028.</p><h3>Siapa yang dilarang mengintervensi laporan keuangan?</h3><p>Larangan berlaku bagi direksi, dewan komisaris, pemegang saham, pejabat eksekutif, pegawai, dan pihak terafiliasi perusahaan.</p>",
+  "dataFigure": "576",
+  "dataLabel": "entitas asuransi, penjaminan, dan dana pensiun yang diawasi OJK, September 2026",
+  "dataSource": "OJK, via Kontan, 6 November 2026",
+  "chart": {
+    "bars": [
+      {
+        "label": "Konvensional",
+        "value": 543,
+        "display": "543"
+      },
+      {
+        "label": "Syariah",
+        "value": 33,
+        "display": "33"
+      },
+      {
+        "label": "Total PPDP",
+        "value": 576,
+        "display": "576"
+      }
+    ]
+  },
+  "audience": [
+    "CFO",
+    "Direktur Kepatuhan",
+    "CIO",
+    "Vendor GRC"
+  ],
+  "tags": [
+    "OJK",
+    "POJK 19/2026",
+    "Asuransi",
+    "Dana pensiun",
+    "Pengendalian internal",
+    "PSAK 117"
+  ],
+  "sources": [
+    {
+      "name": "Padang Media",
+      "title": "OJK Terbitkan Peraturan Perkuat Integritas Pelaporan Keuangan Perasuransian dan Dana Pensiun",
+      "url": "https://padangmedia.com/berita/ojk-terbitkan-peraturan-perkuat-integritas-pelaporan-keuangan-perasuransian-dan-dana-pensiun/",
+      "date": "2026-11-23"
+    },
+    {
+      "name": "Kontan",
+      "title": "OJK Terbitkan 2 Peraturan Baru di Sektor PPDP",
+      "url": "https://keuangan.kontan.co.id/news/ojk-terbitkan-2-peraturan-baru-di-sektor-ppdp",
+      "date": "2026-11-06"
+    }
+  ],
+  "seoTitle": "POJK 19/2026: Integritas Laporan Keuangan Asuransi & Dapen",
+  "seoDescription": "POJK 19/2026 wajibkan asuransi dan dana pensiun perkuat kontrol internal, sistem informasi, dan pencegahan fraud laporan keuangan. Tenggat dan langkahnya.",
+  "publishAt": "2026-11-24T07:30:00+07:00",
+  "language": "id",
+  "en": {
+    "title": "POJK 19/2026: 576 Insurance, Guarantee and Pension Fund Entities Must Tighten Financial Reporting Controls",
+    "dek": "OJK has issued POJK 19 of 2026, requiring insurers, guarantee institutions, pension funds and special institutions to safeguard the integrity of their financial statements, including a ban on manipulation by directors and shareholders. The rule also requires supporting information systems and a fraud prevention function, giving CFOs and IT teams new work in a sector with assets of almost Rp3,000 trillion.",
+    "summaryHtml": "<ul><li>OJK issued Financial Services Authority Regulation (POJK) No. 19 of 2026 on financial reporting integrity for insurers, guarantee institutions, pension funds and special institutions in the sector (PPDP). It was set on 2 October 2026 and publicised in an OJK press release on 23 November 2026 (Padang Media).</li><li>PPDP must have an integrity-oriented financial reporting process. The ban on manipulation and intervention applies to directors, boards of commissioners, shareholders, executive officers, employees and affiliated parties.</li><li>PPDP must also set internal control policies and procedures, provide supporting information systems, appoint a unit or officer responsible for fraud prevention, and ensure that preparers of financial statements have accounting competence. Violations carry administrative sanctions.</li><li>Transition: policies and the appointment of a unit or officer must be in place within 6 months of promulgation, internal control and document submission obligations apply 9 months after promulgation, and preparers' accounting competence is due by 31 December 2028.</li><li>According to Kontan, POJK 19/2026 was announced together with POJK 18/2026 on solvency calculation aligned with PSAK 117. As of September 2026, the PPDP sector comprised 576 entities (543 conventional, 33 sharia) with assets of Rp2,989.58 trillion, up 3.9% year on year.</li></ul>",
+    "analysisHtml": "<h3>From an accounting issue to a governance and systems issue</h3><p>Prohibiting manipulation of financial statements is not new in Indonesian law. What sets POJK 19/2026 apart is the range of parties named explicitly, from directors to shareholders and affiliates, and its operational requirements: written internal control procedures, supporting information systems and an officer accountable for fraud prevention. The regulator is no longer satisfied with the final statements alone; it wants to see the trail of the process that produced them. OJK official Wahyu Budi Satriyo said that through POJK 19 of 2026, OJK is strengthening governance and internal control.</p><h3>Timing coincides with PSAK 117</h3><p>The rule was issued alongside POJK 18/2026, which aligns solvency calculation with PSAK 117, the insurance contracts accounting standard that demands far more detailed data and calculations. Together they add load to insurers' finance and actuarial systems: more complex numbers must now come from a process that can be shown to be free of intervention. Companies that still prepare statements with many manual spreadsheet adjustments are likely to be the busiest.</p><h3>Who is most affected</h3><p>The 576 PPDP entities include pension funds and smaller companies that likely have limited finance and IT teams. For them, appointing a fraud prevention officer and providing supporting systems could become a significant fixed cost. Conversely, vendors of accounting software, GRC (governance, risk and compliance) tools and audit trail systems may see new demand from this segment.</p><h3>What to watch</h3><p>The sources we read do not give the promulgation date, even though the 6- and 9-month deadlines run from it. If the rule was promulgated shortly after being set on 2 October 2026, the first deadline would likely fall around April 2027. Reports also do not detail the minimum standard for an adequate information system, so companies should check the POJK text directly.</p>",
+    "actionHtml": "<h3>For CFOs and Finance Directors</h3><ol><li>Map the entire financial statement preparation flow, including manual adjustment points, and identify who can change the numbers.</li><li>Prepare a proposal to appoint a fraud prevention unit or officer so the board can decide before the six-month deadline.</li><li>Take stock of the accounting competence of the reporting team and plan certification ahead of the 31 December 2028 deadline.</li></ol><h3>For CIOs and IT teams</h3><ol><li>Make sure accounting and actuarial systems have audit trails, segregated access rights and reviewable logs of data changes.</li><li>Reduce reliance on spreadsheets for consolidation and adjusting journal entries.</li></ol><h3>For GRC and finance software vendors</h3><ol><li>Prepare packages sized for pension funds and small insurers that need compliance without large implementation costs.</li></ol>",
+    "faqHtml": "<h3>What does POJK 19 of 2026 cover?</h3><p>POJK 19/2026 governs financial reporting integrity at insurers, guarantee institutions, pension funds and special institutions. It includes a ban on manipulating or interfering with financial statements and requirements for internal control, supporting information systems, a fraud prevention unit and accounting competence for preparers.</p><h3>When must POJK 19/2026 be met?</h3><p>Policies and the appointment of a unit or officer within 6 months of promulgation, internal control and document submission 9 months after promulgation, and preparers' accounting competence by 31 December 2028.</p><h3>Who is prohibited from interfering with financial statements?</h3><p>The ban applies to directors, boards of commissioners, shareholders, executive officers, employees and affiliated parties.</p>",
+    "dataFigure": "576",
+    "dataLabel": "insurance, guarantee and pension fund entities supervised by OJK, September 2026",
+    "dataSource": "OJK, via Kontan, 6 November 2026",
+    "seoTitle": "POJK 19/2026: Financial Reporting Integrity for Insurers",
+    "seoDescription": "POJK 19/2026 requires Indonesian insurers and pension funds to strengthen internal controls, systems and fraud prevention in financial reporting.",
+    "audience": [
+      "CFO",
+      "Compliance Director",
+      "CIO",
+      "GRC vendors"
+    ],
+    "chart": {
+      "bars": [
+        {
+          "label": "Conventional",
+          "value": 543,
+          "display": "543"
+        },
+        {
+          "label": "Sharia",
+          "value": 33,
+          "display": "33"
+        },
+        {
+          "label": "Total PPDP",
+          "value": 576,
+          "display": "576"
+        }
+      ]
+    },
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pojk-19-2026-integritas-laporan-keuangan-asuransi-dana-pensiun-en.png"
+  },
+  "ja": {
+    "title": "OJK規則19号：保険・年金基金など576社に財務報告の内部統制強化を義務付け",
+    "dek": "インドネシア金融庁（OJK）は2026年OJK規則第19号を公布し、保険会社、保証機関、年金基金、特殊機関に財務報告の健全性確保を義務付けた。取締役から株主までによる改ざんを禁じるほか、支援情報システムと不正防止機能の整備も求めており、資産約3000兆ルピアの業界でCFOとIT部門に新たな対応が生じる。",
+    "summaryHtml": "<ul><li>OJKは、保険、保証、年金基金および同分野の特殊機関（PPDP）を対象とする財務報告の健全性に関する2026年OJK規則（POJK）第19号を出した。2026年10月2日に制定され、11月23日のOJKのプレスリリースで周知された（Padang Media）。</li><li>PPDPは健全性を重視した財務報告プロセスを持たなければならない。改ざんや介入の禁止は、取締役、監査役会（コミサリス会）、株主、執行役員、従業員、関係者に適用される。</li><li>PPDPはまた、内部統制の方針と手続きを定め、支援する情報システムを整備し、不正防止を担う部署または担当役員を任命し、財務諸表の作成者に会計の能力を持たせる必要がある。違反には行政処分が科される。</li><li>経過措置として、方針の策定と部署・担当役員の任命は公布から6カ月以内、内部統制と書類提出の義務は公布から9カ月後に適用され、作成者の会計能力は2028年12月31日までに満たす必要がある。</li><li>Kontanによると、POJK第19号は、PSAK 117に合わせたソルベンシー算定に関するPOJK第18号とともに発表された。2026年9月時点でPPDPは576社（通常543、シャリア33）、資産は前年比3.9%増の2989兆5800億ルピアである。</li></ul>",
+    "analysisHtml": "<h3>会計の問題からガバナンスとシステムの問題へ</h3><p>財務諸表の改ざん禁止自体はインドネシア法で目新しいものではない。POJK第19号の違いは、取締役から株主、関係者までを明示的に対象とした範囲の広さと、書面化された内部統制手続き、支援情報システム、不正防止の責任者という運用面の義務にある。規制当局は最終的な財務諸表だけでなく、それを作成したプロセスの痕跡も確認しようとしている。OJKのWahyu Budi Satriyo氏は、同規則によりガバナンスと内部統制の適用を強化すると述べた。</p><h3>PSAK 117と重なる時期</h3><p>同規則は、保険契約の会計基準であるPSAK 117にソルベンシー算定を合わせるPOJK第18号と同時に出された。PSAK 117ははるかに詳細なデータと計算を求める。両規則の組み合わせで保険会社の財務・アクチュアリーのシステムの負荷は増し、より複雑な数値を、介入がないと証明できるプロセスで作成しなければならない。表計算ソフトでの手作業の調整に多く頼る企業が最も忙しくなる可能性が高い。</p><h3>最も影響を受けるのは誰か</h3><p>576社のPPDPには、財務・IT人員が限られるとみられる年金基金や小規模企業も含まれる。不正防止担当の任命や支援システムの整備は、こうした企業にとって大きな固定費になり得る。一方、会計ソフト、GRC（ガバナンス・リスク・コンプライアンス）、監査証跡のベンダーには新たな需要が生じる可能性がある。</p><h3>注視すべき点</h3><p>確認した資料には公布日の記載がないが、6カ月と9カ月の期限はこの日から数える。10月2日の制定直後に公布されていれば、最初の期限は2027年4月ごろになる可能性が高い。十分とされる情報システムの最低基準も報道では示されておらず、企業は規則の条文を直接確認する必要がある。</p>",
+    "actionHtml": "<h3>CFO・財務担当取締役向け</h3><ol><li>手作業の調整箇所を含め財務諸表の作成フロー全体を洗い出し、数値を変更できる者を特定する。</li><li>6カ月の期限前に取締役会が決定できるよう、不正防止の部署または担当役員の任命案を準備する。</li><li>作成チームの会計能力を棚卸しし、2028年12月31日の期限に向けた資格取得計画を立てる。</li></ol><h3>CIO・IT部門向け</h3><ol><li>会計・アクチュアリーのシステムに監査証跡、権限の分離、検証可能なデータ変更記録があることを確認する。</li><li>連結や修正仕訳での表計算ソフトへの依存を減らす。</li></ol><h3>GRC・財務ソフトのベンダー向け</h3><ol><li>多額の導入費用をかけずに規制対応が必要な年金基金や小規模保険会社向けの製品構成を用意する。</li></ol>",
+    "faqHtml": "<h3>2026年OJK規則第19号の内容は</h3><p>保険、保証、年金基金、特殊機関の財務報告の健全性を定める規則で、財務諸表の改ざん・介入の禁止、内部統制、支援情報システム、不正防止部署、作成者の会計能力に関する義務を含む。</p><h3>対応期限はいつか</h3><p>方針と部署・担当役員の任命は公布から6カ月以内、内部統制と書類提出は公布から9カ月後、作成者の会計能力は2028年12月31日までである。</p><h3>財務諸表への介入を禁じられるのは誰か</h3><p>取締役、監査役会、株主、執行役員、従業員、関係者である。</p>",
+    "dataFigure": "576社",
+    "dataLabel": "OJKが監督する保険・保証・年金基金の事業者数（2026年9月）",
+    "dataSource": "OJK（Kontan経由）、2026年11月6日",
+    "seoTitle": "OJK規則19号、保険・年金の財務報告統制を強化",
+    "seoDescription": "インドネシアOJKの2026年規則第19号は保険・年金基金など576社に財務報告の内部統制、情報システム、不正防止の整備を義務付けた。期限と対応策。",
+    "audience": [
+      "CFO",
+      "コンプライアンス責任者",
+      "CIO",
+      "GRCベンダー"
+    ],
+    "chart": {
+      "bars": [
+        {
+          "label": "通常",
+          "value": 543,
+          "display": "543"
+        },
+        {
+          "label": "シャリア",
+          "value": 33,
+          "display": "33"
+        },
+        {
+          "label": "合計",
+          "value": 576,
+          "display": "576"
+        }
+      ]
+    },
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pojk-19-2026-integritas-laporan-keuangan-asuransi-dana-pensiun-ja.png"
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pojk-19-2026-integritas-laporan-keuangan-asuransi-dana-pensiun.png"
+}

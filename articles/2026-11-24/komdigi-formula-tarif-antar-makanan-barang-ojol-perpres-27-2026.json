@@ -1,0 +1,87 @@
+{
+  "slug": "komdigi-formula-tarif-antar-makanan-barang-ojol-perpres-27-2026",
+  "title": "Komdigi Siapkan Formula Tarif Antar Makanan dan Barang Ojol Sebelum 31 Desember 2026, Bukan Tarif Tetap",
+  "category": "Logistics & Supply Chain Tech",
+  "articleType": "analisis",
+  "dek": "Komdigi menargetkan peraturan menteri berisi formula tarif pengantaran makanan dan barang oleh kurir daring terbit sebelum 31 Desember 2026, sebagai turunan Perpres 27/2026. Pemerintah tidak menetapkan angka tarif, tetapi formula yang menjadi acuan platform, dan hasilnya akan memengaruhi biaya pengiriman jarak dekat bagi merchant, ritel, dan e-commerce.",
+  "summaryHtml": "<ul><li>Komdigi sedang memfinalisasi pedoman tarif layanan pengantaran sesuai permintaan untuk makanan dan barang dengan sepeda motor. Wakil Menteri Komunikasi dan Digital Nezar Patria menyatakan aturan ini akan berbentuk peraturan menteri sebagai pelaksanaan Perpres Nomor 27 Tahun 2026 tentang Pelindungan Ekosistem Transportasi Berbasis Platform Digital (Katadata).</li><li>Pemerintah tidak akan menetapkan tarif secara langsung. Komdigi akan menerbitkan formula yang menjadi acuan platform. Tarif antar makanan dan barang juga tidak otomatis mengikuti batas atas dan bawah tarif penumpang, karena komponen risiko dan biayanya berbeda. Peraturan ditargetkan terbit sebelum 31 Desember 2026.</li><li>Pada 20 November 2026, Menteri Komunikasi dan Digital Meutya Hafid menerima Front Driver Transportasi Online Indonesia (FDTOI) di kantor Komdigi. Sebelumnya, pimpinan DPR juga menerima audiensi FDTOI. Meutya mengatakan, “Nanti kita terima masukannya” (Katadata, Veritask).</li><li>Menurut Veritask, Perpres 27/2026 ditetapkan 30 April 2026 dan Pasal 11 ayat (4) memberi Komdigi kewenangan mengatur tarif pengantaran. Komponen yang dikaji antara lain biaya berbasis risiko, penanganan, waktu tunggu, dan parkir. Tarif penumpang tetap menjadi ranah Kementerian Perhubungan.</li><li>Ekonom Universitas Airlangga Rumayya Batubara mengingatkan dampak lanjutan aturan ini terhadap UMKM dan usaha kuliner rumahan (Katadata).</li></ul>",
+  "analysisHtml": "<h3>Formula, bukan angka: platform tetap memegang algoritma</h3><p>Pilihan Komdigi untuk menerbitkan formula, bukan tarif tetap atau batas atas-bawah seperti pada angkutan penumpang, berarti platform masih menentukan harga akhir melalui algoritmanya, tetapi harus dapat menunjukkan bahwa komponen biaya tertentu sudah diperhitungkan. Komponen yang disebut, seperti risiko, penanganan, waktu tunggu, dan parkir, adalah biaya yang selama ini sering ditanggung pengemudi tanpa kompensasi terpisah. Jika komponen tersebut wajib masuk ke perhitungan, kemungkinan besar biaya pengantaran per pesanan naik, terutama untuk pesanan dengan waktu tunggu panjang di restoran atau gudang.</p><h3>Siapa yang menanggung kenaikan</h3><p>Sumber yang kami baca tidak menjelaskan apakah kenaikan biaya akan dibebankan ke konsumen, merchant, atau dipotong dari margin platform. Peringatan ekonom Unair soal UMKM dan kuliner rumahan menunjukkan kekhawatirannya: usaha kecil dengan margin tipis paling sensitif terhadap ongkos kirim. Bagi peritel dan merek yang memakai layanan pengantaran instan untuk pengiriman jarak dekat, biaya logistik jarak terakhir berpotensi menjadi pos yang harus dianggarkan ulang pada 2027.</p><h3>Pembagian kewenangan yang perlu diperhatikan</h3><p>Pengaturan kini terbagi: Kementerian Perhubungan untuk penumpang, Komdigi untuk makanan dan barang, dengan forum bersama yang dipimpin Kementerian UMKM. Bagi perusahaan logistik dan platform, ini berarti dua rezim tarif dengan logika berbeda untuk armada yang sama. Sistem penetapan harga dan penagihan perlu mampu membedakan jenis layanan secara tegas.</p><h3>Yang belum pasti</h3><p>Hingga kini belum ada angka tarif, rumus resmi, atau rancangan peraturan yang dipublikasikan. Tenggat 31 Desember 2026 juga merupakan target, bukan kepastian. Perlu dicermati apakah formula akan berlaku sama untuk semua kota dan apakah ada masa transisi bagi platform untuk menyesuaikan algoritma.</p>",
+  "actionHtml": "<h3>Untuk Operations Head dan manajer logistik</h3><ol><li>Hitung porsi pengiriman instan jarak dekat dalam total biaya logistik, dan buat skenario kenaikan biaya per pesanan untuk anggaran 2027.</li><li>Kurangi waktu tunggu kurir di gudang atau toko, karena waktu tunggu termasuk komponen yang dikaji.</li></ol><h3>Untuk CFO ritel, F&amp;B, dan e-commerce</h3><ol><li>Tinjau kebijakan subsidi ongkos kirim dan ambang gratis ongkir sebelum aturan terbit.</li><li>Pantau publikasi rancangan peraturan menteri dari Komdigi dan siapkan masukan melalui asosiasi.</li></ol><h3>Untuk platform dan vendor teknologi logistik</h3><ol><li>Siapkan sistem penetapan harga yang dapat menampilkan komponen biaya secara terpisah, agar mudah diaudit terhadap formula resmi.</li></ol>",
+  "faqHtml": "<h3>Apakah pemerintah akan menetapkan tarif ojol antar makanan dan barang?</h3><p>Tidak secara langsung. Menurut Wakil Menteri Komunikasi dan Digital Nezar Patria, Komdigi akan menerbitkan formula yang menjadi acuan platform dalam peraturan menteri pelaksana Perpres 27/2026.</p><h3>Kapan aturan tarif pengantaran makanan dan barang terbit?</h3><p>Komdigi menargetkan peraturan menteri tersebut terbit sebelum 31 Desember 2026.</p><h3>Komponen apa saja yang dikaji dalam formula tarif?</h3><p>Menurut pemberitaan, komponen yang dikaji antara lain biaya berbasis risiko, penanganan, waktu tunggu, dan parkir. Tarif antar makanan dan barang tidak otomatis mengikuti batas tarif angkutan penumpang.</p>",
+  "dataFigure": "31 Des",
+  "dataLabel": "target terbit peraturan menteri formula tarif antar makanan dan barang, 2026",
+  "dataSource": "Komdigi, via Katadata, 19 November 2026",
+  "audience": [
+    "Operations Head",
+    "CFO",
+    "Manajer Logistik",
+    "Platform digital"
+  ],
+  "tags": [
+    "Komdigi",
+    "Perpres 27/2026",
+    "Tarif pengantaran",
+    "Ojol",
+    "Last mile",
+    "FDTOI"
+  ],
+  "sources": [
+    {
+      "name": "Katadata",
+      "title": "Komdigi Siapkan Aturan Tarif Ojol Antar Makanan dan Barang, DPR Turun Tangan",
+      "url": "https://katadata.co.id/digital/startup/6afebdedcc52f/komdigi-siapkan-aturan-tarif-ojol-antar-makanan-dan-barang-dpr-turun-tangan",
+      "date": "2026-11-19"
+    },
+    {
+      "name": "Veritask",
+      "title": "Komdigi Siapkan Aturan Tarif Kurir Online, Apa Saja yang Dikaji?",
+      "url": "https://veritask.ai/id/artikel/komdigi-siapkan-aturan-tarif-kurir-online-apa-saja-yang-dikaji",
+      "date": "2026-11-23"
+    }
+  ],
+  "seoTitle": "Formula Tarif Ojol Antar Makanan dan Barang Komdigi 2026",
+  "seoDescription": "Komdigi targetkan Permen formula tarif antar makanan dan barang ojol terbit sebelum 31 Desember 2026. Dampaknya bagi biaya logistik ritel dan UMKM.",
+  "publishAt": "2026-11-24T09:00:00+07:00",
+  "language": "id",
+  "en": {
+    "title": "Komdigi Prepares Formula for Online Food and Goods Delivery Fees by 31 December 2026, Not a Fixed Tariff",
+    "dek": "Komdigi aims to issue a ministerial regulation containing a fee formula for food and goods delivery by online couriers before 31 December 2026, implementing Presidential Regulation 27/2026. The government will not set a fee amount but a formula for platforms to follow, and the result will affect short-distance delivery costs for merchants, retailers and e-commerce sellers.",
+    "summaryHtml": "<ul><li>Komdigi is finalising fee guidelines for on-demand food and goods delivery by motorcycle. Deputy Minister of Communication and Digital Affairs Nezar Patria said the rules will take the form of a ministerial regulation implementing Presidential Regulation (Perpres) No. 27 of 2026 on the Protection of the Digital Platform-Based Transport Ecosystem (Katadata).</li><li>The government will not set fees directly. Komdigi will issue a formula that platforms use as a reference. Food and goods delivery fees will also not automatically follow the upper and lower fare limits for passenger rides, because their risk and cost components differ. The regulation is targeted for issue before 31 December 2026.</li><li>On 20 November 2026, Minister of Communication and Digital Affairs Meutya Hafid received the Front Driver Transportasi Online Indonesia (FDTOI) at Komdigi's office. Earlier, the DPR leadership had also received an FDTOI delegation. Meutya said Komdigi would take the group's input on board (Katadata, Veritask).</li><li>According to Veritask, Perpres 27/2026 was set on 30 April 2026 and Article 11(4) gives Komdigi authority over delivery fees. Components under study include risk-based costs, handling, waiting time and parking. Passenger fares remain under the Ministry of Transportation.</li><li>Universitas Airlangga economist Rumayya Batubara warned of knock-on effects on small businesses and home-based food sellers (Katadata).</li></ul>",
+    "analysisHtml": "<h3>A formula, not a number: platforms keep their algorithms</h3><p>Komdigi's choice to issue a formula, rather than a fixed fee or upper and lower limits as for passenger transport, means platforms still set final prices through their algorithms but must be able to show that certain cost components have been included. The components mentioned, such as risk, handling, waiting time and parking, are costs drivers have often borne without separate compensation. If they must be included, delivery costs per order are likely to rise, especially for orders with long waits at restaurants or warehouses.</p><h3>Who bears the increase</h3><p>The sources we read do not say whether higher costs will be passed to consumers or merchants, or absorbed by platform margins. The Universitas Airlangga economist's warning about small businesses and home-based food sellers shows the concern: small firms with thin margins are the most sensitive to delivery fees. For retailers and brands that use instant delivery for short-distance shipments, last-mile logistics costs may need to be rebudgeted for 2027.</p><h3>A split of authority to note</h3><p>Regulation is now divided: the Ministry of Transportation for passengers, Komdigi for food and goods, with a joint forum led by the Ministry of MSMEs. For logistics companies and platforms, this means two fee regimes with different logic for the same fleet. Pricing and billing systems need to separate service types clearly.</p><h3>What remains uncertain</h3><p>No fee amount, official formula or draft regulation has been published. The 31 December 2026 deadline is a target, not a certainty. Points to watch are whether the formula will apply equally in all cities and whether platforms will get a transition period to adjust their algorithms.</p>",
+    "actionHtml": "<h3>For Operations Heads and logistics managers</h3><ol><li>Calculate the share of short-distance instant delivery in total logistics costs, and model per-order cost increases for the 2027 budget.</li><li>Cut courier waiting time at warehouses and stores, since waiting time is among the components under study.</li></ol><h3>For CFOs in retail, F&amp;B and e-commerce</h3><ol><li>Review delivery subsidies and free-shipping thresholds before the rule is issued.</li><li>Watch for Komdigi's draft ministerial regulation and prepare input through industry associations.</li></ol><h3>For platforms and logistics technology vendors</h3><ol><li>Prepare pricing systems that can show cost components separately, so they can be audited against the official formula.</li></ol>",
+    "faqHtml": "<h3>Will the government set online food and goods delivery fees?</h3><p>Not directly. According to Deputy Minister Nezar Patria, Komdigi will issue a formula for platforms to use as a reference, in a ministerial regulation implementing Perpres 27/2026.</p><h3>When will the delivery fee rule be issued?</h3><p>Komdigi aims to issue the ministerial regulation before 31 December 2026.</p><h3>Which components are being considered in the fee formula?</h3><p>According to reports, the components under study include risk-based costs, handling, waiting time and parking. Food and goods delivery fees will not automatically follow passenger fare limits.</p>",
+    "dataFigure": "31 Dec",
+    "dataLabel": "target date for the food and goods delivery fee formula regulation, 2026",
+    "dataSource": "Komdigi, via Katadata, 19 November 2026",
+    "seoTitle": "Indonesia Online Delivery Fee Formula Due by 31 Dec 2026",
+    "seoDescription": "Komdigi aims to issue a fee formula for online food and goods delivery before 31 December 2026. What it means for retail and SME logistics costs.",
+    "audience": [
+      "Operations Head",
+      "CFO",
+      "Logistics Manager",
+      "Digital platforms"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/komdigi-formula-tarif-antar-makanan-barang-ojol-perpres-27-2026-en.png"
+  },
+  "ja": {
+    "title": "通信デジタル省、配車アプリの料理・荷物配達料金の算定式を年内策定へ　固定料金は設けず",
+    "dek": "インドネシア通信デジタル省（Komdigi）は、オンライン配達員による料理と荷物の配達料金の算定式を定める大臣規則を2026年12月31日までに出す方針だ。2026年大統領規則第27号の施行規則となる。政府は料金額ではなくプラットフォームが従う算定式を示すもので、加盟店、小売、Eコマース事業者の近距離配送コストに影響する。",
+    "summaryHtml": "<ul><li>Komdigiは、二輪車による料理と荷物のオンデマンド配達の料金指針を最終調整している。Nezar Patria副大臣は、デジタルプラットフォーム型交通エコシステムの保護に関する2026年大統領規則第27号の施行のための大臣規則にすると述べた（Katadata）。</li><li>政府は料金を直接決めず、Komdigiがプラットフォームの基準となる算定式を出す。料理・荷物の配達料金は、リスクやコストの構成が異なるため、旅客輸送の上限・下限料金にそのまま従うわけではない。規則は2026年12月31日までの公布を目指す。</li><li>Meutya Hafid通信デジタル相は2026年11月20日、運転手団体FDTOIを同省で迎えた。これに先立ち国会（DPR）指導部もFDTOIの陳情を受けている。同相は意見を受け入れると述べた（Katadata、Veritask）。</li><li>Veritaskによると、大統領規則第27号は2026年4月30日に制定され、第11条第4項が配達料金を定める権限をKomdigiに与えている。検討中の構成要素にはリスクに基づく費用、取り扱い、待ち時間、駐車が含まれる。旅客料金は引き続き運輸省の所管である。</li><li>アイルランガ大学のエコノミストRumayya Batubara氏は、中小零細企業や家庭の飲食事業への波及に注意を促した（Katadata）。</li></ul>",
+    "analysisHtml": "<h3>金額ではなく算定式、アルゴリズムはプラットフォームに</h3><p>旅客輸送のような固定料金や上限・下限ではなく算定式を出すという選択は、最終価格は引き続きプラットフォームがアルゴリズムで決めるが、特定のコスト要素を織り込んだことを示す必要があることを意味する。挙げられたリスク、取り扱い、待ち時間、駐車は、これまで運転手が別途の補償なく負担することが多かった費用である。これらの算入が義務になれば、特に飲食店や倉庫での待ち時間が長い注文を中心に、1件当たりの配達コストは上がる可能性が高い。</p><h3>値上がり分を誰が負担するか</h3><p>確認した資料は、費用増が消費者と加盟店のどちらに転嫁されるのか、プラットフォームの利益で吸収されるのかを説明していない。中小零細企業と家庭の飲食事業に関するエコノミストの警告は、その懸念を示している。利幅の薄い小規模事業者ほど配送料に敏感である。近距離配送に即時配達を使う小売やブランドにとって、ラストワンマイルの物流費は2027年予算で見直しが必要な項目になり得る。</p><h3>所管の分担に注意</h3><p>規制は、旅客は運輸省、料理・荷物はKomdigi、合同フォーラムは中小零細企業省が主導する形に分かれた。物流会社やプラットフォームにとっては、同じ車両に異なる論理の2つの料金制度が適用されることになる。価格設定と請求のシステムは、サービスの種類を明確に区別できる必要がある。</p><h3>まだ確定していない点</h3><p>料金額、正式な算定式、規則案はまだ公表されていない。12月31日の期限も目標であり確定ではない。算定式が全都市で同一に適用されるのか、プラットフォームがアルゴリズムを調整する経過期間が設けられるのかを注視する必要がある。</p>",
+    "actionHtml": "<h3>オペレーション責任者・物流管理者向け</h3><ol><li>物流費全体に占める近距離即時配送の割合を算出し、2027年予算向けに1件当たりのコスト上昇シナリオを作る。</li><li>待ち時間は検討中の構成要素に含まれるため、倉庫や店舗での配達員の待ち時間を短縮する。</li></ol><h3>小売・飲食・EコマースのCFO向け</h3><ol><li>規則公布前に配送料補助と送料無料の基準額を見直す。</li><li>Komdigiの大臣規則案の公表を注視し、業界団体を通じて意見を準備する。</li></ol><h3>プラットフォーム・物流テックベンダー向け</h3><ol><li>正式な算定式に照らして監査しやすいよう、コスト要素を個別に示せる価格設定システムを準備する。</li></ol>",
+    "faqHtml": "<h3>政府は料理・荷物の配達料金を決めるのか</h3><p>直接は決めない。Nezar Patria副大臣によると、Komdigiは大統領規則第27号の施行のための大臣規則で、プラットフォームの基準となる算定式を示す。</p><h3>規則はいつ出るのか</h3><p>Komdigiは2026年12月31日までの公布を目指している。</p><h3>算定式で検討されている要素は</h3><p>報道によると、リスクに基づく費用、取り扱い、待ち時間、駐車などである。料理・荷物の配達料金は旅客料金の上限・下限に自動的には従わない。</p>",
+    "dataFigure": "12月31日",
+    "dataLabel": "料理・荷物配達料金の算定式を定める大臣規則の公布目標（2026年）",
+    "dataSource": "Komdigi（Katadata経由）、2026年11月19日",
+    "seoTitle": "インドネシア、配達料金の算定式を年内に策定へ",
+    "seoDescription": "インドネシア通信デジタル省は配車アプリによる料理・荷物配達料金の算定式を2026年12月31日までに定める方針。小売や中小企業の物流費への影響を解説。",
+    "audience": [
+      "オペレーション責任者",
+      "CFO",
+      "物流管理者",
+      "デジタルプラットフォーム"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/komdigi-formula-tarif-antar-makanan-barang-ojol-perpres-27-2026-ja.png"
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/komdigi-formula-tarif-antar-makanan-barang-ojol-perpres-27-2026.png"
+}

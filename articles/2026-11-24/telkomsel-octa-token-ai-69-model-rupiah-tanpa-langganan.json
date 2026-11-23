@@ -1,0 +1,171 @@
+{
+  "slug": "telkomsel-octa-token-ai-69-model-rupiah-tanpa-langganan",
+  "title": "Telkomsel Luncurkan OCTA: 69 Model AI dalam Satu Saldo Token Rupiah, Mulai Rp100.000 Tanpa Langganan",
+  "category": "AI & Automation",
+  "articleType": "analisis",
+  "dek": "Telkomsel meluncurkan OCTA pada 23 November 2026, layanan yang membuka akses ke 69 model AI dari penyedia seperti OpenAI, Google, Anthropic, dan DeepSeek lewat satu saldo token yang dibeli dalam rupiah. Bagi perusahaan, model bayar sesuai pemakaian ini menurunkan hambatan biaya, tetapi juga membuka jalur baru bagi pemakaian AI di luar kendali tim TI.",
+  "summaryHtml": "<ul><li>Telkomsel meluncurkan OCTA di Jakarta pada Senin, 23 November 2026. Layanan ini memberi akses ke 69 model AI global, antara lain dari OpenAI, Google, Anthropic, dan DeepSeek, dengan satu saldo token (investortrust.id, Liputan6).</li><li>Paket token tersedia dalam nominal Rp100.000, Rp250.000, dan Rp500.000 termasuk pajak, masing-masing dengan bonus kuota internet 500 MB yang berlaku 30 hari. Pembayaran bisa melalui pulsa, tagihan Halo, QRIS, dompet digital, atau bank (Selular.id).</li><li>Saldo token tidak memiliki masa kedaluwarsa dan hanya terpotong saat dipakai, tanpa biaya langganan bulanan. Akses dilakukan di octa.telkomsel.com dengan nomor Telkomsel. Telkomsel juga menawarkan OCTA Enterprise AI Token untuk klien korporasi.</li><li>Direktur Utama Telkomsel Nugroho menyebut biaya langganan AI untuk kebutuhan presentasi, analisis, dan video bisa mencapai Rp1,5 juta per bulan. Ia mengatakan, “Tidak semua orang punya uang Rp 1,5 juta sebulan” (investortrust.id).</li><li>Materi peluncuran mengutip data bahwa sekitar 80% pengguna internet Indonesia memakai AI, tetapi baru 37% yang mulai memakainya untuk bekerja. Pesaingnya, Indosat, pada Oktober 2026 meluncurkan Indosat Intelligence Suite bersama F5 dengan lebih dari 300 model AI untuk pelanggan bisnis (TelecomTV).</li></ul>",
+  "analysisHtml": "<h3>Operator seluler kini menjadi pengecer token AI</h3><p>OCTA menempatkan Telkomsel sebagai perantara antara pengguna dan penyedia model AI global. Nilai jualnya bukan model baru, melainkan cara membayar: rupiah, pulsa, QRIS, dan saldo yang tidak hangus. Hambatan yang diatasi nyata. Banyak layanan AI global menagih dalam dolar AS melalui kartu kredit dengan langganan bulanan, sesuatu yang sulit bagi pekerja lepas, UMKM, dan karyawan yang tidak memegang kartu perusahaan. Dengan paket terkecil Rp100.000 dibandingkan klaim biaya langganan hingga Rp1,5 juta per bulan, Telkomsel menawarkan titik masuk yang jauh lebih rendah. Namun sumber yang kami baca tidak menyebut berapa token yang didapat per rupiah untuk tiap model, sehingga perbandingan biaya yang sesungguhnya belum bisa dihitung.</p><h3>Dua strategi operator yang berbeda</h3><p>Indosat memulai dari sisi korporasi: Intelligence Suite menawarkan lebih dari 300 model dengan skema bayar sesuai pemakaian, kredit korporasi, dan kapasitas khusus, serta menargetkan 50 perusahaan pada tahap peluncuran. Telkomsel memulai dari basis pelanggan ritelnya yang sangat besar, lalu menyediakan versi Enterprise. Keduanya mengarah ke model bisnis yang sama, yakni menjual akses komputasi AI sebagai produk berulang. Yang perlu dicermati adalah apakah operator mampu menjaga margin ketika mereka pada dasarnya menjual kembali kapasitas milik penyedia model global.</p><h3>Risiko bagi perusahaan: AI bayangan lewat pulsa</h3><p>Bagi CIO dan CISO, sisi lain kemudahan ini adalah kontrol. Karyawan kini dapat membeli akses ke puluhan model AI memakai pulsa pribadi, tanpa melalui pengadaan, tanpa perjanjian pemrosesan data, dan tanpa pencatatan oleh tim TI. Data perusahaan yang dimasukkan ke model tersebut kemungkinan diproses oleh penyedia di luar negeri. Dalam kerangka UU Pelindungan Data Pribadi, perusahaan sebagai pengendali data tetap berisiko dimintai pertanggungjawaban bila data pribadi yang dikelolanya bocor melalui layanan pihak ketiga yang dipakai karyawan, apa pun saluran pembayarannya.</p><h3>Yang belum dijelaskan</h3><p>Informasi peluncuran tidak merinci harga token per model, kebijakan penyimpanan data dan lokasi pemrosesan, apakah perintah pengguna dipakai untuk melatih model, serta ketentuan layanan dan tingkat layanan untuk versi Enterprise. Bagi pembeli korporasi, jawaban atas pertanyaan tersebut lebih menentukan daripada jumlah model yang tersedia.</p>",
+  "actionHtml": "<h3>Untuk CIO dan CISO</h3><ol><li>Perbarui kebijakan penggunaan AI agar mencakup layanan agregator yang dibayar dengan pulsa atau dompet digital, bukan hanya langganan berbasis kartu.</li><li>Tetapkan jenis data yang dilarang dimasukkan ke layanan AI publik, terutama data pribadi pelanggan dan dokumen rahasia.</li><li>Sebelum mengevaluasi OCTA Enterprise atau Indosat Intelligence Suite, minta tertulis lokasi pemrosesan data, masa penyimpanan, dan apakah data dipakai untuk pelatihan model.</li></ol><h3>Untuk CFO dan tim pengadaan</h3><ol><li>Bandingkan biaya per tugas, bukan harga paket: uji beban kerja yang sama di beberapa model untuk melihat pemakaian token yang sebenarnya.</li><li>Pertimbangkan saldo token terpusat dengan pencatatan per divisi untuk menggantikan klaim penggantian biaya langganan AI perorangan.</li></ol><h3>Untuk vendor AI dan integrator</h3><ol><li>Operator kini menjadi kanal distribusi model AI. Pertimbangkan kemitraan dengan operator untuk menjangkau UMKM yang tidak memakai kartu kredit.</li></ol>",
+  "faqHtml": "<h3>Apa itu Telkomsel OCTA?</h3><p>OCTA adalah layanan Telkomsel yang diluncurkan 23 November 2026 untuk mengakses 69 model AI dari penyedia seperti OpenAI, Google, Anthropic, dan DeepSeek dengan satu saldo token yang dibeli dalam rupiah, tanpa langganan bulanan.</p><h3>Berapa harga token AI Telkomsel OCTA?</h3><p>Paket tersedia dalam nominal Rp100.000, Rp250.000, dan Rp500.000 termasuk pajak, masing-masing dengan bonus kuota 500 MB berlaku 30 hari. Saldo token tidak kedaluwarsa dan hanya terpotong saat dipakai.</p><h3>Apakah aman memakai OCTA untuk data perusahaan?</h3><p>Sumber peluncuran belum menjelaskan lokasi pemrosesan dan kebijakan penyimpanan data. Perusahaan sebaiknya tidak memasukkan data pribadi atau rahasia sampai ketentuan tersebut tersedia secara tertulis, terutama untuk versi Enterprise.</p>",
+  "dataFigure": "69",
+  "dataLabel": "model AI dalam satu saldo token Telkomsel OCTA",
+  "dataSource": "Telkomsel, via investortrust.id dan Liputan6, 23 November 2026",
+  "chart": {
+    "bars": [
+      {
+        "label": "Paket 100rb",
+        "value": 100000,
+        "display": "Rp100rb"
+      },
+      {
+        "label": "Paket 250rb",
+        "value": 250000,
+        "display": "Rp250rb"
+      },
+      {
+        "label": "Paket 500rb",
+        "value": 500000,
+        "display": "Rp500rb"
+      },
+      {
+        "label": "Langganan",
+        "value": 1500000,
+        "display": "Rp1,5 jt"
+      }
+    ]
+  },
+  "audience": [
+    "CIO",
+    "CISO",
+    "CFO",
+    "Vendor AI"
+  ],
+  "tags": [
+    "Telkomsel",
+    "OCTA",
+    "Token AI",
+    "Indosat",
+    "Model AI",
+    "AI bayangan"
+  ],
+  "sources": [
+    {
+      "name": "investortrust.id",
+      "title": "Telkomsel Garap Bisnis AI, OCTA Gabungkan 69 Model dalam Satu Token",
+      "url": "https://investortrust.id/business/123463/telkomsel-garap-bisnis-ai-octa-gabungkan-69-model-dalam-satu-token",
+      "date": "2026-11-23"
+    },
+    {
+      "name": "Liputan6",
+      "title": "Telkomsel Dorong Pemanfaatan AI Lewat OCTA Token",
+      "url": "https://www.liputan6.com/tekno/read/8340841/telkomsel-dorong-pemanfaatan-ai-lewat-octa-token",
+      "date": "2026-11-23"
+    },
+    {
+      "name": "Selular.id",
+      "title": "Pelanggan Telkomsel Kini Bisa Akses 69 Model AI melalui OCTA",
+      "url": "https://selular.id/2026/11/pelanggan-telkomsel-kini-bisa-akses-69-model-ai-melalui-octa/",
+      "date": "2026-11-23"
+    },
+    {
+      "name": "TelecomTV",
+      "title": "Indosat and F5 launch 'Intelligence Suite': A token factory to unlock AI across Asia",
+      "url": "https://www.telecomtv.com/content/ai/indosat-and-f5-launch-intelligence-suite-a-token-factory-to-unlock-ai-across-asia-56430/",
+      "date": "2026-10-09"
+    }
+  ],
+  "seoTitle": "Telkomsel OCTA: 69 Model AI, Token Rupiah Mulai Rp100.000",
+  "seoDescription": "Telkomsel luncurkan OCTA, akses 69 model AI dengan satu saldo token rupiah tanpa langganan. Peluang dan risiko AI bayangan bagi perusahaan.",
+  "publishAt": "2026-11-24T06:00:00+07:00",
+  "language": "id",
+  "en": {
+    "title": "Telkomsel Launches OCTA: 69 AI Models on One Rupiah Token Balance, From Rp100,000 With No Subscription",
+    "dek": "Telkomsel launched OCTA on 23 November 2026, a service giving access to 69 AI models from providers such as OpenAI, Google, Anthropic and DeepSeek through one token balance bought in rupiah. For companies, this pay-as-you-use model lowers the cost barrier, but it also opens a new route for AI use outside IT's control.",
+    "summaryHtml": "<ul><li>Telkomsel launched OCTA in Jakarta on Monday, 23 November 2026. The service gives access to 69 global AI models, including from OpenAI, Google, Anthropic and DeepSeek, with a single token balance (investortrust.id, Liputan6).</li><li>Token packages come in Rp100,000, Rp250,000 and Rp500,000 denominations including tax, each with a 500 MB internet quota bonus valid for 30 days. Payment can be made via phone credit, Halo bill, QRIS, digital wallets or banks (Selular.id).</li><li>The token balance does not expire and is deducted only when used, with no monthly subscription fee. Access is via octa.telkomsel.com with a Telkomsel number. Telkomsel also offers an OCTA Enterprise AI Token for corporate clients.</li><li>Telkomsel President Director Nugroho said AI subscriptions for presentations, analysis and video can reach Rp1.5 million a month, adding that not everyone has Rp1.5 million to spend each month (investortrust.id).</li><li>Launch materials cited data that about 80% of Indonesian internet users use AI, but only 37% have started using it for work. Rival Indosat launched Indosat Intelligence Suite with F5 in October 2026, offering more than 300 AI models to business customers (TelecomTV).</li></ul>",
+    "analysisHtml": "<h3>Mobile operators are becoming AI token retailers</h3><p>OCTA positions Telkomsel as an intermediary between users and global AI model providers. Its selling point is not a new model but a way to pay: rupiah, phone credit, QRIS and a balance that does not expire. The barrier it removes is real. Many global AI services bill in US dollars by credit card on monthly subscriptions, which is hard for freelancers, small businesses and employees without a company card. With the smallest package at Rp100,000 against a claimed subscription cost of up to Rp1.5 million a month, Telkomsel offers a much lower entry point. However, the sources we read do not state how many tokens each rupiah buys for each model, so the real cost comparison cannot yet be calculated.</p><h3>Two different operator strategies</h3><p>Indosat started from the corporate side: Intelligence Suite offers more than 300 models with pay-as-you-go, enterprise credit and dedicated capacity plans, and targeted 50 companies at launch. Telkomsel starts from its very large retail customer base and adds an Enterprise version. Both point to the same business model, selling access to AI compute as a recurring product. What to watch is whether operators can protect margins when they are essentially reselling capacity owned by global model providers.</p><h3>The risk for companies: shadow AI paid with phone credit</h3><p>For CIOs and CISOs, the other side of this convenience is control. Employees can now buy access to dozens of AI models with personal phone credit, without procurement, without a data processing agreement and without any record kept by IT. Company data entered into those models is likely processed by providers abroad. Under Indonesia's Personal Data Protection Law, the company, as data controller, risks being held accountable if personal data it manages leaks through third-party services used by employees, whatever the payment channel.</p><h3>What has not been explained</h3><p>Launch information does not detail the token price per model, data retention policy and processing location, whether user prompts are used to train models, or the terms and service levels for the Enterprise version. For corporate buyers, the answers to those questions matter more than the number of models available.</p>",
+    "actionHtml": "<h3>For CIOs and CISOs</h3><ol><li>Update AI usage policies to cover aggregator services paid with phone credit or digital wallets, not only card-based subscriptions.</li><li>Define which data must not be entered into public AI services, especially customer personal data and confidential documents.</li><li>Before evaluating OCTA Enterprise or Indosat Intelligence Suite, ask in writing for the data processing location, retention period and whether data is used for model training.</li></ol><h3>For CFOs and procurement teams</h3><ol><li>Compare cost per task, not package price: test the same workload on several models to see actual token consumption.</li><li>Consider a central token balance with per-division tracking to replace individual reimbursement of AI subscriptions.</li></ol><h3>For AI vendors and integrators</h3><ol><li>Operators are now a distribution channel for AI models. Consider partnerships with operators to reach small businesses that do not use credit cards.</li></ol>",
+    "faqHtml": "<h3>What is Telkomsel OCTA?</h3><p>OCTA is a Telkomsel service launched on 23 November 2026 that gives access to 69 AI models from providers such as OpenAI, Google, Anthropic and DeepSeek with a single token balance bought in rupiah, without a monthly subscription.</p><h3>How much do Telkomsel OCTA AI tokens cost?</h3><p>Packages come in Rp100,000, Rp250,000 and Rp500,000 including tax, each with a 500 MB quota bonus valid for 30 days. The token balance does not expire and is deducted only when used.</p><h3>Is it safe to use OCTA for company data?</h3><p>Launch sources have not explained the processing location or data retention policy. Companies should avoid entering personal or confidential data until those terms are available in writing, especially for the Enterprise version.</p>",
+    "dataFigure": "69",
+    "dataLabel": "AI models on one Telkomsel OCTA token balance",
+    "dataSource": "Telkomsel, via investortrust.id and Liputan6, 23 November 2026",
+    "seoTitle": "Telkomsel OCTA: 69 AI Models on One Rupiah Token Balance",
+    "seoDescription": "Telkomsel launches OCTA, giving access to 69 AI models via one rupiah token balance with no subscription. What it means for enterprise AI control.",
+    "audience": [
+      "CIO",
+      "CISO",
+      "CFO",
+      "AI vendors"
+    ],
+    "chart": {
+      "bars": [
+        {
+          "label": "Rp100k pack",
+          "value": 100000,
+          "display": "Rp100k"
+        },
+        {
+          "label": "Rp250k pack",
+          "value": 250000,
+          "display": "Rp250k"
+        },
+        {
+          "label": "Rp500k pack",
+          "value": 500000,
+          "display": "Rp500k"
+        },
+        {
+          "label": "Subscr./mo",
+          "value": 1500000,
+          "display": "Rp1.5M"
+        }
+      ]
+    },
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/telkomsel-octa-token-ai-69-model-rupiah-tanpa-langganan-en.png"
+  },
+  "ja": {
+    "title": "Telkomsel、69のAIモデルをルピア建てトークンで提供する「OCTA」開始　月額契約不要、10万ルピアから",
+    "dek": "Telkomselは2026年11月23日、OpenAI、Google、Anthropic、DeepSeekなどの69のAIモデルを、ルピアで購入する単一のトークン残高で利用できるサービス「OCTA」を開始した。従量課金型は企業にとって導入コストの壁を下げる一方、IT部門の管理外でAIが使われる新たな経路にもなる。",
+    "summaryHtml": "<ul><li>Telkomselは2026年11月23日（月）、ジャカルタでOCTAを発表した。OpenAI、Google、Anthropic、DeepSeekなどの世界の69のAIモデルを、一つのトークン残高で利用できる（investortrust.id、Liputan6）。</li><li>トークンパッケージは税込みで10万ルピア、25万ルピア、50万ルピアの3種類で、いずれも30日間有効の500MBのデータ通信量が付く。支払いはプリペイド残高、Halo請求、QRIS、電子マネー、銀行から選べる（Selular.id）。</li><li>トークン残高に有効期限はなく、利用時にのみ差し引かれ、月額料金はない。利用はTelkomselの電話番号でocta.telkomsel.comにログインする。法人向けには「OCTA Enterprise AI Token」も用意する。</li><li>TelkomselのNugroho社長は、プレゼン資料、分析、動画向けのAIサービス契約は月150万ルピアに達することがあると指摘し、誰もが月150万ルピアを払えるわけではないと述べた（investortrust.id）。</li><li>発表資料は、インドネシアのインターネット利用者の約80%がAIを使う一方、仕事でAIを使い始めたのは37%にとどまるとのデータを引用した。競合のIndosatは2026年10月、F5と組み300以上のAIモデルを法人向けに提供する「Indosat Intelligence Suite」を開始している（TelecomTV）。</li></ul>",
+    "analysisHtml": "<h3>携帯通信事業者がAIトークンの販売店に</h3><p>OCTAはTelkomselを利用者と世界のAIモデル提供企業の仲介役に位置づける。売りは新しいモデルではなく、ルピア、プリペイド残高、QRIS、失効しない残高という支払い方法である。解消される障壁は現実的だ。多くの海外AIサービスはクレジットカードによる米ドル建ての月額課金であり、フリーランス、中小企業、法人カードを持たない社員には使いにくい。最小パッケージ10万ルピアと、最大月150万ルピアとされる契約費用を比べれば、入り口は大幅に低い。ただし、確認した資料にはモデルごとに1ルピアで何トークン使えるかの記載がなく、実際のコスト比較はまだできない。</p><h3>異なる2つの事業者戦略</h3><p>Indosatは法人側から参入した。Intelligence Suiteは300以上のモデルを従量課金、法人クレジット、専用容量のプランで提供し、立ち上げ時に50社の獲得を目標とした。Telkomselは巨大な個人顧客基盤から入り、法人版を加える形だ。両社が目指すのは、AI計算資源へのアクセスを継続課金型の商品として売るという同じ事業モデルである。注目点は、実質的に海外モデル提供企業の容量を再販する中で、事業者が利益率を確保できるかどうかだ。</p><h3>企業にとってのリスク：プリペイド残高で広がるシャドーAI</h3><p>CIOやCISOにとって、この利便性の裏側は統制の問題である。社員は個人のプリペイド残高で数十のAIモデルを購入でき、調達手続きもデータ処理契約もIT部門の記録も経ない。入力された企業データは海外の提供企業で処理される可能性が高い。インドネシアの個人データ保護法の下では、支払い経路にかかわらず、社員が使う第三者サービスを通じて個人データが漏れた場合、データ管理者である企業が責任を問われるおそれがある。</p><h3>説明されていない点</h3><p>発表情報は、モデル別のトークン価格、データの保存方針と処理場所、利用者の入力がモデルの学習に使われるか、法人版の利用条件やサービス水準を明らかにしていない。法人の購入者にとっては、利用可能なモデル数よりもこれらの答えのほうが重要である。</p>",
+    "actionHtml": "<h3>CIO・CISO向け</h3><ol><li>AI利用規程を、カード決済の契約だけでなく、プリペイド残高や電子マネーで支払うアグリゲーター型サービスにも適用されるよう改訂する。</li><li>公開AIサービスへの入力を禁じるデータ、特に顧客の個人データと機密文書を定める。</li><li>OCTA EnterpriseやIndosat Intelligence Suiteを評価する前に、データの処理場所、保存期間、学習への利用の有無を書面で確認する。</li></ol><h3>CFO・調達部門向け</h3><ol><li>パッケージ価格ではなくタスク当たりのコストで比較する。同じ業務を複数モデルで試し、実際のトークン消費量を把握する。</li><li>個人契約のAI費用の経費精算に代え、部門別に記録できる一元的なトークン残高の導入を検討する。</li></ol><h3>AIベンダー・インテグレーター向け</h3><ol><li>通信事業者はAIモデルの販売チャネルになりつつある。クレジットカードを使わない中小企業に届くため、事業者との提携を検討する。</li></ol>",
+    "faqHtml": "<h3>Telkomsel OCTAとは何か</h3><p>2026年11月23日に開始されたTelkomselのサービスで、OpenAI、Google、Anthropic、DeepSeekなどの69のAIモデルを、ルピアで購入する単一のトークン残高で、月額契約なしに利用できる。</p><h3>OCTAのトークン価格は</h3><p>税込みで10万ルピア、25万ルピア、50万ルピアのパッケージがあり、それぞれ30日間有効の500MBが付く。残高に有効期限はなく、利用時にのみ差し引かれる。</p><h3>企業データをOCTAで扱っても安全か</h3><p>発表資料はデータの処理場所や保存方針を説明していない。特に法人版について条件が書面で示されるまで、個人データや機密データの入力は避けるべきである。</p>",
+    "dataFigure": "69モデル",
+    "dataLabel": "Telkomsel OCTAの単一トークン残高で使えるAIモデル数",
+    "dataSource": "Telkomsel（investortrust.id、Liputan6経由）、2026年11月23日",
+    "seoTitle": "Telkomsel「OCTA」、69のAIモデルをルピア建てで",
+    "seoDescription": "Telkomselが69のAIモデルを単一のルピア建てトークン残高で使えるOCTAを開始。月額不要で10万ルピアから。企業のAI統制への影響を解説。",
+    "audience": [
+      "CIO",
+      "CISO",
+      "CFO",
+      "AIベンダー"
+    ],
+    "chart": {
+      "bars": [
+        {
+          "label": "10万パック",
+          "value": 100000,
+          "display": "10万Rp"
+        },
+        {
+          "label": "25万パック",
+          "value": 250000,
+          "display": "25万Rp"
+        },
+        {
+          "label": "50万パック",
+          "value": 500000,
+          "display": "50万Rp"
+        },
+        {
+          "label": "月額契約",
+          "value": 1500000,
+          "display": "150万Rp"
+        }
+      ]
+    },
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/telkomsel-octa-token-ai-69-model-rupiah-tanpa-langganan-ja.png"
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/telkomsel-octa-token-ai-69-model-rupiah-tanpa-langganan.png"
+}

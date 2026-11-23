@@ -1,0 +1,93 @@
+{
+  "slug": "aftech-keamanan-siber-ai-fintech-koalisi-otp-tanda-tangan-elektronik",
+  "title": "Aftech Minta Fintech Uji Sistem terhadap Serangan Berbasis AI, Koalisi Warga Nilai OTP Tak Lagi Cukup",
+  "category": "Cybersecurity & Data Protection",
+  "articleType": "analisis",
+  "dek": "Pada hari yang sama, 23 November 2026, Asosiasi Fintech Indonesia meminta anggotanya memperkuat pertahanan terhadap serangan siber berbasis AI, sementara sebuah koalisi masyarakat dan akademisi mendesak verifikasi transaksi yang lebih kuat dari OTP. Kedua seruan itu mengarah ke pertanyaan yang sama bagi bank dan fintech: siapa menanggung risiko ketika autentikasi berhasil dibobol.",
+  "summaryHtml": "<ul><li>Asosiasi Fintech Indonesia (Aftech) meminta penyelenggara fintech memperkuat perlindungan sistem digital karena AI membuat serangan siber lebih cepat, lebih otomatis, dan lebih kompleks. Ketua Umum Aftech Pandu Sjahrir mengatakan, “Industri harus beradaptasi dengan memperkuat kemampuan pencegahan” (Beritasatu, 23 November 2026).</li><li>Aftech meminta anggota meninjau ulang infrastruktur keamanan, menguji sistem lebih sering, mengawasi vendor dan mitra, serta memasukkan metode serangan berbasis AI ke dalam pengujian. Acuannya adalah Pedoman Keamanan Siber Aftech yang disusun bersama BSSN dan CISSReC, mencakup tata kelola, manajemen risiko, pengujian sistem, penanganan insiden, dan ketahanan layanan.</li><li>Pedoman tersebut diluncurkan pada Desember 2025 bersama nota kesepahaman lima tahun Aftech dan BSSN. Saat itu survei tahunan anggota Aftech 2024–2025 mencatat phishing sebagai ancaman paling dominan, dilaporkan sekitar 27,12% perusahaan fintech (Warta Ekonomi).</li><li>Di hari yang sama, Koalisi Jagalah Warga bersama akademisi Universitas Kristen Indonesia mendesak pemerintah memperkuat pelindungan transaksi digital. Koordinator koalisi Halili Hasan menyatakan, “OTP yang seharusnya melindungi nasabah justru dipakai untuk menyalahkan korban” (investortrust.id).</li><li>Koalisi menyebut Pasal 17 ayat (2a) UU Nomor 1 Tahun 2024 sudah mengatur penggunaan tanda tangan elektronik tersertifikasi, dan meminta aturan pelaksananya segera diselesaikan. Koalisi juga mengutip temuan Global Anti-Scam Alliance bahwa dua dari tiga orang dewasa Indonesia mengalami penipuan digital dalam setahun terakhir.</li></ul>",
+  "analysisHtml": "<h3>Dua seruan, satu titik lemah</h3><p>Seruan Aftech berangkat dari sisi penyelenggara: penyerang kini memakai AI untuk mempercepat dan mengotomatiskan serangan, sehingga pengujian keamanan yang dilakukan setahun sekali tidak lagi memadai. Seruan koalisi berangkat dari sisi korban: OTP, yang selama ini dianggap bukti bahwa nasabah menyetujui transaksi, ternyata dapat diperoleh penipu melalui rekayasa sosial. Keduanya bertemu pada satu titik, yaitu autentikasi berbasis kode sekali pakai yang dikirim lewat SMS atau aplikasi sudah tidak cukup sebagai satu-satunya lapisan pertahanan, terlebih ketika AI dapat membuat pesan phishing dan suara palsu yang meyakinkan dalam skala besar.</p><h3>Pergeseran tanggung jawab yang perlu diantisipasi</h3><p>Kasus yang diangkat koalisi, yaitu tagihan kartu kredit yang terjadi 15 kali saat korban tidur dan sanggahannya ditolak karena transaksi memakai OTP, menggambarkan praktik yang dipersoalkan: OTP dijadikan dasar untuk membebankan kerugian kepada nasabah. Jika desakan agar aturan pelaksana tanda tangan elektronik tersertifikasi diselesaikan berhasil, beban pembuktian kemungkinan bergeser ke penyelenggara. Penyelenggara harus mampu menunjukkan bahwa verifikasi yang dipakai sesuai ketentuan, bukan sekadar bahwa kode OTP dimasukkan dengan benar.</p><h3>Biaya dan peluang</h3><p>Bagi bank dan fintech, peningkatan dari OTP ke tanda tangan elektronik tersertifikasi, biometrik, atau analitik perilaku memerlukan investasi dan dapat menambah hambatan dalam proses transaksi. Bagi penyedia sertifikat elektronik, verifikasi identitas, dan deteksi fraud, ini berpotensi membuka pasar baru. Pengawasan vendor yang ditekankan Aftech juga relevan: banyak fintech bergantung pada pihak ketiga untuk layanan inti, sehingga celah di satu vendor dapat berdampak ke banyak perusahaan.</p><h3>Yang belum jelas</h3><p>Sumber tidak menyebut kapan aturan pelaksana yang diminta koalisi akan terbit, dan pemerintah atau OJK belum menanggapi desakan tersebut dalam pemberitaan yang kami baca. Pedoman Aftech juga bersifat panduan industri, bukan regulasi dengan sanksi. Karena itu, perubahan nyata kemungkinan baru terjadi jika regulator mengadopsi standar verifikasi yang lebih tinggi.</p>",
+  "actionHtml": "<h3>Untuk CISO bank dan fintech</h3><ol><li>Masukkan skenario serangan berbasis AI, seperti phishing massal yang dipersonalisasi dan suara palsu, ke dalam uji penetrasi dan simulasi rekayasa sosial.</li><li>Tambahkan lapisan di luar OTP untuk transaksi berisiko tinggi, misalnya analitik perilaku, pengikatan perangkat, atau batas transaksi dinamis.</li><li>Audit vendor dan mitra yang memiliki akses ke sistem inti, sesuai penekanan Pedoman Keamanan Siber Aftech.</li></ol><h3>Untuk Direktur Kepatuhan dan tim hukum</h3><ol><li>Tinjau kebijakan penanganan sanggahan nasabah yang bergantung pada bukti OTP, dan siapkan skenario jika aturan tanda tangan elektronik tersertifikasi diberlakukan.</li><li>Pantau perkembangan aturan pelaksana Pasal 17 ayat (2a) UU 1/2024.</li></ol><h3>Untuk vendor keamanan dan identitas digital</h3><ol><li>Siapkan solusi verifikasi yang dapat diintegrasikan tanpa menambah banyak langkah bagi nasabah.</li></ol>",
+  "faqHtml": "<h3>Apakah OTP masih aman untuk transaksi digital?</h3><p>OTP tetap menjadi lapisan keamanan, tetapi koalisi masyarakat menilai OTP dapat diperoleh penipu melalui rekayasa sosial dan kerap dipakai untuk menyalahkan korban. Koalisi mendesak penggunaan tanda tangan elektronik tersertifikasi sesuai Pasal 17 ayat (2a) UU 1/2024.</p><h3>Apa isi Pedoman Keamanan Siber Aftech?</h3><p>Pedoman yang disusun bersama BSSN dan CISSReC mencakup tata kelola keamanan informasi, manajemen risiko, pengujian sistem, penanganan insiden, dan ketahanan layanan bagi penyelenggara fintech.</p><h3>Berapa banyak orang Indonesia yang menjadi korban penipuan digital?</h3><p>Menurut temuan Global Anti-Scam Alliance yang dikutip koalisi, dua dari tiga orang dewasa Indonesia mengalami penipuan digital dalam setahun terakhir.</p>",
+  "dataFigure": "2 dari 3",
+  "dataLabel": "orang dewasa Indonesia mengalami penipuan digital dalam setahun terakhir",
+  "dataSource": "Global Anti-Scam Alliance, dikutip Koalisi Jagalah Warga via investortrust.id, 23 November 2026",
+  "audience": [
+    "CISO",
+    "Direktur Kepatuhan",
+    "CIO",
+    "Vendor keamanan"
+  ],
+  "tags": [
+    "Aftech",
+    "BSSN",
+    "OTP",
+    "Penipuan digital",
+    "Tanda tangan elektronik",
+    "UU ITE"
+  ],
+  "sources": [
+    {
+      "name": "Beritasatu",
+      "title": "Industri Fintech Diminta Perkuat Keamanan Siber di Tengah Ancaman AI",
+      "url": "https://www.beritasatu.com/ekonomi/3043322/industri-fintech-diminta-perkuat-keamanan-siber-di-tengah-ancaman-ai",
+      "date": "2026-11-23"
+    },
+    {
+      "name": "investortrust.id",
+      "title": "Marak Scam, Koalisi Masyarakat dan Akademisi Desak Negara Lindungi Transaksi Digital",
+      "url": "https://investortrust.id/financial/123465/marak-scam-koalisi-masyarakat-dan-akademisi-desak-negara-lindungi-transaksi-digital",
+      "date": "2026-11-23"
+    },
+    {
+      "name": "Warta Ekonomi",
+      "title": "AFTECH dan BSSN Jalin Kerja Sama Strategis untuk Perkuat Standar Keamanan Siber Fintech",
+      "url": "https://wartaekonomi.co.id/read594065/aftech-dan-bssn-jalin-kerja-sama-strategis-untuk-perkuat-standar-keamanan-siber-fintech",
+      "date": "2025-12-17"
+    }
+  ],
+  "seoTitle": "Aftech: Fintech Perkuat Keamanan Siber dari Serangan AI",
+  "seoDescription": "Aftech minta fintech uji sistem terhadap serangan berbasis AI, koalisi warga nilai OTP tak cukup. Langkah bagi CISO bank dan fintech.",
+  "publishAt": "2026-11-24T10:30:00+07:00",
+  "language": "id",
+  "en": {
+    "title": "Aftech Urges Fintechs to Test Systems Against AI-Driven Attacks as Citizens' Coalition Says OTP Is No Longer Enough",
+    "dek": "On the same day, 23 November 2026, the Indonesian Fintech Association urged members to strengthen defences against AI-driven cyber attacks, while a coalition of civil society groups and academics called for transaction verification stronger than OTP. Both calls point to the same question for banks and fintechs: who bears the risk when authentication is breached.",
+    "summaryHtml": "<ul><li>The Indonesian Fintech Association (Aftech) asked fintech operators to strengthen protection of their digital systems because AI makes cyber attacks faster, more automated and more complex. Aftech chairman Pandu Sjahrir said the industry must adapt by strengthening its prevention capabilities (Beritasatu, 23 November 2026).</li><li>Aftech asked members to review their security infrastructure, test systems more often, supervise vendors and partners, and include AI-based attack methods in testing. The reference is Aftech's Cyber Security Guidelines, drawn up with BSSN and CISSReC, covering governance, risk management, system testing, incident handling and service resilience.</li><li>The guidelines were launched in December 2025 alongside a five-year memorandum of understanding between Aftech and BSSN. At the time, Aftech's 2024–2025 annual member survey found phishing to be the most dominant threat, reported by about 27.12% of fintech companies (Warta Ekonomi).</li><li>On the same day, the Jagalah Warga coalition and academics from Universitas Kristen Indonesia urged the government to strengthen protection of digital transactions. Coalition coordinator Halili Hasan said OTP, which should protect customers, is instead being used to blame victims (investortrust.id).</li><li>The coalition said Article 17(2a) of Law No. 1 of 2024 already provides for certified electronic signatures, and asked for its implementing rules to be completed quickly. It also cited a Global Anti-Scam Alliance finding that two in three Indonesian adults experienced digital fraud in the past year.</li></ul>",
+    "analysisHtml": "<h3>Two calls, one weak point</h3><p>Aftech's call comes from the operator side: attackers now use AI to speed up and automate attacks, so annual security testing is no longer adequate. The coalition's call comes from the victim side: OTP, long treated as proof that a customer approved a transaction, can be obtained by fraudsters through social engineering. The two meet at one point: one-time codes sent by SMS or app are no longer sufficient as the only line of defence, especially when AI can produce convincing phishing messages and fake voices at scale.</p><h3>A shift in liability to anticipate</h3><p>The case raised by the coalition, a credit card charged 15 times while the victim slept, with the dispute rejected because the transactions used OTP, illustrates the practice under criticism: OTP used as grounds to place losses on customers. If the push to complete implementing rules for certified electronic signatures succeeds, the burden of proof is likely to shift to providers. They would need to show that their verification meets the rules, not merely that the OTP code was entered correctly.</p><h3>Costs and opportunities</h3><p>For banks and fintechs, moving from OTP to certified electronic signatures, biometrics or behavioural analytics requires investment and can add friction to transactions. For providers of electronic certificates, identity verification and fraud detection, it may open a new market. Aftech's emphasis on vendor oversight is also relevant: many fintechs depend on third parties for core services, so a gap at one vendor can affect many companies.</p><h3>What is unclear</h3><p>The sources do not say when the implementing rules sought by the coalition will be issued, and the government or OJK had not responded to the call in the reports we read. Aftech's guidelines are industry guidance, not regulation with sanctions. Real change is therefore likely only if regulators adopt a higher verification standard.</p>",
+    "actionHtml": "<h3>For CISOs at banks and fintechs</h3><ol><li>Add AI-based attack scenarios, such as personalised mass phishing and fake voices, to penetration tests and social engineering simulations.</li><li>Add layers beyond OTP for high-risk transactions, such as behavioural analytics, device binding or dynamic transaction limits.</li><li>Audit vendors and partners with access to core systems, as stressed in Aftech's Cyber Security Guidelines.</li></ol><h3>For Compliance Directors and legal teams</h3><ol><li>Review customer dispute policies that rely on OTP evidence, and prepare scenarios for certified electronic signature rules taking effect.</li><li>Track progress on the implementing rules for Article 17(2a) of Law 1/2024.</li></ol><h3>For security and digital identity vendors</h3><ol><li>Prepare verification solutions that can be integrated without adding many steps for customers.</li></ol>",
+    "faqHtml": "<h3>Is OTP still safe for digital transactions?</h3><p>OTP remains a security layer, but the civil society coalition says fraudsters can obtain it through social engineering and that it is often used to blame victims. The coalition is pushing for certified electronic signatures under Article 17(2a) of Law 1/2024.</p><h3>What do Aftech's Cyber Security Guidelines cover?</h3><p>Drawn up with BSSN and CISSReC, the guidelines cover information security governance, risk management, system testing, incident handling and service resilience for fintech operators.</p><h3>How many Indonesians fall victim to digital fraud?</h3><p>According to a Global Anti-Scam Alliance finding cited by the coalition, two in three Indonesian adults experienced digital fraud in the past year.</p>",
+    "dataFigure": "2 in 3",
+    "dataLabel": "Indonesian adults experienced digital fraud in the past year",
+    "dataSource": "Global Anti-Scam Alliance, cited by the Jagalah Warga coalition via investortrust.id, 23 November 2026",
+    "seoTitle": "Aftech Urges Fintechs to Prepare for AI-Driven Cyber Attacks",
+    "seoDescription": "Aftech urges Indonesian fintechs to test systems against AI-driven attacks as a citizens' coalition says OTP is not enough. Steps for bank CISOs.",
+    "audience": [
+      "CISO",
+      "Compliance Director",
+      "CIO",
+      "Security vendors"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/aftech-keamanan-siber-ai-fintech-koalisi-otp-tanda-tangan-elektronik-en.png"
+  },
+  "ja": {
+    "title": "インドネシアフィンテック協会、AI型サイバー攻撃への備えを要請　市民団体は「OTPでは不十分」",
+    "dek": "2026年11月23日、インドネシアフィンテック協会（Aftech）は加盟社にAIを使ったサイバー攻撃への防御強化を求め、同じ日に市民団体と研究者の連合はOTP（ワンタイムパスワード）より強固な取引認証を政府に迫った。両者の訴えは銀行とフィンテックに共通の問いを突きつける。認証が破られたとき、誰がリスクを負うのか。",
+    "summaryHtml": "<ul><li>Aftechは、AIによりサイバー攻撃がより速く、自動化され、複雑になっているとして、フィンテック事業者にデジタルシステムの保護強化を求めた。Pandu Sjahrir会長は、業界は予防能力を高めて適応しなければならないと述べた（Beritasatu、2026年11月23日）。</li><li>Aftechは加盟社に、セキュリティ基盤の再点検、より頻繁なシステム検査、ベンダーや提携先の監督、AIを使った攻撃手法の検査への組み込みを求めた。基準は、国家サイバー暗号庁（BSSN）とCISSReCと共同で作成したAftechのサイバーセキュリティ指針で、ガバナンス、リスク管理、システム検査、インシデント対応、サービスの回復力を扱う。</li><li>同指針は2025年12月、AftechとBSSNの5年間の覚書とともに公表された。当時のAftech会員調査（2024〜2025年）では、フィッシングが最も多い脅威で、約27.12%のフィンテック企業が報告した（Warta Ekonomi）。</li><li>同じ日、市民団体連合Jagalah Wargaとインドネシア・キリスト教大学（UKI）の研究者は、デジタル取引の保護強化を政府に求めた。連合のHalili Hasanコーディネーターは、顧客を守るはずのOTPが被害者を責める根拠に使われていると述べた（investortrust.id）。</li><li>連合は、2024年法律第1号第17条第2a項がすでに認証済み電子署名の利用を定めているとして、施行規則の早期整備を求めた。また、Global Anti-Scam Allianceの調査として、インドネシアの成人の3人に2人が過去1年間にデジタル詐欺の被害に遭ったと指摘した。</li></ul>",
+    "analysisHtml": "<h3>2つの訴え、1つの弱点</h3><p>Aftechの訴えは事業者側からのものだ。攻撃者はAIで攻撃を高速化・自動化しており、年1回のセキュリティ検査ではもはや足りない。連合の訴えは被害者側からのものだ。顧客が取引を承認した証拠とされてきたOTPは、ソーシャルエンジニアリングで詐欺師に入手され得る。両者は一点で交わる。SMSやアプリで送る使い捨てコードは唯一の防御層としてはもはや不十分であり、AIが説得力のあるフィッシング文面や偽の音声を大量に作れる状況ではなおさらである。</p><h3>想定すべき責任の移行</h3><p>連合が取り上げた事例では、被害者の就寝中にクレジットカードが15回請求され、OTPが使われたことを理由に異議申し立てが退けられた。批判されているのは、OTPを根拠に損失を顧客に負わせる慣行である。認証済み電子署名の施行規則を求める動きが実を結べば、立証責任は事業者側に移る可能性が高い。事業者はOTPが正しく入力されたことだけでなく、使った認証が規則に適合していることを示す必要が出てくる。</p><h3>コストと商機</h3><p>銀行やフィンテックにとって、OTPから認証済み電子署名、生体認証、行動分析への移行には投資が必要で、取引の手間も増え得る。電子証明書、本人確認、不正検知の事業者には新市場となる可能性がある。Aftechが強調するベンダー監督も重要だ。多くのフィンテックは中核サービスを第三者に頼っており、1社のベンダーの脆弱性が多数の企業に波及し得る。</p><h3>不明な点</h3><p>連合が求める施行規則がいつ出るのかは示されておらず、確認した報道では政府やOJKはこの要求にまだ応じていない。Aftechの指針は業界の手引きであり、罰則のある規制ではない。実際の変化は、規制当局がより高い認証基準を採用したときに起こる可能性が高い。</p>",
+    "actionHtml": "<h3>銀行・フィンテックのCISO向け</h3><ol><li>個人に合わせた大量フィッシングや偽音声など、AIを使った攻撃シナリオを侵入テストやソーシャルエンジニアリング訓練に加える。</li><li>高リスク取引には、行動分析、端末の紐付け、動的な取引上限など、OTP以外の防御層を追加する。</li><li>Aftechの指針が強調するとおり、中核システムにアクセスできるベンダーや提携先を監査する。</li></ol><h3>コンプライアンス責任者・法務部門向け</h3><ol><li>OTPの証拠に頼る顧客の異議申し立て対応方針を見直し、認証済み電子署名の規則が施行された場合のシナリオを準備する。</li><li>2024年法律第1号第17条第2a項の施行規則の動向を追う。</li></ol><h3>セキュリティ・デジタルID事業者向け</h3><ol><li>顧客の手順を大きく増やさずに組み込める認証ソリューションを用意する。</li></ol>",
+    "faqHtml": "<h3>OTPはデジタル取引にまだ安全か</h3><p>OTPは引き続き防御層の一つだが、市民団体連合は、詐欺師がソーシャルエンジニアリングで入手でき、被害者を責める根拠に使われがちだと指摘する。連合は2024年法律第1号第17条第2a項に基づく認証済み電子署名の利用を求めている。</p><h3>Aftechのサイバーセキュリティ指針の内容は</h3><p>BSSNとCISSReCと共同で作成した指針で、フィンテック事業者向けに情報セキュリティのガバナンス、リスク管理、システム検査、インシデント対応、サービスの回復力を扱う。</p><h3>インドネシアではどれほどの人がデジタル詐欺の被害に遭っているか</h3><p>連合が引用したGlobal Anti-Scam Allianceの調査によると、成人の3人に2人が過去1年間にデジタル詐欺の被害に遭った。</p>",
+    "dataFigure": "3人に2人",
+    "dataLabel": "過去1年にデジタル詐欺の被害に遭ったインドネシアの成人",
+    "dataSource": "Global Anti-Scam Alliance（Jagalah Warga連合引用、investortrust.id経由）、2026年11月23日",
+    "seoTitle": "フィンテック協会、AI型サイバー攻撃への備え要請",
+    "seoDescription": "インドネシアフィンテック協会がAIを使った攻撃への備えを要請し、市民団体はOTPでは不十分と指摘。銀行・フィンテックのCISOがとるべき対応。",
+    "audience": [
+      "CISO",
+      "コンプライアンス責任者",
+      "CIO",
+      "セキュリティベンダー"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/aftech-keamanan-siber-ai-fintech-koalisi-otp-tanda-tangan-elektronik-ja.png"
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/aftech-keamanan-siber-ai-fintech-koalisi-otp-tanda-tangan-elektronik.png"
+}
