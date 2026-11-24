@@ -52,7 +52,7 @@ const JA_DAYS = ['日', '月', '火', '水', '木', '金', '土'];
 // UI text. Page code sets d.lang = 'id' | 'en' | 'ja'.
 const TEXT = {
   id: {
-    latest: 'Terbaru', pr: 'Siaran Pers', tagline: 'Berita dan analisis teknologi B2B untuk pengambil keputusan',
+    latest: 'Terbaru', top: 'Berita Utama', pr: 'Siaran Pers', tagline: 'Berita dan analisis teknologi B2B untuk pengambil keputusan',
     behind: 'Di Balik Berita', behindSub: 'Kutipan berita, ditambah analisis redaksi tentang apa artinya bagi bisnis Anda',
     prSub: 'Disediakan oleh perusahaan melalui VRITIMES, bukan konten redaksi', prAll: 'Lihat semua siaran pers →', via: 'via VRITIMES',
     byline: 'Redaksi VRI B2B Tech Asia Review', minRead: 'menit baca', forWho: 'Untuk', writtenFor: 'Ditulis untuk', related: 'Berita Terkait',
@@ -67,7 +67,7 @@ const TEXT = {
     topics: 'Topik', allZones: 'Semua zona', allIn: (h) => 'Semua di ' + h, expo: 'Expo', exhibitor: 'Exhibitor', navLabel: 'Kategori', langLabel: 'Bahasa',
   },
   en: {
-    latest: 'Latest', pr: 'Press Releases', tagline: 'B2B technology news and analysis for decision makers',
+    latest: 'Latest', top: 'Top Stories', pr: 'Press Releases', tagline: 'B2B technology news and analysis for decision makers',
     behind: 'Behind the News', behindSub: 'News in brief, plus our editors’ analysis of what it means for your business',
     prSub: 'Supplied by companies via VRITIMES (in Indonesian), not editorial content', prAll: 'All press releases →', via: 'via VRITIMES',
     byline: 'VRI B2B Tech Asia Review editors', minRead: 'min read', forWho: 'For', writtenFor: 'Written for', related: 'Related',
@@ -82,7 +82,7 @@ const TEXT = {
     topics: 'Topics', allZones: 'All zones', allIn: (h) => 'All of ' + h, expo: 'Expo', exhibitor: 'Exhibitors', navLabel: 'Categories', langLabel: 'Language',
   },
   ja: {
-    latest: '最新', pr: 'プレスリリース', tagline: 'インドネシアのB2Bテクノロジーを意思決定者のために読み解く',
+    latest: '最新', top: '注目ニュース', pr: 'プレスリリース', tagline: 'インドネシアのB2Bテクノロジーを意思決定者のために読み解く',
     behind: 'ニュースの背景', behindSub: 'ニュースの要点と、ビジネスへの意味を読み解く編集部の分析',
     prSub: '企業がVRITIMESを通じて配信（インドネシア語）。編集部の記事ではありません', prAll: 'プレスリリース一覧 →', via: 'VRITIMES経由',
     byline: 'VRI B2B Tech Asia Review 編集部', minRead: '分で読めます', forWho: '対象', writtenFor: 'こんな方に', related: '関連記事',
@@ -265,6 +265,11 @@ review-ui .rv-serif{font-family:${SERIF}}
 review-ui .rv-img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:${NAVY}}
 review-ui .rv-ph{display:flex;align-items:center;justify-content:center;width:100%;aspect-ratio:16/9;background:${PANEL};border:1px solid ${LINE};color:${MUTED};font-size:13px;text-align:center;padding:16px}
 review-ui .rv-grid{display:grid;gap:32px}
+review-ui .rv-front{display:grid;grid-template-columns:minmax(0,2.1fr) minmax(0,1fr) minmax(0,1.15fr);gap:32px;align-items:start}
+review-ui .rv-front-seconds{display:flex;flex-direction:column;gap:24px}
+review-ui .rv-front-second{display:flex;flex-direction:column;padding-bottom:20px;border-bottom:1px solid ${LINE}}
+review-ui .rv-front-latest{display:flex;flex-direction:column;min-width:0}
+@media (max-width:1080px){review-ui .rv-front{grid-template-columns:minmax(0,1.6fr) minmax(0,1fr)}review-ui .rv-front-latest{grid-column:1 / -1}}
 review-ui .rv-sechead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px;border-top:3px solid ${NAVY};padding-top:12px}
 review-ui .rv-btn{display:inline-flex;align-items:center;min-height:48px;padding:0 24px;font-weight:700;font-size:15px;border-radius:2px}
 review-ui .rv-lang a{padding:2px 4px;color:${MUTED}}
@@ -333,6 +338,13 @@ review-ui .tk-band .tk-body{padding:32px 36px}
  review-ui .rv-compact-nav{width:100%}
  review-ui .rv-hide-mobile{display:none!important}
  review-ui .rv-grid{grid-template-columns:minmax(0,1fr)!important;gap:32px!important}
+ review-ui .rv-front{grid-template-columns:minmax(0,1fr)!important;gap:28px!important}
+ review-ui .rv-front-latest{grid-column:auto!important}
+ review-ui .rv-front-second{display:grid!important;grid-template-columns:128px minmax(0,1fr);column-gap:12px;align-items:start}
+ review-ui .rv-front-second > .rv-img, review-ui .rv-front-second > .rv-ph{grid-row:1 / span 3}
+ review-ui .rv-front-second > .rv-kicker{margin-top:0!important}
+ review-ui .rv-front-second > .rv-serif{font-size:16px!important}
+ review-ui .rv-front-seconds{gap:16px!important}
  review-ui .rv-lead-title{font-size:26px!important;line-height:1.25!important}
  review-ui[lang="ja"] .rv-lead-title{font-size:23px!important;letter-spacing:0!important}
  review-ui .rv-lead-title + p, review-ui h1 + p.rv-serif{font-size:16px!important}
@@ -368,6 +380,13 @@ review-ui{container:rv / inline-size}
  review-ui .rv-compact-nav{width:100%}
  review-ui .rv-hide-mobile{display:none!important}
  review-ui .rv-grid{grid-template-columns:minmax(0,1fr)!important;gap:32px!important}
+ review-ui .rv-front{grid-template-columns:minmax(0,1fr)!important;gap:28px!important}
+ review-ui .rv-front-latest{grid-column:auto!important}
+ review-ui .rv-front-second{display:grid!important;grid-template-columns:128px minmax(0,1fr);column-gap:12px;align-items:start}
+ review-ui .rv-front-second > .rv-img, review-ui .rv-front-second > .rv-ph{grid-row:1 / span 3}
+ review-ui .rv-front-second > .rv-kicker{margin-top:0!important}
+ review-ui .rv-front-second > .rv-serif{font-size:16px!important}
+ review-ui .rv-front-seconds{gap:16px!important}
  review-ui .rv-lead-title{font-size:26px!important;line-height:1.25!important}
  review-ui[lang="ja"] .rv-lead-title{font-size:23px!important;letter-spacing:0!important}
  review-ui .rv-lead-title + p, review-ui h1 + p.rv-serif{font-size:16px!important}
@@ -611,8 +630,12 @@ ${this.ticketRows()}
     const t = T();
     const arts = d.articles || [];
     const lead = arts[0];
-    const latest = arts.slice(1, 7);
-    const analysis = arts.filter((a) => a !== lead && (a.articleType === 'analisis' || a.articleType === 'penjelasan')).slice(0, 3);
+    // Front page like a news site: one lead (moderate size), two secondary stories with images,
+    // a latest list, then a row of analysis cards. Nothing shown twice above the hub columns.
+    const seconds = arts.slice(1, 3);
+    const latest = arts.slice(3, 9);
+    const shown = new Set([lead, ...seconds, ...latest]);
+    const analysis = arts.filter((a) => !shown.has(a) && (a.articleType === 'analisis' || a.articleType === 'penjelasan')).slice(0, 4);
     const pr = d.releases || [];
     const out = [];
     out.push(this.topbar(d, L));
@@ -621,21 +644,26 @@ ${this.ticketRows()}
     out.push(`<main class="rv-wrap" style="padding-top:32px">`);
 
     if (lead) {
-      out.push(`<section style="display:flex;flex-wrap:wrap;gap:40px">
-<article style="flex:999 1 640px;min-width:0;display:flex;flex-direction:column;gap:18px">
+      out.push(`<section class="rv-front" aria-label="${t.top}">
+<article class="rv-front-lead">
 <a href="${L('/review/' + lead.slug)}">${this.heroImage(lead, L)}</a>
-<div class="rv-kicker" style="display:flex;gap:12px;align-items:center"><a href="${L('/review?kategori=' + catSlug(lead.category))}" style="color:${RED}">${esc(catName(lead.category))}</a><span style="color:#9AA3AF" aria-hidden="true">/</span><span style="color:${NAVY}">${esc(typeName(lead.articleType))}</span></div>
-<h1 style="margin:0"><a class="rv-serif rv-lead-title" href="${L('/review/' + lead.slug)}" style="font-size:44px;line-height:1.12;font-weight:700;letter-spacing:-.5px">${esc(lead.title)}</a></h1>
-<p class="rv-serif" style="margin:0;font-size:20px;line-height:1.5;color:#333B47">${esc(lead.dek)}</p>
-<div style="font-size:13px;color:${SUB}">${t.byline} · ${esc(date(lead.publishAt))}${lead.readMin ? ' · ' + lead.readMin + ' ' + t.minRead : ''}</div>
+<div class="rv-kicker" style="display:flex;gap:12px;align-items:center;margin-top:16px"><a href="${L('/review?kategori=' + catSlug(lead.category))}" style="color:${RED}">${esc(catName(lead.category))}</a><span style="color:#9AA3AF" aria-hidden="true">/</span><span style="color:${NAVY}">${esc(typeName(lead.articleType))}</span></div>
+<h1 style="margin:10px 0 0"><a class="rv-serif rv-lead-title" href="${L('/review/' + lead.slug)}" style="font-size:32px;line-height:1.22;font-weight:700;letter-spacing:-.3px">${esc(lead.title)}</a></h1>
+<p class="rv-serif" style="margin:12px 0 0;font-size:17px;line-height:1.55;color:#333B47">${esc(lead.dek)}</p>
+<div style="font-size:13px;color:${SUB};margin-top:10px">${t.byline} · ${esc(date(lead.publishAt))}${lead.readMin ? ' · ' + lead.readMin + ' ' + t.minRead : ''}</div>
 </article>
-<aside style="flex:1 1 320px;min-width:0;display:flex;flex-direction:column" aria-label="${t.latest}">
+<div class="rv-front-seconds">
+${seconds.map((n) => `<a href="${L('/review/' + n.slug)}" class="rv-front-second">
+${this.heroImage(n, L)}
+<span class="rv-kicker" style="font-size:11px;color:${RED};margin-top:10px">${esc(catName(n.category))}</span>
+<span class="rv-serif" style="font-size:19px;line-height:1.35;font-weight:700;margin-top:4px">${esc(n.title)}</span>
+<span style="font-size:13px;color:${SUB};margin-top:6px">${esc(date(n.publishAt))}</span></a>`).join('')}
+</div>
+<aside class="rv-front-latest" aria-label="${t.latest}">
 <h2 class="rv-kicker" style="margin:0 0 4px;font-size:13px;color:${NAVY};padding-bottom:10px;border-bottom:3px solid ${NAVY}">${t.latest}</h2>
-${latest.map((n) => `<a href="${L('/review/' + n.slug)}" style="display:flex;gap:16px;padding:14px 0;border-bottom:1px solid ${LINE}">
-<span style="flex:0 0 56px;font-size:13px;font-weight:600;color:${SUB};padding-top:2px;white-space:nowrap">${esc(shortDate(n.publishAt))}</span>
-<span style="display:flex;flex-direction:column;gap:4px"><span class="rv-kicker" style="font-size:11px;color:${RED}">${esc(catName(n.category))}</span>
-<span class="rv-serif" style="font-size:17px;line-height:1.35;font-weight:600">${esc(n.title)}</span></span></a>`).join('')}
-<div class="rv-hide-mobile">${this.rect(d, L, false)}</div>
+${latest.map((n) => `<a href="${L('/review/' + n.slug)}" style="display:flex;flex-direction:column;gap:4px;padding:12px 0;border-bottom:1px solid ${LINE}">
+<span style="display:flex;gap:10px;align-items:baseline"><span style="font-size:12px;font-weight:600;color:${SUB};white-space:nowrap">${esc(shortDate(n.publishAt))}</span><span class="rv-kicker" style="font-size:11px;color:${RED}">${esc(catName(n.category))}</span></span>
+<span class="rv-serif" style="font-size:16px;line-height:1.4;font-weight:600">${esc(n.title)}</span></a>`).join('')}
 </aside>
 </section>`);
     }
@@ -644,13 +672,12 @@ ${latest.map((n) => `<a href="${L('/review/' + n.slug)}" style="display:flex;gap
       out.push(`<section style="margin-top:56px" aria-labelledby="rv-dbb">
 <div class="rv-sechead"><h2 id="rv-dbb" class="rv-serif" style="margin:0;font-size:28px;font-weight:700;color:${NAVY}">${t.behind}</h2>
 <span style="font-size:14px;color:${MUTED}">${t.behindSub}</span></div>
-<div class="rv-grid" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:24px">
+<div class="rv-grid" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-top:24px">
 ${analysis.map((a) => `<a href="${L('/review/' + a.slug)}" style="display:flex;flex-direction:column;gap:10px">
 ${this.heroImage(a, L)}
 <span class="rv-kicker" style="font-size:11px;color:${RED};margin-top:4px">${esc(catName(a.category))}</span>
-<span class="rv-serif" style="font-size:22px;line-height:1.25;font-weight:700">${esc(a.title)}</span>
-<span style="font-size:15px;line-height:1.55;color:${MUTED}">${esc(a.dek)}</span>
-${(a.audience || []).length ? `<span style="font-size:13px;color:${SUB}">${t.forWho}: ${esc(a.audience.join(', '))}</span>` : ''}
+<span class="rv-serif" style="font-size:19px;line-height:1.3;font-weight:700">${esc(a.title)}</span>
+<span style="font-size:14px;line-height:1.55;color:${MUTED}">${esc(a.dek)}</span>
 </a>`).join('')}
 </div></section>`);
     }
