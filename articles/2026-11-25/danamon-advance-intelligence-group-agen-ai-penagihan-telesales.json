@@ -1,0 +1,94 @@
+{
+  "slug": "danamon-advance-intelligence-group-agen-ai-penagihan-telesales",
+  "title": "Danamon Teken MoU dengan Advance Intelligence Group, Jajaki Agen AI untuk Penagihan dan Telesales",
+  "category": "AI & Automation",
+  "articleType": "analisis",
+  "dek": "PT Bank Danamon Indonesia Tbk, anggota MUFG, menandatangani nota kesepahaman dengan Advance Intelligence Group (AIGL) untuk menjajaki dua solusi agen AI di fungsi penagihan dan telesales. Kesepakatan ini masih tahap eksplorasi, tetapi menunjukkan bahwa bank besar mulai menguji AI yang berbicara langsung dengan nasabah, bukan sekadar alat bantu internal.",
+  "summaryHtml": "<ul><li>Bank Danamon (BDMN), anggota MUFG, dan Advance Intelligence Group (AIGL) menandatangani nota kesepahaman (MoU) kemitraan strategis di bidang AI. Penandatanganan dilakukan oleh Direktur Utama Danamon Nobuya Kawasaki dan CEO AIGL Jefferson Chen, dan diumumkan pada 24 November 2026 (Kontan, TNGlobal).</li><li>Pada tahap awal, Danamon akan menjajaki dan mengevaluasi dua solusi agen AI milik AIGL untuk penagihan dan telesales. Agen tersebut akan berinteraksi dengan nasabah melalui suara dan teks, dengan pengawasan dan tata kelola oleh tim Danamon.</li><li>Agen AI dibangun dari pengalaman AIGL di pembiayaan konsumer, kemampuan kredit, identitas, dan risiko dari ADVANCE.AI (bisnis enterprise AIGL), serta kerangka agentic AI dari AdvanceX (unit agentic AI AIGL).</li><li>Data nasabah akan diproses sesuai ketentuan pelindungan data dan lokalisasi data di Indonesia. Kedua pihak juga menjajaki kerja sama untuk produk valuta asing dan produk berbasis kartu.</li><li>Sumber yang dibaca tidak menyebutkan nilai kerja sama maupun jadwal implementasi.</li></ul>",
+  "analysisHtml": "<h3>Dari alat internal ke agen yang berbicara dengan nasabah</h3><p>Sebagian besar penggunaan AI di perbankan Indonesia selama ini berada di belakang layar: analisis risiko, deteksi penipuan, atau asisten internal bagi karyawan. MoU Danamon berbeda karena menyasar dua fungsi yang langsung bersentuhan dengan nasabah, yaitu penagihan dan telesales, melalui suara dan teks. Kedua fungsi ini bervolume tinggi, berbasis naskah, dan banyak dikerjakan oleh tenaga call center atau pihak ketiga. Karena itu, keduanya merupakan kandidat yang logis untuk otomatisasi, tetapi juga paling sensitif dari sisi reputasi dan pelindungan konsumen.</p><h3>Mengapa penagihan menjadi titik masuk</h3><p>Penagihan adalah area yang sering menjadi sumber keluhan nasabah. Agen AI menawarkan konsistensi naskah, jam kontak yang terkendali, dan rekam jejak percakapan yang lengkap. Hal-hal ini justru dapat membantu kepatuhan jika dirancang dengan benar. Sebaliknya, agen yang salah menafsirkan situasi nasabah dapat menimbulkan risiko baru. Penekanan pada pengawasan oleh tim Danamon menunjukkan bahwa model yang dijajaki adalah AI dengan manusia di dalam proses, bukan otomatisasi penuh. Latar belakang AIGL di pembiayaan konsumer juga relevan, mengingat grup Danamon mencakup perusahaan pembiayaan.</p><h3>Yang belum dijelaskan</h3><p>Pengumuman ini adalah MoU untuk eksplorasi, bukan kontrak implementasi. Tidak ada angka nilai kerja sama, target volume panggilan, jadwal uji coba, atau metrik keberhasilan. Pernyataan bahwa data diproses sesuai aturan lokalisasi data juga belum menjelaskan di mana model dijalankan dan bagaimana rekaman suara nasabah disimpan. Perlu dicermati apakah tahap berikutnya berupa uji coba terbatas dengan indikator yang dipublikasikan, misalnya tingkat pembayaran atau tingkat keluhan.</p><h3>Sinyal bagi pasar</h3><p>Kemungkinan besar, langkah bank anggota grup keuangan global seperti MUFG akan dibaca oleh bank lain sebagai sinyal bahwa agen AI di saluran nasabah mulai bisa diterima, asalkan tata kelolanya jelas. Bagi penyedia call center dan outsourcing penagihan, ini juga tanda bahwa sebagian pekerjaan berbasis naskah bisa bergeser ke agen AI dalam beberapa tahun ke depan.</p>",
+  "actionHtml": "<h3>Untuk CIO dan Head of Digital Banking</h3><ol><li>Petakan proses berbasis naskah yang bervolume tinggi (pengingat jatuh tempo, penawaran produk) dan nilai mana yang cocok untuk agen AI dengan pengawasan manusia.</li><li>Tetapkan sejak awal metrik uji coba: tingkat penyelesaian, tingkat eskalasi ke manusia, dan tingkat keluhan.</li></ol><h3>Untuk CRO, kepatuhan, dan DPO</h3><ol><li>Pastikan lokasi pemrosesan data, penyimpanan rekaman suara, dan hak nasabah atas keputusan otomatis diatur tegas dalam kontrak dengan vendor AI.</li><li>Siapkan naskah dan batasan perilaku agen penagihan agar sejalan dengan ketentuan pelindungan konsumen.</li></ol><h3>Untuk vendor call center dan AI</h3><ol><li>Siapkan model layanan gabungan agen AI dan agen manusia, karena bank cenderung memulai dengan pendekatan bertahap dan diawasi.</li></ol>",
+  "faqHtml": "<h3>Apa isi kerja sama Danamon dan Advance Intelligence Group?</h3><p>Danamon dan AIGL menandatangani MoU kemitraan AI. Tahap awalnya adalah menjajaki dua solusi agen AI untuk penagihan dan telesales, yang berinteraksi dengan nasabah lewat suara dan teks di bawah pengawasan tim Danamon.</p><h3>Apakah agen AI Danamon sudah digunakan untuk menagih nasabah?</h3><p>Belum ada informasi soal itu. Kesepakatan yang diumumkan pada 24 November 2026 adalah nota kesepahaman untuk eksplorasi dan evaluasi, tanpa jadwal implementasi yang diumumkan.</p><h3>Bagaimana data nasabah diproses dalam kerja sama ini?</h3><p>Menurut pengumuman kedua perusahaan, data nasabah akan diproses sesuai ketentuan pelindungan data dan lokalisasi data di Indonesia. Rincian teknisnya belum dijelaskan.</p>",
+  "dataFigure": "2 agen AI",
+  "dataLabel": "solusi agen AI AIGL yang dijajaki Danamon: penagihan dan telesales",
+  "dataSource": "Danamon dan AIGL, via Kontan, 24 November 2026",
+  "audience": [
+    "CIO",
+    "Head of Digital Banking",
+    "CRO",
+    "Vendor AI"
+  ],
+  "tags": [
+    "Enterprise Adoption",
+    "Deals",
+    "Bank Danamon",
+    "MUFG",
+    "Advance Intelligence Group",
+    "Agen AI",
+    "Penagihan"
+  ],
+  "sources": [
+    {
+      "name": "Kontan",
+      "title": "Danamon Gandeng Advance Intelligence Group, AI untuk Penagihan dan Telesales",
+      "url": "https://keuangan.kontan.co.id/news/danamon-gandeng-advance-intelligence-group-ai-untuk-penagihan-dan-telesales",
+      "date": "2026-11-24"
+    },
+    {
+      "name": "TNGlobal",
+      "title": "Bank Danamon Indonesia, Advance Intelligence ink strategic AI partnership",
+      "url": "https://technode.global/2026/11/24/bank-danamon-indonesia-advance-intelligence-ink-ai-partnership",
+      "date": "2026-11-24"
+    },
+    {
+      "name": "Warta Ekonomi",
+      "title": "Danamon dan Advance Intelligence Group Menandatangani Kemitraan Strategis di Bidang AI",
+      "url": "https://wartaekonomi.co.id/read650037/danamon-dan-advance-intelligence-group-menandatangani-kemitraan-strategis-di-bidang-ai",
+      "date": "2026-11-24"
+    }
+  ],
+  "seoTitle": "Danamon dan AIGL Jajaki Agen AI Penagihan dan Telesales",
+  "seoDescription": "Bank Danamon teken MoU dengan Advance Intelligence Group untuk menjajaki agen AI suara dan teks di penagihan dan telesales. Apa artinya bagi bank lain.",
+  "publishAt": "2026-11-25T06:00:00+07:00",
+  "language": "id",
+  "en": {
+    "title": "Danamon Signs MoU with Advance Intelligence Group to Explore AI Agents for Collections and Telesales",
+    "dek": "PT Bank Danamon Indonesia Tbk, a member of MUFG, has signed a memorandum of understanding with Advance Intelligence Group (AIGL) to explore two AI agent solutions for collections and telesales. The deal is still at the exploration stage, but it shows that a large bank is starting to test AI that talks directly to customers, not just internal tools.",
+    "summaryHtml": "<ul><li>Bank Danamon (BDMN), a member of MUFG, and Advance Intelligence Group (AIGL) signed a memorandum of understanding (MoU) for a strategic AI partnership. It was signed by Danamon President Director Nobuya Kawasaki and AIGL CEO Jefferson Chen and announced on 24 November 2026 (Kontan, TNGlobal).</li><li>In the first phase, Danamon will explore and evaluate two AIGL AI agent solutions for collections and telesales. The agents will interact with customers by voice and text, with oversight and governance by Danamon's teams.</li><li>The agents draw on AIGL's consumer finance experience, credit, identity and risk capabilities from ADVANCE.AI (AIGL's enterprise business), and agentic AI frameworks from AdvanceX (AIGL's agentic AI unit).</li><li>Customer data will be processed in line with Indonesia's data protection and data localisation rules. The two companies are also exploring collaboration on foreign exchange and card-based products.</li><li>The sources do not give a deal value or an implementation timeline.</li></ul>",
+    "analysisHtml": "<h3>From internal tools to agents that talk to customers</h3><p>Most AI use in Indonesian banking so far has been behind the scenes: risk analysis, fraud detection, or internal assistants for staff. Danamon's MoU is different because it targets two customer-facing functions, collections and telesales, by voice and text. Both are high-volume, script-based and often handled by call centre staff or third parties. That makes them logical candidates for automation, but also the most sensitive in terms of reputation and consumer protection.</p><h3>Why collections is the entry point</h3><p>Collections is a frequent source of customer complaints. AI agents offer consistent scripts, controlled contact hours and a complete record of every conversation, which can actually help compliance if designed properly. On the other hand, an agent that misreads a customer's situation creates new risks. The emphasis on oversight by Danamon's teams suggests the model being explored is AI with humans in the loop, not full automation. AIGL's consumer finance background is also relevant, given that the Danamon group includes finance companies.</p><h3>What has not been explained</h3><p>This is an MoU for exploration, not an implementation contract. There is no deal value, call volume target, pilot schedule or success metric. The statement that data will be processed under localisation rules does not yet explain where the models run or how customers' voice recordings are stored. It is worth watching whether the next step is a limited pilot with published indicators, such as payment rates or complaint rates.</p><h3>A signal to the market</h3><p>Other banks are likely to read a move by a member of a global financial group such as MUFG as a sign that AI agents in customer channels are becoming acceptable, provided governance is clear. For call centre and collections outsourcing providers, it is also a sign that some script-based work may shift to AI agents over the next few years.</p>",
+    "actionHtml": "<h3>For CIOs and Heads of Digital Banking</h3><ol><li>Map high-volume, script-based processes (due-date reminders, product offers) and assess which suit AI agents with human oversight.</li><li>Set pilot metrics from the start: resolution rate, escalation rate to humans and complaint rate.</li></ol><h3>For CROs, compliance and DPOs</h3><ol><li>Make sure data processing location, voice recording storage and customers' rights over automated decisions are clearly set out in contracts with AI vendors.</li><li>Prepare scripts and behavioural limits for collection agents in line with consumer protection rules.</li></ol><h3>For call centre and AI vendors</h3><ol><li>Prepare a blended service model of AI agents and human agents, as banks tend to start with a phased, supervised approach.</li></ol>",
+    "faqHtml": "<h3>What does the Danamon and Advance Intelligence Group partnership cover?</h3><p>Danamon and AIGL signed an AI partnership MoU. The first phase is to explore two AI agent solutions for collections and telesales, interacting with customers by voice and text under the oversight of Danamon's teams.</p><h3>Is Danamon already using AI agents to collect from customers?</h3><p>There is no information on that. The agreement announced on 24 November 2026 is a memorandum of understanding for exploration and evaluation, with no announced implementation schedule.</p><h3>How will customer data be handled?</h3><p>According to the companies' announcement, customer data will be processed in line with Indonesia's data protection and data localisation rules. Technical details have not been disclosed.</p>",
+    "dataFigure": "2 AI agents",
+    "dataLabel": "AIGL AI agent solutions Danamon is exploring: collections and telesales",
+    "dataSource": "Danamon and AIGL, via Kontan, 24 November 2026",
+    "seoTitle": "Danamon and AIGL Explore AI Agents for Collections",
+    "seoDescription": "Bank Danamon signs an MoU with Advance Intelligence Group to explore voice and text AI agents for collections and telesales. What it means for banks.",
+    "audience": [
+      "CIO",
+      "Head of Digital Banking",
+      "CRO",
+      "AI vendors"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/danamon-advance-intelligence-group-agen-ai-penagihan-telesales-en.png"
+  },
+  "ja": {
+    "title": "ダナモン銀行、Advance Intelligence Groupと覚書　回収・テレセールスでAIエージェントを検討",
+    "dek": "三菱UFJフィナンシャル・グループ（MUFG）傘下のPT Bank Danamon Indonesia Tbkは、Advance Intelligence Group（AIGL）と覚書を締結し、債権回収とテレセールスの2分野でAIエージェントの導入を検討する。現段階は検討にとどまるが、大手銀行が社内向けにとどまらず、顧客と直接対話するAIの試行に動き始めたことを示す。",
+    "summaryHtml": "<ul><li>MUFGグループのダナモン銀行（BDMN）とAIGLは、AI分野の戦略的提携に関する覚書（MoU）を締結した。署名したのはダナモンのNobuya Kawasaki社長とAIGLのJefferson Chen CEOで、2026年11月24日に発表された（Kontan、TNGlobal）。</li><li>第1段階として、ダナモンはAIGLの債権回収向けとテレセールス向けの2つのAIエージェントを検討・評価する。エージェントは音声とテキストで顧客と対話し、ダナモンのチームが監督とガバナンスを担う。</li><li>エージェントは、AIGLの消費者金融の知見、法人向け事業ADVANCE.AIの与信・本人確認・リスク機能、エージェント型AI部門AdvanceXのフレームワークを基盤とする。</li><li>顧客データはインドネシアのデータ保護とデータローカライゼーションの規定に沿って処理される。両社は外国為替商品やカード関連商品での協業も検討する。</li><li>情報源では提携の金額や導入時期は示されていない。</li></ul>",
+    "analysisHtml": "<h3>社内ツールから顧客と話すエージェントへ</h3><p>インドネシアの銀行におけるAI活用はこれまで、リスク分析や不正検知、行員向けアシスタントなど裏方が中心だった。今回の覚書は、債権回収とテレセールスという顧客接点の2業務を音声とテキストで対象とする点で異なる。いずれも件数が多く台本に沿った業務で、コールセンターや外部委託が担うことが多い。自動化の候補として合理的だが、評判と消費者保護の面で最も慎重さが求められる領域でもある。</p><h3>なぜ回収業務が入り口なのか</h3><p>債権回収は顧客の苦情が出やすい業務だ。AIエージェントは台本の一貫性、連絡時間の管理、会話記録の完全な保存をもたらし、適切に設計すればむしろコンプライアンスに資する。一方、顧客の事情を誤って解釈すれば新たなリスクを生む。ダナモンのチームによる監督を強調している点から、検討されているのは完全自動化ではなく、人が関与するAIとみられる。ダナモン・グループに金融会社が含まれることを考えると、AIGLの消費者金融での経験も意味を持つ。</p><h3>明らかにされていないこと</h3><p>今回は検討のための覚書であり、導入契約ではない。提携金額、通話件数の目標、試行の日程、成果指標はいずれも示されていない。データをローカライゼーション規定に沿って処理するとの説明も、モデルをどこで動かし、顧客の音声記録をどう保管するかには触れていない。次の段階が、支払率や苦情率などの指標を公表する限定的な試行になるかが注目点だ。</p><h3>市場へのシグナル</h3><p>MUFGのような世界的金融グループの一員による動きは、ガバナンスが明確であれば顧客チャネルでのAIエージェントも受け入れられ始めたというシグナルとして、他行に受け止められる可能性が高い。コールセンターや回収業務の委託先にとっては、台本型業務の一部が今後数年でAIエージェントに移り得る兆しでもある。</p>",
+    "actionHtml": "<h3>CIO・デジタルバンキング責任者</h3><ol><li>期日案内や商品提案など件数の多い台本型業務を洗い出し、人の監督付きでAIエージェントに適したものを見極める。</li><li>解決率、人への引き継ぎ率、苦情率など試行の評価指標を当初から定める。</li></ol><h3>リスク管理・コンプライアンス責任者、DPO</h3><ol><li>データ処理の場所、音声記録の保管、自動化された判断に対する顧客の権利をAIベンダーとの契約で明確に定める。</li><li>回収エージェントの台本と行動上の制約を消費者保護規定に沿って整える。</li></ol><h3>コールセンター・AIベンダー</h3><ol><li>銀行は段階的かつ監督付きで始める傾向があるため、AIエージェントと人の担当者を組み合わせたサービスモデルを用意する。</li></ol>",
+    "faqHtml": "<h3>ダナモン銀行とAIGLの提携内容は。</h3><p>両社はAI提携の覚書を締結した。第1段階では、債権回収とテレセールス向けの2つのAIエージェントを検討する。エージェントはダナモンのチームの監督下で、音声とテキストで顧客と対話する。</p><h3>ダナモンは既にAIで回収業務を行っているのか。</h3><p>その情報はない。2026年11月24日に発表されたのは検討・評価のための覚書で、導入時期は公表されていない。</p><h3>顧客データはどう扱われるのか。</h3><p>両社の発表によると、インドネシアのデータ保護とデータローカライゼーションの規定に沿って処理される。技術的な詳細は明らかにされていない。</p>",
+    "dataFigure": "2種類",
+    "dataLabel": "ダナモンが検討するAIGLのAIエージェント（債権回収、テレセールス）",
+    "dataSource": "ダナモン、AIGL（Kontan経由）、2026年11月24日",
+    "seoTitle": "ダナモン銀行、回収業務でAIエージェント検討",
+    "seoDescription": "MUFG傘下のダナモン銀行がAdvance Intelligence Groupと覚書を締結。債権回収とテレセールスで音声・テキストのAIエージェントを検討する。",
+    "audience": [
+      "CIO",
+      "デジタルバンキング責任者",
+      "リスク管理責任者",
+      "AIベンダー"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/danamon-advance-intelligence-group-agen-ai-penagihan-telesales-ja.png"
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/danamon-advance-intelligence-group-agen-ai-penagihan-telesales.png"
+}

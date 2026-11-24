@@ -1,0 +1,88 @@
+{
+  "slug": "kemenko-polkam-telkom-kriptografi-pascakuantum-pqc-9-lembaga",
+  "title": "Kemenko Polkam, Telkom, OJK, dan BSSN Siapkan Migrasi Kriptografi Pascakuantum: 9 Lembaga Terlibat",
+  "category": "Cybersecurity & Data Protection",
+  "articleType": "analisis",
+  "dek": "Kemenko Polkam dan Telkom menggelar seminar internasional kriptografi pascakuantum (PQC) pada 24 November 2026 yang menghasilkan intensi kolaborasi dengan melibatkan sembilan lembaga, termasuk BSSN, OJK, dan Danantara. Pemerintah meminta instansi memetakan sistem kritis dan menyelaraskan rencana migrasi dengan BSSN, sinyal awal bagi sektor keuangan dan BUMN untuk mulai menginventaris kriptografinya.",
+  "summaryHtml": "<ul><li>Kementerian Koordinator Bidang Politik dan Keamanan (Kemenko Polkam) dan PT Telkom Indonesia (Persero) Tbk menggelar seminar internasional Post-Quantum Cryptography (PQC) di Jakarta pada Selasa, 24 November 2026 (CNN Indonesia).</li><li>Seminar menghasilkan Intensi Kolaborasi tentang penguatan kedaulatan digital melalui kesiapan PQC, yang melibatkan Kemenko Polkam, BSSN, Komdigi, Kemdiktisaintek, Danantara Indonesia, OJK, Peruri, BRIN, dan Telkom (CNBC Indonesia, CNN Indonesia).</li><li>Tiga tujuannya: membangun kesadaran bersama atas risiko kuantum, menyiapkan migrasi PQC dengan menetapkan area prioritas dan langkah strategis, serta memperkuat kolaborasi untuk pengembangan kapasitas, pengujian, dan implementasi. Peserta akan menginventaris dan menilai aset kriptografinya (CNBC Indonesia).</li><li>BSSN telah membentuk Gugus Tugas Nasional Migrasi PQC dengan tiga kelompok kerja (teknis, kebijakan, serta industri dan talenta), menerbitkan panduan migrasi, dan menyiapkan peta jalan nasional. Menko Polkam Dudung Abdurachman meminta setiap kementerian dan lembaga menunjuk penanggung jawab dan memetakan sistem kritisnya.</li><li>Kedua sumber mencatat NIST menerbitkan standar PQC pertama pada Agustus 2024, dan sejumlah negara menargetkan perlindungan tahan kuantum untuk sistem berisiko tinggi sekitar 2030 serta migrasi penuh sekitar 2035.</li></ul>",
+  "analysisHtml": "<h3>Mengapa isu yang terdengar jauh ini masuk agenda sekarang</h3><p>Komputer kuantum yang mampu memecahkan RSA dan ECC, dua sistem kunci publik yang disebut CNN Indonesia rentan, memang belum tersedia. Namun risikonya sudah ada hari ini: data terenkripsi yang dicuri sekarang dapat dibuka di kemudian hari. Bagi data berumur panjang seperti rekam nasabah, kontrak, atau data kependudukan, waktu migrasi menjadi persoalan nyata. Menko Polkam Dudung Abdurachman merangkumnya dengan kalimat “Ancaman kuantum memang belum sepenuhnya tiba, tetapi kedaulatan tidak dijaga dengan menunggu” (CNBC Indonesia).</p><h3>Keterlibatan OJK dan Danantara adalah sinyal bagi swasta</h3><p>Daftar lembaga yang terlibat tidak hanya berisi instansi keamanan. Masuknya OJK berarti isu ini kemungkinan akan sampai ke bank, asuransi, dan perusahaan efek melalui jalur pengawasan. Danantara, yang menaungi investasi BUMN, menunjukkan bahwa BUMN berpotensi menjadi kelompok pertama yang diminta menyusun rencana migrasi. Perlu dicatat, intensi kolaborasi belum merupakan regulasi. Belum ada kewajiban, tenggat, atau sanksi bagi perusahaan.</p><h3>Pekerjaan terberat: tahu di mana kriptografi dipakai</h3><p>Langkah pertama yang disebut, yaitu inventarisasi aset kriptografi, terdengar sederhana tetapi sering menjadi bagian tersulit. Kriptografi tertanam di sertifikat TLS, VPN, tanda tangan elektronik, kartu, perangkat IoT, hingga aplikasi lama yang vendornya sudah tidak ada. Perusahaan yang tidak memiliki daftar ini tidak dapat memperkirakan biaya maupun durasi migrasi. Peran Peruri, yang terkait dengan sertifikat elektronik, juga menunjukkan bahwa infrastruktur tanda tangan digital akan menjadi salah satu prioritas.</p><h3>Yang belum jelas</h3><p>Target 2030 dan 2035 yang disebut sumber adalah target sejumlah negara, bukan target resmi Indonesia. Peta jalan nasional BSSN masih disiapkan. Telkom, melalui Direktur Utama Nanang Hendarno, menekankan bahwa kesiapan tidak bisa dibangun satu institusi saja. Perlu dicermati apakah Telkom akan menawarkan layanan migrasi PQC kepada korporasi, dan kapan regulator sektor keuangan menerbitkan ketentuan turunan.</p>",
+  "actionHtml": "<h3>Untuk CISO</h3><ol><li>Mulai inventarisasi kriptografi: algoritma, panjang kunci, sertifikat, dan sistem yang memakai RSA atau ECC.</li><li>Prioritaskan data yang harus tetap rahasia lebih dari 10 tahun, karena paling rentan terhadap pola <em>curi sekarang, buka nanti</em>.</li><li>Pantau panduan migrasi dan peta jalan nasional dari BSSN.</li></ol><h3>Untuk CIO dan CTO</h3><ol><li>Masukkan kemampuan crypto-agility (kemudahan mengganti algoritma) sebagai syarat dalam pengadaan sistem dan perangkat baru.</li><li>Tanyakan kepada vendor utama rencana dukungan standar PQC NIST.</li></ol><h3>Untuk vendor keamanan</h3><ol><li>Siapkan layanan penemuan aset kriptografi dan penilaian kesiapan PQC untuk sektor keuangan dan BUMN.</li></ol>",
+  "faqHtml": "<h3>Apa itu kriptografi pascakuantum (PQC)?</h3><p>PQC adalah algoritma kriptografi yang dirancang tetap aman terhadap komputer kuantum. NIST menerbitkan standar PQC pertama pada Agustus 2024.</p><h3>Lembaga apa saja yang terlibat dalam kesiapan PQC Indonesia?</h3><p>Intensi kolaborasi 24 November 2026 melibatkan Kemenko Polkam, BSSN, Komdigi, Kemdiktisaintek, Danantara Indonesia, OJK, Peruri, BRIN, dan Telkom.</p><h3>Apakah perusahaan sudah wajib bermigrasi ke PQC?</h3><p>Belum. Yang ditandatangani adalah intensi kolaborasi, bukan regulasi. BSSN masih menyiapkan peta jalan nasional migrasi PQC.</p>",
+  "dataFigure": "9 lembaga",
+  "dataLabel": "terlibat dalam intensi kolaborasi kesiapan kriptografi pascakuantum Indonesia",
+  "dataSource": "CNBC Indonesia, CNN Indonesia, 24 November 2026",
+  "audience": [
+    "CISO",
+    "CIO",
+    "CTO",
+    "Vendor keamanan"
+  ],
+  "tags": [
+    "Kriptografi pascakuantum",
+    "PQC",
+    "BSSN",
+    "Telkom",
+    "Kemenko Polkam",
+    "OJK",
+    "Danantara"
+  ],
+  "sources": [
+    {
+      "name": "CNBC Indonesia",
+      "title": "Kemenko Polkam dan Telkom Perkuat Kedaulatan Digital di Era Kuantum",
+      "url": "https://www.cnbcindonesia.com/tech/20261124153205-37-787998/kemenko-polkam-dan-telkom-perkuat-kedaulatan-digital-di-era-kuantum",
+      "date": "2026-11-24"
+    },
+    {
+      "name": "CNN Indonesia",
+      "title": "Kemenko Polkam dan Telkom Perkuat Kedaulatan Digital Era Kuantum",
+      "url": "https://www.cnnindonesia.com/ekonomi/20261124143935-625-1430844/kemenko-polkam-dan-telkom-perkuat-kedaulatan-digital-era-kuantum",
+      "date": "2026-11-24"
+    }
+  ],
+  "seoTitle": "Kriptografi Pascakuantum (PQC): 9 Lembaga Siapkan Migrasi",
+  "seoDescription": "Kemenko Polkam, Telkom, BSSN, OJK, dan Danantara siapkan migrasi kriptografi pascakuantum (PQC). Langkah yang perlu dimulai CISO dari sekarang.",
+  "publishAt": "2026-11-25T09:00:00+07:00",
+  "language": "id",
+  "en": {
+    "title": "Nine Indonesian Institutions Including Telkom, OJK and BSSN Prepare Post-Quantum Cryptography Migration",
+    "dek": "Kemenko Polkam and Telkom held an international seminar on post-quantum cryptography (PQC) on 24 November 2026, producing a declaration of collaboration intent involving nine institutions, including BSSN, OJK and Danantara. The government asked agencies to map critical systems and align migration plans with BSSN, an early signal for the financial sector and state-owned enterprises to start inventorying their cryptography.",
+    "summaryHtml": "<ul><li>The Coordinating Ministry for Political and Security Affairs (Kemenko Polkam) and PT Telkom Indonesia (Persero) Tbk held an international seminar on Post-Quantum Cryptography (PQC) in Jakarta on Tuesday, 24 November 2026 (CNN Indonesia).</li><li>The seminar produced a Declaration of Collaboration Intent on strengthening digital sovereignty through PQC readiness, involving Kemenko Polkam, BSSN, Komdigi, Kemdiktisaintek, Danantara Indonesia, OJK, Peruri, BRIN and Telkom (CNBC Indonesia, CNN Indonesia).</li><li>Its three goals are to build shared awareness of quantum risk, prepare PQC migration by setting priority areas and strategic steps, and strengthen collaboration on capacity building, testing and implementation. Participants will inventory and assess their cryptographic assets (CNBC Indonesia).</li><li>BSSN has formed a National PQC Migration Task Force with three working groups (technical, policy, and industry and talent), published migration guidance and is preparing a national roadmap. Coordinating Minister Dudung Abdurachman asked every ministry and agency to appoint a person in charge and map its critical systems.</li><li>Both sources note that NIST published its first PQC standards in August 2024, and that some countries target quantum-resistant protection for high-risk systems around 2030 and full migration around 2035.</li></ul>",
+    "analysisHtml": "<h3>Why a seemingly distant issue is on the agenda now</h3><p>Quantum computers able to break RSA and ECC, the two public-key systems CNN Indonesia describes as vulnerable, do not yet exist. But the risk exists today: encrypted data stolen now can be decrypted later. For long-lived data such as customer records, contracts or population data, migration timing is a real issue. Coordinating Minister Dudung Abdurachman summed it up by saying the quantum threat has not fully arrived, but sovereignty is not protected by waiting (CNBC Indonesia).</p><h3>The involvement of OJK and Danantara is a signal to the private sector</h3><p>The list of institutions involved is not limited to security agencies. OJK's participation means the issue is likely to reach banks, insurers and securities firms through supervision. Danantara, which oversees state-owned enterprise investment, suggests SOEs may be the first group asked to draw up migration plans. Note that a declaration of intent is not regulation. There are no obligations, deadlines or sanctions for companies yet.</p><h3>The hardest job: knowing where cryptography is used</h3><p>The first step mentioned, inventorying cryptographic assets, sounds simple but is often the hardest part. Cryptography is embedded in TLS certificates, VPNs, electronic signatures, cards, IoT devices and legacy applications whose vendors no longer exist. Companies without this inventory cannot estimate the cost or duration of migration. The role of Peruri, which is linked to electronic certificates, also suggests digital signature infrastructure will be a priority.</p><h3>What is still unclear</h3><p>The 2030 and 2035 targets cited by the sources are targets of some countries, not official Indonesian targets. BSSN's national roadmap is still being prepared. Telkom, through President Director Nanang Hendarno, stressed that readiness cannot be built by one institution alone. It is worth watching whether Telkom will offer PQC migration services to corporates, and when financial regulators will issue implementing rules.</p>",
+    "actionHtml": "<h3>For CISOs</h3><ol><li>Start a cryptography inventory: algorithms, key lengths, certificates and systems using RSA or ECC.</li><li>Prioritise data that must remain confidential for more than 10 years, as it is most exposed to the harvest now, decrypt later pattern.</li><li>Follow BSSN's migration guidance and national roadmap.</li></ol><h3>For CIOs and CTOs</h3><ol><li>Make crypto-agility (the ability to swap algorithms easily) a requirement when procuring new systems and devices.</li><li>Ask key vendors about their plans to support NIST PQC standards.</li></ol><h3>For security vendors</h3><ol><li>Prepare cryptographic asset discovery and PQC readiness assessment services for the financial sector and SOEs.</li></ol>",
+    "faqHtml": "<h3>What is post-quantum cryptography (PQC)?</h3><p>PQC refers to cryptographic algorithms designed to remain secure against quantum computers. NIST published its first PQC standards in August 2024.</p><h3>Which institutions are involved in Indonesia's PQC readiness effort?</h3><p>The 24 November 2026 declaration of intent involves Kemenko Polkam, BSSN, Komdigi, Kemdiktisaintek, Danantara Indonesia, OJK, Peruri, BRIN and Telkom.</p><h3>Are companies already required to migrate to PQC?</h3><p>No. What was signed is a declaration of collaboration intent, not regulation. BSSN is still preparing the national PQC migration roadmap.</p>",
+    "dataFigure": "9",
+    "dataLabel": "institutions involved in Indonesia's post-quantum cryptography readiness declaration",
+    "dataSource": "CNBC Indonesia, CNN Indonesia, 24 November 2026",
+    "seoTitle": "Post-Quantum Cryptography: 9 Indonesian Bodies Prepare",
+    "seoDescription": "Kemenko Polkam, Telkom, BSSN, OJK and Danantara prepare a post-quantum cryptography (PQC) migration. What CISOs should start doing now.",
+    "audience": [
+      "CISO",
+      "CIO",
+      "CTO",
+      "Security vendors"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kemenko-polkam-telkom-kriptografi-pascakuantum-pqc-9-lembaga-en.png"
+  },
+  "ja": {
+    "title": "政治・安全保障調整省とTelkom、耐量子暗号への移行準備　OJKやBSSNなど9機関が参加",
+    "dek": "インドネシアの政治・安全保障調整省（Kemenko Polkam）と国営通信Telkomは2026年11月24日、耐量子暗号（PQC）に関する国際セミナーを開き、国家サイバー暗号庁（BSSN）、金融庁（OJK）、政府系投資機関Danantaraなど9機関が関わる協力意向表明をまとめた。政府は各機関に重要システムの洗い出しとBSSNとの移行計画の整合を求めており、金融業界や国営企業が暗号の棚卸しに着手すべき初期のシグナルとなる。",
+    "summaryHtml": "<ul><li>Kemenko PolkamとPT Telkom Indonesia (Persero) Tbkは2026年11月24日（火）、ジャカルタで耐量子暗号（PQC）に関する国際セミナーを開いた（CNN Indonesia）。</li><li>セミナーでは、PQCへの備えを通じたデジタル主権強化に関する「協力意向表明」がまとめられた。参加したのはKemenko Polkam、BSSN、通信デジタル省（Komdigi）、高等教育科学技術省（Kemdiktisaintek）、Danantara Indonesia、OJK、Peruri、国家研究イノベーション庁（BRIN）、Telkomである（CNBC Indonesia、CNN Indonesia）。</li><li>目的は、量子リスクと移行の緊急性に関する共通認識の醸成、優先分野と戦略的手順を定めたPQC移行の準備、能力構築・検証・実装に向けた協力強化の3点。参加機関は自らの暗号資産を棚卸しし評価する（CNBC Indonesia）。</li><li>BSSNは技術、政策、産業・人材の3作業部会からなるPQC移行国家タスクフォースを設置し、移行ガイダンスを公表、国家ロードマップを策定中だ。Dudung Abdurachman調整相は各省庁に責任者の任命と重要システムの洗い出しを求めた。</li><li>両ソースによると、米国立標準技術研究所（NIST）は2024年8月に最初のPQC標準を公表し、一部の国は高リスクシステムの耐量子化を2030年ごろ、完全移行を2035年ごろに目標としている。</li></ul>",
+    "analysisHtml": "<h3>遠い話に見える課題がなぜ今議題に上るのか</h3><p>CNN Indonesiaが脆弱だとするRSAとECCという2つの公開鍵方式を破れる量子コンピューターは、まだ存在しない。だがリスクは既にある。今盗まれた暗号化データは将来解読され得るからだ。顧客記録、契約、住民データなど長期間保持されるデータでは、移行の時期は現実の問題である。Dudung調整相は、量子の脅威はまだ完全には到来していないが、待っていては主権は守れないと述べた（CNBC Indonesia）。</p><h3>OJKとDanantaraの参加は民間へのシグナル</h3><p>参加機関は治安・安全保障機関にとどまらない。OJKが加わったことで、この課題は監督を通じて銀行、保険、証券会社に波及する可能性が高い。国営企業の投資を統括するDanantaraの参加は、国営企業が最初に移行計画の策定を求められる可能性を示す。ただし協力意向表明は規制ではなく、企業に対する義務、期限、罰則はまだない。</p><h3>最も難しいのは暗号の所在把握</h3><p>最初の手順とされる暗号資産の棚卸しは単純に聞こえるが、往々にして最も難しい。暗号はTLS証明書、VPN、電子署名、カード、IoT機器、さらにはベンダーが既に存在しない古いアプリケーションにまで組み込まれている。この一覧がなければ、移行の費用も期間も見積もれない。電子証明書に関わるPeruriの参加は、電子署名基盤が優先分野の一つになることも示唆する。</p><h3>まだ不明な点</h3><p>ソースが挙げる2030年と2035年は一部の国の目標であり、インドネシアの公式目標ではない。BSSNの国家ロードマップも策定中だ。TelkomのNanang Hendarno社長は、備えは一つの機関だけでは築けないと強調した。Telkomが企業向けにPQC移行サービスを提供するのか、金融当局がいつ細則を出すのかが注目点となる。</p>",
+    "actionHtml": "<h3>CISO</h3><ol><li>アルゴリズム、鍵長、証明書、RSAやECCを使うシステムなど暗号の棚卸しに着手する。</li><li>「今盗んで後で解読する」攻撃に最もさらされる、10年以上秘匿が必要なデータを優先する。</li><li>BSSNの移行ガイダンスと国家ロードマップの動向を追う。</li></ol><h3>CIO・CTO</h3><ol><li>新たなシステムや機器の調達条件に、暗号方式を容易に切り替えられるクリプト・アジリティを加える。</li><li>主要ベンダーにNISTのPQC標準への対応計画を確認する。</li></ol><h3>セキュリティベンダー</h3><ol><li>金融業界と国営企業向けに、暗号資産の発見とPQC対応度評価のサービスを用意する。</li></ol>",
+    "faqHtml": "<h3>耐量子暗号（PQC）とは。</h3><p>量子コンピューターに対しても安全性を保つよう設計された暗号アルゴリズムを指す。NISTは2024年8月に最初のPQC標準を公表した。</p><h3>インドネシアのPQC準備にはどの機関が関わっているのか。</h3><p>2026年11月24日の協力意向表明には、Kemenko Polkam、BSSN、Komdigi、Kemdiktisaintek、Danantara Indonesia、OJK、Peruri、BRIN、Telkomが関わっている。</p><h3>企業は既にPQCへの移行を義務付けられているのか。</h3><p>義務はない。署名されたのは規制ではなく協力意向表明で、BSSNは国家移行ロードマップを策定中である。</p>",
+    "dataFigure": "9機関",
+    "dataLabel": "インドネシアの耐量子暗号準備に関する協力意向表明に関わる機関数",
+    "dataSource": "CNBC Indonesia、CNN Indonesia、2026年11月24日",
+    "seoTitle": "インドネシア、耐量子暗号への移行準備　9機関参加",
+    "seoDescription": "政治・安全保障調整省、Telkom、BSSN、OJK、Danantaraなど9機関が耐量子暗号（PQC）への移行準備で協力。CISOが今から始めるべきこと。",
+    "audience": [
+      "CISO",
+      "CIO",
+      "CTO",
+      "セキュリティベンダー"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kemenko-polkam-telkom-kriptografi-pascakuantum-pqc-9-lembaga-ja.png"
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kemenko-polkam-telkom-kriptografi-pascakuantum-pqc-9-lembaga.png"
+}

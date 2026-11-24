@@ -1,0 +1,100 @@
+{
+  "slug": "jne-salesforce-sales-cloud-700-tenaga-penjualan-konversi-70-persen",
+  "title": "JNE Pantau Pipeline 700 Tenaga Penjualan lewat Salesforce, Konversi Diklaim Naik dari di Bawah 50% ke 70%",
+  "category": "Sales & CRM",
+  "articleType": "analisis",
+  "dek": "JNE memaparkan hasil penggunaan Salesforce Sales Cloud sejak 2021 untuk memantau pipeline 700 tenaga penjualan: konversi diklaim naik dari di bawah 50% menjadi 70% dan respons atas peluang baru turun dari hitungan minggu ke beberapa hari. Perusahaan kini menjajaki AI untuk 2027, dengan catatan bahwa kualitas data menjadi syarat utama.",
+  "summaryHtml": "<ul><li>PT Jalur Nugraha Ekakurir (JNE) menggunakan Salesforce Sales Cloud sejak 2021 untuk menggantikan pencatatan manual dengan pemantauan pipeline 700 tenaga penjualan secara real-time. Hasilnya dipaparkan di Jakarta pada 24 November 2026 (ANTARA, ItWorks).</li><li>Menurut JNE dan Salesforce, waktu respons terhadap peluang bisnis baru turun dari hitungan minggu menjadi beberapa hari, dan tingkat konversi naik dari di bawah 50% menjadi 70%. Bisnis disebut tumbuh 5% selama periode otomatisasi leads (PCplus, ItWorks).</li><li>Leads dibagikan otomatis berdasarkan wilayah, volume pengiriman, dan spesialisasi industri. Menurut Gizmologi, lead tanpa aktivitas hingga batas waktu tertentu dieskalasi ke supervisor penjualan.</li><li>Untuk 2027 dan seterusnya, JNE menyiapkan Tableau Next dan Tableau Agent, dasbor manajemen penjualan dengan kueri bahasa alami, serta menjajaki Agentforce for Sales (PCplus, Gizmologi).</li><li>Gizmologi mencatat bahwa cara pengukuran konversi dan pertumbuhan, termasuk periodenya, tidak dijelaskan.</li></ul>",
+  "analysisHtml": "<h3>Angka yang perlu dibaca dengan hati-hati</h3><p>Lonjakan konversi dari di bawah 50% ke 70% terdengar besar, tetapi angka ini disampaikan dalam acara vendor dan tidak disertai definisi. Tidak jelas apakah konversi dihitung dari lead ke penawaran, atau dari lead ke kontrak, dan pada periode berapa lama. Klaim pertumbuhan bisnis 5% juga tidak bisa dipisahkan dari faktor lain seperti pertumbuhan e-commerce. Yang lebih meyakinkan justru perubahan prosesnya: satu sumber terpusat untuk semua leads, pembagian otomatis, dan eskalasi bila lead tidak ditindaklanjuti. Perubahan seperti ini biasanya yang membuat lead tidak hilang di tengah jalan.</p><h3>Masalah klasik penjualan B2B logistik</h3><p>Perusahaan kurir melayani dua jenis pelanggan yang sangat berbeda: korporasi dan penjual e-commerce bervolume tinggi. Tanpa sistem, permintaan kerja sama mudah tercecer di WhatsApp pribadi tenaga penjualan dan tidak terlihat oleh manajemen. Pembagian lead berdasarkan volume dan industri menunjukkan JNE memperlakukan penjualan sebagai proses yang dapat diukur, bukan sekadar relasi personal. Ini relevan bagi banyak perusahaan Indonesia yang tim penjualannya besar tetapi datanya tersebar.</p><h3>AI baru tahap penjajakan</h3><p>Rencana Agentforce dan Tableau Agent masih berupa penjajakan untuk 2027. Pernyataan Ilyasa Andritiya, National Sales Support Division Head JNE, bahwa “Kalau data yang dimasukkan ke AI masih buruk, hasilnya juga akan buruk” (Gizmologi) menjelaskan urutannya: membereskan data CRM sejak 2021 terlebih dahulu, baru AI. Bagi perusahaan yang ingin langsung melompat ke agen AI penjualan tanpa data pipeline yang rapi, kasus ini menjadi pengingat.</p><h3>Yang tidak disebutkan</h3><p>Sumber tidak menyebut biaya lisensi, jumlah pengguna berbayar, maupun waktu yang dibutuhkan hingga tim penjualan benar-benar disiplin mencatat aktivitas. Padahal adopsi oleh tenaga penjualan sering menjadi titik gagal proyek CRM. Perlu dicermati juga apakah agen AI nantinya hanya membantu atau mulai menghubungi calon pelanggan secara langsung.</p>",
+  "actionHtml": "<h3>Untuk Head of Sales dan Sales Operations</h3><ol><li>Tetapkan definisi konversi yang baku sebelum mengukur dampak CRM, agar angka sebelum dan sesudah dapat dibandingkan.</li><li>Buat aturan pembagian lead dan batas waktu tindak lanjut yang otomatis, lengkap dengan eskalasi ke supervisor.</li><li>Kumpulkan semua sumber lead (kampanye, formulir situs, layanan pelanggan) ke satu sistem sebelum mempertimbangkan AI.</li></ol><h3>Untuk CIO</h3><ol><li>Audit kualitas data CRM (duplikasi, kolom kosong, aktivitas tidak tercatat) sebagai prasyarat proyek agen AI penjualan.</li></ol><h3>Untuk vendor CRM</h3><ol><li>Siapkan studi kasus dengan metrik yang terdefinisi jelas, karena pembeli enterprise semakin kritis terhadap klaim tanpa metodologi.</li></ol>",
+  "faqHtml": "<h3>Sejak kapan JNE menggunakan Salesforce?</h3><p>JNE menggunakan Salesforce Sales Cloud sejak 2021 untuk memantau pipeline 700 tenaga penjualan secara real-time.</p><h3>Apa hasil penggunaan CRM di JNE?</h3><p>Menurut JNE dan Salesforce, tingkat konversi naik dari di bawah 50% menjadi 70% dan waktu respons atas peluang baru turun dari hitungan minggu ke beberapa hari. Metodologi pengukurannya tidak dijelaskan.</p><h3>Apakah JNE sudah memakai agen AI untuk penjualan?</h3><p>Belum sepenuhnya. JNE menjajaki Agentforce for Sales dan menyiapkan Tableau Next serta Tableau Agent untuk 2027 dan seterusnya.</p>",
+  "dataFigure": "70%",
+  "dataLabel": "tingkat konversi penjualan JNE dengan Sales Cloud, sebelumnya di bawah 50% (klaim perusahaan)",
+  "dataSource": "JNE dan Salesforce, via ANTARA dan Gizmologi, 24 November 2026",
+  "audience": [
+    "Head of Sales",
+    "Sales Operations",
+    "CIO",
+    "Vendor CRM"
+  ],
+  "tags": [
+    "Enterprise Adoption",
+    "JNE",
+    "Salesforce",
+    "Sales Cloud",
+    "Agentforce",
+    "CRM",
+    "Logistik"
+  ],
+  "sources": [
+    {
+      "name": "Gizmologi",
+      "title": "Salesforce Pantau Pipeline 700 Sales JNE, AI Dibidik untuk 2027",
+      "url": "https://gizmologi.id/news/salesforce-kelola-700-sales-jne-jajaki-ai-2027",
+      "date": "2026-11-24"
+    },
+    {
+      "name": "ANTARA",
+      "title": "Sales Cloud menjadi transformasi digital JNE",
+      "url": "https://megapolitan.antaranews.com/berita/564723/sales-cloud-menjadi-transformasi-digital-jne",
+      "date": "2026-11-24"
+    },
+    {
+      "name": "PCplus",
+      "title": "JNE Modernisasi Operasional Penjualan Berbasis Sales Cloud dan Siapkan Fondasi AI untuk 2027",
+      "url": "https://www.pcplus.co.id/2026/11/jne-modernisasi-operasional-penjualan-berbasis-sales-cloud-dan-siapkan-fondasi-ai-untuk-2027/",
+      "date": "2026-11-24"
+    },
+    {
+      "name": "ItWorks",
+      "title": "JNE Berhasil Tingkatkan Performa Sales Melalui Pemanfaatan AI Sales Cloud dari Salesforce",
+      "url": "https://www.itworks.id/84580/jne-berhasil-tingkatkan-performa-sales-melalui-pemanfaatan-ai-sales-cloud-dari-salesforce.html",
+      "date": "2026-11-24"
+    }
+  ],
+  "seoTitle": "JNE dan Salesforce Sales Cloud: Konversi Penjualan 70%",
+  "seoDescription": "JNE memantau pipeline 700 tenaga penjualan dengan Salesforce Sales Cloud sejak 2021; konversi diklaim naik ke 70%. Pelajaran CRM bagi Head of Sales.",
+  "publishAt": "2026-11-25T07:30:00+07:00",
+  "language": "id",
+  "en": {
+    "title": "JNE Tracks Pipeline of 700 Salespeople on Salesforce, Says Conversion Rose from Under 50% to 70%",
+    "dek": "JNE presented results from using Salesforce Sales Cloud since 2021 to track the pipeline of 700 salespeople: it says conversion rose from under 50% to 70% and response to new opportunities fell from weeks to a few days. The company is now exploring AI for 2027, noting that data quality is the main prerequisite.",
+    "summaryHtml": "<ul><li>PT Jalur Nugraha Ekakurir (JNE) has used Salesforce Sales Cloud since 2021, replacing manual tracking with real-time monitoring of the pipeline of 700 salespeople. The results were presented in Jakarta on 24 November 2026 (ANTARA, ItWorks).</li><li>According to JNE and Salesforce, response time to new business opportunities fell from weeks to a few days, and the conversion rate rose from below 50% to 70%. The business reportedly grew 5% during the lead automation period (PCplus, ItWorks).</li><li>Leads are assigned automatically by region, shipment volume and industry specialisation. According to Gizmologi, leads with no activity by a set deadline are escalated to a sales supervisor.</li><li>For 2027 and beyond, JNE is preparing Tableau Next and Tableau Agent, a sales management dashboard with natural-language queries, and is exploring Agentforce for Sales (PCplus, Gizmologi).</li><li>Gizmologi notes that how conversion and growth were measured, including the period, was not explained.</li></ul>",
+    "analysisHtml": "<h3>Numbers to read with care</h3><p>A jump in conversion from under 50% to 70% sounds large, but the figure was presented at a vendor event without a definition. It is unclear whether conversion means lead to proposal or lead to contract, or over what period. The 5% business growth claim also cannot be separated from other factors such as e-commerce growth. What is more convincing is the process change: one central source for all leads, automatic assignment, and escalation when a lead is not followed up. Changes like these are usually what stop leads from getting lost.</p><h3>A classic B2B logistics sales problem</h3><p>Courier companies serve two very different customer types: corporates and high-volume e-commerce sellers. Without a system, partnership requests easily get scattered across salespeople's personal WhatsApp accounts, invisible to management. Assigning leads by volume and industry shows JNE treats sales as a measurable process, not just personal relationships. This is relevant to many Indonesian companies with large sales teams and scattered data.</p><h3>AI is still at the exploration stage</h3><p>The Agentforce and Tableau Agent plans are still being explored for 2027. JNE National Sales Support Division Head Ilyasa Andritiya said that if the data fed into AI is poor, the results will be poor too (Gizmologi). That explains the sequence: cleaning up CRM data since 2021 first, then AI. For companies hoping to jump straight to AI sales agents without a clean pipeline, this case is a reminder.</p><h3>What was not said</h3><p>The sources do not mention licence costs, the number of paid users, or how long it took for the sales team to log activities consistently. Yet salesperson adoption is often where CRM projects fail. It is also worth watching whether the AI agents will only assist or will start contacting prospects directly.</p>",
+    "actionHtml": "<h3>For Heads of Sales and Sales Operations</h3><ol><li>Set a standard definition of conversion before measuring CRM impact, so before and after figures can be compared.</li><li>Create automatic lead assignment rules and follow-up deadlines, with escalation to supervisors.</li><li>Bring all lead sources (campaigns, website forms, customer service) into one system before considering AI.</li></ol><h3>For CIOs</h3><ol><li>Audit CRM data quality (duplicates, empty fields, unlogged activity) as a prerequisite for any AI sales agent project.</li></ol><h3>For CRM vendors</h3><ol><li>Prepare case studies with clearly defined metrics, as enterprise buyers are increasingly critical of claims without methodology.</li></ol>",
+    "faqHtml": "<h3>Since when has JNE used Salesforce?</h3><p>JNE has used Salesforce Sales Cloud since 2021 to monitor the pipeline of 700 salespeople in real time.</p><h3>What results did JNE report from its CRM?</h3><p>According to JNE and Salesforce, conversion rose from below 50% to 70% and response time to new opportunities fell from weeks to a few days. The measurement method was not explained.</p><h3>Is JNE already using AI agents for sales?</h3><p>Not fully. JNE is exploring Agentforce for Sales and preparing Tableau Next and Tableau Agent for 2027 and beyond.</p>",
+    "dataFigure": "70%",
+    "dataLabel": "JNE sales conversion rate with Sales Cloud, previously below 50% (company claim)",
+    "dataSource": "JNE and Salesforce, via ANTARA and Gizmologi, 24 November 2026",
+    "seoTitle": "JNE on Salesforce Sales Cloud: 70% Sales Conversion",
+    "seoDescription": "JNE tracks the pipeline of 700 salespeople on Salesforce Sales Cloud since 2021 and says conversion rose to 70%. CRM lessons for Heads of Sales.",
+    "audience": [
+      "Head of Sales",
+      "Sales Operations",
+      "CIO",
+      "CRM vendors"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/jne-salesforce-sales-cloud-700-tenaga-penjualan-konversi-70-persen-en.png"
+  },
+  "ja": {
+    "title": "JNE、営業700人のパイプラインをSalesforceで管理　成約率は5割未満から70%に上昇と説明",
+    "dek": "インドネシアの宅配・物流会社JNEは、2021年から使うSalesforce Sales Cloudで営業担当700人のパイプラインを管理した成果を公表した。成約率は5割未満から70%に上がり、新規案件への対応は数週間から数日に短縮したという。2027年に向けてAIの活用を検討するが、データの質が前提条件だとしている。",
+    "summaryHtml": "<ul><li>PT Jalur Nugraha Ekakurir（JNE）は2021年からSalesforce Sales Cloudを使い、手作業の管理を営業担当700人のパイプラインのリアルタイム監視に置き換えた。成果は2026年11月24日にジャカルタで発表された（ANTARA、ItWorks）。</li><li>JNEとSalesforceによると、新規案件への対応時間は数週間から数日に短縮し、成約率は50%未満から70%に上昇した。リード管理の自動化期間中に事業は5%成長したという（PCplus、ItWorks）。</li><li>リードは地域、出荷量、業種の専門性に応じて自動で割り振られる。Gizmologiによると、期限までに活動記録のないリードは営業スーパーバイザーに上げられる。</li><li>2027年以降に向け、JNEはTableau NextとTableau Agent、自然言語で照会できる営業管理ダッシュボードを準備し、Agentforce for Salesの導入を検討している（PCplus、Gizmologi）。</li><li>Gizmologiは、成約率と成長率の測定方法や対象期間が説明されていないと指摘している。</li></ul>",
+    "analysisHtml": "<h3>数字は慎重に読む必要がある</h3><p>成約率が5割未満から70%へという数字は大きく見えるが、ベンダーのイベントで定義なしに示されたものだ。リードから提案までか契約までか、どの期間かは不明である。5%の事業成長も、Eコマースの拡大など他の要因と切り分けられない。むしろ説得力があるのはプロセスの変化だ。全リードの一元管理、自動割り振り、対応がない場合の上申という仕組みこそ、リードの取りこぼしを防ぐ。</p><h3>物流B2B営業の典型的な課題</h3><p>宅配会社は、法人顧客と大量出荷のEコマース出品者という性質の異なる2種類の顧客を抱える。仕組みがなければ、取引の引き合いは営業担当個人のWhatsAppに散らばり、経営陣から見えなくなる。出荷量や業種でリードを振り分ける手法は、JNEが営業を個人の人脈ではなく測定可能なプロセスとして扱っていることを示す。大規模な営業組織を持ちながらデータが分散している多くのインドネシア企業に参考になる。</p><h3>AIはまだ検討段階</h3><p>AgentforceとTableau Agentの計画は2027年に向けた検討段階にある。JNEのIlyasa Andritiya全国営業支援部門長は、AIに入れるデータが悪ければ結果も悪くなると述べた（Gizmologi）。まず2021年からCRMデータを整え、その後にAIという順序を物語る。整ったパイプラインなしに営業AIエージェントへ飛びつこうとする企業への教訓となる。</p><h3>語られていないこと</h3><p>ライセンス費用、有料ユーザー数、営業担当が活動を確実に記録するまでにかかった期間は示されていない。営業担当の定着こそCRMプロジェクトが失敗しやすい点である。AIエージェントが支援にとどまるのか、見込み客に直接連絡するようになるのかも注目点だ。</p>",
+    "actionHtml": "<h3>営業責任者・営業企画</h3><ol><li>CRMの効果を測る前に成約率の定義を統一し、導入前後を比較できるようにする。</li><li>リードの自動割り振りと対応期限のルールを設け、スーパーバイザーへの上申を組み込む。</li><li>AIを検討する前に、キャンペーン、ウェブフォーム、顧客サービスなど全てのリード源を一つのシステムに集約する。</li></ol><h3>CIO</h3><ol><li>営業AIエージェント導入の前提として、重複、空欄、未記録の活動などCRMデータの品質を点検する。</li></ol><h3>CRMベンダー</h3><ol><li>法人顧客は方法論のない主張に厳しくなっており、指標を明確に定義した事例を用意する。</li></ol>",
+    "faqHtml": "<h3>JNEはいつからSalesforceを使っているのか。</h3><p>2021年からSalesforce Sales Cloudを使い、営業担当700人のパイプラインをリアルタイムで管理している。</p><h3>CRM導入の成果は。</h3><p>JNEとSalesforceによると、成約率は50%未満から70%に上がり、新規案件への対応時間は数週間から数日に短縮した。測定方法は説明されていない。</p><h3>JNEは既に営業でAIエージェントを使っているのか。</h3><p>本格導入には至っていない。Agentforce for Salesを検討し、2027年以降に向けてTableau NextとTableau Agentを準備している。</p>",
+    "dataFigure": "70%",
+    "dataLabel": "Sales Cloud導入後のJNEの成約率（導入前は50%未満、会社側の説明）",
+    "dataSource": "JNE、Salesforce（ANTARA、Gizmologi経由）、2026年11月24日",
+    "seoTitle": "JNE、Salesforceで営業700人を管理",
+    "seoDescription": "インドネシアの宅配・物流会社JNEがSalesforce Sales Cloudで営業700人のパイプラインを管理し、成約率は70%に上昇したと説明。CRM活用の教訓。",
+    "audience": [
+      "営業責任者",
+      "営業企画",
+      "CIO",
+      "CRMベンダー"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/jne-salesforce-sales-cloud-700-tenaga-penjualan-konversi-70-persen-ja.png"
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/jne-salesforce-sales-cloud-700-tenaga-penjualan-konversi-70-persen.png"
+}

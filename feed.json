@@ -1,7 +1,563 @@
 {
-  "generatedAt": "2026-11-24T03:05:21+07:00",
+  "generatedAt": "2026-11-25T03:04:40+07:00",
   "site": "B2B Tech Asia Review",
   "articles": [
+    {
+      "slug": "meta-yougov-survei-umkm-asia-pasifik-agen-ai-tren-pemasaran-2027",
+      "title": "Survei Meta-YouGov: 44% UMKM Asia Pasifik Ingin AI Balas Chat Pelanggan, 40% Khawatir Privasi Data",
+      "category": "Marketing Technology",
+      "articleType": "analisis",
+      "dek": "Meta memaparkan prediksi tren bisnis 2027 yang menempatkan agen AI sebagai asisten belanja, disertai survei bersama YouGov terhadap 3.983 pemilik UMKM di sembilan pasar Asia Pasifik termasuk Indonesia. Hasilnya menunjukkan pelaku usaha mau menyerahkan tugas sederhana ke AI, tetapi sebagian besar masih menginginkan persetujuan manusia.",
+      "summaryHtml": "<ul><li>Country Director Meta Indonesia Pieter Lydian, dalam siaran pers yang dirilis 23 November 2026, menyatakan perilaku konsumen berubah seiring meningkatnya penggunaan agen AI, dan Asia Pasifik termasuk kawasan yang paling cepat menunjukkan perubahan itu (Katadata, Koran Jakarta).</li><li>Survei Meta bersama YouGov terhadap 3.983 pemilik UMKM di sembilan pasar Asia Pasifik: 30% responden memilih AI memberi rekomendasi yang kemudian disetujui manusia, 23% memilih agen AI yang bertindak mandiri dengan hasil ditinjau kemudian. Di Indonesia, 39% pemilik UMKM menilai perangkat AI dan agen AI otonom sama-sama bermanfaat (Katadata).</li><li>Sebanyak 44% responden paling menginginkan AI membalas pelanggan di Messenger atau WhatsApp. Tugas yang paling bersedia diserahkan adalah menjawab pertanyaan pelanggan (34%) dan membuat deskripsi atau daftar produk (33%). Sebanyak 40% menyebut privasi data sebagai kekhawatiran, dan 14% akan selalu meminta manusia meninjau hasil AI (Katadata).</li><li>Menurut Meta, percakapan mingguan melalui fitur AI untuk bisnis di WhatsApp dan Messenger naik sepuluh kali lipat menjadi 10 juta sejak awal 2026 (Katadata).</li><li>Meta juga mengutip riset pihak lain: Accenture Consumer Pulse Survey 2026 mencatat sekitar 3 dari 4 konsumen bersedia membiarkan agen AI menangani tugas seperti memesan ulang, sementara menurut BCG lebih dari seperempat CMO Asia Pasifik menempatkan agentic commerce di tiga prioritas teratas (Katadata, Koran Jakarta).</li></ul>",
+      "analysisHtml": "<h3>Konteks: data dari pihak yang menjual solusinya</h3><p>Survei dan prediksi ini datang dari Meta, yang menjual iklan dan fitur AI bisnis di WhatsApp, Messenger, dan Instagram. Angka seperti 1,3 kali belanja lebih tinggi dari konsumen yang menemukan produk di platform Meta berasal dari studi Ipsos yang ditugaskan Meta (Koran Jakarta). Data ini tetap berguna sebagai gambaran sikap pelaku usaha, tetapi perlu dibaca sebagai materi yang mendukung arah produk Meta. Sumber juga tidak menjelaskan kapan survei YouGov dilakukan, dan sebagian besar angka merupakan gabungan sembilan pasar, bukan khusus Indonesia.</p><h3>Pelaku usaha mau AI, tetapi dengan rem</h3><p>Yang menarik justru angka-angka yang menahan antusiasme. Lebih banyak responden memilih AI yang merekomendasikan lalu disetujui manusia (30%) dibanding agen yang bertindak mandiri (23%). Sebanyak 40% khawatir soal privasi data. Bagi tim pemasaran, ini menunjukkan bahwa adopsi kemungkinan dimulai dari tugas berisiko rendah dan berulang, yaitu membalas pertanyaan umum dan menulis deskripsi produk, bukan dari keputusan harga atau promosi.</p><h3>Agen AI sebagai pembeli baru</h3><p>Rekomendasi Lydian agar konten mudah dipahami tidak hanya oleh pelanggan, tetapi juga oleh agen AI, menandai pergeseran penting. Jika lebih dari separuh konsumen akan meminta agen AI mempertimbangkan merek tertentu, seperti dikutip Katadata, maka data produk yang terstruktur, harga yang konsisten, dan kebijakan pengembalian yang jelas menjadi bagian dari pemasaran. Lydian juga menyarankan bisnis menetapkan kebijakan menerima agen AI, karena memblokirnya berisiko kehilangan pelanggan. Ini pertanyaan baru bagi tim keamanan dan e-commerce sekaligus.</p><h3>Yang perlu dicermati</h3><p>Riset Deloitte yang dikutip Katadata menyebut dua pertiga eksekutif ritel memperkirakan konsumen belum akan sepenuhnya menyerahkan pembelian kepada agen AI sebelum 2028. Artinya, 2027 kemungkinan menjadi tahun persiapan, bukan tahun peralihan massal. Pemasar yang mulai merapikan data dan kebijakan sekarang akan lebih siap ketika agen AI benar-benar ikut berbelanja.</p>",
+      "actionHtml": "<h3>Untuk CMO dan Growth Lead</h3><ol><li>Audit katalog produk: deskripsi, spesifikasi, harga, dan stok harus terstruktur agar dapat dibaca agen AI, bukan hanya manusia.</li><li>Mulai otomatisasi dari tugas berisiko rendah seperti membalas pertanyaan umum di WhatsApp, dengan pengawasan manusia untuk percakapan sensitif.</li><li>Tetapkan panduan nada merek untuk semua respons yang dihasilkan AI.</li></ol><h3>Untuk CIO dan tim e-commerce</h3><ol><li>Putuskan kebijakan terhadap lalu lintas agen AI di situs dan aplikasi: mana yang diizinkan, dibatasi, atau diverifikasi.</li><li>Pastikan data percakapan pelanggan yang diproses AI memenuhi ketentuan UU PDP.</li></ol><h3>Untuk vendor martech</h3><ol><li>Tawarkan fitur persetujuan manusia sebelum publikasi, karena sebagian pelaku usaha masih menuntut tinjauan.</li></ol>",
+      "faqHtml": "<h3>Apa hasil survei Meta dan YouGov tentang UMKM dan AI?</h3><p>Survei terhadap 3.983 pemilik UMKM di sembilan pasar Asia Pasifik menunjukkan 44% responden paling menginginkan AI membalas pelanggan di Messenger atau WhatsApp, 40% khawatir soal privasi data, dan 30% memilih AI yang rekomendasinya disetujui manusia. Di Indonesia, 39% pemilik UMKM menilai perangkat AI dan agen AI otonom sama-sama bermanfaat.</p><h3>Apa itu agentic commerce?</h3><p>Agentic commerce adalah belanja yang sebagian prosesnya dijalankan agen AI atas nama konsumen, misalnya mencari produk, memesan ulang, atau mengurus pengembalian.</p><h3>Apa yang perlu disiapkan bisnis menghadapi agen AI pada 2027?</h3><p>Meta menyarankan konten yang mudah dipahami pelanggan dan agen AI, mendelegasikan tugas sederhana ke AI, menetapkan kebijakan menerima agen AI, menjaga nada merek, dan tetap bekerja sama dengan kreator.</p>",
+      "dataFigure": "44%",
+      "dataLabel": "responden UMKM Asia Pasifik yang paling ingin AI membalas pelanggan di Messenger atau WhatsApp",
+      "dataSource": "Survei Meta-YouGov, 3.983 pemilik UMKM di 9 pasar, via Katadata, 24 November 2026",
+      "chart": {
+        "bars": [
+          {
+            "label": "Tinjau",
+            "value": 14,
+            "display": "14%"
+          },
+          {
+            "label": "Deskripsi",
+            "value": 33,
+            "display": "33%"
+          },
+          {
+            "label": "Jawab",
+            "value": 34,
+            "display": "34%"
+          },
+          {
+            "label": "Privasi",
+            "value": 40,
+            "display": "40%"
+          },
+          {
+            "label": "Balas",
+            "value": 44,
+            "display": "44%"
+          }
+        ]
+      },
+      "audience": [
+        "CMO",
+        "Growth Lead",
+        "Head of E-Commerce",
+        "Vendor martech"
+      ],
+      "tags": [
+        "Meta",
+        "YouGov",
+        "Agen AI",
+        "Agentic commerce",
+        "UMKM",
+        "WhatsApp",
+        "Tren 2027"
+      ],
+      "sources": [
+        {
+          "name": "Katadata",
+          "title": "Induk Instagram Prediksi Tren Bisnis 2027, Agen AI Bakal Jadi Asisten Belanja",
+          "url": "https://katadata.co.id/digital/e-commerce/6b0506e393df3/induk-instagram-prediksi-tren-bisnis-2027-agen-ai-bakal-jadi-asisten-belanja",
+          "date": "2026-11-24"
+        },
+        {
+          "name": "Koran Jakarta",
+          "title": "Agen AI dan Media Sosial Diprediksi Ubah Lanskap Bisnis pada 2027",
+          "url": "https://koran-jakarta.com/2026-11-24/agen-ai-dan-media-sosial-diprediksi-ubah-lanskap-bisnis-pada-2027",
+          "date": "2026-11-24"
+        }
+      ],
+      "seoTitle": "Survei Meta-YouGov: UMKM, Agen AI, dan Tren Pemasaran 2027",
+      "seoDescription": "Survei Meta-YouGov atas 3.983 UMKM Asia Pasifik: 44% ingin AI balas chat pelanggan, 40% khawatir privasi. Apa artinya bagi CMO menjelang 2027.",
+      "publishAt": "2026-11-25T12:00:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "Meta-YouGov Survey: 44% of Asia Pacific SMEs Want AI to Reply to Customer Chats, 40% Worry About Data Privacy",
+        "dek": "Meta presented its 2027 business trend predictions, which cast AI agents as shopping assistants, along with a survey with YouGov of 3,983 SME owners in nine Asia Pacific markets including Indonesia. The results show business owners are willing to hand simple tasks to AI, but most still want human approval.",
+        "summaryHtml": "<ul><li>Meta Indonesia Country Director Pieter Lydian said in a press release issued on 23 November 2026 that consumer behaviour is changing as AI agent use grows, and that Asia Pacific is one of the regions showing this change fastest (Katadata, Koran Jakarta).</li><li>Meta's survey with YouGov of 3,983 SME owners in nine Asia Pacific markets: 30% of respondents prefer AI that makes recommendations which humans then approve, and 23% prefer AI agents that act independently with results reviewed afterwards. In Indonesia, 39% of SME owners see both AI tools and autonomous AI agents as beneficial (Katadata).</li><li>44% of respondents most want AI to reply to customers on Messenger or WhatsApp. The tasks they are most willing to hand over are answering customer questions (34%) and writing product descriptions or listings (33%). 40% cite data privacy as a concern, and 14% will always require a human to review AI output (Katadata).</li><li>According to Meta, weekly conversations via AI business features on WhatsApp and Messenger rose tenfold to 10 million since early 2026 (Katadata).</li><li>Meta also cited third-party research: the Accenture Consumer Pulse Survey 2026 found about 3 in 4 consumers are willing to let AI agents handle tasks such as reordering, while according to BCG more than a quarter of Asia Pacific CMOs rank agentic commerce among their top three priorities (Katadata, Koran Jakarta).</li></ul>",
+        "analysisHtml": "<h3>Context: data from a company selling the solution</h3><p>This survey and these predictions come from Meta, which sells advertising and AI business features on WhatsApp, Messenger and Instagram. Figures such as consumers who discover products on Meta platforms spending 1.3 times more come from an Ipsos study commissioned by Meta (Koran Jakarta). The data is still useful as a picture of business owners' attitudes, but should be read as material supporting Meta's product direction. The sources also do not say when the YouGov survey was conducted, and most figures combine nine markets rather than Indonesia alone.</p><h3>Businesses want AI, but with brakes</h3><p>What is interesting are the numbers that temper the enthusiasm. More respondents prefer AI that recommends and is then approved by a human (30%) than agents that act independently (23%). 40% worry about data privacy. For marketing teams, this suggests adoption is likely to start with low-risk, repetitive tasks such as answering common questions and writing product descriptions, not with pricing or promotion decisions.</p><h3>AI agents as a new buyer</h3><p>Lydian's recommendation that content be easy to understand not only for customers but also for AI agents marks an important shift. If more than half of consumers will ask AI agents to consider specific brands, as Katadata reports, then structured product data, consistent pricing and clear return policies become part of marketing. Lydian also advised businesses to set a policy for accepting AI agents, as blocking them risks losing customers. That is a new question for security and e-commerce teams alike.</p><h3>What to watch</h3><p>Deloitte research cited by Katadata says two-thirds of retail executives expect consumers will not fully hand purchasing to AI agents before 2028. This means 2027 is likely a year of preparation, not mass transition. Marketers who start tidying their data and policies now will be better prepared when AI agents really start shopping.</p>",
+        "actionHtml": "<h3>For CMOs and Growth Leads</h3><ol><li>Audit the product catalogue: descriptions, specifications, prices and stock should be structured so AI agents, not just humans, can read them.</li><li>Start automation with low-risk tasks such as answering common questions on WhatsApp, with human oversight for sensitive conversations.</li><li>Set brand tone guidelines for all AI-generated responses.</li></ol><h3>For CIOs and e-commerce teams</h3><ol><li>Decide on a policy for AI agent traffic on websites and apps: what is allowed, limited or verified.</li><li>Make sure customer conversation data processed by AI complies with the Personal Data Protection Law.</li></ol><h3>For martech vendors</h3><ol><li>Offer human approval before publishing as a feature, as some business owners still require review.</li></ol>",
+        "faqHtml": "<h3>What did the Meta and YouGov survey find about SMEs and AI?</h3><p>The survey of 3,983 SME owners in nine Asia Pacific markets found 44% of respondents most want AI to reply to customers on Messenger or WhatsApp, 40% worry about data privacy, and 30% prefer AI whose recommendations are approved by humans. In Indonesia, 39% of SME owners see both AI tools and autonomous AI agents as beneficial.</p><h3>What is agentic commerce?</h3><p>Agentic commerce is shopping in which part of the process is carried out by AI agents on the consumer's behalf, such as finding products, reordering or handling returns.</p><h3>What should businesses prepare for AI agents in 2027?</h3><p>Meta recommends content that customers and AI agents can understand, delegating simple tasks to AI, setting a policy for accepting AI agents, keeping brand tone and continuing to work with creators.</p>",
+        "dataFigure": "44%",
+        "dataLabel": "of Asia Pacific SME respondents most want AI to reply to customers on Messenger or WhatsApp",
+        "dataSource": "Meta-YouGov survey, 3,983 SME owners in 9 markets, via Katadata, 24 November 2026",
+        "chart": {
+          "bars": [
+            {
+              "label": "Review",
+              "value": 14,
+              "display": "14%"
+            },
+            {
+              "label": "Listings",
+              "value": 33,
+              "display": "33%"
+            },
+            {
+              "label": "Answers",
+              "value": 34,
+              "display": "34%"
+            },
+            {
+              "label": "Privacy",
+              "value": 40,
+              "display": "40%"
+            },
+            {
+              "label": "Replies",
+              "value": 44,
+              "display": "44%"
+            }
+          ]
+        },
+        "seoTitle": "Meta-YouGov Survey: SMEs, AI Agents and 2027 Marketing",
+        "seoDescription": "Meta-YouGov survey of 3,983 Asia Pacific SMEs: 44% want AI to reply to customer chats, 40% worry about privacy. What it means for CMOs heading into 2027.",
+        "audience": [
+          "CMO",
+          "Growth Lead",
+          "Head of E-Commerce",
+          "Martech vendors"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/meta-yougov-survei-umkm-asia-pasifik-agen-ai-tren-pemasaran-2027-en.png"
+      },
+      "ja": {
+        "title": "Meta・YouGov調査、アジア太平洋の中小企業の44%が顧客チャット返信をAIに期待　40%はデータ保護を懸念",
+        "dek": "米Metaは、AIエージェントが買い物の助手となる2027年のビジネストレンド予測を公表した。YouGovと共同で、インドネシアを含むアジア太平洋9市場の中小企業経営者3983人を調査した結果も示した。単純な作業はAIに任せる意向がある一方、多くは人による承認を求めている。",
+        "summaryHtml": "<ul><li>Meta IndonesiaのPieter Lydianカントリーディレクターは2026年11月23日のプレスリリースで、AIエージェントの利用拡大に伴い消費者行動が変化しており、アジア太平洋はその変化が最も速く表れている地域の一つだと述べた（Katadata、Koran Jakarta）。</li><li>MetaとYouGovがアジア太平洋9市場の中小企業経営者3983人を対象に行った調査では、回答者の30%がAIの提案を人が承認する形を、23%がAIエージェントが自律的に動き結果を事後に確認する形を選んだ。インドネシアでは中小企業経営者の39%がAIツールと自律型AIエージェントの双方を有益とみている（Katadata）。</li><li>回答者の44%は、MessengerやWhatsAppでの顧客への返信をAIに最も期待している。AIに任せたい作業は顧客の質問への回答（34%）と商品説明・出品作成（33%）が多かった。40%がデータ保護を懸念し、14%は公開前に必ず人が確認すると答えた（Katadata）。</li><li>Metaによると、WhatsAppとMessengerのビジネス向けAI機能を通じた週間会話数は2026年初めから10倍の1000万件に増えた（Katadata）。</li><li>Metaは他社の調査も引用した。Accenture Consumer Pulse Survey 2026では消費者の約4人に3人が再注文などをAIエージェントに任せてもよいと回答し、BCGによればアジア太平洋のCMOの4分の1超がエージェント型コマースを優先課題の上位3つに挙げた（Katadata、Koran Jakarta）。</li></ul>",
+        "analysisHtml": "<h3>前提：解決策を売る側のデータである</h3><p>今回の調査と予測は、WhatsApp、Messenger、Instagramで広告やビジネス向けAI機能を販売するMeta自身によるものだ。Metaのプラットフォームで商品を見つけた消費者の支出が1.3倍多いといった数字も、Metaが委託したIpsosの調査に基づく（Koran Jakarta）。経営者の意識を知る材料としては有用だが、Metaの製品戦略を後押しする資料として読む必要がある。YouGov調査の実施時期は示されておらず、大半の数字はインドネシア単独ではなく9市場の合計である。</p><h3>AIは使いたいが、歯止めも求める</h3><p>注目すべきは、熱意を抑える数字の方だ。AIが提案し人が承認する形（30%）を選んだ回答者は、自律的に動くエージェント（23%）より多い。40%はデータ保護を懸念している。マーケティング部門にとっては、導入が価格や販促の判断ではなく、よくある質問への回答や商品説明の作成といったリスクの低い反復作業から始まる可能性が高いことを示す。</p><h3>新たな「買い手」としてのAIエージェント</h3><p>コンテンツを顧客だけでなくAIエージェントにも理解しやすくすべきだというLydian氏の提言は、重要な変化を示す。Katadataが伝えるように消費者の半数超がAIエージェントに特定ブランドの検討を頼むのであれば、構造化された商品データ、一貫した価格、明確な返品方針がマーケティングの一部になる。同氏はAIエージェントの受け入れ方針を定めるよう助言し、遮断すれば顧客を失う恐れがあるとした。セキュリティ部門とEコマース部門の双方にとって新しい論点である。</p><h3>注視すべき点</h3><p>Katadataが引用したDeloitteの調査では、小売企業の経営幹部の3分の2が、消費者が2028年より前に購買をAIエージェントに完全に委ねることはないとみている。2027年は大規模な移行ではなく準備の年になる可能性が高い。今からデータと方針を整える企業ほど、AIエージェントが実際に買い物を担う段階に備えられる。</p>",
+        "actionHtml": "<h3>CMO・グロース責任者</h3><ol><li>商品カタログを点検し、説明、仕様、価格、在庫を人だけでなくAIエージェントも読める構造にする。</li><li>WhatsAppでのよくある質問への返信などリスクの低い作業から自動化を始め、機微な会話には人の監督を残す。</li><li>AIが生成する全ての応答にブランドの口調の指針を設ける。</li></ol><h3>CIO・Eコマース部門</h3><ol><li>ウェブサイトやアプリへのAIエージェントのアクセスについて、許可、制限、認証の方針を決める。</li><li>AIが処理する顧客との会話データが個人データ保護法に適合しているか確認する。</li></ol><h3>マーテックベンダー</h3><ol><li>一部の経営者は確認を求めているため、公開前に人が承認する機能を提供する。</li></ol>",
+        "faqHtml": "<h3>MetaとYouGovの中小企業向けAI調査の結果は。</h3><p>アジア太平洋9市場の中小企業経営者3983人への調査で、44%がMessengerやWhatsAppでの顧客返信をAIに最も期待し、40%がデータ保護を懸念、30%が人の承認を伴うAIを選んだ。インドネシアでは39%がAIツールと自律型AIエージェントの双方を有益とみている。</p><h3>エージェント型コマースとは。</h3><p>商品検索、再注文、返品手続きなど買い物の一部をAIエージェントが消費者に代わって行う形態を指す。</p><h3>2027年に向け企業は何を準備すべきか。</h3><p>Metaは、顧客とAIエージェントの双方に分かりやすいコンテンツ、単純作業のAIへの委任、AIエージェント受け入れ方針の策定、ブランドの口調の維持、クリエイターとの協業継続を挙げている。</p>",
+        "dataFigure": "44%",
+        "dataLabel": "顧客へのチャット返信をAIに最も期待するアジア太平洋の中小企業回答者",
+        "dataSource": "Meta・YouGov調査（9市場の中小企業経営者3983人）、Katadata経由、2026年11月24日",
+        "chart": {
+          "bars": [
+            {
+              "label": "人が確認",
+              "value": 14,
+              "display": "14%"
+            },
+            {
+              "label": "商品説明",
+              "value": 33,
+              "display": "33%"
+            },
+            {
+              "label": "質問回答",
+              "value": 34,
+              "display": "34%"
+            },
+            {
+              "label": "保護懸念",
+              "value": 40,
+              "display": "40%"
+            },
+            {
+              "label": "返信",
+              "value": 44,
+              "display": "44%"
+            }
+          ]
+        },
+        "seoTitle": "Meta・YouGov調査、中小企業の44%がAI返信に期待",
+        "seoDescription": "Meta・YouGovがアジア太平洋の中小企業3983人を調査。44%がAIによる顧客チャット返信に期待し、40%がデータ保護を懸念。2027年に向けたマーケティングの論点。",
+        "audience": [
+          "CMO",
+          "グロース責任者",
+          "Eコマース責任者",
+          "マーテックベンダー"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/meta-yougov-survei-umkm-asia-pasifik-agen-ai-tren-pemasaran-2027-ja.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/meta-yougov-survei-umkm-asia-pasifik-agen-ai-tren-pemasaran-2027.png"
+    },
+    {
+      "slug": "pbi-10-2026-data-sistem-pembayaran-manajemen-fraud-pjp-idsp",
+      "title": "PBI 10/2026 Wajibkan PJP Kelola Fraud, Tahap Awal Infrastruktur Data Pembayaran BI Dijadwalkan Desember",
+      "category": "FinTech & Financial Operations",
+      "articleType": "analisis",
+      "dek": "Peraturan Bank Indonesia Nomor 10 Tahun 2026 tentang Pengaturan Data Sistem Pembayaran berlaku sejak 29 Oktober 2026 dan mewajibkan penyedia jasa pembayaran memiliki kebijakan manajemen fraud serta penilaian dampak sebelum memproses data nasabah. Tahap pertama Infrastruktur Data Sistem Pembayaran dijadwalkan mulai berjalan, meski pejabat BI menyebut jadwal yang berbeda-beda.",
+      "summaryHtml": "<ul><li>PBI Nomor 10 Tahun 2026 berlaku sejak 29 Oktober 2026 dan menjadi dasar hukum pemrosesan data sistem pembayaran serta penyelenggaraan infrastruktur data sistem pembayaran oleh BI. Aturan ini mencakup BI, penyedia jasa pembayaran (PJP), pihak terhubung, serta kementerian, lembaga, dan otoritas (Bank Indonesia).</li><li>PJP wajib memiliki kebijakan manajemen fraud dan manajemen risiko fraud pembayaran, serta melakukan penilaian dampak sebelum memproses data nasabah. Masa transisinya satu tahun, kecuali PJP yang ditetapkan sebagai penggerak awal, yang harus memiliki kebijakan fraud dalam tiga bulan (Bank Indonesia).</li><li>Untuk transaksi yang terindikasi fraud, PJP wajib memeriksa transaksi dan dapat menunda pengkreditan atau memblokirnya paling lama 5 hari kerja, dengan pemberitahuan tertulis kepada nasabah. Nasabah berhak menarik persetujuan, menolak keputusan yang semata-mata berdasarkan pemrosesan otomatis, dan menuntut ganti rugi atas pelanggaran data pribadi (Bank Indonesia).</li><li>Menurut Kontan, BI dalam paparan hasil Rapat Dewan Gubernur yang diberitakan pada 18 November 2026 menyebut ketentuan penyelenggara penunjang dan tahap pertama Infrastruktur Data Sistem Pembayaran berlaku pada minggu kedua Desember 2026.</li><li>Infrastruktur ini terdiri atas BI Payment ID, BI Payment Info, dan BI Payment Clear, dan diterapkan bertahap hingga 2028 (Liputan6). Deputi Gubernur BI Filianingsih Hendarta menyebut peluncuran pada akhir tahun atau awal Januari (CNBC Indonesia).</li></ul>",
+      "analysisHtml": "<h3>Fraud kini menjadi kewajiban tata kelola, bukan sekadar fitur</h3><p>Selama ini, deteksi penipuan di banyak penyedia pembayaran diperlakukan sebagai fitur produk atau urusan tim risiko. PBI 10/2026 mengubahnya menjadi kewajiban yang dapat diperiksa: harus ada kebijakan tertulis, manajemen risiko fraud, dan penilaian dampak sebelum data nasabah diproses. Klasifikasi fraud ke dalam empat jenis, mulai dari transaksi tanpa otorisasi hingga manipulasi pembayar, juga memberi bahasa yang sama bagi pelaporan dan pertukaran data antarpenyedia.</p><h3>Kewenangan menahan dana 5 hari kerja</h3><p>Ketentuan yang paling terasa bagi operasional adalah kemungkinan menunda pengkreditan atau memblokir transaksi mencurigakan paling lama 5 hari kerja. Bagi korban penipuan, ini membuka peluang dana ditahan sebelum berpindah lebih jauh. Bagi merchant dan bendahara perusahaan, ini berarti risiko dana masuk tertahan jika transaksinya ditandai. Proses verifikasi dan komunikasi kepada nasabah akan menentukan apakah aturan ini dirasakan sebagai perlindungan atau gangguan arus kas.</p><h3>Satu basis data fraud nasional</h3><p>Kepala Departemen Kebijakan Sistem Pembayaran BI Ryan Rizaldy menyatakan “fragmentasi informasi, terutama informasi mengenai database fraud ini harus dihilangkan” (Liputan6). Inilah logika di balik BI Payment ID sebagai pengenal unik dan BI Payment Clear untuk validasi dan deteksi. Pelaku penipuan selama ini memanfaatkan celah antarplatform: rekening atau dompet yang diblokir di satu tempat masih bisa dipakai di tempat lain. Jika pertukaran data berjalan, celah itu menyempit. Namun konsekuensinya, PJP perlu menyiapkan integrasi teknis dan dasar hukum untuk setiap pertukaran data nasabah.</p><h3>Jadwal yang belum seragam</h3><p>Sumber yang kami baca menyebut waktu berbeda: bertahap mulai November 2026 (Liputan6), minggu kedua Desember 2026 untuk tahap pertama (Kontan), dan akhir tahun atau awal Januari (CNBC Indonesia). Perbedaan ini kemungkinan mencerminkan komponen yang berbeda dari infrastruktur yang sama. Yang pasti, PBI-nya sudah berlaku dan masa transisi satu tahun sudah berjalan sejak 29 Oktober 2026.</p>",
+      "actionHtml": "<h3>Untuk CFO dan bendahara perusahaan</h3><ol><li>Pahami bahwa dana masuk yang terindikasi fraud dapat ditahan paling lama 5 hari kerja, dan siapkan dokumentasi transaksi besar agar verifikasi cepat.</li><li>Tanyakan kepada bank dan penyedia pembayaran mitra prosedur penanganan transaksi yang ditandai.</li></ol><h3>Untuk direksi dan risk officer PJP</h3><ol><li>Petakan kesenjangan antara kebijakan fraud yang ada dan ketentuan PBI 10/2026, termasuk penilaian dampak sebelum memproses data nasabah.</li><li>Periksa apakah perusahaan termasuk PJP penggerak awal dengan tenggat tiga bulan.</li><li>Tinjau kontrak pertukaran data di luar infrastruktur BI agar memenuhi standar minimum: ruang lingkup, kewajiban, penyelesaian sengketa, pengakhiran, dan hak subjek data.</li></ol><h3>Untuk CIO dan vendor fintech</h3><ol><li>Siapkan integrasi dengan BI Payment ID dan kemampuan menahan atau membatalkan pengkreditan secara otomatis berdasarkan sinyal fraud.</li></ol>",
+      "faqHtml": "<h3>Apa isi PBI Nomor 10 Tahun 2026?</h3><p>PBI 10/2026 mengatur pemrosesan data sistem pembayaran dan infrastruktur data sistem pembayaran BI, termasuk kewajiban PJP memiliki kebijakan manajemen fraud dan melakukan penilaian dampak sebelum memproses data nasabah. Aturan ini berlaku sejak 29 Oktober 2026.</p><h3>Berapa lama transaksi terindikasi fraud dapat ditahan?</h3><p>PJP dapat menunda pengkreditan atau memblokir transaksi yang terindikasi fraud paling lama 5 hari kerja, dengan pemberitahuan tertulis kepada nasabah.</p><h3>Kapan Infrastruktur Data Sistem Pembayaran BI berjalan?</h3><p>Pemberitaan berbeda. Kontan menyebut tahap pertama berlaku pada minggu kedua Desember 2026, CNBC Indonesia menyebut akhir tahun atau awal Januari, dan Liputan6 menyebut penerapan bertahap hingga 2028.</p>",
+      "dataFigure": "5 hari",
+      "dataLabel": "batas maksimal penundaan atau pemblokiran transaksi terindikasi fraud (hari kerja)",
+      "dataSource": "Bank Indonesia, PBI Nomor 10 Tahun 2026",
+      "audience": [
+        "CFO",
+        "Risk Officer",
+        "CIO",
+        "Penyedia jasa pembayaran"
+      ],
+      "tags": [
+        "Bank Indonesia",
+        "PBI 10/2026",
+        "Fraud",
+        "Data sistem pembayaran",
+        "BI Payment ID",
+        "Penyedia jasa pembayaran"
+      ],
+      "sources": [
+        {
+          "name": "Bank Indonesia",
+          "title": "Peraturan Bank Indonesia Nomor 10 Tahun 2026 tentang Pengaturan Data Sistem Pembayaran",
+          "url": "https://www.bi.go.id/id/publikasi/peraturan/Pages/PBI_102026.aspx",
+          "date": "2026-10-29"
+        },
+        {
+          "name": "Kontan",
+          "title": "Transaksi QRIS Melesat 70,95%, BI Siapkan Uji Coba QRIS Hong Kong Desember 2026",
+          "url": "https://keuangan.kontan.co.id/news/transaksi-qris-melesat-7095-bi-siapkan-uji-coba-qris-hong-kong-desember-2026",
+          "date": "2026-11-18"
+        },
+        {
+          "name": "CNBC Indonesia",
+          "title": "BI Bagi-Bagi Data Sistem Pembayaran Akhir 2026, Fraud Bisa Ketahuan!",
+          "url": "https://www.cnbcindonesia.com/market/20261116130955-17-785568/bi-bagi-bagi-data-sistem-pembayaran-akhir-2026-fraud-bisa-ketahuan",
+          "date": "2026-11-16"
+        },
+        {
+          "name": "Liputan6",
+          "title": "BI Punya Senjata Baru Perangi Fraud, Berlaku November 2026",
+          "url": "https://www.liputan6.com/bisnis/read/8333163/bi-punya-senjata-baru-perangi-fraud-berlaku-november-2026",
+          "date": "2026-11-11"
+        }
+      ],
+      "seoTitle": "PBI 10/2026: Kewajiban Manajemen Fraud PJP dan Data BI",
+      "seoDescription": "PBI 10/2026 wajibkan penyedia jasa pembayaran punya kebijakan fraud; transaksi mencurigakan bisa ditahan 5 hari kerja. Tahap awal data BI Desember.",
+      "publishAt": "2026-11-25T10:30:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "BI Regulation 10/2026 Requires Payment Providers to Manage Fraud; BI Data Hub's First Phase Set for December",
+        "dek": "Bank Indonesia Regulation No. 10 of 2026 on Payment System Data has been in force since 29 October 2026 and requires payment service providers to have a fraud management policy and conduct an impact assessment before processing customer data. The first phase of the Payment System Data Infrastructure is scheduled to start, although BI officials have given differing timelines.",
+        "summaryHtml": "<ul><li>BI Regulation (PBI) No. 10 of 2026 has been in force since 29 October 2026. It provides the legal basis for processing payment system data and for BI's payment system data infrastructure, and covers BI, payment service providers (PSPs), connected parties, and ministries, agencies and authorities (Bank Indonesia).</li><li>PSPs must have a fraud management policy and payment fraud risk management, and conduct an impact assessment before processing customer data. The transition period is one year, except for PSPs designated as first movers, which must have a fraud policy within three months (Bank Indonesia).</li><li>For transactions suspected of fraud, PSPs must check the transaction and may delay crediting or block it for up to 5 working days, with written notice to the customer. Customers may withdraw consent, object to decisions based solely on automated processing, and claim compensation for personal data violations (Bank Indonesia).</li><li>According to Kontan, BI said in its Board of Governors meeting briefing, reported on 18 November 2026, that the rules on supporting providers and the first phase of the Payment System Data Infrastructure take effect in the second week of December 2026.</li><li>The infrastructure consists of BI Payment ID, BI Payment Info and BI Payment Clear, rolled out in stages until 2028 (Liputan6). BI Deputy Governor Filianingsih Hendarta mentioned a launch at the end of the year or in early January (CNBC Indonesia).</li></ul>",
+        "analysisHtml": "<h3>Fraud is now a governance obligation, not just a feature</h3><p>Until now, many payment providers treated fraud detection as a product feature or a matter for the risk team. PBI 10/2026 turns it into an auditable obligation: there must be a written policy, fraud risk management and an impact assessment before customer data is processed. Classifying fraud into four types, from unauthorised transactions to manipulation of the payer, also gives providers a common language for reporting and data exchange.</p><h3>The power to hold funds for 5 working days</h3><p>The provision most likely to affect operations is the option to delay crediting or block suspicious transactions for up to 5 working days. For fraud victims, this creates a chance for funds to be held before they move further. For merchants and corporate treasurers, it means the risk of incoming funds being held if a transaction is flagged. Verification processes and customer communication will determine whether the rule is felt as protection or as a cash flow disruption.</p><h3>One national fraud database</h3><p>BI Payment System Policy Department Head Ryan Rizaldy said the fragmentation of information, especially on fraud databases, must be eliminated (Liputan6). That is the logic behind BI Payment ID as a unique identifier and BI Payment Clear for validation and detection. Fraudsters have exploited gaps between platforms: an account or wallet blocked in one place can still be used elsewhere. If data exchange works, that gap narrows. The consequence is that PSPs need to prepare technical integration and a legal basis for every exchange of customer data.</p><h3>A timeline that is not yet consistent</h3><p>The sources we read give different timings: phased from November 2026 (Liputan6), the second week of December 2026 for the first phase (Kontan), and the end of the year or early January (CNBC Indonesia). The differences likely reflect different components of the same infrastructure. What is certain is that the regulation is already in force and the one-year transition period has been running since 29 October 2026.</p>",
+        "actionHtml": "<h3>For CFOs and corporate treasurers</h3><ol><li>Be aware that incoming funds suspected of fraud can be held for up to 5 working days, and prepare documentation for large transactions so verification is fast.</li><li>Ask partner banks and payment providers about their procedures for flagged transactions.</li></ol><h3>For PSP boards and risk officers</h3><ol><li>Map gaps between existing fraud policies and PBI 10/2026, including impact assessments before processing customer data.</li><li>Check whether the company is a designated first-mover PSP with a three-month deadline.</li><li>Review data exchange contracts outside BI's infrastructure to meet the minimum standards: scope, obligations, dispute resolution, termination and data subject rights.</li></ol><h3>For CIOs and fintech vendors</h3><ol><li>Prepare integration with BI Payment ID and the ability to hold or reverse crediting automatically based on fraud signals.</li></ol>",
+        "faqHtml": "<h3>What does BI Regulation No. 10 of 2026 cover?</h3><p>PBI 10/2026 governs the processing of payment system data and BI's payment system data infrastructure, including the obligation for PSPs to have a fraud management policy and conduct impact assessments before processing customer data. It has been in force since 29 October 2026.</p><h3>How long can a transaction suspected of fraud be held?</h3><p>PSPs may delay crediting or block a transaction suspected of fraud for up to 5 working days, with written notice to the customer.</p><h3>When will BI's Payment System Data Infrastructure go live?</h3><p>Reports differ. Kontan says the first phase takes effect in the second week of December 2026, CNBC Indonesia says the end of the year or early January, and Liputan6 says it will be rolled out in stages until 2028.</p>",
+        "dataFigure": "5 days",
+        "dataLabel": "maximum hold or block on transactions suspected of fraud (working days)",
+        "dataSource": "Bank Indonesia, PBI No. 10 of 2026",
+        "seoTitle": "BI Regulation 10/2026: Fraud Rules for Payment Providers",
+        "seoDescription": "BI Regulation 10/2026 requires payment providers to have fraud policies; suspicious transactions can be held for 5 working days. BI data hub from December.",
+        "audience": [
+          "CFO",
+          "Risk Officer",
+          "CIO",
+          "Payment service providers"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pbi-10-2026-data-sistem-pembayaran-manajemen-fraud-pjp-idsp-en.png"
+      },
+      "ja": {
+        "title": "中銀規則10/2026、決済事業者に不正対策を義務化　決済データ基盤は12月に第1段階",
+        "dek": "決済システムデータに関するインドネシア銀行（BI）規則2026年第10号が10月29日に施行され、決済サービス事業者に不正管理方針の策定と、顧客データ処理前の影響評価を義務付けた。決済システムデータ基盤の第1段階も始動する予定だが、BI幹部が示す時期にはばらつきがある。",
+        "summaryHtml": "<ul><li>BI規則（PBI）2026年第10号は2026年10月29日に施行された。決済システムデータの処理とBIの決済システムデータ基盤運営の法的根拠となり、BI、決済サービス事業者（PJP）、接続先、省庁・機関・当局を対象とする（インドネシア銀行）。</li><li>PJPは不正管理方針と決済不正リスク管理を整え、顧客データを処理する前に影響評価を行わなければならない。移行期間は1年だが、先行事業者に指定されたPJPは3カ月以内に不正対策方針を整える必要がある（インドネシア銀行）。</li><li>不正が疑われる取引について、PJPは取引を確認し、入金の保留または取引の停止を最長5営業日行うことができ、顧客に書面で通知する。顧客は同意の撤回、自動処理のみに基づく決定への異議、個人データ侵害に対する賠償請求ができる（インドネシア銀行）。</li><li>Kontanによると、BIは2026年11月18日に報じられた総裁会議結果の説明で、決済支援事業者に関する規定と決済システムデータ基盤の第1段階が2026年12月第2週に発効すると説明した。</li><li>同基盤はBI Payment ID、BI Payment Info、BI Payment Clearで構成され、2028年まで段階的に導入される（Liputan6）。Filianingsih Hendarta副総裁は年末か1月初めの開始に言及した（CNBC Indonesia）。</li></ul>",
+        "analysisHtml": "<h3>不正対策は機能ではなくガバナンス上の義務に</h3><p>これまで多くの決済事業者は、不正検知を商品機能やリスク部門の業務として扱ってきた。PBI 10/2026はこれを検査可能な義務に変える。書面の方針、不正リスク管理、顧客データ処理前の影響評価が必要になる。無権限取引から支払者の操作まで不正を4類型に分類したことで、報告やデータ交換における共通言語もできる。</p><h3>最長5営業日の資金保留</h3><p>業務への影響が最も大きいのは、疑わしい取引の入金保留や停止を最長5営業日行える点だ。詐欺被害者にとっては、資金がさらに移される前に止められる可能性が生まれる。加盟店や企業の財務担当にとっては、取引にフラグが立てば入金が滞るリスクを意味する。確認手続きと顧客への連絡の在り方によって、この規定が保護と受け止められるか、資金繰りの障害と受け止められるかが決まる。</p><h3>全国一元の不正データベース</h3><p>BI決済システム政策局のRyan Rizaldy局長は、情報の分断、特に不正データベースの分断を解消しなければならないと述べた（Liputan6）。固有識別子のBI Payment IDと、検証・検知を担うBI Payment Clearの狙いはここにある。詐欺犯はこれまで、ある場所で凍結された口座やウォレットを別の場所で使うなど、プラットフォーム間の隙間を突いてきた。データ交換が機能すれば隙間は狭まる。その代わり、PJPは技術的な接続と顧客データ交換ごとの法的根拠を整える必要がある。</p><h3>まだ揃わない日程</h3><p>参照した報道が示す時期は、2026年11月から段階的（Liputan6）、第1段階は2026年12月第2週（Kontan）、年末か1月初め（CNBC Indonesia）と異なる。同じ基盤の異なる構成要素を指している可能性がある。確かなのは、規則は既に施行され、1年の移行期間が2026年10月29日から始まっていることだ。</p>",
+        "actionHtml": "<h3>CFO・財務責任者</h3><ol><li>不正が疑われる入金は最長5営業日保留され得ることを理解し、大口取引は迅速に確認できるよう書類を整える。</li><li>取引先の銀行や決済事業者に、フラグが立った取引の処理手順を確認する。</li></ol><h3>決済事業者の経営陣・リスク管理責任者</h3><ol><li>既存の不正対策方針とPBI 10/2026との差を洗い出す。顧客データ処理前の影響評価も含める。</li><li>自社が期限3カ月の先行事業者に該当するか確認する。</li><li>BI基盤外でのデータ交換契約が、範囲、義務、紛争解決、解除、データ主体の権利という最低基準を満たしているか見直す。</li></ol><h3>CIO・フィンテックベンダー</h3><ol><li>BI Payment IDとの接続と、不正シグナルに基づき入金を自動で保留・取り消す機能を準備する。</li></ol>",
+        "faqHtml": "<h3>BI規則2026年第10号の内容は。</h3><p>決済システムデータの処理とBIの決済システムデータ基盤を定める規則で、決済事業者に不正管理方針と顧客データ処理前の影響評価を義務付ける。2026年10月29日に施行された。</p><h3>不正が疑われる取引はどのくらい保留されるのか。</h3><p>決済事業者は、不正が疑われる取引の入金保留または停止を最長5営業日行うことができ、顧客に書面で通知する。</p><h3>BIの決済システムデータ基盤はいつ稼働するのか。</h3><p>報道により異なる。Kontanは第1段階が2026年12月第2週に発効するとし、CNBC Indonesiaは年末か1月初め、Liputan6は2028年まで段階的に導入するとしている。</p>",
+        "dataFigure": "5営業日",
+        "dataLabel": "不正が疑われる取引の入金保留・停止の上限",
+        "dataSource": "インドネシア銀行、BI規則2026年第10号",
+        "seoTitle": "インドネシア中銀規則10/2026、決済の不正対策を義務化",
+        "seoDescription": "BI規則10/2026が施行され、決済事業者に不正管理方針を義務付け。疑わしい取引は最長5営業日保留可能。決済データ基盤は12月に第1段階。",
+        "audience": [
+          "CFO",
+          "リスク管理責任者",
+          "CIO",
+          "決済事業者"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pbi-10-2026-data-sistem-pembayaran-manajemen-fraud-pjp-idsp-ja.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pbi-10-2026-data-sistem-pembayaran-manajemen-fraud-pjp-idsp.png"
+    },
+    {
+      "slug": "kemenko-polkam-telkom-kriptografi-pascakuantum-pqc-9-lembaga",
+      "title": "Kemenko Polkam, Telkom, OJK, dan BSSN Siapkan Migrasi Kriptografi Pascakuantum: 9 Lembaga Terlibat",
+      "category": "Cybersecurity & Data Protection",
+      "articleType": "analisis",
+      "dek": "Kemenko Polkam dan Telkom menggelar seminar internasional kriptografi pascakuantum (PQC) pada 24 November 2026 yang menghasilkan intensi kolaborasi dengan melibatkan sembilan lembaga, termasuk BSSN, OJK, dan Danantara. Pemerintah meminta instansi memetakan sistem kritis dan menyelaraskan rencana migrasi dengan BSSN, sinyal awal bagi sektor keuangan dan BUMN untuk mulai menginventaris kriptografinya.",
+      "summaryHtml": "<ul><li>Kementerian Koordinator Bidang Politik dan Keamanan (Kemenko Polkam) dan PT Telkom Indonesia (Persero) Tbk menggelar seminar internasional Post-Quantum Cryptography (PQC) di Jakarta pada Selasa, 24 November 2026 (CNN Indonesia).</li><li>Seminar menghasilkan Intensi Kolaborasi tentang penguatan kedaulatan digital melalui kesiapan PQC, yang melibatkan Kemenko Polkam, BSSN, Komdigi, Kemdiktisaintek, Danantara Indonesia, OJK, Peruri, BRIN, dan Telkom (CNBC Indonesia, CNN Indonesia).</li><li>Tiga tujuannya: membangun kesadaran bersama atas risiko kuantum, menyiapkan migrasi PQC dengan menetapkan area prioritas dan langkah strategis, serta memperkuat kolaborasi untuk pengembangan kapasitas, pengujian, dan implementasi. Peserta akan menginventaris dan menilai aset kriptografinya (CNBC Indonesia).</li><li>BSSN telah membentuk Gugus Tugas Nasional Migrasi PQC dengan tiga kelompok kerja (teknis, kebijakan, serta industri dan talenta), menerbitkan panduan migrasi, dan menyiapkan peta jalan nasional. Menko Polkam Dudung Abdurachman meminta setiap kementerian dan lembaga menunjuk penanggung jawab dan memetakan sistem kritisnya.</li><li>Kedua sumber mencatat NIST menerbitkan standar PQC pertama pada Agustus 2024, dan sejumlah negara menargetkan perlindungan tahan kuantum untuk sistem berisiko tinggi sekitar 2030 serta migrasi penuh sekitar 2035.</li></ul>",
+      "analysisHtml": "<h3>Mengapa isu yang terdengar jauh ini masuk agenda sekarang</h3><p>Komputer kuantum yang mampu memecahkan RSA dan ECC, dua sistem kunci publik yang disebut CNN Indonesia rentan, memang belum tersedia. Namun risikonya sudah ada hari ini: data terenkripsi yang dicuri sekarang dapat dibuka di kemudian hari. Bagi data berumur panjang seperti rekam nasabah, kontrak, atau data kependudukan, waktu migrasi menjadi persoalan nyata. Menko Polkam Dudung Abdurachman merangkumnya dengan kalimat “Ancaman kuantum memang belum sepenuhnya tiba, tetapi kedaulatan tidak dijaga dengan menunggu” (CNBC Indonesia).</p><h3>Keterlibatan OJK dan Danantara adalah sinyal bagi swasta</h3><p>Daftar lembaga yang terlibat tidak hanya berisi instansi keamanan. Masuknya OJK berarti isu ini kemungkinan akan sampai ke bank, asuransi, dan perusahaan efek melalui jalur pengawasan. Danantara, yang menaungi investasi BUMN, menunjukkan bahwa BUMN berpotensi menjadi kelompok pertama yang diminta menyusun rencana migrasi. Perlu dicatat, intensi kolaborasi belum merupakan regulasi. Belum ada kewajiban, tenggat, atau sanksi bagi perusahaan.</p><h3>Pekerjaan terberat: tahu di mana kriptografi dipakai</h3><p>Langkah pertama yang disebut, yaitu inventarisasi aset kriptografi, terdengar sederhana tetapi sering menjadi bagian tersulit. Kriptografi tertanam di sertifikat TLS, VPN, tanda tangan elektronik, kartu, perangkat IoT, hingga aplikasi lama yang vendornya sudah tidak ada. Perusahaan yang tidak memiliki daftar ini tidak dapat memperkirakan biaya maupun durasi migrasi. Peran Peruri, yang terkait dengan sertifikat elektronik, juga menunjukkan bahwa infrastruktur tanda tangan digital akan menjadi salah satu prioritas.</p><h3>Yang belum jelas</h3><p>Target 2030 dan 2035 yang disebut sumber adalah target sejumlah negara, bukan target resmi Indonesia. Peta jalan nasional BSSN masih disiapkan. Telkom, melalui Direktur Utama Nanang Hendarno, menekankan bahwa kesiapan tidak bisa dibangun satu institusi saja. Perlu dicermati apakah Telkom akan menawarkan layanan migrasi PQC kepada korporasi, dan kapan regulator sektor keuangan menerbitkan ketentuan turunan.</p>",
+      "actionHtml": "<h3>Untuk CISO</h3><ol><li>Mulai inventarisasi kriptografi: algoritma, panjang kunci, sertifikat, dan sistem yang memakai RSA atau ECC.</li><li>Prioritaskan data yang harus tetap rahasia lebih dari 10 tahun, karena paling rentan terhadap pola <em>curi sekarang, buka nanti</em>.</li><li>Pantau panduan migrasi dan peta jalan nasional dari BSSN.</li></ol><h3>Untuk CIO dan CTO</h3><ol><li>Masukkan kemampuan crypto-agility (kemudahan mengganti algoritma) sebagai syarat dalam pengadaan sistem dan perangkat baru.</li><li>Tanyakan kepada vendor utama rencana dukungan standar PQC NIST.</li></ol><h3>Untuk vendor keamanan</h3><ol><li>Siapkan layanan penemuan aset kriptografi dan penilaian kesiapan PQC untuk sektor keuangan dan BUMN.</li></ol>",
+      "faqHtml": "<h3>Apa itu kriptografi pascakuantum (PQC)?</h3><p>PQC adalah algoritma kriptografi yang dirancang tetap aman terhadap komputer kuantum. NIST menerbitkan standar PQC pertama pada Agustus 2024.</p><h3>Lembaga apa saja yang terlibat dalam kesiapan PQC Indonesia?</h3><p>Intensi kolaborasi 24 November 2026 melibatkan Kemenko Polkam, BSSN, Komdigi, Kemdiktisaintek, Danantara Indonesia, OJK, Peruri, BRIN, dan Telkom.</p><h3>Apakah perusahaan sudah wajib bermigrasi ke PQC?</h3><p>Belum. Yang ditandatangani adalah intensi kolaborasi, bukan regulasi. BSSN masih menyiapkan peta jalan nasional migrasi PQC.</p>",
+      "dataFigure": "9 lembaga",
+      "dataLabel": "terlibat dalam intensi kolaborasi kesiapan kriptografi pascakuantum Indonesia",
+      "dataSource": "CNBC Indonesia, CNN Indonesia, 24 November 2026",
+      "audience": [
+        "CISO",
+        "CIO",
+        "CTO",
+        "Vendor keamanan"
+      ],
+      "tags": [
+        "Kriptografi pascakuantum",
+        "PQC",
+        "BSSN",
+        "Telkom",
+        "Kemenko Polkam",
+        "OJK",
+        "Danantara"
+      ],
+      "sources": [
+        {
+          "name": "CNBC Indonesia",
+          "title": "Kemenko Polkam dan Telkom Perkuat Kedaulatan Digital di Era Kuantum",
+          "url": "https://www.cnbcindonesia.com/tech/20261124153205-37-787998/kemenko-polkam-dan-telkom-perkuat-kedaulatan-digital-di-era-kuantum",
+          "date": "2026-11-24"
+        },
+        {
+          "name": "CNN Indonesia",
+          "title": "Kemenko Polkam dan Telkom Perkuat Kedaulatan Digital Era Kuantum",
+          "url": "https://www.cnnindonesia.com/ekonomi/20261124143935-625-1430844/kemenko-polkam-dan-telkom-perkuat-kedaulatan-digital-era-kuantum",
+          "date": "2026-11-24"
+        }
+      ],
+      "seoTitle": "Kriptografi Pascakuantum (PQC): 9 Lembaga Siapkan Migrasi",
+      "seoDescription": "Kemenko Polkam, Telkom, BSSN, OJK, dan Danantara siapkan migrasi kriptografi pascakuantum (PQC). Langkah yang perlu dimulai CISO dari sekarang.",
+      "publishAt": "2026-11-25T09:00:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "Nine Indonesian Institutions Including Telkom, OJK and BSSN Prepare Post-Quantum Cryptography Migration",
+        "dek": "Kemenko Polkam and Telkom held an international seminar on post-quantum cryptography (PQC) on 24 November 2026, producing a declaration of collaboration intent involving nine institutions, including BSSN, OJK and Danantara. The government asked agencies to map critical systems and align migration plans with BSSN, an early signal for the financial sector and state-owned enterprises to start inventorying their cryptography.",
+        "summaryHtml": "<ul><li>The Coordinating Ministry for Political and Security Affairs (Kemenko Polkam) and PT Telkom Indonesia (Persero) Tbk held an international seminar on Post-Quantum Cryptography (PQC) in Jakarta on Tuesday, 24 November 2026 (CNN Indonesia).</li><li>The seminar produced a Declaration of Collaboration Intent on strengthening digital sovereignty through PQC readiness, involving Kemenko Polkam, BSSN, Komdigi, Kemdiktisaintek, Danantara Indonesia, OJK, Peruri, BRIN and Telkom (CNBC Indonesia, CNN Indonesia).</li><li>Its three goals are to build shared awareness of quantum risk, prepare PQC migration by setting priority areas and strategic steps, and strengthen collaboration on capacity building, testing and implementation. Participants will inventory and assess their cryptographic assets (CNBC Indonesia).</li><li>BSSN has formed a National PQC Migration Task Force with three working groups (technical, policy, and industry and talent), published migration guidance and is preparing a national roadmap. Coordinating Minister Dudung Abdurachman asked every ministry and agency to appoint a person in charge and map its critical systems.</li><li>Both sources note that NIST published its first PQC standards in August 2024, and that some countries target quantum-resistant protection for high-risk systems around 2030 and full migration around 2035.</li></ul>",
+        "analysisHtml": "<h3>Why a seemingly distant issue is on the agenda now</h3><p>Quantum computers able to break RSA and ECC, the two public-key systems CNN Indonesia describes as vulnerable, do not yet exist. But the risk exists today: encrypted data stolen now can be decrypted later. For long-lived data such as customer records, contracts or population data, migration timing is a real issue. Coordinating Minister Dudung Abdurachman summed it up by saying the quantum threat has not fully arrived, but sovereignty is not protected by waiting (CNBC Indonesia).</p><h3>The involvement of OJK and Danantara is a signal to the private sector</h3><p>The list of institutions involved is not limited to security agencies. OJK's participation means the issue is likely to reach banks, insurers and securities firms through supervision. Danantara, which oversees state-owned enterprise investment, suggests SOEs may be the first group asked to draw up migration plans. Note that a declaration of intent is not regulation. There are no obligations, deadlines or sanctions for companies yet.</p><h3>The hardest job: knowing where cryptography is used</h3><p>The first step mentioned, inventorying cryptographic assets, sounds simple but is often the hardest part. Cryptography is embedded in TLS certificates, VPNs, electronic signatures, cards, IoT devices and legacy applications whose vendors no longer exist. Companies without this inventory cannot estimate the cost or duration of migration. The role of Peruri, which is linked to electronic certificates, also suggests digital signature infrastructure will be a priority.</p><h3>What is still unclear</h3><p>The 2030 and 2035 targets cited by the sources are targets of some countries, not official Indonesian targets. BSSN's national roadmap is still being prepared. Telkom, through President Director Nanang Hendarno, stressed that readiness cannot be built by one institution alone. It is worth watching whether Telkom will offer PQC migration services to corporates, and when financial regulators will issue implementing rules.</p>",
+        "actionHtml": "<h3>For CISOs</h3><ol><li>Start a cryptography inventory: algorithms, key lengths, certificates and systems using RSA or ECC.</li><li>Prioritise data that must remain confidential for more than 10 years, as it is most exposed to the harvest now, decrypt later pattern.</li><li>Follow BSSN's migration guidance and national roadmap.</li></ol><h3>For CIOs and CTOs</h3><ol><li>Make crypto-agility (the ability to swap algorithms easily) a requirement when procuring new systems and devices.</li><li>Ask key vendors about their plans to support NIST PQC standards.</li></ol><h3>For security vendors</h3><ol><li>Prepare cryptographic asset discovery and PQC readiness assessment services for the financial sector and SOEs.</li></ol>",
+        "faqHtml": "<h3>What is post-quantum cryptography (PQC)?</h3><p>PQC refers to cryptographic algorithms designed to remain secure against quantum computers. NIST published its first PQC standards in August 2024.</p><h3>Which institutions are involved in Indonesia's PQC readiness effort?</h3><p>The 24 November 2026 declaration of intent involves Kemenko Polkam, BSSN, Komdigi, Kemdiktisaintek, Danantara Indonesia, OJK, Peruri, BRIN and Telkom.</p><h3>Are companies already required to migrate to PQC?</h3><p>No. What was signed is a declaration of collaboration intent, not regulation. BSSN is still preparing the national PQC migration roadmap.</p>",
+        "dataFigure": "9",
+        "dataLabel": "institutions involved in Indonesia's post-quantum cryptography readiness declaration",
+        "dataSource": "CNBC Indonesia, CNN Indonesia, 24 November 2026",
+        "seoTitle": "Post-Quantum Cryptography: 9 Indonesian Bodies Prepare",
+        "seoDescription": "Kemenko Polkam, Telkom, BSSN, OJK and Danantara prepare a post-quantum cryptography (PQC) migration. What CISOs should start doing now.",
+        "audience": [
+          "CISO",
+          "CIO",
+          "CTO",
+          "Security vendors"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kemenko-polkam-telkom-kriptografi-pascakuantum-pqc-9-lembaga-en.png"
+      },
+      "ja": {
+        "title": "政治・安全保障調整省とTelkom、耐量子暗号への移行準備　OJKやBSSNなど9機関が参加",
+        "dek": "インドネシアの政治・安全保障調整省（Kemenko Polkam）と国営通信Telkomは2026年11月24日、耐量子暗号（PQC）に関する国際セミナーを開き、国家サイバー暗号庁（BSSN）、金融庁（OJK）、政府系投資機関Danantaraなど9機関が関わる協力意向表明をまとめた。政府は各機関に重要システムの洗い出しとBSSNとの移行計画の整合を求めており、金融業界や国営企業が暗号の棚卸しに着手すべき初期のシグナルとなる。",
+        "summaryHtml": "<ul><li>Kemenko PolkamとPT Telkom Indonesia (Persero) Tbkは2026年11月24日（火）、ジャカルタで耐量子暗号（PQC）に関する国際セミナーを開いた（CNN Indonesia）。</li><li>セミナーでは、PQCへの備えを通じたデジタル主権強化に関する「協力意向表明」がまとめられた。参加したのはKemenko Polkam、BSSN、通信デジタル省（Komdigi）、高等教育科学技術省（Kemdiktisaintek）、Danantara Indonesia、OJK、Peruri、国家研究イノベーション庁（BRIN）、Telkomである（CNBC Indonesia、CNN Indonesia）。</li><li>目的は、量子リスクと移行の緊急性に関する共通認識の醸成、優先分野と戦略的手順を定めたPQC移行の準備、能力構築・検証・実装に向けた協力強化の3点。参加機関は自らの暗号資産を棚卸しし評価する（CNBC Indonesia）。</li><li>BSSNは技術、政策、産業・人材の3作業部会からなるPQC移行国家タスクフォースを設置し、移行ガイダンスを公表、国家ロードマップを策定中だ。Dudung Abdurachman調整相は各省庁に責任者の任命と重要システムの洗い出しを求めた。</li><li>両ソースによると、米国立標準技術研究所（NIST）は2024年8月に最初のPQC標準を公表し、一部の国は高リスクシステムの耐量子化を2030年ごろ、完全移行を2035年ごろに目標としている。</li></ul>",
+        "analysisHtml": "<h3>遠い話に見える課題がなぜ今議題に上るのか</h3><p>CNN Indonesiaが脆弱だとするRSAとECCという2つの公開鍵方式を破れる量子コンピューターは、まだ存在しない。だがリスクは既にある。今盗まれた暗号化データは将来解読され得るからだ。顧客記録、契約、住民データなど長期間保持されるデータでは、移行の時期は現実の問題である。Dudung調整相は、量子の脅威はまだ完全には到来していないが、待っていては主権は守れないと述べた（CNBC Indonesia）。</p><h3>OJKとDanantaraの参加は民間へのシグナル</h3><p>参加機関は治安・安全保障機関にとどまらない。OJKが加わったことで、この課題は監督を通じて銀行、保険、証券会社に波及する可能性が高い。国営企業の投資を統括するDanantaraの参加は、国営企業が最初に移行計画の策定を求められる可能性を示す。ただし協力意向表明は規制ではなく、企業に対する義務、期限、罰則はまだない。</p><h3>最も難しいのは暗号の所在把握</h3><p>最初の手順とされる暗号資産の棚卸しは単純に聞こえるが、往々にして最も難しい。暗号はTLS証明書、VPN、電子署名、カード、IoT機器、さらにはベンダーが既に存在しない古いアプリケーションにまで組み込まれている。この一覧がなければ、移行の費用も期間も見積もれない。電子証明書に関わるPeruriの参加は、電子署名基盤が優先分野の一つになることも示唆する。</p><h3>まだ不明な点</h3><p>ソースが挙げる2030年と2035年は一部の国の目標であり、インドネシアの公式目標ではない。BSSNの国家ロードマップも策定中だ。TelkomのNanang Hendarno社長は、備えは一つの機関だけでは築けないと強調した。Telkomが企業向けにPQC移行サービスを提供するのか、金融当局がいつ細則を出すのかが注目点となる。</p>",
+        "actionHtml": "<h3>CISO</h3><ol><li>アルゴリズム、鍵長、証明書、RSAやECCを使うシステムなど暗号の棚卸しに着手する。</li><li>「今盗んで後で解読する」攻撃に最もさらされる、10年以上秘匿が必要なデータを優先する。</li><li>BSSNの移行ガイダンスと国家ロードマップの動向を追う。</li></ol><h3>CIO・CTO</h3><ol><li>新たなシステムや機器の調達条件に、暗号方式を容易に切り替えられるクリプト・アジリティを加える。</li><li>主要ベンダーにNISTのPQC標準への対応計画を確認する。</li></ol><h3>セキュリティベンダー</h3><ol><li>金融業界と国営企業向けに、暗号資産の発見とPQC対応度評価のサービスを用意する。</li></ol>",
+        "faqHtml": "<h3>耐量子暗号（PQC）とは。</h3><p>量子コンピューターに対しても安全性を保つよう設計された暗号アルゴリズムを指す。NISTは2024年8月に最初のPQC標準を公表した。</p><h3>インドネシアのPQC準備にはどの機関が関わっているのか。</h3><p>2026年11月24日の協力意向表明には、Kemenko Polkam、BSSN、Komdigi、Kemdiktisaintek、Danantara Indonesia、OJK、Peruri、BRIN、Telkomが関わっている。</p><h3>企業は既にPQCへの移行を義務付けられているのか。</h3><p>義務はない。署名されたのは規制ではなく協力意向表明で、BSSNは国家移行ロードマップを策定中である。</p>",
+        "dataFigure": "9機関",
+        "dataLabel": "インドネシアの耐量子暗号準備に関する協力意向表明に関わる機関数",
+        "dataSource": "CNBC Indonesia、CNN Indonesia、2026年11月24日",
+        "seoTitle": "インドネシア、耐量子暗号への移行準備　9機関参加",
+        "seoDescription": "政治・安全保障調整省、Telkom、BSSN、OJK、Danantaraなど9機関が耐量子暗号（PQC）への移行準備で協力。CISOが今から始めるべきこと。",
+        "audience": [
+          "CISO",
+          "CIO",
+          "CTO",
+          "セキュリティベンダー"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kemenko-polkam-telkom-kriptografi-pascakuantum-pqc-9-lembaga-ja.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/kemenko-polkam-telkom-kriptografi-pascakuantum-pqc-9-lembaga.png"
+    },
+    {
+      "slug": "jne-salesforce-sales-cloud-700-tenaga-penjualan-konversi-70-persen",
+      "title": "JNE Pantau Pipeline 700 Tenaga Penjualan lewat Salesforce, Konversi Diklaim Naik dari di Bawah 50% ke 70%",
+      "category": "Sales & CRM",
+      "articleType": "analisis",
+      "dek": "JNE memaparkan hasil penggunaan Salesforce Sales Cloud sejak 2021 untuk memantau pipeline 700 tenaga penjualan: konversi diklaim naik dari di bawah 50% menjadi 70% dan respons atas peluang baru turun dari hitungan minggu ke beberapa hari. Perusahaan kini menjajaki AI untuk 2027, dengan catatan bahwa kualitas data menjadi syarat utama.",
+      "summaryHtml": "<ul><li>PT Jalur Nugraha Ekakurir (JNE) menggunakan Salesforce Sales Cloud sejak 2021 untuk menggantikan pencatatan manual dengan pemantauan pipeline 700 tenaga penjualan secara real-time. Hasilnya dipaparkan di Jakarta pada 24 November 2026 (ANTARA, ItWorks).</li><li>Menurut JNE dan Salesforce, waktu respons terhadap peluang bisnis baru turun dari hitungan minggu menjadi beberapa hari, dan tingkat konversi naik dari di bawah 50% menjadi 70%. Bisnis disebut tumbuh 5% selama periode otomatisasi leads (PCplus, ItWorks).</li><li>Leads dibagikan otomatis berdasarkan wilayah, volume pengiriman, dan spesialisasi industri. Menurut Gizmologi, lead tanpa aktivitas hingga batas waktu tertentu dieskalasi ke supervisor penjualan.</li><li>Untuk 2027 dan seterusnya, JNE menyiapkan Tableau Next dan Tableau Agent, dasbor manajemen penjualan dengan kueri bahasa alami, serta menjajaki Agentforce for Sales (PCplus, Gizmologi).</li><li>Gizmologi mencatat bahwa cara pengukuran konversi dan pertumbuhan, termasuk periodenya, tidak dijelaskan.</li></ul>",
+      "analysisHtml": "<h3>Angka yang perlu dibaca dengan hati-hati</h3><p>Lonjakan konversi dari di bawah 50% ke 70% terdengar besar, tetapi angka ini disampaikan dalam acara vendor dan tidak disertai definisi. Tidak jelas apakah konversi dihitung dari lead ke penawaran, atau dari lead ke kontrak, dan pada periode berapa lama. Klaim pertumbuhan bisnis 5% juga tidak bisa dipisahkan dari faktor lain seperti pertumbuhan e-commerce. Yang lebih meyakinkan justru perubahan prosesnya: satu sumber terpusat untuk semua leads, pembagian otomatis, dan eskalasi bila lead tidak ditindaklanjuti. Perubahan seperti ini biasanya yang membuat lead tidak hilang di tengah jalan.</p><h3>Masalah klasik penjualan B2B logistik</h3><p>Perusahaan kurir melayani dua jenis pelanggan yang sangat berbeda: korporasi dan penjual e-commerce bervolume tinggi. Tanpa sistem, permintaan kerja sama mudah tercecer di WhatsApp pribadi tenaga penjualan dan tidak terlihat oleh manajemen. Pembagian lead berdasarkan volume dan industri menunjukkan JNE memperlakukan penjualan sebagai proses yang dapat diukur, bukan sekadar relasi personal. Ini relevan bagi banyak perusahaan Indonesia yang tim penjualannya besar tetapi datanya tersebar.</p><h3>AI baru tahap penjajakan</h3><p>Rencana Agentforce dan Tableau Agent masih berupa penjajakan untuk 2027. Pernyataan Ilyasa Andritiya, National Sales Support Division Head JNE, bahwa “Kalau data yang dimasukkan ke AI masih buruk, hasilnya juga akan buruk” (Gizmologi) menjelaskan urutannya: membereskan data CRM sejak 2021 terlebih dahulu, baru AI. Bagi perusahaan yang ingin langsung melompat ke agen AI penjualan tanpa data pipeline yang rapi, kasus ini menjadi pengingat.</p><h3>Yang tidak disebutkan</h3><p>Sumber tidak menyebut biaya lisensi, jumlah pengguna berbayar, maupun waktu yang dibutuhkan hingga tim penjualan benar-benar disiplin mencatat aktivitas. Padahal adopsi oleh tenaga penjualan sering menjadi titik gagal proyek CRM. Perlu dicermati juga apakah agen AI nantinya hanya membantu atau mulai menghubungi calon pelanggan secara langsung.</p>",
+      "actionHtml": "<h3>Untuk Head of Sales dan Sales Operations</h3><ol><li>Tetapkan definisi konversi yang baku sebelum mengukur dampak CRM, agar angka sebelum dan sesudah dapat dibandingkan.</li><li>Buat aturan pembagian lead dan batas waktu tindak lanjut yang otomatis, lengkap dengan eskalasi ke supervisor.</li><li>Kumpulkan semua sumber lead (kampanye, formulir situs, layanan pelanggan) ke satu sistem sebelum mempertimbangkan AI.</li></ol><h3>Untuk CIO</h3><ol><li>Audit kualitas data CRM (duplikasi, kolom kosong, aktivitas tidak tercatat) sebagai prasyarat proyek agen AI penjualan.</li></ol><h3>Untuk vendor CRM</h3><ol><li>Siapkan studi kasus dengan metrik yang terdefinisi jelas, karena pembeli enterprise semakin kritis terhadap klaim tanpa metodologi.</li></ol>",
+      "faqHtml": "<h3>Sejak kapan JNE menggunakan Salesforce?</h3><p>JNE menggunakan Salesforce Sales Cloud sejak 2021 untuk memantau pipeline 700 tenaga penjualan secara real-time.</p><h3>Apa hasil penggunaan CRM di JNE?</h3><p>Menurut JNE dan Salesforce, tingkat konversi naik dari di bawah 50% menjadi 70% dan waktu respons atas peluang baru turun dari hitungan minggu ke beberapa hari. Metodologi pengukurannya tidak dijelaskan.</p><h3>Apakah JNE sudah memakai agen AI untuk penjualan?</h3><p>Belum sepenuhnya. JNE menjajaki Agentforce for Sales dan menyiapkan Tableau Next serta Tableau Agent untuk 2027 dan seterusnya.</p>",
+      "dataFigure": "70%",
+      "dataLabel": "tingkat konversi penjualan JNE dengan Sales Cloud, sebelumnya di bawah 50% (klaim perusahaan)",
+      "dataSource": "JNE dan Salesforce, via ANTARA dan Gizmologi, 24 November 2026",
+      "audience": [
+        "Head of Sales",
+        "Sales Operations",
+        "CIO",
+        "Vendor CRM"
+      ],
+      "tags": [
+        "Enterprise Adoption",
+        "JNE",
+        "Salesforce",
+        "Sales Cloud",
+        "Agentforce",
+        "CRM",
+        "Logistik"
+      ],
+      "sources": [
+        {
+          "name": "Gizmologi",
+          "title": "Salesforce Pantau Pipeline 700 Sales JNE, AI Dibidik untuk 2027",
+          "url": "https://gizmologi.id/news/salesforce-kelola-700-sales-jne-jajaki-ai-2027",
+          "date": "2026-11-24"
+        },
+        {
+          "name": "ANTARA",
+          "title": "Sales Cloud menjadi transformasi digital JNE",
+          "url": "https://megapolitan.antaranews.com/berita/564723/sales-cloud-menjadi-transformasi-digital-jne",
+          "date": "2026-11-24"
+        },
+        {
+          "name": "PCplus",
+          "title": "JNE Modernisasi Operasional Penjualan Berbasis Sales Cloud dan Siapkan Fondasi AI untuk 2027",
+          "url": "https://www.pcplus.co.id/2026/11/jne-modernisasi-operasional-penjualan-berbasis-sales-cloud-dan-siapkan-fondasi-ai-untuk-2027/",
+          "date": "2026-11-24"
+        },
+        {
+          "name": "ItWorks",
+          "title": "JNE Berhasil Tingkatkan Performa Sales Melalui Pemanfaatan AI Sales Cloud dari Salesforce",
+          "url": "https://www.itworks.id/84580/jne-berhasil-tingkatkan-performa-sales-melalui-pemanfaatan-ai-sales-cloud-dari-salesforce.html",
+          "date": "2026-11-24"
+        }
+      ],
+      "seoTitle": "JNE dan Salesforce Sales Cloud: Konversi Penjualan 70%",
+      "seoDescription": "JNE memantau pipeline 700 tenaga penjualan dengan Salesforce Sales Cloud sejak 2021; konversi diklaim naik ke 70%. Pelajaran CRM bagi Head of Sales.",
+      "publishAt": "2026-11-25T07:30:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "JNE Tracks Pipeline of 700 Salespeople on Salesforce, Says Conversion Rose from Under 50% to 70%",
+        "dek": "JNE presented results from using Salesforce Sales Cloud since 2021 to track the pipeline of 700 salespeople: it says conversion rose from under 50% to 70% and response to new opportunities fell from weeks to a few days. The company is now exploring AI for 2027, noting that data quality is the main prerequisite.",
+        "summaryHtml": "<ul><li>PT Jalur Nugraha Ekakurir (JNE) has used Salesforce Sales Cloud since 2021, replacing manual tracking with real-time monitoring of the pipeline of 700 salespeople. The results were presented in Jakarta on 24 November 2026 (ANTARA, ItWorks).</li><li>According to JNE and Salesforce, response time to new business opportunities fell from weeks to a few days, and the conversion rate rose from below 50% to 70%. The business reportedly grew 5% during the lead automation period (PCplus, ItWorks).</li><li>Leads are assigned automatically by region, shipment volume and industry specialisation. According to Gizmologi, leads with no activity by a set deadline are escalated to a sales supervisor.</li><li>For 2027 and beyond, JNE is preparing Tableau Next and Tableau Agent, a sales management dashboard with natural-language queries, and is exploring Agentforce for Sales (PCplus, Gizmologi).</li><li>Gizmologi notes that how conversion and growth were measured, including the period, was not explained.</li></ul>",
+        "analysisHtml": "<h3>Numbers to read with care</h3><p>A jump in conversion from under 50% to 70% sounds large, but the figure was presented at a vendor event without a definition. It is unclear whether conversion means lead to proposal or lead to contract, or over what period. The 5% business growth claim also cannot be separated from other factors such as e-commerce growth. What is more convincing is the process change: one central source for all leads, automatic assignment, and escalation when a lead is not followed up. Changes like these are usually what stop leads from getting lost.</p><h3>A classic B2B logistics sales problem</h3><p>Courier companies serve two very different customer types: corporates and high-volume e-commerce sellers. Without a system, partnership requests easily get scattered across salespeople's personal WhatsApp accounts, invisible to management. Assigning leads by volume and industry shows JNE treats sales as a measurable process, not just personal relationships. This is relevant to many Indonesian companies with large sales teams and scattered data.</p><h3>AI is still at the exploration stage</h3><p>The Agentforce and Tableau Agent plans are still being explored for 2027. JNE National Sales Support Division Head Ilyasa Andritiya said that if the data fed into AI is poor, the results will be poor too (Gizmologi). That explains the sequence: cleaning up CRM data since 2021 first, then AI. For companies hoping to jump straight to AI sales agents without a clean pipeline, this case is a reminder.</p><h3>What was not said</h3><p>The sources do not mention licence costs, the number of paid users, or how long it took for the sales team to log activities consistently. Yet salesperson adoption is often where CRM projects fail. It is also worth watching whether the AI agents will only assist or will start contacting prospects directly.</p>",
+        "actionHtml": "<h3>For Heads of Sales and Sales Operations</h3><ol><li>Set a standard definition of conversion before measuring CRM impact, so before and after figures can be compared.</li><li>Create automatic lead assignment rules and follow-up deadlines, with escalation to supervisors.</li><li>Bring all lead sources (campaigns, website forms, customer service) into one system before considering AI.</li></ol><h3>For CIOs</h3><ol><li>Audit CRM data quality (duplicates, empty fields, unlogged activity) as a prerequisite for any AI sales agent project.</li></ol><h3>For CRM vendors</h3><ol><li>Prepare case studies with clearly defined metrics, as enterprise buyers are increasingly critical of claims without methodology.</li></ol>",
+        "faqHtml": "<h3>Since when has JNE used Salesforce?</h3><p>JNE has used Salesforce Sales Cloud since 2021 to monitor the pipeline of 700 salespeople in real time.</p><h3>What results did JNE report from its CRM?</h3><p>According to JNE and Salesforce, conversion rose from below 50% to 70% and response time to new opportunities fell from weeks to a few days. The measurement method was not explained.</p><h3>Is JNE already using AI agents for sales?</h3><p>Not fully. JNE is exploring Agentforce for Sales and preparing Tableau Next and Tableau Agent for 2027 and beyond.</p>",
+        "dataFigure": "70%",
+        "dataLabel": "JNE sales conversion rate with Sales Cloud, previously below 50% (company claim)",
+        "dataSource": "JNE and Salesforce, via ANTARA and Gizmologi, 24 November 2026",
+        "seoTitle": "JNE on Salesforce Sales Cloud: 70% Sales Conversion",
+        "seoDescription": "JNE tracks the pipeline of 700 salespeople on Salesforce Sales Cloud since 2021 and says conversion rose to 70%. CRM lessons for Heads of Sales.",
+        "audience": [
+          "Head of Sales",
+          "Sales Operations",
+          "CIO",
+          "CRM vendors"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/jne-salesforce-sales-cloud-700-tenaga-penjualan-konversi-70-persen-en.png"
+      },
+      "ja": {
+        "title": "JNE、営業700人のパイプラインをSalesforceで管理　成約率は5割未満から70%に上昇と説明",
+        "dek": "インドネシアの宅配・物流会社JNEは、2021年から使うSalesforce Sales Cloudで営業担当700人のパイプラインを管理した成果を公表した。成約率は5割未満から70%に上がり、新規案件への対応は数週間から数日に短縮したという。2027年に向けてAIの活用を検討するが、データの質が前提条件だとしている。",
+        "summaryHtml": "<ul><li>PT Jalur Nugraha Ekakurir（JNE）は2021年からSalesforce Sales Cloudを使い、手作業の管理を営業担当700人のパイプラインのリアルタイム監視に置き換えた。成果は2026年11月24日にジャカルタで発表された（ANTARA、ItWorks）。</li><li>JNEとSalesforceによると、新規案件への対応時間は数週間から数日に短縮し、成約率は50%未満から70%に上昇した。リード管理の自動化期間中に事業は5%成長したという（PCplus、ItWorks）。</li><li>リードは地域、出荷量、業種の専門性に応じて自動で割り振られる。Gizmologiによると、期限までに活動記録のないリードは営業スーパーバイザーに上げられる。</li><li>2027年以降に向け、JNEはTableau NextとTableau Agent、自然言語で照会できる営業管理ダッシュボードを準備し、Agentforce for Salesの導入を検討している（PCplus、Gizmologi）。</li><li>Gizmologiは、成約率と成長率の測定方法や対象期間が説明されていないと指摘している。</li></ul>",
+        "analysisHtml": "<h3>数字は慎重に読む必要がある</h3><p>成約率が5割未満から70%へという数字は大きく見えるが、ベンダーのイベントで定義なしに示されたものだ。リードから提案までか契約までか、どの期間かは不明である。5%の事業成長も、Eコマースの拡大など他の要因と切り分けられない。むしろ説得力があるのはプロセスの変化だ。全リードの一元管理、自動割り振り、対応がない場合の上申という仕組みこそ、リードの取りこぼしを防ぐ。</p><h3>物流B2B営業の典型的な課題</h3><p>宅配会社は、法人顧客と大量出荷のEコマース出品者という性質の異なる2種類の顧客を抱える。仕組みがなければ、取引の引き合いは営業担当個人のWhatsAppに散らばり、経営陣から見えなくなる。出荷量や業種でリードを振り分ける手法は、JNEが営業を個人の人脈ではなく測定可能なプロセスとして扱っていることを示す。大規模な営業組織を持ちながらデータが分散している多くのインドネシア企業に参考になる。</p><h3>AIはまだ検討段階</h3><p>AgentforceとTableau Agentの計画は2027年に向けた検討段階にある。JNEのIlyasa Andritiya全国営業支援部門長は、AIに入れるデータが悪ければ結果も悪くなると述べた（Gizmologi）。まず2021年からCRMデータを整え、その後にAIという順序を物語る。整ったパイプラインなしに営業AIエージェントへ飛びつこうとする企業への教訓となる。</p><h3>語られていないこと</h3><p>ライセンス費用、有料ユーザー数、営業担当が活動を確実に記録するまでにかかった期間は示されていない。営業担当の定着こそCRMプロジェクトが失敗しやすい点である。AIエージェントが支援にとどまるのか、見込み客に直接連絡するようになるのかも注目点だ。</p>",
+        "actionHtml": "<h3>営業責任者・営業企画</h3><ol><li>CRMの効果を測る前に成約率の定義を統一し、導入前後を比較できるようにする。</li><li>リードの自動割り振りと対応期限のルールを設け、スーパーバイザーへの上申を組み込む。</li><li>AIを検討する前に、キャンペーン、ウェブフォーム、顧客サービスなど全てのリード源を一つのシステムに集約する。</li></ol><h3>CIO</h3><ol><li>営業AIエージェント導入の前提として、重複、空欄、未記録の活動などCRMデータの品質を点検する。</li></ol><h3>CRMベンダー</h3><ol><li>法人顧客は方法論のない主張に厳しくなっており、指標を明確に定義した事例を用意する。</li></ol>",
+        "faqHtml": "<h3>JNEはいつからSalesforceを使っているのか。</h3><p>2021年からSalesforce Sales Cloudを使い、営業担当700人のパイプラインをリアルタイムで管理している。</p><h3>CRM導入の成果は。</h3><p>JNEとSalesforceによると、成約率は50%未満から70%に上がり、新規案件への対応時間は数週間から数日に短縮した。測定方法は説明されていない。</p><h3>JNEは既に営業でAIエージェントを使っているのか。</h3><p>本格導入には至っていない。Agentforce for Salesを検討し、2027年以降に向けてTableau NextとTableau Agentを準備している。</p>",
+        "dataFigure": "70%",
+        "dataLabel": "Sales Cloud導入後のJNEの成約率（導入前は50%未満、会社側の説明）",
+        "dataSource": "JNE、Salesforce（ANTARA、Gizmologi経由）、2026年11月24日",
+        "seoTitle": "JNE、Salesforceで営業700人を管理",
+        "seoDescription": "インドネシアの宅配・物流会社JNEがSalesforce Sales Cloudで営業700人のパイプラインを管理し、成約率は70%に上昇したと説明。CRM活用の教訓。",
+        "audience": [
+          "営業責任者",
+          "営業企画",
+          "CIO",
+          "CRMベンダー"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/jne-salesforce-sales-cloud-700-tenaga-penjualan-konversi-70-persen-ja.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/jne-salesforce-sales-cloud-700-tenaga-penjualan-konversi-70-persen.png"
+    },
+    {
+      "slug": "danamon-advance-intelligence-group-agen-ai-penagihan-telesales",
+      "title": "Danamon Teken MoU dengan Advance Intelligence Group, Jajaki Agen AI untuk Penagihan dan Telesales",
+      "category": "AI & Automation",
+      "articleType": "analisis",
+      "dek": "PT Bank Danamon Indonesia Tbk, anggota MUFG, menandatangani nota kesepahaman dengan Advance Intelligence Group (AIGL) untuk menjajaki dua solusi agen AI di fungsi penagihan dan telesales. Kesepakatan ini masih tahap eksplorasi, tetapi menunjukkan bahwa bank besar mulai menguji AI yang berbicara langsung dengan nasabah, bukan sekadar alat bantu internal.",
+      "summaryHtml": "<ul><li>Bank Danamon (BDMN), anggota MUFG, dan Advance Intelligence Group (AIGL) menandatangani nota kesepahaman (MoU) kemitraan strategis di bidang AI. Penandatanganan dilakukan oleh Direktur Utama Danamon Nobuya Kawasaki dan CEO AIGL Jefferson Chen, dan diumumkan pada 24 November 2026 (Kontan, TNGlobal).</li><li>Pada tahap awal, Danamon akan menjajaki dan mengevaluasi dua solusi agen AI milik AIGL untuk penagihan dan telesales. Agen tersebut akan berinteraksi dengan nasabah melalui suara dan teks, dengan pengawasan dan tata kelola oleh tim Danamon.</li><li>Agen AI dibangun dari pengalaman AIGL di pembiayaan konsumer, kemampuan kredit, identitas, dan risiko dari ADVANCE.AI (bisnis enterprise AIGL), serta kerangka agentic AI dari AdvanceX (unit agentic AI AIGL).</li><li>Data nasabah akan diproses sesuai ketentuan pelindungan data dan lokalisasi data di Indonesia. Kedua pihak juga menjajaki kerja sama untuk produk valuta asing dan produk berbasis kartu.</li><li>Sumber yang dibaca tidak menyebutkan nilai kerja sama maupun jadwal implementasi.</li></ul>",
+      "analysisHtml": "<h3>Dari alat internal ke agen yang berbicara dengan nasabah</h3><p>Sebagian besar penggunaan AI di perbankan Indonesia selama ini berada di belakang layar: analisis risiko, deteksi penipuan, atau asisten internal bagi karyawan. MoU Danamon berbeda karena menyasar dua fungsi yang langsung bersentuhan dengan nasabah, yaitu penagihan dan telesales, melalui suara dan teks. Kedua fungsi ini bervolume tinggi, berbasis naskah, dan banyak dikerjakan oleh tenaga call center atau pihak ketiga. Karena itu, keduanya merupakan kandidat yang logis untuk otomatisasi, tetapi juga paling sensitif dari sisi reputasi dan pelindungan konsumen.</p><h3>Mengapa penagihan menjadi titik masuk</h3><p>Penagihan adalah area yang sering menjadi sumber keluhan nasabah. Agen AI menawarkan konsistensi naskah, jam kontak yang terkendali, dan rekam jejak percakapan yang lengkap. Hal-hal ini justru dapat membantu kepatuhan jika dirancang dengan benar. Sebaliknya, agen yang salah menafsirkan situasi nasabah dapat menimbulkan risiko baru. Penekanan pada pengawasan oleh tim Danamon menunjukkan bahwa model yang dijajaki adalah AI dengan manusia di dalam proses, bukan otomatisasi penuh. Latar belakang AIGL di pembiayaan konsumer juga relevan, mengingat grup Danamon mencakup perusahaan pembiayaan.</p><h3>Yang belum dijelaskan</h3><p>Pengumuman ini adalah MoU untuk eksplorasi, bukan kontrak implementasi. Tidak ada angka nilai kerja sama, target volume panggilan, jadwal uji coba, atau metrik keberhasilan. Pernyataan bahwa data diproses sesuai aturan lokalisasi data juga belum menjelaskan di mana model dijalankan dan bagaimana rekaman suara nasabah disimpan. Perlu dicermati apakah tahap berikutnya berupa uji coba terbatas dengan indikator yang dipublikasikan, misalnya tingkat pembayaran atau tingkat keluhan.</p><h3>Sinyal bagi pasar</h3><p>Kemungkinan besar, langkah bank anggota grup keuangan global seperti MUFG akan dibaca oleh bank lain sebagai sinyal bahwa agen AI di saluran nasabah mulai bisa diterima, asalkan tata kelolanya jelas. Bagi penyedia call center dan outsourcing penagihan, ini juga tanda bahwa sebagian pekerjaan berbasis naskah bisa bergeser ke agen AI dalam beberapa tahun ke depan.</p>",
+      "actionHtml": "<h3>Untuk CIO dan Head of Digital Banking</h3><ol><li>Petakan proses berbasis naskah yang bervolume tinggi (pengingat jatuh tempo, penawaran produk) dan nilai mana yang cocok untuk agen AI dengan pengawasan manusia.</li><li>Tetapkan sejak awal metrik uji coba: tingkat penyelesaian, tingkat eskalasi ke manusia, dan tingkat keluhan.</li></ol><h3>Untuk CRO, kepatuhan, dan DPO</h3><ol><li>Pastikan lokasi pemrosesan data, penyimpanan rekaman suara, dan hak nasabah atas keputusan otomatis diatur tegas dalam kontrak dengan vendor AI.</li><li>Siapkan naskah dan batasan perilaku agen penagihan agar sejalan dengan ketentuan pelindungan konsumen.</li></ol><h3>Untuk vendor call center dan AI</h3><ol><li>Siapkan model layanan gabungan agen AI dan agen manusia, karena bank cenderung memulai dengan pendekatan bertahap dan diawasi.</li></ol>",
+      "faqHtml": "<h3>Apa isi kerja sama Danamon dan Advance Intelligence Group?</h3><p>Danamon dan AIGL menandatangani MoU kemitraan AI. Tahap awalnya adalah menjajaki dua solusi agen AI untuk penagihan dan telesales, yang berinteraksi dengan nasabah lewat suara dan teks di bawah pengawasan tim Danamon.</p><h3>Apakah agen AI Danamon sudah digunakan untuk menagih nasabah?</h3><p>Belum ada informasi soal itu. Kesepakatan yang diumumkan pada 24 November 2026 adalah nota kesepahaman untuk eksplorasi dan evaluasi, tanpa jadwal implementasi yang diumumkan.</p><h3>Bagaimana data nasabah diproses dalam kerja sama ini?</h3><p>Menurut pengumuman kedua perusahaan, data nasabah akan diproses sesuai ketentuan pelindungan data dan lokalisasi data di Indonesia. Rincian teknisnya belum dijelaskan.</p>",
+      "dataFigure": "2 agen AI",
+      "dataLabel": "solusi agen AI AIGL yang dijajaki Danamon: penagihan dan telesales",
+      "dataSource": "Danamon dan AIGL, via Kontan, 24 November 2026",
+      "audience": [
+        "CIO",
+        "Head of Digital Banking",
+        "CRO",
+        "Vendor AI"
+      ],
+      "tags": [
+        "Enterprise Adoption",
+        "Deals",
+        "Bank Danamon",
+        "MUFG",
+        "Advance Intelligence Group",
+        "Agen AI",
+        "Penagihan"
+      ],
+      "sources": [
+        {
+          "name": "Kontan",
+          "title": "Danamon Gandeng Advance Intelligence Group, AI untuk Penagihan dan Telesales",
+          "url": "https://keuangan.kontan.co.id/news/danamon-gandeng-advance-intelligence-group-ai-untuk-penagihan-dan-telesales",
+          "date": "2026-11-24"
+        },
+        {
+          "name": "TNGlobal",
+          "title": "Bank Danamon Indonesia, Advance Intelligence ink strategic AI partnership",
+          "url": "https://technode.global/2026/11/24/bank-danamon-indonesia-advance-intelligence-ink-ai-partnership",
+          "date": "2026-11-24"
+        },
+        {
+          "name": "Warta Ekonomi",
+          "title": "Danamon dan Advance Intelligence Group Menandatangani Kemitraan Strategis di Bidang AI",
+          "url": "https://wartaekonomi.co.id/read650037/danamon-dan-advance-intelligence-group-menandatangani-kemitraan-strategis-di-bidang-ai",
+          "date": "2026-11-24"
+        }
+      ],
+      "seoTitle": "Danamon dan AIGL Jajaki Agen AI Penagihan dan Telesales",
+      "seoDescription": "Bank Danamon teken MoU dengan Advance Intelligence Group untuk menjajaki agen AI suara dan teks di penagihan dan telesales. Apa artinya bagi bank lain.",
+      "publishAt": "2026-11-25T06:00:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "Danamon Signs MoU with Advance Intelligence Group to Explore AI Agents for Collections and Telesales",
+        "dek": "PT Bank Danamon Indonesia Tbk, a member of MUFG, has signed a memorandum of understanding with Advance Intelligence Group (AIGL) to explore two AI agent solutions for collections and telesales. The deal is still at the exploration stage, but it shows that a large bank is starting to test AI that talks directly to customers, not just internal tools.",
+        "summaryHtml": "<ul><li>Bank Danamon (BDMN), a member of MUFG, and Advance Intelligence Group (AIGL) signed a memorandum of understanding (MoU) for a strategic AI partnership. It was signed by Danamon President Director Nobuya Kawasaki and AIGL CEO Jefferson Chen and announced on 24 November 2026 (Kontan, TNGlobal).</li><li>In the first phase, Danamon will explore and evaluate two AIGL AI agent solutions for collections and telesales. The agents will interact with customers by voice and text, with oversight and governance by Danamon's teams.</li><li>The agents draw on AIGL's consumer finance experience, credit, identity and risk capabilities from ADVANCE.AI (AIGL's enterprise business), and agentic AI frameworks from AdvanceX (AIGL's agentic AI unit).</li><li>Customer data will be processed in line with Indonesia's data protection and data localisation rules. The two companies are also exploring collaboration on foreign exchange and card-based products.</li><li>The sources do not give a deal value or an implementation timeline.</li></ul>",
+        "analysisHtml": "<h3>From internal tools to agents that talk to customers</h3><p>Most AI use in Indonesian banking so far has been behind the scenes: risk analysis, fraud detection, or internal assistants for staff. Danamon's MoU is different because it targets two customer-facing functions, collections and telesales, by voice and text. Both are high-volume, script-based and often handled by call centre staff or third parties. That makes them logical candidates for automation, but also the most sensitive in terms of reputation and consumer protection.</p><h3>Why collections is the entry point</h3><p>Collections is a frequent source of customer complaints. AI agents offer consistent scripts, controlled contact hours and a complete record of every conversation, which can actually help compliance if designed properly. On the other hand, an agent that misreads a customer's situation creates new risks. The emphasis on oversight by Danamon's teams suggests the model being explored is AI with humans in the loop, not full automation. AIGL's consumer finance background is also relevant, given that the Danamon group includes finance companies.</p><h3>What has not been explained</h3><p>This is an MoU for exploration, not an implementation contract. There is no deal value, call volume target, pilot schedule or success metric. The statement that data will be processed under localisation rules does not yet explain where the models run or how customers' voice recordings are stored. It is worth watching whether the next step is a limited pilot with published indicators, such as payment rates or complaint rates.</p><h3>A signal to the market</h3><p>Other banks are likely to read a move by a member of a global financial group such as MUFG as a sign that AI agents in customer channels are becoming acceptable, provided governance is clear. For call centre and collections outsourcing providers, it is also a sign that some script-based work may shift to AI agents over the next few years.</p>",
+        "actionHtml": "<h3>For CIOs and Heads of Digital Banking</h3><ol><li>Map high-volume, script-based processes (due-date reminders, product offers) and assess which suit AI agents with human oversight.</li><li>Set pilot metrics from the start: resolution rate, escalation rate to humans and complaint rate.</li></ol><h3>For CROs, compliance and DPOs</h3><ol><li>Make sure data processing location, voice recording storage and customers' rights over automated decisions are clearly set out in contracts with AI vendors.</li><li>Prepare scripts and behavioural limits for collection agents in line with consumer protection rules.</li></ol><h3>For call centre and AI vendors</h3><ol><li>Prepare a blended service model of AI agents and human agents, as banks tend to start with a phased, supervised approach.</li></ol>",
+        "faqHtml": "<h3>What does the Danamon and Advance Intelligence Group partnership cover?</h3><p>Danamon and AIGL signed an AI partnership MoU. The first phase is to explore two AI agent solutions for collections and telesales, interacting with customers by voice and text under the oversight of Danamon's teams.</p><h3>Is Danamon already using AI agents to collect from customers?</h3><p>There is no information on that. The agreement announced on 24 November 2026 is a memorandum of understanding for exploration and evaluation, with no announced implementation schedule.</p><h3>How will customer data be handled?</h3><p>According to the companies' announcement, customer data will be processed in line with Indonesia's data protection and data localisation rules. Technical details have not been disclosed.</p>",
+        "dataFigure": "2 AI agents",
+        "dataLabel": "AIGL AI agent solutions Danamon is exploring: collections and telesales",
+        "dataSource": "Danamon and AIGL, via Kontan, 24 November 2026",
+        "seoTitle": "Danamon and AIGL Explore AI Agents for Collections",
+        "seoDescription": "Bank Danamon signs an MoU with Advance Intelligence Group to explore voice and text AI agents for collections and telesales. What it means for banks.",
+        "audience": [
+          "CIO",
+          "Head of Digital Banking",
+          "CRO",
+          "AI vendors"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/danamon-advance-intelligence-group-agen-ai-penagihan-telesales-en.png"
+      },
+      "ja": {
+        "title": "ダナモン銀行、Advance Intelligence Groupと覚書　回収・テレセールスでAIエージェントを検討",
+        "dek": "三菱UFJフィナンシャル・グループ（MUFG）傘下のPT Bank Danamon Indonesia Tbkは、Advance Intelligence Group（AIGL）と覚書を締結し、債権回収とテレセールスの2分野でAIエージェントの導入を検討する。現段階は検討にとどまるが、大手銀行が社内向けにとどまらず、顧客と直接対話するAIの試行に動き始めたことを示す。",
+        "summaryHtml": "<ul><li>MUFGグループのダナモン銀行（BDMN）とAIGLは、AI分野の戦略的提携に関する覚書（MoU）を締結した。署名したのはダナモンのNobuya Kawasaki社長とAIGLのJefferson Chen CEOで、2026年11月24日に発表された（Kontan、TNGlobal）。</li><li>第1段階として、ダナモンはAIGLの債権回収向けとテレセールス向けの2つのAIエージェントを検討・評価する。エージェントは音声とテキストで顧客と対話し、ダナモンのチームが監督とガバナンスを担う。</li><li>エージェントは、AIGLの消費者金融の知見、法人向け事業ADVANCE.AIの与信・本人確認・リスク機能、エージェント型AI部門AdvanceXのフレームワークを基盤とする。</li><li>顧客データはインドネシアのデータ保護とデータローカライゼーションの規定に沿って処理される。両社は外国為替商品やカード関連商品での協業も検討する。</li><li>情報源では提携の金額や導入時期は示されていない。</li></ul>",
+        "analysisHtml": "<h3>社内ツールから顧客と話すエージェントへ</h3><p>インドネシアの銀行におけるAI活用はこれまで、リスク分析や不正検知、行員向けアシスタントなど裏方が中心だった。今回の覚書は、債権回収とテレセールスという顧客接点の2業務を音声とテキストで対象とする点で異なる。いずれも件数が多く台本に沿った業務で、コールセンターや外部委託が担うことが多い。自動化の候補として合理的だが、評判と消費者保護の面で最も慎重さが求められる領域でもある。</p><h3>なぜ回収業務が入り口なのか</h3><p>債権回収は顧客の苦情が出やすい業務だ。AIエージェントは台本の一貫性、連絡時間の管理、会話記録の完全な保存をもたらし、適切に設計すればむしろコンプライアンスに資する。一方、顧客の事情を誤って解釈すれば新たなリスクを生む。ダナモンのチームによる監督を強調している点から、検討されているのは完全自動化ではなく、人が関与するAIとみられる。ダナモン・グループに金融会社が含まれることを考えると、AIGLの消費者金融での経験も意味を持つ。</p><h3>明らかにされていないこと</h3><p>今回は検討のための覚書であり、導入契約ではない。提携金額、通話件数の目標、試行の日程、成果指標はいずれも示されていない。データをローカライゼーション規定に沿って処理するとの説明も、モデルをどこで動かし、顧客の音声記録をどう保管するかには触れていない。次の段階が、支払率や苦情率などの指標を公表する限定的な試行になるかが注目点だ。</p><h3>市場へのシグナル</h3><p>MUFGのような世界的金融グループの一員による動きは、ガバナンスが明確であれば顧客チャネルでのAIエージェントも受け入れられ始めたというシグナルとして、他行に受け止められる可能性が高い。コールセンターや回収業務の委託先にとっては、台本型業務の一部が今後数年でAIエージェントに移り得る兆しでもある。</p>",
+        "actionHtml": "<h3>CIO・デジタルバンキング責任者</h3><ol><li>期日案内や商品提案など件数の多い台本型業務を洗い出し、人の監督付きでAIエージェントに適したものを見極める。</li><li>解決率、人への引き継ぎ率、苦情率など試行の評価指標を当初から定める。</li></ol><h3>リスク管理・コンプライアンス責任者、DPO</h3><ol><li>データ処理の場所、音声記録の保管、自動化された判断に対する顧客の権利をAIベンダーとの契約で明確に定める。</li><li>回収エージェントの台本と行動上の制約を消費者保護規定に沿って整える。</li></ol><h3>コールセンター・AIベンダー</h3><ol><li>銀行は段階的かつ監督付きで始める傾向があるため、AIエージェントと人の担当者を組み合わせたサービスモデルを用意する。</li></ol>",
+        "faqHtml": "<h3>ダナモン銀行とAIGLの提携内容は。</h3><p>両社はAI提携の覚書を締結した。第1段階では、債権回収とテレセールス向けの2つのAIエージェントを検討する。エージェントはダナモンのチームの監督下で、音声とテキストで顧客と対話する。</p><h3>ダナモンは既にAIで回収業務を行っているのか。</h3><p>その情報はない。2026年11月24日に発表されたのは検討・評価のための覚書で、導入時期は公表されていない。</p><h3>顧客データはどう扱われるのか。</h3><p>両社の発表によると、インドネシアのデータ保護とデータローカライゼーションの規定に沿って処理される。技術的な詳細は明らかにされていない。</p>",
+        "dataFigure": "2種類",
+        "dataLabel": "ダナモンが検討するAIGLのAIエージェント（債権回収、テレセールス）",
+        "dataSource": "ダナモン、AIGL（Kontan経由）、2026年11月24日",
+        "seoTitle": "ダナモン銀行、回収業務でAIエージェント検討",
+        "seoDescription": "MUFG傘下のダナモン銀行がAdvance Intelligence Groupと覚書を締結。債権回収とテレセールスで音声・テキストのAIエージェントを検討する。",
+        "audience": [
+          "CIO",
+          "デジタルバンキング責任者",
+          "リスク管理責任者",
+          "AIベンダー"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/danamon-advance-intelligence-group-agen-ai-penagihan-telesales-ja.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/danamon-advance-intelligence-group-agen-ai-penagihan-telesales.png"
+    },
     {
       "slug": "tokopedia-tiktok-shop-video-afiliasi-102-persen-harbolnas-2026-rp40-triliun",
       "title": "Video Afiliasi Tokopedia-TikTok Shop Naik 102%: Bekal Penjual Jelang 12.12 dan Harbolnas Rp40 Triliun",
