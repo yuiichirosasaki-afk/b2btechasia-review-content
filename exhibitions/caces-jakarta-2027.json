@@ -1,0 +1,54 @@
+{
+ "slug": "caces-jakarta-2027",
+ "seriesId": "caces-jakarta",
+ "name": "Conversational AI & Customer Experience Summit (CACES) Jakarta 2027",
+ "isOwnEvent": false,
+ "country": "Indonesia",
+ "city": "Jakarta",
+ "venue": null,
+ "organizer": "Altrusia Global Events",
+ "startDate": "2027-07-15",
+ "endDate": "2027-07-15",
+ "dateStatus": "confirmed",
+ "zones": [
+  "Customer Engagement & CX",
+  "AI & Automation"
+ ],
+ "relevance": "A",
+ "exhibitors": null,
+ "visitors": {
+  "value": 271,
+  "edition": "2026",
+  "sourceUrl": "https://conversationaltechsummitasia.com/jakarta"
+ },
+ "admission": "paid",
+ "lastEdition": null,
+ "officialUrl": "https://conversationaltechsummitasia.com/jakarta",
+ "sources": [
+  {
+   "name": "CACES",
+   "title": "CACES Jakarta 2027: Conversational AI & CX Summit",
+   "url": "https://conversationaltechsummitasia.com/jakarta",
+   "date": "2026-11-24"
+  }
+ ],
+ "verifiedAt": "2026-11-24",
+ "id": {
+  "summaryHtml": "<p>Conversational AI & Customer Experience Summit (CACES) Jakarta 2027 adalah konferensi satu hari tentang AI percakapan dan pengalaman pelanggan, dijadwalkan pada 15 Juli 2027 di Jakarta. Ini adalah edisi tahunan keempat di Jakarta, diselenggarakan oleh Altrusia Global Events. Tempat acara belum diumumkan.</p><p>Sasarannya adalah pimpinan layanan pelanggan, contact center, dan program AI. Topiknya meliputi dampak AI percakapan terhadap layanan pelanggan di Indonesia dan pemanfaatan data pelanggan untuk personalisasi. Seluruh sesi berbahasa Inggris, dan tersedia area pameran untuk demo platform.</p><p>Menurut situs resmi, edisi 2026 di Jakarta dihadiri 271 delegasi. Pada 2027 rangkaian CACES juga digelar di Kuala Lumpur dan Singapura.</p>",
+  "faqHtml": "<h3>Kapan CACES Jakarta 2027?</h3><p>Pada 15 Juli 2027 di Jakarta. Tempat acara akan diumumkan lebih dulu kepada pemegang tiket.</p><h3>Apakah gratis?</h3><p>Tidak. Peserta memerlukan pass berbayar yang dibeli di halaman tiket Jakarta; pembayaran dengan invoice juga tersedia.</p><h3>Apakah ada area pameran?</h3><p>Ya. Situs resmi menyebut area pameran dengan demo platform, dan perusahaan dapat mengajukan kemitraan melalui halaman sponsor.</p>",
+  "seoTitle": "CACES Jakarta 2027: AI Percakapan dan CX",
+  "seoDescription": "CACES Jakarta 2027, konferensi AI percakapan dan customer experience dari Altrusia Global Events, digelar 15 Juli 2027 di Jakarta."
+ },
+ "en": {
+  "summaryHtml": "<p>The Conversational AI & Customer Experience Summit (CACES) Jakarta 2027 is a one-day conference on conversational AI and customer experience, scheduled for 15 July 2027 in Jakarta. It is the fourth annual Jakarta edition, organised by Altrusia Global Events. The venue has not been announced.</p><p>It is aimed at leaders of customer service, contact centres and AI programmes. Topics include what conversational AI is doing to customer service in Indonesia and how customer data is used for personalisation. All sessions are in English, and there is an expo floor for platform demonstrations.</p><p>According to the official site, the 2026 Jakarta edition drew 271 delegates. In 2027 the CACES series also runs in Kuala Lumpur and Singapore.</p>",
+  "faqHtml": "<h3>When is CACES Jakarta 2027?</h3><p>On 15 July 2027 in Jakarta. Pass holders will receive the venue details first.</p><h3>Is it free?</h3><p>No. Attendance requires a paid pass from the Jakarta tickets page; invoice payment is also available.</p><h3>Is there an exhibition?</h3><p>Yes. The official site mentions an expo floor with platform demos, and companies can enquire about partnerships through the sponsorship page.</p>",
+  "seoTitle": "CACES Jakarta 2027: Conversational AI and CX",
+  "seoDescription": "CACES Jakarta 2027, the conversational AI and customer experience summit by Altrusia Global Events, takes place on 15 July 2027 in Jakarta."
+ },
+ "ja": {
+  "summaryHtml": "<p>Conversational AI & Customer Experience Summit（CACES）Jakarta 2027は、対話型AIと顧客体験をテーマにした1日間の会議で、2027年7月15日にジャカルタで開かれる。Altrusia Global Eventsが主催するジャカルタでの4回目の年次開催で、会場はまだ発表されていない。</p><p>対象は顧客サービス、コンタクトセンター、AI導入の責任者である。対話型AIがインドネシアの顧客サービスに与える影響や、顧客データを使った個別対応などを扱う。セッションはすべて英語で、プラットフォームのデモを行う展示エリアがある。</p><p>公式サイトによると、2026年のジャカルタ開催には271人が参加した。2027年はクアラルンプールとシンガポールでも開かれる。</p>",
+  "faqHtml": "<h3>日程は？</h3><p>2027年7月15日、ジャカルタで開かれる。会場はパス購入者に先行して案内される。</p><h3>参加は無料か。</h3><p>有料である。ジャカルタ開催のチケットページでパスを購入する。請求書払いにも対応する。</p><h3>展示エリアはあるか。</h3><p>ある。公式サイトはデモを行う展示エリアがあるとしており、企業はスポンサーページから協賛を問い合わせられる。</p>",
+  "seoTitle": "CACES Jakarta 2027 日程・概要",
+  "seoDescription": "対話型AIと顧客体験の会議CACES Jakarta 2027は2027年7月15日にジャカルタで開催。主催はAltrusia Global Eventsで、会場は未発表。"
+ }
+}

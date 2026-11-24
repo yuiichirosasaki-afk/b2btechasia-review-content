@@ -1,6 +1,374 @@
 {
- "generatedAt": "2026-11-22T19:40:21+07:00",
+ "generatedAt": "2026-11-24T09:59:09+07:00",
  "exhibitions": [
+  {
+   "slug": "scalecon-jakarta-2027",
+   "seriesId": "scalecon",
+   "name": "SCALECON Jakarta 2027",
+   "isOwnEvent": false,
+   "country": "Indonesia",
+   "city": "Jakarta",
+   "venue": "Telkom Landmark Tower",
+   "organizer": "SCALECON",
+   "startDate": "2027-01-27",
+   "endDate": "2027-01-27",
+   "dateStatus": "confirmed",
+   "zones": [
+    "AI & Automation",
+    "Cloud & IT Infrastructure"
+   ],
+   "relevance": "B",
+   "exhibitors": null,
+   "visitors": null,
+   "admission": "paid",
+   "lastEdition": null,
+   "officialUrl": "https://scalecon.ai/",
+   "sources": [
+    {
+     "name": "SCALECON",
+     "title": "SCALECON Jakarta 2027: The Agentic Enterprise",
+     "url": "https://scalecon.ai/",
+     "date": "2026-11-24"
+    }
+   ],
+   "verifiedAt": "2026-11-24",
+   "id": {
+    "summaryHtml": "<p>SCALECON Jakarta 2027 adalah konferensi kecerdasan buatan (AI) satu hari yang dijadwalkan pada 27 Januari 2027 di Telkom Landmark Tower, Jakarta. Tema edisi ini adalah \"The Agentic Enterprise\", yaitu cara membangun dan menjalankan agen AI di dalam sistem perusahaan.</p><p>Selain sesi konferensi utama, acara ini memiliki area pameran teknologi. Situs resmi menawarkan beberapa jenis tiket, mulai dari tiket khusus pameran hingga paket yang mencakup konferensi, rekaman sesi, dan jamuan VIP. SCALECON juga menjalankan webinar dan lokakarya AI di luar hari acara.</p><p>Acara ini didukung oleh penyedia layanan cloud Dewaweb, dan sebagian paket tiket menyertakan kredit layanan cloud. Rekaman sesi SCALECON 2025 dan 2026 termasuk dalam paket tertinggi, yang menunjukkan bahwa acara ini sudah digelar pada dua tahun sebelumnya.</p>",
+    "faqHtml": "<h3>Kapan dan di mana SCALECON Jakarta 2027?</h3><p>Pada 27 Januari 2027 di Telkom Landmark Tower, Jakarta.</p><h3>Apakah SCALECON Jakarta 2027 gratis?</h3><p>Tidak. Situs resmi menjual tiket berbayar, termasuk tiket khusus untuk area pameran teknologi.</p><h3>Bagaimana cara menjadi sponsor atau pembicara?</h3><p>Situs resmi menyediakan halaman Become a Sponsor dan Become a Speaker, serta kontak tim penyelenggara.</p>",
+    "seoTitle": "SCALECON Jakarta 2027: Tanggal, Lokasi, Tiket",
+    "seoDescription": "SCALECON Jakarta 2027, konferensi AI bertema The Agentic Enterprise, digelar 27 Januari 2027 di Telkom Landmark Tower, Jakarta, dengan area pameran."
+   },
+   "en": {
+    "summaryHtml": "<p>SCALECON Jakarta 2027 is a one-day artificial intelligence conference scheduled for 27 January 2027 at Telkom Landmark Tower, Jakarta. This edition is themed \"The Agentic Enterprise\": how to build and run AI agents inside company systems.</p><p>Alongside the main conference there is a technology exhibition. The official site sells several pass types, from an exhibition-only pass to packages that add the conference, session recordings and a VIP dinner. SCALECON also runs AI webinars and workshops outside the event day.</p><p>The event is supported by the cloud provider Dewaweb, and some passes include cloud service credits. The top package includes recordings of the 2025 and 2026 SCALECON sessions, indicating that the event was held in both previous years.</p>",
+    "faqHtml": "<h3>When and where is SCALECON Jakarta 2027?</h3><p>On 27 January 2027 at Telkom Landmark Tower, Jakarta.</p><h3>Is SCALECON Jakarta 2027 free?</h3><p>No. The official site sells paid passes, including a pass for the technology exhibition only.</p><h3>How can I sponsor or speak?</h3><p>The official site has Become a Sponsor and Become a Speaker pages, plus contact details for the organising team.</p>",
+    "seoTitle": "SCALECON Jakarta 2027: Date, Venue and Passes",
+    "seoDescription": "SCALECON Jakarta 2027, an AI conference themed The Agentic Enterprise, takes place on 27 January 2027 at Telkom Landmark Tower, Jakarta, with a tech expo."
+   },
+   "ja": {
+    "summaryHtml": "<p>SCALECON Jakarta 2027は、2027年1月27日にジャカルタのTelkom Landmark Towerで開かれる1日間の人工知能（AI）カンファレンスだ。テーマは「The Agentic Enterprise」で、企業システムの中でAIエージェントを構築・運用する方法を扱う。</p><p>メインのカンファレンスに加え、テクノロジー展示エリアがある。公式サイトでは展示エリアのみのパスから、カンファレンス、セッション録画、VIPディナーを含むパッケージまで複数のチケットを販売している。当日以外にもAIのウェビナーやワークショップを開いている。</p><p>クラウド事業者のDewawebが支援しており、一部のチケットにはクラウドサービスのクレジットが付く。最上位のパッケージには2025年と2026年のセッション録画が含まれ、過去2年にも開催されたことがわかる。</p>",
+    "faqHtml": "<h3>SCALECON Jakarta 2027の日程と会場は？</h3><p>2027年1月27日、ジャカルタのTelkom Landmark Towerで開かれる。</p><h3>参加は無料か。</h3><p>有料である。公式サイトは展示エリアのみのパスを含む有料チケットを販売している。</p><h3>スポンサーや登壇を希望する場合は？</h3><p>公式サイトのBecome a SponsorとBecome a Speakerのページ、または運営チームの連絡先から申し込む。</p>",
+    "seoTitle": "SCALECON Jakarta 2027 日程・会場・概要",
+    "seoDescription": "AIエージェントをテーマにしたSCALECON Jakarta 2027は2027年1月27日、ジャカルタのTelkom Landmark Towerで開催。展示エリアも併設する。"
+   },
+   "status": "upcoming"
+  },
+  {
+   "slug": "data-center-indonesia-2027",
+   "seriesId": "data-center-indonesia",
+   "name": "Data Center Indonesia 2027",
+   "isOwnEvent": false,
+   "country": "Indonesia",
+   "city": "Jakarta",
+   "venue": "JIExpo Kemayoran",
+   "organizer": "GEM Indonesia (Global Expo Management)",
+   "startDate": "2027-04-21",
+   "endDate": "2027-04-23",
+   "dateStatus": "confirmed",
+   "zones": [
+    "Cloud & IT Infrastructure"
+   ],
+   "relevance": "B",
+   "exhibitors": null,
+   "visitors": null,
+   "admission": "unknown",
+   "lastEdition": null,
+   "officialUrl": "https://datacenter-exhibition.com/",
+   "sources": [
+    {
+     "name": "Data Center Indonesia",
+     "title": "Event Fact Sheet: Data Center Indonesia 2027",
+     "url": "https://datacenter-exhibition.com/event-fact-sheet/",
+     "date": "2026-11-24"
+    }
+   ],
+   "verifiedAt": "2026-11-24",
+   "id": {
+    "summaryHtml": "<p>Data Center Indonesia 2027 adalah pameran internasional untuk pusat data, sistem cloud, dan solusi komputasi yang dijadwalkan pada 21–23 April 2027 di JIExpo Kemayoran, Jakarta. Penyelenggaranya adalah GEM Indonesia (Global Expo Management).</p><p>Pameran ini digelar bersamaan dengan INATRONICS, Smart IoT Indonesia, dan Smart Home+City Indonesia. Menurut lembar fakta resmi, proyeksi untuk gabungan pameran ini adalah lebih dari 300 perusahaan peserta, 20.000 pengunjung dagang dan profesional, serta area 15.000 meter persegi.</p><p>Kunjungan terbatas bagi kalangan dagang dan bisnis, dan pengunjung di bawah 18 tahun tidak diizinkan masuk. Pameran ini relevan bagi operator pusat data, penyedia cloud, dan tim infrastruktur TI yang mencari pemasok perangkat dan layanan.</p>",
+    "faqHtml": "<h3>Kapan dan di mana Data Center Indonesia 2027?</h3><p>Pada 21–23 April 2027 di JIExpo Kemayoran, Jakarta, pukul 10.00–18.00 pada dua hari pertama dan 10.00–16.30 pada hari terakhir.</p><h3>Pameran apa yang digelar bersamaan?</h3><p>Lembar fakta resmi menyebut INATRONICS, Smart IoT Indonesia, dan Smart Home+City Indonesia.</p><h3>Siapa yang boleh berkunjung?</h3><p>Hanya kalangan dagang dan bisnis; pengunjung di bawah 18 tahun tidak diizinkan masuk.</p>",
+    "seoTitle": "Data Center Indonesia 2027: Tanggal dan Lokasi",
+    "seoDescription": "Data Center Indonesia 2027, pameran pusat data dan cloud dari GEM Indonesia, digelar 21–23 April 2027 di JIExpo Kemayoran, Jakarta."
+   },
+   "en": {
+    "summaryHtml": "<p>Data Center Indonesia 2027 is an international exhibition for data centres, cloud systems and computing solutions, scheduled for 21–23 April 2027 at JIExpo Kemayoran, Jakarta. It is organised by GEM Indonesia (Global Expo Management).</p><p>The show runs together with INATRONICS, Smart IoT Indonesia and Smart Home+City Indonesia. According to the official fact sheet, the projection for the combined shows is more than 300 exhibiting companies, 20,000 trade and professional visitors and 15,000 square metres of space.</p><p>Admission is restricted to trade and business visitors, and under-18s are not admitted. The show is aimed at data centre operators, cloud providers and IT infrastructure teams looking for equipment and service suppliers.</p>",
+    "faqHtml": "<h3>When and where is Data Center Indonesia 2027?</h3><p>On 21–23 April 2027 at JIExpo Kemayoran, Jakarta, from 10:00 to 18:00 on the first two days and 10:00 to 16:30 on the last day.</p><h3>Which shows are co-located?</h3><p>The official fact sheet lists INATRONICS, Smart IoT Indonesia and Smart Home+City Indonesia.</p><h3>Who can visit?</h3><p>Trade and business visitors only; under-18s are not admitted.</p>",
+    "seoTitle": "Data Center Indonesia 2027: Dates and Venue",
+    "seoDescription": "Data Center Indonesia 2027, the data centre and cloud exhibition by GEM Indonesia, runs 21–23 April 2027 at JIExpo Kemayoran, Jakarta."
+   },
+   "ja": {
+    "summaryHtml": "<p>Data Center Indonesia 2027は、データセンター、クラウドシステム、コンピューティングを扱う国際展示会で、2027年4月21〜23日にジャカルタのJIExpo Kemayoranで開かれる。主催はGEM Indonesia（Global Expo Management）だ。</p><p>INATRONICS、Smart IoT Indonesia、Smart Home+City Indonesiaと同時開催となる。公式ファクトシートによると、併催展を合わせた見込みは出展300社超、業界・専門来場者2万人、展示面積1万5000平方メートルである。</p><p>来場は業界・ビジネス関係者に限られ、18歳未満は入場できない。データセンター事業者、クラウド事業者、ITインフラ部門が機器やサービスの調達先を探す場として位置づけられる。</p>",
+    "faqHtml": "<h3>Data Center Indonesia 2027の日程と会場は？</h3><p>2027年4月21〜23日、ジャカルタのJIExpo Kemayoranで開かれる。開場は初日と2日目が10時〜18時、最終日が10時〜16時30分。</p><h3>同時開催の展示会は？</h3><p>公式ファクトシートはINATRONICS、Smart IoT Indonesia、Smart Home+City Indonesiaを挙げている。</p><h3>誰が来場できるか。</h3><p>業界・ビジネス関係者のみで、18歳未満は入場できない。</p>",
+    "seoTitle": "Data Center Indonesia 2027 日程・会場",
+    "seoDescription": "GEM Indonesia主催のデータセンター・クラウド展示会Data Center Indonesia 2027は2027年4月21〜23日、ジャカルタのJIExpo Kemayoranで開催。"
+   },
+   "status": "upcoming"
+  },
+  {
+   "slug": "smart-iot-indonesia-2027",
+   "seriesId": "smart-iot-indonesia",
+   "name": "Smart IoT Indonesia 2027",
+   "isOwnEvent": false,
+   "country": "Indonesia",
+   "city": "Jakarta",
+   "venue": "JIExpo Kemayoran",
+   "organizer": "GEM Indonesia (Global Expo Management)",
+   "startDate": "2027-04-21",
+   "endDate": "2027-04-23",
+   "dateStatus": "confirmed",
+   "zones": [
+    "Cloud & IT Infrastructure",
+    "AI & Automation"
+   ],
+   "relevance": "B",
+   "exhibitors": null,
+   "visitors": null,
+   "admission": "unknown",
+   "lastEdition": null,
+   "officialUrl": "https://www.smartiot-indonesia.com/",
+   "sources": [
+    {
+     "name": "Smart IoT Indonesia",
+     "title": "Event Fact Sheet: Smart IoT Indonesia 2027",
+     "url": "https://www.smartiot-indonesia.com/event-fact-sheet",
+     "date": "2026-11-24"
+    },
+    {
+     "name": "Smart IoT Indonesia",
+     "title": "Event Info: Smart IoT Indonesia",
+     "url": "https://www.smartiot-indonesia.com/event-info",
+     "date": "2026-11-24"
+    }
+   ],
+   "verifiedAt": "2026-11-24",
+   "id": {
+    "summaryHtml": "<p>Smart IoT Indonesia 2027 adalah pameran internasional Internet of Things (IoT) yang dijadwalkan pada 21–23 April 2027 di JIExpo Kemayoran, Jakarta. Pameran tahunan ini diselenggarakan oleh GEM Indonesia dan hanya terbuka bagi kalangan dagang dan bisnis; pengunjung di bawah 18 tahun tidak diizinkan masuk.</p><p>Pameran ini menghubungkan IoT dengan bangunan pintar, infrastruktur digital, elektronik, dan energi terbarukan. Sasaran pesertanya meliputi penyedia teknologi, pembeli dari industri, pemilik proyek, instansi pemerintah, dan profesional teknologi. Penyelenggara memproyeksikan lebih dari 300 perusahaan peserta pameran, 20.000 pengunjung profesional, dan area seluas 15.000 meter persegi.</p><p>Daftar pameran pendamping berbeda di dua halaman resmi: lembar fakta menyebut Smart Home+City Indonesia, Solartech Indonesia, Inalight, dan Inagreentech, sedangkan halaman info acara menyebut Smart Home+City Indonesia, Data Center Indonesia, INATRONICS, dan Solartech Indonesia.</p>",
+    "faqHtml": "<h3>Kapan dan di mana Smart IoT Indonesia 2027?</h3><p>Pada 21–23 April 2027 di JIExpo Kemayoran, Jakarta. Jam buka 10.00–18.00 pada dua hari pertama dan 10.00–16.30 pada hari terakhir.</p><h3>Siapa yang boleh berkunjung?</h3><p>Menurut lembar fakta resmi, pameran ini khusus untuk kalangan dagang dan bisnis, dan pengunjung di bawah 18 tahun tidak diizinkan masuk. Pendaftaran pengunjung dilakukan melalui situs resmi.</p><h3>Bagaimana cara menjadi peserta pameran?</h3><p>Situs resmi memiliki formulir pendaftaran peserta pameran di bagian Exhibiting.</p>",
+    "seoTitle": "Smart IoT Indonesia 2027: Tanggal dan Lokasi",
+    "seoDescription": "Smart IoT Indonesia 2027, pameran Internet of Things dari GEM Indonesia, digelar 21–23 April 2027 di JIExpo Kemayoran, Jakarta, khusus kalangan bisnis."
+   },
+   "en": {
+    "summaryHtml": "<p>Smart IoT Indonesia 2027 is an international Internet of Things (IoT) exhibition scheduled for 21–23 April 2027 at JIExpo Kemayoran, Jakarta. The annual show is organised by GEM Indonesia and is open to trade and business visitors only; visitors under 18 are not admitted.</p><p>The exhibition links IoT with smart buildings, digital infrastructure, electronics and renewable energy. Its target audience includes technology providers, industrial buyers, project owners, government agencies and technology professionals. The organiser projects more than 300 exhibiting companies, 20,000 professional visitors and 15,000 square metres of space.</p><p>The list of co-located shows differs between two official pages: the fact sheet names Smart Home+City Indonesia, Solartech Indonesia, Inalight and Inagreentech, while the event info page names Smart Home+City Indonesia, Data Center Indonesia, INATRONICS and Solartech Indonesia.</p>",
+    "faqHtml": "<h3>When and where is Smart IoT Indonesia 2027?</h3><p>On 21–23 April 2027 at JIExpo Kemayoran, Jakarta. Opening hours are 10:00–18:00 on the first two days and 10:00–16:30 on the last day.</p><h3>Who can visit?</h3><p>According to the official fact sheet, the show is for trade and business visitors only, and under-18s are not admitted. Visitors register on the official site.</p><h3>How do I exhibit?</h3><p>The official site has an exhibitor registration form in its Exhibiting section.</p>",
+    "seoTitle": "Smart IoT Indonesia 2027: Dates and Venue",
+    "seoDescription": "Smart IoT Indonesia 2027, the IoT trade show by GEM Indonesia, runs 21–23 April 2027 at JIExpo Kemayoran, Jakarta, for trade visitors only."
+   },
+   "ja": {
+    "summaryHtml": "<p>Smart IoT Indonesia 2027は、2027年4月21〜23日にジャカルタのJIExpo Kemayoranで開かれるモノのインターネット（IoT）の国際展示会だ。GEM Indonesiaが毎年主催し、来場は業界・ビジネス関係者に限られる。18歳未満は入場できない。</p><p>IoTをスマートビル、デジタルインフラ、電子機器、再生可能エネルギーと結び付ける構成で、技術提供企業、産業界のバイヤー、政府機関などが対象だ。主催者は出展300社超、来場2万人、展示面積1万5000平方メートルを見込む。</p><p>併催展の一覧は公式ページによって異なる。ファクトシートはSmart Home+City Indonesia、Solartech Indonesia、Inalight、Inagreentechを挙げ、イベント情報ページはSmart Home+City Indonesia、Data Center Indonesia、INATRONICS、Solartech Indonesiaを挙げている。</p>",
+    "faqHtml": "<h3>Smart IoT Indonesia 2027の日程と会場は？</h3><p>2027年4月21〜23日、ジャカルタのJIExpo Kemayoranで開かれる。開場時間は初日と2日目が10時〜18時、最終日が10時〜16時30分。</p><h3>誰が来場できるか。</h3><p>公式ファクトシートによると業界・ビジネス関係者のみで、18歳未満は入場できない。来場登録は公式サイトで行う。</p><h3>出展するにはどうすればよいか。</h3><p>公式サイトのExhibitingの項目にある出展申込フォームから申し込む。</p>",
+    "seoTitle": "Smart IoT Indonesia 2027 日程・会場・概要",
+    "seoDescription": "GEM Indonesia主催のIoT展示会Smart IoT Indonesia 2027は2027年4月21〜23日、ジャカルタのJIExpo Kemayoranで開催。来場は業界関係者に限る。"
+   },
+   "status": "upcoming"
+  },
+  {
+   "slug": "hr-directors-indonesia-summit-2027",
+   "seriesId": "hr-directors-indonesia-summit",
+   "name": "HR Directors Indonesia Summit 2027",
+   "isOwnEvent": false,
+   "country": "Indonesia",
+   "city": "Bali",
+   "venue": "The Westin Resort Nusa Dua, Bali",
+   "organizer": "MSW Global",
+   "startDate": "2027-04-28",
+   "endDate": "2027-04-29",
+   "dateStatus": "confirmed",
+   "zones": [
+    "HR Tech & Workforce Management"
+   ],
+   "relevance": "B",
+   "exhibitors": null,
+   "visitors": {
+    "value": 414,
+    "edition": "2026",
+    "sourceUrl": "https://www.hrdisummit.com/"
+   },
+   "admission": "unknown",
+   "lastEdition": null,
+   "officialUrl": "https://www.hrdisummit.com/",
+   "sources": [
+    {
+     "name": "HR Directors Indonesia Summit",
+     "title": "HR Directors Indonesia Summit 2027",
+     "url": "https://www.hrdisummit.com/",
+     "date": "2026-11-24"
+    }
+   ],
+   "verifiedAt": "2026-11-24",
+   "id": {
+    "summaryHtml": "<p>HR Directors Indonesia (HRDI) Summit 2027 adalah pertemuan para pimpinan sumber daya manusia yang dijadwalkan pada 28–29 April 2027 di The Westin Resort Nusa Dua, Bali. Situs resmi mencantumkan MSW Global sebagai penyelenggara.</p><p>Peserta yang dituju meliputi direktur dan kepala HR, CHRO, spesialis pengembangan kepemimpinan dan pengalaman karyawan, serta penyedia teknologi HR. Menurut situs resmi, edisi 2026 diikuti 414 peserta.</p><p>Penyedia solusi dapat ikut sebagai sponsor; situs resmi menyediakan proposal sponsor untuk diunduh dan formulir pengajuan sponsor. Sponsor edisi sebelumnya antara lain berasal dari bidang perangkat lunak penggajian, pembelajaran digital, dan perbankan.</p>",
+    "faqHtml": "<h3>Kapan dan di mana HRDI Summit 2027?</h3><p>Pada 28–29 April 2027 di The Westin Resort Nusa Dua, Bali.</p><h3>Berapa jumlah peserta HRDI Summit?</h3><p>Situs resmi mencatat 414 peserta pada edisi 2026.</p><h3>Bagaimana cara menjadi sponsor?</h3><p>Unduh proposal sponsor dan isi formulir Apply as a Sponsor di situs resmi.</p>",
+    "seoTitle": "HRDI Summit 2027 Bali: Tanggal dan Lokasi",
+    "seoDescription": "HR Directors Indonesia Summit 2027 digelar 28–29 April 2027 di The Westin Resort Nusa Dua, Bali. Edisi 2026 diikuti 414 peserta."
+   },
+   "en": {
+    "summaryHtml": "<p>HR Directors Indonesia (HRDI) Summit 2027 is a gathering of human resources leaders scheduled for 28–29 April 2027 at The Westin Resort Nusa Dua, Bali. The official site names MSW Global as the organiser.</p><p>The intended audience includes HR directors and heads, CHROs, leadership development and employee experience specialists, and HR technology providers. According to the official site, the 2026 edition had 414 participants.</p><p>Solution providers can take part as sponsors; the official site offers a downloadable sponsorship proposal and a sponsor application form. Past sponsors include companies in payroll software, digital learning and banking.</p>",
+    "faqHtml": "<h3>When and where is HRDI Summit 2027?</h3><p>On 28–29 April 2027 at The Westin Resort Nusa Dua, Bali.</p><h3>How many people attend?</h3><p>The official site reports 414 participants for the 2026 edition.</p><h3>How do I become a sponsor?</h3><p>Download the sponsorship proposal and use the Apply as a Sponsor form on the official site.</p>",
+    "seoTitle": "HRDI Summit 2027 Bali: Dates and Venue",
+    "seoDescription": "HR Directors Indonesia Summit 2027 takes place on 28–29 April 2027 at The Westin Resort Nusa Dua, Bali. The 2026 edition had 414 participants."
+   },
+   "ja": {
+    "summaryHtml": "<p>HR Directors Indonesia（HRDI）Summit 2027は、人事部門の責任者が集まる会議で、2027年4月28〜29日にバリ島のThe Westin Resort Nusa Duaで開かれる。公式サイトは主催者としてMSW Globalを挙げている。</p><p>対象は人事担当役員・部長、CHRO、リーダーシップ開発や従業員体験の担当者、HRテクノロジーの提供企業である。公式サイトによると、2026年の参加者は414人だった。</p><p>製品・サービスの提供企業はスポンサーとして参加できる。公式サイトでスポンサー提案書をダウンロードでき、申込フォームもある。過去のスポンサーには給与計算ソフト、デジタル学習、銀行などの企業が並ぶ。</p>",
+    "faqHtml": "<h3>HRDI Summit 2027の日程と会場は？</h3><p>2027年4月28〜29日、バリ島のThe Westin Resort Nusa Duaで開かれる。</p><h3>参加者の規模は？</h3><p>公式サイトによると2026年は414人が参加した。</p><h3>スポンサーになるには？</h3><p>公式サイトでスポンサー提案書をダウンロードし、Apply as a Sponsorのフォームから申し込む。</p>",
+    "seoTitle": "HRDI Summit 2027（バリ）日程・会場",
+    "seoDescription": "HR Directors Indonesia Summit 2027は2027年4月28〜29日、バリ島のThe Westin Resort Nusa Duaで開催。2026年の参加者は414人。"
+   },
+   "status": "upcoming"
+  },
+  {
+   "slug": "transport-logistics-indonesia-2027",
+   "seriesId": "transport-logistics-indonesia",
+   "name": "Transport & Logistics Indonesia 2027",
+   "isOwnEvent": false,
+   "country": "Indonesia",
+   "city": "Jakarta",
+   "venue": "JIExpo Kemayoran",
+   "organizer": "GEM Indonesia (Global Expo Management)",
+   "startDate": "2027-05-26",
+   "endDate": "2027-05-28",
+   "dateStatus": "confirmed",
+   "zones": [
+    "Logistics & Supply Chain Tech"
+   ],
+   "relevance": "B",
+   "exhibitors": null,
+   "visitors": null,
+   "admission": "unknown",
+   "lastEdition": null,
+   "officialUrl": "https://logistics-indonesia.net/",
+   "sources": [
+    {
+     "name": "Transport & Logistics Indonesia",
+     "title": "Welcome to Transport & Logistics Indonesia 2027",
+     "url": "https://logistics-indonesia.net/",
+     "date": "2026-11-24"
+    }
+   ],
+   "verifiedAt": "2026-11-24",
+   "id": {
+    "summaryHtml": "<p>Transport & Logistics Indonesia 2027 adalah pameran internasional untuk industri transportasi, logistik, rantai pasok, pergudangan, dan penanganan material. Edisi ketujuh ini dijadwalkan pada 26–28 Mei 2027 di JIExpo Kemayoran, Jakarta, dan diselenggarakan oleh GEM Indonesia.</p><p>Cakupan produknya meliputi peralatan penanganan material, manajemen armada, solusi rantai dingin, teknologi logistik pintar, rantai pasok digital, dan sistem otomasi. Penyelenggara mengaitkan pameran ini dengan pertumbuhan e-commerce, industrialisasi, dan pembangunan infrastruktur di Indonesia.</p><p>Bagi pembaca dari bidang teknologi, bagian yang paling relevan adalah perangkat lunak dan sistem untuk pelacakan armada, otomasi gudang, dan digitalisasi rantai pasok, di samping peralatan fisik yang menjadi inti pameran.</p>",
+    "faqHtml": "<h3>Kapan dan di mana Transport & Logistics Indonesia 2027?</h3><p>Pada 26–28 Mei 2027 di Jakarta International Expo (JIExpo) Kemayoran, Jakarta.</p><h3>Apa saja yang dipamerkan?</h3><p>Menurut situs resmi: peralatan penanganan material, manajemen armada, rantai dingin, teknologi logistik pintar, rantai pasok digital, dan otomasi.</p><h3>Siapa penyelenggaranya?</h3><p>GEM Indonesia, penyelenggara pameran dagang yang berbasis di Jakarta.</p>",
+    "seoTitle": "Transport & Logistics Indonesia 2027: Tanggal",
+    "seoDescription": "Transport & Logistics Indonesia 2027 digelar 26–28 Mei 2027 di JIExpo Kemayoran, Jakarta: logistik, rantai pasok, pergudangan, dan otomasi."
+   },
+   "en": {
+    "summaryHtml": "<p>Transport & Logistics Indonesia 2027 is an international exhibition for the transport, logistics, supply chain, warehousing and material handling industries. This seventh edition is scheduled for 26–28 May 2027 at JIExpo Kemayoran, Jakarta, and is organised by GEM Indonesia.</p><p>The product scope covers material handling equipment, fleet management, cold chain solutions, smart logistics technology, digital supply chains and automation systems. The organiser links the show to the growth of e-commerce, industrialisation and infrastructure development in Indonesia.</p><p>For technology readers, the most relevant parts are software and systems for fleet tracking, warehouse automation and supply chain digitalisation, alongside the physical equipment that forms the core of the show.</p>",
+    "faqHtml": "<h3>When and where is Transport & Logistics Indonesia 2027?</h3><p>On 26–28 May 2027 at Jakarta International Expo (JIExpo) Kemayoran, Jakarta.</p><h3>What is on display?</h3><p>According to the official site: material handling equipment, fleet management, cold chain, smart logistics technology, digital supply chains and automation.</p><h3>Who organises it?</h3><p>GEM Indonesia, a trade show organiser based in Jakarta.</p>",
+    "seoTitle": "Transport & Logistics Indonesia 2027: Dates",
+    "seoDescription": "Transport & Logistics Indonesia 2027 runs 26–28 May 2027 at JIExpo Kemayoran, Jakarta, covering logistics, supply chain, warehousing and automation."
+   },
+   "ja": {
+    "summaryHtml": "<p>Transport & Logistics Indonesia 2027は、運輸、物流、サプライチェーン、倉庫、マテリアルハンドリングを扱う国際展示会だ。7回目となる今回は2027年5月26〜28日にジャカルタのJIExpo Kemayoranで開かれ、GEM Indonesiaが主催する。</p><p>出展分野はマテリアルハンドリング機器、車両管理、コールドチェーン、スマート物流技術、サプライチェーンのデジタル化、自動化システムに及ぶ。主催者は電子商取引の拡大、工業化、インフラ整備と結び付けて開催の意義を説明している。</p><p>IT分野の読者にとっては、展示の中心である物理的な機器に加え、車両追跡、倉庫自動化、サプライチェーンのデジタル化を支えるソフトウエアやシステムが注目点となる。</p>",
+    "faqHtml": "<h3>日程と会場は？</h3><p>2027年5月26〜28日、ジャカルタのJIExpo Kemayoranで開かれる。</p><h3>どのような分野が展示されるか。</h3><p>公式サイトによると、マテリアルハンドリング機器、車両管理、コールドチェーン、スマート物流技術、デジタルサプライチェーン、自動化である。</p><h3>主催者は？</h3><p>ジャカルタに拠点を置く展示会主催会社のGEM Indonesiaである。</p>",
+    "seoTitle": "Transport & Logistics Indonesia 2027 日程",
+    "seoDescription": "物流・サプライチェーンの展示会Transport & Logistics Indonesia 2027は2027年5月26〜28日、ジャカルタのJIExpo Kemayoranで開催。"
+   },
+   "status": "upcoming"
+  },
+  {
+   "slug": "indonesia-cloud-datacenter-convention-2027",
+   "seriesId": "indonesia-cloud-datacenter-convention",
+   "name": "Indonesia Cloud & Datacenter Convention 2027",
+   "isOwnEvent": false,
+   "country": "Indonesia",
+   "city": "Jakarta",
+   "venue": "Shangri-La Hotel, Jakarta",
+   "organizer": "W.Media",
+   "startDate": "2027-05-27",
+   "endDate": "2027-05-27",
+   "dateStatus": "confirmed",
+   "zones": [
+    "Cloud & IT Infrastructure"
+   ],
+   "relevance": "B",
+   "exhibitors": null,
+   "visitors": null,
+   "admission": "paid",
+   "lastEdition": null,
+   "officialUrl": "https://clouddatacenter.events/events/indonesia-cloud-datacenter-convention-2027",
+   "sources": [
+    {
+     "name": "W.Media Cloud & Datacenter Convention",
+     "title": "Indonesia Cloud & Datacenter Convention 2027",
+     "url": "https://clouddatacenter.events/events/indonesia-cloud-datacenter-convention-2027",
+     "date": "2026-11-24"
+    }
+   ],
+   "verifiedAt": "2026-11-24",
+   "id": {
+    "summaryHtml": "<p>Indonesia Cloud & Datacenter Convention 2027 adalah konferensi satu hari tentang cloud dan pusat data yang dijadwalkan pada 27 Mei 2027 di Shangri-La Hotel, Jakarta. Acara ini merupakan bagian dari rangkaian Cloud & Datacenter Convention yang diselenggarakan W.Media di berbagai kota di Asia dan kawasan lain.</p><p>Konvensi ini mempertemukan operator pusat data, penyedia cloud, perusahaan pengguna, pemasok infrastruktur, dan investor yang terlibat dalam pasar digital Indonesia. Halaman resmi menampilkan target 1.500 peserta untuk edisi 2027.</p><p>Selain sesi panel, W.Media menawarkan paket sponsor yang mencakup booth pameran, slot pembicara, dan branding. Agenda dan daftar pembicara 2027 akan diperbarui di halaman resmi.</p>",
+    "faqHtml": "<h3>Kapan dan di mana Indonesia Cloud & Datacenter Convention 2027?</h3><p>Pada 27 Mei 2027 di Shangri-La Hotel, Jakarta.</p><h3>Apakah acara ini gratis?</h3><p>Tiket business delegate berbayar. Halaman resmi juga menyebut kuota terbatas tiket bersponsor gratis untuk pengguna akhir, operator telekomunikasi, perwakilan pemerintah, dan media.</p><h3>Bagaimana cara menjadi sponsor atau peserta pameran?</h3><p>Melalui halaman sponsor dan formulir permintaan di situs W.Media.</p>",
+    "seoTitle": "Indonesia Cloud & Datacenter Convention 2027",
+    "seoDescription": "Indonesia Cloud & Datacenter Convention 2027 dari W.Media digelar 27 Mei 2027 di Shangri-La Hotel Jakarta. Tiket berbayar, kuota gratis untuk end user."
+   },
+   "en": {
+    "summaryHtml": "<p>Indonesia Cloud & Datacenter Convention 2027 is a one-day conference on cloud and data centres, scheduled for 27 May 2027 at the Shangri-La Hotel, Jakarta. It is part of the Cloud & Datacenter Convention series that W.Media runs in cities across Asia and beyond.</p><p>The convention brings together data centre operators, cloud providers, enterprise users, infrastructure suppliers and investors active in Indonesia's digital market. The official page shows a target of 1,500 attendees for the 2027 edition.</p><p>Besides panel sessions, W.Media offers sponsorship packages that include exhibition booths, speaking slots and branding. The 2027 agenda and speaker list will be updated on the official page.</p>",
+    "faqHtml": "<h3>When and where is the Indonesia Cloud & Datacenter Convention 2027?</h3><p>On 27 May 2027 at the Shangri-La Hotel, Jakarta.</p><h3>Is it free?</h3><p>The business delegate pass is paid. The official page also mentions a limited number of free sponsored passes for end users, telcos, government representatives and press.</p><h3>How can I sponsor or exhibit?</h3><p>Through the sponsorship pages and enquiry form on W.Media's site.</p>",
+    "seoTitle": "Indonesia Cloud & Datacenter Convention 2027",
+    "seoDescription": "W.Media's Indonesia Cloud & Datacenter Convention 2027 is on 27 May 2027 at the Shangri-La Hotel Jakarta. Paid passes; limited free passes for end users."
+   },
+   "ja": {
+    "summaryHtml": "<p>Indonesia Cloud & Datacenter Convention 2027は、クラウドとデータセンターをテーマにした1日間の会議で、2027年5月27日にジャカルタのShangri-La Hotelで開かれる。W.Mediaがアジアなど各地で開くCloud & Datacenter Conventionシリーズの一つだ。</p><p>データセンター事業者、クラウド事業者、利用企業、インフラ機器の供給企業、投資家など、インドネシアのデジタル市場に関わる企業が集まる。公式ページは2027年の参加者目標を1500人としている。</p><p>パネル討論のほか、展示ブース、登壇枠、ブランディングを含むスポンサー枠がある。2027年のアジェンダと登壇者は公式ページで順次更新される。</p>",
+    "faqHtml": "<h3>日程と会場は？</h3><p>2027年5月27日、ジャカルタのShangri-La Hotelで開かれる。</p><h3>参加は無料か。</h3><p>ビジネス向けの参加パスは有料である。公式ページは、エンドユーザー、通信事業者、政府関係者、報道向けに数量限定の無料招待パスがあるとしている。</p><h3>スポンサーや出展の申し込み方法は？</h3><p>W.Mediaのサイトにあるスポンサー案内のページと問い合わせフォームから申し込む。</p>",
+    "seoTitle": "Indonesia Cloud & Datacenter 2027 日程",
+    "seoDescription": "W.Media主催のIndonesia Cloud & Datacenter Convention 2027は2027年5月27日、ジャカルタのShangri-La Hotelで開催。参加は原則有料。"
+   },
+   "status": "upcoming"
+  },
+  {
+   "slug": "dcd-connect-apac-2027",
+   "seriesId": "dcd-connect-apac",
+   "name": "DCD Connect | APAC 2027",
+   "isOwnEvent": false,
+   "country": "Indonesia",
+   "city": "Bali",
+   "venue": "InterContinental Bali Resort",
+   "organizer": "DCD (DatacenterDynamics)",
+   "startDate": "2027-06-08",
+   "endDate": "2027-06-10",
+   "dateStatus": "confirmed",
+   "zones": [
+    "Cloud & IT Infrastructure"
+   ],
+   "relevance": "B",
+   "exhibitors": null,
+   "visitors": null,
+   "admission": "mixed",
+   "lastEdition": null,
+   "officialUrl": "https://www.datacenterdynamics.com/en/dcdconnect-live/apac/2027/",
+   "sources": [
+    {
+     "name": "DCD",
+     "title": "DCD Connect | APAC 2027",
+     "url": "https://www.datacenterdynamics.com/en/dcdconnect-live/apac/2027/",
+     "date": "2026-11-24"
+    },
+    {
+     "name": "DCD",
+     "title": "Book Your Pass: DCD Connect | APAC 2027",
+     "url": "https://www.datacenterdynamics.com/en/dcdconnect-live/apac/2027/book-your-pass-apac/",
+     "date": "2026-11-24"
+    }
+   ],
+   "verifiedAt": "2026-11-24",
+   "id": {
+    "summaryHtml": "<p>DCD Connect | APAC 2027 adalah konferensi industri pusat data kawasan Asia Pasifik yang dijadwalkan pada 8–10 Juni 2027 di InterContinental Bali Resort, Bali. Penyelenggaranya adalah DCD (DatacenterDynamics), yang menggelar seri Connect di sejumlah kota dunia.</p><p>Acara ini ditujukan bagi tim desain, pembangunan, operasi, dan strategi pusat data. Bersamaan dengannya digelar DCD Investment Forum | APAC untuk investor dan tim keuangan, serta Leadership Summit tertutup bagi eksekutif operator cloud dan colocation. Penyelenggara menargetkan lebih dari 2.500 pemimpin senior pada 2027.</p><p>Menurut penyelenggara, edisi 2027 pindah ke tempat yang lebih besar setelah edisi sebelumnya terjual habis, dengan ruang pameran yang lebih luas bagi pemasok teknologi.</p>",
+    "faqHtml": "<h3>Kapan dan di mana DCD Connect | APAC 2027?</h3><p>Pada 8–10 Juni 2027 di InterContinental Bali Resort, Bali.</p><h3>Apakah gratis?</h3><p>Pass End-User/Specifier, General Admission, dan Investment Forum gratis; pass untuk vendor teknologi dan jasa berbayar.</p><h3>Acara apa yang digelar bersamaan?</h3><p>DCD Investment Forum | APAC dan DCD Leadership Summit | APAC.</p>",
+    "seoTitle": "DCD Connect APAC 2027 Bali: Tanggal dan Lokasi",
+    "seoDescription": "DCD Connect | APAC 2027, konferensi pusat data Asia Pasifik, digelar 8–10 Juni 2027 di InterContinental Bali Resort. Gratis untuk end user."
+   },
+   "en": {
+    "summaryHtml": "<p>DCD Connect | APAC 2027 is an Asia-Pacific data centre industry conference scheduled for 8–10 June 2027 at the InterContinental Bali Resort, Bali. It is organised by DCD (DatacenterDynamics), which runs the Connect series in several cities worldwide.</p><p>The event targets data centre design, build, operations and strategy teams. It runs alongside the DCD Investment Forum | APAC for investors and finance teams and a closed-door Leadership Summit for executives of cloud and colocation operators. The organiser aims for more than 2,500 senior leaders in 2027.</p><p>According to the organiser, the 2027 edition moves to a larger venue after the previous edition sold out, with more exhibition space for technology suppliers.</p>",
+    "faqHtml": "<h3>When and where is DCD Connect | APAC 2027?</h3><p>On 8–10 June 2027 at the InterContinental Bali Resort, Bali.</p><h3>Is it free?</h3><p>The End-User/Specifier, General Admission and Investment Forum passes are free; the pass for technology and service vendors is paid.</p><h3>What runs alongside it?</h3><p>The DCD Investment Forum | APAC and the DCD Leadership Summit | APAC.</p>",
+    "seoTitle": "DCD Connect APAC 2027 Bali: Dates and Venue",
+    "seoDescription": "DCD Connect | APAC 2027, the Asia-Pacific data centre conference, runs 8–10 June 2027 at the InterContinental Bali Resort. Free for end users."
+   },
+   "ja": {
+    "summaryHtml": "<p>DCD Connect | APAC 2027は、アジア太平洋のデータセンター業界が集まる会議で、2027年6月8〜10日にバリ島のInterContinental Bali Resortで開かれる。主催は世界各地でConnectシリーズを開くDCD（DatacenterDynamics）だ。</p><p>データセンターの設計、建設、運用、戦略の担当者が対象である。投資家・財務担当者向けのDCD Investment Forum | APACと、クラウド・コロケーション事業者の経営層向けの非公開会合Leadership Summitが同時に開かれる。主催者は2027年に2500人超の幹部の参加を見込む。</p><p>主催者によると、前回が満員となったため2027年は会場を広げ、技術供給企業の展示スペースも拡大する。</p>",
+    "faqHtml": "<h3>日程と会場は？</h3><p>2027年6月8〜10日、バリ島のInterContinental Bali Resortで開かれる。</p><h3>参加は無料か。</h3><p>End-User/Specifier、General Admission、Investment Forumの各パスは無料で、技術・サービスのベンダー向けパスは有料である。</p><h3>同時開催の行事は？</h3><p>DCD Investment Forum | APACとDCD Leadership Summit | APACである。</p>",
+    "seoTitle": "DCD Connect APAC 2027（バリ）日程・会場",
+    "seoDescription": "アジア太平洋のデータセンター会議DCD Connect | APAC 2027は2027年6月8〜10日、バリ島のInterContinental Bali Resortで開催。利用企業は無料。"
+   },
+   "status": "upcoming"
+  },
   {
    "slug": "world-ai-show-indonesia-2027",
    "seriesId": "world-ai-show-indonesia",
@@ -48,6 +416,114 @@
     "faqHtml": "<h3>World AI Show Indonesia 2027の日程と会場は？</h3><p>公式サイトによると、2027年6月15〜16日にジャカルタで開かれる。会場名はまだ掲載されていない。</p><h3>World AI Show Indonesiaの主催者は？</h3><p>Trescon Globalが主催している。</p><h3>World AI Show Indonesia 2027に参加するにはどうすればよいか。</h3><p>公式サイトに参加パスの問い合わせフォームとスポンサーの問い合わせフォームがある。料金は同ページに記載されていない。</p>",
     "seoTitle": "World AI Show Indonesia 2027 日程・概要",
     "seoDescription": "World AI Show Indonesia 2027は2027年6月15〜16日にジャカルタで開催。主催はTrescon Global。日程、テーマ、参加者層をまとめた。"
+   },
+   "status": "upcoming"
+  },
+  {
+   "slug": "world-fintech-show-indonesia-2027",
+   "seriesId": "world-fintech-show-indonesia",
+   "name": "World FinTech Show Indonesia 2027",
+   "isOwnEvent": false,
+   "country": "Indonesia",
+   "city": "Jakarta",
+   "venue": null,
+   "organizer": "Trescon",
+   "startDate": "2027-06-15",
+   "endDate": "2027-06-16",
+   "dateStatus": "confirmed",
+   "zones": [
+    "FinTech & Financial Operations"
+   ],
+   "relevance": "A",
+   "exhibitors": null,
+   "visitors": null,
+   "admission": "unknown",
+   "lastEdition": null,
+   "officialUrl": "https://worldfintechshow.com/indonesia/",
+   "sources": [
+    {
+     "name": "World FinTech Show",
+     "title": "World FinTech Show Indonesia 2027 | 15-16 June 2027, Jakarta",
+     "url": "https://worldfintechshow.com/indonesia/",
+     "date": "2026-11-24"
+    }
+   ],
+   "verifiedAt": "2026-11-24",
+   "id": {
+    "summaryHtml": "<p>World FinTech Show Indonesia 2027 adalah pertemuan bisnis teknologi keuangan yang dijadwalkan pada 15–16 Juni 2027 di Jakarta. Penyelenggaranya adalah Trescon, dan acara ini digelar bersamaan dengan World AI Show Indonesia. Tempat acara belum disebutkan di situs resmi.</p><p>Penyelenggara menyebut formatnya sebagai summit eksekutif yang berorientasi pada pembeli: pengambil keputusan dari bank, asuransi, perusahaan pembiayaan, dan institusi pembayaran dipertemukan dengan penyedia solusi. Topiknya meliputi modernisasi core banking, infrastruktur digital, dan manajemen risiko, termasuk kaitannya dengan peta jalan OJK 2026–2030.</p><p>Untuk edisi 2027, penyelenggara menargetkan lebih dari 500 pengambil keputusan senior, lebih dari 50 pembicara, dan lebih dari 20 peserta pameran dan sponsor.</p>",
+    "faqHtml": "<h3>Kapan World FinTech Show Indonesia 2027?</h3><p>Pada 15–16 Juni 2027 di Jakarta. Tempat acara belum diumumkan.</p><h3>Apa hubungannya dengan World AI Show Indonesia?</h3><p>Kedua acara diselenggarakan Trescon dan digelar bersamaan pada tanggal yang sama.</p><h3>Bagaimana cara ikut?</h3><p>Calon peserta mengajukan delegate pass melalui situs resmi; perusahaan dapat mengirim permintaan sponsor dan meminta prospektus sponsor.</p>",
+    "seoTitle": "World FinTech Show Indonesia 2027: Tanggal",
+    "seoDescription": "World FinTech Show Indonesia 2027 dari Trescon digelar 15–16 Juni 2027 di Jakarta, bersamaan dengan World AI Show. Tempat acara belum diumumkan."
+   },
+   "en": {
+    "summaryHtml": "<p>World FinTech Show Indonesia 2027 is a financial technology business event scheduled for 15–16 June 2027 in Jakarta. It is organised by Trescon and runs alongside World AI Show Indonesia. The official site does not yet name a venue.</p><p>The organiser describes it as a buyer-led executive summit that puts decision-makers from banks, insurers, lenders and payment institutions in front of solution providers. Topics include core banking modernisation, digital infrastructure and risk management, including how they relate to the OJK 2026–2030 roadmap.</p><p>For 2027 the organiser targets more than 500 senior decision-makers, more than 50 speakers and more than 20 exhibitors and sponsors.</p>",
+    "faqHtml": "<h3>When is World FinTech Show Indonesia 2027?</h3><p>On 15–16 June 2027 in Jakarta. The venue has not been announced.</p><h3>How does it relate to World AI Show Indonesia?</h3><p>Both are organised by Trescon and are co-located on the same dates.</p><h3>How do I take part?</h3><p>Prospective delegates apply for a delegate pass on the official site; companies can send a sponsorship enquiry and request the sponsorship prospectus.</p>",
+    "seoTitle": "World FinTech Show Indonesia 2027: Dates",
+    "seoDescription": "World FinTech Show Indonesia 2027 by Trescon takes place on 15–16 June 2027 in Jakarta, co-located with World AI Show. Venue to be announced."
+   },
+   "ja": {
+    "summaryHtml": "<p>World FinTech Show Indonesia 2027は、金融テクノロジーの商談型イベントで、2027年6月15〜16日にジャカルタで開かれる。主催はTresconで、World AI Show Indonesiaと同時開催となる。会場は公式サイトにまだ記載がない。</p><p>主催者は「バイヤー主導」の経営層向けサミットと位置づけ、銀行、保険、貸金、決済機関の意思決定者とソリューション提供企業を結び付ける。テーマは勘定系システムの刷新、デジタルインフラ、リスク管理などで、インドネシア金融庁（OJK）の2026〜2030年ロードマップとの関係も扱う。</p><p>2027年の目標として、主催者は上級意思決定者500人超、登壇者50人超、出展・スポンサー20社超を掲げている。</p>",
+    "faqHtml": "<h3>日程は？</h3><p>2027年6月15〜16日、ジャカルタで開かれる。会場は未発表である。</p><h3>World AI Show Indonesiaとの関係は？</h3><p>どちらもTrescon主催で、同じ日程で同時開催される。</p><h3>参加方法は？</h3><p>参加希望者は公式サイトからデリゲートパスを申請する。企業はスポンサーの問い合わせや資料請求ができる。</p>",
+    "seoTitle": "World FinTech Show Indonesia 2027 日程",
+    "seoDescription": "Trescon主催のWorld FinTech Show Indonesia 2027は2027年6月15〜16日にジャカルタで開催。World AI Showと同時開催で、会場は未発表。"
+   },
+   "status": "upcoming"
+  },
+  {
+   "slug": "cybersecindonesia-summit-2027",
+   "seriesId": "cybersecindonesia-summit",
+   "name": "CyberSecIndonesia Summit 2027",
+   "isOwnEvent": false,
+   "country": "Indonesia",
+   "city": "Jakarta",
+   "venue": "Shangri-La, Jakarta",
+   "organizer": "CyberSecAsia.org (Escom)",
+   "startDate": "2027-07-14",
+   "endDate": "2027-07-14",
+   "dateStatus": "confirmed",
+   "zones": [
+    "Cybersecurity & Data Protection"
+   ],
+   "relevance": "A",
+   "exhibitors": {
+    "value": 20,
+    "edition": "2025",
+    "sourceUrl": "https://cybersecasia.org/csid2027"
+   },
+   "visitors": {
+    "value": 400,
+    "edition": "2025",
+    "sourceUrl": "https://cybersecasia.org/csid2027"
+   },
+   "admission": "paid",
+   "lastEdition": null,
+   "officialUrl": "https://cybersecasia.org/csid2027",
+   "sources": [
+    {
+     "name": "CyberSecAsia.org",
+     "title": "CyberSecIndonesia Summit 2027",
+     "url": "https://cybersecasia.org/csid2027",
+     "date": "2026-11-24"
+    }
+   ],
+   "verifiedAt": "2026-11-24",
+   "id": {
+    "summaryHtml": "<p>CyberSecIndonesia Summit 2027 (CSID 2027) adalah konferensi keamanan siber satu hari yang dijadwalkan pada 14 Juli 2027 di Shangri-La, Jakarta. Penyelenggaranya adalah CyberSecAsia.org, platform acara milik Escom.</p><p>Penyelenggara memperkirakan lebih dari 300 profesional keamanan senior dari sektor keuangan, ritel, TI, kesehatan, dan pemerintahan, dengan lebih dari 20 pembicara dan sekitar 20 peserta pameran. Paket sponsor mencakup booth pameran, branding, dan pertemuan empat mata.</p><p>Menurut situs resmi, edisi 2025 di Jakarta mencatat lebih dari 400 peserta dan lebih dari 20 sponsor dan peserta pameran. Agenda edisi 2026 menampilkan pembicara utama dari BSSN dan ADIGSI, dengan topik seperti zero trust dan kepemimpinan CISO.</p>",
+    "faqHtml": "<h3>Kapan dan di mana CSID 2027?</h3><p>Pada 14 Juli 2027 di Shangri-La, Jakarta.</p><h3>Apakah CSID 2027 gratis?</h3><p>Tidak. Situs resmi menjual tiket berbayar dengan tarif berbeda untuk peserta umum dan untuk vendor atau penyedia solusi.</p><h3>Bagaimana cara menjadi peserta pameran?</h3><p>Melalui formulir kontak di situs resmi; slot sponsor yang mencakup booth pameran jumlahnya terbatas.</p>",
+    "seoTitle": "CyberSecIndonesia Summit 2027: Tanggal, Lokasi",
+    "seoDescription": "CyberSecIndonesia Summit 2027 (CSID) digelar 14 Juli 2027 di Shangri-La Jakarta, menargetkan lebih dari 300 profesional keamanan siber."
+   },
+   "en": {
+    "summaryHtml": "<p>CyberSecIndonesia Summit 2027 (CSID 2027) is a one-day cybersecurity conference scheduled for 14 July 2027 at the Shangri-La, Jakarta. It is organised by CyberSecAsia.org, an events platform owned by Escom.</p><p>The organiser expects more than 300 senior security professionals from finance, retail, IT, healthcare and the public sector, with more than 20 speakers and about 20 exhibitors. Sponsorship packages include an exhibition booth, branding and one-to-one meetings.</p><p>According to the official site, the 2025 edition in Jakarta recorded more than 400 attendees and more than 20 sponsors and exhibitors. The 2026 agenda featured keynotes from BSSN and ADIGSI, with topics such as zero trust and CISO leadership.</p>",
+    "faqHtml": "<h3>When and where is CSID 2027?</h3><p>On 14 July 2027 at the Shangri-La, Jakarta.</p><h3>Is CSID 2027 free?</h3><p>No. The official site sells paid passes, with different rates for general delegates and for vendors or solution providers.</p><h3>How do I exhibit?</h3><p>Through the contact form on the official site; sponsorship slots that include a booth are limited.</p>",
+    "seoTitle": "CyberSecIndonesia Summit 2027: Date and Venue",
+    "seoDescription": "CyberSecIndonesia Summit 2027 (CSID) is on 14 July 2027 at the Shangri-La Jakarta and expects more than 300 cybersecurity professionals."
+   },
+   "ja": {
+    "summaryHtml": "<p>CyberSecIndonesia Summit 2027（CSID 2027）は、2027年7月14日にジャカルタのShangri-Laで開かれる1日間のサイバーセキュリティ会議だ。Escomが運営するイベント事業CyberSecAsia.orgが主催する。</p><p>主催者は金融、小売、IT、医療、公共部門のセキュリティ責任者ら300人超の参加を見込み、登壇者は20人超、出展は約20社を予定する。スポンサー枠には展示ブース、ブランディング、個別商談が含まれる。</p><p>公式サイトによると、2025年のジャカルタ開催は参加者400人超、スポンサー・出展20社超だった。2026年のアジェンダでは国家サイバー暗号庁（BSSN）とADIGSIが基調講演を行い、ゼロトラストやCISOの役割などを扱った。</p>",
+    "faqHtml": "<h3>CSID 2027の日程と会場は？</h3><p>2027年7月14日、ジャカルタのShangri-Laで開かれる。</p><h3>参加は無料か。</h3><p>有料である。一般参加者とベンダー・ソリューション提供企業で料金が異なる。</p><h3>出展するには？</h3><p>公式サイトの問い合わせフォームから申し込む。展示ブースを含むスポンサー枠は数が限られる。</p>",
+    "seoTitle": "CyberSecIndonesia Summit 2027 日程・会場",
+    "seoDescription": "サイバーセキュリティ会議CyberSecIndonesia Summit 2027（CSID）は2027年7月14日、ジャカルタのShangri-Laで開催。300人超の参加を見込む。"
    },
    "status": "upcoming"
   },
@@ -101,6 +577,61 @@
     "faqHtml": "<h3>VRI B2B Tech Asia 2027の日程と会場は？</h3><p>2027年7月14〜15日、ジャカルタのThe Ritz-Carlton Jakarta, Pacific Placeで開かれる。</p><h3>来場するにはどうすればよいか。</h3><p>公式サイトから申し込む。スタンダードチケットは招待を申請して入手する形で、有料のVIPチケットもある。</p><h3>出展するにはどうすればよいか。</h3><p>公式サイトのフォームから出展資料を請求できる。出展プランはPremium、Standard+、Standardの3種類だ。</p>",
     "seoTitle": "VRI B2B Tech Asia 2027 日程・会場・概要",
     "seoDescription": "ソフトウェア特化のB2B展示会VRI B2B Tech Asia 2027は、2027年7月14〜15日にジャカルタのThe Ritz-Carlton Jakarta, Pacific Placeで開催。日程、会場、来場と出展の方法。"
+   },
+   "status": "upcoming"
+  },
+  {
+   "slug": "caces-jakarta-2027",
+   "seriesId": "caces-jakarta",
+   "name": "Conversational AI & Customer Experience Summit (CACES) Jakarta 2027",
+   "isOwnEvent": false,
+   "country": "Indonesia",
+   "city": "Jakarta",
+   "venue": null,
+   "organizer": "Altrusia Global Events",
+   "startDate": "2027-07-15",
+   "endDate": "2027-07-15",
+   "dateStatus": "confirmed",
+   "zones": [
+    "Customer Engagement & CX",
+    "AI & Automation"
+   ],
+   "relevance": "A",
+   "exhibitors": null,
+   "visitors": {
+    "value": 271,
+    "edition": "2026",
+    "sourceUrl": "https://conversationaltechsummitasia.com/jakarta"
+   },
+   "admission": "paid",
+   "lastEdition": null,
+   "officialUrl": "https://conversationaltechsummitasia.com/jakarta",
+   "sources": [
+    {
+     "name": "CACES",
+     "title": "CACES Jakarta 2027: Conversational AI & CX Summit",
+     "url": "https://conversationaltechsummitasia.com/jakarta",
+     "date": "2026-11-24"
+    }
+   ],
+   "verifiedAt": "2026-11-24",
+   "id": {
+    "summaryHtml": "<p>Conversational AI & Customer Experience Summit (CACES) Jakarta 2027 adalah konferensi satu hari tentang AI percakapan dan pengalaman pelanggan, dijadwalkan pada 15 Juli 2027 di Jakarta. Ini adalah edisi tahunan keempat di Jakarta, diselenggarakan oleh Altrusia Global Events. Tempat acara belum diumumkan.</p><p>Sasarannya adalah pimpinan layanan pelanggan, contact center, dan program AI. Topiknya meliputi dampak AI percakapan terhadap layanan pelanggan di Indonesia dan pemanfaatan data pelanggan untuk personalisasi. Seluruh sesi berbahasa Inggris, dan tersedia area pameran untuk demo platform.</p><p>Menurut situs resmi, edisi 2026 di Jakarta dihadiri 271 delegasi. Pada 2027 rangkaian CACES juga digelar di Kuala Lumpur dan Singapura.</p>",
+    "faqHtml": "<h3>Kapan CACES Jakarta 2027?</h3><p>Pada 15 Juli 2027 di Jakarta. Tempat acara akan diumumkan lebih dulu kepada pemegang tiket.</p><h3>Apakah gratis?</h3><p>Tidak. Peserta memerlukan pass berbayar yang dibeli di halaman tiket Jakarta; pembayaran dengan invoice juga tersedia.</p><h3>Apakah ada area pameran?</h3><p>Ya. Situs resmi menyebut area pameran dengan demo platform, dan perusahaan dapat mengajukan kemitraan melalui halaman sponsor.</p>",
+    "seoTitle": "CACES Jakarta 2027: AI Percakapan dan CX",
+    "seoDescription": "CACES Jakarta 2027, konferensi AI percakapan dan customer experience dari Altrusia Global Events, digelar 15 Juli 2027 di Jakarta."
+   },
+   "en": {
+    "summaryHtml": "<p>The Conversational AI & Customer Experience Summit (CACES) Jakarta 2027 is a one-day conference on conversational AI and customer experience, scheduled for 15 July 2027 in Jakarta. It is the fourth annual Jakarta edition, organised by Altrusia Global Events. The venue has not been announced.</p><p>It is aimed at leaders of customer service, contact centres and AI programmes. Topics include what conversational AI is doing to customer service in Indonesia and how customer data is used for personalisation. All sessions are in English, and there is an expo floor for platform demonstrations.</p><p>According to the official site, the 2026 Jakarta edition drew 271 delegates. In 2027 the CACES series also runs in Kuala Lumpur and Singapore.</p>",
+    "faqHtml": "<h3>When is CACES Jakarta 2027?</h3><p>On 15 July 2027 in Jakarta. Pass holders will receive the venue details first.</p><h3>Is it free?</h3><p>No. Attendance requires a paid pass from the Jakarta tickets page; invoice payment is also available.</p><h3>Is there an exhibition?</h3><p>Yes. The official site mentions an expo floor with platform demos, and companies can enquire about partnerships through the sponsorship page.</p>",
+    "seoTitle": "CACES Jakarta 2027: Conversational AI and CX",
+    "seoDescription": "CACES Jakarta 2027, the conversational AI and customer experience summit by Altrusia Global Events, takes place on 15 July 2027 in Jakarta."
+   },
+   "ja": {
+    "summaryHtml": "<p>Conversational AI & Customer Experience Summit（CACES）Jakarta 2027は、対話型AIと顧客体験をテーマにした1日間の会議で、2027年7月15日にジャカルタで開かれる。Altrusia Global Eventsが主催するジャカルタでの4回目の年次開催で、会場はまだ発表されていない。</p><p>対象は顧客サービス、コンタクトセンター、AI導入の責任者である。対話型AIがインドネシアの顧客サービスに与える影響や、顧客データを使った個別対応などを扱う。セッションはすべて英語で、プラットフォームのデモを行う展示エリアがある。</p><p>公式サイトによると、2026年のジャカルタ開催には271人が参加した。2027年はクアラルンプールとシンガポールでも開かれる。</p>",
+    "faqHtml": "<h3>日程は？</h3><p>2027年7月15日、ジャカルタで開かれる。会場はパス購入者に先行して案内される。</p><h3>参加は無料か。</h3><p>有料である。ジャカルタ開催のチケットページでパスを購入する。請求書払いにも対応する。</p><h3>展示エリアはあるか。</h3><p>ある。公式サイトはデモを行う展示エリアがあるとしており、企業はスポンサーページから協賛を問い合わせられる。</p>",
+    "seoTitle": "CACES Jakarta 2027 日程・概要",
+    "seoDescription": "対話型AIと顧客体験の会議CACES Jakarta 2027は2027年7月15日にジャカルタで開催。主催はAltrusia Global Eventsで、会場は未発表。"
    },
    "status": "upcoming"
   },
@@ -166,6 +697,57 @@
    "status": "upcoming"
   },
   {
+   "slug": "iismex-2027",
+   "seriesId": "iismex",
+   "name": "Indonesia International Smart City Expo & Forum (IISMEX) 2027",
+   "isOwnEvent": false,
+   "country": "Indonesia",
+   "city": "Tangerang",
+   "venue": "NICE, PIK 2",
+   "organizer": "PT Napindo Media Ashatama",
+   "startDate": "2027-08-24",
+   "endDate": "2027-08-26",
+   "dateStatus": "confirmed",
+   "zones": [
+    "Cloud & IT Infrastructure",
+    "AI & Automation"
+   ],
+   "relevance": "B",
+   "exhibitors": null,
+   "visitors": null,
+   "admission": "unknown",
+   "lastEdition": null,
+   "officialUrl": "https://iismex.com/",
+   "sources": [
+    {
+     "name": "IISMEX",
+     "title": "IISMEX 2027: The 10th Indonesia International Smart City Expo & Forum",
+     "url": "https://iismex.com/",
+     "date": "2026-11-24"
+    }
+   ],
+   "verifiedAt": "2026-11-24",
+   "id": {
+    "summaryHtml": "<p>Indonesia International Smart City Expo & Forum (IISMEX) 2027 adalah pameran dan forum kota pintar yang memasuki edisi ke-10. Acara ini dijadwalkan pada 24–26 Agustus 2027 di NICE, PIK 2, Tangerang, dan diselenggarakan oleh PT Napindo Media Ashatama.</p><p>Cakupannya meliputi teknologi informasi dan komunikasi, Internet of Things, infrastruktur digital, serta platform data untuk layanan publik dan tata kelola. Pesertanya mencakup perwakilan pemerintah pusat dan daerah, penyedia teknologi, integrator sistem, konsultan, pengembang, dan investor.</p><p>Selain pameran, IISMEX memiliki program forum dan pertemuan bisnis yang mempertemukan peserta pameran dengan pengunjung terkualifikasi. Acara ini relevan bagi penyedia solusi yang menyasar proyek pemerintah daerah.</p>",
+    "faqHtml": "<h3>Kapan dan di mana IISMEX 2027?</h3><p>Pada 24–26 Agustus 2027 di Nusantara International Convention Exhibition (NICE), PIK 2, Tangerang.</p><h3>Siapa penyelenggaranya?</h3><p>PT Napindo Media Ashatama.</p><h3>Bagaimana cara berkunjung atau ikut pameran?</h3><p>Situs resmi menyediakan pendaftaran pengunjung (Visit IISMEX 2027) dan informasi untuk peserta pameran.</p>",
+    "seoTitle": "IISMEX 2027: Pameran Smart City, NICE PIK 2",
+    "seoDescription": "IISMEX 2027, pameran dan forum kota pintar edisi ke-10, digelar 24–26 Agustus 2027 di NICE PIK 2, Tangerang, oleh Napindo."
+   },
+   "en": {
+    "summaryHtml": "<p>The Indonesia International Smart City Expo & Forum (IISMEX) 2027 is a smart city exhibition and forum in its 10th edition. It is scheduled for 24–26 August 2027 at NICE, PIK 2, Tangerang, and is organised by PT Napindo Media Ashatama.</p><p>Its scope covers information and communication technology, the Internet of Things, digital infrastructure and data platforms for public services and governance. Participants include central and regional government representatives, technology providers, system integrators, consultants, developers and investors.</p><p>Besides the exhibition, IISMEX runs a forum programme and business meetings between exhibitors and qualified visitors. The event is relevant for solution providers targeting regional government projects.</p>",
+    "faqHtml": "<h3>When and where is IISMEX 2027?</h3><p>On 24–26 August 2027 at Nusantara International Convention Exhibition (NICE), PIK 2, Tangerang.</p><h3>Who organises it?</h3><p>PT Napindo Media Ashatama.</p><h3>How do I visit or exhibit?</h3><p>The official site has visitor registration (Visit IISMEX 2027) and information for exhibitors.</p>",
+    "seoTitle": "IISMEX 2027: Smart City Expo at NICE PIK 2",
+    "seoDescription": "IISMEX 2027, the 10th Indonesia International Smart City Expo & Forum, runs 24–26 August 2027 at NICE PIK 2, Tangerang, organised by Napindo."
+   },
+   "ja": {
+    "summaryHtml": "<p>Indonesia International Smart City Expo & Forum（IISMEX）2027は、スマートシティをテーマにした展示会・フォーラムで、今回が10回目となる。2027年8月24〜26日にタンゲランのNICE（PIK 2）で開かれ、PT Napindo Media Ashatamaが主催する。</p><p>情報通信技術、モノのインターネット（IoT）、デジタルインフラ、行政サービスや統治を支えるデータ基盤などを扱う。中央・地方政府の関係者、技術提供企業、システムインテグレーター、コンサルタント、開発事業者、投資家が参加する。</p><p>展示に加えてフォーラムと、出展企業と来場者を結ぶ商談会がある。地方自治体の案件を狙うソリューション提供企業に関係が深い。</p>",
+    "faqHtml": "<h3>IISMEX 2027の日程と会場は？</h3><p>2027年8月24〜26日、タンゲランのNusantara International Convention Exhibition（NICE、PIK 2）で開かれる。</p><h3>主催者は？</h3><p>PT Napindo Media Ashatamaである。</p><h3>来場・出展の方法は？</h3><p>公式サイトに来場登録（Visit IISMEX 2027）と出展者向けの案内がある。</p>",
+    "seoTitle": "IISMEX 2027 スマートシティ展 日程・会場",
+    "seoDescription": "スマートシティ展示会IISMEX 2027は2027年8月24〜26日、タンゲランのNICE（PIK 2）で開催。10回目で、主催はNapindo。"
+   },
+   "status": "upcoming"
+  },
+  {
    "slug": "indosec-2027",
    "seriesId": "indosec",
    "name": "IndoSec 2027",
@@ -216,6 +798,116 @@
     "faqHtml": "<h3>IndoSec 2027の日程は？</h3><p>公式サイトは2027年9月21〜22日としている。</p><h3>IndoSec 2027の会場は？</h3><p>2027年の会場はまだ発表されていない。2026年はThe Ritz-Carlton Jakarta, Pacific Placeで開かれた。</p><h3>IndoSec 2027に参加するにはどうすればよいか。</h3><p>参加希望者は公式サイトのdelegate enquiryフォーム、製品の提供企業はsponsor enquiryフォームから申し込む。料金は同ページに記載されていない。</p>",
     "seoTitle": "IndoSec 2027 日程・会場・概要",
     "seoDescription": "Tradepass主催のサイバーセキュリティ会議IndoSec 2027は2027年9月21〜22日の予定。会場は未発表で、2026年はジャカルタで開かれた。"
+   },
+   "status": "upcoming"
+  },
+  {
+   "slug": "chro-indonesia-2027",
+   "seriesId": "chro-indonesia",
+   "name": "CHRO Indonesia 2027",
+   "isOwnEvent": false,
+   "country": "Indonesia",
+   "city": "Jakarta",
+   "venue": "Park Hyatt Jakarta",
+   "organizer": "HRM Asia",
+   "startDate": "2027-10-05",
+   "endDate": "2027-10-07",
+   "dateStatus": "confirmed",
+   "zones": [
+    "HR Tech & Workforce Management"
+   ],
+   "relevance": "B",
+   "exhibitors": null,
+   "visitors": null,
+   "admission": "paid",
+   "lastEdition": null,
+   "officialUrl": "https://chroseries.com/country/indonesia/",
+   "sources": [
+    {
+     "name": "CHRO Series",
+     "title": "CHRO Indonesia - CHRO Series 2027",
+     "url": "https://chroseries.com/country/indonesia/",
+     "date": "2026-11-24"
+    }
+   ],
+   "verifiedAt": "2026-11-24",
+   "id": {
+    "summaryHtml": "<p>CHRO Indonesia 2027 adalah konferensi untuk pimpinan sumber daya manusia yang dijadwalkan pada 5–7 Oktober 2027 di Park Hyatt Jakarta. Acara ini merupakan bagian dari rangkaian CHRO Series yang diselenggarakan HRM Asia.</p><p>Tema edisi 2027 adalah \"Beyond Jakarta: Unlocking The Workforce Engine Of An Archipelagic Economy\", yaitu pengelolaan tenaga kerja di luar Jakarta di negara kepulauan. Programnya mencakup sesi panel, studi kasus, dan diskusi meja bundar sesuai bidang peserta, dengan topik seperti keterampilan, kepemimpinan, dan pemanfaatan AI dalam HR.</p><p>Penyedia solusi HR dapat ikut sebagai peserta pameran atau sponsor. Sebagian isi halaman resmi masih merujuk pada edisi 2026, yang digelar pada 29 September 2026.</p>",
+    "faqHtml": "<h3>Kapan dan di mana CHRO Indonesia 2027?</h3><p>Pada 5–7 Oktober 2027 di Park Hyatt Jakarta.</p><h3>Apakah gratis?</h3><p>Tidak. Tiket dijual kepada profesional HR dari perusahaan pengguna, dan tiket yang sudah dibeli tidak dapat dikembalikan, tetapi dapat dialihkan ke rekan HR.</p><h3>Bagaimana cara ikut pameran?</h3><p>Melalui bagian Exhibit & Sponsor di situs resmi.</p>",
+    "seoTitle": "CHRO Indonesia 2027: Tanggal dan Lokasi",
+    "seoDescription": "CHRO Indonesia 2027 dari HRM Asia digelar 5–7 Oktober 2027 di Park Hyatt Jakarta dengan tema pengelolaan tenaga kerja di luar Jakarta."
+   },
+   "en": {
+    "summaryHtml": "<p>CHRO Indonesia 2027 is a conference for human resources leaders scheduled for 5–7 October 2027 at Park Hyatt Jakarta. It is part of the CHRO Series organised by HRM Asia.</p><p>The 2027 theme is \"Beyond Jakarta: Unlocking The Workforce Engine Of An Archipelagic Economy\", which looks at managing workforces beyond the capital in an island nation. The programme includes panels, case studies and roundtables chosen by area of expertise, with topics such as skills, leadership and the use of AI in HR.</p><p>HR solution providers can take part as exhibitors or sponsors. Parts of the official page still refer to the 2026 edition, which was held on 29 September 2026.</p>",
+    "faqHtml": "<h3>When and where is CHRO Indonesia 2027?</h3><p>On 5–7 October 2027 at Park Hyatt Jakarta.</p><h3>Is it free?</h3><p>No. Tickets are sold to in-house HR professionals; purchased tickets are non-refundable but can be transferred to an HR colleague.</p><h3>How do I exhibit?</h3><p>Through the Exhibit & Sponsor section of the official site.</p>",
+    "seoTitle": "CHRO Indonesia 2027: Dates and Venue",
+    "seoDescription": "CHRO Indonesia 2027 by HRM Asia takes place on 5–7 October 2027 at Park Hyatt Jakarta, themed on workforces beyond Jakarta."
+   },
+   "ja": {
+    "summaryHtml": "<p>CHRO Indonesia 2027は、人事部門の責任者を対象とする会議で、2027年10月5〜7日にジャカルタのPark Hyatt Jakartaで開かれる。HRM Asiaが主催するCHRO Seriesの一つだ。</p><p>2027年のテーマは「Beyond Jakarta: Unlocking The Workforce Engine Of An Archipelagic Economy」で、島しょ国家インドネシアにおける首都以外の人材活用を取り上げる。パネル討論、事例発表、専門分野別の円卓討論があり、スキル、リーダーシップ、人事でのAI活用などを議論する。</p><p>人事ソリューションの提供企業は出展やスポンサーとして参加できる。公式ページの一部は2026年版（2026年9月29日開催）の記載のままである。</p>",
+    "faqHtml": "<h3>日程と会場は？</h3><p>2027年10月5〜7日、Park Hyatt Jakartaで開かれる。</p><h3>参加は無料か。</h3><p>有料である。事業会社の人事担当者向けにチケットを販売しており、購入後の返金はできないが、同僚の人事担当者への譲渡はできる。</p><h3>出展するには？</h3><p>公式サイトのExhibit & Sponsorの項目から申し込む。</p>",
+    "seoTitle": "CHRO Indonesia 2027 日程・会場",
+    "seoDescription": "HRM Asia主催のCHRO Indonesia 2027は2027年10月5〜7日、Park Hyatt Jakartaで開催。首都以外の人材活用がテーマ。"
+   },
+   "status": "upcoming"
+  },
+  {
+   "slug": "wfis-indonesia-2027",
+   "seriesId": "wfis-indonesia",
+   "name": "World Financial Innovation Series (WFIS) Indonesia 2027",
+   "isOwnEvent": false,
+   "country": "Indonesia",
+   "city": "Jakarta",
+   "venue": "Raffles Jakarta",
+   "organizer": "Tradepass",
+   "startDate": "2027-10-26",
+   "endDate": "2027-10-27",
+   "dateStatus": "confirmed",
+   "zones": [
+    "FinTech & Financial Operations"
+   ],
+   "relevance": "A",
+   "exhibitors": null,
+   "visitors": null,
+   "admission": "unknown",
+   "lastEdition": {
+    "startDate": "2026-10-27",
+    "endDate": "2026-10-28",
+    "venue": "Raffles Jakarta"
+   },
+   "officialUrl": "https://www.indonesia.worldfis.com/",
+   "sources": [
+    {
+     "name": "WFIS Indonesia",
+     "title": "WFIS Indonesia: Indonesia's Leading Financial Sector Event",
+     "url": "https://www.indonesia.worldfis.com/",
+     "date": "2026-11-24"
+    },
+    {
+     "name": "Metro TV News",
+     "title": "Indonesia gears up for the eighth edition of World Financial Innovation Series (WFIS)",
+     "url": "https://www.metrotvnews.com/read/bVDC6rVR-indonesia-gears-up-for-the-biggest-bfsi-spectacle-at-the-eighth-edition-of-world-financial-innovation-series-wfis",
+     "date": "2026-11-24"
+    }
+   ],
+   "verifiedAt": "2026-11-24",
+   "id": {
+    "summaryHtml": "<p>World Financial Innovation Series (WFIS) Indonesia 2027 adalah konferensi dan pameran teknologi untuk sektor jasa keuangan dan asuransi. Situs resmi mencantumkan tanggal 26–27 Oktober 2027 di Raffles Jakarta. Penyelenggaranya adalah Tradepass, yang juga menggelar IndoSec.</p><p>Acara ini mempertemukan pimpinan teknologi dan bisnis dari bank, perusahaan asuransi, lembaga keuangan mikro, dan regulator dengan penyedia solusi. Situs resmi menyebut lebih dari 600 pengambil keputusan terkualifikasi dari sektor jasa keuangan, dengan topik seperti perbankan digital, inovasi fintech, dan perubahan regulasi.</p><p>Edisi kedelapan berlangsung pada 27–28 Oktober 2026 di Raffles Jakarta. Penyedia solusi dapat ikut sebagai peserta pameran atau sponsor.</p>",
+    "faqHtml": "<h3>Kapan dan di mana WFIS Indonesia 2027?</h3><p>Situs resmi mencantumkan 26–27 Oktober 2027 di Raffles Jakarta.</p><h3>Siapa yang hadir di WFIS Indonesia?</h3><p>Pimpinan teknologi dan bisnis dari bank, asuransi, lembaga keuangan mikro, dan regulator, bersama penyedia solusi teknologi.</p><h3>Bagaimana cara ikut pameran?</h3><p>Situs resmi menyediakan informasi bagi vendor yang ingin ikut pameran atau menjadi sponsor.</p>",
+    "seoTitle": "WFIS Indonesia 2027: Tanggal dan Lokasi",
+    "seoDescription": "WFIS Indonesia 2027, konferensi teknologi sektor keuangan dari Tradepass, dijadwalkan 26–27 Oktober 2027 di Raffles Jakarta."
+   },
+   "en": {
+    "summaryHtml": "<p>The World Financial Innovation Series (WFIS) Indonesia 2027 is a technology conference and exhibition for the financial services and insurance sector. The official site lists 26–27 October 2027 at Raffles Jakarta. It is organised by Tradepass, which also runs IndoSec.</p><p>The event connects technology and business heads from banks, insurers, microfinance institutions and regulators with solution providers. The official site cites more than 600 pre-qualified decision-makers from financial services, with topics such as digital banking, fintech innovation and regulatory change.</p><p>The eighth edition took place on 27–28 October 2026 at Raffles Jakarta. Solution providers can take part as exhibitors or sponsors.</p>",
+    "faqHtml": "<h3>When and where is WFIS Indonesia 2027?</h3><p>The official site lists 26–27 October 2027 at Raffles Jakarta.</p><h3>Who attends WFIS Indonesia?</h3><p>Technology and business heads from banks, insurers, microfinance institutions and regulators, together with technology solution providers.</p><h3>How do I exhibit?</h3><p>The official site has information for vendors who want to exhibit or sponsor.</p>",
+    "seoTitle": "WFIS Indonesia 2027: Dates and Venue",
+    "seoDescription": "WFIS Indonesia 2027, the financial sector technology conference by Tradepass, is scheduled for 26–27 October 2027 at Raffles Jakarta."
+   },
+   "ja": {
+    "summaryHtml": "<p>World Financial Innovation Series（WFIS）Indonesia 2027は、金融・保険業界向けのテクノロジー会議兼展示会だ。公式サイトは2027年10月26〜27日、会場をRaffles Jakartaとしている。主催はIndoSecも手がけるTradepassである。</p><p>銀行、保険会社、マイクロファイナンス機関、規制当局の技術・事業責任者とソリューション提供企業を結び付ける。公式サイトは金融業界の意思決定者600人超が集まるとし、デジタルバンキング、フィンテック、規制の変化などを扱う。</p><p>8回目の前回は2026年10月27〜28日にRaffles Jakartaで開かれた。ソリューション提供企業は出展やスポンサーとして参加できる。</p>",
+    "faqHtml": "<h3>WFIS Indonesia 2027の日程と会場は？</h3><p>公式サイトは2027年10月26〜27日、Raffles Jakartaとしている。</p><h3>どのような参加者が集まるか。</h3><p>銀行、保険、マイクロファイナンス機関、規制当局の技術・事業責任者と、技術ソリューションの提供企業である。</p><h3>出展するには？</h3><p>公式サイトに出展・スポンサーを希望するベンダー向けの案内がある。</p>",
+    "seoTitle": "WFIS Indonesia 2027 日程・会場",
+    "seoDescription": "Tradepass主催の金融業界向けテクノロジー会議WFIS Indonesia 2027は2027年10月26〜27日、Raffles Jakartaで開催予定。"
    },
    "status": "upcoming"
   }

@@ -1,0 +1,50 @@
+{
+ "slug": "scalecon-jakarta-2027",
+ "seriesId": "scalecon",
+ "name": "SCALECON Jakarta 2027",
+ "isOwnEvent": false,
+ "country": "Indonesia",
+ "city": "Jakarta",
+ "venue": "Telkom Landmark Tower",
+ "organizer": "SCALECON",
+ "startDate": "2027-01-27",
+ "endDate": "2027-01-27",
+ "dateStatus": "confirmed",
+ "zones": [
+  "AI & Automation",
+  "Cloud & IT Infrastructure"
+ ],
+ "relevance": "B",
+ "exhibitors": null,
+ "visitors": null,
+ "admission": "paid",
+ "lastEdition": null,
+ "officialUrl": "https://scalecon.ai/",
+ "sources": [
+  {
+   "name": "SCALECON",
+   "title": "SCALECON Jakarta 2027: The Agentic Enterprise",
+   "url": "https://scalecon.ai/",
+   "date": "2026-11-24"
+  }
+ ],
+ "verifiedAt": "2026-11-24",
+ "id": {
+  "summaryHtml": "<p>SCALECON Jakarta 2027 adalah konferensi kecerdasan buatan (AI) satu hari yang dijadwalkan pada 27 Januari 2027 di Telkom Landmark Tower, Jakarta. Tema edisi ini adalah \"The Agentic Enterprise\", yaitu cara membangun dan menjalankan agen AI di dalam sistem perusahaan.</p><p>Selain sesi konferensi utama, acara ini memiliki area pameran teknologi. Situs resmi menawarkan beberapa jenis tiket, mulai dari tiket khusus pameran hingga paket yang mencakup konferensi, rekaman sesi, dan jamuan VIP. SCALECON juga menjalankan webinar dan lokakarya AI di luar hari acara.</p><p>Acara ini didukung oleh penyedia layanan cloud Dewaweb, dan sebagian paket tiket menyertakan kredit layanan cloud. Rekaman sesi SCALECON 2025 dan 2026 termasuk dalam paket tertinggi, yang menunjukkan bahwa acara ini sudah digelar pada dua tahun sebelumnya.</p>",
+  "faqHtml": "<h3>Kapan dan di mana SCALECON Jakarta 2027?</h3><p>Pada 27 Januari 2027 di Telkom Landmark Tower, Jakarta.</p><h3>Apakah SCALECON Jakarta 2027 gratis?</h3><p>Tidak. Situs resmi menjual tiket berbayar, termasuk tiket khusus untuk area pameran teknologi.</p><h3>Bagaimana cara menjadi sponsor atau pembicara?</h3><p>Situs resmi menyediakan halaman Become a Sponsor dan Become a Speaker, serta kontak tim penyelenggara.</p>",
+  "seoTitle": "SCALECON Jakarta 2027: Tanggal, Lokasi, Tiket",
+  "seoDescription": "SCALECON Jakarta 2027, konferensi AI bertema The Agentic Enterprise, digelar 27 Januari 2027 di Telkom Landmark Tower, Jakarta, dengan area pameran."
+ },
+ "en": {
+  "summaryHtml": "<p>SCALECON Jakarta 2027 is a one-day artificial intelligence conference scheduled for 27 January 2027 at Telkom Landmark Tower, Jakarta. This edition is themed \"The Agentic Enterprise\": how to build and run AI agents inside company systems.</p><p>Alongside the main conference there is a technology exhibition. The official site sells several pass types, from an exhibition-only pass to packages that add the conference, session recordings and a VIP dinner. SCALECON also runs AI webinars and workshops outside the event day.</p><p>The event is supported by the cloud provider Dewaweb, and some passes include cloud service credits. The top package includes recordings of the 2025 and 2026 SCALECON sessions, indicating that the event was held in both previous years.</p>",
+  "faqHtml": "<h3>When and where is SCALECON Jakarta 2027?</h3><p>On 27 January 2027 at Telkom Landmark Tower, Jakarta.</p><h3>Is SCALECON Jakarta 2027 free?</h3><p>No. The official site sells paid passes, including a pass for the technology exhibition only.</p><h3>How can I sponsor or speak?</h3><p>The official site has Become a Sponsor and Become a Speaker pages, plus contact details for the organising team.</p>",
+  "seoTitle": "SCALECON Jakarta 2027: Date, Venue and Passes",
+  "seoDescription": "SCALECON Jakarta 2027, an AI conference themed The Agentic Enterprise, takes place on 27 January 2027 at Telkom Landmark Tower, Jakarta, with a tech expo."
+ },
+ "ja": {
+  "summaryHtml": "<p>SCALECON Jakarta 2027は、2027年1月27日にジャカルタのTelkom Landmark Towerで開かれる1日間の人工知能（AI）カンファレンスだ。テーマは「The Agentic Enterprise」で、企業システムの中でAIエージェントを構築・運用する方法を扱う。</p><p>メインのカンファレンスに加え、テクノロジー展示エリアがある。公式サイトでは展示エリアのみのパスから、カンファレンス、セッション録画、VIPディナーを含むパッケージまで複数のチケットを販売している。当日以外にもAIのウェビナーやワークショップを開いている。</p><p>クラウド事業者のDewawebが支援しており、一部のチケットにはクラウドサービスのクレジットが付く。最上位のパッケージには2025年と2026年のセッション録画が含まれ、過去2年にも開催されたことがわかる。</p>",
+  "faqHtml": "<h3>SCALECON Jakarta 2027の日程と会場は？</h3><p>2027年1月27日、ジャカルタのTelkom Landmark Towerで開かれる。</p><h3>参加は無料か。</h3><p>有料である。公式サイトは展示エリアのみのパスを含む有料チケットを販売している。</p><h3>スポンサーや登壇を希望する場合は？</h3><p>公式サイトのBecome a SponsorとBecome a Speakerのページ、または運営チームの連絡先から申し込む。</p>",
+  "seoTitle": "SCALECON Jakarta 2027 日程・会場・概要",
+  "seoDescription": "AIエージェントをテーマにしたSCALECON Jakarta 2027は2027年1月27日、ジャカルタのTelkom Landmark Towerで開催。展示エリアも併設する。"
+ }
+}

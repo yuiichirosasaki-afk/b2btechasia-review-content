@@ -1,0 +1,49 @@
+{
+ "slug": "data-center-indonesia-2027",
+ "seriesId": "data-center-indonesia",
+ "name": "Data Center Indonesia 2027",
+ "isOwnEvent": false,
+ "country": "Indonesia",
+ "city": "Jakarta",
+ "venue": "JIExpo Kemayoran",
+ "organizer": "GEM Indonesia (Global Expo Management)",
+ "startDate": "2027-04-21",
+ "endDate": "2027-04-23",
+ "dateStatus": "confirmed",
+ "zones": [
+  "Cloud & IT Infrastructure"
+ ],
+ "relevance": "B",
+ "exhibitors": null,
+ "visitors": null,
+ "admission": "unknown",
+ "lastEdition": null,
+ "officialUrl": "https://datacenter-exhibition.com/",
+ "sources": [
+  {
+   "name": "Data Center Indonesia",
+   "title": "Event Fact Sheet: Data Center Indonesia 2027",
+   "url": "https://datacenter-exhibition.com/event-fact-sheet/",
+   "date": "2026-11-24"
+  }
+ ],
+ "verifiedAt": "2026-11-24",
+ "id": {
+  "summaryHtml": "<p>Data Center Indonesia 2027 adalah pameran internasional untuk pusat data, sistem cloud, dan solusi komputasi yang dijadwalkan pada 21–23 April 2027 di JIExpo Kemayoran, Jakarta. Penyelenggaranya adalah GEM Indonesia (Global Expo Management).</p><p>Pameran ini digelar bersamaan dengan INATRONICS, Smart IoT Indonesia, dan Smart Home+City Indonesia. Menurut lembar fakta resmi, proyeksi untuk gabungan pameran ini adalah lebih dari 300 perusahaan peserta, 20.000 pengunjung dagang dan profesional, serta area 15.000 meter persegi.</p><p>Kunjungan terbatas bagi kalangan dagang dan bisnis, dan pengunjung di bawah 18 tahun tidak diizinkan masuk. Pameran ini relevan bagi operator pusat data, penyedia cloud, dan tim infrastruktur TI yang mencari pemasok perangkat dan layanan.</p>",
+  "faqHtml": "<h3>Kapan dan di mana Data Center Indonesia 2027?</h3><p>Pada 21–23 April 2027 di JIExpo Kemayoran, Jakarta, pukul 10.00–18.00 pada dua hari pertama dan 10.00–16.30 pada hari terakhir.</p><h3>Pameran apa yang digelar bersamaan?</h3><p>Lembar fakta resmi menyebut INATRONICS, Smart IoT Indonesia, dan Smart Home+City Indonesia.</p><h3>Siapa yang boleh berkunjung?</h3><p>Hanya kalangan dagang dan bisnis; pengunjung di bawah 18 tahun tidak diizinkan masuk.</p>",
+  "seoTitle": "Data Center Indonesia 2027: Tanggal dan Lokasi",
+  "seoDescription": "Data Center Indonesia 2027, pameran pusat data dan cloud dari GEM Indonesia, digelar 21–23 April 2027 di JIExpo Kemayoran, Jakarta."
+ },
+ "en": {
+  "summaryHtml": "<p>Data Center Indonesia 2027 is an international exhibition for data centres, cloud systems and computing solutions, scheduled for 21–23 April 2027 at JIExpo Kemayoran, Jakarta. It is organised by GEM Indonesia (Global Expo Management).</p><p>The show runs together with INATRONICS, Smart IoT Indonesia and Smart Home+City Indonesia. According to the official fact sheet, the projection for the combined shows is more than 300 exhibiting companies, 20,000 trade and professional visitors and 15,000 square metres of space.</p><p>Admission is restricted to trade and business visitors, and under-18s are not admitted. The show is aimed at data centre operators, cloud providers and IT infrastructure teams looking for equipment and service suppliers.</p>",
+  "faqHtml": "<h3>When and where is Data Center Indonesia 2027?</h3><p>On 21–23 April 2027 at JIExpo Kemayoran, Jakarta, from 10:00 to 18:00 on the first two days and 10:00 to 16:30 on the last day.</p><h3>Which shows are co-located?</h3><p>The official fact sheet lists INATRONICS, Smart IoT Indonesia and Smart Home+City Indonesia.</p><h3>Who can visit?</h3><p>Trade and business visitors only; under-18s are not admitted.</p>",
+  "seoTitle": "Data Center Indonesia 2027: Dates and Venue",
+  "seoDescription": "Data Center Indonesia 2027, the data centre and cloud exhibition by GEM Indonesia, runs 21–23 April 2027 at JIExpo Kemayoran, Jakarta."
+ },
+ "ja": {
+  "summaryHtml": "<p>Data Center Indonesia 2027は、データセンター、クラウドシステム、コンピューティングを扱う国際展示会で、2027年4月21〜23日にジャカルタのJIExpo Kemayoranで開かれる。主催はGEM Indonesia（Global Expo Management）だ。</p><p>INATRONICS、Smart IoT Indonesia、Smart Home+City Indonesiaと同時開催となる。公式ファクトシートによると、併催展を合わせた見込みは出展300社超、業界・専門来場者2万人、展示面積1万5000平方メートルである。</p><p>来場は業界・ビジネス関係者に限られ、18歳未満は入場できない。データセンター事業者、クラウド事業者、ITインフラ部門が機器やサービスの調達先を探す場として位置づけられる。</p>",
+  "faqHtml": "<h3>Data Center Indonesia 2027の日程と会場は？</h3><p>2027年4月21〜23日、ジャカルタのJIExpo Kemayoranで開かれる。開場は初日と2日目が10時〜18時、最終日が10時〜16時30分。</p><h3>同時開催の展示会は？</h3><p>公式ファクトシートはINATRONICS、Smart IoT Indonesia、Smart Home+City Indonesiaを挙げている。</p><h3>誰が来場できるか。</h3><p>業界・ビジネス関係者のみで、18歳未満は入場できない。</p>",
+  "seoTitle": "Data Center Indonesia 2027 日程・会場",
+  "seoDescription": "GEM Indonesia主催のデータセンター・クラウド展示会Data Center Indonesia 2027は2027年4月21〜23日、ジャカルタのJIExpo Kemayoranで開催。"
+ }
+}

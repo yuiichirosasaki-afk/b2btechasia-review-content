@@ -1,0 +1,55 @@
+{
+ "slug": "dcd-connect-apac-2027",
+ "seriesId": "dcd-connect-apac",
+ "name": "DCD Connect | APAC 2027",
+ "isOwnEvent": false,
+ "country": "Indonesia",
+ "city": "Bali",
+ "venue": "InterContinental Bali Resort",
+ "organizer": "DCD (DatacenterDynamics)",
+ "startDate": "2027-06-08",
+ "endDate": "2027-06-10",
+ "dateStatus": "confirmed",
+ "zones": [
+  "Cloud & IT Infrastructure"
+ ],
+ "relevance": "B",
+ "exhibitors": null,
+ "visitors": null,
+ "admission": "mixed",
+ "lastEdition": null,
+ "officialUrl": "https://www.datacenterdynamics.com/en/dcdconnect-live/apac/2027/",
+ "sources": [
+  {
+   "name": "DCD",
+   "title": "DCD Connect | APAC 2027",
+   "url": "https://www.datacenterdynamics.com/en/dcdconnect-live/apac/2027/",
+   "date": "2026-11-24"
+  },
+  {
+   "name": "DCD",
+   "title": "Book Your Pass: DCD Connect | APAC 2027",
+   "url": "https://www.datacenterdynamics.com/en/dcdconnect-live/apac/2027/book-your-pass-apac/",
+   "date": "2026-11-24"
+  }
+ ],
+ "verifiedAt": "2026-11-24",
+ "id": {
+  "summaryHtml": "<p>DCD Connect | APAC 2027 adalah konferensi industri pusat data kawasan Asia Pasifik yang dijadwalkan pada 8–10 Juni 2027 di InterContinental Bali Resort, Bali. Penyelenggaranya adalah DCD (DatacenterDynamics), yang menggelar seri Connect di sejumlah kota dunia.</p><p>Acara ini ditujukan bagi tim desain, pembangunan, operasi, dan strategi pusat data. Bersamaan dengannya digelar DCD Investment Forum | APAC untuk investor dan tim keuangan, serta Leadership Summit tertutup bagi eksekutif operator cloud dan colocation. Penyelenggara menargetkan lebih dari 2.500 pemimpin senior pada 2027.</p><p>Menurut penyelenggara, edisi 2027 pindah ke tempat yang lebih besar setelah edisi sebelumnya terjual habis, dengan ruang pameran yang lebih luas bagi pemasok teknologi.</p>",
+  "faqHtml": "<h3>Kapan dan di mana DCD Connect | APAC 2027?</h3><p>Pada 8–10 Juni 2027 di InterContinental Bali Resort, Bali.</p><h3>Apakah gratis?</h3><p>Pass End-User/Specifier, General Admission, dan Investment Forum gratis; pass untuk vendor teknologi dan jasa berbayar.</p><h3>Acara apa yang digelar bersamaan?</h3><p>DCD Investment Forum | APAC dan DCD Leadership Summit | APAC.</p>",
+  "seoTitle": "DCD Connect APAC 2027 Bali: Tanggal dan Lokasi",
+  "seoDescription": "DCD Connect | APAC 2027, konferensi pusat data Asia Pasifik, digelar 8–10 Juni 2027 di InterContinental Bali Resort. Gratis untuk end user."
+ },
+ "en": {
+  "summaryHtml": "<p>DCD Connect | APAC 2027 is an Asia-Pacific data centre industry conference scheduled for 8–10 June 2027 at the InterContinental Bali Resort, Bali. It is organised by DCD (DatacenterDynamics), which runs the Connect series in several cities worldwide.</p><p>The event targets data centre design, build, operations and strategy teams. It runs alongside the DCD Investment Forum | APAC for investors and finance teams and a closed-door Leadership Summit for executives of cloud and colocation operators. The organiser aims for more than 2,500 senior leaders in 2027.</p><p>According to the organiser, the 2027 edition moves to a larger venue after the previous edition sold out, with more exhibition space for technology suppliers.</p>",
+  "faqHtml": "<h3>When and where is DCD Connect | APAC 2027?</h3><p>On 8–10 June 2027 at the InterContinental Bali Resort, Bali.</p><h3>Is it free?</h3><p>The End-User/Specifier, General Admission and Investment Forum passes are free; the pass for technology and service vendors is paid.</p><h3>What runs alongside it?</h3><p>The DCD Investment Forum | APAC and the DCD Leadership Summit | APAC.</p>",
+  "seoTitle": "DCD Connect APAC 2027 Bali: Dates and Venue",
+  "seoDescription": "DCD Connect | APAC 2027, the Asia-Pacific data centre conference, runs 8–10 June 2027 at the InterContinental Bali Resort. Free for end users."
+ },
+ "ja": {
+  "summaryHtml": "<p>DCD Connect | APAC 2027は、アジア太平洋のデータセンター業界が集まる会議で、2027年6月8〜10日にバリ島のInterContinental Bali Resortで開かれる。主催は世界各地でConnectシリーズを開くDCD（DatacenterDynamics）だ。</p><p>データセンターの設計、建設、運用、戦略の担当者が対象である。投資家・財務担当者向けのDCD Investment Forum | APACと、クラウド・コロケーション事業者の経営層向けの非公開会合Leadership Summitが同時に開かれる。主催者は2027年に2500人超の幹部の参加を見込む。</p><p>主催者によると、前回が満員となったため2027年は会場を広げ、技術供給企業の展示スペースも拡大する。</p>",
+  "faqHtml": "<h3>日程と会場は？</h3><p>2027年6月8〜10日、バリ島のInterContinental Bali Resortで開かれる。</p><h3>参加は無料か。</h3><p>End-User/Specifier、General Admission、Investment Forumの各パスは無料で、技術・サービスのベンダー向けパスは有料である。</p><h3>同時開催の行事は？</h3><p>DCD Investment Forum | APACとDCD Leadership Summit | APACである。</p>",
+  "seoTitle": "DCD Connect APAC 2027（バリ）日程・会場",
+  "seoDescription": "アジア太平洋のデータセンター会議DCD Connect | APAC 2027は2027年6月8〜10日、バリ島のInterContinental Bali Resortで開催。利用企業は無料。"
+ }
+}

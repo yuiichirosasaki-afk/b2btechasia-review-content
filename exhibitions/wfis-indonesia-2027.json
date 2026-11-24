@@ -1,0 +1,59 @@
+{
+ "slug": "wfis-indonesia-2027",
+ "seriesId": "wfis-indonesia",
+ "name": "World Financial Innovation Series (WFIS) Indonesia 2027",
+ "isOwnEvent": false,
+ "country": "Indonesia",
+ "city": "Jakarta",
+ "venue": "Raffles Jakarta",
+ "organizer": "Tradepass",
+ "startDate": "2027-10-26",
+ "endDate": "2027-10-27",
+ "dateStatus": "confirmed",
+ "zones": [
+  "FinTech & Financial Operations"
+ ],
+ "relevance": "A",
+ "exhibitors": null,
+ "visitors": null,
+ "admission": "unknown",
+ "lastEdition": {
+  "startDate": "2026-10-27",
+  "endDate": "2026-10-28",
+  "venue": "Raffles Jakarta"
+ },
+ "officialUrl": "https://www.indonesia.worldfis.com/",
+ "sources": [
+  {
+   "name": "WFIS Indonesia",
+   "title": "WFIS Indonesia: Indonesia's Leading Financial Sector Event",
+   "url": "https://www.indonesia.worldfis.com/",
+   "date": "2026-11-24"
+  },
+  {
+   "name": "Metro TV News",
+   "title": "Indonesia gears up for the eighth edition of World Financial Innovation Series (WFIS)",
+   "url": "https://www.metrotvnews.com/read/bVDC6rVR-indonesia-gears-up-for-the-biggest-bfsi-spectacle-at-the-eighth-edition-of-world-financial-innovation-series-wfis",
+   "date": "2026-11-24"
+  }
+ ],
+ "verifiedAt": "2026-11-24",
+ "id": {
+  "summaryHtml": "<p>World Financial Innovation Series (WFIS) Indonesia 2027 adalah konferensi dan pameran teknologi untuk sektor jasa keuangan dan asuransi. Situs resmi mencantumkan tanggal 26–27 Oktober 2027 di Raffles Jakarta. Penyelenggaranya adalah Tradepass, yang juga menggelar IndoSec.</p><p>Acara ini mempertemukan pimpinan teknologi dan bisnis dari bank, perusahaan asuransi, lembaga keuangan mikro, dan regulator dengan penyedia solusi. Situs resmi menyebut lebih dari 600 pengambil keputusan terkualifikasi dari sektor jasa keuangan, dengan topik seperti perbankan digital, inovasi fintech, dan perubahan regulasi.</p><p>Edisi kedelapan berlangsung pada 27–28 Oktober 2026 di Raffles Jakarta. Penyedia solusi dapat ikut sebagai peserta pameran atau sponsor.</p>",
+  "faqHtml": "<h3>Kapan dan di mana WFIS Indonesia 2027?</h3><p>Situs resmi mencantumkan 26–27 Oktober 2027 di Raffles Jakarta.</p><h3>Siapa yang hadir di WFIS Indonesia?</h3><p>Pimpinan teknologi dan bisnis dari bank, asuransi, lembaga keuangan mikro, dan regulator, bersama penyedia solusi teknologi.</p><h3>Bagaimana cara ikut pameran?</h3><p>Situs resmi menyediakan informasi bagi vendor yang ingin ikut pameran atau menjadi sponsor.</p>",
+  "seoTitle": "WFIS Indonesia 2027: Tanggal dan Lokasi",
+  "seoDescription": "WFIS Indonesia 2027, konferensi teknologi sektor keuangan dari Tradepass, dijadwalkan 26–27 Oktober 2027 di Raffles Jakarta."
+ },
+ "en": {
+  "summaryHtml": "<p>The World Financial Innovation Series (WFIS) Indonesia 2027 is a technology conference and exhibition for the financial services and insurance sector. The official site lists 26–27 October 2027 at Raffles Jakarta. It is organised by Tradepass, which also runs IndoSec.</p><p>The event connects technology and business heads from banks, insurers, microfinance institutions and regulators with solution providers. The official site cites more than 600 pre-qualified decision-makers from financial services, with topics such as digital banking, fintech innovation and regulatory change.</p><p>The eighth edition took place on 27–28 October 2026 at Raffles Jakarta. Solution providers can take part as exhibitors or sponsors.</p>",
+  "faqHtml": "<h3>When and where is WFIS Indonesia 2027?</h3><p>The official site lists 26–27 October 2027 at Raffles Jakarta.</p><h3>Who attends WFIS Indonesia?</h3><p>Technology and business heads from banks, insurers, microfinance institutions and regulators, together with technology solution providers.</p><h3>How do I exhibit?</h3><p>The official site has information for vendors who want to exhibit or sponsor.</p>",
+  "seoTitle": "WFIS Indonesia 2027: Dates and Venue",
+  "seoDescription": "WFIS Indonesia 2027, the financial sector technology conference by Tradepass, is scheduled for 26–27 October 2027 at Raffles Jakarta."
+ },
+ "ja": {
+  "summaryHtml": "<p>World Financial Innovation Series（WFIS）Indonesia 2027は、金融・保険業界向けのテクノロジー会議兼展示会だ。公式サイトは2027年10月26〜27日、会場をRaffles Jakartaとしている。主催はIndoSecも手がけるTradepassである。</p><p>銀行、保険会社、マイクロファイナンス機関、規制当局の技術・事業責任者とソリューション提供企業を結び付ける。公式サイトは金融業界の意思決定者600人超が集まるとし、デジタルバンキング、フィンテック、規制の変化などを扱う。</p><p>8回目の前回は2026年10月27〜28日にRaffles Jakartaで開かれた。ソリューション提供企業は出展やスポンサーとして参加できる。</p>",
+  "faqHtml": "<h3>WFIS Indonesia 2027の日程と会場は？</h3><p>公式サイトは2027年10月26〜27日、Raffles Jakartaとしている。</p><h3>どのような参加者が集まるか。</h3><p>銀行、保険、マイクロファイナンス機関、規制当局の技術・事業責任者と、技術ソリューションの提供企業である。</p><h3>出展するには？</h3><p>公式サイトに出展・スポンサーを希望するベンダー向けの案内がある。</p>",
+  "seoTitle": "WFIS Indonesia 2027 日程・会場",
+  "seoDescription": "Tradepass主催の金融業界向けテクノロジー会議WFIS Indonesia 2027は2027年10月26〜27日、Raffles Jakartaで開催予定。"
+ }
+}

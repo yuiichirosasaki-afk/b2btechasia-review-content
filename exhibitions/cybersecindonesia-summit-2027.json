@@ -1,0 +1,57 @@
+{
+ "slug": "cybersecindonesia-summit-2027",
+ "seriesId": "cybersecindonesia-summit",
+ "name": "CyberSecIndonesia Summit 2027",
+ "isOwnEvent": false,
+ "country": "Indonesia",
+ "city": "Jakarta",
+ "venue": "Shangri-La, Jakarta",
+ "organizer": "CyberSecAsia.org (Escom)",
+ "startDate": "2027-07-14",
+ "endDate": "2027-07-14",
+ "dateStatus": "confirmed",
+ "zones": [
+  "Cybersecurity & Data Protection"
+ ],
+ "relevance": "A",
+ "exhibitors": {
+  "value": 20,
+  "edition": "2025",
+  "sourceUrl": "https://cybersecasia.org/csid2027"
+ },
+ "visitors": {
+  "value": 400,
+  "edition": "2025",
+  "sourceUrl": "https://cybersecasia.org/csid2027"
+ },
+ "admission": "paid",
+ "lastEdition": null,
+ "officialUrl": "https://cybersecasia.org/csid2027",
+ "sources": [
+  {
+   "name": "CyberSecAsia.org",
+   "title": "CyberSecIndonesia Summit 2027",
+   "url": "https://cybersecasia.org/csid2027",
+   "date": "2026-11-24"
+  }
+ ],
+ "verifiedAt": "2026-11-24",
+ "id": {
+  "summaryHtml": "<p>CyberSecIndonesia Summit 2027 (CSID 2027) adalah konferensi keamanan siber satu hari yang dijadwalkan pada 14 Juli 2027 di Shangri-La, Jakarta. Penyelenggaranya adalah CyberSecAsia.org, platform acara milik Escom.</p><p>Penyelenggara memperkirakan lebih dari 300 profesional keamanan senior dari sektor keuangan, ritel, TI, kesehatan, dan pemerintahan, dengan lebih dari 20 pembicara dan sekitar 20 peserta pameran. Paket sponsor mencakup booth pameran, branding, dan pertemuan empat mata.</p><p>Menurut situs resmi, edisi 2025 di Jakarta mencatat lebih dari 400 peserta dan lebih dari 20 sponsor dan peserta pameran. Agenda edisi 2026 menampilkan pembicara utama dari BSSN dan ADIGSI, dengan topik seperti zero trust dan kepemimpinan CISO.</p>",
+  "faqHtml": "<h3>Kapan dan di mana CSID 2027?</h3><p>Pada 14 Juli 2027 di Shangri-La, Jakarta.</p><h3>Apakah CSID 2027 gratis?</h3><p>Tidak. Situs resmi menjual tiket berbayar dengan tarif berbeda untuk peserta umum dan untuk vendor atau penyedia solusi.</p><h3>Bagaimana cara menjadi peserta pameran?</h3><p>Melalui formulir kontak di situs resmi; slot sponsor yang mencakup booth pameran jumlahnya terbatas.</p>",
+  "seoTitle": "CyberSecIndonesia Summit 2027: Tanggal, Lokasi",
+  "seoDescription": "CyberSecIndonesia Summit 2027 (CSID) digelar 14 Juli 2027 di Shangri-La Jakarta, menargetkan lebih dari 300 profesional keamanan siber."
+ },
+ "en": {
+  "summaryHtml": "<p>CyberSecIndonesia Summit 2027 (CSID 2027) is a one-day cybersecurity conference scheduled for 14 July 2027 at the Shangri-La, Jakarta. It is organised by CyberSecAsia.org, an events platform owned by Escom.</p><p>The organiser expects more than 300 senior security professionals from finance, retail, IT, healthcare and the public sector, with more than 20 speakers and about 20 exhibitors. Sponsorship packages include an exhibition booth, branding and one-to-one meetings.</p><p>According to the official site, the 2025 edition in Jakarta recorded more than 400 attendees and more than 20 sponsors and exhibitors. The 2026 agenda featured keynotes from BSSN and ADIGSI, with topics such as zero trust and CISO leadership.</p>",
+  "faqHtml": "<h3>When and where is CSID 2027?</h3><p>On 14 July 2027 at the Shangri-La, Jakarta.</p><h3>Is CSID 2027 free?</h3><p>No. The official site sells paid passes, with different rates for general delegates and for vendors or solution providers.</p><h3>How do I exhibit?</h3><p>Through the contact form on the official site; sponsorship slots that include a booth are limited.</p>",
+  "seoTitle": "CyberSecIndonesia Summit 2027: Date and Venue",
+  "seoDescription": "CyberSecIndonesia Summit 2027 (CSID) is on 14 July 2027 at the Shangri-La Jakarta and expects more than 300 cybersecurity professionals."
+ },
+ "ja": {
+  "summaryHtml": "<p>CyberSecIndonesia Summit 2027（CSID 2027）は、2027年7月14日にジャカルタのShangri-Laで開かれる1日間のサイバーセキュリティ会議だ。Escomが運営するイベント事業CyberSecAsia.orgが主催する。</p><p>主催者は金融、小売、IT、医療、公共部門のセキュリティ責任者ら300人超の参加を見込み、登壇者は20人超、出展は約20社を予定する。スポンサー枠には展示ブース、ブランディング、個別商談が含まれる。</p><p>公式サイトによると、2025年のジャカルタ開催は参加者400人超、スポンサー・出展20社超だった。2026年のアジェンダでは国家サイバー暗号庁（BSSN）とADIGSIが基調講演を行い、ゼロトラストやCISOの役割などを扱った。</p>",
+  "faqHtml": "<h3>CSID 2027の日程と会場は？</h3><p>2027年7月14日、ジャカルタのShangri-Laで開かれる。</p><h3>参加は無料か。</h3><p>有料である。一般参加者とベンダー・ソリューション提供企業で料金が異なる。</p><h3>出展するには？</h3><p>公式サイトの問い合わせフォームから申し込む。展示ブースを含むスポンサー枠は数が限られる。</p>",
+  "seoTitle": "CyberSecIndonesia Summit 2027 日程・会場",
+  "seoDescription": "サイバーセキュリティ会議CyberSecIndonesia Summit 2027（CSID）は2027年7月14日、ジャカルタのShangri-Laで開催。300人超の参加を見込む。"
+ }
+}
