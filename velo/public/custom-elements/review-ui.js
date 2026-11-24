@@ -144,7 +144,7 @@ const XT = {
     legendTba: 'Tanggal edisi berikutnya belum diumumkan. Kami tampilkan edisi sebelumnya sebagai acuan.',
     fixTitle: 'Koreksi dan penambahan', fix: 'Ada jadwal yang berubah, atau pameran yang belum tercantum? Kirimkan ke redaksi.',
     official: 'Kunjungi situs resmi', addCal: 'Tambahkan ke kalender', report: 'Laporkan koreksi', reportSubject: 'Koreksi kalender pameran',
-    sameZone: 'Pameran lain di zona yang sama', others: 'Pameran lain', allCal: 'Lihat seluruh kalender →',
+    sameZone: 'Pameran terkait', others: 'Pameran lain', allCal: 'Lihat seluruh kalender →',
     days: ['Min', 'Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab'],
   },
   en: {
@@ -162,7 +162,7 @@ const XT = {
     legendTba: 'Dates of the next edition have not been announced. The previous edition is shown for reference.',
     fixTitle: 'Corrections and additions', fix: 'Has a date changed, or is an event missing? Tell our editors.',
     official: 'Visit the official site', addCal: 'Add to calendar', report: 'Report a correction', reportSubject: 'Exhibition calendar correction',
-    sameZone: 'Other events in the same zone', others: 'Other events', allCal: 'See the full calendar →',
+    sameZone: 'Related events', others: 'Other events', allCal: 'See the full calendar →',
     days: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
   },
   ja: {
@@ -180,7 +180,7 @@ const XT = {
     legendTba: '次回の日程は発表されていません。参考として前回の開催実績を表示しています。',
     fixTitle: '訂正・追加のご連絡', fix: '日程の変更や、掲載されていない展示会があればお知らせください。',
     official: '公式サイトを見る', addCal: 'カレンダーに追加', report: '訂正を連絡する', reportSubject: '展示会カレンダーの訂正',
-    sameZone: '同じゾーンの展示会', others: 'ほかの展示会', allCal: 'カレンダー全体を見る →',
+    sameZone: '関連する展示会', others: 'ほかの展示会', allCal: 'カレンダー全体を見る →',
     days: JA_DAYS,
   },
 };

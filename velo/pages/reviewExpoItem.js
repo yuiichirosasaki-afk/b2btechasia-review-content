@@ -31,7 +31,7 @@ const DAYS = {
 const TXT = {
   id: {
     news: 'Berita', cal: 'Kalender Pameran', confirmed: 'TANGGAL RESMI', tba: 'TANGGAL BELUM DIUMUMKAN', cancelled: 'DIBATALKAN', own: 'DISELENGGARAKAN OLEH PENERBIT SITUS INI',
-    date: 'Tanggal', notYet: 'Belum diumumkan penyelenggara', cancelledDate: 'Dibatalkan', place: 'Lokasi', organizer: 'Penyelenggara', last: 'Edisi sebelumnya', admission: 'Tiket masuk', site: 'Situs resmi', zones: 'Zona',
+    date: 'Tanggal', notYet: 'Belum diumumkan penyelenggara', cancelledDate: 'Dibatalkan', place: 'Lokasi', organizer: 'Penyelenggara', last: 'Edisi sebelumnya', admission: 'Tiket masuk', site: 'Situs resmi',
     adm: { free: 'Gratis', paid: 'Berbayar', mixed: 'Pameran gratis, konferensi berbayar' },
     summary: 'RINGKASAN', figures: (y) => `ANGKA PENYELENGGARA, EDISI ${y}`, exhibitors: 'exhibitor', visitors: 'pengunjung', figNote: 'Menurut penyelenggara', faq: 'PERTANYAAN YANG SERING DIAJUKAN', sources: 'SUMBER',
     checked: (d) => `Terakhir diperiksa ${d}. Jadwal dapat berubah; pastikan kembali ke penyelenggara.`,
@@ -39,7 +39,7 @@ const TXT = {
   },
   en: {
     news: 'News', cal: 'Exhibition Calendar', confirmed: 'OFFICIAL DATES', tba: 'DATES NOT ANNOUNCED', cancelled: 'CANCELLED', own: 'ORGANISED BY THE PUBLISHER OF THIS SITE',
-    date: 'Dates', notYet: 'Not yet announced by the organiser', cancelledDate: 'Cancelled', place: 'Venue', organizer: 'Organiser', last: 'Previous edition', admission: 'Admission', site: 'Official site', zones: 'Zones',
+    date: 'Dates', notYet: 'Not yet announced by the organiser', cancelledDate: 'Cancelled', place: 'Venue', organizer: 'Organiser', last: 'Previous edition', admission: 'Admission', site: 'Official site',
     adm: { free: 'Free', paid: 'Paid', mixed: 'Free exhibition, paid conference' },
     summary: 'OVERVIEW', figures: (y) => `ORGANISER FIGURES, ${y} EDITION`, exhibitors: 'exhibitors', visitors: 'visitors', figNote: 'According to the organiser', faq: 'FREQUENTLY ASKED QUESTIONS', sources: 'SOURCES',
     checked: (d) => `Last checked ${d}. Schedules can change; confirm with the organiser.`,
@@ -47,7 +47,7 @@ const TXT = {
   },
   ja: {
     news: 'ニュース', cal: '展示会カレンダー', confirmed: '公式発表の日程', tba: '日程未発表', cancelled: '中止', own: '当サイトの発行元が主催',
-    date: '日程', notYet: '主催者から未発表', cancelledDate: '中止', place: '会場', organizer: '主催', last: '前回', admission: '入場', site: '公式サイト', zones: 'ゾーン',
+    date: '日程', notYet: '主催者から未発表', cancelledDate: '中止', place: '会場', organizer: '主催', last: '前回', admission: '入場', site: '公式サイト',
     adm: { free: '無料', paid: '有料', mixed: '展示会は無料、カンファレンスは有料' },
     summary: '概要', figures: (y) => `主催者発表の数字（${y}年）`, exhibitors: '出展者', visitors: '来場者', figNote: '主催者発表', faq: 'よくある質問', sources: '出典',
     checked: (d) => `最終確認 ${d}。日程は変更されることがあります。主催者に最新の情報をご確認ください。`,
@@ -201,7 +201,6 @@ $w.onReady(async function () {
   if (raw.organizer) head.push(fact(t.organizer, esc(raw.organizer)));
   if (last && last.startDate) head.push(fact(t.last, esc(dateRange(last.startDate, last.endDate, L) + (last.venue ? t.comma + last.venue : ''))));
   if (t.adm[raw.admission]) head.push(fact(t.admission, t.adm[raw.admission]));
-  if (zones.length) head.push(fact(t.zones, esc(zones.join(' · '))));
   if (raw.officialUrl && !raw.isOwnEvent) {
     const host = String(raw.officialUrl).replace(/^https?:\/\/(www\.)?/, '').replace(/\/.*$/, '');
     head.push(fact(t.site, `<a href="${esc(raw.officialUrl)}" target="_blank" rel="noopener nofollow"><span style="color:${NAVY}"><u>${esc(host)}</u></span></a>`));
