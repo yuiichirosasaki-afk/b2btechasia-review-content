@@ -1,0 +1,88 @@
+{
+  "slug": "telkom-brin-kolaborasi-ai-llm-bahasa-indonesia-satelit-kuantum",
+  "title": "Telkom dan BRIN Teken Intensi Kolaborasi AI, Satelit, dan Kuantum: 3 Quick Win Termasuk LLM Berbahasa Indonesia",
+  "category": "AI & Automation",
+  "articleType": "analisis",
+  "dek": "PT Telkom Indonesia dan BRIN menandatangani intensi kolaborasi riset berorientasi industri di bidang satelit, kecerdasan artifisial, dan komputasi kuantum. Tiga quick win yang dibidik, termasuk model bahasa berbahasa Indonesia dan kriptografi pascakuantum untuk tanda tangan digital, dapat menjadi pilihan baru bagi perusahaan yang mencari AI berdaulat.",
+  "summaryHtml": "<ul><li>Telkom dan Badan Riset dan Inovasi Nasional (BRIN) menandatangani intensi kolaborasi tentang penguatan kedaulatan digital melalui riset dan inovasi berorientasi industri di bidang satelit, AI, dan komputasi kuantum di Jakarta, Selasa (24/11/2026). Penandatanganan dilakukan Direktur Utama Telkom Nanang Hendarno dan Kepala BRIN Arif Satria (Katadata, CNBC Indonesia).</li><li>Tiga quick win yang disepakati: GSaaS, LLM dan SLM berbahasa Indonesia, serta kriptografi pascakuantum (PQC) untuk tanda tangan digital.</li><li>Kolaborasi juga mencakup empat use case AI prioritas bersama Danantara Indonesia, MIND ID, Pertamina, dan Garuda Indonesia, serta pengembangan model AI untuk pertanian dan perikanan, kesehatan, dan pertambangan melalui platform ModelHub (Katadata).</li><li>Di bidang satelit, cakupannya meliputi layanan citra, terminal pengguna satelit GEO yang portabel dan terjangkau melalui anak usaha Telkomsat, serta konstelasi LEO nasional jangka panjang termasuk layanan posisi, navigasi, dan waktu (PNT). PQC diarahkan untuk tanda tangan digital, perangkat IoT, dan VPN.</li><li>Sumber yang dibaca tidak menyebutkan nilai investasi maupun jadwal peluncuran.</li></ul>",
+  "analysisHtml": "<h3>Dari riset ke produk yang bisa dijual</h3><p>Kerja sama antara BUMN telekomunikasi dan lembaga riset negara bukan hal baru. Yang membedakan kesepakatan ini adalah penekanan pada hilirisasi dan quick win, yaitu hasil awal yang dijanjikan bisa segera dirasakan. Kepala BRIN Arif Satria menyebut hasil riset perlu \"dapat diuji langsung oleh pengguna dan pasar\" (CNBC Indonesia). BRIN membawa talenta dan fasilitas komputasi berkinerja tinggi, sementara Telkom membawa pelanggan, jaringan, dan kanal penjualan. Jika berhasil, kombinasi ini dapat memperpendek jalan dari prototipe ke layanan komersial. Namun dokumen yang diteken masih berupa intensi kolaborasi, sehingga ukuran keberhasilannya baru akan terlihat saat produk pertama diluncurkan.</p><h3>LLM berbahasa Indonesia sebagai opsi bagi perusahaan</h3><p>Bagi perusahaan, quick win yang paling relevan adalah LLM dan SLM berbahasa Indonesia. Model kecil (SLM) bisa dijalankan di infrastruktur dalam negeri dengan biaya lebih rendah, yang penting bagi sektor teregulasi seperti perbankan dan BUMN yang memperhatikan lokasi pemrosesan data. Kemungkinan besar, empat use case bersama Danantara, MIND ID, Pertamina, dan Garuda Indonesia akan menjadi etalase pertama. Perlu dicermati seberapa kompetitif kinerja model ini dibandingkan model global yang sudah tersedia melalui penyedia cloud, karena pengguna korporat akan menilai dari kualitas, bukan hanya asal-usul model.</p><h3>PQC dan satelit memperluas peta kedaulatan</h3><p>Masuknya PQC untuk tanda tangan digital, IoT, dan VPN menunjukkan bahwa Telkom menempatkan keamanan kriptografi sebagai produk, bukan sekadar riset. Ini sejalan dengan perhatian pemerintah terhadap migrasi kriptografi pascakuantum. Di sisi satelit, terminal GEO yang portabel dan terjangkau dapat membuka layanan bagi operasi di daerah terpencil seperti pertambangan dan perkebunan, sementara konstelasi LEO nasional disebut sebagai rencana jangka panjang.</p><h3>Yang belum dijelaskan</h3><p>Pengumuman tidak menyebut anggaran, pembagian hak kekayaan intelektual, jadwal, maupun model bisnis. Pertanyaan pentingnya: apakah model AI hasil kolaborasi akan terbuka untuk pihak lain, atau hanya tersedia melalui layanan Telkom. Jawabannya akan menentukan apakah inisiatif ini memperluas pasar AI lokal atau memperkuat posisi satu penyedia.</p>",
+  "actionHtml": "<h3>Untuk CIO dan CTO</h3><ol><li>Petakan kasus penggunaan AI yang mensyaratkan data tetap di Indonesia, lalu siapkan kriteria evaluasi (akurasi bahasa Indonesia, biaya, latensi) untuk membandingkan model lokal dan global.</li><li>Ikuti perkembangan ModelHub dan uji coba SLM berbahasa Indonesia sebagai opsi untuk beban kerja internal yang sensitif.</li></ol><h3>Untuk CISO</h3><ol><li>Inventarisasi penggunaan tanda tangan digital, VPN, dan perangkat IoT yang kelak perlu dimigrasikan ke kriptografi pascakuantum.</li></ol><h3>Untuk vendor AI dan integrator</h3><ol><li>Pertimbangkan kemitraan atau integrasi dengan ekosistem Telkom–BRIN, terutama untuk sektor pertanian, kesehatan, dan pertambangan yang disebut sebagai domain model AI.</li></ol>",
+  "faqHtml": "<h3>Apa isi kerja sama Telkom dan BRIN?</h3><p>Telkom dan BRIN menandatangani intensi kolaborasi riset dan inovasi berorientasi industri di bidang satelit, AI, dan komputasi kuantum termasuk kriptografi pascakuantum, pada 24 November 2026.</p><h3>Apa saja quick win kolaborasi Telkom-BRIN?</h3><p>Tiga quick win yang disebut adalah GSaaS, LLM dan SLM berbahasa Indonesia, serta kriptografi pascakuantum untuk tanda tangan digital.</p><h3>Kapan LLM berbahasa Indonesia Telkom-BRIN tersedia?</h3><p>Belum ada jadwal yang diumumkan. Sumber yang dibaca juga tidak menyebut nilai investasi.</p>",
+  "dataFigure": "3 quick win",
+  "dataLabel": "GSaaS, LLM/SLM berbahasa Indonesia, dan PQC untuk tanda tangan digital",
+  "dataSource": "Telkom dan BRIN, via Katadata dan CNBC Indonesia, 25 November 2026",
+  "audience": [
+    "CTO",
+    "CIO",
+    "CISO",
+    "Vendor AI"
+  ],
+  "tags": [
+    "Deals",
+    "Telkom",
+    "BRIN",
+    "LLM bahasa Indonesia",
+    "Kriptografi pascakuantum",
+    "Satelit",
+    "AI berdaulat"
+  ],
+  "sources": [
+    {
+      "name": "Katadata",
+      "title": "Telkom-BRIN Garap AI, Satelit & Komputasi Kuantum Demi Jaga Kedaulatan Digital",
+      "url": "https://katadata.co.id/digital/teknologi/6b06b544f213c/telkom-brin-garap-ai-satelit-komputasi-kuantum-demi-jaga-kedaulatan-digital",
+      "date": "2026-11-25"
+    },
+    {
+      "name": "CNBC Indonesia",
+      "title": "Mantap! Telkom-BRIN Garap AI, Satelit & Komputasi Kuantum",
+      "url": "https://www.cnbcindonesia.com/tech/20261125144922-37-788378/mantap-telkom-brin-garap-ai-satelit-komputasi-kuantum",
+      "date": "2026-11-25"
+    }
+  ],
+  "seoTitle": "Telkom-BRIN Garap LLM Bahasa Indonesia, Satelit, dan PQC",
+  "seoDescription": "Telkom dan BRIN teken intensi kolaborasi AI, satelit, dan kuantum dengan 3 quick win: GSaaS, LLM/SLM berbahasa Indonesia, dan PQC tanda tangan digital.",
+  "publishAt": "2026-11-26T07:30:00+07:00",
+  "language": "id",
+  "en": {
+    "title": "Telkom and BRIN Sign Collaboration Intent on AI, Satellites and Quantum: 3 Quick Wins Including an Indonesian-Language LLM",
+    "dek": "PT Telkom Indonesia and BRIN have signed an intent to collaborate on industry-oriented research in satellites, artificial intelligence and quantum computing. The three targeted quick wins, including Indonesian-language models and post-quantum cryptography for digital signatures, could give companies looking for sovereign AI a new option.",
+    "summaryHtml": "<ul><li>Telkom and the National Research and Innovation Agency (BRIN) signed an intent to collaborate on strengthening digital sovereignty through industry-oriented research and innovation in satellites, AI and quantum computing in Jakarta on Tuesday (24 November 2026). It was signed by Telkom President Director Nanang Hendarno and BRIN Head Arif Satria (Katadata, CNBC Indonesia).</li><li>The three agreed quick wins are GSaaS, Indonesian-language LLMs and SLMs, and post-quantum cryptography (PQC) for digital signatures.</li><li>The collaboration also covers four priority AI use cases with Danantara Indonesia, MIND ID, Pertamina and Garuda Indonesia, and the development of AI models for agriculture and fisheries, health and mining through the ModelHub platform (Katadata).</li><li>In satellites, the scope includes imagery services, portable and affordable GEO user terminals through subsidiary Telkomsat, and a long-term national LEO constellation including positioning, navigation and timing (PNT). PQC is aimed at digital signatures, IoT devices and VPNs.</li><li>The sources do not give an investment value or a launch timetable.</li></ul>",
+    "analysisHtml": "<h3>From research to products that can be sold</h3><p>Cooperation between a state telecoms company and a state research agency is not new. What sets this agreement apart is its emphasis on commercialisation and quick wins, early results that are promised to be felt soon. BRIN Head Arif Satria said research results should be testable directly by users and the market (CNBC Indonesia). BRIN brings talent and high-performance computing facilities, while Telkom brings customers, networks and sales channels. If it works, the combination could shorten the path from prototype to commercial service. But the signed document is still an intent to collaborate, so success will only be measurable when the first products launch.</p><h3>An Indonesian-language LLM as an option for companies</h3><p>For companies, the most relevant quick win is the Indonesian-language LLM and SLM. Small models (SLMs) can run on domestic infrastructure at lower cost, which matters for regulated sectors such as banking and state-owned enterprises that care where data is processed. The four use cases with Danantara, MIND ID, Pertamina and Garuda Indonesia are likely to be the first showcase. How competitive these models are against global models already available through cloud providers is worth watching, because corporate users will judge on quality, not just origin.</p><h3>PQC and satellites widen the sovereignty map</h3><p>Including PQC for digital signatures, IoT and VPNs shows that Telkom treats cryptographic security as a product, not just research. This is in line with government attention to post-quantum cryptography migration. On satellites, portable and affordable GEO terminals could open services for operations in remote areas such as mining and plantations, while a national LEO constellation is described as a long-term plan.</p><h3>What has not been explained</h3><p>The announcement gives no budget, intellectual property split, timetable or business model. The key question is whether AI models from the collaboration will be open to others or only available through Telkom's services. The answer will determine whether the initiative widens the local AI market or strengthens one provider's position.</p>",
+    "actionHtml": "<h3>For CIOs and CTOs</h3><ol><li>Map AI use cases that require data to stay in Indonesia, then set evaluation criteria (Indonesian-language accuracy, cost, latency) to compare local and global models.</li><li>Follow ModelHub and trials of Indonesian-language SLMs as an option for sensitive internal workloads.</li></ol><h3>For CISOs</h3><ol><li>Take inventory of digital signatures, VPNs and IoT devices that will eventually need to migrate to post-quantum cryptography.</li></ol><h3>For AI vendors and integrators</h3><ol><li>Consider partnering or integrating with the Telkom–BRIN ecosystem, especially in agriculture, health and mining, the domains named for AI models.</li></ol>",
+    "faqHtml": "<h3>What does the Telkom–BRIN collaboration cover?</h3><p>Telkom and BRIN signed an intent to collaborate on industry-oriented research and innovation in satellites, AI and quantum computing, including post-quantum cryptography, on 24 November 2026.</p><h3>What are the quick wins of the Telkom–BRIN collaboration?</h3><p>The three quick wins named are GSaaS, Indonesian-language LLMs and SLMs, and post-quantum cryptography for digital signatures.</p><h3>When will the Telkom–BRIN Indonesian-language LLM be available?</h3><p>No timetable has been announced. The sources also do not mention an investment value.</p>",
+    "dataFigure": "3 quick wins",
+    "dataLabel": "GSaaS, Indonesian-language LLM/SLM, and PQC for digital signatures",
+    "dataSource": "Telkom and BRIN, via Katadata and CNBC Indonesia, 25 November 2026",
+    "seoTitle": "Telkom and BRIN Target Indonesian LLM, Satellites and PQC",
+    "seoDescription": "Telkom and BRIN signed a collaboration intent on AI, satellites and quantum with 3 quick wins: GSaaS, Indonesian-language LLM/SLM and PQC signatures.",
+    "audience": [
+      "CTO",
+      "CIO",
+      "CISO",
+      "AI vendor"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/telkom-brin-kolaborasi-ai-llm-bahasa-indonesia-satelit-kuantum-en.png"
+  },
+  "ja": {
+    "title": "TelkomとBRIN、AI・衛星・量子で協力意向書に署名　インドネシア語LLMなど3つの早期成果狙う",
+    "dek": "PT Telkom IndonesiaとインドネシアのBRIN（国家研究革新庁）は、衛星、人工知能（AI）、量子コンピューティングの産業志向の研究で協力する意向書に署名した。インドネシア語の言語モデルや電子署名向けの耐量子暗号など3つの早期成果（クイックウィン）は、主権AIを求める企業にとって新たな選択肢となり得る。",
+    "summaryHtml": "<ul><li>TelkomとBRINは2026年11月24日、ジャカルタで、衛星・AI・量子コンピューティング分野の産業志向の研究・イノベーションを通じたデジタル主権の強化に関する協力意向書に署名した。署名したのはTelkomのナナン・ヘンダルノ社長とBRINのアリフ・サトリア長官である（Katadata、CNBC Indonesia）。</li><li>合意した3つのクイックウィンは、GSaaS、インドネシア語のLLMとSLM、電子署名向けの耐量子暗号（PQC）である。</li><li>協力にはDanantara Indonesia、MIND ID、Pertamina、Garuda Indonesiaとの4つの優先AIユースケースや、ModelHubプラットフォームを通じた農業・水産、保健、鉱業向けAIモデルの開発も含まれる（Katadata）。</li><li>衛星分野では、画像サービス、子会社Telkomsatによる携帯可能で手頃な静止軌道（GEO）衛星端末、測位・航法・時刻（PNT）を含む国家低軌道（LEO）衛星群の長期計画が対象となる。PQCは電子署名、IoT機器、VPNを想定している。</li><li>読んだ情報源には投資額や開始時期は示されていない。</li></ul>",
+    "analysisHtml": "<h3>研究から販売できる製品へ</h3><p>国営通信会社と国の研究機関の協力自体は目新しくない。今回の合意の特徴は、事業化と、早期に成果を実感できるとするクイックウィンを重視している点だ。BRINのアリフ・サトリア長官は、研究成果は利用者と市場が直接試せるものであるべきだと述べた（CNBC Indonesia）。BRINは人材と高性能計算施設を、Telkomは顧客、通信網、販売チャネルを持ち寄る。うまくいけば試作から商用サービスまでの道のりを短縮できる。ただし署名したのは協力意向書にとどまり、成否は最初の製品が出るまで測れない。</p><h3>企業にとってのインドネシア語LLM</h3><p>企業にとって最も関係が深いのは、インドネシア語のLLMとSLMである。小型モデル（SLM）は国内インフラで低コストで運用でき、データの処理場所を重視する銀行や国営企業など規制業種にとって重要だ。Danantara、MIND ID、Pertamina、Garuda Indonesiaとの4つのユースケースが最初の実例となる可能性が高い。クラウド事業者を通じて既に使える海外モデルに比べて性能面でどこまで競争力があるかが注目点だ。企業利用者はモデルの出自だけでなく品質で判断するからである。</p><h3>PQCと衛星で主権の範囲を広げる</h3><p>電子署名、IoT、VPN向けのPQCが含まれたことは、Telkomが暗号の安全性を研究ではなく製品として位置付けていることを示す。耐量子暗号への移行に対する政府の関心とも一致する。衛星では、携帯可能で手頃なGEO端末が鉱山や農園など遠隔地での業務向けサービスを開く可能性があり、国家LEO衛星群は長期計画とされている。</p><h3>説明されていないこと</h3><p>発表には予算、知的財産の帰属、日程、ビジネスモデルが含まれていない。重要なのは、協力で生まれるAIモデルが他社にも開放されるのか、Telkomのサービス経由でのみ提供されるのかという点だ。その答えが、国内AI市場を広げるのか、一事業者の立場を強めるのかを左右する。</p>",
+    "actionHtml": "<h3>CIO・CTO</h3><ol><li>データを国内にとどめる必要があるAI用途を洗い出し、インドネシア語の精度、コスト、遅延など国内モデルと海外モデルを比較する評価基準を用意する。</li><li>機密性の高い社内業務向けの選択肢として、ModelHubとインドネシア語SLMの試験運用の動向を追う。</li></ol><h3>CISO</h3><ol><li>将来、耐量子暗号への移行が必要になる電子署名、VPN、IoT機器を棚卸しする。</li></ol><h3>AIベンダー・システムインテグレーター</h3><ol><li>AIモデルの対象分野とされた農業、保健、鉱業を中心に、Telkom・BRINの生態系との提携や連携を検討する。</li></ol>",
+    "faqHtml": "<h3>TelkomとBRINの協力の内容は。</h3><p>両者は2026年11月24日、衛星、AI、耐量子暗号を含む量子コンピューティング分野で、産業志向の研究・イノベーションに協力する意向書に署名した。</p><h3>クイックウィンとは何か。</h3><p>GSaaS、インドネシア語のLLMとSLM、電子署名向けの耐量子暗号の3つである。</p><h3>インドネシア語LLMはいつ利用できるのか。</h3><p>日程は発表されていない。投資額も示されていない。</p>",
+    "dataFigure": "3分野",
+    "dataLabel": "クイックウィン：GSaaS、インドネシア語LLM/SLM、電子署名向けPQC",
+    "dataSource": "Telkom、BRIN（Katadata、CNBC Indonesia経由）、2026年11月25日",
+    "seoTitle": "Telkom・BRIN、インドネシア語LLMと耐量子暗号",
+    "seoDescription": "TelkomとBRINがAI・衛星・量子で協力意向書に署名。GSaaS、インドネシア語LLM/SLM、電子署名向け耐量子暗号の3つの早期成果を目指す。",
+    "audience": [
+      "CTO",
+      "CIO",
+      "CISO",
+      "AIベンダー"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/telkom-brin-kolaborasi-ai-llm-bahasa-indonesia-satelit-kuantum-ja.png"
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/telkom-brin-kolaborasi-ai-llm-bahasa-indonesia-satelit-kuantum.png"
+}

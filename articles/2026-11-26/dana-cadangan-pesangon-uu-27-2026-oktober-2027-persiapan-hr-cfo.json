@@ -1,0 +1,105 @@
+{
+  "slug": "dana-cadangan-pesangon-uu-27-2026-oktober-2027-persiapan-hr-cfo",
+  "title": "Dana Cadangan Pesangon UU 27/2026 Wajib Paling Lambat 28 Oktober 2027: Yang Sudah Pasti dan Belum bagi HR dan CFO",
+  "category": "HR Tech & Workforce Management",
+  "articleType": "penjelasan",
+  "dek": "UU Nomor 27 Tahun 2026 tentang Pelindungan Ketenagakerjaan mewajibkan pemberi kerja, kecuali usaha mikro dan kecil, menyediakan dana cadangan pesangon yang dikelola lembaga pemerintah. Pengelola, besaran, dan mekanismenya belum ditetapkan, tetapi tenggat dan sanksinya sudah tertulis, sehingga HR dan keuangan perlu mulai menyiapkan data dan sistem dari sekarang.",
+  "summaryHtml": "<ul><li>UU 27/2026 tentang Pelindungan Ketenagakerjaan ditetapkan dan diundangkan pada 28 Oktober 2026, terdiri atas 313 pasal dalam 23 bab, dan mencabut UU 13/2003. Dokumennya dibuka ke publik pada 9 November 2026 (Fortune Indonesia).</li><li>Menurut CNBC Indonesia, Pasal 253 mewajibkan pemberi kerja menyediakan dana cadangan pesangon sebagai sumber pembayaran hak pekerja saat hubungan kerja berakhir karena alasan selain pensiun, bagi pekerja yang tidak diikutsertakan dalam program pensiun. Dana dikelola lembaga pemerintah, usaha mikro dan kecil dikecualikan, dan kewajiban berlaku paling lambat 28 Oktober 2027.</li><li>Sanksi bagi pelanggar meliputi teguran tertulis, pembatasan kegiatan usaha, penghentian sementara sebagian atau seluruh kegiatan usaha, dan/atau pencabutan perizinan berusaha, dengan tata cara diatur peraturan pemerintah (CNBC Indonesia).</li><li>Dirjen PHI dan Jamsos Kemnaker Indah Anggoro Putri menyatakan pemerintah belum memutuskan lembaga pengelola. Danantara menyatakan tidak pernah menerima penugasan sebagai pengelola (CNBC Indonesia, Katadata).</li><li>Menaker Yassierli menyatakan besaran dana belum dikaji dan rinciannya akan diatur dalam peraturan turunan (Katadata).</li></ul>",
+  "analysisHtml": "<h3>Yang sudah pasti</h3><p>Tiga hal sudah tertulis dalam undang-undang: kewajiban menyediakan dana, pengecualian bagi usaha mikro dan kecil, serta tenggat paling lambat 28 Oktober 2027. Sanksinya pun berat karena bisa sampai pencabutan perizinan berusaha. Artinya, bagi perusahaan menengah dan besar, pertanyaannya bukan lagi apakah, melainkan bagaimana dan berapa. Satu rincian penting: menurut CNBC Indonesia, kewajiban ini menyasar pekerja yang tidak diikutsertakan dalam program pensiun. Perusahaan yang sudah memiliki program pensiun untuk seluruh pekerja kemungkinan berada pada posisi berbeda, tetapi hal ini perlu menunggu aturan pelaksana.</p><h3>Yang belum pasti</h3><p>Pengelola, besaran setoran, dan mekanismenya belum ditetapkan. Kemnaker menyebut akan ada konsultasi publik soal mekanisme, tata kelola, sumber pendanaan, lembaga pengelola, dan akuntabilitas. Kabar bahwa Danantara akan menjadi pengelola sudah dibantah oleh Kemnaker dan Danantara. Menurut Katadata, Said Iqbal dari KSPI dan Partai Buruh menyebut beberapa opsi: Danantara, BPJS Ketenagakerjaan yang menurutnya memerlukan perubahan UU SJSN dan UU BPJS, atau lembaga baru yang membutuhkan biaya. Dengan kata lain, perdebatan baru dimulai.</p><h3>Mengapa ini persoalan sistem, bukan hanya kebijakan</h3><p>Apa pun bentuk akhirnya, dana cadangan pesangon kemungkinan besar dihitung dari data per pekerja: upah, masa kerja, status kontrak, dan kepesertaan pensiun. Banyak perusahaan menyimpan data ini terpisah di sistem payroll, HRIS, dan spreadsheet. Jika setoran nantinya bersifat berkala, perusahaan memerlukan perhitungan otomatis dan laporan yang dapat diaudit. UU yang sama juga mengubah aturan kontrak dan lembur, misalnya PKWT paling lama dua tahun dengan perpanjangan maksimal dua kali, serta lembur maksimal 4 jam per hari serta 18 jam per minggu (Fortune Indonesia), yang semuanya perlu dikonfigurasi ulang di sistem HR.</p><h3>Dampak bagi arus kas</h3><p>Selama ini banyak perusahaan hanya mencatat kewajiban imbalan kerja secara akuntansi tanpa menyisihkan kas. Kewajiban menyetor dana ke lembaga pemerintah akan mengubah ini menjadi arus kas keluar nyata. Besarnya belum diketahui, sehingga perlu dicermati bagaimana aturan pelaksana memperlakukan cadangan yang sudah dimiliki perusahaan.</p>",
+  "actionHtml": "<h3>Untuk HR Director</h3><ol><li>Petakan pekerja berdasarkan status kontrak, masa kerja, dan kepesertaan program pensiun, karena kewajiban dana cadangan pesangon menyasar pekerja yang tidak ikut program pensiun.</li><li>Pastikan data upah dan masa kerja di HRIS dan payroll konsisten dan dapat diekspor per pekerja.</li><li>Konfigurasi ulang aturan PKWT dan lembur sesuai UU 27/2026.</li></ol><h3>Untuk CFO</h3><ol><li>Siapkan simulasi beberapa skenario besaran setoran dan dampaknya ke arus kas 2027–2028.</li><li>Tinjau program pensiun yang ada dan kemungkinan perannya setelah aturan pelaksana terbit.</li></ol><h3>Untuk vendor HRIS dan payroll</h3><ol><li>Siapkan modul perhitungan dan pelaporan dana cadangan pesangon yang mudah disesuaikan begitu besaran dan pengelolanya ditetapkan.</li></ol>",
+  "faqHtml": "<h3>Apa itu dana cadangan pesangon?</h3><p>Dana yang wajib disediakan pemberi kerja menurut Pasal 253 UU 27/2026 sebagai sumber pembayaran hak pekerja saat hubungan kerja berakhir karena alasan selain pensiun. Dana dikelola lembaga pemerintah.</p><h3>Kapan dana cadangan pesangon mulai wajib?</h3><p>Paling lambat satu tahun sejak UU diundangkan, yaitu 28 Oktober 2027. Usaha mikro dan kecil dikecualikan.</p><h3>Apakah dana cadangan pesangon dikelola Danantara?</h3><p>Tidak ada keputusan soal itu. Kemnaker menyatakan pemerintah belum menetapkan lembaga pengelola, dan Danantara menyatakan tidak pernah menerima penugasan.</p>",
+  "dataFigure": "Okt 2027",
+  "dataLabel": "batas waktu kewajiban dana cadangan pesangon UU 27/2026 (28 Oktober 2027)",
+  "dataSource": "UU 27/2026, via CNBC Indonesia, 16 November 2026",
+  "audience": [
+    "HR Director",
+    "CFO",
+    "Payroll Manager",
+    "Vendor HRIS"
+  ],
+  "tags": [
+    "UU 27/2026",
+    "Dana cadangan pesangon",
+    "Kemnaker",
+    "Payroll",
+    "Danantara",
+    "Pelindungan Ketenagakerjaan"
+  ],
+  "sources": [
+    {
+      "name": "CNBC Indonesia",
+      "title": "Heboh Soal Dana Cadangan Pesangon, Apa Itu?",
+      "url": "https://www.cnbcindonesia.com/news/20261116175620-4-785728/heboh-soal-dana-cadangan-pesangon-apa-itu",
+      "date": "2026-11-16"
+    },
+    {
+      "name": "CNBC Indonesia",
+      "title": "Kemnaker Bantah Dana Pesangon Bakal Dikelola Danantara, Cek Aturannya",
+      "url": "https://www.cnbcindonesia.com/news/20261116113412-4-785516/kemnaker-bantah-dana-pesangon-bakal-dikelola-danantara-cek-aturannya",
+      "date": "2026-11-16"
+    },
+    {
+      "name": "Katadata",
+      "title": "Pemerintah Timbang-Timbang Pengelola Dana Pesangon, Danantara Jadi Opsi?",
+      "url": "https://katadata.co.id/berita/industri/6afc09e35c810/pemerintah-timbang-timbang-pengelola-dana-pesangon-danantara-jadi-opsi",
+      "date": "2026-11-17"
+    },
+    {
+      "name": "Katadata",
+      "title": "Danantara Tegaskan Tidak Ditunjuk sebagai Pengelola Dana Cadangan Pesangon",
+      "url": "https://katadata.co.id/berita/nasional/6af85a6f135a3/danantara-tegaskan-tidak-ditunjuk-sebagai-pengelola-dana-cadangan-pesangon",
+      "date": "2026-11-14"
+    },
+    {
+      "name": "Fortune Indonesia",
+      "title": "UU Nomor 27 Tahun 2026 Resmi Berlaku: Atur Kontrak, Cuti, hingga PHK",
+      "url": "https://www.fortuneidn.com/business/uu-nomor-27-tahun-2026-resmi-berlaku-d7w02-00-lflgw-3ftg0m/amp",
+      "date": "2026-11-09"
+    }
+  ],
+  "seoTitle": "Dana Cadangan Pesangon UU 27/2026: Persiapan HR dan CFO",
+  "seoDescription": "UU 27/2026 wajibkan dana cadangan pesangon paling lambat 28 Oktober 2027. Pengelola dan besaran belum ditetapkan. Yang perlu disiapkan HR dan CFO.",
+  "publishAt": "2026-11-26T09:00:00+07:00",
+  "language": "id",
+  "en": {
+    "title": "Law 27/2026 Severance Reserve Fund Due by 28 October 2027 at the Latest: What Is Settled and What Is Not for HR and CFOs",
+    "dek": "Law No. 27 of 2026 on Employment Protection requires employers, except micro and small businesses, to provide a severance reserve fund managed by a government institution. The manager, amount and mechanism have not been set, but the deadline and sanctions are already in the law, so HR and finance need to start preparing data and systems now.",
+    "summaryHtml": "<ul><li>Law 27/2026 on Employment Protection was enacted and promulgated on 28 October 2026. It has 313 articles in 23 chapters and revokes Law 13/2003. The document was made public on 9 November 2026 (Fortune Indonesia).</li><li>According to CNBC Indonesia, Article 253 requires employers to provide a severance reserve fund as the source for paying workers' entitlements when employment ends for reasons other than retirement, for workers not enrolled in a pension programme. The fund is managed by a government institution, micro and small businesses are exempt, and the obligation applies by 28 October 2027 at the latest.</li><li>Sanctions for violations include written warnings, restriction of business activities, temporary suspension of some or all business activities, and/or revocation of business licences, with procedures set by government regulation (CNBC Indonesia).</li><li>Indah Anggoro Putri, Director General of Industrial Relations and Workers' Social Security at the Ministry of Manpower, said the government has not decided on a managing institution. Danantara said it has never received an assignment as manager (CNBC Indonesia, Katadata).</li><li>Manpower Minister Yassierli said the amount has not been studied yet and details will be set in implementing regulations (Katadata).</li></ul>",
+    "analysisHtml": "<h3>What is settled</h3><p>Three things are already in the law: the obligation to provide the fund, the exemption for micro and small businesses, and the deadline of 28 October 2027 at the latest. The sanctions are also heavy, going as far as revocation of business licences. For medium and large companies, the question is no longer whether, but how and how much. One important detail: according to CNBC Indonesia, the obligation covers workers not enrolled in a pension programme. Companies that already have a pension programme for all workers may be in a different position, but this will have to wait for implementing rules.</p><h3>What is not settled</h3><p>The manager, the contribution amount and the mechanism have not been set. The Ministry of Manpower says there will be a public consultation on the mechanism, governance, funding sources, managing institution and accountability. Reports that Danantara would manage the fund have been denied by both the ministry and Danantara. According to Katadata, Said Iqbal of KSPI and the Labour Party named several options: Danantara; BPJS Ketenagakerjaan, which he said would require amending the National Social Security System Law and the BPJS Law; or a new institution, which would be costly. In other words, the debate has only just begun.</p><h3>Why this is a systems issue, not just a policy one</h3><p>Whatever its final form, the severance reserve is likely to be calculated from per-worker data: wages, length of service, contract status and pension enrolment. Many companies keep this data separately in payroll, HRIS and spreadsheets. If contributions turn out to be periodic, companies will need automated calculation and auditable reports. The same law also changes rules on contracts and overtime, for example fixed-term contracts (PKWT) of up to two years with at most two extensions, and overtime of no more than 4 hours a day and 18 hours a week (Fortune Indonesia), all of which need to be reconfigured in HR systems.</p><h3>Impact on cash flow</h3><p>Until now, many companies have only recorded employee benefit obligations in their accounts without setting cash aside. An obligation to pay funds to a government institution would turn this into a real cash outflow. The amount is not yet known, so how implementing rules treat reserves companies already hold is worth watching.</p>",
+    "actionHtml": "<h3>For HR Directors</h3><ol><li>Map workers by contract status, length of service and pension enrolment, since the severance reserve obligation covers workers not in a pension programme.</li><li>Make sure wage and service data in HRIS and payroll are consistent and can be exported per worker.</li><li>Reconfigure fixed-term contract and overtime rules in line with Law 27/2026.</li></ol><h3>For CFOs</h3><ol><li>Prepare simulations of several contribution scenarios and their effect on 2027–2028 cash flow.</li><li>Review existing pension programmes and their possible role once implementing rules are issued.</li></ol><h3>For HRIS and payroll vendors</h3><ol><li>Prepare a severance reserve calculation and reporting module that can be adjusted quickly once the amount and manager are set.</li></ol>",
+    "faqHtml": "<h3>What is the severance reserve fund?</h3><p>A fund employers must provide under Article 253 of Law 27/2026 as the source for paying workers' entitlements when employment ends for reasons other than retirement. It is managed by a government institution.</p><h3>When does the severance reserve fund become mandatory?</h3><p>No later than one year after the law was promulgated, i.e. 28 October 2027. Micro and small businesses are exempt.</p><h3>Will Danantara manage the severance reserve fund?</h3><p>No decision has been made. The Ministry of Manpower says the government has not chosen a managing institution, and Danantara says it has never received an assignment.</p>",
+    "dataFigure": "Oct 2027",
+    "dataLabel": "deadline for the Law 27/2026 severance reserve fund (28 October 2027)",
+    "dataSource": "Law 27/2026, via CNBC Indonesia, 16 November 2026",
+    "seoTitle": "Indonesia Severance Reserve Fund: What HR and CFOs Need",
+    "seoDescription": "Indonesia's Law 27/2026 requires a severance reserve fund by 28 October 2027. Manager and amount are not set yet. How HR and CFOs should prepare.",
+    "audience": [
+      "HR Director",
+      "CFO",
+      "Payroll Manager",
+      "HRIS vendor"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/dana-cadangan-pesangon-uu-27-2026-oktober-2027-persiapan-hr-cfo-en.png"
+  },
+  "ja": {
+    "title": "労働者保護法（2026年第27号）の退職金準備基金、2027年10月28日までに義務化　人事・財務が押さえるべき点",
+    "dek": "インドネシアの2026年法律第27号（労働者保護法）は、零細・小規模事業者を除く雇用主に、政府機関が管理する退職金準備基金の設置を義務付けた。管理機関、拠出額、仕組みは未定だが、期限と制裁は既に条文に書かれており、人事と財務は今からデータとシステムの準備を始める必要がある。",
+    "summaryHtml": "<ul><li>労働者保護法（2026年法律第27号）は2026年10月28日に制定・公布された。23章313条で構成され、2003年法律第13号（労働法）を廃止する。条文は2026年11月9日に公開された（Fortune Indonesia）。</li><li>CNBC Indonesiaによると、第253条は、年金制度に加入していない労働者について、定年以外の理由で雇用関係が終了した際の権利の支払い原資として、雇用主に退職金準備基金の設置を義務付ける。基金は政府機関が管理し、零細・小規模事業者は対象外で、義務は遅くとも2027年10月28日に適用される。</li><li>違反した場合の制裁は、書面警告、事業活動の制限、事業活動の一部または全部の一時停止、事業許可の取り消しなどで、手続きは政令で定める（CNBC Indonesia）。</li><li>労働省のインダ・アンゴロ・プトゥリ労使関係・労働社会保障総局長は、政府はまだ管理機関を決めていないと述べた。政府系投資機関Danantaraは、管理者として任命を受けたことはないと表明した（CNBC Indonesia、Katadata）。</li><li>ヤシエルリ労働相は、拠出額はまだ検討しておらず、詳細は下位規則で定めると述べた（Katadata）。</li></ul>",
+    "analysisHtml": "<h3>既に決まっていること</h3><p>法律に明記されたのは、基金設置の義務、零細・小規模事業者の除外、遅くとも2027年10月28日という期限の3点である。制裁も重く、事業許可の取り消しまであり得る。中堅・大企業にとって、問題はもはや対応するかどうかではなく、どう対応し、いくら必要かである。重要な点として、CNBC Indonesiaによると義務の対象は年金制度に加入していない労働者である。全従業員向けの年金制度を既に持つ企業は異なる立場になる可能性があるが、施行規則を待つ必要がある。</p><h3>まだ決まっていないこと</h3><p>管理機関、拠出額、仕組みは未定だ。労働省は、仕組み、ガバナンス、資金源、管理機関、説明責任について公開協議を行うとしている。Danantaraが管理するとの報道は、労働省とDanantaraの双方が否定した。Katadataによると、インドネシア労働組合総連合（KSPI）と労働党のサイド・イクバル氏は、Danantara、国家社会保障制度法とBPJS法の改正が必要になるとするBPJS Ketenagakerjaan（労働社会保障実施機関）、費用がかかる新機関という選択肢を挙げた。議論は始まったばかりである。</p><h3>政策だけでなくシステムの問題</h3><p>最終的な形がどうであれ、退職金準備基金は賃金、勤続年数、契約形態、年金加入状況といった従業員ごとのデータから算出される可能性が高い。多くの企業はこれらのデータを給与システム、人事システム（HRIS）、表計算ソフトに分散して保管している。拠出が定期的になれば、自動計算と監査可能な報告が必要になる。同法は有期雇用契約（PKWT）を最長2年（延長は2回まで）、残業を1日4時間・週18時間までとするなど契約や残業の規定も変えており（Fortune Indonesia）、人事システムの設定見直しも必要だ。</p><h3>資金繰りへの影響</h3><p>これまで多くの企業は従業員給付債務を会計上計上するだけで、現金を積み立ててこなかった。政府機関への拠出義務は、これを実際の資金流出に変える。金額は未定であり、企業が既に保有する準備金を施行規則がどう扱うかが注目点となる。</p>",
+    "actionHtml": "<h3>人事責任者</h3><ol><li>義務の対象が年金制度に加入していない労働者であることを踏まえ、契約形態、勤続年数、年金加入状況別に従業員を整理する。</li><li>HRISと給与システムの賃金・勤続データの整合性を確認し、従業員ごとに出力できるようにする。</li><li>同法に沿って有期雇用契約と残業のルールを設定し直す。</li></ol><h3>CFO・経理責任者</h3><ol><li>複数の拠出額シナリオと、2027〜2028年の資金繰りへの影響を試算する。</li><li>既存の年金制度と、施行規則公布後に果たし得る役割を見直す。</li></ol><h3>人事・給与システムベンダー</h3><ol><li>拠出額と管理機関が決まり次第すぐに調整できる、退職金準備基金の計算・報告機能を用意する。</li></ol>",
+    "faqHtml": "<h3>退職金準備基金とは何か。</h3><p>2026年法律第27号第253条に基づき、定年以外の理由で雇用関係が終了した際の労働者の権利の支払い原資として、雇用主が設置を義務付けられる基金である。政府機関が管理する。</p><h3>いつから義務になるのか。</h3><p>法律の公布から遅くとも1年以内、すなわち2027年10月28日までである。零細・小規模事業者は対象外となる。</p><h3>Danantaraが基金を管理するのか。</h3><p>決定はされていない。労働省は管理機関を決めていないとし、Danantaraも任命を受けたことはないと表明している。</p>",
+    "dataFigure": "27年10月",
+    "dataLabel": "労働者保護法に基づく退職金準備基金の義務化期限（2027年10月28日）",
+    "dataSource": "2026年法律第27号（CNBC Indonesia経由）、2026年11月16日",
+    "seoTitle": "インドネシア退職金準備基金、27年10月までに義務化",
+    "seoDescription": "インドネシア労働者保護法が退職金準備基金を2027年10月28日までに義務化。管理機関と拠出額は未定。人事・財務部門が準備すべき点を解説。",
+    "audience": [
+      "人事責任者",
+      "CFO",
+      "給与担当",
+      "HRISベンダー"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/dana-cadangan-pesangon-uu-27-2026-oktober-2027-persiapan-hr-cfo-ja.png"
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/dana-cadangan-pesangon-uu-27-2026-oktober-2027-persiapan-hr-cfo.png"
+}

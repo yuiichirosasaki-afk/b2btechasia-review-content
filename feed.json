@@ -1,7 +1,528 @@
 {
-  "generatedAt": "2026-11-25T03:04:40+07:00",
+  "generatedAt": "2026-11-26T03:05:00+07:00",
   "site": "B2B Tech Asia Review",
   "articles": [
+    {
+      "slug": "komdigi-67578-konten-penipuan-blokir-nomor-24-jam-telesales",
+      "title": "Komdigi Tangani 67.578 Konten Penipuan, Operator Wajib Blokir Nomor dalam 1x24 Jam: Yang Perlu Dicermati Tim Telesales",
+      "category": "Sales & CRM",
+      "articleType": "analisis",
+      "dek": "Komdigi melaporkan telah menangani 67.578 konten penipuan daring dan menerima 103.940 aduan sejak Oktober 2024, serta menegaskan kewajiban operator seluler memblokir nomor yang terindikasi kejahatan paling lambat 1x24 jam. Bagi perusahaan yang menjual lewat telepon dan WhatsApp, pengelolaan nomor kini menjadi urusan kepatuhan, bukan sekadar operasional.",
+      "summaryHtml": "<ul><li>Menteri Komunikasi dan Digital Meutya Hafid, dalam keterangan resmi Rabu (25/11/2026), menyebut Komdigi telah menangani 67.578 konten penipuan daring di media sosial dan situs web sejak 20 Oktober 2024 hingga 19 November 2026 (CNN Indonesia).</li><li>Dalam periode yang sama, Komdigi menerima dan menindaklanjuti 103.940 laporan, di antaranya 15.292 terkait scamming, 17.631 terkait peniruan identitas, dan 19.442 terkait pemerasan dan pengancaman. Kanal CekRekening.id menerima 196.624 laporan masyarakat.</li><li>Berdasarkan Permenkomdigi Nomor 7 Tahun 2026, operator seluler wajib memblokir nomor yang terindikasi digunakan untuk kejahatan paling lambat 1x24 jam sejak menerima permintaan dari petugas helpdesk Komdigi. Masyarakat juga dapat melaporkan nomor melalui kanal Aduan Nomor.</li><li>Permenkomdigi 7/2026 mewajibkan registrasi pelanggan dengan verifikasi biometrik wajah dan membatasi kepemilikan maksimal tiga nomor prabayar per identitas pada setiap operator (Kontan, detikInet). Menurut CNN Indonesia, Meutya menyebut batas tiga nomor itu melanjutkan aturan sebelumnya.</li></ul>",
+      "analysisHtml": "<h3>Nomor telepon kini aset yang bisa hilang dalam sehari</h3><p>Kewajiban blokir 1x24 jam ditujukan untuk memutus nomor yang dipakai penipu. Namun aturan ini juga mengubah risiko bagi bisnis yang sah. Tim telesales, penagihan, dan penjualan lewat WhatsApp sering menghubungi orang yang belum pernah berinteraksi dengan perusahaan, sehingga rentan dilaporkan sebagai panggilan mencurigakan. Sumber yang dibaca tidak menjelaskan bagaimana petugas helpdesk memverifikasi laporan sebelum meminta pemblokiran. Kemungkinan, nomor bisnis yang sering dilaporkan bisa ikut masuk antrean pemeriksaan. Jika nomor utama tim penjualan terblokir, prospek dan riwayat percakapan yang terikat pada nomor itu ikut terganggu.</p><h3>Praktik banyak kartu prabayar makin sulit</h3><p>Banyak tim penjualan dan UMKM menjalankan puluhan nomor prabayar, sering kali didaftarkan atas nama karyawan. Dengan registrasi biometrik dan batas tiga nomor prabayar per identitas per operator, praktik ini makin sulit dan lebih mudah ditelusuri. detikInet mencatat bahwa pengguna yang bergantung pada banyak nomor untuk pekerjaan atau usaha kecil akan menanggung beban tambahan. Sumber yang dibaca tidak merinci ketentuan khusus untuk pelanggan korporasi, sehingga perusahaan perlu mengonfirmasi skema langganan bisnis langsung ke operator.</p><h3>Angka aduan menunjukkan tekanan publik</h3><p>Jumlah laporan terkait peniruan identitas (17.631) lebih tinggi daripada scamming (15.292). Ini relevan bagi merek, karena penipu sering menyamar sebagai petugas penjualan atau layanan pelanggan perusahaan. Semakin sering nama merek dipakai penipu, semakin rendah kepercayaan konsumen terhadap panggilan penjualan yang asli. Komdigi menyebut laporan masyarakat sebagai \"bagian penting dari upaya penanganan kejahatan digital\" (CNN Indonesia), yang menandakan bahwa kanal aduan akan terus didorong.</p><h3>Yang perlu dicermati berikutnya</h3><p>Perlu dicermati apakah Komdigi akan menyediakan mekanisme keberatan atau pemulihan bagi nomor bisnis yang terblokir, serta apakah ada pendaftaran nomor resmi bagi perusahaan, seperti yang dipakai di beberapa negara. Sampai ada kejelasan, kepemilikan nomor yang tertib dan persetujuan pelanggan yang terdokumentasi adalah perlindungan terbaik.</p>",
+      "actionHtml": "<h3>Untuk Head of Sales dan manajer telesales</h3><ol><li>Inventarisasi semua nomor yang dipakai tim penjualan: atas nama siapa terdaftar, operator mana, dan untuk kampanye apa.</li><li>Pindahkan percakapan penjualan ke nomor resmi perusahaan atau akun WhatsApp Business terverifikasi, dan simpan riwayat prospek di CRM, bukan di ponsel pribadi.</li><li>Hubungi prospek hanya dengan dasar persetujuan yang tercatat, dan pantau tingkat keluhan per kampanye.</li></ol><h3>Untuk CIO dan tim CRM</h3><ol><li>Pastikan CRM dapat memindahkan percakapan dan data prospek dengan cepat ke nomor cadangan jika satu nomor diblokir.</li><li>Tanyakan ke operator tentang skema langganan korporasi dan prosedur jika nomor bisnis terkena pemblokiran.</li></ol><h3>Untuk tim pemasaran dan layanan pelanggan</h3><ol><li>Umumkan nomor resmi perusahaan di situs dan aplikasi agar pelanggan dapat membedakan kontak asli dari penipu yang meniru identitas merek.</li></ol>",
+      "faqHtml": "<h3>Berapa lama operator wajib memblokir nomor yang dilaporkan?</h3><p>Menurut Menkomdigi Meutya Hafid, operator seluler wajib memblokir nomor yang terindikasi digunakan untuk kejahatan paling lambat 1x24 jam sejak menerima permintaan dari petugas helpdesk Komdigi, berdasarkan Permenkomdigi 7/2026.</p><h3>Berapa nomor prabayar yang boleh dimiliki satu orang?</h3><p>Permenkomdigi 7/2026 membatasi maksimal tiga nomor prabayar per identitas pada setiap operator seluler, dengan registrasi menggunakan biometrik wajah.</p><h3>Bagaimana melaporkan nomor yang dipakai untuk penipuan?</h3><p>Masyarakat dapat melapor melalui kanal Aduan Nomor milik Komdigi. Untuk rekening yang diduga dipakai kejahatan, tersedia CekRekening.id.</p>",
+      "dataFigure": "67.578",
+      "dataLabel": "konten penipuan daring yang ditangani Komdigi, 20 Okt 2024–19 Nov 2026",
+      "dataSource": "Komdigi, via CNN Indonesia, 25 November 2026",
+      "chart": {
+        "bars": [
+          {
+            "label": "Scamming",
+            "value": 15292,
+            "display": "15.292"
+          },
+          {
+            "label": "Peniruan ID",
+            "value": 17631,
+            "display": "17.631"
+          },
+          {
+            "label": "Pemerasan",
+            "value": 19442,
+            "display": "19.442"
+          },
+          {
+            "label": "Konten",
+            "value": 67578,
+            "display": "67.578"
+          }
+        ]
+      },
+      "audience": [
+        "Head of Sales",
+        "CIO",
+        "Manajer telesales",
+        "CMO"
+      ],
+      "tags": [
+        "Komdigi",
+        "Permenkomdigi 7/2026",
+        "Telesales",
+        "Registrasi SIM",
+        "Penipuan digital",
+        "WhatsApp"
+      ],
+      "sources": [
+        {
+          "name": "CNN Indonesia",
+          "title": "Komdigi Tindak 67 Ribu Konten Penipuan Digital Sejak 2024",
+          "url": "https://www.cnnindonesia.com/teknologi/20261125133824-185-1431317/komdigi-tindak-67-ribu-konten-penipuan-digital-sejak-2024",
+          "date": "2026-11-25"
+        },
+        {
+          "name": "Kontan",
+          "title": "Era Baru Kartu Seluler: Registrasi Kartu Perdana dengan Biometrik, Maksimal 3 Kartu",
+          "url": "https://nasional.kontan.co.id/news/era-baru-kartu-seluler-registrasi-kartu-perdana-dengan-biometrik-maksimal-3-kartu",
+          "date": "2026-01-26"
+        },
+        {
+          "name": "detikInet",
+          "title": "Komdigi Perketat Kepemilikan Nomor HP, Dibatasi Tiga Kartu per Operator",
+          "url": "https://inet.detik.com/law-and-policy/d-8323505/komdigi-perketat-kepemilikan-nomor-hp-dibatasi-tiga-kartu-per-operator",
+          "date": "2026-01-24"
+        },
+        {
+          "name": "CNN Indonesia",
+          "title": "4 Poin Penting Aturan Registrasi SIM Pakai Card Biometrik Wajah",
+          "url": "https://www.cnnindonesia.com/teknologi/20260128083129-213-1321833/4-poin-penting-aturan-registrasi-sim-pakai-card-biometrik-wajah",
+          "date": "2026-01-28"
+        }
+      ],
+      "seoTitle": "Komdigi: Operator Wajib Blokir Nomor Penipu dalam 1x24 Jam",
+      "seoDescription": "Komdigi tangani 67.578 konten penipuan dan 103.940 aduan. Operator wajib blokir nomor 1x24 jam. Dampaknya bagi telesales dan penjualan via WhatsApp.",
+      "publishAt": "2026-11-26T10:30:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "Komdigi Handles 67,578 Scam Posts, Operators Must Block Numbers Within 24 Hours: What Telesales Teams Should Watch",
+        "dek": "Komdigi says it has handled 67,578 online scam posts and received 103,940 complaints since October 2024, and reiterated that mobile operators must block numbers flagged for crime within 24 hours. For companies that sell by phone and WhatsApp, managing numbers is now a compliance issue, not just an operational one.",
+        "summaryHtml": "<ul><li>Minister of Communication and Digital Affairs Meutya Hafid said in an official statement on Wednesday (25 November 2026) that Komdigi had handled 67,578 online scam posts on social media and websites between 20 October 2024 and 19 November 2026 (CNN Indonesia).</li><li>In the same period, Komdigi received and followed up 103,940 reports, including 15,292 on scamming, 17,631 on identity impersonation and 19,442 on extortion and threats. The CekRekening.id channel received 196,624 public reports.</li><li>Under Minister of Communication and Digital Affairs Regulation (Permenkomdigi) No. 7 of 2026, mobile operators must block numbers flagged as used for crime within 24 hours of a request from Komdigi helpdesk officers. The public can also report numbers through the Aduan Nomor channel.</li><li>Permenkomdigi 7/2026 requires subscriber registration with facial biometric verification and limits ownership to three prepaid numbers per identity at each operator (Kontan, detikInet). According to CNN Indonesia, Meutya said the three-number limit continues the previous rule.</li></ul>",
+        "analysisHtml": "<h3>A phone number is now an asset that can vanish in a day</h3><p>The 24-hour blocking duty is meant to cut off numbers used by fraudsters. But it also changes the risk for legitimate businesses. Telesales, collections and WhatsApp sales teams often contact people who have never dealt with the company, so they are exposed to being reported as suspicious callers. The sources do not explain how helpdesk officers verify reports before requesting a block. Business numbers that are reported often could possibly end up in the review queue. If a sales team's main number is blocked, the prospects and conversation history tied to it are disrupted too.</p><h3>Running many prepaid SIMs is getting harder</h3><p>Many sales teams and small businesses run dozens of prepaid numbers, often registered in employees' names. With biometric registration and a limit of three prepaid numbers per identity per operator, this practice becomes harder and easier to trace. detikInet noted that users who rely on many numbers for work or small businesses will carry an extra burden. The sources do not detail specific rules for corporate subscribers, so companies need to confirm business subscription arrangements directly with operators.</p><h3>Complaint figures show public pressure</h3><p>Reports of identity impersonation (17,631) outnumber scamming reports (15,292). This matters for brands, because fraudsters often pose as a company's sales or customer service staff. The more often a brand's name is used by fraudsters, the less consumers trust genuine sales calls. Komdigi described public reports as an important part of efforts to tackle digital crime (CNN Indonesia), signalling that complaint channels will continue to be promoted.</p><h3>What to watch next</h3><p>It is worth watching whether Komdigi will provide an appeal or recovery mechanism for blocked business numbers, and whether there will be official number registration for companies, as used in some countries. Until there is clarity, orderly number ownership and documented customer consent are the best protection.</p>",
+        "actionHtml": "<h3>For Heads of Sales and telesales managers</h3><ol><li>Take inventory of every number your sales team uses: whose name it is registered in, which operator, and for which campaign.</li><li>Move sales conversations to official company numbers or verified WhatsApp Business accounts, and keep prospect history in the CRM, not on personal phones.</li><li>Contact prospects only on the basis of recorded consent, and track complaint rates per campaign.</li></ol><h3>For CIOs and CRM teams</h3><ol><li>Make sure the CRM can quickly move conversations and prospect data to a backup number if one number is blocked.</li><li>Ask operators about corporate subscription arrangements and the procedure if a business number is blocked.</li></ol><h3>For marketing and customer service teams</h3><ol><li>Publish official company numbers on the website and app so customers can tell genuine contacts from fraudsters impersonating the brand.</li></ol>",
+        "faqHtml": "<h3>How quickly must operators block a reported number?</h3><p>According to Minister Meutya Hafid, mobile operators must block numbers flagged as used for crime within 24 hours of a request from Komdigi helpdesk officers, under Permenkomdigi 7/2026.</p><h3>How many prepaid numbers may one person own?</h3><p>Permenkomdigi 7/2026 limits ownership to three prepaid numbers per identity at each mobile operator, with registration using facial biometrics.</p><h3>How do I report a number used for fraud?</h3><p>The public can report through Komdigi's Aduan Nomor channel. For bank accounts suspected of use in crime, CekRekening.id is available.</p>",
+        "dataFigure": "67,578",
+        "dataLabel": "online scam posts handled by Komdigi, 20 Oct 2024–19 Nov 2026",
+        "dataSource": "Komdigi, via CNN Indonesia, 25 November 2026",
+        "chart": {
+          "bars": [
+            {
+              "label": "Scamming",
+              "value": 15292,
+              "display": "15,292"
+            },
+            {
+              "label": "Impersonate",
+              "value": 17631,
+              "display": "17,631"
+            },
+            {
+              "label": "Extortion",
+              "value": 19442,
+              "display": "19,442"
+            },
+            {
+              "label": "Scam posts",
+              "value": 67578,
+              "display": "67,578"
+            }
+          ]
+        },
+        "seoTitle": "Indonesia: Operators Must Block Scam Numbers in 24 Hours",
+        "seoDescription": "Komdigi handled 67,578 scam posts and 103,940 complaints; operators must block flagged numbers in 24 hours. What it means for telesales and WhatsApp sales.",
+        "audience": [
+          "Head of Sales",
+          "CIO",
+          "Telesales manager",
+          "CMO"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/komdigi-67578-konten-penipuan-blokir-nomor-24-jam-telesales-en.png"
+      },
+      "ja": {
+        "title": "通信デジタル省、詐欺コンテンツ6万7578件に対処　通信事業者に24時間以内の番号遮断義務　テレセールスへの影響",
+        "dek": "インドネシア通信デジタル省（Komdigi）は、2024年10月以降にオンライン詐欺コンテンツ6万7578件に対処し、10万3940件の通報を受けたと発表した。犯罪に使われた疑いのある番号は通信事業者が24時間以内に遮断する義務があることも改めて示した。電話やWhatsAppで販売する企業にとって、番号の管理は業務の問題にとどまらず、コンプライアンスの問題となった。",
+        "summaryHtml": "<ul><li>ムティア・ハフィド通信デジタル相は2026年11月25日の公式声明で、2024年10月20日から2026年11月19日までにソーシャルメディアとウェブサイト上のオンライン詐欺コンテンツ6万7578件に対処したと述べた（CNN Indonesia）。</li><li>同期間に10万3940件の通報を受けて対応し、うち詐欺（スキャミング）関連が1万5292件、なりすまし関連が1万7631件、恐喝・脅迫関連が1万9442件だった。口座確認窓口CekRekening.idには19万6624件の通報があった。</li><li>通信デジタル大臣規則（Permenkomdigi）2026年第7号に基づき、携帯通信事業者は犯罪に使われた疑いのある番号を、Komdigiのヘルプデスク担当者から要請を受けてから24時間以内に遮断しなければならない。一般市民は「Aduan Nomor」窓口で番号を通報できる。</li><li>同規則は顔の生体認証による加入者登録を義務付け、プリペイド番号の保有を1事業者当たり1人3件までに制限している（Kontan、detikInet）。CNN Indonesiaによると、ムティア氏は3件の上限は従来の規則を引き継ぐものだと述べた。</li></ul>",
+        "analysisHtml": "<h3>電話番号は1日で失われ得る資産に</h3><p>24時間以内の遮断義務は詐欺師の番号を断つためのものだが、正規の事業者にとってもリスクを変える。テレセールス、債権回収、WhatsAppでの営業は、取引歴のない相手に連絡することが多く、不審な電話として通報されやすい。読んだ情報源は、ヘルプデスク担当者が遮断を要請する前に通報をどう検証するかを説明していない。頻繁に通報される事業用番号が審査対象になる可能性もある。営業チームの主要番号が遮断されれば、その番号に結び付いた見込み客や会話履歴にも支障が出る。</p><h3>多数のプリペイドSIM運用は難しく</h3><p>多くの営業チームや中小企業は、社員名義で登録した数十のプリペイド番号を使っている。生体認証登録と1事業者当たり1人3件の上限により、こうした運用は難しくなり、追跡もされやすくなる。detikInetは、仕事や小規模事業で多くの番号に頼る利用者は追加の負担を負うと指摘した。読んだ情報源は法人契約向けの特別規定を詳しく説明していないため、企業は法人契約の扱いを通信事業者に直接確認する必要がある。</p><h3>通報件数が示す世論の圧力</h3><p>なりすまし関連の通報（1万7631件）は詐欺関連（1万5292件）を上回る。詐欺師は企業の営業担当や顧客サービス担当を装うことが多く、ブランドにとって重要な数字である。ブランド名が詐欺に使われるほど、本物の営業電話に対する消費者の信頼は下がる。Komdigiは市民の通報をデジタル犯罪対策の重要な一部と位置付けており（CNN Indonesia）、通報窓口は今後も推進されるとみられる。</p><h3>今後の注目点</h3><p>遮断された事業用番号に対する異議申し立てや復旧の仕組みが設けられるか、一部の国のような企業向けの公式番号登録制度が導入されるかが注目される。明確になるまでは、番号の適切な管理と、記録に残る顧客の同意が最善の防御策となる。</p>",
+        "actionHtml": "<h3>営業責任者・テレセールス管理者</h3><ol><li>営業チームが使う全番号について、登録名義、通信事業者、用途のキャンペーンを棚卸しする。</li><li>営業の会話を会社の公式番号や認証済みWhatsApp Businessアカウントに移し、見込み客の履歴は個人の携帯ではなくCRMに保存する。</li><li>記録された同意に基づいてのみ見込み客に連絡し、キャンペーンごとの苦情率を監視する。</li></ol><h3>CIO・CRM担当</h3><ol><li>1つの番号が遮断された場合でも、会話と見込み客データを予備の番号へ速やかに移せるようCRMを整える。</li><li>法人契約の扱いと、事業用番号が遮断された場合の手続きを通信事業者に確認する。</li></ol><h3>マーケティング・顧客サービス担当</h3><ol><li>ウェブサイトやアプリで会社の公式番号を公表し、ブランドを装う詐欺師と本物の連絡を顧客が見分けられるようにする。</li></ol>",
+        "faqHtml": "<h3>通報された番号を通信事業者は何時間以内に遮断する必要があるか。</h3><p>ムティア・ハフィド通信デジタル相によると、Permenkomdigi 2026年第7号に基づき、Komdigiのヘルプデスク担当者からの要請後24時間以内に遮断しなければならない。</p><h3>1人が保有できるプリペイド番号は何件か。</h3><p>同規則は、顔の生体認証による登録を前提に、1つの通信事業者につき1人3件までに制限している。</p><h3>詐欺に使われた番号はどう通報するのか。</h3><p>Komdigiの「Aduan Nomor」窓口で通報できる。犯罪に使われた疑いのある銀行口座はCekRekening.idで確認・通報できる。</p>",
+        "dataFigure": "6万7578件",
+        "dataLabel": "Komdigiが対処したオンライン詐欺コンテンツ（2024年10月20日〜2026年11月19日）",
+        "dataSource": "Komdigi（CNN Indonesia経由）、2026年11月25日",
+        "chart": {
+          "bars": [
+            {
+              "label": "詐欺",
+              "value": 15292,
+              "display": "1.5万"
+            },
+            {
+              "label": "なりすまし",
+              "value": 17631,
+              "display": "1.8万"
+            },
+            {
+              "label": "恐喝",
+              "value": 19442,
+              "display": "1.9万"
+            },
+            {
+              "label": "詐欺投稿",
+              "value": 67578,
+              "display": "6.8万"
+            }
+          ]
+        },
+        "seoTitle": "インドネシア、詐欺番号を24時間以内に遮断",
+        "seoDescription": "インドネシア通信デジタル省が詐欺コンテンツ6万7578件に対処。通信事業者に24時間以内の番号遮断を義務付け。テレセールスとWhatsApp営業への影響を解説。",
+        "audience": [
+          "営業責任者",
+          "CIO",
+          "テレセールス管理者",
+          "CMO"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/komdigi-67578-konten-penipuan-blokir-nomor-24-jam-telesales-ja.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/komdigi-67578-konten-penipuan-blokir-nomor-24-jam-telesales.png"
+    },
+    {
+      "slug": "dana-cadangan-pesangon-uu-27-2026-oktober-2027-persiapan-hr-cfo",
+      "title": "Dana Cadangan Pesangon UU 27/2026 Wajib Paling Lambat 28 Oktober 2027: Yang Sudah Pasti dan Belum bagi HR dan CFO",
+      "category": "HR Tech & Workforce Management",
+      "articleType": "penjelasan",
+      "dek": "UU Nomor 27 Tahun 2026 tentang Pelindungan Ketenagakerjaan mewajibkan pemberi kerja, kecuali usaha mikro dan kecil, menyediakan dana cadangan pesangon yang dikelola lembaga pemerintah. Pengelola, besaran, dan mekanismenya belum ditetapkan, tetapi tenggat dan sanksinya sudah tertulis, sehingga HR dan keuangan perlu mulai menyiapkan data dan sistem dari sekarang.",
+      "summaryHtml": "<ul><li>UU 27/2026 tentang Pelindungan Ketenagakerjaan ditetapkan dan diundangkan pada 28 Oktober 2026, terdiri atas 313 pasal dalam 23 bab, dan mencabut UU 13/2003. Dokumennya dibuka ke publik pada 9 November 2026 (Fortune Indonesia).</li><li>Menurut CNBC Indonesia, Pasal 253 mewajibkan pemberi kerja menyediakan dana cadangan pesangon sebagai sumber pembayaran hak pekerja saat hubungan kerja berakhir karena alasan selain pensiun, bagi pekerja yang tidak diikutsertakan dalam program pensiun. Dana dikelola lembaga pemerintah, usaha mikro dan kecil dikecualikan, dan kewajiban berlaku paling lambat 28 Oktober 2027.</li><li>Sanksi bagi pelanggar meliputi teguran tertulis, pembatasan kegiatan usaha, penghentian sementara sebagian atau seluruh kegiatan usaha, dan/atau pencabutan perizinan berusaha, dengan tata cara diatur peraturan pemerintah (CNBC Indonesia).</li><li>Dirjen PHI dan Jamsos Kemnaker Indah Anggoro Putri menyatakan pemerintah belum memutuskan lembaga pengelola. Danantara menyatakan tidak pernah menerima penugasan sebagai pengelola (CNBC Indonesia, Katadata).</li><li>Menaker Yassierli menyatakan besaran dana belum dikaji dan rinciannya akan diatur dalam peraturan turunan (Katadata).</li></ul>",
+      "analysisHtml": "<h3>Yang sudah pasti</h3><p>Tiga hal sudah tertulis dalam undang-undang: kewajiban menyediakan dana, pengecualian bagi usaha mikro dan kecil, serta tenggat paling lambat 28 Oktober 2027. Sanksinya pun berat karena bisa sampai pencabutan perizinan berusaha. Artinya, bagi perusahaan menengah dan besar, pertanyaannya bukan lagi apakah, melainkan bagaimana dan berapa. Satu rincian penting: menurut CNBC Indonesia, kewajiban ini menyasar pekerja yang tidak diikutsertakan dalam program pensiun. Perusahaan yang sudah memiliki program pensiun untuk seluruh pekerja kemungkinan berada pada posisi berbeda, tetapi hal ini perlu menunggu aturan pelaksana.</p><h3>Yang belum pasti</h3><p>Pengelola, besaran setoran, dan mekanismenya belum ditetapkan. Kemnaker menyebut akan ada konsultasi publik soal mekanisme, tata kelola, sumber pendanaan, lembaga pengelola, dan akuntabilitas. Kabar bahwa Danantara akan menjadi pengelola sudah dibantah oleh Kemnaker dan Danantara. Menurut Katadata, Said Iqbal dari KSPI dan Partai Buruh menyebut beberapa opsi: Danantara, BPJS Ketenagakerjaan yang menurutnya memerlukan perubahan UU SJSN dan UU BPJS, atau lembaga baru yang membutuhkan biaya. Dengan kata lain, perdebatan baru dimulai.</p><h3>Mengapa ini persoalan sistem, bukan hanya kebijakan</h3><p>Apa pun bentuk akhirnya, dana cadangan pesangon kemungkinan besar dihitung dari data per pekerja: upah, masa kerja, status kontrak, dan kepesertaan pensiun. Banyak perusahaan menyimpan data ini terpisah di sistem payroll, HRIS, dan spreadsheet. Jika setoran nantinya bersifat berkala, perusahaan memerlukan perhitungan otomatis dan laporan yang dapat diaudit. UU yang sama juga mengubah aturan kontrak dan lembur, misalnya PKWT paling lama dua tahun dengan perpanjangan maksimal dua kali, serta lembur maksimal 4 jam per hari serta 18 jam per minggu (Fortune Indonesia), yang semuanya perlu dikonfigurasi ulang di sistem HR.</p><h3>Dampak bagi arus kas</h3><p>Selama ini banyak perusahaan hanya mencatat kewajiban imbalan kerja secara akuntansi tanpa menyisihkan kas. Kewajiban menyetor dana ke lembaga pemerintah akan mengubah ini menjadi arus kas keluar nyata. Besarnya belum diketahui, sehingga perlu dicermati bagaimana aturan pelaksana memperlakukan cadangan yang sudah dimiliki perusahaan.</p>",
+      "actionHtml": "<h3>Untuk HR Director</h3><ol><li>Petakan pekerja berdasarkan status kontrak, masa kerja, dan kepesertaan program pensiun, karena kewajiban dana cadangan pesangon menyasar pekerja yang tidak ikut program pensiun.</li><li>Pastikan data upah dan masa kerja di HRIS dan payroll konsisten dan dapat diekspor per pekerja.</li><li>Konfigurasi ulang aturan PKWT dan lembur sesuai UU 27/2026.</li></ol><h3>Untuk CFO</h3><ol><li>Siapkan simulasi beberapa skenario besaran setoran dan dampaknya ke arus kas 2027–2028.</li><li>Tinjau program pensiun yang ada dan kemungkinan perannya setelah aturan pelaksana terbit.</li></ol><h3>Untuk vendor HRIS dan payroll</h3><ol><li>Siapkan modul perhitungan dan pelaporan dana cadangan pesangon yang mudah disesuaikan begitu besaran dan pengelolanya ditetapkan.</li></ol>",
+      "faqHtml": "<h3>Apa itu dana cadangan pesangon?</h3><p>Dana yang wajib disediakan pemberi kerja menurut Pasal 253 UU 27/2026 sebagai sumber pembayaran hak pekerja saat hubungan kerja berakhir karena alasan selain pensiun. Dana dikelola lembaga pemerintah.</p><h3>Kapan dana cadangan pesangon mulai wajib?</h3><p>Paling lambat satu tahun sejak UU diundangkan, yaitu 28 Oktober 2027. Usaha mikro dan kecil dikecualikan.</p><h3>Apakah dana cadangan pesangon dikelola Danantara?</h3><p>Tidak ada keputusan soal itu. Kemnaker menyatakan pemerintah belum menetapkan lembaga pengelola, dan Danantara menyatakan tidak pernah menerima penugasan.</p>",
+      "dataFigure": "Okt 2027",
+      "dataLabel": "batas waktu kewajiban dana cadangan pesangon UU 27/2026 (28 Oktober 2027)",
+      "dataSource": "UU 27/2026, via CNBC Indonesia, 16 November 2026",
+      "audience": [
+        "HR Director",
+        "CFO",
+        "Payroll Manager",
+        "Vendor HRIS"
+      ],
+      "tags": [
+        "UU 27/2026",
+        "Dana cadangan pesangon",
+        "Kemnaker",
+        "Payroll",
+        "Danantara",
+        "Pelindungan Ketenagakerjaan"
+      ],
+      "sources": [
+        {
+          "name": "CNBC Indonesia",
+          "title": "Heboh Soal Dana Cadangan Pesangon, Apa Itu?",
+          "url": "https://www.cnbcindonesia.com/news/20261116175620-4-785728/heboh-soal-dana-cadangan-pesangon-apa-itu",
+          "date": "2026-11-16"
+        },
+        {
+          "name": "CNBC Indonesia",
+          "title": "Kemnaker Bantah Dana Pesangon Bakal Dikelola Danantara, Cek Aturannya",
+          "url": "https://www.cnbcindonesia.com/news/20261116113412-4-785516/kemnaker-bantah-dana-pesangon-bakal-dikelola-danantara-cek-aturannya",
+          "date": "2026-11-16"
+        },
+        {
+          "name": "Katadata",
+          "title": "Pemerintah Timbang-Timbang Pengelola Dana Pesangon, Danantara Jadi Opsi?",
+          "url": "https://katadata.co.id/berita/industri/6afc09e35c810/pemerintah-timbang-timbang-pengelola-dana-pesangon-danantara-jadi-opsi",
+          "date": "2026-11-17"
+        },
+        {
+          "name": "Katadata",
+          "title": "Danantara Tegaskan Tidak Ditunjuk sebagai Pengelola Dana Cadangan Pesangon",
+          "url": "https://katadata.co.id/berita/nasional/6af85a6f135a3/danantara-tegaskan-tidak-ditunjuk-sebagai-pengelola-dana-cadangan-pesangon",
+          "date": "2026-11-14"
+        },
+        {
+          "name": "Fortune Indonesia",
+          "title": "UU Nomor 27 Tahun 2026 Resmi Berlaku: Atur Kontrak, Cuti, hingga PHK",
+          "url": "https://www.fortuneidn.com/business/uu-nomor-27-tahun-2026-resmi-berlaku-d7w02-00-lflgw-3ftg0m/amp",
+          "date": "2026-11-09"
+        }
+      ],
+      "seoTitle": "Dana Cadangan Pesangon UU 27/2026: Persiapan HR dan CFO",
+      "seoDescription": "UU 27/2026 wajibkan dana cadangan pesangon paling lambat 28 Oktober 2027. Pengelola dan besaran belum ditetapkan. Yang perlu disiapkan HR dan CFO.",
+      "publishAt": "2026-11-26T09:00:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "Law 27/2026 Severance Reserve Fund Due by 28 October 2027 at the Latest: What Is Settled and What Is Not for HR and CFOs",
+        "dek": "Law No. 27 of 2026 on Employment Protection requires employers, except micro and small businesses, to provide a severance reserve fund managed by a government institution. The manager, amount and mechanism have not been set, but the deadline and sanctions are already in the law, so HR and finance need to start preparing data and systems now.",
+        "summaryHtml": "<ul><li>Law 27/2026 on Employment Protection was enacted and promulgated on 28 October 2026. It has 313 articles in 23 chapters and revokes Law 13/2003. The document was made public on 9 November 2026 (Fortune Indonesia).</li><li>According to CNBC Indonesia, Article 253 requires employers to provide a severance reserve fund as the source for paying workers' entitlements when employment ends for reasons other than retirement, for workers not enrolled in a pension programme. The fund is managed by a government institution, micro and small businesses are exempt, and the obligation applies by 28 October 2027 at the latest.</li><li>Sanctions for violations include written warnings, restriction of business activities, temporary suspension of some or all business activities, and/or revocation of business licences, with procedures set by government regulation (CNBC Indonesia).</li><li>Indah Anggoro Putri, Director General of Industrial Relations and Workers' Social Security at the Ministry of Manpower, said the government has not decided on a managing institution. Danantara said it has never received an assignment as manager (CNBC Indonesia, Katadata).</li><li>Manpower Minister Yassierli said the amount has not been studied yet and details will be set in implementing regulations (Katadata).</li></ul>",
+        "analysisHtml": "<h3>What is settled</h3><p>Three things are already in the law: the obligation to provide the fund, the exemption for micro and small businesses, and the deadline of 28 October 2027 at the latest. The sanctions are also heavy, going as far as revocation of business licences. For medium and large companies, the question is no longer whether, but how and how much. One important detail: according to CNBC Indonesia, the obligation covers workers not enrolled in a pension programme. Companies that already have a pension programme for all workers may be in a different position, but this will have to wait for implementing rules.</p><h3>What is not settled</h3><p>The manager, the contribution amount and the mechanism have not been set. The Ministry of Manpower says there will be a public consultation on the mechanism, governance, funding sources, managing institution and accountability. Reports that Danantara would manage the fund have been denied by both the ministry and Danantara. According to Katadata, Said Iqbal of KSPI and the Labour Party named several options: Danantara; BPJS Ketenagakerjaan, which he said would require amending the National Social Security System Law and the BPJS Law; or a new institution, which would be costly. In other words, the debate has only just begun.</p><h3>Why this is a systems issue, not just a policy one</h3><p>Whatever its final form, the severance reserve is likely to be calculated from per-worker data: wages, length of service, contract status and pension enrolment. Many companies keep this data separately in payroll, HRIS and spreadsheets. If contributions turn out to be periodic, companies will need automated calculation and auditable reports. The same law also changes rules on contracts and overtime, for example fixed-term contracts (PKWT) of up to two years with at most two extensions, and overtime of no more than 4 hours a day and 18 hours a week (Fortune Indonesia), all of which need to be reconfigured in HR systems.</p><h3>Impact on cash flow</h3><p>Until now, many companies have only recorded employee benefit obligations in their accounts without setting cash aside. An obligation to pay funds to a government institution would turn this into a real cash outflow. The amount is not yet known, so how implementing rules treat reserves companies already hold is worth watching.</p>",
+        "actionHtml": "<h3>For HR Directors</h3><ol><li>Map workers by contract status, length of service and pension enrolment, since the severance reserve obligation covers workers not in a pension programme.</li><li>Make sure wage and service data in HRIS and payroll are consistent and can be exported per worker.</li><li>Reconfigure fixed-term contract and overtime rules in line with Law 27/2026.</li></ol><h3>For CFOs</h3><ol><li>Prepare simulations of several contribution scenarios and their effect on 2027–2028 cash flow.</li><li>Review existing pension programmes and their possible role once implementing rules are issued.</li></ol><h3>For HRIS and payroll vendors</h3><ol><li>Prepare a severance reserve calculation and reporting module that can be adjusted quickly once the amount and manager are set.</li></ol>",
+        "faqHtml": "<h3>What is the severance reserve fund?</h3><p>A fund employers must provide under Article 253 of Law 27/2026 as the source for paying workers' entitlements when employment ends for reasons other than retirement. It is managed by a government institution.</p><h3>When does the severance reserve fund become mandatory?</h3><p>No later than one year after the law was promulgated, i.e. 28 October 2027. Micro and small businesses are exempt.</p><h3>Will Danantara manage the severance reserve fund?</h3><p>No decision has been made. The Ministry of Manpower says the government has not chosen a managing institution, and Danantara says it has never received an assignment.</p>",
+        "dataFigure": "Oct 2027",
+        "dataLabel": "deadline for the Law 27/2026 severance reserve fund (28 October 2027)",
+        "dataSource": "Law 27/2026, via CNBC Indonesia, 16 November 2026",
+        "seoTitle": "Indonesia Severance Reserve Fund: What HR and CFOs Need",
+        "seoDescription": "Indonesia's Law 27/2026 requires a severance reserve fund by 28 October 2027. Manager and amount are not set yet. How HR and CFOs should prepare.",
+        "audience": [
+          "HR Director",
+          "CFO",
+          "Payroll Manager",
+          "HRIS vendor"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/dana-cadangan-pesangon-uu-27-2026-oktober-2027-persiapan-hr-cfo-en.png"
+      },
+      "ja": {
+        "title": "労働者保護法（2026年第27号）の退職金準備基金、2027年10月28日までに義務化　人事・財務が押さえるべき点",
+        "dek": "インドネシアの2026年法律第27号（労働者保護法）は、零細・小規模事業者を除く雇用主に、政府機関が管理する退職金準備基金の設置を義務付けた。管理機関、拠出額、仕組みは未定だが、期限と制裁は既に条文に書かれており、人事と財務は今からデータとシステムの準備を始める必要がある。",
+        "summaryHtml": "<ul><li>労働者保護法（2026年法律第27号）は2026年10月28日に制定・公布された。23章313条で構成され、2003年法律第13号（労働法）を廃止する。条文は2026年11月9日に公開された（Fortune Indonesia）。</li><li>CNBC Indonesiaによると、第253条は、年金制度に加入していない労働者について、定年以外の理由で雇用関係が終了した際の権利の支払い原資として、雇用主に退職金準備基金の設置を義務付ける。基金は政府機関が管理し、零細・小規模事業者は対象外で、義務は遅くとも2027年10月28日に適用される。</li><li>違反した場合の制裁は、書面警告、事業活動の制限、事業活動の一部または全部の一時停止、事業許可の取り消しなどで、手続きは政令で定める（CNBC Indonesia）。</li><li>労働省のインダ・アンゴロ・プトゥリ労使関係・労働社会保障総局長は、政府はまだ管理機関を決めていないと述べた。政府系投資機関Danantaraは、管理者として任命を受けたことはないと表明した（CNBC Indonesia、Katadata）。</li><li>ヤシエルリ労働相は、拠出額はまだ検討しておらず、詳細は下位規則で定めると述べた（Katadata）。</li></ul>",
+        "analysisHtml": "<h3>既に決まっていること</h3><p>法律に明記されたのは、基金設置の義務、零細・小規模事業者の除外、遅くとも2027年10月28日という期限の3点である。制裁も重く、事業許可の取り消しまであり得る。中堅・大企業にとって、問題はもはや対応するかどうかではなく、どう対応し、いくら必要かである。重要な点として、CNBC Indonesiaによると義務の対象は年金制度に加入していない労働者である。全従業員向けの年金制度を既に持つ企業は異なる立場になる可能性があるが、施行規則を待つ必要がある。</p><h3>まだ決まっていないこと</h3><p>管理機関、拠出額、仕組みは未定だ。労働省は、仕組み、ガバナンス、資金源、管理機関、説明責任について公開協議を行うとしている。Danantaraが管理するとの報道は、労働省とDanantaraの双方が否定した。Katadataによると、インドネシア労働組合総連合（KSPI）と労働党のサイド・イクバル氏は、Danantara、国家社会保障制度法とBPJS法の改正が必要になるとするBPJS Ketenagakerjaan（労働社会保障実施機関）、費用がかかる新機関という選択肢を挙げた。議論は始まったばかりである。</p><h3>政策だけでなくシステムの問題</h3><p>最終的な形がどうであれ、退職金準備基金は賃金、勤続年数、契約形態、年金加入状況といった従業員ごとのデータから算出される可能性が高い。多くの企業はこれらのデータを給与システム、人事システム（HRIS）、表計算ソフトに分散して保管している。拠出が定期的になれば、自動計算と監査可能な報告が必要になる。同法は有期雇用契約（PKWT）を最長2年（延長は2回まで）、残業を1日4時間・週18時間までとするなど契約や残業の規定も変えており（Fortune Indonesia）、人事システムの設定見直しも必要だ。</p><h3>資金繰りへの影響</h3><p>これまで多くの企業は従業員給付債務を会計上計上するだけで、現金を積み立ててこなかった。政府機関への拠出義務は、これを実際の資金流出に変える。金額は未定であり、企業が既に保有する準備金を施行規則がどう扱うかが注目点となる。</p>",
+        "actionHtml": "<h3>人事責任者</h3><ol><li>義務の対象が年金制度に加入していない労働者であることを踏まえ、契約形態、勤続年数、年金加入状況別に従業員を整理する。</li><li>HRISと給与システムの賃金・勤続データの整合性を確認し、従業員ごとに出力できるようにする。</li><li>同法に沿って有期雇用契約と残業のルールを設定し直す。</li></ol><h3>CFO・経理責任者</h3><ol><li>複数の拠出額シナリオと、2027〜2028年の資金繰りへの影響を試算する。</li><li>既存の年金制度と、施行規則公布後に果たし得る役割を見直す。</li></ol><h3>人事・給与システムベンダー</h3><ol><li>拠出額と管理機関が決まり次第すぐに調整できる、退職金準備基金の計算・報告機能を用意する。</li></ol>",
+        "faqHtml": "<h3>退職金準備基金とは何か。</h3><p>2026年法律第27号第253条に基づき、定年以外の理由で雇用関係が終了した際の労働者の権利の支払い原資として、雇用主が設置を義務付けられる基金である。政府機関が管理する。</p><h3>いつから義務になるのか。</h3><p>法律の公布から遅くとも1年以内、すなわち2027年10月28日までである。零細・小規模事業者は対象外となる。</p><h3>Danantaraが基金を管理するのか。</h3><p>決定はされていない。労働省は管理機関を決めていないとし、Danantaraも任命を受けたことはないと表明している。</p>",
+        "dataFigure": "27年10月",
+        "dataLabel": "労働者保護法に基づく退職金準備基金の義務化期限（2027年10月28日）",
+        "dataSource": "2026年法律第27号（CNBC Indonesia経由）、2026年11月16日",
+        "seoTitle": "インドネシア退職金準備基金、27年10月までに義務化",
+        "seoDescription": "インドネシア労働者保護法が退職金準備基金を2027年10月28日までに義務化。管理機関と拠出額は未定。人事・財務部門が準備すべき点を解説。",
+        "audience": [
+          "人事責任者",
+          "CFO",
+          "給与担当",
+          "HRISベンダー"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/dana-cadangan-pesangon-uu-27-2026-oktober-2027-persiapan-hr-cfo-ja.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/dana-cadangan-pesangon-uu-27-2026-oktober-2027-persiapan-hr-cfo.png"
+    },
+    {
+      "slug": "telkom-brin-kolaborasi-ai-llm-bahasa-indonesia-satelit-kuantum",
+      "title": "Telkom dan BRIN Teken Intensi Kolaborasi AI, Satelit, dan Kuantum: 3 Quick Win Termasuk LLM Berbahasa Indonesia",
+      "category": "AI & Automation",
+      "articleType": "analisis",
+      "dek": "PT Telkom Indonesia dan BRIN menandatangani intensi kolaborasi riset berorientasi industri di bidang satelit, kecerdasan artifisial, dan komputasi kuantum. Tiga quick win yang dibidik, termasuk model bahasa berbahasa Indonesia dan kriptografi pascakuantum untuk tanda tangan digital, dapat menjadi pilihan baru bagi perusahaan yang mencari AI berdaulat.",
+      "summaryHtml": "<ul><li>Telkom dan Badan Riset dan Inovasi Nasional (BRIN) menandatangani intensi kolaborasi tentang penguatan kedaulatan digital melalui riset dan inovasi berorientasi industri di bidang satelit, AI, dan komputasi kuantum di Jakarta, Selasa (24/11/2026). Penandatanganan dilakukan Direktur Utama Telkom Nanang Hendarno dan Kepala BRIN Arif Satria (Katadata, CNBC Indonesia).</li><li>Tiga quick win yang disepakati: GSaaS, LLM dan SLM berbahasa Indonesia, serta kriptografi pascakuantum (PQC) untuk tanda tangan digital.</li><li>Kolaborasi juga mencakup empat use case AI prioritas bersama Danantara Indonesia, MIND ID, Pertamina, dan Garuda Indonesia, serta pengembangan model AI untuk pertanian dan perikanan, kesehatan, dan pertambangan melalui platform ModelHub (Katadata).</li><li>Di bidang satelit, cakupannya meliputi layanan citra, terminal pengguna satelit GEO yang portabel dan terjangkau melalui anak usaha Telkomsat, serta konstelasi LEO nasional jangka panjang termasuk layanan posisi, navigasi, dan waktu (PNT). PQC diarahkan untuk tanda tangan digital, perangkat IoT, dan VPN.</li><li>Sumber yang dibaca tidak menyebutkan nilai investasi maupun jadwal peluncuran.</li></ul>",
+      "analysisHtml": "<h3>Dari riset ke produk yang bisa dijual</h3><p>Kerja sama antara BUMN telekomunikasi dan lembaga riset negara bukan hal baru. Yang membedakan kesepakatan ini adalah penekanan pada hilirisasi dan quick win, yaitu hasil awal yang dijanjikan bisa segera dirasakan. Kepala BRIN Arif Satria menyebut hasil riset perlu \"dapat diuji langsung oleh pengguna dan pasar\" (CNBC Indonesia). BRIN membawa talenta dan fasilitas komputasi berkinerja tinggi, sementara Telkom membawa pelanggan, jaringan, dan kanal penjualan. Jika berhasil, kombinasi ini dapat memperpendek jalan dari prototipe ke layanan komersial. Namun dokumen yang diteken masih berupa intensi kolaborasi, sehingga ukuran keberhasilannya baru akan terlihat saat produk pertama diluncurkan.</p><h3>LLM berbahasa Indonesia sebagai opsi bagi perusahaan</h3><p>Bagi perusahaan, quick win yang paling relevan adalah LLM dan SLM berbahasa Indonesia. Model kecil (SLM) bisa dijalankan di infrastruktur dalam negeri dengan biaya lebih rendah, yang penting bagi sektor teregulasi seperti perbankan dan BUMN yang memperhatikan lokasi pemrosesan data. Kemungkinan besar, empat use case bersama Danantara, MIND ID, Pertamina, dan Garuda Indonesia akan menjadi etalase pertama. Perlu dicermati seberapa kompetitif kinerja model ini dibandingkan model global yang sudah tersedia melalui penyedia cloud, karena pengguna korporat akan menilai dari kualitas, bukan hanya asal-usul model.</p><h3>PQC dan satelit memperluas peta kedaulatan</h3><p>Masuknya PQC untuk tanda tangan digital, IoT, dan VPN menunjukkan bahwa Telkom menempatkan keamanan kriptografi sebagai produk, bukan sekadar riset. Ini sejalan dengan perhatian pemerintah terhadap migrasi kriptografi pascakuantum. Di sisi satelit, terminal GEO yang portabel dan terjangkau dapat membuka layanan bagi operasi di daerah terpencil seperti pertambangan dan perkebunan, sementara konstelasi LEO nasional disebut sebagai rencana jangka panjang.</p><h3>Yang belum dijelaskan</h3><p>Pengumuman tidak menyebut anggaran, pembagian hak kekayaan intelektual, jadwal, maupun model bisnis. Pertanyaan pentingnya: apakah model AI hasil kolaborasi akan terbuka untuk pihak lain, atau hanya tersedia melalui layanan Telkom. Jawabannya akan menentukan apakah inisiatif ini memperluas pasar AI lokal atau memperkuat posisi satu penyedia.</p>",
+      "actionHtml": "<h3>Untuk CIO dan CTO</h3><ol><li>Petakan kasus penggunaan AI yang mensyaratkan data tetap di Indonesia, lalu siapkan kriteria evaluasi (akurasi bahasa Indonesia, biaya, latensi) untuk membandingkan model lokal dan global.</li><li>Ikuti perkembangan ModelHub dan uji coba SLM berbahasa Indonesia sebagai opsi untuk beban kerja internal yang sensitif.</li></ol><h3>Untuk CISO</h3><ol><li>Inventarisasi penggunaan tanda tangan digital, VPN, dan perangkat IoT yang kelak perlu dimigrasikan ke kriptografi pascakuantum.</li></ol><h3>Untuk vendor AI dan integrator</h3><ol><li>Pertimbangkan kemitraan atau integrasi dengan ekosistem Telkom–BRIN, terutama untuk sektor pertanian, kesehatan, dan pertambangan yang disebut sebagai domain model AI.</li></ol>",
+      "faqHtml": "<h3>Apa isi kerja sama Telkom dan BRIN?</h3><p>Telkom dan BRIN menandatangani intensi kolaborasi riset dan inovasi berorientasi industri di bidang satelit, AI, dan komputasi kuantum termasuk kriptografi pascakuantum, pada 24 November 2026.</p><h3>Apa saja quick win kolaborasi Telkom-BRIN?</h3><p>Tiga quick win yang disebut adalah GSaaS, LLM dan SLM berbahasa Indonesia, serta kriptografi pascakuantum untuk tanda tangan digital.</p><h3>Kapan LLM berbahasa Indonesia Telkom-BRIN tersedia?</h3><p>Belum ada jadwal yang diumumkan. Sumber yang dibaca juga tidak menyebut nilai investasi.</p>",
+      "dataFigure": "3 quick win",
+      "dataLabel": "GSaaS, LLM/SLM berbahasa Indonesia, dan PQC untuk tanda tangan digital",
+      "dataSource": "Telkom dan BRIN, via Katadata dan CNBC Indonesia, 25 November 2026",
+      "audience": [
+        "CTO",
+        "CIO",
+        "CISO",
+        "Vendor AI"
+      ],
+      "tags": [
+        "Deals",
+        "Telkom",
+        "BRIN",
+        "LLM bahasa Indonesia",
+        "Kriptografi pascakuantum",
+        "Satelit",
+        "AI berdaulat"
+      ],
+      "sources": [
+        {
+          "name": "Katadata",
+          "title": "Telkom-BRIN Garap AI, Satelit & Komputasi Kuantum Demi Jaga Kedaulatan Digital",
+          "url": "https://katadata.co.id/digital/teknologi/6b06b544f213c/telkom-brin-garap-ai-satelit-komputasi-kuantum-demi-jaga-kedaulatan-digital",
+          "date": "2026-11-25"
+        },
+        {
+          "name": "CNBC Indonesia",
+          "title": "Mantap! Telkom-BRIN Garap AI, Satelit & Komputasi Kuantum",
+          "url": "https://www.cnbcindonesia.com/tech/20261125144922-37-788378/mantap-telkom-brin-garap-ai-satelit-komputasi-kuantum",
+          "date": "2026-11-25"
+        }
+      ],
+      "seoTitle": "Telkom-BRIN Garap LLM Bahasa Indonesia, Satelit, dan PQC",
+      "seoDescription": "Telkom dan BRIN teken intensi kolaborasi AI, satelit, dan kuantum dengan 3 quick win: GSaaS, LLM/SLM berbahasa Indonesia, dan PQC tanda tangan digital.",
+      "publishAt": "2026-11-26T07:30:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "Telkom and BRIN Sign Collaboration Intent on AI, Satellites and Quantum: 3 Quick Wins Including an Indonesian-Language LLM",
+        "dek": "PT Telkom Indonesia and BRIN have signed an intent to collaborate on industry-oriented research in satellites, artificial intelligence and quantum computing. The three targeted quick wins, including Indonesian-language models and post-quantum cryptography for digital signatures, could give companies looking for sovereign AI a new option.",
+        "summaryHtml": "<ul><li>Telkom and the National Research and Innovation Agency (BRIN) signed an intent to collaborate on strengthening digital sovereignty through industry-oriented research and innovation in satellites, AI and quantum computing in Jakarta on Tuesday (24 November 2026). It was signed by Telkom President Director Nanang Hendarno and BRIN Head Arif Satria (Katadata, CNBC Indonesia).</li><li>The three agreed quick wins are GSaaS, Indonesian-language LLMs and SLMs, and post-quantum cryptography (PQC) for digital signatures.</li><li>The collaboration also covers four priority AI use cases with Danantara Indonesia, MIND ID, Pertamina and Garuda Indonesia, and the development of AI models for agriculture and fisheries, health and mining through the ModelHub platform (Katadata).</li><li>In satellites, the scope includes imagery services, portable and affordable GEO user terminals through subsidiary Telkomsat, and a long-term national LEO constellation including positioning, navigation and timing (PNT). PQC is aimed at digital signatures, IoT devices and VPNs.</li><li>The sources do not give an investment value or a launch timetable.</li></ul>",
+        "analysisHtml": "<h3>From research to products that can be sold</h3><p>Cooperation between a state telecoms company and a state research agency is not new. What sets this agreement apart is its emphasis on commercialisation and quick wins, early results that are promised to be felt soon. BRIN Head Arif Satria said research results should be testable directly by users and the market (CNBC Indonesia). BRIN brings talent and high-performance computing facilities, while Telkom brings customers, networks and sales channels. If it works, the combination could shorten the path from prototype to commercial service. But the signed document is still an intent to collaborate, so success will only be measurable when the first products launch.</p><h3>An Indonesian-language LLM as an option for companies</h3><p>For companies, the most relevant quick win is the Indonesian-language LLM and SLM. Small models (SLMs) can run on domestic infrastructure at lower cost, which matters for regulated sectors such as banking and state-owned enterprises that care where data is processed. The four use cases with Danantara, MIND ID, Pertamina and Garuda Indonesia are likely to be the first showcase. How competitive these models are against global models already available through cloud providers is worth watching, because corporate users will judge on quality, not just origin.</p><h3>PQC and satellites widen the sovereignty map</h3><p>Including PQC for digital signatures, IoT and VPNs shows that Telkom treats cryptographic security as a product, not just research. This is in line with government attention to post-quantum cryptography migration. On satellites, portable and affordable GEO terminals could open services for operations in remote areas such as mining and plantations, while a national LEO constellation is described as a long-term plan.</p><h3>What has not been explained</h3><p>The announcement gives no budget, intellectual property split, timetable or business model. The key question is whether AI models from the collaboration will be open to others or only available through Telkom's services. The answer will determine whether the initiative widens the local AI market or strengthens one provider's position.</p>",
+        "actionHtml": "<h3>For CIOs and CTOs</h3><ol><li>Map AI use cases that require data to stay in Indonesia, then set evaluation criteria (Indonesian-language accuracy, cost, latency) to compare local and global models.</li><li>Follow ModelHub and trials of Indonesian-language SLMs as an option for sensitive internal workloads.</li></ol><h3>For CISOs</h3><ol><li>Take inventory of digital signatures, VPNs and IoT devices that will eventually need to migrate to post-quantum cryptography.</li></ol><h3>For AI vendors and integrators</h3><ol><li>Consider partnering or integrating with the Telkom–BRIN ecosystem, especially in agriculture, health and mining, the domains named for AI models.</li></ol>",
+        "faqHtml": "<h3>What does the Telkom–BRIN collaboration cover?</h3><p>Telkom and BRIN signed an intent to collaborate on industry-oriented research and innovation in satellites, AI and quantum computing, including post-quantum cryptography, on 24 November 2026.</p><h3>What are the quick wins of the Telkom–BRIN collaboration?</h3><p>The three quick wins named are GSaaS, Indonesian-language LLMs and SLMs, and post-quantum cryptography for digital signatures.</p><h3>When will the Telkom–BRIN Indonesian-language LLM be available?</h3><p>No timetable has been announced. The sources also do not mention an investment value.</p>",
+        "dataFigure": "3 quick wins",
+        "dataLabel": "GSaaS, Indonesian-language LLM/SLM, and PQC for digital signatures",
+        "dataSource": "Telkom and BRIN, via Katadata and CNBC Indonesia, 25 November 2026",
+        "seoTitle": "Telkom and BRIN Target Indonesian LLM, Satellites and PQC",
+        "seoDescription": "Telkom and BRIN signed a collaboration intent on AI, satellites and quantum with 3 quick wins: GSaaS, Indonesian-language LLM/SLM and PQC signatures.",
+        "audience": [
+          "CTO",
+          "CIO",
+          "CISO",
+          "AI vendor"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/telkom-brin-kolaborasi-ai-llm-bahasa-indonesia-satelit-kuantum-en.png"
+      },
+      "ja": {
+        "title": "TelkomとBRIN、AI・衛星・量子で協力意向書に署名　インドネシア語LLMなど3つの早期成果狙う",
+        "dek": "PT Telkom IndonesiaとインドネシアのBRIN（国家研究革新庁）は、衛星、人工知能（AI）、量子コンピューティングの産業志向の研究で協力する意向書に署名した。インドネシア語の言語モデルや電子署名向けの耐量子暗号など3つの早期成果（クイックウィン）は、主権AIを求める企業にとって新たな選択肢となり得る。",
+        "summaryHtml": "<ul><li>TelkomとBRINは2026年11月24日、ジャカルタで、衛星・AI・量子コンピューティング分野の産業志向の研究・イノベーションを通じたデジタル主権の強化に関する協力意向書に署名した。署名したのはTelkomのナナン・ヘンダルノ社長とBRINのアリフ・サトリア長官である（Katadata、CNBC Indonesia）。</li><li>合意した3つのクイックウィンは、GSaaS、インドネシア語のLLMとSLM、電子署名向けの耐量子暗号（PQC）である。</li><li>協力にはDanantara Indonesia、MIND ID、Pertamina、Garuda Indonesiaとの4つの優先AIユースケースや、ModelHubプラットフォームを通じた農業・水産、保健、鉱業向けAIモデルの開発も含まれる（Katadata）。</li><li>衛星分野では、画像サービス、子会社Telkomsatによる携帯可能で手頃な静止軌道（GEO）衛星端末、測位・航法・時刻（PNT）を含む国家低軌道（LEO）衛星群の長期計画が対象となる。PQCは電子署名、IoT機器、VPNを想定している。</li><li>読んだ情報源には投資額や開始時期は示されていない。</li></ul>",
+        "analysisHtml": "<h3>研究から販売できる製品へ</h3><p>国営通信会社と国の研究機関の協力自体は目新しくない。今回の合意の特徴は、事業化と、早期に成果を実感できるとするクイックウィンを重視している点だ。BRINのアリフ・サトリア長官は、研究成果は利用者と市場が直接試せるものであるべきだと述べた（CNBC Indonesia）。BRINは人材と高性能計算施設を、Telkomは顧客、通信網、販売チャネルを持ち寄る。うまくいけば試作から商用サービスまでの道のりを短縮できる。ただし署名したのは協力意向書にとどまり、成否は最初の製品が出るまで測れない。</p><h3>企業にとってのインドネシア語LLM</h3><p>企業にとって最も関係が深いのは、インドネシア語のLLMとSLMである。小型モデル（SLM）は国内インフラで低コストで運用でき、データの処理場所を重視する銀行や国営企業など規制業種にとって重要だ。Danantara、MIND ID、Pertamina、Garuda Indonesiaとの4つのユースケースが最初の実例となる可能性が高い。クラウド事業者を通じて既に使える海外モデルに比べて性能面でどこまで競争力があるかが注目点だ。企業利用者はモデルの出自だけでなく品質で判断するからである。</p><h3>PQCと衛星で主権の範囲を広げる</h3><p>電子署名、IoT、VPN向けのPQCが含まれたことは、Telkomが暗号の安全性を研究ではなく製品として位置付けていることを示す。耐量子暗号への移行に対する政府の関心とも一致する。衛星では、携帯可能で手頃なGEO端末が鉱山や農園など遠隔地での業務向けサービスを開く可能性があり、国家LEO衛星群は長期計画とされている。</p><h3>説明されていないこと</h3><p>発表には予算、知的財産の帰属、日程、ビジネスモデルが含まれていない。重要なのは、協力で生まれるAIモデルが他社にも開放されるのか、Telkomのサービス経由でのみ提供されるのかという点だ。その答えが、国内AI市場を広げるのか、一事業者の立場を強めるのかを左右する。</p>",
+        "actionHtml": "<h3>CIO・CTO</h3><ol><li>データを国内にとどめる必要があるAI用途を洗い出し、インドネシア語の精度、コスト、遅延など国内モデルと海外モデルを比較する評価基準を用意する。</li><li>機密性の高い社内業務向けの選択肢として、ModelHubとインドネシア語SLMの試験運用の動向を追う。</li></ol><h3>CISO</h3><ol><li>将来、耐量子暗号への移行が必要になる電子署名、VPN、IoT機器を棚卸しする。</li></ol><h3>AIベンダー・システムインテグレーター</h3><ol><li>AIモデルの対象分野とされた農業、保健、鉱業を中心に、Telkom・BRINの生態系との提携や連携を検討する。</li></ol>",
+        "faqHtml": "<h3>TelkomとBRINの協力の内容は。</h3><p>両者は2026年11月24日、衛星、AI、耐量子暗号を含む量子コンピューティング分野で、産業志向の研究・イノベーションに協力する意向書に署名した。</p><h3>クイックウィンとは何か。</h3><p>GSaaS、インドネシア語のLLMとSLM、電子署名向けの耐量子暗号の3つである。</p><h3>インドネシア語LLMはいつ利用できるのか。</h3><p>日程は発表されていない。投資額も示されていない。</p>",
+        "dataFigure": "3分野",
+        "dataLabel": "クイックウィン：GSaaS、インドネシア語LLM/SLM、電子署名向けPQC",
+        "dataSource": "Telkom、BRIN（Katadata、CNBC Indonesia経由）、2026年11月25日",
+        "seoTitle": "Telkom・BRIN、インドネシア語LLMと耐量子暗号",
+        "seoDescription": "TelkomとBRINがAI・衛星・量子で協力意向書に署名。GSaaS、インドネシア語LLM/SLM、電子署名向け耐量子暗号の3つの早期成果を目指す。",
+        "audience": [
+          "CTO",
+          "CIO",
+          "CISO",
+          "AIベンダー"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/telkom-brin-kolaborasi-ai-llm-bahasa-indonesia-satelit-kuantum-ja.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/telkom-brin-kolaborasi-ai-llm-bahasa-indonesia-satelit-kuantum.png"
+    },
+    {
+      "slug": "pln-daftar-tunggu-listrik-pusat-data-30-gw-co-investment",
+      "title": "Antrean Listrik Pusat Data di PLN Capai 30 GW, Setara 37,5% Kapasitas Terpasang: PLN Ajak Investor Co-Investment",
+      "category": "Cloud & IT Infrastructure",
+      "articleType": "analisis",
+      "dek": "Direktur Utama PLN Suroso Isnandar menyebut daftar tunggu kebutuhan listrik industri pusat data kini mencapai 30 GW, naik dari 20 GW pada akhir Oktober. Angka ini setara lebih dari sepertiga kapasitas pembangkit PLN, sehingga pasokan listrik, bukan lahan atau jaringan, kemungkinan menjadi penentu utama jadwal proyek pusat data di Indonesia.",
+      "summaryHtml": "<ul><li>Dalam Forum Energi Nasional 2026 di Jakarta, Rabu (25/11/2026), Direktur Utama PT PLN (Persero) Suroso Isnandar menyatakan daftar tunggu kebutuhan listrik pusat data mencapai 30 GW, sementara kapasitas pembangkit PLN sekitar 80 GW (ANTARA, Warta Ekonomi).</li><li>Menurut ANTARA, kebutuhan pusat data yang tercatat pada 27 Oktober 2026 masih sekitar 20 GW. Satu proyek pusat data pada tahap awal membutuhkan 100 hingga 300 MW. RUPTL 2025–2034 merencanakan tambahan kapasitas 69,5 GW.</li><li>Suroso menyebut 75 perusahaan pusat data memilih Indonesia, antara lain karena tarif listrik dibandingkan Johor Bahru dan Singapura. Ia juga menyebut subsidi listrik yang mengalir ke pusat data pada 2026 mencapai Rp8 triliun dan meminta investor membahas co-investment pembangkit (Warta Ekonomi).</li><li>Ketua Umum METI Norman Ginting menyebut proyeksi kebutuhan pusat data 32 GW pada 2032 dan menekankan kesiapan Green Super Grid untuk energi surya yang intermiten (ANTARA).</li><li>Pada hari yang sama, Wakil Menteri Investasi dan Hilirisasi/Wakil Kepala BKPM Todotua Pasaribu menyatakan pusat data dapat dikembangkan dengan memanfaatkan potensi kelautan, dengan syarat teknologi teruji, energi andal, konektivitas kabel bawah laut, dan kajian lingkungan (ANTARA).</li></ul>",
+      "analysisHtml": "<h3>Antrean naik 10 GW dalam sebulan</h3><p>Lonjakan dari sekitar 20 GW pada 27 Oktober menjadi 30 GW pada 25 November menunjukkan betapa cepatnya permintaan baru masuk ke PLN. Namun angka ini perlu dibaca dengan hati-hati. Yang disebut adalah daftar tunggu, bukan beban yang sudah tersambung atau kontrak yang pasti terbangun. Sebagian permintaan kemungkinan berasal dari proyek yang masih mengunci opsi lokasi, dan satu proyek bisa mengajukan permintaan bertahap. Meski begitu, 30 GW setara sekitar 37,5% dari kapasitas pembangkit PLN saat ini, dan hampir separuh dari tambahan 69,5 GW yang direncanakan dalam RUPTL 2025–2034. Artinya, jika hanya sebagian kecil dari antrean ini terealisasi, pusat data tetap akan menjadi salah satu sumber pertumbuhan beban listrik terbesar.</p><h3>Pesan di balik permintaan co-investment</h3><p>Pernyataan Suroso tentang subsidi Rp8 triliun yang mengalir ke pusat data tahun ini memberi petunjuk arah kebijakan. PLN tampaknya ingin pelanggan besar ikut menanggung biaya pembangkit baru, bukan hanya membeli listrik. Bagi pengembang, ini bisa berarti skema baru seperti investasi bersama pada pembangkit, terutama energi terbarukan, sebagai syarat mendapatkan pasokan dalam jumlah besar. Perlu dicermati apakah sikap ini akan diikuti perubahan tarif atau syarat penyambungan bagi pusat data. Sumber yang dibaca belum menyebut rincian skema, besaran investasi per MW, atau jadwalnya.</p><h3>Peta lokasi mulai bergeser</h3><p>Penyebutan kontrak kawasan Batam sebesar 7,5 GW oleh Suroso dan ide BKPM tentang pusat data berbasis potensi laut menunjukkan bahwa pemerintah dan PLN mendorong pertumbuhan di luar koridor Jakarta–Jawa Barat. Batam diuntungkan oleh kedekatan dengan Singapura dan Johor. Usulan pusat data di wilayah pesisir atau laut masih berupa arah kebijakan, belum proyek. Syarat yang disebut BKPM, yaitu teknologi teruji, energi andal, kabel bawah laut, dan kajian lingkungan, mengisyaratkan bahwa realisasinya akan butuh waktu bertahun-tahun.</p><h3>Yang tidak dijelaskan</h3><p>Belum ada informasi berapa dari 30 GW yang sudah memiliki perjanjian jual beli listrik, berapa lama rata-rata waktu tunggu penyambungan, dan bagaimana prioritas antrean ditentukan. Bagi perusahaan pengguna cloud dan colocation, ketidakpastian inilah yang paling relevan, karena memengaruhi kapan kapasitas baru benar-benar tersedia dan berapa harganya.</p>",
+      "actionHtml": "<h3>Untuk CIO dan Infrastructure Lead</h3><ol><li>Saat menegosiasikan kontrak colocation atau cloud lokal, tanyakan status pasokan listrik penyedia: kapasitas yang sudah tersambung, jadwal penambahan, dan rencana cadangan.</li><li>Masukkan risiko keterlambatan kapasitas dan kenaikan harga ke dalam rencana migrasi beban kerja AI yang butuh GPU, dan siapkan opsi multi-lokasi.</li><li>Pertimbangkan lokasi di luar Jakarta, seperti Batam, untuk pemulihan bencana, dengan memeriksa latensi dan konektivitas kabel.</li></ol><h3>Untuk pengembang pusat data dan penyedia cloud</h3><ol><li>Siapkan proposal pendanaan bersama pembangkit, terutama energi terbarukan, karena PLN secara terbuka meminta co-investment.</li><li>Pisahkan antrean permintaan yang realistis dari opsi cadangan agar perencanaan pasokan dengan PLN lebih kredibel.</li></ol><h3>Untuk CFO</h3><ol><li>Pantau kemungkinan perubahan skema tarif atau subsidi untuk pusat data, karena hal itu dapat diteruskan ke harga layanan cloud dan colocation.</li></ol>",
+      "faqHtml": "<h3>Berapa kebutuhan listrik pusat data di Indonesia saat ini?</h3><p>Menurut Direktur Utama PLN Suroso Isnandar pada 25 November 2026, daftar tunggu kebutuhan listrik pusat data mencapai 30 GW. Kapasitas pembangkit PLN sekitar 80 GW.</p><h3>Berapa listrik yang dibutuhkan satu pusat data?</h3><p>Menurut PLN, satu pusat data pada tahap awal membutuhkan sekitar 100 hingga 300 MW.</p><h3>Apa itu co-investment yang diminta PLN?</h3><p>PLN meminta investor pusat data duduk bersama membahas investasi bersama dalam pembangunan pembangkit. Rincian skemanya belum diumumkan.</p>",
+      "dataFigure": "30 GW",
+      "dataLabel": "daftar tunggu kebutuhan listrik pusat data di PLN",
+      "dataSource": "PLN, via ANTARA dan Warta Ekonomi, 25 November 2026",
+      "chart": {
+        "bars": [
+          {
+            "label": "Kapasitas",
+            "value": 80,
+            "display": "80 GW"
+          },
+          {
+            "label": "27 Okt",
+            "value": 20,
+            "display": "20 GW"
+          },
+          {
+            "label": "25 Nov",
+            "value": 30,
+            "display": "30 GW"
+          }
+        ]
+      },
+      "audience": [
+        "CIO",
+        "Infrastructure Lead",
+        "Pengembang pusat data",
+        "CFO"
+      ],
+      "tags": [
+        "PLN",
+        "Pusat data",
+        "Listrik",
+        "RUPTL",
+        "BKPM",
+        "METI",
+        "Batam"
+      ],
+      "sources": [
+        {
+          "name": "ANTARA",
+          "title": "PLN catat daftar tunggu kebutuhan listrik pusat data capai 30 GW",
+          "url": "https://www.antaranews.com/berita/5878071/pln-catat-daftar-tunggu-kebutuhan-listrik-pusat-data-capai-30-gw",
+          "date": "2026-11-25"
+        },
+        {
+          "name": "Warta Ekonomi",
+          "title": "Bos PLN Ungkap Antrean Listrik Data Center Tembus 30 GW",
+          "url": "https://wartaekonomi.co.id/read650412/bos-pln-ungkap-antrean-listrik-data-center-tembus-30-gw",
+          "date": "2026-11-25"
+        },
+        {
+          "name": "Warta Ekonomi",
+          "title": "PLN Ungkap Alasan 75 Data Center Ramai-ramai Pindah ke Indonesia",
+          "url": "https://wartaekonomi.co.id/read650408/pln-ungkap-alasan-75-data-center-ramai-ramai-pindah-ke-indonesia",
+          "date": "2026-11-25"
+        },
+        {
+          "name": "ANTARA",
+          "title": "BKPM: Pengembangan pusat data dapat manfaatkan potensi laut",
+          "url": "https://www.antaranews.com/berita/5878747/bkpm-pengembangan-pusat-data-dapat-manfaatkan-potensi-laut",
+          "date": "2026-11-25"
+        }
+      ],
+      "seoTitle": "Antrean Listrik Pusat Data di PLN Capai 30 GW",
+      "seoDescription": "PLN catat daftar tunggu listrik pusat data 30 GW, setara 37,5% kapasitas 80 GW, dan minta investor co-investment pembangkit. Dampaknya bagi CIO.",
+      "publishAt": "2026-11-26T06:00:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "Data Centre Power Queue at PLN Reaches 30 GW, Equal to 37.5% of Installed Capacity: PLN Asks Investors to Co-Invest",
+        "dek": "PLN President Director Suroso Isnandar says the waiting list for data centre electricity has reached 30 GW, up from 20 GW at the end of October. That is more than a third of PLN's generating capacity, so power supply, not land or networks, is likely to set the timetable for data centre projects in Indonesia.",
+        "summaryHtml": "<ul><li>At the Forum Energi Nasional 2026 in Jakarta on Wednesday (25 November 2026), PT PLN (Persero) President Director Suroso Isnandar said the waiting list for data centre electricity had reached 30 GW, against PLN generating capacity of about 80 GW (ANTARA, Warta Ekonomi).</li><li>According to ANTARA, recorded data centre demand on 27 October 2026 was about 20 GW. A single data centre needs 100 to 300 MW at an early stage. The RUPTL 2025–2034 plans 69.5 GW of additional capacity.</li><li>Suroso said 75 data centre companies had chosen Indonesia, partly because of electricity tariffs compared with Johor Bahru and Singapore. He also said electricity subsidies flowing to data centres in 2026 had reached Rp8 trillion, and asked investors to discuss co-investment in power generation (Warta Ekonomi).</li><li>METI chairman Norman Ginting cited a projection of 32 GW of data centre demand by 2032 and stressed the need for a Green Super Grid to handle intermittent solar power (ANTARA).</li><li>On the same day, Deputy Minister of Investment and Downstreaming/Deputy Head of BKPM Todotua Pasaribu said data centres could be developed using Indonesia's marine potential, provided there is proven technology, reliable energy, subsea cable connectivity and an environmental study (ANTARA).</li></ul>",
+        "analysisHtml": "<h3>The queue grew by 10 GW in a month</h3><p>The jump from about 20 GW on 27 October to 30 GW on 25 November shows how fast new requests are reaching PLN. But the figure needs careful reading. It is a waiting list, not connected load or contracts certain to be built. Some requests are probably from projects still holding site options, and a single project may apply in phases. Even so, 30 GW equals about 37.5% of PLN's current generating capacity and almost half of the 69.5 GW addition planned in the RUPTL 2025–2034. Even if only a small part of the queue materialises, data centres will be one of the largest sources of growth in power demand.</p><h3>The message behind the co-investment request</h3><p>Suroso's remark that Rp8 trillion in subsidies flowed to data centres this year hints at the policy direction. PLN appears to want large customers to share the cost of new generation, not just buy power. For developers, this could mean new arrangements such as joint investment in generation, especially renewables, as a condition for large supply. Whether this will be followed by changes in tariffs or connection terms for data centres is worth watching. The sources do not give details of the scheme, investment per MW, or a timetable.</p><h3>The location map is starting to shift</h3><p>Suroso's mention of a 7.5 GW contract for the Batam area and BKPM's idea of data centres using marine potential show that the government and PLN are pushing growth outside the Jakarta–West Java corridor. Batam benefits from its proximity to Singapore and Johor. Coastal or marine data centres are still a policy direction, not projects. The conditions BKPM listed — proven technology, reliable energy, subsea cables and environmental studies — suggest that delivery will take years.</p><h3>What is not explained</h3><p>There is no information on how much of the 30 GW already has power purchase agreements, the average waiting time for connection, or how the queue is prioritised. For companies using cloud and colocation, this uncertainty matters most, because it affects when new capacity actually becomes available and at what price.</p>",
+        "actionHtml": "<h3>For CIOs and Infrastructure Leads</h3><ol><li>When negotiating colocation or local cloud contracts, ask about the provider's power supply status: connected capacity, expansion schedule and backup plans.</li><li>Build the risk of capacity delays and price increases into migration plans for GPU-heavy AI workloads, and prepare multi-site options.</li><li>Consider locations outside Jakarta, such as Batam, for disaster recovery, after checking latency and cable connectivity.</li></ol><h3>For data centre developers and cloud providers</h3><ol><li>Prepare proposals for co-funding generation, especially renewables, as PLN is openly asking for co-investment.</li><li>Separate realistic demand from backup options in the queue so that supply planning with PLN is more credible.</li></ol><h3>For CFOs</h3><ol><li>Watch for possible changes to tariff or subsidy arrangements for data centres, as these could be passed through to cloud and colocation prices.</li></ol>",
+        "faqHtml": "<h3>How much electricity do data centres in Indonesia need now?</h3><p>According to PLN President Director Suroso Isnandar on 25 November 2026, the waiting list for data centre electricity has reached 30 GW. PLN's generating capacity is about 80 GW.</p><h3>How much power does one data centre need?</h3><p>According to PLN, a single data centre needs about 100 to 300 MW at an early stage.</p><h3>What is the co-investment PLN is asking for?</h3><p>PLN has asked data centre investors to sit down and discuss joint investment in building power plants. Details of the scheme have not been announced.</p>",
+        "dataFigure": "30 GW",
+        "dataLabel": "data centre power waiting list at PLN",
+        "dataSource": "PLN, via ANTARA and Warta Ekonomi, 25 November 2026",
+        "chart": {
+          "bars": [
+            {
+              "label": "Capacity",
+              "value": 80,
+              "display": "80 GW"
+            },
+            {
+              "label": "27 Oct",
+              "value": 20,
+              "display": "20 GW"
+            },
+            {
+              "label": "25 Nov",
+              "value": 30,
+              "display": "30 GW"
+            }
+          ]
+        },
+        "seoTitle": "Data Centre Power Queue at Indonesia's PLN Hits 30 GW",
+        "seoDescription": "PLN's waiting list for data centre power has reached 30 GW, 37.5% of its 80 GW capacity, and it wants investors to co-invest in generation.",
+        "audience": [
+          "CIO",
+          "Infrastructure Lead",
+          "Data centre developer",
+          "CFO"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pln-daftar-tunggu-listrik-pusat-data-30-gw-co-investment-en.png"
+      },
+      "ja": {
+        "title": "PLNのデータセンター向け電力待ちが30GWに　設備容量の37.5%相当、投資家に共同投資呼びかけ",
+        "dek": "インドネシア国営電力PLNのスロソ・イスナンダル社長は、データセンター向け電力の需要待ちが30GWに達したと明らかにした。10月末の約20GWから増えた。PLNの発電容量の3分の1を超える規模であり、インドネシアのデータセンター計画の時期を左右するのは土地や通信網ではなく電力供給になる可能性が高い。",
+        "summaryHtml": "<ul><li>PT PLN（Persero）のスロソ・イスナンダル社長は2026年11月25日、ジャカルタで開かれたForum Energi Nasional 2026で、データセンター向け電力の待機リストが30GWに達したと述べた。PLNの発電容量は約80GWである（ANTARA、Warta Ekonomi）。</li><li>ANTARAによると、2026年10月27日時点のデータセンター需要は約20GWだった。データセンター1件は初期段階で100〜300MWを必要とする。RUPTL 2025〜2034（電力供給事業計画）は69.5GWの容量追加を計画している。</li><li>スロソ氏は、データセンター事業者75社がジョホールバルやシンガポールと比べた電気料金などを理由にインドネシアを選んだと述べた。2026年にデータセンターに流れた電力補助金は8兆ルピアに達したとし、発電所への共同投資を投資家と協議したいと述べた（Warta Ekonomi）。</li><li>インドネシア再生可能エネルギー協会（METI）のノルマン・ギンティン会長は、2032年にデータセンター需要が32GWに達するとの見通しを示し、出力が変動する太陽光に対応するGreen Super Gridの整備が必要だと強調した（ANTARA）。</li><li>同日、投資・川下産業化副大臣兼投資調整庁（BKPM）副長官のトドトゥア・パサリブ氏は、実証済みの技術、安定したエネルギー、海底ケーブル接続、環境調査を条件に、海洋資源を生かしたデータセンター開発が可能だと述べた（ANTARA）。</li></ul>",
+        "analysisHtml": "<h3>1カ月で10GW増えた待機リスト</h3><p>10月27日の約20GWから11月25日の30GWへの増加は、新たな申し込みがいかに速くPLNに寄せられているかを示す。ただし、この数字は慎重に読む必要がある。示されたのは待機リストであり、接続済みの負荷や建設が確実な契約ではない。立地の選択肢を確保しているだけの案件も含まれる可能性があり、1件の案件が段階的に申し込むこともある。それでも30GWはPLNの現在の発電容量の約37.5%に当たり、RUPTL 2025〜2034で計画される追加容量69.5GWの半分近くに相当する。待機リストのごく一部が実現するだけでも、データセンターは電力需要の最大の伸びの源の一つとなる。</p><h3>共同投資の要請に込められたメッセージ</h3><p>今年データセンターに8兆ルピアの補助金が流れたというスロソ氏の発言は、政策の方向を示唆する。PLNは大口顧客に電力を買うだけでなく、新規発電所の費用も分担してほしいと考えているようだ。開発事業者にとっては、大規模な供給を受ける条件として、再生可能エネルギーを中心とする発電所への共同投資といった新しい枠組みが求められる可能性がある。データセンター向けの料金や接続条件の変更が続くかどうかが注目点だ。読んだ情報源には、枠組みの詳細、MW当たりの投資額、日程は示されていない。</p><h3>立地の地図が動き始めた</h3><p>スロソ氏がバタム地域との7.5GWの契約に言及したことと、BKPMが海洋資源を生かしたデータセンター構想を示したことは、政府とPLNがジャカルタ・西ジャワ回廊以外での成長を後押ししていることを示す。バタムはシンガポールやジョホールに近い利点がある。沿岸・海洋型データセンターはまだ政策の方向性にとどまり、具体的な案件ではない。BKPMが挙げた条件を見ると、実現には何年もかかるとみられる。</p><h3>説明されていないこと</h3><p>30GWのうち電力売買契約を既に結んだ案件がどれだけあるか、接続までの平均待ち期間、待機リストの優先順位の決め方は明らかにされていない。クラウドやコロケーションを利用する企業にとって最も重要なのはこの不確実性であり、新たな容量がいつ、いくらで利用可能になるかに影響する。</p>",
+        "actionHtml": "<h3>CIO・インフラ責任者</h3><ol><li>コロケーションや国内クラウドの契約交渉では、接続済み容量、増設計画、予備計画など事業者の電力供給状況を確認する。</li><li>GPUを多用するAI処理の移行計画に、容量の遅れと価格上昇のリスクを織り込み、複数拠点の選択肢を用意する。</li><li>災害復旧用にバタムなどジャカルタ以外の立地を検討し、遅延とケーブル接続を確認する。</li></ol><h3>データセンター開発事業者・クラウド事業者</h3><ol><li>PLNが共同投資を公に求めている以上、再生可能エネルギーを中心に発電所の共同出資案を準備する。</li><li>PLNとの供給計画の信頼性を高めるため、現実的な需要と予備的な申し込みを区別する。</li></ol><h3>CFO</h3><ol><li>データセンター向けの料金や補助金の見直しは、クラウドやコロケーションの価格に転嫁される可能性があるため、動向を注視する。</li></ol>",
+        "faqHtml": "<h3>インドネシアのデータセンターが現在必要とする電力はどの程度か。</h3><p>PLNのスロソ・イスナンダル社長によると、2026年11月25日時点でデータセンター向け電力の待機リストは30GWに達した。PLNの発電容量は約80GWである。</p><h3>データセンター1件にはどれだけの電力が必要か。</h3><p>PLNによると、初期段階で約100〜300MWが必要になる。</p><h3>PLNが求める共同投資とは何か。</h3><p>PLNはデータセンター投資家に対し、発電所建設への共同投資を協議するよう呼びかけた。枠組みの詳細は発表されていない。</p>",
+        "dataFigure": "30GW",
+        "dataLabel": "PLNのデータセンター向け電力待機リスト",
+        "dataSource": "PLN（ANTARA、Warta Ekonomi経由）、2026年11月25日",
+        "chart": {
+          "bars": [
+            {
+              "label": "発電容量",
+              "value": 80,
+              "display": "80GW"
+            },
+            {
+              "label": "10月27日",
+              "value": 20,
+              "display": "20GW"
+            },
+            {
+              "label": "11月25日",
+              "value": 30,
+              "display": "30GW"
+            }
+          ]
+        },
+        "seoTitle": "PLNのデータセンター向け電力待ちが30GWに",
+        "seoDescription": "インドネシア国営電力PLNのデータセンター向け電力待機リストが30GWに達し、発電容量80GWの37.5%に相当。PLNは投資家に発電所への共同投資を求めた。",
+        "audience": [
+          "CIO",
+          "インフラ責任者",
+          "データセンター事業者",
+          "CFO"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pln-daftar-tunggu-listrik-pusat-data-30-gw-co-investment-ja.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pln-daftar-tunggu-listrik-pusat-data-30-gw-co-investment.png"
+    },
     {
       "slug": "meta-yougov-survei-umkm-asia-pasifik-agen-ai-tren-pemasaran-2027",
       "title": "Survei Meta-YouGov: 44% UMKM Asia Pasifik Ingin AI Balas Chat Pelanggan, 40% Khawatir Privasi Data",

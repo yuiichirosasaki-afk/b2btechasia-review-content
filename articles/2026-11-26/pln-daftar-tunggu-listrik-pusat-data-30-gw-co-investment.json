@@ -1,0 +1,157 @@
+{
+  "slug": "pln-daftar-tunggu-listrik-pusat-data-30-gw-co-investment",
+  "title": "Antrean Listrik Pusat Data di PLN Capai 30 GW, Setara 37,5% Kapasitas Terpasang: PLN Ajak Investor Co-Investment",
+  "category": "Cloud & IT Infrastructure",
+  "articleType": "analisis",
+  "dek": "Direktur Utama PLN Suroso Isnandar menyebut daftar tunggu kebutuhan listrik industri pusat data kini mencapai 30 GW, naik dari 20 GW pada akhir Oktober. Angka ini setara lebih dari sepertiga kapasitas pembangkit PLN, sehingga pasokan listrik, bukan lahan atau jaringan, kemungkinan menjadi penentu utama jadwal proyek pusat data di Indonesia.",
+  "summaryHtml": "<ul><li>Dalam Forum Energi Nasional 2026 di Jakarta, Rabu (25/11/2026), Direktur Utama PT PLN (Persero) Suroso Isnandar menyatakan daftar tunggu kebutuhan listrik pusat data mencapai 30 GW, sementara kapasitas pembangkit PLN sekitar 80 GW (ANTARA, Warta Ekonomi).</li><li>Menurut ANTARA, kebutuhan pusat data yang tercatat pada 27 Oktober 2026 masih sekitar 20 GW. Satu proyek pusat data pada tahap awal membutuhkan 100 hingga 300 MW. RUPTL 2025–2034 merencanakan tambahan kapasitas 69,5 GW.</li><li>Suroso menyebut 75 perusahaan pusat data memilih Indonesia, antara lain karena tarif listrik dibandingkan Johor Bahru dan Singapura. Ia juga menyebut subsidi listrik yang mengalir ke pusat data pada 2026 mencapai Rp8 triliun dan meminta investor membahas co-investment pembangkit (Warta Ekonomi).</li><li>Ketua Umum METI Norman Ginting menyebut proyeksi kebutuhan pusat data 32 GW pada 2032 dan menekankan kesiapan Green Super Grid untuk energi surya yang intermiten (ANTARA).</li><li>Pada hari yang sama, Wakil Menteri Investasi dan Hilirisasi/Wakil Kepala BKPM Todotua Pasaribu menyatakan pusat data dapat dikembangkan dengan memanfaatkan potensi kelautan, dengan syarat teknologi teruji, energi andal, konektivitas kabel bawah laut, dan kajian lingkungan (ANTARA).</li></ul>",
+  "analysisHtml": "<h3>Antrean naik 10 GW dalam sebulan</h3><p>Lonjakan dari sekitar 20 GW pada 27 Oktober menjadi 30 GW pada 25 November menunjukkan betapa cepatnya permintaan baru masuk ke PLN. Namun angka ini perlu dibaca dengan hati-hati. Yang disebut adalah daftar tunggu, bukan beban yang sudah tersambung atau kontrak yang pasti terbangun. Sebagian permintaan kemungkinan berasal dari proyek yang masih mengunci opsi lokasi, dan satu proyek bisa mengajukan permintaan bertahap. Meski begitu, 30 GW setara sekitar 37,5% dari kapasitas pembangkit PLN saat ini, dan hampir separuh dari tambahan 69,5 GW yang direncanakan dalam RUPTL 2025–2034. Artinya, jika hanya sebagian kecil dari antrean ini terealisasi, pusat data tetap akan menjadi salah satu sumber pertumbuhan beban listrik terbesar.</p><h3>Pesan di balik permintaan co-investment</h3><p>Pernyataan Suroso tentang subsidi Rp8 triliun yang mengalir ke pusat data tahun ini memberi petunjuk arah kebijakan. PLN tampaknya ingin pelanggan besar ikut menanggung biaya pembangkit baru, bukan hanya membeli listrik. Bagi pengembang, ini bisa berarti skema baru seperti investasi bersama pada pembangkit, terutama energi terbarukan, sebagai syarat mendapatkan pasokan dalam jumlah besar. Perlu dicermati apakah sikap ini akan diikuti perubahan tarif atau syarat penyambungan bagi pusat data. Sumber yang dibaca belum menyebut rincian skema, besaran investasi per MW, atau jadwalnya.</p><h3>Peta lokasi mulai bergeser</h3><p>Penyebutan kontrak kawasan Batam sebesar 7,5 GW oleh Suroso dan ide BKPM tentang pusat data berbasis potensi laut menunjukkan bahwa pemerintah dan PLN mendorong pertumbuhan di luar koridor Jakarta–Jawa Barat. Batam diuntungkan oleh kedekatan dengan Singapura dan Johor. Usulan pusat data di wilayah pesisir atau laut masih berupa arah kebijakan, belum proyek. Syarat yang disebut BKPM, yaitu teknologi teruji, energi andal, kabel bawah laut, dan kajian lingkungan, mengisyaratkan bahwa realisasinya akan butuh waktu bertahun-tahun.</p><h3>Yang tidak dijelaskan</h3><p>Belum ada informasi berapa dari 30 GW yang sudah memiliki perjanjian jual beli listrik, berapa lama rata-rata waktu tunggu penyambungan, dan bagaimana prioritas antrean ditentukan. Bagi perusahaan pengguna cloud dan colocation, ketidakpastian inilah yang paling relevan, karena memengaruhi kapan kapasitas baru benar-benar tersedia dan berapa harganya.</p>",
+  "actionHtml": "<h3>Untuk CIO dan Infrastructure Lead</h3><ol><li>Saat menegosiasikan kontrak colocation atau cloud lokal, tanyakan status pasokan listrik penyedia: kapasitas yang sudah tersambung, jadwal penambahan, dan rencana cadangan.</li><li>Masukkan risiko keterlambatan kapasitas dan kenaikan harga ke dalam rencana migrasi beban kerja AI yang butuh GPU, dan siapkan opsi multi-lokasi.</li><li>Pertimbangkan lokasi di luar Jakarta, seperti Batam, untuk pemulihan bencana, dengan memeriksa latensi dan konektivitas kabel.</li></ol><h3>Untuk pengembang pusat data dan penyedia cloud</h3><ol><li>Siapkan proposal pendanaan bersama pembangkit, terutama energi terbarukan, karena PLN secara terbuka meminta co-investment.</li><li>Pisahkan antrean permintaan yang realistis dari opsi cadangan agar perencanaan pasokan dengan PLN lebih kredibel.</li></ol><h3>Untuk CFO</h3><ol><li>Pantau kemungkinan perubahan skema tarif atau subsidi untuk pusat data, karena hal itu dapat diteruskan ke harga layanan cloud dan colocation.</li></ol>",
+  "faqHtml": "<h3>Berapa kebutuhan listrik pusat data di Indonesia saat ini?</h3><p>Menurut Direktur Utama PLN Suroso Isnandar pada 25 November 2026, daftar tunggu kebutuhan listrik pusat data mencapai 30 GW. Kapasitas pembangkit PLN sekitar 80 GW.</p><h3>Berapa listrik yang dibutuhkan satu pusat data?</h3><p>Menurut PLN, satu pusat data pada tahap awal membutuhkan sekitar 100 hingga 300 MW.</p><h3>Apa itu co-investment yang diminta PLN?</h3><p>PLN meminta investor pusat data duduk bersama membahas investasi bersama dalam pembangunan pembangkit. Rincian skemanya belum diumumkan.</p>",
+  "dataFigure": "30 GW",
+  "dataLabel": "daftar tunggu kebutuhan listrik pusat data di PLN",
+  "dataSource": "PLN, via ANTARA dan Warta Ekonomi, 25 November 2026",
+  "chart": {
+    "bars": [
+      {
+        "label": "Kapasitas",
+        "value": 80,
+        "display": "80 GW"
+      },
+      {
+        "label": "27 Okt",
+        "value": 20,
+        "display": "20 GW"
+      },
+      {
+        "label": "25 Nov",
+        "value": 30,
+        "display": "30 GW"
+      }
+    ]
+  },
+  "audience": [
+    "CIO",
+    "Infrastructure Lead",
+    "Pengembang pusat data",
+    "CFO"
+  ],
+  "tags": [
+    "PLN",
+    "Pusat data",
+    "Listrik",
+    "RUPTL",
+    "BKPM",
+    "METI",
+    "Batam"
+  ],
+  "sources": [
+    {
+      "name": "ANTARA",
+      "title": "PLN catat daftar tunggu kebutuhan listrik pusat data capai 30 GW",
+      "url": "https://www.antaranews.com/berita/5878071/pln-catat-daftar-tunggu-kebutuhan-listrik-pusat-data-capai-30-gw",
+      "date": "2026-11-25"
+    },
+    {
+      "name": "Warta Ekonomi",
+      "title": "Bos PLN Ungkap Antrean Listrik Data Center Tembus 30 GW",
+      "url": "https://wartaekonomi.co.id/read650412/bos-pln-ungkap-antrean-listrik-data-center-tembus-30-gw",
+      "date": "2026-11-25"
+    },
+    {
+      "name": "Warta Ekonomi",
+      "title": "PLN Ungkap Alasan 75 Data Center Ramai-ramai Pindah ke Indonesia",
+      "url": "https://wartaekonomi.co.id/read650408/pln-ungkap-alasan-75-data-center-ramai-ramai-pindah-ke-indonesia",
+      "date": "2026-11-25"
+    },
+    {
+      "name": "ANTARA",
+      "title": "BKPM: Pengembangan pusat data dapat manfaatkan potensi laut",
+      "url": "https://www.antaranews.com/berita/5878747/bkpm-pengembangan-pusat-data-dapat-manfaatkan-potensi-laut",
+      "date": "2026-11-25"
+    }
+  ],
+  "seoTitle": "Antrean Listrik Pusat Data di PLN Capai 30 GW",
+  "seoDescription": "PLN catat daftar tunggu listrik pusat data 30 GW, setara 37,5% kapasitas 80 GW, dan minta investor co-investment pembangkit. Dampaknya bagi CIO.",
+  "publishAt": "2026-11-26T06:00:00+07:00",
+  "language": "id",
+  "en": {
+    "title": "Data Centre Power Queue at PLN Reaches 30 GW, Equal to 37.5% of Installed Capacity: PLN Asks Investors to Co-Invest",
+    "dek": "PLN President Director Suroso Isnandar says the waiting list for data centre electricity has reached 30 GW, up from 20 GW at the end of October. That is more than a third of PLN's generating capacity, so power supply, not land or networks, is likely to set the timetable for data centre projects in Indonesia.",
+    "summaryHtml": "<ul><li>At the Forum Energi Nasional 2026 in Jakarta on Wednesday (25 November 2026), PT PLN (Persero) President Director Suroso Isnandar said the waiting list for data centre electricity had reached 30 GW, against PLN generating capacity of about 80 GW (ANTARA, Warta Ekonomi).</li><li>According to ANTARA, recorded data centre demand on 27 October 2026 was about 20 GW. A single data centre needs 100 to 300 MW at an early stage. The RUPTL 2025–2034 plans 69.5 GW of additional capacity.</li><li>Suroso said 75 data centre companies had chosen Indonesia, partly because of electricity tariffs compared with Johor Bahru and Singapore. He also said electricity subsidies flowing to data centres in 2026 had reached Rp8 trillion, and asked investors to discuss co-investment in power generation (Warta Ekonomi).</li><li>METI chairman Norman Ginting cited a projection of 32 GW of data centre demand by 2032 and stressed the need for a Green Super Grid to handle intermittent solar power (ANTARA).</li><li>On the same day, Deputy Minister of Investment and Downstreaming/Deputy Head of BKPM Todotua Pasaribu said data centres could be developed using Indonesia's marine potential, provided there is proven technology, reliable energy, subsea cable connectivity and an environmental study (ANTARA).</li></ul>",
+    "analysisHtml": "<h3>The queue grew by 10 GW in a month</h3><p>The jump from about 20 GW on 27 October to 30 GW on 25 November shows how fast new requests are reaching PLN. But the figure needs careful reading. It is a waiting list, not connected load or contracts certain to be built. Some requests are probably from projects still holding site options, and a single project may apply in phases. Even so, 30 GW equals about 37.5% of PLN's current generating capacity and almost half of the 69.5 GW addition planned in the RUPTL 2025–2034. Even if only a small part of the queue materialises, data centres will be one of the largest sources of growth in power demand.</p><h3>The message behind the co-investment request</h3><p>Suroso's remark that Rp8 trillion in subsidies flowed to data centres this year hints at the policy direction. PLN appears to want large customers to share the cost of new generation, not just buy power. For developers, this could mean new arrangements such as joint investment in generation, especially renewables, as a condition for large supply. Whether this will be followed by changes in tariffs or connection terms for data centres is worth watching. The sources do not give details of the scheme, investment per MW, or a timetable.</p><h3>The location map is starting to shift</h3><p>Suroso's mention of a 7.5 GW contract for the Batam area and BKPM's idea of data centres using marine potential show that the government and PLN are pushing growth outside the Jakarta–West Java corridor. Batam benefits from its proximity to Singapore and Johor. Coastal or marine data centres are still a policy direction, not projects. The conditions BKPM listed — proven technology, reliable energy, subsea cables and environmental studies — suggest that delivery will take years.</p><h3>What is not explained</h3><p>There is no information on how much of the 30 GW already has power purchase agreements, the average waiting time for connection, or how the queue is prioritised. For companies using cloud and colocation, this uncertainty matters most, because it affects when new capacity actually becomes available and at what price.</p>",
+    "actionHtml": "<h3>For CIOs and Infrastructure Leads</h3><ol><li>When negotiating colocation or local cloud contracts, ask about the provider's power supply status: connected capacity, expansion schedule and backup plans.</li><li>Build the risk of capacity delays and price increases into migration plans for GPU-heavy AI workloads, and prepare multi-site options.</li><li>Consider locations outside Jakarta, such as Batam, for disaster recovery, after checking latency and cable connectivity.</li></ol><h3>For data centre developers and cloud providers</h3><ol><li>Prepare proposals for co-funding generation, especially renewables, as PLN is openly asking for co-investment.</li><li>Separate realistic demand from backup options in the queue so that supply planning with PLN is more credible.</li></ol><h3>For CFOs</h3><ol><li>Watch for possible changes to tariff or subsidy arrangements for data centres, as these could be passed through to cloud and colocation prices.</li></ol>",
+    "faqHtml": "<h3>How much electricity do data centres in Indonesia need now?</h3><p>According to PLN President Director Suroso Isnandar on 25 November 2026, the waiting list for data centre electricity has reached 30 GW. PLN's generating capacity is about 80 GW.</p><h3>How much power does one data centre need?</h3><p>According to PLN, a single data centre needs about 100 to 300 MW at an early stage.</p><h3>What is the co-investment PLN is asking for?</h3><p>PLN has asked data centre investors to sit down and discuss joint investment in building power plants. Details of the scheme have not been announced.</p>",
+    "dataFigure": "30 GW",
+    "dataLabel": "data centre power waiting list at PLN",
+    "dataSource": "PLN, via ANTARA and Warta Ekonomi, 25 November 2026",
+    "chart": {
+      "bars": [
+        {
+          "label": "Capacity",
+          "value": 80,
+          "display": "80 GW"
+        },
+        {
+          "label": "27 Oct",
+          "value": 20,
+          "display": "20 GW"
+        },
+        {
+          "label": "25 Nov",
+          "value": 30,
+          "display": "30 GW"
+        }
+      ]
+    },
+    "seoTitle": "Data Centre Power Queue at Indonesia's PLN Hits 30 GW",
+    "seoDescription": "PLN's waiting list for data centre power has reached 30 GW, 37.5% of its 80 GW capacity, and it wants investors to co-invest in generation.",
+    "audience": [
+      "CIO",
+      "Infrastructure Lead",
+      "Data centre developer",
+      "CFO"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pln-daftar-tunggu-listrik-pusat-data-30-gw-co-investment-en.png"
+  },
+  "ja": {
+    "title": "PLNのデータセンター向け電力待ちが30GWに　設備容量の37.5%相当、投資家に共同投資呼びかけ",
+    "dek": "インドネシア国営電力PLNのスロソ・イスナンダル社長は、データセンター向け電力の需要待ちが30GWに達したと明らかにした。10月末の約20GWから増えた。PLNの発電容量の3分の1を超える規模であり、インドネシアのデータセンター計画の時期を左右するのは土地や通信網ではなく電力供給になる可能性が高い。",
+    "summaryHtml": "<ul><li>PT PLN（Persero）のスロソ・イスナンダル社長は2026年11月25日、ジャカルタで開かれたForum Energi Nasional 2026で、データセンター向け電力の待機リストが30GWに達したと述べた。PLNの発電容量は約80GWである（ANTARA、Warta Ekonomi）。</li><li>ANTARAによると、2026年10月27日時点のデータセンター需要は約20GWだった。データセンター1件は初期段階で100〜300MWを必要とする。RUPTL 2025〜2034（電力供給事業計画）は69.5GWの容量追加を計画している。</li><li>スロソ氏は、データセンター事業者75社がジョホールバルやシンガポールと比べた電気料金などを理由にインドネシアを選んだと述べた。2026年にデータセンターに流れた電力補助金は8兆ルピアに達したとし、発電所への共同投資を投資家と協議したいと述べた（Warta Ekonomi）。</li><li>インドネシア再生可能エネルギー協会（METI）のノルマン・ギンティン会長は、2032年にデータセンター需要が32GWに達するとの見通しを示し、出力が変動する太陽光に対応するGreen Super Gridの整備が必要だと強調した（ANTARA）。</li><li>同日、投資・川下産業化副大臣兼投資調整庁（BKPM）副長官のトドトゥア・パサリブ氏は、実証済みの技術、安定したエネルギー、海底ケーブル接続、環境調査を条件に、海洋資源を生かしたデータセンター開発が可能だと述べた（ANTARA）。</li></ul>",
+    "analysisHtml": "<h3>1カ月で10GW増えた待機リスト</h3><p>10月27日の約20GWから11月25日の30GWへの増加は、新たな申し込みがいかに速くPLNに寄せられているかを示す。ただし、この数字は慎重に読む必要がある。示されたのは待機リストであり、接続済みの負荷や建設が確実な契約ではない。立地の選択肢を確保しているだけの案件も含まれる可能性があり、1件の案件が段階的に申し込むこともある。それでも30GWはPLNの現在の発電容量の約37.5%に当たり、RUPTL 2025〜2034で計画される追加容量69.5GWの半分近くに相当する。待機リストのごく一部が実現するだけでも、データセンターは電力需要の最大の伸びの源の一つとなる。</p><h3>共同投資の要請に込められたメッセージ</h3><p>今年データセンターに8兆ルピアの補助金が流れたというスロソ氏の発言は、政策の方向を示唆する。PLNは大口顧客に電力を買うだけでなく、新規発電所の費用も分担してほしいと考えているようだ。開発事業者にとっては、大規模な供給を受ける条件として、再生可能エネルギーを中心とする発電所への共同投資といった新しい枠組みが求められる可能性がある。データセンター向けの料金や接続条件の変更が続くかどうかが注目点だ。読んだ情報源には、枠組みの詳細、MW当たりの投資額、日程は示されていない。</p><h3>立地の地図が動き始めた</h3><p>スロソ氏がバタム地域との7.5GWの契約に言及したことと、BKPMが海洋資源を生かしたデータセンター構想を示したことは、政府とPLNがジャカルタ・西ジャワ回廊以外での成長を後押ししていることを示す。バタムはシンガポールやジョホールに近い利点がある。沿岸・海洋型データセンターはまだ政策の方向性にとどまり、具体的な案件ではない。BKPMが挙げた条件を見ると、実現には何年もかかるとみられる。</p><h3>説明されていないこと</h3><p>30GWのうち電力売買契約を既に結んだ案件がどれだけあるか、接続までの平均待ち期間、待機リストの優先順位の決め方は明らかにされていない。クラウドやコロケーションを利用する企業にとって最も重要なのはこの不確実性であり、新たな容量がいつ、いくらで利用可能になるかに影響する。</p>",
+    "actionHtml": "<h3>CIO・インフラ責任者</h3><ol><li>コロケーションや国内クラウドの契約交渉では、接続済み容量、増設計画、予備計画など事業者の電力供給状況を確認する。</li><li>GPUを多用するAI処理の移行計画に、容量の遅れと価格上昇のリスクを織り込み、複数拠点の選択肢を用意する。</li><li>災害復旧用にバタムなどジャカルタ以外の立地を検討し、遅延とケーブル接続を確認する。</li></ol><h3>データセンター開発事業者・クラウド事業者</h3><ol><li>PLNが共同投資を公に求めている以上、再生可能エネルギーを中心に発電所の共同出資案を準備する。</li><li>PLNとの供給計画の信頼性を高めるため、現実的な需要と予備的な申し込みを区別する。</li></ol><h3>CFO</h3><ol><li>データセンター向けの料金や補助金の見直しは、クラウドやコロケーションの価格に転嫁される可能性があるため、動向を注視する。</li></ol>",
+    "faqHtml": "<h3>インドネシアのデータセンターが現在必要とする電力はどの程度か。</h3><p>PLNのスロソ・イスナンダル社長によると、2026年11月25日時点でデータセンター向け電力の待機リストは30GWに達した。PLNの発電容量は約80GWである。</p><h3>データセンター1件にはどれだけの電力が必要か。</h3><p>PLNによると、初期段階で約100〜300MWが必要になる。</p><h3>PLNが求める共同投資とは何か。</h3><p>PLNはデータセンター投資家に対し、発電所建設への共同投資を協議するよう呼びかけた。枠組みの詳細は発表されていない。</p>",
+    "dataFigure": "30GW",
+    "dataLabel": "PLNのデータセンター向け電力待機リスト",
+    "dataSource": "PLN（ANTARA、Warta Ekonomi経由）、2026年11月25日",
+    "chart": {
+      "bars": [
+        {
+          "label": "発電容量",
+          "value": 80,
+          "display": "80GW"
+        },
+        {
+          "label": "10月27日",
+          "value": 20,
+          "display": "20GW"
+        },
+        {
+          "label": "11月25日",
+          "value": 30,
+          "display": "30GW"
+        }
+      ]
+    },
+    "seoTitle": "PLNのデータセンター向け電力待ちが30GWに",
+    "seoDescription": "インドネシア国営電力PLNのデータセンター向け電力待機リストが30GWに達し、発電容量80GWの37.5%に相当。PLNは投資家に発電所への共同投資を求めた。",
+    "audience": [
+      "CIO",
+      "インフラ責任者",
+      "データセンター事業者",
+      "CFO"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pln-daftar-tunggu-listrik-pusat-data-30-gw-co-investment-ja.png"
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/pln-daftar-tunggu-listrik-pusat-data-30-gw-co-investment.png"
+}
