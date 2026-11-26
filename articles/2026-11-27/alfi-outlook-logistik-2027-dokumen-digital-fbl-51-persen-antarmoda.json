@@ -1,0 +1,130 @@
+{
+  "slug": "alfi-outlook-logistik-2027-dokumen-digital-fbl-51-persen-antarmoda",
+  "title": "ALFI Petakan 8 Isu Logistik 2027: Adopsi FBL Digital Naik ke 51%, 90% Angkutan Masih Bertumpu pada Jalan",
+  "category": "Logistics & Supply Chain Tech",
+  "articleType": "analisis",
+  "dek": "Asosiasi Logistik dan Forwarder Indonesia (ALFI) memaparkan delapan isu strategis logistik 2027, dari geopolitik hingga digitalisasi. Data yang dikutip menunjukkan dokumen pengapalan digital FIATA kian dipakai, sementara angkutan nasional masih hampir seluruhnya lewat jalan, sehingga efisiensi bergantung pada integrasi data dan antarmoda, bukan sekadar tarif.",
+  "summaryHtml": "<ul><li>Ketua Dewan Pembina DPP ALFI sekaligus Senior Vice President FIATA Yukki Nugrahawan Hanafi memaparkan delapan isu strategis outlook 2027: pertumbuhan ekonomi, risiko geopolitik, masalah struktural domestik, digitalisasi, perubahan kebutuhan pelanggan, transformasi model bisnis, konsolidasi global, dan diversifikasi rantai pasok (Antara).</li><li>Sekitar 90% pergerakan logistik nasional bertumpu pada angkutan jalan, laut 9%, kereta 1%, dan udara kurang dari 1%. Yukki menegaskan “Biaya logistik tidak akan turun hanya dengan menekan tarif” dan menyebut kuncinya produktivitas end-to-end lewat integrasi antarmoda (Antara; Kontan).</li><li>Menurut Kontan, adopsi FBL digital FIATA naik dari 33% pada 2022 menjadi 51% pada 2026. Yukki juga menyebut FIATA eFBL, UN Negotiable Cargo Documents, National Logistics Ecosystem (NLE), dan eFTI Uni Eropa yang berlaku mulai 2027.</li><li>Kontan mencatat pasar freight forwarding global sebesar US$633,9 miliar dengan CAGR 4,85% hingga 2032, serta pasar freight forwarding dan logistik Indonesia US$148 miliar dengan CAGR 6%. Analisis Kearney (Januari 2026) menyebut sepuluh pemain teratas menguasai sekitar 44% pasar ocean freight forwarding.</li><li>Kebijakan yang disebut berisiko menambah biaya antara lain Zero ODOL, elektrifikasi armada, dan implementasi Perpres 41/2026. Perpres tersebut menargetkan biaya logistik turun dari 14,29% PDB pada 2022 menjadi 12,5% pada 2029 dan 8% pada 2045 (Antara).</li></ul>",
+  "analysisHtml": "<h3>Digitalisasi dokumen sudah melewati titik tengah</h3><p>Angka yang paling relevan bagi pemimpin teknologi adalah adopsi FBL digital yang naik dari 33% menjadi 51% dalam empat tahun. Artinya, mayoritas dokumen pengapalan forwarder dalam ekosistem FIATA kini tidak lagi berbasis kertas. Ditambah eFTI Uni Eropa yang berlaku mulai 2027, eksportir dan forwarder Indonesia yang melayani pasar Eropa kemungkinan akan menghadapi permintaan pertukaran data elektronik yang makin standar. Perusahaan yang masih mengandalkan dokumen fisik berisiko tertinggal dalam kecepatan dan biaya administrasi.</p><h3>Tarif murah tidak menyelesaikan struktur biaya</h3><p>Data komposisi biaya yang dikutip Antara dari pemerintah menunjukkan angkutan jalan menyumbang 49,6% biaya logistik, laut 25,5%, pergudangan 10,6%, dan administrasi 8,5%. Dengan 90% pergerakan bertumpu pada jalan, penurunan tarif angkutan hanya menyentuh sebagian masalah. Biaya tersembunyi ada pada truk kosong saat kembali, waktu tunggu di pelabuhan, dan perpindahan antarmoda yang tidak terjadwal. Di sinilah visibilitas data lintas pihak, termasuk lewat NLE, memberi dampak lebih besar dibanding negosiasi harga.</p><h3>Regulasi menambah tekanan jangka pendek</h3><p>Zero ODOL dan elektrifikasi armada kemungkinan menaikkan biaya per pengiriman dalam jangka pendek karena muatan per truk dibatasi dan investasi armada bertambah. Bagi pemilik barang, ini berarti kenaikan biaya angkutan darat yang perlu diimbangi efisiensi lain, misalnya optimasi rute, konsolidasi muatan, atau peralihan sebagian volume ke laut dan kereta jika jadwalnya andal.</p><h3>Konsolidasi global dan posisi pemain lokal</h3><p>Dengan sepuluh pemain teratas menguasai sekitar 44% pasar ocean freight forwarding, forwarder lokal menghadapi pesaing berskala besar dengan sistem digital yang matang. Perlu dicermati apakah forwarder nasional memilih berkonsolidasi, bermitra, atau berinvestasi pada platform bersama agar tidak kalah dalam kecepatan layanan.</p>",
+  "actionHtml": "<h3>Untuk Supply Chain Director dan Operations Head</h3><ol><li>Hitung porsi biaya logistik per komponen (angkutan, tunggu, gudang, administrasi) sebelum menegosiasikan tarif, untuk menemukan pemborosan di luar harga angkut.</li><li>Uji jalur antarmoda laut atau kereta untuk rute bervolume stabil, dengan memperhitungkan dampak Zero ODOL pada biaya jalan.</li><li>Minta forwarder mendukung dokumen elektronik seperti eFBL, terutama untuk pengiriman ke Eropa menjelang eFTI 2027.</li></ol><h3>Untuk CIO</h3><ol><li>Siapkan integrasi sistem TMS dan ERP dengan NLE serta format dokumen elektronik standar.</li></ol><h3>Untuk vendor teknologi logistik</h3><ol><li>Bidik forwarder menengah yang perlu menyusul adopsi dokumen digital dan visibilitas pengiriman agar bisa bersaing dengan pemain global.</li></ol>",
+  "faqHtml": "<h3>Apa saja isu logistik Indonesia 2027 menurut ALFI?</h3><p>Pertumbuhan ekonomi, risiko geopolitik, masalah struktural domestik, digitalisasi, perubahan kebutuhan pelanggan, transformasi model bisnis, konsolidasi global, dan diversifikasi rantai pasok.</p><h3>Berapa porsi angkutan jalan dalam logistik Indonesia?</h3><p>Sekitar 90% pergerakan logistik nasional bertumpu pada angkutan jalan, laut 9%, kereta 1%, dan udara kurang dari 1%, menurut ALFI.</p><h3>Apa itu eFBL?</h3><p>Versi elektronik dari FIATA Bill of Lading, dokumen pengapalan forwarder. Adopsi FBL digital naik dari 33% pada 2022 menjadi 51% pada 2026.</p>",
+  "dataFigure": "51%",
+  "dataLabel": "adopsi FBL digital FIATA pada 2026, naik dari 33% pada 2022",
+  "dataSource": "ALFI/FIATA via Kontan, 26 November 2026",
+  "chart": {
+    "bars": [
+      {
+        "label": "2022",
+        "value": 33,
+        "display": "33%"
+      },
+      {
+        "label": "2026",
+        "value": 51,
+        "display": "51%"
+      }
+    ]
+  },
+  "audience": [
+    "Supply Chain Director",
+    "Operations Head",
+    "CIO",
+    "Vendor teknologi logistik"
+  ],
+  "tags": [
+    "ALFI",
+    "FIATA",
+    "eFBL",
+    "Logistik antarmoda",
+    "Perpres 41/2026",
+    "NLE",
+    "Zero ODOL"
+  ],
+  "sources": [
+    {
+      "name": "Antara",
+      "title": "ALFI: Integrasi antarmoda perkuat RI sebagai simpul logistik ASEAN",
+      "url": "https://www.antaranews.com/berita/5880675/alfi-integrasi-antarmoda-perkuat-ri-sebagai-simpul-logistik-asean",
+      "date": "2026-11-26"
+    },
+    {
+      "name": "Kontan",
+      "title": "Rantai Pasok Global Kian Dinamis, Indonesia Bidik Peluang Logistik ASEAN",
+      "url": "https://industri.kontan.co.id/news/rantai-pasok-global-kian-dinamis-indonesia-bidik-peluang-logistik-asean",
+      "date": "2026-11-26"
+    }
+  ],
+  "seoTitle": "Outlook Logistik 2027 ALFI: FBL Digital 51%, Antarmoda",
+  "seoDescription": "ALFI paparkan 8 isu logistik 2027. Adopsi FBL digital naik ke 51%, 90% angkutan lewat jalan. Dampak Zero ODOL dan Perpres 41/2026 bagi rantai pasok.",
+  "publishAt": "2026-11-27T12:00:00+07:00",
+  "language": "id",
+  "en": {
+    "title": "ALFI Maps 8 Logistics Issues for 2027: Digital FBL Adoption Rises to 51%, 90% of Freight Still Moves by Road",
+    "dek": "The Indonesian Logistics and Forwarders Association (ALFI) set out eight strategic logistics issues for 2027, from geopolitics to digitalisation. The figures cited show FIATA digital shipping documents are increasingly used, while national freight still moves almost entirely by road, so efficiency depends on data and intermodal integration, not just tariffs.",
+    "summaryHtml": "<ul><li>Yukki Nugrahawan Hanafi, Chair of ALFI's Advisory Board and Senior Vice President of FIATA, set out eight strategic issues for the 2027 outlook: economic growth, geopolitical risk, domestic structural problems, digitalisation, changing customer needs, business model transformation, global consolidation and supply chain diversification (Antara).</li><li>About 90% of national logistics movement relies on road transport, sea 9%, rail 1% and air less than 1%. Yukki said logistics costs will not fall just by squeezing tariffs, and that the key is end-to-end productivity through intermodal integration (Antara; Kontan).</li><li>According to Kontan, adoption of FIATA's digital FBL rose from 33% in 2022 to 51% in 2026. Yukki also cited FIATA eFBL, UN Negotiable Cargo Documents, the National Logistics Ecosystem (NLE) and the EU's eFTI, which applies from 2027.</li><li>Kontan put the global freight forwarding market at US$633.9 billion with a CAGR of 4.85% to 2032, and Indonesia's freight forwarding and logistics market at US$148 billion with a CAGR of 6%. A Kearney analysis (January 2026) says the top ten players hold about 44% of the ocean freight forwarding market.</li><li>Policies cited as cost risks include Zero ODOL (over-dimension, over-loading), fleet electrification and implementation of Presidential Regulation 41/2026. The regulation targets logistics costs falling from 14.29% of GDP in 2022 to 12.5% in 2029 and 8% in 2045 (Antara).</li></ul>",
+    "analysisHtml": "<h3>Document digitalisation has passed the halfway mark</h3><p>The most relevant figure for technology leaders is digital FBL adoption rising from 33% to 51% in four years. This means most forwarder shipping documents in the FIATA ecosystem are no longer paper-based. With the EU's eFTI applying from 2027, Indonesian exporters and forwarders serving Europe will likely face increasingly standardised requests for electronic data exchange. Companies still relying on physical documents risk falling behind on speed and administrative cost.</p><h3>Cheap tariffs do not fix the cost structure</h3><p>Government cost composition data cited by Antara shows road transport accounts for 49.6% of logistics costs, sea 25.5%, warehousing 10.6% and administration 8.5%. With 90% of movement relying on roads, lower freight rates address only part of the problem. Hidden costs lie in empty return trips, port waiting times and unscheduled modal transfers. This is where data visibility across parties, including through the NLE, has a bigger impact than price negotiations.</p><h3>Regulation adds short-term pressure</h3><p>Zero ODOL and fleet electrification are likely to raise per-shipment costs in the short term, as payload per truck is limited and fleet investment increases. For cargo owners, this means higher land transport costs that need to be offset by other efficiencies, such as route optimisation, load consolidation or shifting some volume to sea and rail if schedules are reliable.</p><h3>Global consolidation and local players</h3><p>With the top ten players holding about 44% of the ocean freight forwarding market, local forwarders face large competitors with mature digital systems. It is worth watching whether national forwarders choose to consolidate, partner or invest in shared platforms so as not to fall behind on service speed.</p>",
+    "actionHtml": "<h3>For Supply Chain Directors and Operations Heads</h3><ol><li>Break down logistics costs by component (transport, waiting, warehousing, administration) before negotiating rates, to find waste beyond the freight price.</li><li>Test sea or rail intermodal routes for stable-volume lanes, factoring in the impact of Zero ODOL on road costs.</li><li>Ask forwarders to support electronic documents such as eFBL, especially for shipments to Europe ahead of eFTI in 2027.</li></ol><h3>For CIOs</h3><ol><li>Prepare TMS and ERP integration with the NLE and standard electronic document formats.</li></ol><h3>For logistics technology vendors</h3><ol><li>Target mid-sized forwarders that need to catch up on digital documents and shipment visibility to compete with global players.</li></ol>",
+    "faqHtml": "<h3>What are Indonesia's 2027 logistics issues according to ALFI?</h3><p>Economic growth, geopolitical risk, domestic structural problems, digitalisation, changing customer needs, business model transformation, global consolidation and supply chain diversification.</p><h3>What share of Indonesian logistics moves by road?</h3><p>About 90% of national logistics movement relies on road transport, sea 9%, rail 1% and air less than 1%, according to ALFI.</p><h3>What is eFBL?</h3><p>The electronic version of the FIATA Bill of Lading, a forwarder shipping document. Digital FBL adoption rose from 33% in 2022 to 51% in 2026.</p>",
+    "dataFigure": "51%",
+    "dataLabel": "FIATA digital FBL adoption in 2026, up from 33% in 2022",
+    "dataSource": "ALFI/FIATA via Kontan, 26 November 2026",
+    "chart": {
+      "bars": [
+        {
+          "label": "2022",
+          "value": 33,
+          "display": "33%"
+        },
+        {
+          "label": "2026",
+          "value": 51,
+          "display": "51%"
+        }
+      ]
+    },
+    "seoTitle": "ALFI 2027 Logistics Outlook: Digital FBL at 51%",
+    "seoDescription": "ALFI sets out 8 logistics issues for 2027. Digital FBL adoption hits 51%, 90% of freight moves by road. Impact of Zero ODOL and Perpres 41/2026.",
+    "audience": [
+      "Supply Chain Director",
+      "Operations Head",
+      "CIO",
+      "Logistics tech vendors"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/alfi-outlook-logistik-2027-dokumen-digital-fbl-51-persen-antarmoda-en.png"
+  },
+  "ja": {
+    "title": "ALFIが2027年の物流8課題を提示　デジタルFBL採用51%に、輸送の9割は依然道路",
+    "dek": "インドネシア物流・フォワーダー協会（ALFI）は、地政学からデジタル化まで2027年の物流の戦略課題8項目を示した。引用されたデータでは国際フォワーダー協会連合会（FIATA）の電子船荷書類の利用が広がる一方、国内輸送はほぼ道路に依存しており、効率化は運賃ではなくデータとモード間連携にかかっている。",
+    "summaryHtml": "<ul><li>ALFI中央理事会の諮問委員長でFIATA上級副会長のYukki Nugrahawan Hanafi氏は、2027年見通しの戦略課題として、経済成長、地政学リスク、国内の構造問題、デジタル化、顧客ニーズの変化、ビジネスモデルの転換、世界的な業界再編、サプライチェーンの多様化の8項目を挙げた（Antara）。</li><li>国内物流の約90%は道路輸送に依存し、海上9%、鉄道1%、航空1%未満である。Yukki氏は運賃を下げるだけでは物流コストは下がらないと述べ、モード間連携によるエンドツーエンドの生産性が鍵だとした（Antara、Kontan）。</li><li>Kontanによると、FIATAのデジタルFBL（フォワーダー船荷証券）の採用率は2022年の33%から2026年に51%へ上昇した。同氏はFIATA eFBL、国連の流通可能貨物書類（NCD）、国家物流エコシステム（NLE）、2027年から適用される欧州連合（EU）のeFTIにも言及した。</li><li>Kontanは世界のフォワーディング市場を6339億ドル（2032年までの年平均成長率4.85%）、インドネシアのフォワーディング・物流市場を1480億ドル（同6%）としている。Kearneyの分析（2026年1月）では、上位10社が海上フォワーディング市場の約44%を占める。</li><li>コスト増のリスクとなる政策として、過積載・規格外車両の一掃（Zero ODOL）、車両の電動化、大統領令41/2026の実施が挙げられた。同大統領令は物流コストを2022年の対GDP比14.29%から2029年に12.5%、2045年に8%へ引き下げる目標を掲げる（Antara）。</li></ul>",
+    "analysisHtml": "<h3>書類のデジタル化は過半を超えた</h3><p>テクノロジー責任者にとって最も重要なのは、デジタルFBLの採用率が4年で33%から51%に上がった点である。FIATAのエコシステムでは、フォワーダーの船荷書類の過半がもはや紙ではない。2027年からEUのeFTIも適用されるため、欧州向けに事業を行うインドネシアの輸出企業やフォワーダーは、標準化された電子データ交換を求められる場面が増える可能性が高い。紙の書類に頼り続ける企業は、スピードと事務コストで後れを取る恐れがある。</p><h3>安い運賃ではコスト構造は変わらない</h3><p>Antaraが引用した政府のコスト構成データでは、物流コストの49.6%が道路輸送、25.5%が海上輸送、10.6%が倉庫、8.5%が事務である。輸送の9割が道路に依存する中、運賃の引き下げは問題の一部にしか触れない。隠れたコストは帰り便の空車、港湾での待ち時間、計画性のないモード間の積み替えにある。NLEを含む関係者間のデータの可視化は、価格交渉よりも大きな効果を持ち得る。</p><h3>規制は短期的な負担を増す</h3><p>Zero ODOLと車両電動化は、トラック1台当たりの積載量の制限と車両投資の増加により、短期的には1回当たりの輸送コストを押し上げる可能性が高い。荷主にとっては陸送コストの上昇を意味し、ルート最適化、積載の集約、ダイヤが安定していれば海上・鉄道への一部シフトなど、別の効率化で相殺する必要がある。</p><h3>世界的な再編と地場企業の立ち位置</h3><p>上位10社が海上フォワーディング市場の約44%を握る中、地場フォワーダーは成熟したデジタルシステムを持つ大手と競うことになる。国内フォワーダーが統合、提携、共同プラットフォームへの投資のいずれを選び、サービスの速さで遅れを取らないようにするかが注目される。</p>",
+    "actionHtml": "<h3>サプライチェーン責任者・オペレーション責任者へ</h3><ol><li>運賃交渉の前に、物流コストを輸送、待機、倉庫、事務の要素別に分解し、運賃以外の無駄を見つける。</li><li>物量が安定した区間で海上・鉄道のモード間輸送を試し、Zero ODOLによる道路コストへの影響を織り込む。</li><li>特に2027年のeFTI適用を控えた欧州向け出荷について、フォワーダーにeFBLなど電子書類への対応を求める。</li></ol><h3>CIOへ</h3><ol><li>輸配送管理システム（TMS）やERPとNLE、標準的な電子書類形式との連携を準備する。</li></ol><h3>物流テクノロジーベンダーへ</h3><ol><li>グローバル企業と競うためにデジタル書類と出荷の可視化で追いつく必要がある中堅フォワーダーを狙う。</li></ol>",
+    "faqHtml": "<h3>ALFIが挙げる2027年のインドネシア物流の課題は</h3><p>経済成長、地政学リスク、国内の構造問題、デジタル化、顧客ニーズの変化、ビジネスモデルの転換、世界的な業界再編、サプライチェーンの多様化の8項目である。</p><h3>インドネシアの物流に占める道路輸送の割合は</h3><p>ALFIによると、国内物流の約90%が道路、海上9%、鉄道1%、航空1%未満である。</p><h3>eFBLとは何か</h3><p>フォワーダーの船荷書類であるFIATA船荷証券の電子版である。デジタルFBLの採用率は2022年の33%から2026年に51%へ上昇した。</p>",
+    "dataFigure": "51%",
+    "dataLabel": "2026年のFIATAデジタルFBL採用率（2022年は33%）",
+    "dataSource": "ALFI・FIATA（Kontan経由）、2026年11月26日",
+    "chart": {
+      "bars": [
+        {
+          "label": "2022年",
+          "value": 33,
+          "display": "33%"
+        },
+        {
+          "label": "2026年",
+          "value": 51,
+          "display": "51%"
+        }
+      ]
+    },
+    "seoTitle": "ALFI物流見通し2027　デジタルFBL採用51%",
+    "seoDescription": "ALFIが2027年の物流8課題を提示。デジタルFBL採用率は51%に上昇、輸送の9割は道路依存。Zero ODOLと大統領令41/2026の影響。",
+    "audience": [
+      "サプライチェーン責任者",
+      "オペレーション責任者",
+      "CIO",
+      "物流テックベンダー"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/alfi-outlook-logistik-2027-dokumen-digital-fbl-51-persen-antarmoda-ja.png"
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/alfi-outlook-logistik-2027-dokumen-digital-fbl-51-persen-antarmoda.png"
+}

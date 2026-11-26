@@ -1,0 +1,87 @@
+{
+  "slug": "trakindo-customer-app-accenture-6-aspek-pengalaman-pelanggan-b2b",
+  "title": "Trakindo Kembangkan Trakindo Customer App, Accenture Petakan 6 Aspek Pengalaman Pelanggan B2B Industri Alat Berat",
+  "category": "Customer Engagement & CX",
+  "articleType": "analisis",
+  "dek": "PT Trakindo Utama mengembangkan Trakindo Customer App yang menyatukan pemantauan alat, pembelian suku cadang, dan permintaan servis dalam satu aplikasi. Riset Accenture yang dipaparkan di forum yang sama menyebut enam aspek penentu pengalaman pelanggan B2B industri, dan proaktif menjadi yang paling sulit dipenuhi tanpa data.",
+  "summaryHtml": "<ul><li>PT Trakindo Utama mengembangkan Trakindo Customer App (TCA), aplikasi yang pertama diluncurkan pada 2020, untuk mengintegrasikan layanan pelanggan alat berat: pemantauan produktivitas alat, pembelian suku cadang, dan permintaan servis (Kontan).</li><li>Pelanggan memantau aktivitas dan produktivitas mesin lewat VisionLink, aplikasi terhubung dengan Parts.Cat.Com untuk informasi dan pembelian suku cadang secara daring, dan permintaan servis dapat diajukan serta dilacak secara real time (Kontan).</li><li>Dalam forum Bincang PERSpektIF 2026 di Jakarta pada 26 November 2026, Mining Director Accenture Indonesia M. Darliansa Hilmy memaparkan riset Accenture tentang pembeli B2B industri yang menyebut enam aspek penentu pengalaman pelanggan: kualitas, keandalan, kemudahan, transparansi, responsivitas, dan proaktivitas (Investortrust; Kontan).</li><li>Menurut Investortrust, pelanggan kini makin mengharapkan akses mudah ke informasi yang akurat, proses yang lebih sederhana, visibilitas operasional yang lebih baik, dan respons cepat.</li><li>Chief Innovation Officer Trakindo Daniel Setyadi menyatakan “digitalisasi bukan semata-mata tentang mengadopsi teknologi”, melainkan menjawab kebutuhan pelanggan (Kontan). Managing Director PT Yamika Faiz Muslim Alkindy menilai teknologi bernilai jika “manfaatnya benar-benar dapat dirasakan dalam pekerjaan sehari-hari” (Investortrust).</li></ul>",
+  "analysisHtml": "<h3>CX B2B bukan soal aplikasi, tetapi soal waktu henti</h3><p>Di industri alat berat, pengalaman pelanggan diukur dari satu hal: berapa lama mesin tidak bekerja. Setiap jam alat berhenti di tambang atau proyek konstruksi berarti produksi yang hilang. Karena itu, integrasi pemantauan alat, suku cadang, dan servis dalam satu aplikasi bukan sekadar kenyamanan, melainkan cara memangkas rantai komunikasi antara operator di lapangan, bagian pengadaan, dan dealer. Model ini relevan bagi produsen dan distributor B2B lain, dari mesin pabrik hingga peralatan medis.</p><h3>Proaktivitas adalah aspek tersulit</h3><p>Dari enam aspek dalam riset Accenture, kualitas, keandalan, dan responsivitas sudah lama menjadi standar layanan purna jual. Yang membedakan adalah proaktivitas: mengetahui kebutuhan pelanggan sebelum pelanggan menelepon. Ini hanya mungkin jika data mesin, seperti jam operasi dan kondisi komponen, mengalir ke penyedia layanan dan diolah menjadi rekomendasi servis atau penggantian suku cadang. Data telematika seperti VisionLink menjadi bahan bakunya, tetapi nilai bisnisnya baru muncul ketika data itu terhubung ke proses penjualan suku cadang dan penjadwalan teknisi.</p><h3>Transparansi menuntut perubahan budaya</h3><p>Aspek transparansi juga tidak sederhana. Pelacakan servis secara real time membuat keterlambatan terlihat oleh pelanggan. Penyedia yang membuka data seperti ini harus siap dengan proses internal yang konsisten; jika tidak, aplikasi justru memperlihatkan kelemahan. Komentar pelanggan dalam forum tersebut menegaskan bahwa ukuran keberhasilan ada di pekerjaan sehari-hari, bukan pada jumlah fitur.</p><h3>Yang tidak diungkap</h3><p>Sumber tidak menyebut jumlah pengguna TCA, tingkat adopsi di antara pelanggan, atau dampak terukur seperti penurunan waktu henti. Tanpa angka ini, sulit menilai seberapa jauh digitalisasi sudah mengubah hasil operasional. Perlu dicermati apakah penyedia layanan B2B mulai melaporkan metrik semacam itu kepada pelanggan.</p>",
+  "actionHtml": "<h3>Untuk Head of Customer Service dan Direktur Purna Jual</h3><ol><li>Ukur pengalaman pelanggan dengan metrik operasional pelanggan, seperti waktu henti dan waktu respons servis, bukan hanya skor kepuasan.</li><li>Petakan titik kontak pelanggan dari laporan kerusakan sampai alat kembali bekerja, lalu identifikasi langkah yang bisa digabung dalam satu kanal digital.</li><li>Mulai program servis proaktif dari satu lini produk dengan data pemakaian yang sudah tersedia.</li></ol><h3>Untuk CIO</h3><ol><li>Pastikan data telematika, katalog suku cadang, dan sistem tiket servis terintegrasi, karena portal pelanggan hanya sebaik data di belakangnya.</li></ol><h3>Untuk pembeli alat dan Operations Head</h3><ol><li>Masukkan akses data mesin dan pelacakan servis sebagai kriteria dalam pemilihan pemasok alat dan kontrak layanan.</li></ol>",
+  "faqHtml": "<h3>Apa itu Trakindo Customer App?</h3><p>Aplikasi Trakindo yang pertama diluncurkan pada 2020 untuk memantau produktivitas alat lewat VisionLink, membeli suku cadang melalui Parts.Cat.Com, serta mengajukan dan melacak permintaan servis secara real time.</p><h3>Apa saja enam aspek pengalaman pelanggan B2B menurut Accenture?</h3><p>Kualitas, keandalan, kemudahan, transparansi, responsivitas, dan proaktivitas, berdasarkan riset Accenture tentang pembeli B2B industri.</p>",
+  "dataFigure": "6 aspek",
+  "dataLabel": "penentu pengalaman pelanggan B2B industri menurut riset Accenture",
+  "dataSource": "Accenture, Bincang PERSpektIF 2026, via Kontan dan Investortrust, 26 November 2026",
+  "audience": [
+    "Head of Customer Service",
+    "Direktur Purna Jual",
+    "CIO",
+    "Operations Head"
+  ],
+  "tags": [
+    "Enterprise Adoption",
+    "Trakindo",
+    "Accenture",
+    "Customer experience B2B",
+    "Alat berat",
+    "VisionLink"
+  ],
+  "sources": [
+    {
+      "name": "Kontan",
+      "title": "Trakindo Kembangkan Aplikasi Terintegrasi untuk Layanan Pelanggan Alat Berat",
+      "url": "https://industri.kontan.co.id/news/trakindo-kembangkan-aplikasi-terintegrasi-untuk-layanan-pelanggan-alat-berat",
+      "date": "2026-11-26"
+    },
+    {
+      "name": "Investortrust",
+      "title": "Digitalisasi Ubah Ekspektasi Pelanggan Industri Alat Berat",
+      "url": "https://investortrust.id/business/123779/digitalisasi-ubah-ekspektasi-pelanggan-industri-alat-berat",
+      "date": "2026-11-26"
+    }
+  ],
+  "seoTitle": "Trakindo Customer App dan 6 Aspek CX B2B Versi Accenture",
+  "seoDescription": "Trakindo satukan pemantauan alat, suku cadang, dan servis dalam satu aplikasi. Riset Accenture: 6 aspek pengalaman pelanggan B2B industri dan artinya.",
+  "publishAt": "2026-11-27T10:30:00+07:00",
+  "language": "id",
+  "en": {
+    "title": "Trakindo Develops Its Customer App as Accenture Maps 6 Aspects of B2B Customer Experience in Heavy Equipment",
+    "dek": "PT Trakindo Utama is developing the Trakindo Customer App, which brings equipment monitoring, spare parts purchasing and service requests into one application. Accenture research presented at the same forum names six aspects that shape industrial B2B customer experience, and proactiveness is the hardest to deliver without data.",
+    "summaryHtml": "<ul><li>PT Trakindo Utama is developing the Trakindo Customer App (TCA), first launched in 2020, to integrate heavy equipment customer services: equipment productivity monitoring, spare parts purchasing and service requests (Kontan).</li><li>Customers monitor machine activity and productivity through VisionLink, the app connects to Parts.Cat.Com for online parts information and purchases, and service requests can be submitted and tracked in real time (Kontan).</li><li>At the Bincang PERSpektIF 2026 forum in Jakarta on 26 November 2026, Accenture Indonesia Mining Director M. Darliansa Hilmy presented Accenture research on industrial B2B buyers naming six aspects that shape customer experience: quality, reliability, ease, transparency, responsiveness and proactiveness (Investortrust; Kontan).</li><li>According to Investortrust, customers increasingly expect easy access to accurate information, simpler processes, better operational visibility and fast responses.</li><li>Trakindo Chief Innovation Officer Daniel Setyadi said digitalisation is not merely about adopting technology but about meeting customer needs (Kontan). PT Yamika Managing Director Faiz Muslim Alkindy said technology adds value when its benefits are felt in daily work (Investortrust).</li></ul>",
+    "analysisHtml": "<h3>B2B CX is not about the app, it is about downtime</h3><p>In heavy equipment, customer experience is measured by one thing: how long a machine is not working. Every hour a unit stands idle at a mine or construction site means lost production. Integrating equipment monitoring, parts and service in one app is therefore not just a convenience but a way to cut the communication chain between field operators, procurement and the dealer. The model is relevant to other B2B manufacturers and distributors, from factory machinery to medical equipment.</p><h3>Proactiveness is the hardest aspect</h3><p>Of the six aspects in Accenture's research, quality, reliability and responsiveness have long been standard in after-sales service. The differentiator is proactiveness: knowing what customers need before they call. This is only possible if machine data, such as operating hours and component condition, flows to the service provider and is turned into service or parts replacement recommendations. Telematics data such as VisionLink is the raw material, but its business value appears only when that data is connected to parts sales and technician scheduling.</p><h3>Transparency requires a cultural shift</h3><p>Transparency is not simple either. Real-time service tracking makes delays visible to customers. Providers that open up such data must have consistent internal processes; otherwise the app exposes weaknesses instead. The customer's comment at the forum underlines that success is measured in daily work, not in the number of features.</p><h3>What was not disclosed</h3><p>The sources do not state the number of TCA users, the adoption rate among customers or measurable impact such as reduced downtime. Without these figures, it is hard to judge how far digitalisation has changed operational outcomes. It is worth watching whether B2B service providers start reporting such metrics to customers.</p>",
+    "actionHtml": "<h3>For Heads of Customer Service and After-Sales Directors</h3><ol><li>Measure customer experience with customers' operational metrics, such as downtime and service response time, not only satisfaction scores.</li><li>Map customer touchpoints from the breakdown report until the equipment is working again, then identify steps that can be combined in one digital channel.</li><li>Start a proactive service programme with one product line using usage data already available.</li></ol><h3>For CIOs</h3><ol><li>Make sure telematics data, the parts catalogue and the service ticketing system are integrated, because a customer portal is only as good as the data behind it.</li></ol><h3>For equipment buyers and Operations Heads</h3><ol><li>Include access to machine data and service tracking as criteria when selecting equipment suppliers and service contracts.</li></ol>",
+    "faqHtml": "<h3>What is the Trakindo Customer App?</h3><p>A Trakindo app first launched in 2020 for monitoring equipment productivity via VisionLink, buying parts through Parts.Cat.Com, and submitting and tracking service requests in real time.</p><h3>What are Accenture's six aspects of B2B customer experience?</h3><p>Quality, reliability, ease, transparency, responsiveness and proactiveness, based on Accenture research on industrial B2B buyers.</p>",
+    "dataFigure": "6 aspects",
+    "dataLabel": "drivers of industrial B2B customer experience according to Accenture research",
+    "dataSource": "Accenture, Bincang PERSpektIF 2026, via Kontan and Investortrust, 26 November 2026",
+    "seoTitle": "Trakindo Customer App and Accenture's 6 B2B CX Aspects",
+    "seoDescription": "Trakindo unifies equipment monitoring, parts and service in one app. Accenture research names 6 aspects of industrial B2B customer experience.",
+    "audience": [
+      "Head of Customer Service",
+      "After-Sales Director",
+      "CIO",
+      "Operations Head"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/trakindo-customer-app-accenture-6-aspek-pengalaman-pelanggan-b2b-en.png"
+  },
+  "ja": {
+    "title": "Trakindoが顧客アプリを開発、Accentureは重機業界のB2B顧客体験を左右する6要素を提示",
+    "dek": "PT Trakindo Utamaは、機械の稼働監視、部品購入、サービス依頼を一つにまとめたTrakindo Customer Appの開発を進めている。同じフォーラムで発表されたAccentureの調査は産業向けB2B顧客体験を左右する6要素を挙げており、データなしでは最も実現が難しいのが「先回り」の対応である。",
+    "summaryHtml": "<ul><li>PT Trakindo Utamaは、2020年に初めて投入したTrakindo Customer App（TCA）の開発を進め、重機の顧客サービス、すなわち機械の生産性監視、部品購入、サービス依頼を統合している（Kontan）。</li><li>顧客はVisionLinkで機械の稼働と生産性を監視でき、アプリはParts.Cat.Comと連携して部品情報の確認とオンライン購入ができる。サービス依頼もリアルタイムで申請・追跡できる（Kontan）。</li><li>2026年11月26日にジャカルタで開かれたフォーラム「Bincang PERSpektIF 2026」で、Accentureインドネシアの鉱業担当ディレクター、M. Darliansa Hilmy氏は産業向けB2B購買者に関する同社の調査を紹介し、顧客体験を左右する要素として品質、信頼性、容易さ、透明性、応答性、先回りの対応（プロアクティブ性）の6つを挙げた（Investortrust、Kontan）。</li><li>Investortrustによると、顧客は正確な情報への容易なアクセス、より簡素な手続き、運用状況の可視化、迅速な対応を一段と求めている。</li><li>TrakindoのDaniel Setyadi最高イノベーション責任者は、デジタル化は単なる技術導入ではなく顧客ニーズに応えることだと述べた（Kontan）。顧客であるPT YamikaのFaiz Muslim Alkindy社長は、日々の業務で効果を実感できてこそ技術に価値があると語った（Investortrust）。</li></ul>",
+    "analysisHtml": "<h3>B2Bの顧客体験はアプリではなくダウンタイムの問題</h3><p>重機業界では、顧客体験は機械が止まっている時間で測られる。鉱山や建設現場で1時間止まるごとに生産が失われる。稼働監視、部品、サービスを一つのアプリに統合することは単なる利便性ではなく、現場のオペレーター、調達部門、ディーラーの間の連絡を短縮する手段である。このモデルは工場設備から医療機器まで、他のB2Bメーカーや販売会社にも当てはまる。</p><h3>最も難しいのは先回りの対応</h3><p>Accentureの6要素のうち、品質、信頼性、応答性は以前からアフターサービスの標準である。差がつくのはプロアクティブ性、つまり顧客が電話する前にニーズを把握することだ。それには稼働時間や部品の状態といった機械データがサービス提供者に流れ、整備や部品交換の提案に変換される必要がある。VisionLinkのようなテレマティクスデータはその原材料だが、事業価値が生まれるのは部品販売や技術者の配置計画とつながったときである。</p><h3>透明性には文化の転換が要る</h3><p>透明性も簡単ではない。サービスのリアルタイム追跡は遅れを顧客に見せることになる。こうしたデータを開示する提供者は社内プロセスを一貫させる必要があり、さもなければアプリは弱点をさらけ出すことになる。フォーラムでの顧客の発言は、成功の尺度は機能の数ではなく日々の業務にあることを示している。</p><h3>明らかにされていないこと</h3><p>情報源はTCAの利用者数、顧客の利用率、ダウンタイム削減などの定量的効果に触れていない。こうした数字がなければ、デジタル化がどこまで運用成果を変えたかは判断しにくい。B2Bサービス提供者がこうした指標を顧客に報告し始めるかが注目点である。</p>",
+    "actionHtml": "<h3>カスタマーサービス責任者・アフターサービス担当役員へ</h3><ol><li>満足度スコアだけでなく、ダウンタイムやサービス応答時間など顧客側の運用指標で顧客体験を測る。</li><li>故障報告から機械の稼働再開までの顧客接点を洗い出し、一つのデジタルチャネルに統合できる手順を特定する。</li><li>既に入手できる稼働データを使い、一つの製品ラインから先回り型サービスを始める。</li></ol><h3>CIOへ</h3><ol><li>テレマティクスデータ、部品カタログ、サービスのチケット管理システムを確実に連携させる。顧客ポータルの質は背後のデータで決まる。</li></ol><h3>機械の購買担当・オペレーション責任者へ</h3><ol><li>機械データへのアクセスとサービス追跡を、機器サプライヤーやサービス契約の選定基準に加える。</li></ol>",
+    "faqHtml": "<h3>Trakindo Customer Appとは何か</h3><p>2020年に初めて投入されたTrakindoのアプリで、VisionLinkによる機械の生産性監視、Parts.Cat.Comでの部品購入、サービス依頼のリアルタイム申請・追跡ができる。</p><h3>AccentureによるB2B顧客体験の6要素とは</h3><p>産業向けB2B購買者に関するAccentureの調査に基づく、品質、信頼性、容易さ、透明性、応答性、プロアクティブ性の6つである。</p>",
+    "dataFigure": "6要素",
+    "dataLabel": "Accentureの調査による産業向けB2B顧客体験の決定要因",
+    "dataSource": "Accenture、Bincang PERSpektIF 2026（Kontan、Investortrust経由）、2026年11月26日",
+    "seoTitle": "Trakindo顧客アプリとB2B顧客体験の6要素",
+    "seoDescription": "Trakindoは稼働監視、部品、サービスを一つのアプリに統合。Accenture調査が示す産業向けB2B顧客体験の6要素と企業への示唆。",
+    "audience": [
+      "カスタマーサービス責任者",
+      "アフターサービス担当役員",
+      "CIO",
+      "オペレーション責任者"
+    ],
+    "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/trakindo-customer-app-accenture-6-aspek-pengalaman-pelanggan-b2b-ja.png"
+  },
+  "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/trakindo-customer-app-accenture-6-aspek-pengalaman-pelanggan-b2b.png"
+}

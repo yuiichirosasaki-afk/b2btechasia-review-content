@@ -1,7 +1,550 @@
 {
-  "generatedAt": "2026-11-26T03:05:00+07:00",
+  "generatedAt": "2026-11-27T02:58:35+07:00",
   "site": "B2B Tech Asia Review",
   "articles": [
+    {
+      "slug": "alfi-outlook-logistik-2027-dokumen-digital-fbl-51-persen-antarmoda",
+      "title": "ALFI Petakan 8 Isu Logistik 2027: Adopsi FBL Digital Naik ke 51%, 90% Angkutan Masih Bertumpu pada Jalan",
+      "category": "Logistics & Supply Chain Tech",
+      "articleType": "analisis",
+      "dek": "Asosiasi Logistik dan Forwarder Indonesia (ALFI) memaparkan delapan isu strategis logistik 2027, dari geopolitik hingga digitalisasi. Data yang dikutip menunjukkan dokumen pengapalan digital FIATA kian dipakai, sementara angkutan nasional masih hampir seluruhnya lewat jalan, sehingga efisiensi bergantung pada integrasi data dan antarmoda, bukan sekadar tarif.",
+      "summaryHtml": "<ul><li>Ketua Dewan Pembina DPP ALFI sekaligus Senior Vice President FIATA Yukki Nugrahawan Hanafi memaparkan delapan isu strategis outlook 2027: pertumbuhan ekonomi, risiko geopolitik, masalah struktural domestik, digitalisasi, perubahan kebutuhan pelanggan, transformasi model bisnis, konsolidasi global, dan diversifikasi rantai pasok (Antara).</li><li>Sekitar 90% pergerakan logistik nasional bertumpu pada angkutan jalan, laut 9%, kereta 1%, dan udara kurang dari 1%. Yukki menegaskan “Biaya logistik tidak akan turun hanya dengan menekan tarif” dan menyebut kuncinya produktivitas end-to-end lewat integrasi antarmoda (Antara; Kontan).</li><li>Menurut Kontan, adopsi FBL digital FIATA naik dari 33% pada 2022 menjadi 51% pada 2026. Yukki juga menyebut FIATA eFBL, UN Negotiable Cargo Documents, National Logistics Ecosystem (NLE), dan eFTI Uni Eropa yang berlaku mulai 2027.</li><li>Kontan mencatat pasar freight forwarding global sebesar US$633,9 miliar dengan CAGR 4,85% hingga 2032, serta pasar freight forwarding dan logistik Indonesia US$148 miliar dengan CAGR 6%. Analisis Kearney (Januari 2026) menyebut sepuluh pemain teratas menguasai sekitar 44% pasar ocean freight forwarding.</li><li>Kebijakan yang disebut berisiko menambah biaya antara lain Zero ODOL, elektrifikasi armada, dan implementasi Perpres 41/2026. Perpres tersebut menargetkan biaya logistik turun dari 14,29% PDB pada 2022 menjadi 12,5% pada 2029 dan 8% pada 2045 (Antara).</li></ul>",
+      "analysisHtml": "<h3>Digitalisasi dokumen sudah melewati titik tengah</h3><p>Angka yang paling relevan bagi pemimpin teknologi adalah adopsi FBL digital yang naik dari 33% menjadi 51% dalam empat tahun. Artinya, mayoritas dokumen pengapalan forwarder dalam ekosistem FIATA kini tidak lagi berbasis kertas. Ditambah eFTI Uni Eropa yang berlaku mulai 2027, eksportir dan forwarder Indonesia yang melayani pasar Eropa kemungkinan akan menghadapi permintaan pertukaran data elektronik yang makin standar. Perusahaan yang masih mengandalkan dokumen fisik berisiko tertinggal dalam kecepatan dan biaya administrasi.</p><h3>Tarif murah tidak menyelesaikan struktur biaya</h3><p>Data komposisi biaya yang dikutip Antara dari pemerintah menunjukkan angkutan jalan menyumbang 49,6% biaya logistik, laut 25,5%, pergudangan 10,6%, dan administrasi 8,5%. Dengan 90% pergerakan bertumpu pada jalan, penurunan tarif angkutan hanya menyentuh sebagian masalah. Biaya tersembunyi ada pada truk kosong saat kembali, waktu tunggu di pelabuhan, dan perpindahan antarmoda yang tidak terjadwal. Di sinilah visibilitas data lintas pihak, termasuk lewat NLE, memberi dampak lebih besar dibanding negosiasi harga.</p><h3>Regulasi menambah tekanan jangka pendek</h3><p>Zero ODOL dan elektrifikasi armada kemungkinan menaikkan biaya per pengiriman dalam jangka pendek karena muatan per truk dibatasi dan investasi armada bertambah. Bagi pemilik barang, ini berarti kenaikan biaya angkutan darat yang perlu diimbangi efisiensi lain, misalnya optimasi rute, konsolidasi muatan, atau peralihan sebagian volume ke laut dan kereta jika jadwalnya andal.</p><h3>Konsolidasi global dan posisi pemain lokal</h3><p>Dengan sepuluh pemain teratas menguasai sekitar 44% pasar ocean freight forwarding, forwarder lokal menghadapi pesaing berskala besar dengan sistem digital yang matang. Perlu dicermati apakah forwarder nasional memilih berkonsolidasi, bermitra, atau berinvestasi pada platform bersama agar tidak kalah dalam kecepatan layanan.</p>",
+      "actionHtml": "<h3>Untuk Supply Chain Director dan Operations Head</h3><ol><li>Hitung porsi biaya logistik per komponen (angkutan, tunggu, gudang, administrasi) sebelum menegosiasikan tarif, untuk menemukan pemborosan di luar harga angkut.</li><li>Uji jalur antarmoda laut atau kereta untuk rute bervolume stabil, dengan memperhitungkan dampak Zero ODOL pada biaya jalan.</li><li>Minta forwarder mendukung dokumen elektronik seperti eFBL, terutama untuk pengiriman ke Eropa menjelang eFTI 2027.</li></ol><h3>Untuk CIO</h3><ol><li>Siapkan integrasi sistem TMS dan ERP dengan NLE serta format dokumen elektronik standar.</li></ol><h3>Untuk vendor teknologi logistik</h3><ol><li>Bidik forwarder menengah yang perlu menyusul adopsi dokumen digital dan visibilitas pengiriman agar bisa bersaing dengan pemain global.</li></ol>",
+      "faqHtml": "<h3>Apa saja isu logistik Indonesia 2027 menurut ALFI?</h3><p>Pertumbuhan ekonomi, risiko geopolitik, masalah struktural domestik, digitalisasi, perubahan kebutuhan pelanggan, transformasi model bisnis, konsolidasi global, dan diversifikasi rantai pasok.</p><h3>Berapa porsi angkutan jalan dalam logistik Indonesia?</h3><p>Sekitar 90% pergerakan logistik nasional bertumpu pada angkutan jalan, laut 9%, kereta 1%, dan udara kurang dari 1%, menurut ALFI.</p><h3>Apa itu eFBL?</h3><p>Versi elektronik dari FIATA Bill of Lading, dokumen pengapalan forwarder. Adopsi FBL digital naik dari 33% pada 2022 menjadi 51% pada 2026.</p>",
+      "dataFigure": "51%",
+      "dataLabel": "adopsi FBL digital FIATA pada 2026, naik dari 33% pada 2022",
+      "dataSource": "ALFI/FIATA via Kontan, 26 November 2026",
+      "chart": {
+        "bars": [
+          {
+            "label": "2022",
+            "value": 33,
+            "display": "33%"
+          },
+          {
+            "label": "2026",
+            "value": 51,
+            "display": "51%"
+          }
+        ]
+      },
+      "audience": [
+        "Supply Chain Director",
+        "Operations Head",
+        "CIO",
+        "Vendor teknologi logistik"
+      ],
+      "tags": [
+        "ALFI",
+        "FIATA",
+        "eFBL",
+        "Logistik antarmoda",
+        "Perpres 41/2026",
+        "NLE",
+        "Zero ODOL"
+      ],
+      "sources": [
+        {
+          "name": "Antara",
+          "title": "ALFI: Integrasi antarmoda perkuat RI sebagai simpul logistik ASEAN",
+          "url": "https://www.antaranews.com/berita/5880675/alfi-integrasi-antarmoda-perkuat-ri-sebagai-simpul-logistik-asean",
+          "date": "2026-11-26"
+        },
+        {
+          "name": "Kontan",
+          "title": "Rantai Pasok Global Kian Dinamis, Indonesia Bidik Peluang Logistik ASEAN",
+          "url": "https://industri.kontan.co.id/news/rantai-pasok-global-kian-dinamis-indonesia-bidik-peluang-logistik-asean",
+          "date": "2026-11-26"
+        }
+      ],
+      "seoTitle": "Outlook Logistik 2027 ALFI: FBL Digital 51%, Antarmoda",
+      "seoDescription": "ALFI paparkan 8 isu logistik 2027. Adopsi FBL digital naik ke 51%, 90% angkutan lewat jalan. Dampak Zero ODOL dan Perpres 41/2026 bagi rantai pasok.",
+      "publishAt": "2026-11-27T12:00:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "ALFI Maps 8 Logistics Issues for 2027: Digital FBL Adoption Rises to 51%, 90% of Freight Still Moves by Road",
+        "dek": "The Indonesian Logistics and Forwarders Association (ALFI) set out eight strategic logistics issues for 2027, from geopolitics to digitalisation. The figures cited show FIATA digital shipping documents are increasingly used, while national freight still moves almost entirely by road, so efficiency depends on data and intermodal integration, not just tariffs.",
+        "summaryHtml": "<ul><li>Yukki Nugrahawan Hanafi, Chair of ALFI's Advisory Board and Senior Vice President of FIATA, set out eight strategic issues for the 2027 outlook: economic growth, geopolitical risk, domestic structural problems, digitalisation, changing customer needs, business model transformation, global consolidation and supply chain diversification (Antara).</li><li>About 90% of national logistics movement relies on road transport, sea 9%, rail 1% and air less than 1%. Yukki said logistics costs will not fall just by squeezing tariffs, and that the key is end-to-end productivity through intermodal integration (Antara; Kontan).</li><li>According to Kontan, adoption of FIATA's digital FBL rose from 33% in 2022 to 51% in 2026. Yukki also cited FIATA eFBL, UN Negotiable Cargo Documents, the National Logistics Ecosystem (NLE) and the EU's eFTI, which applies from 2027.</li><li>Kontan put the global freight forwarding market at US$633.9 billion with a CAGR of 4.85% to 2032, and Indonesia's freight forwarding and logistics market at US$148 billion with a CAGR of 6%. A Kearney analysis (January 2026) says the top ten players hold about 44% of the ocean freight forwarding market.</li><li>Policies cited as cost risks include Zero ODOL (over-dimension, over-loading), fleet electrification and implementation of Presidential Regulation 41/2026. The regulation targets logistics costs falling from 14.29% of GDP in 2022 to 12.5% in 2029 and 8% in 2045 (Antara).</li></ul>",
+        "analysisHtml": "<h3>Document digitalisation has passed the halfway mark</h3><p>The most relevant figure for technology leaders is digital FBL adoption rising from 33% to 51% in four years. This means most forwarder shipping documents in the FIATA ecosystem are no longer paper-based. With the EU's eFTI applying from 2027, Indonesian exporters and forwarders serving Europe will likely face increasingly standardised requests for electronic data exchange. Companies still relying on physical documents risk falling behind on speed and administrative cost.</p><h3>Cheap tariffs do not fix the cost structure</h3><p>Government cost composition data cited by Antara shows road transport accounts for 49.6% of logistics costs, sea 25.5%, warehousing 10.6% and administration 8.5%. With 90% of movement relying on roads, lower freight rates address only part of the problem. Hidden costs lie in empty return trips, port waiting times and unscheduled modal transfers. This is where data visibility across parties, including through the NLE, has a bigger impact than price negotiations.</p><h3>Regulation adds short-term pressure</h3><p>Zero ODOL and fleet electrification are likely to raise per-shipment costs in the short term, as payload per truck is limited and fleet investment increases. For cargo owners, this means higher land transport costs that need to be offset by other efficiencies, such as route optimisation, load consolidation or shifting some volume to sea and rail if schedules are reliable.</p><h3>Global consolidation and local players</h3><p>With the top ten players holding about 44% of the ocean freight forwarding market, local forwarders face large competitors with mature digital systems. It is worth watching whether national forwarders choose to consolidate, partner or invest in shared platforms so as not to fall behind on service speed.</p>",
+        "actionHtml": "<h3>For Supply Chain Directors and Operations Heads</h3><ol><li>Break down logistics costs by component (transport, waiting, warehousing, administration) before negotiating rates, to find waste beyond the freight price.</li><li>Test sea or rail intermodal routes for stable-volume lanes, factoring in the impact of Zero ODOL on road costs.</li><li>Ask forwarders to support electronic documents such as eFBL, especially for shipments to Europe ahead of eFTI in 2027.</li></ol><h3>For CIOs</h3><ol><li>Prepare TMS and ERP integration with the NLE and standard electronic document formats.</li></ol><h3>For logistics technology vendors</h3><ol><li>Target mid-sized forwarders that need to catch up on digital documents and shipment visibility to compete with global players.</li></ol>",
+        "faqHtml": "<h3>What are Indonesia's 2027 logistics issues according to ALFI?</h3><p>Economic growth, geopolitical risk, domestic structural problems, digitalisation, changing customer needs, business model transformation, global consolidation and supply chain diversification.</p><h3>What share of Indonesian logistics moves by road?</h3><p>About 90% of national logistics movement relies on road transport, sea 9%, rail 1% and air less than 1%, according to ALFI.</p><h3>What is eFBL?</h3><p>The electronic version of the FIATA Bill of Lading, a forwarder shipping document. Digital FBL adoption rose from 33% in 2022 to 51% in 2026.</p>",
+        "dataFigure": "51%",
+        "dataLabel": "FIATA digital FBL adoption in 2026, up from 33% in 2022",
+        "dataSource": "ALFI/FIATA via Kontan, 26 November 2026",
+        "chart": {
+          "bars": [
+            {
+              "label": "2022",
+              "value": 33,
+              "display": "33%"
+            },
+            {
+              "label": "2026",
+              "value": 51,
+              "display": "51%"
+            }
+          ]
+        },
+        "seoTitle": "ALFI 2027 Logistics Outlook: Digital FBL at 51%",
+        "seoDescription": "ALFI sets out 8 logistics issues for 2027. Digital FBL adoption hits 51%, 90% of freight moves by road. Impact of Zero ODOL and Perpres 41/2026.",
+        "audience": [
+          "Supply Chain Director",
+          "Operations Head",
+          "CIO",
+          "Logistics tech vendors"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/alfi-outlook-logistik-2027-dokumen-digital-fbl-51-persen-antarmoda-en.png"
+      },
+      "ja": {
+        "title": "ALFIが2027年の物流8課題を提示　デジタルFBL採用51%に、輸送の9割は依然道路",
+        "dek": "インドネシア物流・フォワーダー協会（ALFI）は、地政学からデジタル化まで2027年の物流の戦略課題8項目を示した。引用されたデータでは国際フォワーダー協会連合会（FIATA）の電子船荷書類の利用が広がる一方、国内輸送はほぼ道路に依存しており、効率化は運賃ではなくデータとモード間連携にかかっている。",
+        "summaryHtml": "<ul><li>ALFI中央理事会の諮問委員長でFIATA上級副会長のYukki Nugrahawan Hanafi氏は、2027年見通しの戦略課題として、経済成長、地政学リスク、国内の構造問題、デジタル化、顧客ニーズの変化、ビジネスモデルの転換、世界的な業界再編、サプライチェーンの多様化の8項目を挙げた（Antara）。</li><li>国内物流の約90%は道路輸送に依存し、海上9%、鉄道1%、航空1%未満である。Yukki氏は運賃を下げるだけでは物流コストは下がらないと述べ、モード間連携によるエンドツーエンドの生産性が鍵だとした（Antara、Kontan）。</li><li>Kontanによると、FIATAのデジタルFBL（フォワーダー船荷証券）の採用率は2022年の33%から2026年に51%へ上昇した。同氏はFIATA eFBL、国連の流通可能貨物書類（NCD）、国家物流エコシステム（NLE）、2027年から適用される欧州連合（EU）のeFTIにも言及した。</li><li>Kontanは世界のフォワーディング市場を6339億ドル（2032年までの年平均成長率4.85%）、インドネシアのフォワーディング・物流市場を1480億ドル（同6%）としている。Kearneyの分析（2026年1月）では、上位10社が海上フォワーディング市場の約44%を占める。</li><li>コスト増のリスクとなる政策として、過積載・規格外車両の一掃（Zero ODOL）、車両の電動化、大統領令41/2026の実施が挙げられた。同大統領令は物流コストを2022年の対GDP比14.29%から2029年に12.5%、2045年に8%へ引き下げる目標を掲げる（Antara）。</li></ul>",
+        "analysisHtml": "<h3>書類のデジタル化は過半を超えた</h3><p>テクノロジー責任者にとって最も重要なのは、デジタルFBLの採用率が4年で33%から51%に上がった点である。FIATAのエコシステムでは、フォワーダーの船荷書類の過半がもはや紙ではない。2027年からEUのeFTIも適用されるため、欧州向けに事業を行うインドネシアの輸出企業やフォワーダーは、標準化された電子データ交換を求められる場面が増える可能性が高い。紙の書類に頼り続ける企業は、スピードと事務コストで後れを取る恐れがある。</p><h3>安い運賃ではコスト構造は変わらない</h3><p>Antaraが引用した政府のコスト構成データでは、物流コストの49.6%が道路輸送、25.5%が海上輸送、10.6%が倉庫、8.5%が事務である。輸送の9割が道路に依存する中、運賃の引き下げは問題の一部にしか触れない。隠れたコストは帰り便の空車、港湾での待ち時間、計画性のないモード間の積み替えにある。NLEを含む関係者間のデータの可視化は、価格交渉よりも大きな効果を持ち得る。</p><h3>規制は短期的な負担を増す</h3><p>Zero ODOLと車両電動化は、トラック1台当たりの積載量の制限と車両投資の増加により、短期的には1回当たりの輸送コストを押し上げる可能性が高い。荷主にとっては陸送コストの上昇を意味し、ルート最適化、積載の集約、ダイヤが安定していれば海上・鉄道への一部シフトなど、別の効率化で相殺する必要がある。</p><h3>世界的な再編と地場企業の立ち位置</h3><p>上位10社が海上フォワーディング市場の約44%を握る中、地場フォワーダーは成熟したデジタルシステムを持つ大手と競うことになる。国内フォワーダーが統合、提携、共同プラットフォームへの投資のいずれを選び、サービスの速さで遅れを取らないようにするかが注目される。</p>",
+        "actionHtml": "<h3>サプライチェーン責任者・オペレーション責任者へ</h3><ol><li>運賃交渉の前に、物流コストを輸送、待機、倉庫、事務の要素別に分解し、運賃以外の無駄を見つける。</li><li>物量が安定した区間で海上・鉄道のモード間輸送を試し、Zero ODOLによる道路コストへの影響を織り込む。</li><li>特に2027年のeFTI適用を控えた欧州向け出荷について、フォワーダーにeFBLなど電子書類への対応を求める。</li></ol><h3>CIOへ</h3><ol><li>輸配送管理システム（TMS）やERPとNLE、標準的な電子書類形式との連携を準備する。</li></ol><h3>物流テクノロジーベンダーへ</h3><ol><li>グローバル企業と競うためにデジタル書類と出荷の可視化で追いつく必要がある中堅フォワーダーを狙う。</li></ol>",
+        "faqHtml": "<h3>ALFIが挙げる2027年のインドネシア物流の課題は</h3><p>経済成長、地政学リスク、国内の構造問題、デジタル化、顧客ニーズの変化、ビジネスモデルの転換、世界的な業界再編、サプライチェーンの多様化の8項目である。</p><h3>インドネシアの物流に占める道路輸送の割合は</h3><p>ALFIによると、国内物流の約90%が道路、海上9%、鉄道1%、航空1%未満である。</p><h3>eFBLとは何か</h3><p>フォワーダーの船荷書類であるFIATA船荷証券の電子版である。デジタルFBLの採用率は2022年の33%から2026年に51%へ上昇した。</p>",
+        "dataFigure": "51%",
+        "dataLabel": "2026年のFIATAデジタルFBL採用率（2022年は33%）",
+        "dataSource": "ALFI・FIATA（Kontan経由）、2026年11月26日",
+        "chart": {
+          "bars": [
+            {
+              "label": "2022年",
+              "value": 33,
+              "display": "33%"
+            },
+            {
+              "label": "2026年",
+              "value": 51,
+              "display": "51%"
+            }
+          ]
+        },
+        "seoTitle": "ALFI物流見通し2027　デジタルFBL採用51%",
+        "seoDescription": "ALFIが2027年の物流8課題を提示。デジタルFBL採用率は51%に上昇、輸送の9割は道路依存。Zero ODOLと大統領令41/2026の影響。",
+        "audience": [
+          "サプライチェーン責任者",
+          "オペレーション責任者",
+          "CIO",
+          "物流テックベンダー"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/alfi-outlook-logistik-2027-dokumen-digital-fbl-51-persen-antarmoda-ja.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/alfi-outlook-logistik-2027-dokumen-digital-fbl-51-persen-antarmoda.png"
+    },
+    {
+      "slug": "trakindo-customer-app-accenture-6-aspek-pengalaman-pelanggan-b2b",
+      "title": "Trakindo Kembangkan Trakindo Customer App, Accenture Petakan 6 Aspek Pengalaman Pelanggan B2B Industri Alat Berat",
+      "category": "Customer Engagement & CX",
+      "articleType": "analisis",
+      "dek": "PT Trakindo Utama mengembangkan Trakindo Customer App yang menyatukan pemantauan alat, pembelian suku cadang, dan permintaan servis dalam satu aplikasi. Riset Accenture yang dipaparkan di forum yang sama menyebut enam aspek penentu pengalaman pelanggan B2B industri, dan proaktif menjadi yang paling sulit dipenuhi tanpa data.",
+      "summaryHtml": "<ul><li>PT Trakindo Utama mengembangkan Trakindo Customer App (TCA), aplikasi yang pertama diluncurkan pada 2020, untuk mengintegrasikan layanan pelanggan alat berat: pemantauan produktivitas alat, pembelian suku cadang, dan permintaan servis (Kontan).</li><li>Pelanggan memantau aktivitas dan produktivitas mesin lewat VisionLink, aplikasi terhubung dengan Parts.Cat.Com untuk informasi dan pembelian suku cadang secara daring, dan permintaan servis dapat diajukan serta dilacak secara real time (Kontan).</li><li>Dalam forum Bincang PERSpektIF 2026 di Jakarta pada 26 November 2026, Mining Director Accenture Indonesia M. Darliansa Hilmy memaparkan riset Accenture tentang pembeli B2B industri yang menyebut enam aspek penentu pengalaman pelanggan: kualitas, keandalan, kemudahan, transparansi, responsivitas, dan proaktivitas (Investortrust; Kontan).</li><li>Menurut Investortrust, pelanggan kini makin mengharapkan akses mudah ke informasi yang akurat, proses yang lebih sederhana, visibilitas operasional yang lebih baik, dan respons cepat.</li><li>Chief Innovation Officer Trakindo Daniel Setyadi menyatakan “digitalisasi bukan semata-mata tentang mengadopsi teknologi”, melainkan menjawab kebutuhan pelanggan (Kontan). Managing Director PT Yamika Faiz Muslim Alkindy menilai teknologi bernilai jika “manfaatnya benar-benar dapat dirasakan dalam pekerjaan sehari-hari” (Investortrust).</li></ul>",
+      "analysisHtml": "<h3>CX B2B bukan soal aplikasi, tetapi soal waktu henti</h3><p>Di industri alat berat, pengalaman pelanggan diukur dari satu hal: berapa lama mesin tidak bekerja. Setiap jam alat berhenti di tambang atau proyek konstruksi berarti produksi yang hilang. Karena itu, integrasi pemantauan alat, suku cadang, dan servis dalam satu aplikasi bukan sekadar kenyamanan, melainkan cara memangkas rantai komunikasi antara operator di lapangan, bagian pengadaan, dan dealer. Model ini relevan bagi produsen dan distributor B2B lain, dari mesin pabrik hingga peralatan medis.</p><h3>Proaktivitas adalah aspek tersulit</h3><p>Dari enam aspek dalam riset Accenture, kualitas, keandalan, dan responsivitas sudah lama menjadi standar layanan purna jual. Yang membedakan adalah proaktivitas: mengetahui kebutuhan pelanggan sebelum pelanggan menelepon. Ini hanya mungkin jika data mesin, seperti jam operasi dan kondisi komponen, mengalir ke penyedia layanan dan diolah menjadi rekomendasi servis atau penggantian suku cadang. Data telematika seperti VisionLink menjadi bahan bakunya, tetapi nilai bisnisnya baru muncul ketika data itu terhubung ke proses penjualan suku cadang dan penjadwalan teknisi.</p><h3>Transparansi menuntut perubahan budaya</h3><p>Aspek transparansi juga tidak sederhana. Pelacakan servis secara real time membuat keterlambatan terlihat oleh pelanggan. Penyedia yang membuka data seperti ini harus siap dengan proses internal yang konsisten; jika tidak, aplikasi justru memperlihatkan kelemahan. Komentar pelanggan dalam forum tersebut menegaskan bahwa ukuran keberhasilan ada di pekerjaan sehari-hari, bukan pada jumlah fitur.</p><h3>Yang tidak diungkap</h3><p>Sumber tidak menyebut jumlah pengguna TCA, tingkat adopsi di antara pelanggan, atau dampak terukur seperti penurunan waktu henti. Tanpa angka ini, sulit menilai seberapa jauh digitalisasi sudah mengubah hasil operasional. Perlu dicermati apakah penyedia layanan B2B mulai melaporkan metrik semacam itu kepada pelanggan.</p>",
+      "actionHtml": "<h3>Untuk Head of Customer Service dan Direktur Purna Jual</h3><ol><li>Ukur pengalaman pelanggan dengan metrik operasional pelanggan, seperti waktu henti dan waktu respons servis, bukan hanya skor kepuasan.</li><li>Petakan titik kontak pelanggan dari laporan kerusakan sampai alat kembali bekerja, lalu identifikasi langkah yang bisa digabung dalam satu kanal digital.</li><li>Mulai program servis proaktif dari satu lini produk dengan data pemakaian yang sudah tersedia.</li></ol><h3>Untuk CIO</h3><ol><li>Pastikan data telematika, katalog suku cadang, dan sistem tiket servis terintegrasi, karena portal pelanggan hanya sebaik data di belakangnya.</li></ol><h3>Untuk pembeli alat dan Operations Head</h3><ol><li>Masukkan akses data mesin dan pelacakan servis sebagai kriteria dalam pemilihan pemasok alat dan kontrak layanan.</li></ol>",
+      "faqHtml": "<h3>Apa itu Trakindo Customer App?</h3><p>Aplikasi Trakindo yang pertama diluncurkan pada 2020 untuk memantau produktivitas alat lewat VisionLink, membeli suku cadang melalui Parts.Cat.Com, serta mengajukan dan melacak permintaan servis secara real time.</p><h3>Apa saja enam aspek pengalaman pelanggan B2B menurut Accenture?</h3><p>Kualitas, keandalan, kemudahan, transparansi, responsivitas, dan proaktivitas, berdasarkan riset Accenture tentang pembeli B2B industri.</p>",
+      "dataFigure": "6 aspek",
+      "dataLabel": "penentu pengalaman pelanggan B2B industri menurut riset Accenture",
+      "dataSource": "Accenture, Bincang PERSpektIF 2026, via Kontan dan Investortrust, 26 November 2026",
+      "audience": [
+        "Head of Customer Service",
+        "Direktur Purna Jual",
+        "CIO",
+        "Operations Head"
+      ],
+      "tags": [
+        "Enterprise Adoption",
+        "Trakindo",
+        "Accenture",
+        "Customer experience B2B",
+        "Alat berat",
+        "VisionLink"
+      ],
+      "sources": [
+        {
+          "name": "Kontan",
+          "title": "Trakindo Kembangkan Aplikasi Terintegrasi untuk Layanan Pelanggan Alat Berat",
+          "url": "https://industri.kontan.co.id/news/trakindo-kembangkan-aplikasi-terintegrasi-untuk-layanan-pelanggan-alat-berat",
+          "date": "2026-11-26"
+        },
+        {
+          "name": "Investortrust",
+          "title": "Digitalisasi Ubah Ekspektasi Pelanggan Industri Alat Berat",
+          "url": "https://investortrust.id/business/123779/digitalisasi-ubah-ekspektasi-pelanggan-industri-alat-berat",
+          "date": "2026-11-26"
+        }
+      ],
+      "seoTitle": "Trakindo Customer App dan 6 Aspek CX B2B Versi Accenture",
+      "seoDescription": "Trakindo satukan pemantauan alat, suku cadang, dan servis dalam satu aplikasi. Riset Accenture: 6 aspek pengalaman pelanggan B2B industri dan artinya.",
+      "publishAt": "2026-11-27T10:30:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "Trakindo Develops Its Customer App as Accenture Maps 6 Aspects of B2B Customer Experience in Heavy Equipment",
+        "dek": "PT Trakindo Utama is developing the Trakindo Customer App, which brings equipment monitoring, spare parts purchasing and service requests into one application. Accenture research presented at the same forum names six aspects that shape industrial B2B customer experience, and proactiveness is the hardest to deliver without data.",
+        "summaryHtml": "<ul><li>PT Trakindo Utama is developing the Trakindo Customer App (TCA), first launched in 2020, to integrate heavy equipment customer services: equipment productivity monitoring, spare parts purchasing and service requests (Kontan).</li><li>Customers monitor machine activity and productivity through VisionLink, the app connects to Parts.Cat.Com for online parts information and purchases, and service requests can be submitted and tracked in real time (Kontan).</li><li>At the Bincang PERSpektIF 2026 forum in Jakarta on 26 November 2026, Accenture Indonesia Mining Director M. Darliansa Hilmy presented Accenture research on industrial B2B buyers naming six aspects that shape customer experience: quality, reliability, ease, transparency, responsiveness and proactiveness (Investortrust; Kontan).</li><li>According to Investortrust, customers increasingly expect easy access to accurate information, simpler processes, better operational visibility and fast responses.</li><li>Trakindo Chief Innovation Officer Daniel Setyadi said digitalisation is not merely about adopting technology but about meeting customer needs (Kontan). PT Yamika Managing Director Faiz Muslim Alkindy said technology adds value when its benefits are felt in daily work (Investortrust).</li></ul>",
+        "analysisHtml": "<h3>B2B CX is not about the app, it is about downtime</h3><p>In heavy equipment, customer experience is measured by one thing: how long a machine is not working. Every hour a unit stands idle at a mine or construction site means lost production. Integrating equipment monitoring, parts and service in one app is therefore not just a convenience but a way to cut the communication chain between field operators, procurement and the dealer. The model is relevant to other B2B manufacturers and distributors, from factory machinery to medical equipment.</p><h3>Proactiveness is the hardest aspect</h3><p>Of the six aspects in Accenture's research, quality, reliability and responsiveness have long been standard in after-sales service. The differentiator is proactiveness: knowing what customers need before they call. This is only possible if machine data, such as operating hours and component condition, flows to the service provider and is turned into service or parts replacement recommendations. Telematics data such as VisionLink is the raw material, but its business value appears only when that data is connected to parts sales and technician scheduling.</p><h3>Transparency requires a cultural shift</h3><p>Transparency is not simple either. Real-time service tracking makes delays visible to customers. Providers that open up such data must have consistent internal processes; otherwise the app exposes weaknesses instead. The customer's comment at the forum underlines that success is measured in daily work, not in the number of features.</p><h3>What was not disclosed</h3><p>The sources do not state the number of TCA users, the adoption rate among customers or measurable impact such as reduced downtime. Without these figures, it is hard to judge how far digitalisation has changed operational outcomes. It is worth watching whether B2B service providers start reporting such metrics to customers.</p>",
+        "actionHtml": "<h3>For Heads of Customer Service and After-Sales Directors</h3><ol><li>Measure customer experience with customers' operational metrics, such as downtime and service response time, not only satisfaction scores.</li><li>Map customer touchpoints from the breakdown report until the equipment is working again, then identify steps that can be combined in one digital channel.</li><li>Start a proactive service programme with one product line using usage data already available.</li></ol><h3>For CIOs</h3><ol><li>Make sure telematics data, the parts catalogue and the service ticketing system are integrated, because a customer portal is only as good as the data behind it.</li></ol><h3>For equipment buyers and Operations Heads</h3><ol><li>Include access to machine data and service tracking as criteria when selecting equipment suppliers and service contracts.</li></ol>",
+        "faqHtml": "<h3>What is the Trakindo Customer App?</h3><p>A Trakindo app first launched in 2020 for monitoring equipment productivity via VisionLink, buying parts through Parts.Cat.Com, and submitting and tracking service requests in real time.</p><h3>What are Accenture's six aspects of B2B customer experience?</h3><p>Quality, reliability, ease, transparency, responsiveness and proactiveness, based on Accenture research on industrial B2B buyers.</p>",
+        "dataFigure": "6 aspects",
+        "dataLabel": "drivers of industrial B2B customer experience according to Accenture research",
+        "dataSource": "Accenture, Bincang PERSpektIF 2026, via Kontan and Investortrust, 26 November 2026",
+        "seoTitle": "Trakindo Customer App and Accenture's 6 B2B CX Aspects",
+        "seoDescription": "Trakindo unifies equipment monitoring, parts and service in one app. Accenture research names 6 aspects of industrial B2B customer experience.",
+        "audience": [
+          "Head of Customer Service",
+          "After-Sales Director",
+          "CIO",
+          "Operations Head"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/trakindo-customer-app-accenture-6-aspek-pengalaman-pelanggan-b2b-en.png"
+      },
+      "ja": {
+        "title": "Trakindoが顧客アプリを開発、Accentureは重機業界のB2B顧客体験を左右する6要素を提示",
+        "dek": "PT Trakindo Utamaは、機械の稼働監視、部品購入、サービス依頼を一つにまとめたTrakindo Customer Appの開発を進めている。同じフォーラムで発表されたAccentureの調査は産業向けB2B顧客体験を左右する6要素を挙げており、データなしでは最も実現が難しいのが「先回り」の対応である。",
+        "summaryHtml": "<ul><li>PT Trakindo Utamaは、2020年に初めて投入したTrakindo Customer App（TCA）の開発を進め、重機の顧客サービス、すなわち機械の生産性監視、部品購入、サービス依頼を統合している（Kontan）。</li><li>顧客はVisionLinkで機械の稼働と生産性を監視でき、アプリはParts.Cat.Comと連携して部品情報の確認とオンライン購入ができる。サービス依頼もリアルタイムで申請・追跡できる（Kontan）。</li><li>2026年11月26日にジャカルタで開かれたフォーラム「Bincang PERSpektIF 2026」で、Accentureインドネシアの鉱業担当ディレクター、M. Darliansa Hilmy氏は産業向けB2B購買者に関する同社の調査を紹介し、顧客体験を左右する要素として品質、信頼性、容易さ、透明性、応答性、先回りの対応（プロアクティブ性）の6つを挙げた（Investortrust、Kontan）。</li><li>Investortrustによると、顧客は正確な情報への容易なアクセス、より簡素な手続き、運用状況の可視化、迅速な対応を一段と求めている。</li><li>TrakindoのDaniel Setyadi最高イノベーション責任者は、デジタル化は単なる技術導入ではなく顧客ニーズに応えることだと述べた（Kontan）。顧客であるPT YamikaのFaiz Muslim Alkindy社長は、日々の業務で効果を実感できてこそ技術に価値があると語った（Investortrust）。</li></ul>",
+        "analysisHtml": "<h3>B2Bの顧客体験はアプリではなくダウンタイムの問題</h3><p>重機業界では、顧客体験は機械が止まっている時間で測られる。鉱山や建設現場で1時間止まるごとに生産が失われる。稼働監視、部品、サービスを一つのアプリに統合することは単なる利便性ではなく、現場のオペレーター、調達部門、ディーラーの間の連絡を短縮する手段である。このモデルは工場設備から医療機器まで、他のB2Bメーカーや販売会社にも当てはまる。</p><h3>最も難しいのは先回りの対応</h3><p>Accentureの6要素のうち、品質、信頼性、応答性は以前からアフターサービスの標準である。差がつくのはプロアクティブ性、つまり顧客が電話する前にニーズを把握することだ。それには稼働時間や部品の状態といった機械データがサービス提供者に流れ、整備や部品交換の提案に変換される必要がある。VisionLinkのようなテレマティクスデータはその原材料だが、事業価値が生まれるのは部品販売や技術者の配置計画とつながったときである。</p><h3>透明性には文化の転換が要る</h3><p>透明性も簡単ではない。サービスのリアルタイム追跡は遅れを顧客に見せることになる。こうしたデータを開示する提供者は社内プロセスを一貫させる必要があり、さもなければアプリは弱点をさらけ出すことになる。フォーラムでの顧客の発言は、成功の尺度は機能の数ではなく日々の業務にあることを示している。</p><h3>明らかにされていないこと</h3><p>情報源はTCAの利用者数、顧客の利用率、ダウンタイム削減などの定量的効果に触れていない。こうした数字がなければ、デジタル化がどこまで運用成果を変えたかは判断しにくい。B2Bサービス提供者がこうした指標を顧客に報告し始めるかが注目点である。</p>",
+        "actionHtml": "<h3>カスタマーサービス責任者・アフターサービス担当役員へ</h3><ol><li>満足度スコアだけでなく、ダウンタイムやサービス応答時間など顧客側の運用指標で顧客体験を測る。</li><li>故障報告から機械の稼働再開までの顧客接点を洗い出し、一つのデジタルチャネルに統合できる手順を特定する。</li><li>既に入手できる稼働データを使い、一つの製品ラインから先回り型サービスを始める。</li></ol><h3>CIOへ</h3><ol><li>テレマティクスデータ、部品カタログ、サービスのチケット管理システムを確実に連携させる。顧客ポータルの質は背後のデータで決まる。</li></ol><h3>機械の購買担当・オペレーション責任者へ</h3><ol><li>機械データへのアクセスとサービス追跡を、機器サプライヤーやサービス契約の選定基準に加える。</li></ol>",
+        "faqHtml": "<h3>Trakindo Customer Appとは何か</h3><p>2020年に初めて投入されたTrakindoのアプリで、VisionLinkによる機械の生産性監視、Parts.Cat.Comでの部品購入、サービス依頼のリアルタイム申請・追跡ができる。</p><h3>AccentureによるB2B顧客体験の6要素とは</h3><p>産業向けB2B購買者に関するAccentureの調査に基づく、品質、信頼性、容易さ、透明性、応答性、プロアクティブ性の6つである。</p>",
+        "dataFigure": "6要素",
+        "dataLabel": "Accentureの調査による産業向けB2B顧客体験の決定要因",
+        "dataSource": "Accenture、Bincang PERSpektIF 2026（Kontan、Investortrust経由）、2026年11月26日",
+        "seoTitle": "Trakindo顧客アプリとB2B顧客体験の6要素",
+        "seoDescription": "Trakindoは稼働監視、部品、サービスを一つのアプリに統合。Accenture調査が示す産業向けB2B顧客体験の6要素と企業への示唆。",
+        "audience": [
+          "カスタマーサービス責任者",
+          "アフターサービス担当役員",
+          "CIO",
+          "オペレーション責任者"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/trakindo-customer-app-accenture-6-aspek-pengalaman-pelanggan-b2b-ja.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/trakindo-customer-app-accenture-6-aspek-pengalaman-pelanggan-b2b.png"
+    },
+    {
+      "slug": "porsi-pembiayaan-produktif-pindar-3314-persen-target-ojk-40-persen",
+      "title": "Porsi Pembiayaan Produktif Pindar Turun ke 33,14%, Masih Jauh dari Target OJK 40–50% untuk 2025–2026",
+      "category": "FinTech & Financial Operations",
+      "articleType": "analisis",
+      "dek": "Data OJK menunjukkan pembiayaan produktif fintech lending per September 2026 sebesar Rp35,29 triliun atau 33,14% dari total, turun dari 33,41% pada Juni. Target peta jalan OJK 40–50% hampir pasti terlewat tahun ini, dan cara industri mengejarnya akan menentukan akses UMKM ke pendanaan digital.",
+      "summaryHtml": "<ul><li>Menurut statistik OJK yang dikutip Kontan, porsi pembiayaan sektor produktif fintech lending per September 2026 sebesar 33,14% atau Rp35,29 triliun, turun dari 33,41% (Rp35,12 triliun) pada Juni 2026.</li><li>Peta jalan pengembangan dan penguatan LPBBTI menargetkan porsi pembiayaan produktif 40–50% pada 2025–2026. Outstanding pembiayaan fintech lending per September 2026 mencapai Rp106,48 triliun, tumbuh 17,02% secara tahunan, sementara TWP90 naik dari 4,73% pada Agustus menjadi 5,36% pada September (Kontan).</li><li>Kepala Eksekutif Pengawas Lembaga Pembiayaan, Perusahaan Modal Ventura, Lembaga Keuangan Mikro dan Lembaga Jasa Keuangan Lainnya OJK Agusman menyatakan target peta jalan belum diubah. Menurutnya, “Capaian dalam roadmap akan terus dievaluasi” dengan mempertimbangkan dinamika ekonomi dan kebutuhan pendanaan UMKM (Warta Ekonomi).</li><li>Direktur Ekonomi Digital Celios Nailul Huda menilai “Risiko tinggi menurut saya faktor fundamental” penyebab turunnya porsi pinjaman produktif. Ia menyebut perlunya penilaian kredit yang lebih baik dan integrasi Fintech Data Center (FDC) dengan SLIK (Kontan).</li><li>Ketua Umum AFPI Kuseryansyah menyarankan penyelenggara mendiversifikasi sumber pendanaan, memperluas kemitraan dengan lender institusi, serta memperkuat manajemen risiko dan credit scoring (Kontan).</li></ul>",
+      "analysisHtml": "<h3>Nominal naik, porsi turun</h3><p>Angka utama mudah disalahbaca. Nilai pembiayaan produktif sebenarnya naik tipis dari Rp35,12 triliun menjadi Rp35,29 triliun antara Juni dan September 2026. Yang turun adalah porsinya, karena pembiayaan konsumtif tumbuh lebih cepat. Artinya, pemain fintech lending tidak sedang menarik diri dari UMKM, tetapi pertumbuhan industri masih digerakkan pinjaman konsumtif. Untuk mencapai batas bawah target 40% dengan outstanding sekitar Rp106 triliun, pembiayaan produktif perlu bertambah sekitar Rp12 triliun tanpa pertumbuhan konsumtif, angka yang sulit dicapai dalam satu kuartal tersisa.</p><h3>Kualitas kredit menahan ekspansi</h3><p>Kenaikan TWP90 menjadi 5,36%, di atas batas 5% yang dipakai OJK, membuat penyelenggara cenderung berhati-hati, dan pinjaman produktif untuk usaha kecil dianggap lebih berisiko. Penjelasan Celios dan AFPI sejalan: masalahnya bukan kurangnya permintaan, melainkan kemampuan menilai risiko peminjam usaha. Kami sudah mencatat bahwa bank kini mendanai sebagian besar outstanding pindar (lihat <a href=\"https://www.b2btechasia.com/id/review/bank-danai-pindar-rp7158-triliun-twp90-536-persen-september-2026\">analisis sebelumnya</a>). Lender institusi seperti bank menuntut kualitas portofolio, sehingga dorongan AFPI untuk memperluas kemitraan institusi akan bergantung pada perbaikan penilaian kredit.</p><h3>Data menjadi kunci</h3><p>Usulan integrasi FDC dengan SLIK menunjukkan arah yang paling mungkin: pembiayaan produktif akan tumbuh jika penyelenggara bisa melihat riwayat kredit yang sama dengan bank dan data arus kas usaha. Ini membuka peluang bagi penyedia data alternatif, seperti data transaksi pembayaran, faktur, dan penjualan di marketplace, serta bagi perusahaan rantai pasok yang bisa menjadi mitra pembiayaan invoice atau pembiayaan pemasok.</p><h3>Yang belum jelas</h3><p>OJK menyatakan target dievaluasi, bukan diturunkan. Perlu dicermati apakah evaluasi itu berujung pada target baru, insentif bagi pembiayaan produktif, atau aturan yang lebih tegas. Sampai ada keputusan, penyelenggara menghadapi tarik-menarik antara memenuhi target dan menjaga kualitas kredit.</p>",
+      "actionHtml": "<h3>Untuk direksi platform fintech lending</h3><ol><li>Pisahkan laporan kinerja produktif dan konsumtif per kanal agar arah portofolio terlihat jelas oleh dewan dan lender.</li><li>Investasikan pada data alternatif usaha, seperti mutasi rekening, faktur, dan data penjualan, untuk penilaian kredit UMKM.</li><li>Siapkan skema dengan mitra rantai pasok atau marketplace yang memberi visibilitas arus kas peminjam.</li></ol><h3>Untuk bank dan lender institusi</h3><ol><li>Minta pelaporan kualitas aset yang dipisahkan antara segmen produktif dan konsumtif sebelum menambah channeling atau executing.</li></ol><h3>Untuk CFO perusahaan dengan jaringan pemasok UMKM</h3><ol><li>Pertimbangkan kerja sama pembiayaan invoice dengan penyelenggara berizin untuk menjaga likuiditas pemasok, dengan uji tuntas atas status izin di OJK.</li></ol>",
+      "faqHtml": "<h3>Berapa porsi pembiayaan produktif pinjaman daring saat ini?</h3><p>Per September 2026, porsi pembiayaan produktif fintech lending sebesar 33,14% atau Rp35,29 triliun, menurut statistik OJK.</p><h3>Berapa target OJK untuk pembiayaan produktif pindar?</h3><p>Peta jalan LPBBTI menargetkan 40–50% pada 2025–2026. OJK menyatakan capaian akan terus dievaluasi.</p><h3>Mengapa porsi pembiayaan produktif turun?</h3><p>Celios menilai risiko tinggi pada pinjaman produktif sebagai faktor utama, ditambah daya beli. AFPI menekankan perlunya diversifikasi pendanaan dan penguatan credit scoring.</p>",
+      "dataFigure": "33,14%",
+      "dataLabel": "porsi pembiayaan produktif fintech lending per September 2026 (target 40–50%)",
+      "dataSource": "Statistik OJK via Kontan, 26 November 2026",
+      "chart": {
+        "bars": [
+          {
+            "label": "Target min",
+            "value": 40,
+            "display": "40%"
+          },
+          {
+            "label": "Jun 2026",
+            "value": 33.41,
+            "display": "33,41%"
+          },
+          {
+            "label": "Sep 2026",
+            "value": 33.14,
+            "display": "33,14%"
+          }
+        ]
+      },
+      "audience": [
+        "Direksi fintech lending",
+        "Bank",
+        "CFO",
+        "Risk Manager"
+      ],
+      "tags": [
+        "Pindar",
+        "Fintech lending",
+        "Pembiayaan produktif",
+        "OJK",
+        "AFPI",
+        "UMKM",
+        "Credit scoring"
+      ],
+      "sources": [
+        {
+          "name": "Kontan",
+          "title": "Ini Penyebab Turunnya Porsi Pembiayaan Produktif Fintech Lending",
+          "url": "https://keuangan.kontan.co.id/news/ini-penyebab-turunnya-porsi-pembiayaan-produktif-fintech-lending",
+          "date": "2026-11-26"
+        },
+        {
+          "name": "Kontan",
+          "title": "Porsi Pembiayaan Fintech Lending Sektor Produktif Menurun, Ini Kata AFPI",
+          "url": "https://keuangan.kontan.co.id/news/porsi-pembiayaan-fintech-lending-sektor-produktif-menurun-ini-kata-afpi",
+          "date": "2026-11-26"
+        },
+        {
+          "name": "Warta Ekonomi",
+          "title": "Pinjol Diminta Lebih Rajin Danai UMKM, OJK Ungkap Porsi Produktif Masih Mini",
+          "url": "https://wartaekonomi.co.id/read649331/pinjol-diminta-lebih-rajin-danai-umkm-ojk-ungkap-porsi-produktif-masih-mini",
+          "date": "2026-11-20"
+        }
+      ],
+      "seoTitle": "Pembiayaan Produktif Pindar 33,14%, di Bawah Target OJK",
+      "seoDescription": "Porsi pembiayaan produktif fintech lending turun ke 33,14% per September 2026, di bawah target OJK 40–50%. Penyebab dan langkah bagi platform dan lender.",
+      "publishAt": "2026-11-27T09:00:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "Productive Share of P2P Lending Falls to 33.14%, Still Far Below OJK's 40–50% Target for 2025–2026",
+        "dek": "OJK data show productive fintech lending as of September 2026 stood at Rp35.29 trillion, or 33.14% of the total, down from 33.41% in June. OJK's 40–50% roadmap target is almost certain to be missed this year, and how the industry closes the gap will shape SMEs' access to digital financing.",
+        "summaryHtml": "<ul><li>According to OJK statistics cited by Kontan, the productive-sector share of fintech lending as of September 2026 was 33.14%, or Rp35.29 trillion, down from 33.41% (Rp35.12 trillion) in June 2026.</li><li>The roadmap for developing and strengthening LPBBTI (P2P lending) targets a productive share of 40–50% in 2025–2026. Outstanding fintech lending as of September 2026 reached Rp106.48 trillion, up 17.02% year on year, while TWP90 rose from 4.73% in August to 5.36% in September (Kontan).</li><li>Agusman, OJK Chief Executive for Supervision of Financing Institutions, Venture Capital Companies, Microfinance Institutions and Other Financial Services Institutions, said the roadmap target has not been changed and that achievements will continue to be evaluated, taking into account economic dynamics and the funding needs of SMEs (Warta Ekonomi).</li><li>Nailul Huda, Director of Digital Economy at Celios, said high risk is the fundamental factor behind the falling productive share. He called for better credit scoring and integration of the Fintech Data Center (FDC) with SLIK, the credit bureau system (Kontan).</li><li>AFPI Chair Kuseryansyah recommended that platforms diversify funding sources, expand partnerships with institutional lenders, and strengthen risk management and credit scoring (Kontan).</li></ul>",
+        "analysisHtml": "<h3>Value up, share down</h3><p>The headline figure is easy to misread. The value of productive financing actually rose slightly from Rp35.12 trillion to Rp35.29 trillion between June and September 2026. What fell was its share, because consumer lending grew faster. In other words, fintech lenders are not pulling back from SMEs, but industry growth is still driven by consumer loans. To reach the 40% lower bound with outstanding loans of about Rp106 trillion, productive financing would need to grow by about Rp12 trillion with no consumer growth, a figure that is hard to achieve in the one remaining quarter.</p><h3>Credit quality holds back expansion</h3><p>The rise in TWP90 to 5.36%, above the 5% threshold OJK uses, makes platforms cautious, and productive loans to small businesses are seen as riskier. The explanations from Celios and AFPI are consistent: the problem is not a lack of demand but the ability to assess the risk of business borrowers. We have already noted that banks now fund most of the outstanding P2P loans (see <a href=\"https://www.b2btechasia.com/review/bank-danai-pindar-rp7158-triliun-twp90-536-persen-september-2026\">our earlier analysis</a>). Institutional lenders such as banks demand portfolio quality, so AFPI's push for more institutional partnerships will depend on better credit assessment.</p><h3>Data is the key</h3><p>The proposal to integrate FDC with SLIK points to the most likely direction: productive financing will grow if platforms can see the same credit history as banks plus business cash-flow data. This opens opportunities for alternative data providers, such as payment transaction, invoice and marketplace sales data, and for supply chain companies that could become partners for invoice or supplier financing.</p><h3>What is still unclear</h3><p>OJK says the target is being evaluated, not lowered. It is worth watching whether the evaluation leads to a new target, incentives for productive financing or stricter rules. Until a decision is made, platforms face a tug of war between meeting the target and maintaining credit quality.</p>",
+        "actionHtml": "<h3>For P2P lending platform boards</h3><ol><li>Separate productive and consumer performance reporting by channel so the portfolio direction is clear to the board and lenders.</li><li>Invest in alternative business data, such as bank statements, invoices and sales data, for SME credit scoring.</li><li>Set up schemes with supply chain or marketplace partners that give visibility into borrowers' cash flows.</li></ol><h3>For banks and institutional lenders</h3><ol><li>Ask for asset quality reporting split between productive and consumer segments before adding channeling or executing facilities.</li></ol><h3>For CFOs of companies with SME supplier networks</h3><ol><li>Consider invoice financing partnerships with licensed platforms to support supplier liquidity, with due diligence on their OJK licence status.</li></ol>",
+        "faqHtml": "<h3>What is the current productive share of online lending?</h3><p>As of September 2026, the productive share of fintech lending was 33.14%, or Rp35.29 trillion, according to OJK statistics.</p><h3>What is OJK's productive financing target for P2P lending?</h3><p>The LPBBTI roadmap targets 40–50% in 2025–2026. OJK says achievements will continue to be evaluated.</p><h3>Why did the productive share fall?</h3><p>Celios sees high risk in productive loans as the main factor, along with purchasing power. AFPI stresses the need to diversify funding and strengthen credit scoring.</p>",
+        "dataFigure": "33.14%",
+        "dataLabel": "productive share of fintech lending as of September 2026 (target 40–50%)",
+        "dataSource": "OJK statistics via Kontan, 26 November 2026",
+        "chart": {
+          "bars": [
+            {
+              "label": "Min target",
+              "value": 40,
+              "display": "40%"
+            },
+            {
+              "label": "Jun 2026",
+              "value": 33.41,
+              "display": "33.41%"
+            },
+            {
+              "label": "Sep 2026",
+              "value": 33.14,
+              "display": "33.14%"
+            }
+          ]
+        },
+        "seoTitle": "P2P Lending Productive Share 33.14%, Below OJK Target",
+        "seoDescription": "Indonesia's productive fintech lending share fell to 33.14% in September 2026, below OJK's 40–50% target. Causes and steps for platforms and lenders.",
+        "audience": [
+          "P2P lending boards",
+          "Banks",
+          "CFO",
+          "Risk managers"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/porsi-pembiayaan-produktif-pindar-3314-persen-target-ojk-40-persen-en.png"
+      },
+      "ja": {
+        "title": "オンライン融資の生産的資金比率33.14%に低下、OJK目標40〜50%に届かず",
+        "dek": "インドネシア金融庁（OJK）のデータによると、2026年9月末のフィンテック融資の生産的（事業性）資金は3兆5290億ルピアで全体の33.14%となり、6月の33.41%から低下した。ロードマップの目標40〜50%の年内達成はほぼ絶望的で、業界がどう差を埋めるかが中小企業（UMKM）のデジタル資金調達を左右する。",
+        "summaryHtml": "<ul><li>Kontanが引用したOJK統計によると、フィンテック融資に占める生産的部門向け資金の比率は2026年9月末で33.14%（35兆2900億ルピア）と、6月末の33.41%（35兆1200億ルピア）から低下した。</li><li>オンライン融資（LPBBTI）の発展・強化ロードマップは、2025〜2026年の生産的資金比率を40〜50%と定めている。9月末の融資残高は106兆4800億ルピアで前年比17.02%増、90日超延滞率（TWP90）は8月の4.73%から9月に5.36%へ上昇した（Kontan）。</li><li>OJKのノンバンク金融機関監督担当チーフエグゼクティブのAgusman氏は、ロードマップの目標は変更しておらず、経済動向や中小企業の資金需要を考慮しながら達成状況を引き続き評価すると述べた（Warta Ekonomi）。</li><li>Celiosのデジタル経済ディレクター、Nailul Huda氏は、生産的融資の比率低下の根本要因は高いリスクだと指摘し、信用評価の改善とフィンテック・データセンター（FDC）と信用情報システムSLIKの統合が必要だと述べた（Kontan）。</li><li>インドネシア・フィンテック融資協会（AFPI）のKuseryansyah会長は、資金源の多様化、機関投資家との提携拡大、リスク管理と信用スコアリングの強化を提言した（Kontan）。</li></ul>",
+        "analysisHtml": "<h3>金額は増加、比率は低下</h3><p>見出しの数字は誤読しやすい。生産的資金の金額は6月から9月にかけて35兆1200億ルピアから35兆2900億ルピアへ小幅に増えている。低下したのは比率で、消費者向け融資の伸びが上回ったためだ。つまり事業者は中小企業から撤退しているわけではなく、業界の成長が依然として消費者向けに牽引されているということである。残高約106兆ルピアで下限40%に達するには、消費者向けが横ばいでも生産的資金を約12兆ルピア積み増す必要があり、残り1四半期での達成は難しい。</p><h3>信用の質が拡大を抑える</h3><p>TWP90がOJKの基準とする5%を超えて5.36%に上昇したことで事業者は慎重になり、小規模事業者向けの生産的融資はリスクが高いとみなされている。CeliosとAFPIの説明は一致しており、問題は需要不足ではなく事業者向け借り手のリスクを評価する能力にある。銀行がオンライン融資残高の大半を資金供給している点は既に報じた（<a href=\"https://www.b2btechasia.com/jp/review/bank-danai-pindar-rp7158-triliun-twp90-536-persen-september-2026\">前回の分析</a>参照）。銀行など機関投資家はポートフォリオの質を求めるため、AFPIが掲げる機関提携の拡大は信用評価の改善にかかっている。</p><h3>鍵を握るのはデータ</h3><p>FDCとSLIKの統合案は、最も可能性の高い方向性を示している。事業者が銀行と同じ信用履歴や事業のキャッシュフローデータを把握できれば、生産的融資は伸びる。決済取引、請求書、マーケットプレイスの販売データといった代替データの提供者や、請求書融資やサプライヤー融資の提携先となり得るサプライチェーン企業にとって機会となる。</p><h3>まだ不透明な点</h3><p>OJKは目標を引き下げるのではなく評価するとしている。評価が新目標、生産的融資へのインセンティブ、あるいはより厳しい規制のいずれにつながるかを注視する必要がある。決定までは、事業者は目標達成と信用の質の維持の板挟みに置かれる。</p>",
+        "actionHtml": "<h3>オンライン融資事業者の経営陣へ</h3><ol><li>生産的融資と消費者向け融資の実績をチャネル別に分けて報告し、取締役会と資金提供者にポートフォリオの方向性を明確に示す。</li><li>中小企業の信用評価のため、口座取引明細、請求書、販売データなど事業の代替データに投資する。</li><li>借り手のキャッシュフローが見えるサプライチェーンやマーケットプレイスとの提携スキームを整える。</li></ol><h3>銀行・機関投資家へ</h3><ol><li>チャネリングやエグゼキューティングの枠を増やす前に、生産的部門と消費者部門を分けた資産の質の報告を求める。</li></ol><h3>中小企業のサプライヤー網を持つ企業のCFOへ</h3><ol><li>サプライヤーの資金繰り支援のため、OJKの認可状況を確認したうえで、認可事業者との請求書融資の提携を検討する。</li></ol>",
+        "faqHtml": "<h3>オンライン融資の生産的資金比率は現在どれくらいか</h3><p>OJK統計によると、2026年9月末の比率は33.14%（35兆2900億ルピア）である。</p><h3>OJKの生産的資金比率の目標は</h3><p>LPBBTIロードマップは2025〜2026年に40〜50%を目標とする。OJKは達成状況を引き続き評価するとしている。</p><h3>なぜ比率が低下したのか</h3><p>Celiosは生産的融資の高いリスクと購買力を主因に挙げる。AFPIは資金源の多様化と信用スコアリングの強化が必要だとしている。</p>",
+        "dataFigure": "33.14%",
+        "dataLabel": "2026年9月末のフィンテック融資に占める生産的資金の比率（目標40〜50%）",
+        "dataSource": "OJK統計（Kontan経由）、2026年11月26日",
+        "chart": {
+          "bars": [
+            {
+              "label": "目標下限",
+              "value": 40,
+              "display": "40%"
+            },
+            {
+              "label": "2026年6月",
+              "value": 33.41,
+              "display": "33.41%"
+            },
+            {
+              "label": "2026年9月",
+              "value": 33.14,
+              "display": "33.14%"
+            }
+          ]
+        },
+        "seoTitle": "オンライン融資の生産的資金比率33.14%、目標未達",
+        "seoDescription": "インドネシアのフィンテック融資の生産的資金比率は2026年9月に33.14%へ低下、OJK目標40〜50%を下回る。要因と対応策を解説。",
+        "audience": [
+          "フィンテック融資事業者の経営陣",
+          "銀行",
+          "CFO",
+          "リスク管理責任者"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/porsi-pembiayaan-produktif-pindar-3314-persen-target-ojk-40-persen-ja.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/porsi-pembiayaan-produktif-pindar-3314-persen-target-ojk-40-persen.png"
+    },
+    {
+      "slug": "nvidia-hentikan-pengiriman-server-ai-indonesia-4-negara-asean",
+      "title": "Nvidia Dilaporkan Hentikan Pengiriman Server AI ke Indonesia dan 3 Negara ASEAN Usai Aturan Izin Ekspor AS",
+      "category": "Cloud & IT Infrastructure",
+      "articleType": "analisis",
+      "dek": "Menurut laporan Financial Times yang dikutip Katadata dan The National, Nvidia meminta mitra manufakturnya menahan pengiriman server berbasis chip AI ke Indonesia, Malaysia, Singapura, dan Thailand. Langkah ini datang sepuluh hari setelah AS mewajibkan izin ekspor chip AI canggih ke kawasan, dan membuat rencana kapasitas GPU pusat data di Indonesia makin tidak pasti.",
+      "summaryHtml": "<ul><li>Financial Times melaporkan pada Kamis, 26 November 2026, bahwa Nvidia meminta mitranya menghentikan pengiriman server chip AI ke Indonesia, Singapura, Malaysia, dan Thailand. Dell dan Supermicro disebut memberi tahu pembeli di empat negara itu bahwa Nvidia tidak mengizinkan pesanan mereka dikirim (Katadata; The National).</li><li>Belum jelas apakah penghentian bersifat sementara. Menurut sumber yang dikutip, Nvidia dan mitranya sedang mencari cara memenuhi pembatasan ekspor terbaru AS. Nvidia, Dell, dan Supermicro belum memberi komentar (Katadata).</li><li>Latar belakangnya adalah aturan Departemen Perdagangan AS pada 16 November 2026 yang mewajibkan izin khusus untuk pembelian chip AI canggih oleh pusat data di empat negara tersebut. Pusat data yang melayani pelanggan besar asal Tiongkok diberi waktu 90 hari untuk mengajukan izin (Katadata).</li><li>AS juga memasukkan tujuh perusahaan dari Singapura, Malaysia, dan Thailand ke Entity List, sehingga setiap ekspor, reekspor, atau transfer barang, termasuk perangkat lunak dan teknologi, kepada mereka memerlukan izin khusus (Katadata).</li><li>Menurut The National yang mengutip Financial Times, pendapatan Nvidia yang dicatat lewat anak usahanya di Singapura mencapai US$104 miliar pada 2025, naik 72%. Seorang eksekutif penyedia cloud menyebut ada aturan baru tetapi belum ada panduan pelaksanaannya.</li></ul>",
+      "analysisHtml": "<h3>Dari kewajiban izin ke pengiriman yang benar-benar berhenti</h3><p>Saat aturan izin ekspor AS terbit pada 16 November, dampaknya masih berupa kewajiban administratif: pusat data harus mengajukan izin dan memverifikasi penyewa (lihat <a href=\"https://www.b2btechasia.com/id/review/aturan-as-izin-chip-ai-indonesia-pusat-data-verifikasi-penyewa\">analisis kami sebelumnya</a>). Laporan terbaru menunjukkan dampak yang lebih langsung: barang tidak dikirim. Bagi operator pusat data dan perusahaan yang sudah memesan server GPU, persoalannya bergeser dari kepatuhan ke jadwal proyek. Perlu dicatat, informasi ini bersumber dari laporan media yang mengutip sumber anonim, dan Nvidia belum memberi pernyataan resmi.</p><h3>Masalah utama: aturan ada, panduan belum</h3><p>Keluhan eksekutif cloud yang dikutip The National menggambarkan inti persoalan. Pemasok tampaknya memilih menahan pengiriman daripada mengambil risiko melanggar aturan yang cara penerapannya belum jelas. Kemungkinan besar, pengiriman baru berjalan normal setelah ada panduan dari otoritas AS atau setelah izin pertama dikabulkan. Selama itu, pembeli di Indonesia berada dalam antrean yang tidak mereka kendalikan, sementara tenggat 90 hari bagi pusat data yang melayani pelanggan besar asal Tiongkok terus berjalan.</p><h3>Siapa yang paling terdampak</h3><p>Yang paling rentan adalah proyek pusat data AI dan layanan GPU-as-a-service yang menjanjikan kapasitas kepada pelanggan pada 2027. Perusahaan pengguna, seperti bank atau perusahaan yang melatih model AI sendiri, juga bisa menghadapi penundaan jika bergantung pada perangkat keras yang dipasang di dalam negeri. Pelanggan hyperscaler global yang menyewa kapasitas di luar kawasan mungkin lebih sedikit terdampak, tetapi pilihan itu dapat berbenturan dengan kebutuhan lokasi data. Tidak ada perusahaan Indonesia dalam daftar tujuh entitas yang dirilis, tetapi Indonesia termasuk empat negara yang pengirimannya ditahan.</p><h3>Yang perlu dicermati</h3><p>Tiga hal akan menentukan arah berikutnya: apakah Nvidia mengonfirmasi atau mencabut penahanan, apakah AS menerbitkan panduan prosedur izin, dan bagaimana pemerintah Indonesia merespons. Sampai sumber terbit, belum ada pernyataan dari pemerintah atau regulator Indonesia.</p>",
+      "actionHtml": "<h3>Untuk CIO dan CTO</h3><ol><li>Petakan proyek AI yang bergantung pada server GPU baru yang dikirim ke Indonesia, lalu siapkan jadwal alternatif jika pengiriman tertunda beberapa bulan.</li><li>Tanyakan langsung kepada pemasok dan penyedia pusat data status pesanan dan rencana mereka mengajukan izin.</li><li>Pertimbangkan opsi sementara seperti kapasitas cloud yang sudah tersedia, model yang lebih kecil, atau optimasi inferensi, dengan memperhatikan aturan lokasi data.</li></ol><h3>Untuk operator pusat data dan penyedia GPU cloud</h3><ol><li>Lengkapi dokumentasi kenali-pelanggan dan struktur kepemilikan penyewa sekarang, karena data ini kemungkinan diminta dalam proses izin.</li><li>Komunikasikan risiko keterlambatan kapasitas kepada pelanggan lebih awal dan tinjau klausul keadaan kahar dalam kontrak.</li></ol><h3>Untuk CFO</h3><ol><li>Masukkan skenario keterlambatan dan kenaikan harga perangkat keras AI dalam anggaran belanja modal 2027.</li></ol>",
+      "faqHtml": "<h3>Apakah Nvidia berhenti menjual chip AI ke Indonesia?</h3><p>Menurut laporan Financial Times, Nvidia meminta mitranya menahan pengiriman server chip AI ke Indonesia, Malaysia, Singapura, dan Thailand. Belum jelas apakah bersifat sementara, dan Nvidia belum memberi komentar.</p><h3>Mengapa pengiriman server AI ke Asia Tenggara ditahan?</h3><p>Sumber yang dikutip menyebut Nvidia dan mitranya sedang menyesuaikan diri dengan aturan izin ekspor AS yang terbit 16 November 2026 untuk chip AI canggih ke empat negara tersebut.</p><h3>Apakah ada perusahaan Indonesia di Entity List terbaru?</h3><p>Tidak. Tujuh perusahaan yang dimasukkan berasal dari Singapura, Malaysia, dan Thailand.</p>",
+      "dataFigure": "4 negara",
+      "dataLabel": "negara ASEAN yang pengiriman server AI Nvidia dilaporkan ditahan",
+      "dataSource": "Financial Times via Katadata dan The National, 26 November 2026",
+      "audience": [
+        "CIO",
+        "CTO",
+        "Operator pusat data",
+        "CFO"
+      ],
+      "tags": [
+        "Nvidia",
+        "Kontrol ekspor AS",
+        "Server AI",
+        "GPU",
+        "Pusat data",
+        "Dell",
+        "Supermicro"
+      ],
+      "sources": [
+        {
+          "name": "Katadata",
+          "title": "Nvidia Setop Pengiriman Server Chip AI ke Indonesia, Singapura hingga Malaysia",
+          "url": "https://katadata.co.id/digital/teknologi/6b080ceec2246/nvidia-setop-pengiriman-server-chip-ai-ke-indonesia-singapura-hingga-malaysia",
+          "date": "2026-11-26"
+        },
+        {
+          "name": "The National",
+          "title": "Nvidia halts chip shipments to South-East Asia amid US crackdown",
+          "url": "https://www.thenationalnews.com/future/technology/2026/11/26/nvidia-halts-chip-shipments-to-south-east-asia-amid-us-crackdown/",
+          "date": "2026-11-26"
+        }
+      ],
+      "seoTitle": "Nvidia Tahan Pengiriman Server AI ke Indonesia: Dampaknya",
+      "seoDescription": "Nvidia dilaporkan menahan pengiriman server AI ke Indonesia, Malaysia, Singapura, dan Thailand usai aturan izin ekspor AS. Dampak bagi pusat data dan CIO.",
+      "publishAt": "2026-11-27T07:30:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "Nvidia Reportedly Halts AI Server Shipments to Indonesia and 3 Other ASEAN Countries After US Export Licence Rule",
+        "dek": "According to a Financial Times report cited by Katadata and The National, Nvidia asked its manufacturing partners to hold shipments of AI-chip servers to Indonesia, Malaysia, Singapore and Thailand. The move comes ten days after the US required export licences for advanced AI chips to the region, adding uncertainty to GPU capacity plans at Indonesian data centres.",
+        "summaryHtml": "<ul><li>The Financial Times reported on Thursday, 26 November 2026, that Nvidia asked its partners to stop shipping AI-chip servers to Indonesia, Singapore, Malaysia and Thailand. Dell and Supermicro reportedly told buyers in those four countries that Nvidia had not authorised their orders to ship (Katadata; The National).</li><li>It is unclear whether the halt is temporary. According to the sources cited, Nvidia and its partners are working out how to comply with the latest US export restrictions. Nvidia, Dell and Supermicro had not commented (Katadata).</li><li>The background is a US Department of Commerce rule of 16 November 2026 requiring a special licence for purchases of advanced AI chips by data centres in the four countries. Data centres serving large Chinese customers were given 90 days to apply (Katadata).</li><li>The US also added seven companies from Singapore, Malaysia and Thailand to the Entity List, so any export, re-export or transfer of goods, including software and technology, to them requires a special licence (Katadata).</li><li>According to The National, citing the Financial Times, Nvidia recorded US$104 billion in revenue through its Singapore subsidiary in 2025, up 72%. A cloud provider executive said: “There's this new rule but no guidance on execution.”</li></ul>",
+        "analysisHtml": "<h3>From a licence requirement to shipments actually stopping</h3><p>When the US export licence rule was issued on 16 November, its impact was still an administrative obligation: data centres had to apply for licences and verify tenants (see <a href=\"https://www.b2btechasia.com/review/aturan-as-izin-chip-ai-indonesia-pusat-data-verifikasi-penyewa\">our earlier analysis</a>). The latest report points to a more direct impact: goods are not being shipped. For data centre operators and companies that have already ordered GPU servers, the issue shifts from compliance to project schedules. Note that this information comes from media reports citing anonymous sources, and Nvidia has not made an official statement.</p><h3>The core problem: a rule exists, guidance does not</h3><p>The cloud executive's complaint quoted by The National captures the heart of the matter. Suppliers appear to prefer holding shipments over risking a breach of a rule whose application is still unclear. Shipments will most likely resume normally only after guidance from US authorities or after the first licences are granted. Until then, buyers in Indonesia are in a queue they do not control, while the 90-day deadline for data centres serving large Chinese customers keeps running.</p><h3>Who is most affected</h3><p>Most vulnerable are AI data centre projects and GPU-as-a-service offerings that have promised capacity to customers in 2027. User companies, such as banks or firms training their own AI models, could also face delays if they rely on hardware installed in the country. Customers of global hyperscalers renting capacity outside the region may be less affected, but that option may conflict with data location requirements. No Indonesian company is on the list of seven entities released, but Indonesia is one of the four countries where shipments are being held.</p><h3>What to watch</h3><p>Three things will determine what happens next: whether Nvidia confirms or lifts the hold, whether the US issues guidance on the licensing procedure, and how the Indonesian government responds. As of the source reports, there had been no statement from the Indonesian government or regulators.</p>",
+        "actionHtml": "<h3>For CIOs and CTOs</h3><ol><li>Map AI projects that depend on new GPU servers shipped to Indonesia, and prepare an alternative timeline in case shipments are delayed by several months.</li><li>Ask suppliers and data centre providers directly about order status and their plans to apply for licences.</li><li>Consider interim options such as cloud capacity that is already available, smaller models or inference optimisation, taking data location rules into account.</li></ol><h3>For data centre operators and GPU cloud providers</h3><ol><li>Complete know-your-customer documentation and tenant ownership structures now, as this data will likely be requested in the licensing process.</li><li>Communicate capacity delay risks to customers early and review force majeure clauses in contracts.</li></ol><h3>For CFOs</h3><ol><li>Include scenarios of delays and higher prices for AI hardware in the 2027 capital expenditure budget.</li></ol>",
+        "faqHtml": "<h3>Has Nvidia stopped selling AI chips to Indonesia?</h3><p>According to the Financial Times, Nvidia asked its partners to hold shipments of AI-chip servers to Indonesia, Malaysia, Singapore and Thailand. It is unclear whether this is temporary, and Nvidia has not commented.</p><h3>Why are AI server shipments to Southeast Asia being held?</h3><p>Sources cited say Nvidia and its partners are adjusting to the US export licence rule issued on 16 November 2026 for advanced AI chips to the four countries.</p><h3>Are any Indonesian companies on the latest Entity List?</h3><p>No. The seven companies added are from Singapore, Malaysia and Thailand.</p>",
+        "dataFigure": "4 countries",
+        "dataLabel": "ASEAN countries where Nvidia AI server shipments are reportedly on hold",
+        "dataSource": "Financial Times via Katadata and The National, 26 November 2026",
+        "seoTitle": "Nvidia Holds AI Server Shipments to Indonesia: The Impact",
+        "seoDescription": "Nvidia reportedly holds AI server shipments to Indonesia, Malaysia, Singapore and Thailand after a US export licence rule. Impact on data centres and CIOs.",
+        "audience": [
+          "CIO",
+          "CTO",
+          "Data centre operators",
+          "CFO"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/nvidia-hentikan-pengiriman-server-ai-indonesia-4-negara-asean-en.png"
+      },
+      "ja": {
+        "title": "Nvidia、インドネシアなどASEAN4カ国へのAIサーバー出荷を停止と報道　米輸出許可規則受け",
+        "dek": "KatadataとThe Nationalが引用した英フィナンシャル・タイムズ（FT）の報道によると、Nvidiaは製造パートナーに対し、インドネシア、マレーシア、シンガポール、タイ向けのAIチップ搭載サーバーの出荷を止めるよう求めた。米国が同地域向け先端AIチップに輸出許可を義務付けてから10日後の動きで、インドネシアのデータセンターのGPU調達計画は一段と不透明になった。",
+        "summaryHtml": "<ul><li>FTは2026年11月26日（木）、NvidiaがパートナーにインドネシアやシンガポールなどASEAN4カ国向けAIチップ搭載サーバーの出荷停止を求めたと報じた。DellとSupermicroは4カ国の購入者に対し、Nvidiaが注文の出荷を承認していないと伝えたという（Katadata、The National）。</li><li>停止が一時的かどうかは不明である。引用された関係者によると、Nvidiaとパートナーは米国の最新の輸出規制への対応方法を探っている。Nvidia、Dell、Supermicroはコメントしていない（Katadata）。</li><li>背景には、2026年11月16日の米商務省の規則がある。4カ国のデータセンターが先端AIチップを購入する際に特別な許可を義務付けるもので、中国の大口顧客にサービスを提供するデータセンターには申請まで90日の猶予が与えられた（Katadata）。</li><li>米国はシンガポール、マレーシア、タイの7社をエンティティー・リストに追加し、ソフトウエアや技術を含む輸出、再輸出、移転に特別な許可を必要とした（Katadata）。</li><li>FTを引用したThe Nationalによると、Nvidiaがシンガポール子会社経由で計上した2025年の売上高は1040億ドルで、前年比72%増だった。あるクラウド事業者の幹部は、新規則はあるが運用の指針がないと述べた。</li></ul>",
+        "analysisHtml": "<h3>許可義務から実際の出荷停止へ</h3><p>11月16日に米輸出許可規則が出た時点では、影響はデータセンターによる許可申請やテナント確認という事務的な義務にとどまっていた（<a href=\"https://www.b2btechasia.com/jp/review/aturan-as-izin-chip-ai-indonesia-pusat-data-verifikasi-penyewa\">前回の分析</a>参照）。今回の報道は、より直接的な影響、つまりモノが届かない事態を示している。GPUサーバーを発注済みのデータセンター事業者や企業にとって、問題はコンプライアンスから事業スケジュールへと移った。ただし、情報は匿名の関係者を引用した報道に基づき、Nvidiaは公式声明を出していない点に留意が必要だ。</p><h3>核心は「規則はあるが指針がない」</h3><p>The Nationalが伝えたクラウド幹部の不満は問題の核心を突いている。供給側は、適用方法が不明確な規則に違反するリスクを取るより、出荷を止める方を選んでいるようだ。正常化は、米当局の指針が示されるか最初の許可が下りた後になる可能性が高い。それまでインドネシアの購入者は自らコントロールできない順番待ちに置かれ、中国の大口顧客を持つデータセンターの90日の期限は刻々と迫る。</p><h3>最も影響を受けるのは誰か</h3><p>最も脆弱なのは、2027年の容量提供を顧客に約束したAIデータセンター計画やGPUクラウドサービスである。国内設置のハードウエアに頼る銀行や自社でAIモデルを学習させる企業も遅延に直面し得る。域外の容量を借りるグローバルなハイパースケーラーの顧客は影響が小さいかもしれないが、データ所在地の要件と衝突する可能性がある。公表された7社にインドネシア企業は含まれないが、インドネシアは出荷が止められた4カ国の一つである。</p><h3>注視すべき点</h3><p>今後を左右するのは、Nvidiaが出荷停止を認めるか解除するか、米国が許可手続きの指針を出すか、インドネシア政府がどう対応するかの3点である。情報源の記事の時点で、インドネシア政府や規制当局の声明は出ていない。</p>",
+        "actionHtml": "<h3>CIO・CTOへ</h3><ol><li>インドネシアに出荷される新規GPUサーバーに依存するAIプロジェクトを洗い出し、出荷が数カ月遅れる場合の代替スケジュールを用意する。</li><li>サプライヤーやデータセンター事業者に、発注状況と許可申請の計画を直接確認する。</li><li>既存のクラウド容量、小型モデル、推論の最適化などの暫定策を、データ所在地規制に留意しつつ検討する。</li></ol><h3>データセンター事業者・GPUクラウド事業者へ</h3><ol><li>許可手続きで求められる可能性が高い顧客確認（KYC）資料とテナントの所有構造を今のうちに整える。</li><li>容量提供の遅延リスクを早めに顧客へ伝え、契約の不可抗力条項を見直す。</li></ol><h3>CFOへ</h3><ol><li>2027年の設備投資予算に、AIハードウエアの納期遅延と価格上昇のシナリオを織り込む。</li></ol>",
+        "faqHtml": "<h3>NvidiaはインドネシアへのAIチップ販売をやめたのか</h3><p>FTによると、Nvidiaはインドネシア、マレーシア、シンガポール、タイ向けAIサーバーの出荷保留をパートナーに求めた。一時的かどうかは不明で、Nvidiaはコメントしていない。</p><h3>なぜ東南アジア向けAIサーバーの出荷が止まったのか</h3><p>関係者によると、Nvidiaとパートナーは、4カ国向け先端AIチップに関する2026年11月16日の米輸出許可規則への対応を進めている。</p><h3>最新のエンティティー・リストにインドネシア企業は含まれるか</h3><p>含まれない。追加された7社はシンガポール、マレーシア、タイの企業である。</p>",
+        "dataFigure": "4カ国",
+        "dataLabel": "NvidiaのAIサーバー出荷が保留されたと報じられたASEAN諸国",
+        "dataSource": "FT（Katadata、The National経由）、2026年11月26日",
+        "seoTitle": "Nvidia、インドネシア向けAIサーバー出荷を停止か",
+        "seoDescription": "Nvidiaが米輸出許可規則を受け、インドネシアなどASEAN4カ国向けAIサーバー出荷を保留と報道。データセンターとCIOへの影響を解説。",
+        "audience": [
+          "CIO",
+          "CTO",
+          "データセンター事業者",
+          "CFO"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/nvidia-hentikan-pengiriman-server-ai-indonesia-4-negara-asean-ja.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/nvidia-hentikan-pengiriman-server-ai-indonesia-4-negara-asean.png"
+    },
+    {
+      "slug": "mekari-serangan-siber-5-layanan-dibatasi-talenta-pembayaran-gaji",
+      "title": "Mekari Konfirmasi Serangan Siber, Akses 5 Layanan Dibatasi Saat Hari Gajian: Pelajaran Risiko SaaS HR dan ERP",
+      "category": "Enterprise Software & ERP",
+      "articleType": "analisis",
+      "dek": "Mekari menyatakan aktivitas tidak biasa yang terdeteksi sejak 25 November 2026 adalah serangan siber dari pihak eksternal dan membatasi sementara akses ke Talenta, Jurnal, Qontak, Sign, dan Flex. Gangguan jatuh pada tanggal gajian sebagian perusahaan, sehingga menjadi ujian nyata bagi rencana kelangsungan bisnis pengguna SaaS payroll dan akuntansi.",
+      "summaryHtml": "<ul><li>Menurut Katadata, PT Mid Solusi Nusantara (Mekari) mengonfirmasi sistemnya diserang pihak eksternal. Lewat Instagram pada Rabu, 25 November 2026, Mekari menyebut aktivitas tidak biasa itu sebagai “serangan siber dari pihak eksternal terhadap sistem Mekari” dan membatasi sementara akses ke Mekari Qontak, Mekari Sign, Mekari Talenta, Mekari Jurnal, dan Mekari Flex.</li><li>Pada hari yang sama, Mekari lewat akun Threads meminta maaf atas gangguan akses Mekari Talenta dan saat itu menyebut penyebabnya pemeliharaan mendesak untuk optimalisasi sistem (CNBC Indonesia). Gangguan terjadi pada tanggal gajian sebagian karyawan dan memicu keluhan di media sosial.</li><li>CEO Mekari Suwandi Soh dalam surat terbuka menyatakan tim mendeteksi aktivitas tidak biasa sejak Rabu pagi, termasuk pada sistem pihak ketiga yang terhubung dengan Mekari. Ia menegaskan Mekari tidak pernah meminta kata sandi, OTP, atau pembayaran melalui email, WhatsApp, atau telepon (Katadata).</li><li>AVP of Commercial Mekari Talenta Fedri Setiawan menyatakan pencairan gaji yang dijadwalkan 25 November akan diterima sebelum 26 November, dan pencairan yang terdampak gangguan diproses ulang secara otomatis (Katadata).</li><li>Mekari belum menyampaikan apakah ada data pelanggan yang bocor. Aplikasi investasi emas digital Treasury menyatakan saldo emas dan data nasabahnya tidak terdampak (Katadata).</li></ul>",
+      "analysisHtml": "<h3>Dari pemeliharaan ke serangan siber dalam satu hari</h3><p>Pesan pertama kepada pengguna menyebut pemeliharaan mendesak, lalu pada hari yang sama Mekari menyatakan ada serangan siber dari pihak eksternal. Pergeseran ini wajar pada jam-jam awal insiden, ketika tim teknis belum tahu penyebab pastinya, tetapi juga menunjukkan betapa pentingnya pesan pertama. Pelanggan korporat yang menerima informasi soal pemeliharaan kemungkinan menunggu, bukan segera menjalankan rencana cadangan. Mekari juga menjadwalkan pembaruan pada 26 November pukul 09.00 WIB, praktik yang membantu pelanggan merencanakan langkah berikutnya.</p><h3>Satu vendor, lima fungsi bisnis</h3><p>Yang membuat insiden ini menonjol bukan hanya serangannya, tetapi luas dampaknya. Talenta menangani HR dan payroll, Jurnal menangani akuntansi, Qontak menangani komunikasi pelanggan, Sign menangani tanda tangan elektronik, dan Flex menangani kebutuhan karyawan. Perusahaan yang memakai beberapa produk dari satu penyedia sekaligus mendapat kemudahan integrasi, tetapi juga menanggung risiko terpusat: ketika akses dibatasi, penggajian, pembukuan, dan layanan pelanggan bisa terganggu bersamaan. Waktu kejadian, yaitu tanggal gajian, memperbesar dampak karena keterlambatan gaji langsung dirasakan karyawan.</p><h3>Yang belum diketahui</h3><p>Sampai artikel sumber terbit, Mekari belum menyampaikan apakah data pelanggan ikut bocor, apa jenis serangannya, dan kapan seluruh layanan pulih penuh. Surat CEO menyebut aktivitas tidak biasa juga terdeteksi pada sistem pihak ketiga yang terhubung, sehingga perlu dicermati apakah sumber masalah berada di rantai pasok perangkat lunak. Peringatan bahwa Mekari tidak pernah meminta kata sandi atau OTP menandakan perusahaan mengantisipasi penipuan yang menumpang insiden, pola yang umum setelah gangguan besar. Pengguna sebaiknya menunggu pernyataan resmi berikutnya dan tidak mengandalkan spekulasi di media sosial.</p><h3>Pertanyaan untuk setiap pengguna SaaS</h3><p>Insiden ini relevan bagi siapa pun yang menyerahkan proses inti ke layanan cloud, bukan hanya pelanggan Mekari. Pertanyaannya sederhana: jika aplikasi payroll atau akuntansi tidak bisa diakses selama dua hari, apakah perusahaan masih bisa membayar gaji, menerbitkan faktur, dan melayani pelanggan? Bagi banyak perusahaan menengah, jawabannya kemungkinan belum.</p>",
+      "actionHtml": "<h3>Untuk pelanggan Mekari</h3><ol><li>Ikuti hanya kanal resmi Mekari untuk pembaruan, dan ingatkan tim keuangan serta HR bahwa Mekari menyatakan tidak pernah meminta kata sandi, OTP, atau pembayaran lewat email, WhatsApp, atau telepon.</li><li>Setelah akses pulih, cocokkan data gaji, mutasi bank, dan jurnal akuntansi periode 25–26 November untuk memastikan tidak ada transaksi ganda atau terlewat.</li><li>Ganti kata sandi akun admin dan tinjau integrasi API serta token yang menghubungkan Mekari dengan sistem lain.</li></ol><h3>Untuk CIO, CFO, dan HR Director</h3><ol><li>Simpan ekspor rutin data payroll terakhir (daftar karyawan, rekening, nominal) di luar aplikasi SaaS sehingga gaji tetap bisa dibayar manual lewat bank saat aplikasi tidak tersedia.</li><li>Masukkan klausul pemberitahuan insiden, target pemulihan, dan hak audit dalam kontrak SaaS, termasuk kewajiban vendor melaporkan insiden pada sistem pihak ketiganya.</li><li>Hindari jadwal pemrosesan gaji pada hari terakhir; beri jeda satu sampai dua hari kerja.</li></ol><h3>Untuk vendor SaaS</h3><ol><li>Siapkan templat komunikasi insiden yang jujur sejak menit pertama dan jadwal pembaruan yang pasti.</li></ol>",
+      "faqHtml": "<h3>Apa yang terjadi pada Mekari Talenta?</h3><p>Pada 25 November 2026 akses Mekari Talenta terganggu. Mekari kemudian menyatakan ada serangan siber dari pihak eksternal dan membatasi sementara akses ke Talenta, Jurnal, Qontak, Sign, dan Flex.</p><h3>Apakah gaji karyawan pengguna Mekari Talenta tetap cair?</h3><p>Menurut Mekari Talenta, pencairan gaji yang dijadwalkan 25 November akan diterima sebelum 26 November, dan pencairan yang terdampak diproses ulang otomatis.</p><h3>Apakah data pelanggan Mekari bocor?</h3><p>Belum ada informasi. Mekari belum menyampaikan apakah ada data pelanggan yang bocor.</p>",
+      "dataFigure": "5 layanan",
+      "dataLabel": "layanan Mekari yang aksesnya dibatasi sementara setelah serangan siber",
+      "dataSource": "Mekari via Katadata, 26 November 2026",
+      "audience": [
+        "CIO",
+        "CFO",
+        "HR Director",
+        "Vendor SaaS"
+      ],
+      "tags": [
+        "Mekari",
+        "Mekari Talenta",
+        "Serangan siber",
+        "SaaS",
+        "Payroll",
+        "Kelangsungan bisnis"
+      ],
+      "sources": [
+        {
+          "name": "Katadata",
+          "title": "Mekari Diretas, Layanan Lumpuh hingga Pembayaran Gaji Karyawan Terganggu",
+          "url": "https://katadata.co.id/digital/teknologi/6b07764120150/mekari-diretas-layanan-lumpuh-hingga-pembayaran-gaji-karyawan-terganggu",
+          "date": "2026-11-26"
+        },
+        {
+          "name": "CNBC Indonesia",
+          "title": "Mekari Down Ketika Tanggal Gajian, Netizen Ngomel di Medsos",
+          "url": "https://www.cnbcindonesia.com/tech/20261125153311-37-788401/mekari-down-ketika-tanggal-gajian-netizen-ngomel-di-medsos",
+          "date": "2026-11-25"
+        }
+      ],
+      "seoTitle": "Mekari Diserang Siber: 5 Layanan Dibatasi, Gaji Terganggu",
+      "seoDescription": "Mekari konfirmasi serangan siber pada 25 November 2026, akses Talenta, Jurnal, Qontak, Sign, dan Flex dibatasi. Langkah bagi CIO, CFO, dan HR.",
+      "publishAt": "2026-11-27T06:00:00+07:00",
+      "language": "id",
+      "en": {
+        "title": "Mekari Confirms Cyberattack, Access to 5 Services Restricted on Payday: Lessons on HR and ERP SaaS Risk",
+        "dek": "Mekari said the unusual activity detected from 25 November 2026 was a cyberattack by an external party and temporarily restricted access to Talenta, Jurnal, Qontak, Sign and Flex. The disruption fell on payday for some companies, making it a real-world test of business continuity plans for users of payroll and accounting SaaS.",
+        "summaryHtml": "<ul><li>According to Katadata, PT Mid Solusi Nusantara (Mekari) confirmed its systems were attacked by an external party. In an Instagram post on Wednesday, 25 November 2026, Mekari described the unusual activity as a cyberattack by an external party on its systems and temporarily restricted access to Mekari Qontak, Mekari Sign, Mekari Talenta, Mekari Jurnal and Mekari Flex.</li><li>On the same day, Mekari apologised on Threads for the Mekari Talenta access disruption and at that point attributed it to urgent maintenance to optimise the system (CNBC Indonesia). The disruption fell on payday for some employees and drew complaints on social media.</li><li>Mekari CEO Suwandi Soh said in an open letter that the team detected unusual activity from Wednesday morning, including in third-party systems connected to Mekari. He stressed that Mekari never asks for passwords, OTPs or payments by email, WhatsApp or phone (Katadata).</li><li>Fedri Setiawan, AVP of Commercial at Mekari Talenta, said payroll disbursements scheduled for 25 November would arrive before 26 November, and disbursements affected by the disruption would be reprocessed automatically (Katadata).</li><li>Mekari has not said whether any customer data was leaked. Digital gold investment app Treasury said its gold balances and customer data were not affected (Katadata).</li></ul>",
+        "analysisHtml": "<h3>From “maintenance” to cyberattack within a day</h3><p>The first message to users cited urgent maintenance; later the same day Mekari said there had been a cyberattack by an external party. Such a shift is normal in the first hours of an incident, when technical teams do not yet know the exact cause, but it also shows how much the first message matters. Corporate customers told it was maintenance were likely to wait rather than switch to a backup plan immediately. Mekari also scheduled an update for 26 November at 09:00 WIB, a practice that helps customers plan their next steps.</p><h3>One vendor, five business functions</h3><p>What makes this incident stand out is not only the attack but the breadth of its impact. Talenta handles HR and payroll, Jurnal handles accounting, Qontak handles customer communication, Sign handles e-signatures and Flex handles employee needs. Companies that use several products from one provider gain easy integration, but also carry concentrated risk: when access is restricted, payroll, bookkeeping and customer service can be disrupted at the same time. The timing, on payday, magnified the impact because delayed salaries are felt directly by employees.</p><h3>What is not yet known</h3><p>As of the source reports, Mekari had not said whether customer data was leaked, what type of attack occurred or when all services would be fully restored. The CEO's letter said unusual activity was also detected in connected third-party systems, so it is worth watching whether the problem originated in the software supply chain. The warning that Mekari never asks for passwords or OTPs suggests the company anticipates scams riding on the incident, a common pattern after major outages. Users should wait for the next official statement and not rely on social media speculation.</p><h3>A question for every SaaS user</h3><p>This incident matters to anyone who has moved core processes to cloud services, not only Mekari customers. The question is simple: if the payroll or accounting application were unavailable for two days, could the company still pay salaries, issue invoices and serve customers? For many mid-sized companies, the answer is likely not yet.</p>",
+        "actionHtml": "<h3>For Mekari customers</h3><ol><li>Follow only Mekari's official channels for updates, and remind finance and HR teams that Mekari says it never asks for passwords, OTPs or payments by email, WhatsApp or phone.</li><li>Once access is restored, reconcile payroll data, bank statements and accounting journals for 25–26 November to make sure no transactions were duplicated or missed.</li><li>Change admin account passwords and review API integrations and tokens connecting Mekari to other systems.</li></ol><h3>For CIOs, CFOs and HR Directors</h3><ol><li>Keep a regular export of the latest payroll data (employee list, accounts, amounts) outside the SaaS application so salaries can be paid manually through the bank if the application is unavailable.</li><li>Include incident notification, recovery targets and audit rights in SaaS contracts, including an obligation for vendors to report incidents in their third-party systems.</li><li>Avoid scheduling payroll processing on the last day; allow a buffer of one to two working days.</li></ol><h3>For SaaS vendors</h3><ol><li>Prepare an honest incident communication template from the first minute and a firm update schedule.</li></ol>",
+        "faqHtml": "<h3>What happened to Mekari Talenta?</h3><p>On 25 November 2026 access to Mekari Talenta was disrupted. Mekari then said there had been a cyberattack by an external party and temporarily restricted access to Talenta, Jurnal, Qontak, Sign and Flex.</p><h3>Were salaries of Mekari Talenta users still paid?</h3><p>According to Mekari Talenta, disbursements scheduled for 25 November would arrive before 26 November, and affected disbursements would be reprocessed automatically.</p><h3>Was Mekari customer data leaked?</h3><p>There is no information yet. Mekari has not said whether any customer data was leaked.</p>",
+        "dataFigure": "5 services",
+        "dataLabel": "Mekari services with access temporarily restricted after the cyberattack",
+        "dataSource": "Mekari via Katadata, 26 November 2026",
+        "seoTitle": "Mekari Cyberattack: 5 Services Restricted, Payroll Disrupted",
+        "seoDescription": "Mekari confirmed a cyberattack on 25 November 2026, restricting Talenta, Jurnal, Qontak, Sign and Flex. What CIOs, CFOs and HR should do now.",
+        "audience": [
+          "CIO",
+          "CFO",
+          "HR Director",
+          "SaaS vendors"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/mekari-serangan-siber-5-layanan-dibatasi-talenta-pembayaran-gaji-en.png"
+      },
+      "ja": {
+        "title": "Mekariがサイバー攻撃を確認、給料日に5サービスのアクセス制限　HR・ERPのSaaS依存リスク",
+        "dek": "Mekariは2026年11月25日から検知した異常な活動を外部からのサイバー攻撃だと説明し、Talenta、Jurnal、Qontak、Sign、Flexへのアクセスを一時的に制限した。一部企業の給料日と重なり、給与計算・会計SaaS利用企業の事業継続計画が実地で試される形となった。",
+        "summaryHtml": "<ul><li>Katadataによると、PT Mid Solusi Nusantara（Mekari）は自社システムが外部から攻撃されたことを認めた。Mekariは11月25日（水）のInstagram投稿で、異常な活動を外部からのサイバー攻撃と説明し、Mekari Qontak、Mekari Sign、Mekari Talenta、Mekari Jurnal、Mekari Flexへのアクセスを一時制限した。</li><li>同日、MekariはThreadsでMekari Talentaのアクセス障害を謝罪し、その時点では原因をシステム最適化のための緊急メンテナンスと説明していた（CNBC Indonesia）。障害は一部従業員の給料日と重なり、SNSで苦情が相次いだ。</li><li>Suwandi Soh最高経営責任者（CEO）は公開書簡で、水曜朝から異常な活動を検知し、Mekariと接続する第三者のシステムでも確認されたと述べた。また、Mekariがメール、WhatsApp、電話でパスワード、OTP、支払いを求めることはないと強調した（Katadata）。</li><li>Mekari TalentaのFedri Setiawan商業担当AVPは、11月25日予定の給与振込は26日より前に着金し、障害の影響を受けた振込は自動的に再処理されると説明した（Katadata）。</li><li>Mekariは顧客データの流出の有無を明らかにしていない。デジタル金投資アプリのTreasuryは、金の残高と顧客データに影響はないとした（Katadata）。</li></ul>",
+        "analysisHtml": "<h3>「メンテナンス」から1日でサイバー攻撃へ</h3><p>利用者への最初の説明は緊急メンテナンスだったが、同日中にMekariは外部からのサイバー攻撃があったと発表した。原因が特定できない初動段階では珍しくない変化だが、最初のメッセージの重要性を示している。「メンテナンス」と知らされた法人顧客は、すぐに代替手段に切り替えず待機した可能性が高い。一方、Mekariは11月26日午前9時（西部インドネシア時間）に続報を出すと予告しており、顧客が次の手を計画するうえで有益な対応といえる。</p><h3>1社のベンダー、5つの業務機能</h3><p>今回の事案が際立つのは攻撃そのものより影響範囲の広さである。Talentaは人事・給与、Jurnalは会計、Qontakは顧客コミュニケーション、Signは電子署名、Flexは従業員向けサービスを担う。同じ事業者の複数製品を使えば連携は容易になるが、リスクも集中する。アクセスが制限されれば、給与計算、記帳、顧客対応が同時に止まり得る。給料日と重なったことで、遅配が従業員に直接及び、影響が増幅した。</p><h3>まだ分かっていないこと</h3><p>情報源の記事の時点で、Mekariは顧客データ流出の有無、攻撃の種類、全サービスの完全復旧時期を明らかにしていない。CEOの書簡は接続する第三者システムでも異常を検知したとしており、問題の発端がソフトウエアのサプライチェーンにあるかどうかは注視が必要だ。パスワードやOTPを求めないとの注意喚起は、大規模障害に便乗した詐欺を同社が警戒していることを示す。利用者は公式の続報を待ち、SNS上の憶測に頼るべきではない。</p><h3>すべてのSaaS利用企業への問い</h3><p>この事案はMekariの顧客に限らず、中核業務をクラウドに委ねるすべての企業に関係する。給与計算や会計のアプリが2日間使えなくても、給与を支払い、請求書を発行し、顧客に対応できるか。多くの中堅企業にとって、答えはおそらくまだ「否」である。</p>",
+        "actionHtml": "<h3>Mekari利用企業へ</h3><ol><li>続報はMekariの公式チャネルのみで確認し、経理・人事部門に、同社がメール、WhatsApp、電話でパスワード、OTP、支払いを求めることはないと周知する。</li><li>アクセス回復後、11月25〜26日の給与データ、銀行明細、会計仕訳を照合し、二重処理や漏れがないか確認する。</li><li>管理者アカウントのパスワードを変更し、Mekariと他システムをつなぐAPI連携やトークンを見直す。</li></ol><h3>CIO・CFO・人事責任者へ</h3><ol><li>最新の給与データ（従業員一覧、口座、金額）をSaaSの外にも定期的に保存し、アプリが使えない場合でも銀行経由で手動支払いができるようにする。</li><li>SaaS契約にインシデント通知、復旧目標、監査権を盛り込み、ベンダーの第三者システムで起きたインシデントの報告義務も含める。</li><li>給与処理を期限当日に設定せず、1〜2営業日の余裕を持たせる。</li></ol><h3>SaaSベンダーへ</h3><ol><li>発生直後から誠実に伝えるインシデント広報のひな型と、確実な続報スケジュールを用意する。</li></ol>",
+        "faqHtml": "<h3>Mekari Talentaで何が起きたのか</h3><p>2026年11月25日にMekari Talentaへのアクセスが不安定になった。Mekariはその後、外部からのサイバー攻撃があったとして、Talenta、Jurnal、Qontak、Sign、Flexへのアクセスを一時制限した。</p><h3>Mekari Talenta利用企業の給与は支払われたのか</h3><p>Mekari Talentaによると、11月25日予定の振込は26日より前に着金し、影響を受けた振込は自動的に再処理される。</p><h3>Mekariの顧客データは流出したのか</h3><p>現時点で情報はない。Mekariは顧客データの流出の有無を明らかにしていない。</p>",
+        "dataFigure": "5サービス",
+        "dataLabel": "サイバー攻撃後にアクセスが一時制限されたMekariのサービス数",
+        "dataSource": "Mekari（Katadata経由）、2026年11月26日",
+        "seoTitle": "Mekariにサイバー攻撃、5サービス制限・給与に影響",
+        "seoDescription": "Mekariは2026年11月25日のサイバー攻撃を確認し、Talenta、Jurnal等5サービスを制限。CIO・CFO・人事が取るべき対応を解説。",
+        "audience": [
+          "CIO",
+          "CFO",
+          "人事責任者",
+          "SaaSベンダー"
+        ],
+        "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/mekari-serangan-siber-5-layanan-dibatasi-talenta-pembayaran-gaji-ja.png"
+      },
+      "heroImage": "https://raw.githubusercontent.com/yuiichirosasaki-afk/b2btechasia-review-content/main/images/mekari-serangan-siber-5-layanan-dibatasi-talenta-pembayaran-gaji.png"
+    },
     {
       "slug": "komdigi-67578-konten-penipuan-blokir-nomor-24-jam-telesales",
       "title": "Komdigi Tangani 67.578 Konten Penipuan, Operator Wajib Blokir Nomor dalam 1x24 Jam: Yang Perlu Dicermati Tim Telesales",
